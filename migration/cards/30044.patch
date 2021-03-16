@@ -1,0 +1,39 @@
+--- na/30044	2017-03-17 18:39:13.000000000 +0800
++++ jp/30044	2017-03-17 18:39:13.000000000 +0800
+@@ -76,6 +76,15 @@
+             "verbCode": "ATTACK"
+         },
+         "art2": {
++            "artId": 330301206,
++            "effectCode": "DEFENSE",
++            "effectValue": 413,
++            "enableTurn": 3,
++            "growPoint": 25,
++            "targetId": "ALL",
++            "verbCode": "BUFF"
++        },
++        "art3": {
+             "artId": 610207600,
+             "effectCode": "PROVOKE",
+             "enableTurn": 1,
+@@ -84,7 +93,7 @@
+             "targetId": "SELF",
+             "verbCode": "CONDITION_GOOD"
+         },
+-        "art3": {
++        "art4": {
+             "artId": 610207400,
+             "effectCode": "GUTS",
+             "enableTurn": 1,
+@@ -94,8 +103,9 @@
+             "verbCode": "CONDITION_GOOD"
+         },
+         "artId1": 100300105,
+-        "artId2": 610207600,
+-        "artId3": 610207400,
++        "artId2": 330301206,
++        "artId3": 610207600,
++        "artId4": 610207400,
+         "groupId": 1014,
+         "id": 30044,
+     },

@@ -1,0 +1,64 @@
+--- na/30494	2017-03-17 18:39:13.000000000 +0800
++++ jp/30494	2017-03-17 18:39:13.000000000 +0800
+@@ -69,8 +69,9 @@
+     "cardId": 30494,
+     "cardMagia": {
+         "art1": {
+-            "artId": 100000105,
+-            "effectValue": 6800,
++            "artId": 100000205,
++            "effectCode": "ALIGNMENT",
++            "effectValue": 8640,
+             "growPoint": 100,
+             "targetId": "TARGET",
+             "verbCode": "ATTACK"
+@@ -91,7 +92,7 @@
+             "targetId": "SELF",
+             "verbCode": "REVOKE"
+         },
+-        "artId1": 100000105,
++        "artId1": 100000205,
+         "artId2": 330201505,
+         "artId3": 200200800,
+         "groupId": 1012,
+@@ -99,24 +100,34 @@
+     },
+     "cardSkill": {
+         "art1": {
+-            "artId": 310401106,
++            "artId": 330401507,
++            "effectCode": "RESIST",
++            "effectValue": 350,
++            "enableTurn": 3,
++            "growPoint": 25,
++            "targetId": "CONNECT",
++            "verbCode": "BUFF"
++        },
++        "art2": {
++            "artId": 310401107,
+             "effectCode": "ATTACK",
+-            "effectValue": 325,
++            "effectValue": 350,
+             "enableTurn": 1,
+             "growPoint": 25,
+             "targetId": "CONNECT",
+             "verbCode": "BUFF"
+         },
+-        "art2": {
++        "art3": {
+             "artId": 200400800,
+             "effectCode": "DEBUFF",
+             "growPoint": 0,
+             "targetId": "CONNECT",
+             "verbCode": "REVOKE"
+         },
+-        "artId1": 310401106,
+-        "artId2": 200400800,
+-        "groupId": 1085,
++        "artId1": 330401507,
++        "artId2": 310401107,
++        "artId3": 200400800,
++        "groupId": 1089,
+         "id": 30494,
+     },
+     "charaNo": 3049,

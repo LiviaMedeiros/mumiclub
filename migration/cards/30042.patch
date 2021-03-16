@@ -1,0 +1,39 @@
+--- na/30042	2017-03-17 18:39:13.000000000 +0800
++++ jp/30042	2017-03-17 18:39:13.000000000 +0800
+@@ -77,6 +77,15 @@
+             "verbCode": "ATTACK"
+         },
+         "art2": {
++            "artId": 330301202,
++            "effectCode": "DEFENSE",
++            "effectValue": 263,
++            "enableTurn": 3,
++            "growPoint": 25,
++            "targetId": "ALL",
++            "verbCode": "BUFF"
++        },
++        "art3": {
+             "artId": 610207600,
+             "effectCode": "PROVOKE",
+             "enableTurn": 1,
+@@ -85,18 +94,9 @@
+             "targetId": "SELF",
+             "verbCode": "CONDITION_GOOD"
+         },
+-        "art3": {
+-            "artId": 310201202,
+-            "effectCode": "DEFENSE",
+-            "effectValue": 150,
+-            "enableTurn": 1,
+-            "growPoint": 25,
+-            "targetId": "SELF",
+-            "verbCode": "BUFF"
+-        },
+         "artId1": 100300101,
+-        "artId2": 610207600,
+-        "artId3": 310201202,
++        "artId2": 330301202,
++        "artId3": 610207600,
+         "groupId": 1014,
+         "id": 30042,
+     },

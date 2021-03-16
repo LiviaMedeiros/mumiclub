@@ -1,0 +1,159 @@
+--- na/30524	2017-03-17 18:39:13.000000000 +0800
++++ jp/30524	2017-03-17 18:39:13.000000000 +0800
+@@ -1,5 +1,5 @@
+ {
+-    "attack": 1963,
++    "attack": 2265,
+     "attributeId": "DARK",
+     "cardCustomize": {
+         "bonusCode1": "ATTACK",
+@@ -8,9 +8,9 @@
+         "bonusCode4": "ACCEL",
+         "bonusCode5": "BLAST",
+         "bonusCode6": "CHARGE",
+-        "bonusNum1": 60,
+-        "bonusNum2": 60,
+-        "bonusNum3": 60,
++        "bonusNum1": 80,
++        "bonusNum2": 40,
++        "bonusNum3": 50,
+         "bonusNum4": 40,
+         "bonusNum5": 80,
+         "bonusNum6": 40,
+@@ -36,35 +36,35 @@
+             "rankGift": "RANK_3"
+         },
+         "gift4": {
+-            "id": 502,
++            "id": 553,
+             "price": 5000,
+             "rank": 3,
+             "rankGift": "RANK_3"
+         },
+         "gift5": {
+-            "id": 403,
+-            "price": 3000,
+-            "rank": 2,
+-            "rankGift": "RANK_2"
++            "id": 554,
++            "price": 5000,
++            "rank": 3,
++            "rankGift": "RANK_3"
+         },
+         "gift6": {
+-            "id": 401,
++            "id": 301,
+             "price": 1000,
+-            "rank": 2,
+-            "rankGift": "RANK_2"
++            "rank": 1,
++            "rankGift": "RANK_1"
+         },
+         "giftId1": 551,
+         "giftId2": 152,
+         "giftId3": 153,
+-        "giftId4": 502,
+-        "giftId5": 403,
+-        "giftId6": 401,
++        "giftId4": 553,
++        "giftId5": 554,
++        "giftId6": 301,
+         "giftNum1": 3,
+         "giftNum2": 12,
+         "giftNum3": 6,
+-        "giftNum4": 6,
+-        "giftNum5": 8,
+-        "giftNum6": 12
++        "giftNum4": 8,
++        "giftNum5": 6,
++        "giftNum6": 2
+     },
+     "cardId": 30524,
+     "cardMagia": {
+@@ -76,9 +76,8 @@
+             "verbCode": "ATTACK"
+         },
+         "art2": {
+-            "artId": 510304600,
+-            "effectCode": "POISON",
+-            "effectValue": 50,
++            "artId": 510304000,
++            "effectCode": "CHARM",
+             "enableTurn": 1,
+             "growPoint": 0,
+             "probability": 1000,
+@@ -86,18 +85,27 @@
+             "verbCode": "CONDITION_BAD"
+         },
+         "art3": {
+-            "artId": 510305600,
+-            "effectCode": "BLINDNESS",
+-            "effectValue": 500,
+-            "enableTurn": 1,
++            "artId": 330201806,
++            "effectCode": "BLAST",
++            "effectValue": 400,
++            "enableTurn": 3,
++            "growPoint": 25,
++            "targetId": "SELF",
++            "verbCode": "BUFF"
++        },
++        "art4": {
++            "artId": 630216515,
++            "effectCode": "DAMAGE_DOWN",
++            "enableTurn": 3,
+             "growPoint": 0,
+             "probability": 1000,
+-            "targetId": "ALL",
+-            "verbCode": "CONDITION_BAD"
++            "targetId": "SELF",
++            "verbCode": "IGNORE"
+         },
+         "artId1": 100300106,
+-        "artId2": 510304600,
+-        "artId3": 510305600,
++        "artId2": 510304000,
++        "artId3": 330201806,
++        "artId4": 630216515,
+         "groupId": 1014,
+         "id": 30524,
+     },
+@@ -121,9 +129,8 @@
+             "verbCode": "BUFF"
+         },
+         "art3": {
+-            "artId": 610411100,
+-            "effectCode": "BLINDNESS",
+-            "effectValue": 500,
++            "artId": 610409500,
++            "effectCode": "CHARM",
+             "enableTurn": 1,
+             "growPoint": 0,
+             "probability": 1000,
+@@ -132,19 +139,19 @@
+         },
+         "artId1": 310401807,
+         "artId2": 310401107,
+-        "artId3": 610411100,
++        "artId3": 610409500,
+         "groupId": 1092,
+         "id": 30524,
+     },
+     "charaNo": 3052,
+     "commandType1": "MPUP",
+-    "commandType2": "RANGE_H",
+-    "commandType3": "RANGE_H",
+-    "commandType4": "RANGE_V",
+-    "commandType5": "RANGE_V",
+-    "defense": 1822,
++    "commandType2": "RANGE_V",
++    "commandType3": "RANGE_V",
++    "commandType4": "RANGE_H",
++    "commandType5": "RANGE_H",
++    "defense": 1901,
+     "growthType": "BALANCE",
+-    "hp": 6028,
++    "hp": 6211,
+     "initialType": "ATTACK",
+     "magiaCharaNo": 305200,
+     "magiaId": 30524,

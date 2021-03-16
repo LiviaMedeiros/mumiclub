@@ -1,0 +1,51 @@
+--- na/30304	2017-03-17 18:39:13.000000000 +0800
++++ jp/30304	2017-03-17 18:39:13.000000000 +0800
+@@ -70,7 +70,7 @@
+     "cardMagia": {
+         "art1": {
+             "artId": 100600104,
+-            "effectValue": 5100,
++            "effectValue": 5340,
+             "growPoint": 100,
+             "targetId": "HORIZONTAL",
+             "verbCode": "ATTACK"
+@@ -100,6 +100,16 @@
+     },
+     "cardSkill": {
+         "art1": {
++            "artId": 630407707,
++            "effectCode": "AUTO_HEAL",
++            "effectValue": 80,
++            "enableTurn": 3,
++            "growPoint": 10,
++            "probability": 1000,
++            "targetId": "CONNECT",
++            "verbCode": "CONDITION_GOOD"
++        },
++        "art2": {
+             "artId": 610410700,
+             "effectCode": "FOG",
+             "effectValue": 250,
+@@ -109,7 +119,7 @@
+             "targetId": "CONNECT",
+             "verbCode": "ENCHANT"
+         },
+-        "art2": {
++        "art3": {
+             "artId": 610410100,
+             "effectCode": "POISON",
+             "effectValue": 50,
+@@ -119,9 +129,10 @@
+             "targetId": "CONNECT",
+             "verbCode": "ENCHANT"
+         },
+-        "artId1": 610410700,
+-        "artId2": 610410100,
+-        "groupId": 1151,
++        "artId1": 630407707,
++        "artId2": 610410700,
++        "artId3": 610410100,
++        "groupId": 1129,
+         "id": 30304,
+     },
+     "charaNo": 3030,

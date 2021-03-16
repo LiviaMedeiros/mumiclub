@@ -1,0 +1,222 @@
+--- na/30525	2017-03-17 18:39:13.000000000 +0800
++++ jp/30525	2017-03-17 18:39:13.000000000 +0800
+@@ -1,5 +1,5 @@
+ {
+-    "attack": 2292,
++    "attack": 2504,
+     "attributeId": "DARK",
+     "cardCustomize": {
+         "bonusCode1": "ATTACK",
+@@ -8,9 +8,9 @@
+         "bonusCode4": "ACCEL",
+         "bonusCode5": "BLAST",
+         "bonusCode6": "CHARGE",
+-        "bonusNum1": 70,
+-        "bonusNum2": 70,
+-        "bonusNum3": 70,
++        "bonusNum1": 90,
++        "bonusNum2": 50,
++        "bonusNum3": 60,
+         "bonusNum4": 50,
+         "bonusNum5": 90,
+         "bonusNum6": 50,
+@@ -36,19 +36,19 @@
+             "rankGift": "RANK_3"
+         },
+         "gift4": {
+-            "id": 553,
++            "id": 557,
+             "price": 5000,
+             "rank": 3,
+             "rankGift": "RANK_3"
+         },
+         "gift5": {
+-            "id": 503,
+-            "price": 5000,
+-            "rank": 3,
+-            "rankGift": "RANK_3"
++            "id": 304,
++            "price": 1000,
++            "rank": 1,
++            "rankGift": "RANK_1"
+         },
+         "gift6": {
+-            "id": 306,
++            "id": 305,
+             "price": 1000,
+             "rank": 1,
+             "rankGift": "RANK_1"
+@@ -56,15 +56,15 @@
+         "giftId1": 551,
+         "giftId2": 152,
+         "giftId3": 153,
+-        "giftId4": 553,
+-        "giftId5": 503,
+-        "giftId6": 306,
++        "giftId4": 557,
++        "giftId5": 304,
++        "giftId6": 305,
+         "giftNum1": 3,
+         "giftNum2": 15,
+         "giftNum3": 10,
+-        "giftNum4": 8,
+-        "giftNum5": 10,
+-        "giftNum6": 15
++        "giftNum4": 10,
++        "giftNum5": 8,
++        "giftNum6": 3
+     },
+     "cardId": 30525,
+     "cardMagia": {
+@@ -76,28 +76,36 @@
+             "verbCode": "ATTACK"
+         },
+         "art2": {
+-            "artId": 9379,
+-            "effectCode": "POISON",
+-            "effectValue": 50,
+-            "enableTurn": 2,
++            "artId": 510304000,
++            "effectCode": "CHARM",
++            "enableTurn": 1,
+             "growPoint": 0,
+             "probability": 1000,
+             "targetId": "ALL",
+             "verbCode": "CONDITION_BAD"
+         },
+         "art3": {
+-            "artId": 9356,
+-            "effectCode": "BLINDNESS",
++            "artId": 330201808,
++            "effectCode": "BLAST",
+             "effectValue": 500,
+-            "enableTurn": 2,
++            "enableTurn": 3,
++            "growPoint": 25,
++            "targetId": "SELF",
++            "verbCode": "BUFF"
++        },
++        "art4": {
++            "artId": 630216515,
++            "effectCode": "DAMAGE_DOWN",
++            "enableTurn": 3,
+             "growPoint": 0,
+             "probability": 1000,
+-            "targetId": "ALL",
+-            "verbCode": "CONDITION_BAD"
++            "targetId": "SELF",
++            "verbCode": "IGNORE"
+         },
+         "artId1": 100300108,
+-        "artId2": 9379,
+-        "artId3": 9356,
++        "artId2": 510304000,
++        "artId3": 330201808,
++        "artId4": 630216515,
+         "groupId": 1014,
+         "id": 30525,
+     },
+@@ -121,9 +129,8 @@
+             "verbCode": "BUFF"
+         },
+         "art3": {
+-            "artId": 610411100,
+-            "effectCode": "BLINDNESS",
+-            "effectValue": 500,
++            "artId": 610409500,
++            "effectCode": "CHARM",
+             "enableTurn": 1,
+             "growPoint": 0,
+             "probability": 1000,
+@@ -132,16 +139,16 @@
+         },
+         "artId1": 310401809,
+         "artId2": 310401109,
+-        "artId3": 610411100,
++        "artId3": 610409500,
+         "groupId": 1092,
+         "id": 30525,
+     },
+     "charaNo": 3052,
+     "commandType1": "MPUP",
+-    "commandType2": "RANGE_H",
+-    "commandType3": "RANGE_H",
+-    "commandType4": "RANGE_V",
+-    "commandType5": "RANGE_V",
++    "commandType2": "RANGE_V",
++    "commandType3": "RANGE_V",
++    "commandType4": "RANGE_H",
++    "commandType5": "RANGE_H",
+     "defense": 2127,
+     "doppel": {
+         "archive": true,
+@@ -149,35 +156,54 @@
+     },
+     "doppelCardMagia": {
+         "art1": {
+-            "artId": 100300110,
+-            "effectValue": 3900,
+-            "growPoint": 100,
++            "artId": 190305281,
++            "effectValue": 8360,
++            "growPoint": 220,
+             "targetId": "ALL",
+             "verbCode": "ATTACK"
+         },
+         "art2": {
+-            "artId": 530304600,
+-            "effectCode": "POISON",
+-            "effectValue": 50,
+-            "enableTurn": 3,
++            "artId": 510304000,
++            "effectCode": "CHARM",
++            "enableTurn": 1,
+             "growPoint": 0,
+             "probability": 1000,
+             "targetId": "ALL",
+             "verbCode": "CONDITION_BAD"
+         },
+         "art3": {
+-            "artId": 530305600,
+-            "effectCode": "BLINDNESS",
+-            "effectValue": 500,
++            "artId": 350301809,
++            "effectCode": "BLAST",
++            "effectValue": 550,
++            "enableTurn": 5,
++            "growPoint": 25,
++            "targetId": "ALL",
++            "verbCode": "BUFF"
++        },
++        "art4": {
++            "artId": 650216515,
++            "effectCode": "DAMAGE_DOWN",
++            "enableTurn": 5,
++            "growPoint": 0,
++            "probability": 1000,
++            "targetId": "SELF",
++            "verbCode": "IGNORE"
++        },
++        "art5": {
++            "artId": 630220005,
++            "effectCode": "MP_PLUS_BLAST",
++            "effectValue": 50,
+             "enableTurn": 3,
+             "growPoint": 0,
+             "probability": 1000,
+-            "targetId": "ALL",
+-            "verbCode": "CONDITION_BAD"
++            "targetId": "SELF",
++            "verbCode": "CONDITION_GOOD"
+         },
+-        "artId1": 100300110,
+-        "artId2": 530304600,
+-        "artId3": 530305600,
++        "artId1": 190305281,
++        "artId2": 510304000,
++        "artId3": 350301809,
++        "artId4": 650216515,
++        "artId5": 630220005,
+         "groupId": 1014,
+         "id": 30528,
+     },

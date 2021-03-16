@@ -1,0 +1,83 @@
+--- na/30495	2017-03-17 18:39:13.000000000 +0800
++++ jp/30495	2017-03-17 18:39:13.000000000 +0800
+@@ -69,8 +69,9 @@
+     "cardId": 30495,
+     "cardMagia": {
+         "art1": {
+-            "artId": 100000107,
+-            "effectValue": 7200,
++            "artId": 100000207,
++            "effectCode": "ALIGNMENT",
++            "effectValue": 9280,
+             "growPoint": 100,
+             "targetId": "TARGET",
+             "verbCode": "ATTACK"
+@@ -85,38 +86,48 @@
+             "verbCode": "BUFF"
+         },
+         "art3": {
+-            "artId": 200200800,
++            "artId": 200300800,
+             "effectCode": "DEBUFF",
+             "growPoint": 0,
+-            "targetId": "SELF",
++            "targetId": "ALL",
+             "verbCode": "REVOKE"
+         },
+-        "artId1": 100000107,
++        "artId1": 100000207,
+         "artId2": 330301507,
+-        "artId3": 200200800,
++        "artId3": 200300800,
+         "groupId": 1012,
+         "id": 30495,
+     },
+     "cardSkill": {
+         "art1": {
+-            "artId": 310401108,
++            "artId": 330401509,
++            "effectCode": "RESIST",
++            "effectValue": 400,
++            "enableTurn": 3,
++            "growPoint": 25,
++            "targetId": "CONNECT",
++            "verbCode": "BUFF"
++        },
++        "art2": {
++            "artId": 310401109,
+             "effectCode": "ATTACK",
+-            "effectValue": 375,
++            "effectValue": 400,
+             "enableTurn": 1,
+             "growPoint": 25,
+             "targetId": "CONNECT",
+             "verbCode": "BUFF"
+         },
+-        "art2": {
++        "art3": {
+             "artId": 200400800,
+             "effectCode": "DEBUFF",
+             "growPoint": 0,
+             "targetId": "CONNECT",
+             "verbCode": "REVOKE"
+         },
+-        "artId1": 310401108,
+-        "artId2": 200400800,
+-        "groupId": 1085,
++        "artId1": 330401509,
++        "artId2": 310401109,
++        "artId3": 200400800,
++        "groupId": 1089,
+         "id": 30495,
+     },
+     "charaNo": 3049,
+@@ -133,7 +144,8 @@
+     "doppelCardMagia": {
+         "art1": {
+             "artId": 190304981,
+-            "effectValue": 16720,
++            "effectCode": "ALIGNMENT",
++            "effectValue": 21824,
+             "growPoint": 220,
+             "targetId": "TARGET",
+             "verbCode": "ATTACK"
