@@ -1,0 +1,631 @@
+{
+    "npcHelpId": 109,
+    "userCardList": [
+        {
+            "cardId": 10052,
+            "displayCardId": 10052,
+            "revision": 3,
+            "attack": 3611,
+            "defense": 2716,
+            "hp": 8744,
+            "level": 40,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10052,
+                "charaNo": 1005,
+                "miniCharaNo": 100500,
+                "magiaCharaNo": 100500,
+                "cardName": "深月 フェリシア",
+                "rank": "RANK_2",
+                "attributeId": "DARK",
+                "initialType": "ATTACK",
+                "growthType": "ATKHP",
+                "attack": 1305,
+                "defense": 994,
+                "hp": 3140,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 10052,
+                "cardMagia": {
+                    "id": 10052,
+                    "groupId": 1012,
+                    "name": "ウルトラグレートビッグハンマー",
+                    "shortDescription": "敵単体にダメージ[Ⅰ] & 防御力DOWN(敵単/3T)",
+                    "artId1": 100000101,
+                    "art1": {
+                        "artId": 100000101,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 9600,
+                        "growPoint": 100
+                    },
+                    "artId2": 430002101,
+                    "art2": {
+                        "artId": 430002101,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "TARGET",
+                        "effectValue": 50,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "skillId": 10052,
+                "cardSkill": {
+                    "id": 10052,
+                    "groupId": 1087,
+                    "name": "ガツンと任せとけって！",
+                    "shortDescription": "与えるダメージUP[Ⅲ] & 必ずカウンター無効",
+                    "artId1": 310401303,
+                    "art1": {
+                        "artId": 310401303,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610408200,
+                    "art2": {
+                        "artId": 610408200,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_V",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "蒼樹うめ",
+                "cardCustomize": {
+                    "cardId": 10052,
+                    "giftId1": 153,
+                    "gift1": {
+                        "id": 153,
+                        "type": 1,
+                        "name": "ダークオーブ＋＋",
+                        "attributeId": "DARK",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum1": 2,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 151,
+                    "gift2": {
+                        "id": 151,
+                        "type": 1,
+                        "name": "ダークオーブ",
+                        "attributeId": "DARK",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 500
+                    },
+                    "giftNum2": 6,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 20,
+                    "giftId3": 152,
+                    "gift3": {
+                        "id": 152,
+                        "type": 1,
+                        "name": "ダークオーブ＋",
+                        "attributeId": "DARK",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum3": 4,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 30,
+                    "giftId4": 302,
+                    "gift4": {
+                        "id": 302,
+                        "type": 2,
+                        "name": "鏡の招待状",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum4": 5,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 20,
+                    "giftId5": 403,
+                    "gift5": {
+                        "id": 403,
+                        "type": 2,
+                        "name": "絵馬の水引",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum5": 3,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 40,
+                    "giftId6": 502,
+                    "gift6": {
+                        "id": 502,
+                        "type": 2,
+                        "name": "階段のモニュメント",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 1,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 40
+                }
+            },
+            "npcHelpId": 109,
+            "npcPieceId1": 1104
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1005,
+            "chara": {
+                "id": 1005,
+                "name": "深月 フェリシア",
+                "kana": "みつき ふぇりしあ",
+                "attributeId": "DARK",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "ATKHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 10052,
+                "defaultCard": {
+                    "cardId": 10052,
+                    "rank": "RANK_2",
+                    "attributeId": "DARK",
+                    "initialType": "ATTACK",
+                    "growthType": "ATKHP",
+                    "attack": 1305,
+                    "defense": 994,
+                    "hp": 3140,
+                    "miniCharaNo": 100500,
+                    "charaNo": 1005,
+                    "cardName": "深月 フェリシア",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10052,
+                        "groupId": 1012,
+                        "name": "ウルトラグレートビッグハンマー",
+                        "shortDescription": "敵単体にダメージ[Ⅰ] & 防御力DOWN(敵単/3T)",
+                        "artId1": 100000101,
+                        "art1": {
+                            "artId": 100000101,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 9600,
+                            "growPoint": 100
+                        },
+                        "artId2": 430002101,
+                        "art2": {
+                            "artId": 430002101,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 50,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10052,
+                        "groupId": 1087,
+                        "name": "ガツンと任せとけって！",
+                        "shortDescription": "与えるダメージUP[Ⅲ] & 必ずカウンター無効",
+                        "artId1": 310401303,
+                        "art1": {
+                            "artId": 310401303,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610408200,
+                        "art2": {
+                            "artId": 610408200,
+                            "verbCode": "IGNORE",
+                            "effectCode": "COUNTER",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10053,
+                "evolutionCard1": {
+                    "cardId": 10053,
+                    "rank": "RANK_3",
+                    "attributeId": "DARK",
+                    "initialType": "ATTACK",
+                    "growthType": "ATKHP",
+                    "attack": 1556,
+                    "defense": 1186,
+                    "hp": 3745,
+                    "miniCharaNo": 100500,
+                    "charaNo": 1005,
+                    "cardName": "深月 フェリシア",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10053,
+                        "groupId": 1012,
+                        "name": "ウルトラグレートビッグハンマー",
+                        "shortDescription": "敵単体にダメージ[Ⅲ] & 防御力DOWN(敵単/3T)",
+                        "artId1": 100000103,
+                        "art1": {
+                            "artId": 100000103,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10240,
+                            "growPoint": 100
+                        },
+                        "artId2": 430002103,
+                        "art2": {
+                            "artId": 430002103,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10053,
+                        "groupId": 1087,
+                        "name": "ガツンと任せとけって！",
+                        "shortDescription": "与えるダメージUP[Ⅴ] & 必ずカウンター無効",
+                        "artId1": 310401305,
+                        "art1": {
+                            "artId": 310401305,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610408200,
+                        "art2": {
+                            "artId": 610408200,
+                            "verbCode": "IGNORE",
+                            "effectCode": "COUNTER",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 10054,
+                "evolutionCard2": {
+                    "cardId": 10054,
+                    "rank": "RANK_4",
+                    "attributeId": "DARK",
+                    "initialType": "ATTACK",
+                    "growthType": "ATKHP",
+                    "attack": 1934,
+                    "defense": 1474,
+                    "hp": 4654,
+                    "miniCharaNo": 100500,
+                    "charaNo": 1005,
+                    "cardName": "深月 フェリシア",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10054,
+                        "groupId": 1012,
+                        "name": "ウルトラグレートビッグハンマー",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & 防御力DOWN & さらに防御力DOWN(敵単/3T)",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 430002105,
+                        "art2": {
+                            "artId": 430002105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430002105,
+                        "art3": {
+                            "artId": 430002105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10054,
+                        "groupId": 1087,
+                        "name": "ガツンと任せとけって！",
+                        "shortDescription": "与えるダメージUP[Ⅶ] & 必ずカウンター無効",
+                        "artId1": 310401307,
+                        "art1": {
+                            "artId": 310401307,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610408200,
+                        "art2": {
+                            "artId": 610408200,
+                            "verbCode": "IGNORE",
+                            "effectCode": "COUNTER",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId3": 10055,
+                "evolutionCard3": {
+                    "cardId": 10055,
+                    "rank": "RANK_5",
+                    "attributeId": "DARK",
+                    "initialType": "ATTACK",
+                    "growthType": "ATKHP",
+                    "attack": 2159,
+                    "defense": 1645,
+                    "hp": 5194,
+                    "miniCharaNo": 100501,
+                    "charaNo": 1005,
+                    "cardName": "深月 フェリシア",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10055,
+                        "groupId": 1012,
+                        "name": "ウルトラグレートビッグハンマー",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & 防御力DOWN & さらに防御力DOWN(敵単/3T) & 確率で拘束(敵単/1T)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 430002105,
+                        "art2": {
+                            "artId": 430002105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430002105,
+                        "art3": {
+                            "artId": 430002105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 510004307,
+                        "art4": {
+                            "artId": 510004307,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "TARGET",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 450
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10055,
+                        "groupId": 1087,
+                        "name": "ガツンと任せとけって！",
+                        "shortDescription": "与えるダメージUP[Ⅸ] & 必ずカウンター無効",
+                        "artId1": 310401309,
+                        "art1": {
+                            "artId": 310401309,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610408200,
+                        "art2": {
+                            "artId": 610408200,
+                            "verbCode": "IGNORE",
+                            "effectCode": "COUNTER",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "元気で勝気で自由気ままな魔法少女。＠魔女を両親の仇として心底憎んでおり、＠そのため「傭兵」を生業として、神浜の各地で＠魔女との戦いを繰り広げている。＠ワイルドな口調はバトル系少年漫画の影響。＠ただ、心根は優しく動物が大好き。",
+                "school": "中央学園",
+                "designer": "蒼樹うめ",
+                "voiceActor": "佐倉綾音",
+                "openDate": "2017/09/04 15:10:00",
+                "enhancementGroupId": 44
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "4047f8b1-a5c5-43d9-b62d-7c5b560dc7bb",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 100500,
+            "npcHelpId": 109,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1104,
+            "piece": {
+                "pieceId": 1104,
+                "pieceType": "SKILL",
+                "pieceName": "牧場の思い出",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1005",
+                "charaList": [
+                    {
+                        "charaId": 1005,
+                        "name": "深月 フェリシア"
+                    }
+                ],
+                "attack": 0,
+                "defense": 427,
+                "hp": 507,
+                "skillId": 110410,
+                "pieceSkill": {
+                    "id": 110410,
+                    "groupId": 1135,
+                    "name": "リジェクト・カウンター",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "必ずカウンター無効(敵単/3T) & 攻撃力UP[Ⅷ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 630208200,
+                    "art1": {
+                        "artId": 630208200,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "SELF",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId2": 310201108,
+                    "art2": {
+                        "artId": 310201108,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 110411,
+                "pieceSkill2": {
+                    "id": 110411,
+                    "groupId": 1135,
+                    "name": "リジェクト・カウンター",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "必ずカウンター無効(敵単/3T) & 攻撃力UP[Ⅸ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 630208200,
+                    "art1": {
+                        "artId": 630208200,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "SELF",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId2": 310201109,
+                    "art2": {
+                        "artId": 310201109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 450,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "家族で牧場に遊びに行った日は、正に奇跡の一日だった＠両親は一言も喧嘩をすることもなく、ずっと家族で笑い合い＠おやすみのキスをもらうときは、眠るのが惜しかった＠だからこの子は幸せの証。世界で一番の家族だったときの証だ",
+                "illustrator": "都筑禰己",
+                "openDate": "2017/09/04 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 427,
+            "hp": 507,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 109
+        }
+    ],
+    "isNpc": true,
+    "userName": "深月 フェリシア",
+    "userRank": 40,
+    "cardId": 10052,
+    "charaName": "深月 フェリシア",
+    "cardRank": "RANK_2",
+    "attributeId": "DARK",
+    "level": 40,
+    "displayCardId": 10052,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

@@ -1,0 +1,721 @@
+{
+    "npcHelpId": 207,
+    "userCardList": [
+        {
+            "cardId": 30285,
+            "displayCardId": 30285,
+            "revision": 3,
+            "attack": 8556,
+            "defense": 6712,
+            "hp": 20780,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30285,
+                "charaNo": 3028,
+                "miniCharaNo": 302801,
+                "magiaCharaNo": 302800,
+                "cardName": "三栗 あやめ",
+                "rank": "RANK_5",
+                "attributeId": "FIRE",
+                "initialType": "ATTACK",
+                "growthType": "BALANCE",
+                "attack": 2139,
+                "defense": 1678,
+                "hp": 5195,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 30285,
+                "cardMagia": {
+                    "id": 30285,
+                    "groupId": 1012,
+                    "name": "未確認飛行ファイヤー",
+                    "shortDescription": "敵単体にダメージ[Ⅶ] & 必ずやけど(敵単/3T) & 攻撃力UP(味全/3T) & 確率で防御無視(自/2T)",
+                    "artId1": 100000107,
+                    "art1": {
+                        "artId": 100000107,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11520,
+                        "growPoint": 100
+                    },
+                    "artId2": 530004800,
+                    "art2": {
+                        "artId": 530004800,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BURN",
+                        "targetId": "TARGET",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 330301107,
+                    "art3": {
+                        "artId": 330301107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 620206614,
+                    "art4": {
+                        "artId": 620206614,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "SELF",
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 750
+                    }
+                },
+                "doppelMagiaId": 30288,
+                "doppelCardMagia": {
+                    "id": 30288,
+                    "groupId": 1012,
+                    "name": "突貫のドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅸ] & 必ずやけど(敵単/3T) & 攻撃力UP(味全/3T) & 必ず防御無視(自/2T)",
+                    "artId1": 190302881,
+                    "art1": {
+                        "artId": 190302881,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 26752,
+                        "growPoint": 220
+                    },
+                    "artId2": 530004800,
+                    "art2": {
+                        "artId": 530004800,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BURN",
+                        "targetId": "TARGET",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 330301109,
+                    "art3": {
+                        "artId": 330301109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 620206700,
+                    "art4": {
+                        "artId": 620206700,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "SELF",
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "doppelCharaNo": 302800,
+                "doppel": {
+                    "id": 302800,
+                    "name": "突貫のドッペル",
+                    "title": "その姿は、引き金",
+                    "description": "このドッペルは突貫の写し。この感情の主は恨みある者達目がけて確実に突貫する。このドッペルは三つ首狐拳のドッペルのひとりで力に長け、あらゆる魔法をねじ伏せる。ひとたびこのドッペルの引き金が引かれれば、相手へ命中するか主が力尽きるまで執念深く追い回すことになるが、一心不乱になり過ぎるせいでたとえ主であろうとも二度目の命令は受けつけず、周囲への被害なども一切考慮されないため、呼び出す際には注意が必要。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2021/04/30 15:10:00"
+                },
+                "skillId": 30285,
+                "cardSkill": {
+                    "id": 30285,
+                    "groupId": 1214,
+                    "name": "あちしの力、見せてやんよ！",
+                    "shortDescription": "ChargeディスクダメージUP[Ⅸ] & Charge後ダメージUP[Ⅶ] & 必ずやけど",
+                    "artId1": 310418009,
+                    "art1": {
+                        "artId": 310418009,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGING",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 0
+                    },
+                    "artId2": 310401707,
+                    "art2": {
+                        "artId": 310401707,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610410300,
+                    "art3": {
+                        "artId": 610410300,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "BURN",
+                        "targetId": "CONNECT",
+                        "effectValue": 100,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_V",
+                "commandType3": "CHARGE",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "ゆーげん",
+                "cardCustomize": {
+                    "cardId": 30285,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 112,
+                    "gift2": {
+                        "id": 112,
+                        "type": 1,
+                        "name": "フレイムオーブ＋",
+                        "attributeId": "FIRE",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 113,
+                    "gift3": {
+                        "id": 113,
+                        "type": 1,
+                        "name": "フレイムオーブ＋＋",
+                        "attributeId": "FIRE",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 301,
+                    "gift4": {
+                        "id": 301,
+                        "type": 2,
+                        "name": "燕尾の羽",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum4": 15,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 504,
+                    "gift5": {
+                        "id": 504,
+                        "type": 2,
+                        "name": "リュトンのリボン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 554,
+                    "gift6": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 207,
+            "npcPieceId1": 1118
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3028,
+            "chara": {
+                "id": 3028,
+                "name": "三栗 あやめ",
+                "kana": "みくり あやめ",
+                "attributeId": "FIRE",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 30282,
+                "defaultCard": {
+                    "cardId": 30282,
+                    "rank": "RANK_2",
+                    "attributeId": "FIRE",
+                    "initialType": "ATTACK",
+                    "growthType": "BALANCE",
+                    "attack": 1300,
+                    "defense": 1006,
+                    "hp": 3122,
+                    "miniCharaNo": 302800,
+                    "charaNo": 3028,
+                    "cardName": "三栗 あやめ",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30282,
+                        "groupId": 1012,
+                        "name": "未確認飛行ファイヤー",
+                        "shortDescription": "敵単体にダメージ[Ⅰ] & 必ずやけど(敵単/1T)",
+                        "artId1": 100000101,
+                        "art1": {
+                            "artId": 100000101,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 9600,
+                            "growPoint": 100
+                        },
+                        "artId2": 510004800,
+                        "art2": {
+                            "artId": 510004800,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "BURN",
+                            "targetId": "TARGET",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30282,
+                        "groupId": 1091,
+                        "name": "あちしの力、見せてやんよ！",
+                        "shortDescription": "Charge後ダメージUP[Ⅲ] & 必ずやけど",
+                        "artId1": 310401703,
+                        "art1": {
+                            "artId": 310401703,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610410300,
+                        "art2": {
+                            "artId": 610410300,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BURN",
+                            "targetId": "CONNECT",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30283,
+                "evolutionCard1": {
+                    "cardId": 30283,
+                    "rank": "RANK_3",
+                    "attributeId": "FIRE",
+                    "initialType": "ATTACK",
+                    "growthType": "BALANCE",
+                    "attack": 1550,
+                    "defense": 1200,
+                    "hp": 3723,
+                    "miniCharaNo": 302800,
+                    "charaNo": 3028,
+                    "cardName": "三栗 あやめ",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30283,
+                        "groupId": 1012,
+                        "name": "未確認飛行ファイヤー",
+                        "shortDescription": "敵単体にダメージ[Ⅲ] & 必ずやけど(敵単/1T)",
+                        "artId1": 100000103,
+                        "art1": {
+                            "artId": 100000103,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10240,
+                            "growPoint": 100
+                        },
+                        "artId2": 510004800,
+                        "art2": {
+                            "artId": 510004800,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "BURN",
+                            "targetId": "TARGET",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30283,
+                        "groupId": 1091,
+                        "name": "あちしの力、見せてやんよ！",
+                        "shortDescription": "Charge後ダメージUP[Ⅴ] & 必ずやけど",
+                        "artId1": 310401705,
+                        "art1": {
+                            "artId": 310401705,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 200,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610410300,
+                        "art2": {
+                            "artId": 610410300,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BURN",
+                            "targetId": "CONNECT",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 30284,
+                "evolutionCard2": {
+                    "cardId": 30284,
+                    "rank": "RANK_4",
+                    "attributeId": "FIRE",
+                    "initialType": "ATTACK",
+                    "growthType": "BALANCE",
+                    "attack": 1925,
+                    "defense": 1491,
+                    "hp": 4627,
+                    "miniCharaNo": 302800,
+                    "charaNo": 3028,
+                    "cardName": "三栗 あやめ",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30284,
+                        "groupId": 1012,
+                        "name": "未確認飛行ファイヤー",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & 必ずやけど(敵単/1T) & 攻撃力UP(味全/3T)",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 510004800,
+                        "art2": {
+                            "artId": 510004800,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "BURN",
+                            "targetId": "TARGET",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 330301105,
+                        "art3": {
+                            "artId": 330301105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30284,
+                        "groupId": 1091,
+                        "name": "あちしの力、見せてやんよ！",
+                        "shortDescription": "Charge後ダメージUP[Ⅶ] & 必ずやけど",
+                        "artId1": 310401707,
+                        "art1": {
+                            "artId": 310401707,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610410300,
+                        "art2": {
+                            "artId": 610410300,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BURN",
+                            "targetId": "CONNECT",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId3": 30285,
+                "evolutionCard3": {
+                    "cardId": 30285,
+                    "rank": "RANK_5",
+                    "attributeId": "FIRE",
+                    "initialType": "ATTACK",
+                    "growthType": "BALANCE",
+                    "attack": 2139,
+                    "defense": 1678,
+                    "hp": 5195,
+                    "miniCharaNo": 302801,
+                    "charaNo": 3028,
+                    "cardName": "三栗 あやめ",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30285,
+                        "groupId": 1012,
+                        "name": "未確認飛行ファイヤー",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & 必ずやけど(敵単/3T) & 攻撃力UP(味全/3T) & 確率で防御無視(自/2T)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 530004800,
+                        "art2": {
+                            "artId": 530004800,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "BURN",
+                            "targetId": "TARGET",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 330301107,
+                        "art3": {
+                            "artId": 330301107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 620206614,
+                        "art4": {
+                            "artId": 620206614,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DEFENSE_IGNORED",
+                            "targetId": "SELF",
+                            "enableTurn": 2,
+                            "growPoint": 0,
+                            "probability": 750
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30285,
+                        "groupId": 1214,
+                        "name": "あちしの力、見せてやんよ！",
+                        "shortDescription": "ChargeディスクダメージUP[Ⅸ] & Charge後ダメージUP[Ⅶ] & 必ずやけど",
+                        "artId1": 310418009,
+                        "art1": {
+                            "artId": 310418009,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGING",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 0
+                        },
+                        "artId2": 310401707,
+                        "art2": {
+                            "artId": 310401707,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610410300,
+                        "art3": {
+                            "artId": 610410300,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BURN",
+                            "targetId": "CONNECT",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "神浜市の施設「つつじの家」出身の魔法少女。＠１歳の頃に捨てられて以来、つつじの家で育つ。＠純粋で真っ直ぐな心の持ち主で、なおかつとても野性的。＠常にアクティブで、何でも向こう見ずに突き進んでしまうためにトラブルも頻繁に巻き起こしてきた。",
+                "school": "参京院教育学園",
+                "designer": "ゆーげん",
+                "voiceActor": "木戸衣吹",
+                "openDate": "2017/10/10 15:10:00",
+                "enhancementGroupId": 124
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "cf85d6df-9642-44b2-b07a-f1860a6480b8",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 302801,
+            "npcHelpId": 207,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [
+        {
+            "doppelId": 302800,
+            "npcHelpId": 207
+        }
+    ],
+    "userPieceList": [
+        {
+            "pieceId": 1118,
+            "piece": {
+                "pieceId": 1118,
+                "pieceType": "SKILL",
+                "pieceName": "あやめコレクション！",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3028",
+                "charaList": [
+                    {
+                        "charaId": 3028,
+                        "name": "三栗 あやめ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 481,
+                "hp": 441,
+                "skillId": 111800,
+                "pieceSkill": {
+                    "id": 111800,
+                    "groupId": 1121,
+                    "name": "クリティカル・ストライク",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "必ずクリティカル(自/1T)",
+                    "artId1": 610206400,
+                    "art1": {
+                        "artId": 610206400,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "SELF",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 111801,
+                "pieceSkill2": {
+                    "id": 111801,
+                    "groupId": 1121,
+                    "name": "クリティカル・ストライク",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "必ずクリティカル(自/1T)",
+                    "artId1": 610206400,
+                    "art1": {
+                        "artId": 610206400,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "SELF",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「見て見て！これ、あちしが見つけてきた宝物だよ！＠これなんて、すごい珍しい宝石で…違うよ！ビー玉じゃないもん！＠これはモンスターが脱皮した…違うよ！セミの抜け殻じゃないもん！＠もう分かってないなぁ～！あちしのコレクションの素晴らしさをさ！」",
+                "illustrator": "絵西",
+                "openDate": "2017/10/10 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 481,
+            "hp": 441,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 207
+        }
+    ],
+    "isNpc": true,
+    "userName": "三栗 あやめ",
+    "userRank": 100,
+    "cardId": 30285,
+    "charaName": "三栗 あやめ",
+    "cardRank": "RANK_5",
+    "attributeId": "FIRE",
+    "level": 100,
+    "displayCardId": 30285,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

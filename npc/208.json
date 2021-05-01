@@ -1,0 +1,540 @@
+{
+    "npcHelpId": 208,
+    "userCardList": [
+        {
+            "cardId": 30265,
+            "displayCardId": 30265,
+            "revision": 3,
+            "attack": 8388,
+            "defense": 8793,
+            "hp": 26940,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30265,
+                "charaNo": 3026,
+                "miniCharaNo": 302600,
+                "magiaCharaNo": 302600,
+                "cardName": "静海 このは",
+                "rank": "RANK_5",
+                "attributeId": "WATER",
+                "initialType": "BALANCE",
+                "growthType": "DEFHP",
+                "attack": 2113,
+                "defense": 2166,
+                "hp": 6685,
+                "rateGainMpAtk": 900,
+                "rateGainMpDef": 900,
+                "magiaId": 30265,
+                "cardMagia": {
+                    "id": 30265,
+                    "groupId": 1014,
+                    "name": "バタフライ・テンペスト",
+                    "shortDescription": "敵全体にダメージ[Ⅵ] & HP自動回復(味全/3T) & 必ずカウンター無効(味全/3T)",
+                    "artId1": 100300106,
+                    "art1": {
+                        "artId": 100300106,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3500,
+                        "growPoint": 100
+                    },
+                    "artId2": 630307707,
+                    "art2": {
+                        "artId": 630307707,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 80,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 630308200,
+                    "art3": {
+                        "artId": 630308200,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "ALL",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "doppelMagiaId": 30268,
+                "doppelCardMagia": {
+                    "id": 30268,
+                    "groupId": 1014,
+                    "name": "報復のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅷ] & HP自動回復(味全/3T) & 必ずカウンター無効(味全/3T)",
+                    "artId1": 190302681,
+                    "art1": {
+                        "artId": 190302681,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 630307709,
+                    "art2": {
+                        "artId": 630307709,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 630308200,
+                    "art3": {
+                        "artId": 630308200,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "ALL",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "doppelCharaNo": 302600,
+                "doppel": {
+                    "id": 302600,
+                    "name": "報復のドッペル",
+                    "title": "その姿は、狐",
+                    "description": "この感情の主は様々な魔力を駆使し恨みある者達へ報復する。＠このドッペルは三つ首狐拳のドッペルのひとりで報復の写し。魔法に長け怪火を操り相手を幻惑する。＠例え水中であっても遺恨ある限りこの怪火が消えることはないだろう。＠ドッペルの出現中、主は理性を失い本能のままに行動しすさまじい跳躍力を発揮する。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2017/10/10 15:10:00"
+                },
+                "skillId": 30265,
+                "cardSkill": {
+                    "id": 30265,
+                    "groupId": 1078,
+                    "name": "私に任せてもらえるかしら",
+                    "shortDescription": "HP回復[Ⅷ]&Accele MPUP[Ⅸ] & 攻撃力UP[Ⅸ]",
+                    "artId1": 200400408,
+                    "art1": {
+                        "artId": 200400408,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 475,
+                        "growPoint": 20
+                    },
+                    "artId2": 310401609,
+                    "art2": {
+                        "artId": 310401609,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 310401109,
+                    "art3": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_H",
+                "commandType5": "CHARGE",
+                "illustrator": "ゆーげん",
+                "cardCustomize": {
+                    "cardId": 30265,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 122,
+                    "gift2": {
+                        "id": 122,
+                        "type": 1,
+                        "name": "アクアオーブ＋",
+                        "attributeId": "WATER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 123,
+                    "gift3": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 504,
+                    "gift4": {
+                        "id": 504,
+                        "type": 2,
+                        "name": "リュトンのリボン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 90,
+                    "giftId5": 554,
+                    "gift5": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 402,
+                    "gift6": {
+                        "id": 402,
+                        "type": 2,
+                        "name": "南京錠の鎖",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 208,
+            "npcPieceId1": 1114
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3026,
+            "chara": {
+                "id": 3026,
+                "name": "静海 このは",
+                "kana": "しずみ このは",
+                "attributeId": "WATER",
+                "attackType": 1,
+                "initialType": "BALANCE",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 30264,
+                "defaultCard": {
+                    "cardId": 30264,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "BALANCE",
+                    "growthType": "DEFHP",
+                    "attack": 1864,
+                    "defense": 1911,
+                    "hp": 5898,
+                    "miniCharaNo": 302600,
+                    "charaNo": 3026,
+                    "cardName": "静海 このは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30264,
+                        "groupId": 1014,
+                        "name": "バタフライ・テンペスト",
+                        "shortDescription": "敵全体にダメージ[Ⅳ] & HP自動回復(味全/3T)",
+                        "artId1": 100300104,
+                        "art1": {
+                            "artId": 100300104,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3300,
+                            "growPoint": 100
+                        },
+                        "artId2": 630307705,
+                        "art2": {
+                            "artId": 630307705,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 60,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30264,
+                        "groupId": 1078,
+                        "name": "私に任せてもらえるかしら",
+                        "shortDescription": "HP回復[Ⅵ]&Accele MPUP[Ⅶ] & 攻撃力UP[Ⅶ]",
+                        "artId1": 200400406,
+                        "art1": {
+                            "artId": 200400406,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 425,
+                            "growPoint": 20
+                        },
+                        "artId2": 310401607,
+                        "art2": {
+                            "artId": 310401607,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 310401107,
+                        "art3": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30265,
+                "evolutionCard1": {
+                    "cardId": 30265,
+                    "rank": "RANK_5",
+                    "attributeId": "WATER",
+                    "initialType": "BALANCE",
+                    "growthType": "DEFHP",
+                    "attack": 2113,
+                    "defense": 2166,
+                    "hp": 6685,
+                    "miniCharaNo": 302600,
+                    "charaNo": 3026,
+                    "cardName": "静海 このは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30265,
+                        "groupId": 1014,
+                        "name": "バタフライ・テンペスト",
+                        "shortDescription": "敵全体にダメージ[Ⅵ] & HP自動回復(味全/3T) & 必ずカウンター無効(味全/3T)",
+                        "artId1": 100300106,
+                        "art1": {
+                            "artId": 100300106,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3500,
+                            "growPoint": 100
+                        },
+                        "artId2": 630307707,
+                        "art2": {
+                            "artId": 630307707,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 80,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId3": 630308200,
+                        "art3": {
+                            "artId": 630308200,
+                            "verbCode": "IGNORE",
+                            "effectCode": "COUNTER",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30265,
+                        "groupId": 1078,
+                        "name": "私に任せてもらえるかしら",
+                        "shortDescription": "HP回復[Ⅷ]&Accele MPUP[Ⅸ] & 攻撃力UP[Ⅸ]",
+                        "artId1": 200400408,
+                        "art1": {
+                            "artId": 200400408,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 475,
+                            "growPoint": 20
+                        },
+                        "artId2": 310401609,
+                        "art2": {
+                            "artId": 310401609,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 310401109,
+                        "art3": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "神浜市の施設「つつじの家」出身の魔法少女。＠元は裕福な家庭で生まれ育ったが、家業が傾き、父親と母親を相次いで病で亡くし、つつじの家に引き取られた。＠施設内では皆の取りまとめ役で、勉強をはじめ、何をやらせても優秀。＠しかし、料理だけは下手。",
+                "school": "参京院教育学園",
+                "designer": "ゆーげん",
+                "voiceActor": "Lynn",
+                "openDate": "2017/10/10 15:10:00",
+                "enhancementGroupId": 122
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "9c99b87b-c40a-429e-a61f-8e562925ada1",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 302600,
+            "npcHelpId": 208,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [
+        {
+            "doppelId": 302600,
+            "npcHelpId": 208
+        }
+    ],
+    "userPieceList": [
+        {
+            "pieceId": 1114,
+            "piece": {
+                "pieceId": 1114,
+                "pieceType": "SKILL",
+                "pieceName": "花咲く家で育って",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3026",
+                "charaList": [
+                    {
+                        "charaId": 3026,
+                        "name": "静海 このは"
+                    }
+                ],
+                "attack": 0,
+                "defense": 501,
+                "hp": 421,
+                "skillId": 111400,
+                "pieceSkill": {
+                    "id": 111400,
+                    "groupId": 1093,
+                    "name": "モラールアップ[Ⅸ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "MP獲得量UP[Ⅸ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 310201909,
+                    "art1": {
+                        "artId": 310201909,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 111401,
+                "pieceSkill2": {
+                    "id": 111401,
+                    "groupId": 1093,
+                    "name": "モラールアップ[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "MP獲得量UP[Ⅹ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 310201910,
+                    "art1": {
+                        "artId": 310201910,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 275,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "天涯孤独の私を引き取ってくれたあの家＠今でも夢に出てくるけど、今はもうないあの家＠つつじの花が咲き誇る中、私たちは笑って、怒って、泣いて…＠もう帰ることができない、大切な、大切な、あの家…",
+                "illustrator": "茶ちえ",
+                "openDate": "2017/10/10 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 501,
+            "hp": 421,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 208
+        }
+    ],
+    "isNpc": true,
+    "userName": "静海 このは",
+    "userRank": 100,
+    "cardId": 30265,
+    "charaName": "静海 このは",
+    "cardRank": "RANK_5",
+    "attributeId": "WATER",
+    "level": 100,
+    "displayCardId": 30265,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

@@ -1,0 +1,654 @@
+{
+    "npcHelpId": 210,
+    "userCardList": [
+        {
+            "cardId": 30275,
+            "displayCardId": 30275,
+            "revision": 3,
+            "attack": 7202,
+            "defense": 6897,
+            "hp": 23687,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30275,
+                "charaNo": 3027,
+                "miniCharaNo": 302701,
+                "magiaCharaNo": 302700,
+                "cardName": "遊佐 葉月",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "SUPPORT",
+                "growthType": "ATTACK",
+                "attack": 1761,
+                "defense": 1764,
+                "hp": 6012,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 30275,
+                "cardMagia": {
+                    "id": 30275,
+                    "groupId": 1014,
+                    "name": "サンダー・トレント",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 必ず呪い(敵全/1T) & MP回復(自)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 430302007,
+                    "art2": {
+                        "artId": 430302007,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 430302105,
+                    "art3": {
+                        "artId": 430302105,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 510305000,
+                    "art4": {
+                        "artId": 510305000,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CURSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId5": 200200502,
+                    "art5": {
+                        "artId": 200200502,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 180,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 30278,
+                "doppelCardMagia": {
+                    "id": 30278,
+                    "groupId": 1014,
+                    "name": "返報のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 必ず呪い(敵全/1T) & MP回復(自)",
+                    "artId1": 190302781,
+                    "art1": {
+                        "artId": 190302781,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 430302009,
+                    "art2": {
+                        "artId": 430302009,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 430302107,
+                    "art3": {
+                        "artId": 430302107,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 510305000,
+                    "art4": {
+                        "artId": 510305000,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CURSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId5": 200200503,
+                    "art5": {
+                        "artId": 200200503,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 302700,
+                "doppel": {
+                    "id": 302700,
+                    "name": "返報のドッペル",
+                    "title": "その姿は、蔵",
+                    "description": "このドッペルは返報の写し。この感情の主は恨みある者達への返報を忘れない。このドッペルは三つ首狐拳のドッペルのひとりで守りや補助に長ける。このドッペルは出現中、主をその場へ固定し囮とする。その前ではどんな怪力であろうと赤子に等しく、うかつに攻撃を仕掛けてきた者を岩のような掌で捕獲しその体内へ閉じ込めてしまう他、無理矢理証文を取り不利な契約を相手へ押し付けたりもする。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2021/04/30 15:10:00"
+                },
+                "skillId": 30275,
+                "cardSkill": {
+                    "id": 30275,
+                    "groupId": 1087,
+                    "name": "完璧ー！一緒に仕留めるよ！",
+                    "shortDescription": "与えるダメージUP[Ⅸ] & 必ず呪い",
+                    "artId1": 310401309,
+                    "art1": {
+                        "artId": 310401309,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610410500,
+                    "art2": {
+                        "artId": 610410500,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "CURSE",
+                        "targetId": "CONNECT",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_V",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "ゆーげん",
+                "cardCustomize": {
+                    "cardId": 30275,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 143,
+                    "gift2": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 551,
+                    "gift3": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum3": 3,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 302,
+                    "gift4": {
+                        "id": 302,
+                        "type": 2,
+                        "name": "鏡の招待状",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum4": 15,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 553,
+                    "gift5": {
+                        "id": 553,
+                        "type": 2,
+                        "name": "羊の角",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 504,
+                    "gift6": {
+                        "id": 504,
+                        "type": 2,
+                        "name": "リュトンのリボン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 210,
+            "npcPieceId1": 1116
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3027,
+            "chara": {
+                "id": 3027,
+                "name": "遊佐 葉月",
+                "kana": "ゆさ はづき",
+                "attributeId": "LIGHT",
+                "attackType": 1,
+                "initialType": "SUPPORT",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 30273,
+                "defaultCard": {
+                    "cardId": 30273,
+                    "rank": "RANK_3",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATTACK",
+                    "attack": 1373,
+                    "defense": 1315,
+                    "hp": 4785,
+                    "miniCharaNo": 302700,
+                    "charaNo": 3027,
+                    "cardName": "遊佐 葉月",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30273,
+                        "groupId": 1014,
+                        "name": "サンダー・トレント",
+                        "shortDescription": "敵全体にダメージ[Ⅲ] & 攻撃力DOWN(敵全/3T)",
+                        "artId1": 100300103,
+                        "art1": {
+                            "artId": 100300103,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3200,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302004,
+                        "art2": {
+                            "artId": 430302004,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 225,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30273,
+                        "groupId": 1087,
+                        "name": "完璧ー！一緒に仕留めるよ！",
+                        "shortDescription": "与えるダメージUP[Ⅵ] & 必ず呪い",
+                        "artId1": 310401306,
+                        "art1": {
+                            "artId": 310401306,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 325,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610410500,
+                        "art2": {
+                            "artId": 610410500,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CURSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30274,
+                "evolutionCard1": {
+                    "cardId": 30274,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATTACK",
+                    "attack": 1687,
+                    "defense": 1614,
+                    "hp": 5875,
+                    "miniCharaNo": 302700,
+                    "charaNo": 3027,
+                    "cardName": "遊佐 葉月",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30274,
+                        "groupId": 1014,
+                        "name": "サンダー・トレント",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力DOWN(敵全/3T) & 必ず呪い(敵全/1T)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302006,
+                        "art2": {
+                            "artId": 430302006,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 275,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 510305000,
+                        "art3": {
+                            "artId": 510305000,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "CURSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30274,
+                        "groupId": 1087,
+                        "name": "完璧ー！一緒に仕留めるよ！",
+                        "shortDescription": "与えるダメージUP[Ⅷ] & 必ず呪い",
+                        "artId1": 310401308,
+                        "art1": {
+                            "artId": 310401308,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 375,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610410500,
+                        "art2": {
+                            "artId": 610410500,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CURSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 30275,
+                "evolutionCard2": {
+                    "cardId": 30275,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATTACK",
+                    "attack": 1761,
+                    "defense": 1764,
+                    "hp": 6012,
+                    "miniCharaNo": 302701,
+                    "charaNo": 3027,
+                    "cardName": "遊佐 葉月",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_V",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30275,
+                        "groupId": 1014,
+                        "name": "サンダー・トレント",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 必ず呪い(敵全/1T) & MP回復(自)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302007,
+                        "art2": {
+                            "artId": 430302007,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430302105,
+                        "art3": {
+                            "artId": 430302105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 510305000,
+                        "art4": {
+                            "artId": 510305000,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "CURSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId5": 200200502,
+                        "art5": {
+                            "artId": 200200502,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 180,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30275,
+                        "groupId": 1087,
+                        "name": "完璧ー！一緒に仕留めるよ！",
+                        "shortDescription": "与えるダメージUP[Ⅸ] & 必ず呪い",
+                        "artId1": 310401309,
+                        "art1": {
+                            "artId": 310401309,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610410500,
+                        "art2": {
+                            "artId": 610410500,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CURSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "神浜市の施設「つつじの家」出身の魔法少女。＠家族との旅行中に事故に遭い、自分だけが生き残り、つつじの家に引き取られる。＠だが、そんな暗い生い立ちにも関わらず、性格は明るく社交性もあり、＠周囲とのコミュニケーションや世渡りも上手。",
+                "school": "参京院教育学園",
+                "designer": "ゆーげん",
+                "voiceActor": "佳村はるか",
+                "openDate": "2017/10/10 15:10:00",
+                "enhancementGroupId": 123
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "f46ca311-ada1-41d2-a669-e35a26e3c364",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 302701,
+            "npcHelpId": 210,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [
+        {
+            "doppelId": 302700,
+            "npcHelpId": 210
+        }
+    ],
+    "userPieceList": [
+        {
+            "pieceId": 1116,
+            "piece": {
+                "pieceId": 1116,
+                "pieceType": "SKILL",
+                "pieceName": "葉月はいつでも忙しい",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3027",
+                "charaList": [
+                    {
+                        "charaId": 3027,
+                        "name": "遊佐 葉月"
+                    }
+                ],
+                "attack": 0,
+                "defense": 441,
+                "hp": 481,
+                "skillId": 111600,
+                "pieceSkill": {
+                    "id": 111600,
+                    "groupId": 1131,
+                    "name": "スキルクイック",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "スキルクイック(自/3T)",
+                    "messageId": 70,
+                    "artId1": 630207800,
+                    "art1": {
+                        "artId": 630207800,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "SKILL_QUICK",
+                        "targetId": "SELF",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 111601,
+                "pieceSkill2": {
+                    "id": 111601,
+                    "groupId": 1131,
+                    "name": "スキルクイック",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "スキルクイック(自/3T)",
+                    "messageId": 70,
+                    "artId1": 630207800,
+                    "art1": {
+                        "artId": 630207800,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "SKILL_QUICK",
+                        "targetId": "SELF",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「今日は15時からアポイントメントが２件＠その帰りに食材を買って、18時には晩御飯の支度をしなきゃ…＠あ、そうだ！あやめが壊した家具も直さなきゃ！＠えーっと、あとそれから…何かあったっけ？」",
+                "illustrator": "スミカワ",
+                "openDate": "2017/10/10 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 441,
+            "hp": 481,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 210
+        }
+    ],
+    "isNpc": true,
+    "userName": "遊佐 葉月",
+    "userRank": 100,
+    "cardId": 30275,
+    "charaName": "遊佐 葉月",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 30275,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
