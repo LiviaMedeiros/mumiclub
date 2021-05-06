@@ -1,0 +1,485 @@
+{
+    "npcHelpId": 214,
+    "userCardList": [
+        {
+            "cardId": 30364,
+            "displayCardId": 30364,
+            "revision": 3,
+            "attack": 5721,
+            "defense": 7241,
+            "hp": 18866,
+            "level": 80,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30364,
+                "charaNo": 3036,
+                "miniCharaNo": 303600,
+                "magiaCharaNo": 303600,
+                "cardName": "由貴 真里愛",
+                "rank": "RANK_4",
+                "attributeId": "WATER",
+                "initialType": "HEAL",
+                "growthType": "DEFHP",
+                "attack": 1601,
+                "defense": 1983,
+                "hp": 5203,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 30364,
+                "cardMagia": {
+                    "id": 30364,
+                    "groupId": 1012,
+                    "name": "優しくお仕置き",
+                    "shortDescription": "敵単体に属性強化ダメージ[Ⅴ] & HP回復 & 状態異常解除(味全)",
+                    "artId1": 100000205,
+                    "art1": {
+                        "artId": 100000205,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "TARGET",
+                        "effectValue": 8640,
+                        "growPoint": 100
+                    },
+                    "artId2": 200300405,
+                    "art2": {
+                        "artId": 200300405,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "growPoint": 20
+                    },
+                    "artId3": 200301000,
+                    "art3": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "skillId": 30364,
+                "cardSkill": {
+                    "id": 30364,
+                    "groupId": 1078,
+                    "name": "頑張れたら褒めてあげる",
+                    "shortDescription": "HP回復[Ⅶ] & 必ず拘束",
+                    "artId1": 200400407,
+                    "art1": {
+                        "artId": 200400407,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 450,
+                        "growPoint": 20
+                    },
+                    "artId2": 610409900,
+                    "art2": {
+                        "artId": 610409900,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "RESTRAINT",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "いもあん",
+                "cardCustomize": {
+                    "cardId": 30364,
+                    "giftId1": 122,
+                    "gift1": {
+                        "id": 122,
+                        "type": 1,
+                        "name": "アクアオーブ＋",
+                        "attributeId": "WATER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 12,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 50,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 70,
+                    "giftId3": 123,
+                    "gift3": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 6,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 404,
+                    "gift4": {
+                        "id": 404,
+                        "type": 2,
+                        "name": "オウルのバケツ",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 60,
+                    "giftId5": 310,
+                    "gift5": {
+                        "id": 310,
+                        "type": 2,
+                        "name": "流浪の杭",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/09/03 15:10:00"
+                    },
+                    "giftNum5": 12,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 40,
+                    "giftId6": 507,
+                    "gift6": {
+                        "id": 507,
+                        "type": 2,
+                        "name": "ビッグフェリスのタービン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/21 15:10:00"
+                    },
+                    "giftNum6": 6,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 60
+                }
+            },
+            "npcHelpId": 214,
+            "npcPieceId1": 1485
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3036,
+            "chara": {
+                "id": 3036,
+                "name": "由貴 真里愛",
+                "kana": "ゆき まりあ",
+                "attributeId": "WATER",
+                "attackType": 2,
+                "initialType": "HEAL",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 30363,
+                "defaultCard": {
+                    "cardId": 30363,
+                    "rank": "RANK_3",
+                    "attributeId": "WATER",
+                    "initialType": "HEAL",
+                    "growthType": "DEFHP",
+                    "attack": 1301,
+                    "defense": 1609,
+                    "hp": 4229,
+                    "miniCharaNo": 303600,
+                    "charaNo": 3036,
+                    "cardName": "由貴 真里愛",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30363,
+                        "groupId": 1012,
+                        "name": "優しくお仕置き",
+                        "shortDescription": "敵単体に属性強化ダメージ[Ⅲ] & HP回復 & 状態異常解除(味全)",
+                        "artId1": 100000203,
+                        "art1": {
+                            "artId": 100000203,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "TARGET",
+                            "effectValue": 8000,
+                            "growPoint": 100
+                        },
+                        "artId2": 200300403,
+                        "art2": {
+                            "artId": 200300403,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 175,
+                            "growPoint": 20
+                        },
+                        "artId3": 200301000,
+                        "art3": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30363,
+                        "groupId": 1078,
+                        "name": "頑張れたら褒めてあげる",
+                        "shortDescription": "HP回復[Ⅴ] & 必ず拘束",
+                        "artId1": 200400405,
+                        "art1": {
+                            "artId": 200400405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "growPoint": 20
+                        },
+                        "artId2": 610409900,
+                        "art2": {
+                            "artId": 610409900,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30364,
+                "evolutionCard1": {
+                    "cardId": 30364,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "HEAL",
+                    "growthType": "DEFHP",
+                    "attack": 1601,
+                    "defense": 1983,
+                    "hp": 5203,
+                    "miniCharaNo": 303600,
+                    "charaNo": 3036,
+                    "cardName": "由貴 真里愛",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30364,
+                        "groupId": 1012,
+                        "name": "優しくお仕置き",
+                        "shortDescription": "敵単体に属性強化ダメージ[Ⅴ] & HP回復 & 状態異常解除(味全)",
+                        "artId1": 100000205,
+                        "art1": {
+                            "artId": 100000205,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "TARGET",
+                            "effectValue": 8640,
+                            "growPoint": 100
+                        },
+                        "artId2": 200300405,
+                        "art2": {
+                            "artId": 200300405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "growPoint": 20
+                        },
+                        "artId3": 200301000,
+                        "art3": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30364,
+                        "groupId": 1078,
+                        "name": "頑張れたら褒めてあげる",
+                        "shortDescription": "HP回復[Ⅶ] & 必ず拘束",
+                        "artId1": 200400407,
+                        "art1": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId2": 610409900,
+                        "art2": {
+                            "artId": 610409900,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "女子高生らしからぬ慈愛に満ち溢れた、聖母のような魔法少女。＠学童保育でアルバイトをしている。大好きな子どもたちの前ではもっぱら優しいお姉さんだが、仲のいい友達が相手となると、ちょっぴり小悪魔な顔を覗かせることがある。",
+                "school": "南凪自由学園",
+                "designer": "いもあん",
+                "voiceActor": "逢田梨香子",
+                "openDate": "2020/04/13 15:10:00",
+                "enhancementGroupId": 77
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "293d5b60-818f-4309-a343-a6c4c9172db9",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 303600,
+            "npcHelpId": 214,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1485,
+            "piece": {
+                "pieceId": 1485,
+                "pieceType": "SKILL",
+                "pieceName": "メモと心はくっついて",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3036",
+                "charaList": [
+                    {
+                        "charaId": 3036,
+                        "name": "由貴 真里愛"
+                    }
+                ],
+                "attack": 0,
+                "defense": 430,
+                "hp": 510,
+                "skillId": 148500,
+                "pieceSkill": {
+                    "id": 148500,
+                    "groupId": 1129,
+                    "name": "リジェネレイト・シールド[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "HP自動回復[Ⅲ] & ダメージカット状態[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 630207703,
+                    "art1": {
+                        "artId": 630207703,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 40,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId2": 630206203,
+                    "art2": {
+                        "artId": 630206203,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 148501,
+                "pieceSkill2": {
+                    "id": 148501,
+                    "groupId": 1129,
+                    "name": "リジェネレイト・シールド[Ⅳ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 630207704,
+                    "art1": {
+                        "artId": 630207704,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId2": 630206204,
+                    "art2": {
+                        "artId": 630206204,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "朝起きる前に出かけ、夜眠った後に帰ってくる両親たち＠メモに書かれるのは互いの予定と、ほんのわずかな本当の気持ち＠たったそれだけで、心まではすれ違っていないという証になった＠寂しくても、交換ノートのように少しだけ楽しかった思い出",
+                "illustrator": "mepo",
+                "openDate": "2020/04/13 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 430,
+            "hp": 510,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 214
+        }
+    ],
+    "isNpc": true,
+    "userName": "由貴 真里愛",
+    "userRank": 80,
+    "cardId": 30364,
+    "charaName": "由貴 真里愛",
+    "cardRank": "RANK_4",
+    "attributeId": "WATER",
+    "level": 80,
+    "displayCardId": 30364,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
