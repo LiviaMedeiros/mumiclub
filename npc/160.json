@@ -1,0 +1,764 @@
+{
+    "npcHelpId": 160,
+    "userCardList": [
+        {
+            "cardId": 10075,
+            "displayCardId": 10075,
+            "revision": 3,
+            "attack": 9803,
+            "defense": 6072,
+            "hp": 21019,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10075,
+                "charaNo": 1007,
+                "miniCharaNo": 100700,
+                "magiaCharaNo": 100700,
+                "cardName": "里見 灯花",
+                "rank": "RANK_5",
+                "attributeId": "FIRE",
+                "initialType": "MAGIA",
+                "growthType": "ATTACK",
+                "attack": 2397,
+                "defense": 1553,
+                "hp": 5335,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1200,
+                "magiaId": 10075,
+                "cardMagia": {
+                    "id": 10075,
+                    "groupId": 1014,
+                    "name": "ネオ・ジェネシス☆彡",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 防御力DOWN(敵全/3T) & 防御力UP & マギアダメージUP(自/3T)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 430302106,
+                    "art2": {
+                        "artId": 430302106,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 175,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330201205,
+                    "art3": {
+                        "artId": 330201205,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 375,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 330201409,
+                    "art4": {
+                        "artId": 330201409,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 10078,
+                "doppelCardMagia": {
+                    "id": 10078,
+                    "groupId": 1014,
+                    "name": "白昼夢のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 防御力DOWN(敵全/3T) & 防御力UP(自/3T) & マギアダメージUP(自/5T)",
+                    "artId1": 190100781,
+                    "art1": {
+                        "artId": 190100781,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 430302109,
+                    "art2": {
+                        "artId": 430302109,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330201205,
+                    "art3": {
+                        "artId": 330201205,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 375,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 9386,
+                    "art4": {
+                        "artId": 9386,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    }
+                },
+                "doppelCharaNo": 100700,
+                "doppel": {
+                    "id": 100700,
+                    "name": "白昼夢のドッペル",
+                    "title": "その姿は、マッチ売り",
+                    "description": "この感情の主は魔法少女になった後もさらなる願いを成就するためちからを欲する。このドッペルは主の寿命を切り分けたマッチを持ち、ひとたび擦って灯りをともせばあらゆる\"もしも\"が叶うという。マッチの残り本数が主の寿命であり、使い切ることは命の終わりを意味する。強力なドッペルだが、遺言のドッペル同様に自身の寿命を犠牲にするため乱用は禁物。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2019/03/05 15:10:00"
+                },
+                "skillId": 10075,
+                "cardSkill": {
+                    "id": 10075,
+                    "groupId": 1085,
+                    "name": "確率あげてこー！",
+                    "shortDescription": "攻撃力UP[Ⅸ] & MP回復[Ⅵ] & 必ずマギア不可",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200400506,
+                    "art2": {
+                        "artId": 200400506,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "CONNECT",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    },
+                    "artId3": 610411500,
+                    "art3": {
+                        "artId": 610411500,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "BAN_MAGIA",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "いもあん",
+                "cardCustomize": {
+                    "cardId": 10075,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 80,
+                    "giftId2": 112,
+                    "gift2": {
+                        "id": 112,
+                        "type": 1,
+                        "name": "フレイムオーブ＋",
+                        "attributeId": "FIRE",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 113,
+                    "gift3": {
+                        "id": 113,
+                        "type": 1,
+                        "name": "フレイムオーブ＋＋",
+                        "attributeId": "FIRE",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 557,
+                    "gift4": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 508,
+                    "gift5": {
+                        "id": 508,
+                        "type": 2,
+                        "name": "スピーカーのベル",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/07/02 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 309,
+                    "gift6": {
+                        "id": 309,
+                        "type": 2,
+                        "name": "ゴムの浮き輪",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 160,
+            "npcPieceId1": 1316,
+            "npcPieceId2": 1067,
+            "npcPieceId3": 1315
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1007,
+            "chara": {
+                "id": 1007,
+                "name": "里見 灯花",
+                "kana": "さとみ とうか",
+                "attributeId": "FIRE",
+                "attackType": 2,
+                "initialType": "MAGIA",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10074,
+                "defaultCard": {
+                    "cardId": 10074,
+                    "rank": "RANK_4",
+                    "attributeId": "FIRE",
+                    "initialType": "MAGIA",
+                    "growthType": "ATTACK",
+                    "attack": 2109,
+                    "defense": 1372,
+                    "hp": 4704,
+                    "miniCharaNo": 100700,
+                    "charaNo": 1007,
+                    "cardName": "里見 灯花",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10074,
+                        "groupId": 1014,
+                        "name": "ネオ・ジェネシス☆彡",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 防御力DOWN(敵全/3T) & 防御力UP(自/3T)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302105,
+                        "art2": {
+                            "artId": 430302105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330201203,
+                        "art3": {
+                            "artId": 330201203,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "SELF",
+                            "effectValue": 225,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10074,
+                        "groupId": 1085,
+                        "name": "確率あげてこー！",
+                        "shortDescription": "攻撃力UP[Ⅶ] & MP回復[Ⅳ] & 確率でマギア不可",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400504,
+                        "art2": {
+                            "artId": 200400504,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 200,
+                            "growPoint": 10
+                        },
+                        "artId3": 610411411,
+                        "art3": {
+                            "artId": 610411411,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BAN_MAGIA",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10075,
+                "evolutionCard1": {
+                    "cardId": 10075,
+                    "rank": "RANK_5",
+                    "attributeId": "FIRE",
+                    "initialType": "MAGIA",
+                    "growthType": "ATTACK",
+                    "attack": 2397,
+                    "defense": 1553,
+                    "hp": 5335,
+                    "miniCharaNo": 100700,
+                    "charaNo": 1007,
+                    "cardName": "里見 灯花",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10075,
+                        "groupId": 1014,
+                        "name": "ネオ・ジェネシス☆彡",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 防御力DOWN(敵全/3T) & 防御力UP & マギアダメージUP(自/3T)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302106,
+                        "art2": {
+                            "artId": 430302106,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 175,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330201205,
+                        "art3": {
+                            "artId": 330201205,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "SELF",
+                            "effectValue": 375,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 330201409,
+                        "art4": {
+                            "artId": 330201409,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "SELF",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10075,
+                        "groupId": 1085,
+                        "name": "確率あげてこー！",
+                        "shortDescription": "攻撃力UP[Ⅸ] & MP回復[Ⅵ] & 必ずマギア不可",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400506,
+                        "art2": {
+                            "artId": 200400506,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        },
+                        "artId3": 610411500,
+                        "art3": {
+                            "artId": 610411500,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BAN_MAGIA",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "魔女化のない世界を作ろうとしている魔法少女。入院していた里見メディカルセンターの院長の娘で、幼くして天体物理学を修めた理系の天才。普段は無数の機器に囲まれながら研究を続けており、夢は宇宙の全てを知ること。",
+                "school": "聖リリアンナ学園",
+                "designer": "蒼樹うめ",
+                "voiceActor": "釘宮理恵",
+                "openDate": "2019/03/05 15:10:00",
+                "enhancementGroupId": 136
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "84c5184c-4750-44fb-9017-a6fd0f47d354",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 100700,
+            "npcHelpId": 160,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [
+        {
+            "doppelId": 100700,
+            "npcHelpId": 160
+        }
+    ],
+    "userPieceList": [
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 633,
+            "defense": 0,
+            "hp": 573,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 160
+        },
+        {
+            "pieceId": 1067,
+            "piece": {
+                "pieceId": 1067,
+                "pieceType": "SKILL",
+                "pieceName": "迷わないこの道",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 720,
+                "hp": 880,
+                "skillId": 106710,
+                "pieceSkill": {
+                    "id": 106710,
+                    "groupId": 1085,
+                    "name": "ブルームライズ[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 9,
+                    "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅳ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201105,
+                    "art1": {
+                        "artId": 330201105,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201204,
+                    "art2": {
+                        "artId": 330201204,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 106711,
+                "pieceSkill2": {
+                    "id": 106711,
+                    "groupId": 1085,
+                    "name": "ブルームライズ[Ⅵ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "攻撃力UP[Ⅵ] & 防御力UP[Ⅴ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201106,
+                    "art1": {
+                        "artId": 330201106,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201205,
+                    "art2": {
+                        "artId": 330201205,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 375,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「夢を見る度に感じていた温かい気持ち。＠魔法少女になった理由を思い出した今なら、その理由が分かる…。＠待っててね…どんな困難な道のりであったとしても、＠絶対に諦めずに、私が見つけ出してみせるから」",
+                "illustrator": "谷口淳一郎"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 720,
+            "hp": 880,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 160
+        },
+        {
+            "pieceId": 1315,
+            "piece": {
+                "pieceId": 1315,
+                "pieceType": "SKILL",
+                "pieceName": "わたくしだけの自由",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1007",
+                "charaList": [
+                    {
+                        "charaId": 1007,
+                        "name": "里見 灯花"
+                    }
+                ],
+                "attack": 0,
+                "defense": 432,
+                "hp": 500,
+                "skillId": 131500,
+                "pieceSkill": {
+                    "id": 131500,
+                    "groupId": 1176,
+                    "name": "マナアブソーブ[Ⅰ]",
+                    "type": "SKILL",
+                    "intervalTurn": 10,
+                    "shortDescription": "MPダメージ[Ⅰ](敵単) & MP回復[Ⅰ](自)",
+                    "messageId": 72,
+                    "artId1": 200016401,
+                    "art1": {
+                        "artId": 200016401,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP_DAMAGE",
+                        "targetId": "TARGET",
+                        "effectValue": 300,
+                        "growPoint": 0
+                    },
+                    "artId2": 200200501,
+                    "art2": {
+                        "artId": 200200501,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 10
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131501,
+                "pieceSkill2": {
+                    "id": 131501,
+                    "groupId": 1176,
+                    "name": "マナアブソーブ[Ⅰ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "MPダメージ[Ⅰ](敵単) & MP回復[Ⅰ](自)",
+                    "messageId": 72,
+                    "artId1": 200016401,
+                    "art1": {
+                        "artId": 200016401,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP_DAMAGE",
+                        "targetId": "TARGET",
+                        "effectValue": 300,
+                        "growPoint": 0
+                    },
+                    "artId2": 200200501,
+                    "art2": {
+                        "artId": 200200501,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 10
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "地球が太陽を周回しているだなんてウソっぱちに決まってる＠世界がこんなに広いだなんてウソっぱちに決まってる＠テレビやネットで見ることも、本当かどうかは分からない＠でも、星空は回ってる。自分の周りを回ってる。これだけが本当のこと",
+                "illustrator": "スミカワ",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 1,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 432,
+            "hp": 500,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 160
+        }
+    ],
+    "isNpc": true,
+    "userName": "里見 灯花",
+    "userRank": 100,
+    "cardId": 10075,
+    "charaName": "里見 灯花",
+    "cardRank": "RANK_5",
+    "attributeId": "FIRE",
+    "level": 100,
+    "displayCardId": 10075,
+    "revision": 2,
+    "follow": false,
+    "follower": false
+}
