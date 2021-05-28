@@ -1,0 +1,863 @@
+{
+    "npcHelpId": 218,
+    "userCardList": [
+        {
+            "cardId": 40245,
+            "displayCardId": 40245,
+            "revision": 3,
+            "attack": 9252,
+            "defense": 7306,
+            "hp": 24316,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 5,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40245,
+                "charaNo": 4024,
+                "miniCharaNo": 402400,
+                "magiaCharaNo": 402400,
+                "cardName": "ミヌゥ",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "MAGIA",
+                "growthType": "ATKDEF",
+                "attack": 2279,
+                "defense": 1813,
+                "hp": 6125,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1200,
+                "magiaId": 40245,
+                "cardMagia": {
+                    "id": 40245,
+                    "groupId": 1012,
+                    "name": "シャ・ア・ヌフクゥ",
+                    "shortDescription": "敵単体に属性強化ダメージ[Ⅷ] & MP獲得量DOWN(敵単/3T) & MPダメージ(敵単) & マギアダメージUP(味全/3T)",
+                    "artId1": 100000208,
+                    "art1": {
+                        "artId": 100000208,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "TARGET",
+                        "effectValue": 9600,
+                        "growPoint": 100
+                    },
+                    "artId2": 430002807,
+                    "art2": {
+                        "artId": 430002807,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "TARGET",
+                        "effectValue": 400,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 200016407,
+                    "art3": {
+                        "artId": 200016407,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP_DAMAGE",
+                        "targetId": "TARGET",
+                        "effectValue": 900,
+                        "growPoint": 0
+                    },
+                    "artId4": 330301407,
+                    "art4": {
+                        "artId": 330301407,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "ALL",
+                        "effectValue": 220,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 40248,
+                "doppelCardMagia": {
+                    "id": 40248,
+                    "groupId": 1012,
+                    "name": "加虐のドッペル",
+                    "shortDescription": "敵単体に属性強化ダメージ[Ⅹ] & MP獲得量DOWN(敵単/5T) & MPダメージ(敵単) & マギアダメージUP(味全/5T)",
+                    "artId1": 190402481,
+                    "art1": {
+                        "artId": 190402481,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "TARGET",
+                        "effectValue": 22528,
+                        "growPoint": 220
+                    },
+                    "artId2": 450002809,
+                    "art2": {
+                        "artId": 450002809,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "TARGET",
+                        "effectValue": 500,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 200016408,
+                    "art3": {
+                        "artId": 200016408,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP_DAMAGE",
+                        "targetId": "TARGET",
+                        "effectValue": 1000,
+                        "growPoint": 0
+                    },
+                    "artId4": 350301409,
+                    "art4": {
+                        "artId": 350301409,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "ALL",
+                        "effectValue": 260,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    }
+                },
+                "doppelCharaNo": 402400,
+                "doppel": {
+                    "id": 402400,
+                    "name": "加虐のドッペル",
+                    "title": "その姿は、悪戯猫",
+                    "description": "この感情の主は、戦場をまるで指揮者のように演出する。＠姿こそ猫ではあるが、そのいたずらっぽい笑みの奥底は果てしなく暗い。そして、その果てには狂気に満ちた恐るべき本能が隠されている。９つになびく尾は、それぞれ拷問器具を携えている。ひとたび尾が振るわれたら、敵対する者を狩り、痛めつけ、それは動かなくなるまで続けられる。まるで猫が獲物を狩るのではなく、ただ弄ぶかのように。",
+                    "designer": "原案・監修：枡狐/蛙空",
+                    "archive": true,
+                    "openDate": "2021/05/24 15:10:00"
+                },
+                "skillId": 40245,
+                "cardSkill": {
+                    "id": 40245,
+                    "groupId": 1085,
+                    "name": "退屈はさせませんわ",
+                    "shortDescription": "攻撃力UP[Ⅹ] & 必ず幻惑 & 必ず魅了",
+                    "artId1": 310401110,
+                    "art1": {
+                        "artId": 310401110,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 425,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610411100,
+                    "art2": {
+                        "artId": 610411100,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "BLINDNESS",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 610409500,
+                    "art3": {
+                        "artId": 610409500,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "CHARM",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "枡狐/蛙空",
+                "cardCustomize": {
+                    "cardId": 40245,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 80,
+                    "giftId2": 142,
+                    "gift2": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 504,
+                    "gift4": {
+                        "id": 504,
+                        "type": 2,
+                        "name": "リュトンのリボン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 306,
+                    "gift5": {
+                        "id": 306,
+                        "type": 2,
+                        "name": "振子のネジ",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum5": 15,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 553,
+                    "gift6": {
+                        "id": 553,
+                        "type": 2,
+                        "name": "羊の角",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 218,
+            "npcPieceId1": 1622,
+            "npcPieceId2": 1625,
+            "npcPieceId3": 1626,
+            "npcPieceId4": 1375
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4024,
+            "chara": {
+                "id": 4024,
+                "name": "ミヌゥ",
+                "kana": "みぬぅ",
+                "attributeId": "LIGHT",
+                "attackType": 2,
+                "initialType": "MAGIA",
+                "growthType": "ATKDEF",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 40244,
+                "defaultCard": {
+                    "cardId": 40244,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "MAGIA",
+                    "growthType": "ATKDEF",
+                    "attack": 2021,
+                    "defense": 1641,
+                    "hp": 5411,
+                    "miniCharaNo": 402400,
+                    "charaNo": 4024,
+                    "cardName": "ミヌゥ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40244,
+                        "groupId": 1012,
+                        "name": "シャ・ア・ヌフクゥ",
+                        "shortDescription": "敵単体に属性強化ダメージ[Ⅵ] & MP獲得量DOWN(敵単/3T) & MPダメージ(敵単) & マギアダメージUP(味全/3T)",
+                        "artId1": 100000206,
+                        "art1": {
+                            "artId": 100000206,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "TARGET",
+                            "effectValue": 8960,
+                            "growPoint": 100
+                        },
+                        "artId2": 430002805,
+                        "art2": {
+                            "artId": 430002805,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "MP_GAIN",
+                            "targetId": "TARGET",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 200016406,
+                        "art3": {
+                            "artId": 200016406,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP_DAMAGE",
+                            "targetId": "TARGET",
+                            "effectValue": 800,
+                            "growPoint": 0
+                        },
+                        "artId4": 330301405,
+                        "art4": {
+                            "artId": 330301405,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "ALL",
+                            "effectValue": 180,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40244,
+                        "groupId": 1085,
+                        "name": "退屈はさせませんわ",
+                        "shortDescription": "攻撃力UP[Ⅷ] & 必ず幻惑 & 確率で魅了",
+                        "artId1": 310401108,
+                        "art1": {
+                            "artId": 310401108,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 375,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610411100,
+                        "art2": {
+                            "artId": 610411100,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BLINDNESS",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 9355,
+                        "art3": {
+                            "artId": 9355,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CHARM",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 800
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 40245,
+                "evolutionCard1": {
+                    "cardId": 40245,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "MAGIA",
+                    "growthType": "ATKDEF",
+                    "attack": 2279,
+                    "defense": 1813,
+                    "hp": 6125,
+                    "miniCharaNo": 402400,
+                    "charaNo": 4024,
+                    "cardName": "ミヌゥ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40245,
+                        "groupId": 1012,
+                        "name": "シャ・ア・ヌフクゥ",
+                        "shortDescription": "敵単体に属性強化ダメージ[Ⅷ] & MP獲得量DOWN(敵単/3T) & MPダメージ(敵単) & マギアダメージUP(味全/3T)",
+                        "artId1": 100000208,
+                        "art1": {
+                            "artId": 100000208,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "TARGET",
+                            "effectValue": 9600,
+                            "growPoint": 100
+                        },
+                        "artId2": 430002807,
+                        "art2": {
+                            "artId": 430002807,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "MP_GAIN",
+                            "targetId": "TARGET",
+                            "effectValue": 400,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 200016407,
+                        "art3": {
+                            "artId": 200016407,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP_DAMAGE",
+                            "targetId": "TARGET",
+                            "effectValue": 900,
+                            "growPoint": 0
+                        },
+                        "artId4": 330301407,
+                        "art4": {
+                            "artId": 330301407,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "ALL",
+                            "effectValue": 220,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40245,
+                        "groupId": 1085,
+                        "name": "退屈はさせませんわ",
+                        "shortDescription": "攻撃力UP[Ⅹ] & 必ず幻惑 & 必ず魅了",
+                        "artId1": 310401110,
+                        "art1": {
+                            "artId": 310401110,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 425,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610411100,
+                        "art2": {
+                            "artId": 610411100,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BLINDNESS",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 610409500,
+                        "art3": {
+                            "artId": 610409500,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CHARM",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "百年戦争のさなか、イングランド陣営で暗躍する仮面の魔法少女。三姉妹の三女で言動は冷静。戦いの舞台は演出し眺めるものと考えており、自ら舞台に立とうとはしない。母親はとある貴人で、母を誰よりも溺愛している。",
+                "school": "―",
+                "designer": "枡狐/蛙空",
+                "voiceActor": "田中理恵",
+                "openDate": "2021/05/24 15:10:00",
+                "enhancementGroupId": 155
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "b4f98ddb-7b53-44f8-8b3d-5e836ced0bf6",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 402400,
+            "npcHelpId": 218,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [
+        {
+            "doppelId": 402400,
+            "npcHelpId": 218
+        }
+    ],
+    "userPieceList": [
+        {
+            "pieceId": 1622,
+            "piece": {
+                "pieceId": 1622,
+                "pieceType": "SKILL",
+                "pieceName": "隷従のスティグマ",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4024",
+                "charaList": [
+                    {
+                        "charaId": 4024,
+                        "name": "ミヌゥ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 436,
+                "hp": 516,
+                "skillId": 162200,
+                "pieceSkill": {
+                    "id": 162200,
+                    "groupId": 1103,
+                    "name": "チャーム・アイズ[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 10,
+                    "shortDescription": "確率で魅了[Ⅹ](敵全/1T)",
+                    "messageId": 72,
+                    "artId1": 510303910,
+                    "art1": {
+                        "artId": 510303910,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CHARM",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 525
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 162201,
+                "pieceSkill2": {
+                    "id": 162201,
+                    "groupId": 1103,
+                    "name": "チャーム・アイズ[XI]",
+                    "type": "SKILL",
+                    "intervalTurn": 9,
+                    "shortDescription": "確率で魅了[XI](敵全/1T)",
+                    "messageId": 72,
+                    "artId1": 510303911,
+                    "art1": {
+                        "artId": 510303911,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CHARM",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 550
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "生きても役に立たぬ者は、その死をもって忠誠を示しなさい＠命を惜しむ者は知りなさい、あらゆる命は無価値であると＠価値ある命はただひとつ、あの方の命のみ＠真なる忠誠ははただひとつ、あの方に捧げる忠誠のみ",
+                "illustrator": "mepo",
+                "openDate": "2021/05/24 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 654,
+            "hp": 774,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 218
+        },
+        {
+            "pieceId": 1625,
+            "piece": {
+                "pieceId": 1625,
+                "pieceType": "ABILITY",
+                "pieceName": "仮面生徒会参上！",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 800,
+                "defense": 0,
+                "hp": 880,
+                "skillId": 162500,
+                "pieceSkill": {
+                    "id": 162500,
+                    "groupId": 1119,
+                    "name": "ブレッシング・アデプト",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ状態[Ⅲ] & 必ず呪い無効",
+                    "artId1": 690206103,
+                    "art1": {
+                        "artId": 690206103,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690208800,
+                    "art2": {
+                        "artId": 690208800,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CURSE",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 162501,
+                "pieceSkill2": {
+                    "id": 162501,
+                    "groupId": 1119,
+                    "name": "ブレッシング・アデプト",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ状態[Ⅲ] & 必ず呪い無効",
+                    "artId1": 690206103,
+                    "art1": {
+                        "artId": 690206103,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690208800,
+                    "art2": {
+                        "artId": 690208800,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CURSE",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「黒い制服も、メイドの絶対服従も、生徒会だけに許された特権ですわ」＠「校則で決まってるんだから、誰も文句は言えないよなァ？」＠「ちなみに仮面は校則で禁止されているので、実は校則違反ですわ」＠「そーそー！…って、ええっ!?」",
+                "illustrator": "―",
+                "openDate": "2021/05/24 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 1056,
+            "defense": 0,
+            "hp": 1161,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 218
+        },
+        {
+            "pieceId": 1626,
+            "piece": {
+                "pieceId": 1626,
+                "pieceType": "SKILL",
+                "pieceName": "決意の仮面",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 884,
+                "hp": 804,
+                "skillId": 162600,
+                "pieceSkill": {
+                    "id": 162600,
+                    "groupId": 1111,
+                    "name": "マスカレード[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "確率で幻惑[Ⅴ] & 確率で魅了[Ⅲ](敵単/1T) & Blast ダメージカット[Ⅲ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 510005505,
+                    "art1": {
+                        "artId": 510005505,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BLINDNESS",
+                        "targetId": "TARGET",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 400
+                    },
+                    "artId2": 510003903,
+                    "art2": {
+                        "artId": 510003903,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CHARM",
+                        "targetId": "TARGET",
+                        "enableTurn": 1,
+                        "growPoint": 20,
+                        "probability": 350
+                    },
+                    "artId3": 610217003,
+                    "art3": {
+                        "artId": 610217003,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN_BLAST",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 50,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 162601,
+                "pieceSkill2": {
+                    "id": 162601,
+                    "groupId": 1111,
+                    "name": "マスカレード[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "確率で幻惑[Ⅴ] & 確率で魅了[Ⅲ](敵単/1T) & Blast ダメージカット[Ⅲ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 510005505,
+                    "art1": {
+                        "artId": 510005505,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BLINDNESS",
+                        "targetId": "TARGET",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 400
+                    },
+                    "artId2": 510003903,
+                    "art2": {
+                        "artId": 510003903,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CHARM",
+                        "targetId": "TARGET",
+                        "enableTurn": 1,
+                        "growPoint": 20,
+                        "probability": 350
+                    },
+                    "artId3": 610217003,
+                    "art3": {
+                        "artId": 610217003,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN_BLAST",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 50,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "仔猫（ミヌゥ）の仮面を選んだあの日＠“すべて”をあの方に捧げると決意した＠あの方のご意志に沿うためならば、何を失っても構わない＠心も、血で結ばれた家族も、あの方が望むなら、この命すらも",
+                "illustrator": "枡狐/蛙空",
+                "openDate": "2021/05/24 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1166,
+            "hp": 1061,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 218
+        },
+        {
+            "pieceId": 1375,
+            "piece": {
+                "pieceId": 1375,
+                "pieceType": "ABILITY",
+                "pieceName": "姉妹水入らず",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 670,
+                "defense": 0,
+                "hp": 550,
+                "skillId": 137500,
+                "pieceSkill": {
+                    "id": 137500,
+                    "groupId": 1134,
+                    "name": "バトルセンス・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "確率で回避無効[Ⅳ] & 確率でカウンター無効[Ⅳ]",
+                    "artId1": 690216204,
+                    "art1": {
+                        "artId": 690216204,
+                        "verbCode": "IGNORE",
+                        "effectCode": "AVOID",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 400
+                    },
+                    "artId2": 690208204,
+                    "art2": {
+                        "artId": 690208204,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 400
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 137501,
+                "pieceSkill2": {
+                    "id": 137501,
+                    "groupId": 1134,
+                    "name": "バトルセンス・アデプト[Ⅵ]",
+                    "type": "ABILITY",
+                    "shortDescription": "確率で回避無効[Ⅵ] & 確率でカウンター無効[Ⅵ]",
+                    "artId1": 690216206,
+                    "art1": {
+                        "artId": 690216206,
+                        "verbCode": "IGNORE",
+                        "effectCode": "AVOID",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 500
+                    },
+                    "artId2": 690208206,
+                    "art2": {
+                        "artId": 690208206,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 500
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「コルボー、ミヌゥ！今度もまた３人で、湯浴みに行こうねっ！」＠「もちろん私はかまいませんが…ミヌゥはどうだ？」＠「あら、私の意見など聞く必要もありませんわ＠あの方のご意向に沿うかぎり、私はいつでも…」",
+                "illustrator": "枡狐/蛙空",
+                "openDate": "2019/07/12 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 1005,
+            "defense": 0,
+            "hp": 825,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 218
+        }
+    ],
+    "isNpc": true,
+    "userName": "ミヌゥ",
+    "userRank": 100,
+    "cardId": 40245,
+    "charaName": "ミヌゥ",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 40245,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
