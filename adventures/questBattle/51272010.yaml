@@ -1,0 +1,58 @@
+---
+questBattleId: 51272010
+sectionId: 512720
+eventId: 1127
+sectionIndex: 10
+questBattleType: NORMAL
+bossFlag: false
+endStory: 512720-10
+placeId: "11094"
+bgm: bgm01_battle01
+bossBgm: bgm01_battle01
+consumeType: ITEM
+difficulty: 30
+exp: 63
+cardExp: 24
+baseBondsPt: 42
+riche: 600
+firstClearRewardCodes: ITEM_EVENT_DAILYTOWER_1127_EXCHANGE_1_5
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 112703
+dropItem1:
+  dropItemId: 112703
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1127_EXCHANGE_1_1
+  rewardCode2: ITEM_EVENT_DAILYTOWER_1127_EXCHANGE_1_2
+mission1: HP_30
+missionMaster1:
+  description: 合計残HPが30％以上でクリア
+mission2: ACTION_10
+missionMaster2:
+  description: 10ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_2
+waveEnemyAttributeIdList:
+- TIMBER
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1127_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1127_KEY
+  name: アクアリウムへの招待状
+  shortDescription: 「ウワサアクアリウムへようこそ」のクエストプレイ用アイテム
+  description: 「ウワサアクアリウムへようこそ」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1127
+needItemNum: 15
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

@@ -1,0 +1,53 @@
+---
+questBattleId: 5133033
+sectionId: 513303
+eventId: 1133
+sectionIndex: 3
+questBattleType: NORMAL
+bossFlag: false
+title: エクストラⅢ
+placeId: "47001"
+bgm: bgm01_anime12
+bossBgm: bgm01_anime12
+consumeType: NORMAL
+ap: 20
+difficulty: 60
+exp: 120
+cardExp: 80
+baseBondsPt: 60
+riche: 1000
+parameter: EP=3500
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 113310
+dropItem1:
+  dropItemId: 113310
+  rewardCode1: ITEM_EVENT_TRAINING_1133_1
+  rewardCode2: ITEM_EVENT_TRAINING_1133_2
+  rewardCode3: ITEM_EVENT_TRAINING_1133_3
+dropItemId2: 113311
+dropItem2:
+  dropItemId: 113311
+  rewardCode1: GIFT_303_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_5
+waveEnemyAttributeIdList:
+- DARK
+- TIMBER
+parameterMap:
+  EP: "3500"
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

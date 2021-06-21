@@ -1,0 +1,55 @@
+---
+questBattleId: 2056043
+sectionId: 205604
+sectionIndex: 3
+questBattleType: NORMAL
+bossFlag: false
+npcHelpId: "128"
+npcHelpNameHidden: false
+npcHelpNameQuestHidden: false
+npcHelpDisplayHidden: false
+npcHelpSupportHidden: false
+startStory: 205604-3
+endStory: 205604-4
+placeId: "46000"
+bgm: bgm01_battle01
+bossBgm: bgm01_battle01
+consumeType: NORMAL
+exp: 90
+cardExp: 75
+baseBondsPt: 75
+riche: 1500
+firstClearRewardCodes: ITEM_CURE_AP_50_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 306
+dropItem1:
+  dropItemId: 306
+  rewardCode1: GIFT_306_1
+dropItemId2: 555
+dropItem2:
+  dropItemId: 555
+  rewardCode1: GIFT_555_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_10
+missionMaster2:
+  description: 10ターン以内クリア
+mission3: HP_50
+missionMaster3:
+  description: 合計残HPが50％以上でクリア
+missionRewardCode: ITEM_PRISM_1
+waveEnemyAttributeIdList:
+- FIRE
+- WATER
+- TIMBER
+- LIGHT
+- DARK
+parameterMap: []
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

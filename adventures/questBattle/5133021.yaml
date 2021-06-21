@@ -1,0 +1,67 @@
+---
+questBattleId: 5133021
+sectionId: 513302
+eventId: 1133
+sectionIndex: 1
+questBattleType: NORMAL
+bossFlag: false
+placeId: "46211"
+bgm: bgm01_battle03
+bossBgm: bgm01_battle03
+consumeType: NORMAL
+ap: 10
+difficulty: 10
+exp: 30
+cardExp: 150
+baseBondsPt: 100
+riche: 500
+parameter: EXPC=25000,EP=5500
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 113303
+dropItem1:
+  dropItemId: 113303
+  rewardCode1: ITEM_EVENT_TRAINING_1133_1
+  rewardCode2: ITEM_EVENT_TRAINING_1133_2
+dropItemId2: 102911
+dropItem2:
+  dropItemId: 102911
+  rewardCode1: GIFT_111_1
+  rewardCode2: GIFT_121_1
+  rewardCode3: GIFT_131_1
+  rewardCode4: GIFT_141_1
+  rewardCode5: GIFT_151_1
+dropItemId3: 102914
+dropItem3:
+  dropItemId: 102914
+  rewardCode1: GIFT_211_1
+  rewardCode2: GIFT_221_1
+  rewardCode3: GIFT_231_1
+  rewardCode4: GIFT_241_1
+  rewardCode5: GIFT_251_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_5
+waveEnemyAttributeIdList:
+- TIMBER
+- FIRE
+- WATER
+- DARK
+- LIGHT
+parameterMap:
+  EXPC: "25000"
+  EP: "5500"
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

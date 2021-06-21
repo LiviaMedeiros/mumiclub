@@ -1,0 +1,50 @@
+---
+questBattleId: 5133013
+sectionId: 513301
+eventId: 1133
+sectionIndex: 3
+questBattleType: NORMAL
+bossFlag: false
+title: ストーリーⅢ
+startStory: 513301-3
+endStory: 513301-4
+placeId: "46104"
+bgm: bgm01_anime16
+bossBgm: bgm01_anime15
+consumeType: NORMAL
+ap: 5
+difficulty: 10
+exp: 25
+cardExp: 50
+baseBondsPt: 40
+riche: 100
+parameter: EXPC=3000,EP=3000
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 113302
+dropItem1:
+  dropItemId: 113302
+  rewardCode1: ITEM_EVENT_TRAINING_1133_1
+  rewardCode2: GIFT_553_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_5
+waveEnemyAttributeIdList:
+- WATER
+parameterMap:
+  EXPC: "3000"
+  EP: "3000"
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

@@ -1,0 +1,57 @@
+---
+questBattleId: 5133034
+sectionId: 513303
+eventId: 1133
+sectionIndex: 4
+questBattleType: NORMAL
+bossFlag: false
+title: エクストラⅣ
+placeId: "46105"
+bgm: bgm01_anime12
+bossBgm: bgm01_anime15
+consumeType: NORMAL
+ap: 30
+difficulty: 75
+exp: 180
+cardExp: 120
+baseBondsPt: 90
+riche: 1500
+parameter: EP=3000
+firstClearRewardCodes: GIFT_554_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 113312
+dropItem1:
+  dropItemId: 113312
+  rewardCode1: ITEM_EVENT_TRAINING_1133_3
+  rewardCode2: ITEM_EVENT_TRAINING_1133_4
+  rewardCode3: ITEM_EVENT_TRAINING_1133_5
+dropItemId2: 113313
+dropItem2:
+  dropItemId: 113313
+  rewardCode1: GIFT_305_1
+dropItemId3: 113314
+dropItem3:
+  dropItemId: 113314
+  rewardCode1: GIFT_554_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_5
+waveEnemyAttributeIdList:
+- TIMBER
+- WATER
+parameterMap:
+  EP: "3000"
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
