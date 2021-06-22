@@ -1,0 +1,613 @@
+{
+    "npcHelpId": 221,
+    "userCardList": [
+        {
+            "cardId": 10155,
+            "displayCardId": 10155,
+            "revision": 3,
+            "attack": 8479,
+            "defense": 8887,
+            "hp": 27303,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10155,
+                "charaNo": 1015,
+                "miniCharaNo": 101500,
+                "magiaCharaNo": 101500,
+                "cardName": "環 うい",
+                "rank": "RANK_5",
+                "attributeId": "DARK",
+                "initialType": "BALANCE",
+                "growthType": "DEFHP",
+                "attack": 2136,
+                "defense": 2189,
+                "hp": 6775,
+                "rateGainMpAtk": 900,
+                "rateGainMpDef": 900,
+                "magiaId": 10155,
+                "cardMagia": {
+                    "id": 10155,
+                    "groupId": 1014,
+                    "name": "ルーチェ・スペランツァー",
+                    "shortDescription": "敵全体にダメージ[Ⅷ] & MPダメージ(敵全) & 必ず呪い(敵全/1T) & MP回復(自)",
+                    "artId1": 100300108,
+                    "art1": {
+                        "artId": 100300108,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3700,
+                        "growPoint": 100
+                    },
+                    "artId2": 200316405,
+                    "art2": {
+                        "artId": 200316405,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP_DAMAGE",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "growPoint": 0
+                    },
+                    "artId3": 510305000,
+                    "art3": {
+                        "artId": 510305000,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CURSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId4": 200200503,
+                    "art4": {
+                        "artId": 200200503,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 10158,
+                "doppelCardMagia": {
+                    "id": 10158,
+                    "groupId": 1014,
+                    "name": "受難のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅹ] & MPダメージ(敵全) & 必ず呪い(敵全/1T) & MP回復(自)",
+                    "artId1": 190404581,
+                    "art1": {
+                        "artId": 190404581,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 200316410,
+                    "art2": {
+                        "artId": 200316410,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP_DAMAGE",
+                        "targetId": "ALL",
+                        "effectValue": 600,
+                        "growPoint": 0
+                    },
+                    "artId3": 510305000,
+                    "art3": {
+                        "artId": 510305000,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CURSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId4": 200200505,
+                    "art4": {
+                        "artId": 200200505,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 101500,
+                "doppel": {
+                    "id": 101500,
+                    "name": "受難のドッペル",
+                    "title": "その姿は、幸福な彫像",
+                    "description": "この感情の主は愛する者達とあらゆる苦難を共にし、自らのものとして背負い込む。＠そして苦難は宝石へと姿を変え、＠ドッペルを飾る宝石の量に比例してその力も増してゆく。＠ただし動けないので攻撃は全くかわせず、盾と剣を持っているが装飾品なので武器としては使えない。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2019/04/26 15:10:00"
+                },
+                "skillId": 10155,
+                "cardSkill": {
+                    "id": 10155,
+                    "groupId": 1085,
+                    "name": "ひよっこでもいいですか!?",
+                    "shortDescription": "攻撃力UP[Ⅸ] & 必ずダメージカット無視 & 必ず呪い",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610416515,
+                    "art2": {
+                        "artId": 610416515,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 610410500,
+                    "art3": {
+                        "artId": 610410500,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "CURSE",
+                        "targetId": "CONNECT",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "ぷにゃん",
+                "cardCustomize": {
+                    "cardId": 10155,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 70,
+                    "giftId2": 153,
+                    "gift2": {
+                        "id": 153,
+                        "type": 1,
+                        "name": "ダークオーブ＋＋",
+                        "attributeId": "DARK",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 70,
+                    "giftId3": 152,
+                    "gift3": {
+                        "id": 152,
+                        "type": 1,
+                        "name": "ダークオーブ＋",
+                        "attributeId": "DARK",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum3": 15,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 507,
+                    "gift4": {
+                        "id": 507,
+                        "type": 2,
+                        "name": "ビッグフェリスのタービン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/21 15:10:00"
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 310,
+                    "gift5": {
+                        "id": 310,
+                        "type": 2,
+                        "name": "流浪の杭",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/09/03 15:10:00"
+                    },
+                    "giftNum5": 15,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 557,
+                    "gift6": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                },
+                "openDate": "2019/04/26 15:10:00"
+            },
+            "npcHelpId": 221,
+            "npcPieceId1": 1339
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1015,
+            "chara": {
+                "id": 1015,
+                "name": "環 うい",
+                "kana": "たまき うい",
+                "attributeId": "DARK",
+                "attackType": 1,
+                "initialType": "BALANCE",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10154,
+                "defaultCard": {
+                    "cardId": 10154,
+                    "rank": "RANK_4",
+                    "attributeId": "DARK",
+                    "initialType": "BALANCE",
+                    "growthType": "DEFHP",
+                    "attack": 1883,
+                    "defense": 1930,
+                    "hp": 5973,
+                    "miniCharaNo": 101500,
+                    "charaNo": 1015,
+                    "cardName": "環 うい",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10154,
+                        "groupId": 1014,
+                        "name": "ルーチェ・スペランツァー",
+                        "shortDescription": "敵全体にダメージ[Ⅵ] & MPダメージ(敵全) & 必ず呪い(敵全/1T)",
+                        "artId1": 100300106,
+                        "art1": {
+                            "artId": 100300106,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3500,
+                            "growPoint": 100
+                        },
+                        "artId2": 200316404,
+                        "art2": {
+                            "artId": 200316404,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP_DAMAGE",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "growPoint": 0
+                        },
+                        "artId3": 510305000,
+                        "art3": {
+                            "artId": 510305000,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "CURSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10154,
+                        "groupId": 1085,
+                        "name": "ひよっこでもいいですか!?",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 必ずダメージカット無視 & 確率で呪い",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610416515,
+                        "art2": {
+                            "artId": 610416515,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 9400,
+                        "art3": {
+                            "artId": 9400,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CURSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 650
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10155,
+                "evolutionCard1": {
+                    "cardId": 10155,
+                    "rank": "RANK_5",
+                    "attributeId": "DARK",
+                    "initialType": "BALANCE",
+                    "growthType": "DEFHP",
+                    "attack": 2136,
+                    "defense": 2189,
+                    "hp": 6775,
+                    "miniCharaNo": 101500,
+                    "charaNo": 1015,
+                    "cardName": "環 うい",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10155,
+                        "groupId": 1014,
+                        "name": "ルーチェ・スペランツァー",
+                        "shortDescription": "敵全体にダメージ[Ⅷ] & MPダメージ(敵全) & 必ず呪い(敵全/1T) & MP回復(自)",
+                        "artId1": 100300108,
+                        "art1": {
+                            "artId": 100300108,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3700,
+                            "growPoint": 100
+                        },
+                        "artId2": 200316405,
+                        "art2": {
+                            "artId": 200316405,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP_DAMAGE",
+                            "targetId": "ALL",
+                            "effectValue": 350,
+                            "growPoint": 0
+                        },
+                        "artId3": 510305000,
+                        "art3": {
+                            "artId": 510305000,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "CURSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId4": 200200503,
+                        "art4": {
+                            "artId": 200200503,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10155,
+                        "groupId": 1085,
+                        "name": "ひよっこでもいいですか!?",
+                        "shortDescription": "攻撃力UP[Ⅸ] & 必ずダメージカット無視 & 必ず呪い",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610416515,
+                        "art2": {
+                            "artId": 610416515,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 610410500,
+                        "art3": {
+                            "artId": 610410500,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "CURSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "幸せのために何ができるのか迷い続ける魔法少女。外を知らずに育ち、魔法少女としても初心者なので、周りに負けないように努力を続けている。相手の良い面を見つけるのが上手で、人を嫌いになることがない。灯花＆ねむの幼馴染でいろはの妹。",
+                "school": "神浜市立大附属学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "石見舞菜香",
+                "openDate": "2019/04/26 15:10:00",
+                "enhancementGroupId": 139
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "178de01b-3b26-46c5-9c90-8a70f10b22da",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 101500,
+            "npcHelpId": 221,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [
+        {
+            "doppelId": 101500,
+            "npcHelpId": 221
+        }
+    ],
+    "userPieceList": [
+        {
+            "pieceId": 1339,
+            "piece": {
+                "pieceId": 1339,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "願いで満ちた世界だから",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 770,
+                "defense": 0,
+                "hp": 840,
+                "skillId": 133900,
+                "pieceSkill": {
+                    "id": 133900,
+                    "groupId": 1090,
+                    "name": "グラムイミュニティ[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅲ] & 状態異常耐性UP[Ⅱ]",
+                    "artId1": 390201603,
+                    "art1": {
+                        "artId": 390201603,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201502,
+                    "art2": {
+                        "artId": 390201502,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "eventId": 1057,
+                    "eventArtId1": 1057003,
+                    "eventArt1": {
+                        "artId": 1057003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 3000,
+                        "genericValue": "EVENT_DAILYTOWER_1057_KEY"
+                    },
+                    "eventDescription": "＆カレンダー入手時＋3",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 133901,
+                "pieceSkill2": {
+                    "id": 133901,
+                    "groupId": 1090,
+                    "name": "グラムイミュニティ[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅳ] & 状態異常耐性UP[Ⅲ]",
+                    "artId1": 390201604,
+                    "art1": {
+                        "artId": 390201604,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 175,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201503,
+                    "art2": {
+                        "artId": 390201503,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "eventId": 1057,
+                    "eventArtId1": 1057004,
+                    "eventArt1": {
+                        "artId": 1057004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 7000,
+                        "genericValue": "EVENT_DAILYTOWER_1057_KEY"
+                    },
+                    "eventDescription": "＆カレンダー入手時＋7",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「自由になる喜びは知っているけど、これは大地に立っただけ＠次は、みんなと一緒に羽を広げて、大空に向かって羽ばたきたい＠まだ誰も知らない次への架け橋になって＠憎まず、嫉まず、恨まず、健やかな気持ちで笑顔であれるように」",
+                "illustrator": "谷口淳一郎",
+                "openDate": "2019/04/26 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1155,
+            "defense": 0,
+            "hp": 1260,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 221
+        }
+    ],
+    "isNpc": true,
+    "userName": "環 うい",
+    "userRank": 100,
+    "cardId": 10155,
+    "charaName": "環 うい",
+    "cardRank": "RANK_5",
+    "attributeId": "DARK",
+    "level": 100,
+    "displayCardId": 10155,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
