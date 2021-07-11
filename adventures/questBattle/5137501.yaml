@@ -1,0 +1,59 @@
+---
+questBattleId: 5137501
+sectionId: 513750
+eventId: 1137
+sectionIndex: 1
+questBattleType: ENDLESS
+bossFlag: false
+title: チャレンジⅠ
+placeId: "21181"
+bgm: bgm01_battle08
+bossBgm: bgm01_battle08
+consumeType: ITEM
+difficulty: 95
+exp: 12
+cardExp: 5
+baseBondsPt: 8
+riche: 75
+switchCharaId1: 1002
+switchNpcId1: 222
+switchCharaId2: 1202
+switchNpcId2: 223
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+mission1: ACTION_50
+missionMaster1:
+  description: 50ターン以内クリア
+mission2: ACTION_40
+missionMaster2:
+  description: 40ターン以内クリア
+mission3: ACTION_30
+missionMaster3:
+  description: 30ターン以内クリア
+missionRewardCode: ITEM_PRISM_5
+waveEnemyAttributeIdList:
+- DARK
+- TIMBER
+- LIGHT
+- WATER
+- FIRE
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1137_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1137_KEY
+  name: 七夕飾り
+  shortDescription: 「梶の葉伝説物語」のクエストプレイ用アイテム
+  description: 「梶の葉伝説物語」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1137
+needItemNum: 5
+recordType: TURN
+autoRun: true
+...
