@@ -1,0 +1,41 @@
+---
+questBattleId: 5140502
+sectionId: 514050
+eventId: 1140
+sectionIndex: 2
+questBattleType: ENDLESS
+bossFlag: false
+title: チャレンジⅡ
+placeId: "21181"
+bgm: bgm01_battle08
+bossBgm: bgm01_battle08
+consumeType: NORMAL
+ap: 1
+difficulty: 95
+exp: 10
+cardExp: 5
+baseBondsPt: 5
+riche: 50
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+mission1: ACTION_60
+missionMaster1:
+  description: 60ターン以内クリア
+mission2: ACTION_50
+missionMaster2:
+  description: 50ターン以内クリア
+mission3: ACTION_40
+missionMaster3:
+  description: 40ターン以内クリア
+missionRewardCode: ITEM_PRISM_5
+waveEnemyAttributeIdList:
+- LIGHT
+- FIRE
+- WATER
+- VOID
+parameterMap: []
+recordType: TURN
+autoRun: true
+...

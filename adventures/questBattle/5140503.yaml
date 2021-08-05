@@ -1,0 +1,42 @@
+---
+questBattleId: 5140503
+sectionId: 514050
+eventId: 1140
+sectionIndex: 3
+questBattleType: ENDLESS
+bossFlag: false
+title: チャレンジⅢ
+placeId: "21181"
+bgm: bgm01_battle08
+bossBgm: bgm01_battle08
+consumeType: NORMAL
+ap: 1
+difficulty: 95
+exp: 10
+cardExp: 5
+baseBondsPt: 5
+riche: 50
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+mission1: ACTION_70
+missionMaster1:
+  description: 70ターン以内クリア
+mission2: ACTION_60
+missionMaster2:
+  description: 60ターン以内クリア
+mission3: ACTION_50
+missionMaster3:
+  description: 50ターン以内クリア
+missionRewardCode: ITEM_PRISM_5
+waveEnemyAttributeIdList:
+- LIGHT
+- DARK
+- WATER
+- TIMBER
+- FIRE
+parameterMap: []
+recordType: TURN
+autoRun: true
+...
