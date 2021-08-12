@@ -1,0 +1,518 @@
+{
+    "npcHelpId": 240,
+    "userCardList": [
+        {
+            "cardId": 10095,
+            "displayCardId": 10095,
+            "revision": 3,
+            "attack": 9776,
+            "defense": 7366,
+            "hp": 22144,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10095,
+                "charaNo": 1009,
+                "miniCharaNo": 100900,
+                "magiaCharaNo": 100900,
+                "cardName": "水波 レナ",
+                "rank": "RANK_5",
+                "attributeId": "WATER",
+                "initialType": "ATTACK",
+                "growthType": "ATKDEF",
+                "attack": 2408,
+                "defense": 1828,
+                "hp": 5578,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 10095,
+                "cardMagia": {
+                    "id": 10095,
+                    "groupId": 1012,
+                    "name": "インフィニットポセイドン",
+                    "shortDescription": "敵単体にダメージ[Ⅶ] & MP回復(自) & Accele MPUP(自/3T)",
+                    "artId1": 100000107,
+                    "art1": {
+                        "artId": 100000107,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11520,
+                        "growPoint": 100
+                    },
+                    "artId2": 200200507,
+                    "art2": {
+                        "artId": 200200507,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 10
+                    },
+                    "artId3": 330201607,
+                    "art3": {
+                        "artId": 330201607,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 10098,
+                "doppelCardMagia": {
+                    "id": 10098,
+                    "groupId": 1012,
+                    "name": "変身のドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅸ] & MP回復(自) & Accele MPUP(自/3T)",
+                    "artId1": 190100981,
+                    "art1": {
+                        "artId": 190100981,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 26752,
+                        "growPoint": 220
+                    },
+                    "artId2": 200200509,
+                    "art2": {
+                        "artId": 200200509,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 400,
+                        "growPoint": 10
+                    },
+                    "artId3": 330201609,
+                    "art3": {
+                        "artId": 330201609,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelCharaNo": 100900,
+                "doppel": {
+                    "id": 100900,
+                    "name": "変身のドッペル",
+                    "title": "その姿は、ガラス靴",
+                    "description": "この感情の主はその力を自身のため余すところなく行使する。＠このドッペルは主が持つ変身能力を何倍にも跳ね上げ、一定時間完全に自分を自分以外の誰か、本物よりも本物らしい理想の他者へと変質させることが出来る。＠しかしあまりに完璧なこの変身を多用すれば、やがて本来の自己の姿を見失ってしまうだろう。＠尚、このドッペルは主を主の理想とする他者の姿へと変身させるため、それが元来の他者とは多少違って見えてしまうことも間々ある。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true
+                },
+                "skillId": 10095,
+                "cardSkill": {
+                    "id": 10095,
+                    "groupId": 1085,
+                    "name": "仕方ないから手伝ってあげる",
+                    "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401609,
+                    "art2": {
+                        "artId": 310401609,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610406309,
+                    "art3": {
+                        "artId": 610406309,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 700
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "MPUP",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "cardCustomize": {
+                    "cardId": 10095,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 122,
+                    "gift2": {
+                        "id": 122,
+                        "type": 1,
+                        "name": "アクアオーブ＋",
+                        "attributeId": "WATER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 123,
+                    "gift3": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 554,
+                    "gift4": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 90,
+                    "giftId5": 502,
+                    "gift5": {
+                        "id": 502,
+                        "type": 2,
+                        "name": "階段のモニュメント",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 402,
+                    "gift6": {
+                        "id": 402,
+                        "type": 2,
+                        "name": "南京錠の鎖",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 240,
+            "npcPieceId1": 1059
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1009,
+            "chara": {
+                "id": 1009,
+                "name": "水波 レナ",
+                "kana": "みなみ れな",
+                "attributeId": "WATER",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "ATKDEF",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10094,
+                "defaultCard": {
+                    "cardId": 10094,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "ATTACK",
+                    "growthType": "ATKDEF",
+                    "attack": 2122,
+                    "defense": 1612,
+                    "hp": 4923,
+                    "miniCharaNo": 100900,
+                    "charaNo": 1009,
+                    "cardName": "水波 レナ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10094,
+                        "groupId": 1012,
+                        "name": "インフィニットポセイドン",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & MP回復(自)",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 200200505,
+                        "art2": {
+                            "artId": 200200505,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 300,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10094,
+                        "groupId": 1085,
+                        "name": "仕方ないから手伝ってあげる",
+                        "shortDescription": "攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ] & 確率でクリティカル[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401607,
+                        "art2": {
+                            "artId": 310401607,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406307,
+                        "art3": {
+                            "artId": 610406307,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10095,
+                "evolutionCard1": {
+                    "cardId": 10095,
+                    "rank": "RANK_5",
+                    "attributeId": "WATER",
+                    "initialType": "ATTACK",
+                    "growthType": "ATKDEF",
+                    "attack": 2408,
+                    "defense": 1828,
+                    "hp": 5578,
+                    "miniCharaNo": 100900,
+                    "charaNo": 1009,
+                    "cardName": "水波 レナ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10095,
+                        "groupId": 1012,
+                        "name": "インフィニットポセイドン",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & MP回復(自) & Accele MPUP(自/3T)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 200200507,
+                        "art2": {
+                            "artId": 200200507,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 350,
+                            "growPoint": 10
+                        },
+                        "artId3": 330201607,
+                        "art3": {
+                            "artId": 330201607,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "SELF",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10095,
+                        "groupId": 1085,
+                        "name": "仕方ないから手伝ってあげる",
+                        "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401609,
+                        "art2": {
+                            "artId": 310401609,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406309,
+                        "art3": {
+                            "artId": 610406309,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 700
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "思っていることを素直に表現できない、不器用な魔法少女。＠日頃は自信のなさを勝気な態度で隠しているため、付き合いの浅い＠うちは何かと誤解されやすい。＠ツンケンした態度に相反して、食の好みは子供っぽく甘党。＠趣味は女性アイドルの追っかけ。",
+                "school": "神浜市立大附属学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "石原夏織",
+                "enhancementGroupId": 17
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "54c826e0-2644-498d-adba-f043d6aa4e49",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 100900,
+            "npcHelpId": 240,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1059,
+            "piece": {
+                "pieceId": 1059,
+                "pieceType": "ABILITY",
+                "pieceName": "息のあったコンビネーション！",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 541,
+                "defense": 0,
+                "hp": 661,
+                "skillId": 105910,
+                "pieceSkill": {
+                    "id": 105910,
+                    "groupId": 1090,
+                    "name": "アクセル・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅲ]",
+                    "artId1": 390201603,
+                    "art1": {
+                        "artId": 390201603,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 105911,
+                "pieceSkill2": {
+                    "id": 105911,
+                    "groupId": 1090,
+                    "name": "アクセル・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅳ]",
+                    "artId1": 390201604,
+                    "art1": {
+                        "artId": 390201604,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 175,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "日常的に言い争いをしている彼女達でも、互いに寄せる信頼は本物。＠戦いが始まれば喧嘩していたのが嘘だったかのように＠息の合った連携で次々と敵を倒していく。＠「レナは正面の敵、かえでは左右の敵を！背中はアタシに任せな！」",
+                "illustrator": "シャフト"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 811,
+            "defense": 0,
+            "hp": 991,
+            "protect": false,
+            "archive": false,
+            "npcHelpId": 240
+        }
+    ],
+    "isNpc": true,
+    "userName": "水波 レナ",
+    "userRank": 100,
+    "cardId": 10095,
+    "charaName": "水波 レナ",
+    "cardRank": "RANK_5",
+    "attributeId": "WATER",
+    "level": 100,
+    "displayCardId": 10095,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
