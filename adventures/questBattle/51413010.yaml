@@ -1,0 +1,71 @@
+---
+questBattleId: 51413010
+sectionId: 514130
+eventId: 1141
+sectionIndex: 10
+questBattleType: NORMAL
+bossFlag: false
+placeId: "19184"
+bgm: bgm01_battle01
+bossBgm: bgm02_boss01
+consumeType: ITEM
+difficulty: 90
+exp: 360
+cardExp: 135
+baseBondsPt: 225
+riche: 2250
+switchCharaId1: 1021
+switchNpcId1: 244
+firstClearRewardCodes: ITEM_EVENT_DAILYTOWER_1141_EXCHANGE_1_3
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 114109
+dropItem1:
+  dropItemId: 114109
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1141_EXCHANGE_1_15
+  rewardCode2: ITEM_EVENT_DAILYTOWER_1141_EXCHANGE_1_16
+  rewardCode3: ITEM_EVENT_DAILYTOWER_1141_EXCHANGE_1_17
+dropItemId2: 114104
+dropItem2:
+  dropItemId: 114104
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1141_EXCHANGE_1_5
+dropItemId3: 4085
+dropItem3:
+  dropItemId: 4085
+  rewardCode1: GIFT_408_1
+mission1: HP_10
+missionMaster1:
+  description: 合計残HPが10％以上でクリア
+mission2: ACTION_25
+missionMaster2:
+  description: 25ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRISM_3
+waveEnemyAttributeIdList:
+- FIRE
+- WATER
+- DARK
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1141_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1141_KEY
+  name: 憩いのアイス
+  shortDescription: 「お願い結菜さん」のクエストプレイ用アイテム
+  description: 「お願い結菜さん」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1141
+  invalidDropFactor: true
+needItemNum: 150
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
