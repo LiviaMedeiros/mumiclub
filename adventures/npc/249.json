@@ -1,0 +1,1258 @@
+{
+    "npcHelpId": 249,
+    "userCardList": [
+        {
+            "cardId": 21045,
+            "displayCardId": 21045,
+            "revision": 3,
+            "attack": 10004,
+            "defense": 9504,
+            "hp": 32512,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 21045,
+                "charaNo": 2104,
+                "miniCharaNo": 210400,
+                "magiaCharaNo": 210400,
+                "cardName": "まどか・いろは",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "EXCEED",
+                "growthType": "BALANCE",
+                "attack": 2501,
+                "defense": 2376,
+                "hp": 8128,
+                "rateGainMpAtk": 900,
+                "rateGainMpDef": 1000,
+                "magiaId": 21045,
+                "cardMagia": {
+                    "id": 21045,
+                    "groupId": 1014,
+                    "name": "プルヴィア・フトゥーロ",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & 全ディスク効果UP & デバフ効果を1回無効 & バリア(5000)を付与(味全/3T) & HP回復(味全)",
+                    "artId1": 100300207,
+                    "art1": {
+                        "artId": 100300207,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 3350,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301804,
+                    "art2": {
+                        "artId": 330301804,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330301709,
+                    "art3": {
+                        "artId": 330301709,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 330301605,
+                    "art4": {
+                        "artId": 330301605,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId5": 630319100,
+                    "art5": {
+                        "artId": 630319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId6": 630322109,
+                    "art6": {
+                        "artId": 630322109,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "BARRIER",
+                        "targetId": "ALL",
+                        "effectValue": 5000,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "parameter": 1,
+                        "probability": 1000
+                    },
+                    "artId7": 200300413,
+                    "art7": {
+                        "artId": 200300413,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "growPoint": 20
+                    }
+                },
+                "doppelMagiaId": 21048,
+                "doppelCardMagia": {
+                    "id": 21048,
+                    "groupId": 1014,
+                    "name": "マギア☆マギカ",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & 全ディスク効果UP & デバフ効果を3回無効 & バリア(8000)を付与(味全/5T) & HP全回復 & MP回復(味全)",
+                    "artId1": 190210481,
+                    "art1": {
+                        "artId": 190210481,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 7810,
+                        "growPoint": 220
+                    },
+                    "artId2": 350301806,
+                    "art2": {
+                        "artId": 350301806,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "ALL",
+                        "effectValue": 400,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 350301713,
+                    "art3": {
+                        "artId": 350301713,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "ALL",
+                        "effectValue": 400,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId4": 350301609,
+                    "art4": {
+                        "artId": 350301609,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId5": 650319100,
+                    "art5": {
+                        "artId": 650319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId6": 650319100,
+                    "art6": {
+                        "artId": 650319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId7": 650319100,
+                    "art7": {
+                        "artId": 650319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId8": 650322115,
+                    "art8": {
+                        "artId": 650322115,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "BARRIER",
+                        "targetId": "ALL",
+                        "effectValue": 8000,
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "parameter": 1,
+                        "probability": 1000
+                    },
+                    "artId9": 9525,
+                    "art9": {
+                        "artId": 9525,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 1000,
+                        "growPoint": 0
+                    },
+                    "artId10": 200300508,
+                    "art10": {
+                        "artId": 200300508,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 210400,
+                "doppel": {
+                    "id": 210400,
+                    "name": "マギア☆マギカ",
+                    "title": "ー",
+                    "description": "ー",
+                    "designer": "………",
+                    "archive": false,
+                    "openDate": "2050/08/22 00:00:00"
+                },
+                "skillId": 21045,
+                "cardSkill": {
+                    "id": 21045,
+                    "groupId": 1087,
+                    "name": "ほら、希望の道へ！",
+                    "shortDescription": "与えるダメージUP[Ⅸ] & HP回復[Ⅸ] & MP回復[Ⅷ]",
+                    "artId1": 310401309,
+                    "art1": {
+                        "artId": 310401309,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200400409,
+                    "art2": {
+                        "artId": 200400409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "growPoint": 20
+                    },
+                    "artId3": 200400508,
+                    "art3": {
+                        "artId": 200400508,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "CONNECT",
+                        "effectValue": 300,
+                        "growPoint": 10
+                    }
+                },
+                "pieceSkillId1": 21041,
+                "pieceSkillList": [
+                    {
+                        "id": 21041,
+                        "groupId": 1220,
+                        "name": "イグノア・シールマギア[Ⅰ]",
+                        "type": "ABILITY",
+                        "shortDescription": "『ドッペルダメージUP[Ⅰ] & マギアダメージUP[Ⅰ] & 必ずマギア不可無効』のアビリティを所持",
+                        "artId1": 390218301,
+                        "art1": {
+                            "artId": 390218301,
+                            "verbCode": "BUFF",
+                            "effectCode": "DOPPEL",
+                            "targetId": "SELF",
+                            "effectValue": 50,
+                            "growPoint": 0
+                        },
+                        "artId2": 390201401,
+                        "art2": {
+                            "artId": 390201401,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "SELF",
+                            "effectValue": 50,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId3": 690209300,
+                        "art3": {
+                            "artId": 690209300,
+                            "verbCode": "IGNORE",
+                            "effectCode": "BAN_MAGIA",
+                            "targetId": "SELF",
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "maxPieceSkillId1": 21042,
+                "maxPieceSkillList": [
+                    {
+                        "id": 21042,
+                        "groupId": 1220,
+                        "name": "イグノア・シールマギア[Ⅱ]",
+                        "type": "ABILITY",
+                        "shortDescription": "『ドッペルダメージUP[Ⅱ] & マギアダメージUP[Ⅱ] & 必ずマギア不可無効』のアビリティを所持",
+                        "artId1": 390218302,
+                        "art1": {
+                            "artId": 390218302,
+                            "verbCode": "BUFF",
+                            "effectCode": "DOPPEL",
+                            "targetId": "SELF",
+                            "effectValue": 100,
+                            "growPoint": 0
+                        },
+                        "artId2": 390201402,
+                        "art2": {
+                            "artId": 390201402,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "SELF",
+                            "effectValue": 75,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId3": 690209300,
+                        "art3": {
+                            "artId": 690209300,
+                            "verbCode": "IGNORE",
+                            "effectCode": "BAN_MAGIA",
+                            "targetId": "SELF",
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "ササギコウシ・ふてね",
+                "cardCustomize": {
+                    "cardId": 21045,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 557,
+                    "gift4": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 505,
+                    "gift5": {
+                        "id": 505,
+                        "type": 2,
+                        "name": "人工知能のコード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 301,
+                    "gift6": {
+                        "id": 301,
+                        "type": 2,
+                        "name": "燕尾の羽",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 249,
+            "npcPieceId1": 1658,
+            "npcPieceId2": 1659,
+            "npcPieceId3": 1660,
+            "npcPieceId4": 1663
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 2104,
+            "chara": {
+                "id": 2104,
+                "name": "まどか・いろは",
+                "kana": "まどか・いろは",
+                "attributeId": "LIGHT",
+                "attackType": 3,
+                "initialType": "EXCEED",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": true,
+                "doubleUnitLive2dDetail": "210402",
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 21044,
+                "defaultCard": {
+                    "cardId": 21044,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "EXCEED",
+                    "growthType": "BALANCE",
+                    "attack": 2375,
+                    "defense": 2139,
+                    "hp": 7362,
+                    "miniCharaNo": 210400,
+                    "charaNo": 2104,
+                    "cardName": "まどか・いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 21044,
+                        "groupId": 1014,
+                        "name": "プルヴィア・フトゥーロ",
+                        "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] & 全ディスク効果UP & デバフ効果を1回無効 & バリア(3000)を付与(味全/3T) & HP回復(味全)",
+                        "artId1": 100300205,
+                        "art1": {
+                            "artId": 100300205,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "ALL",
+                            "effectValue": 3150,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301803,
+                        "art2": {
+                            "artId": 330301803,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330301707,
+                        "art3": {
+                            "artId": 330301707,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 330301603,
+                        "art4": {
+                            "artId": 330301603,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId5": 630319100,
+                        "art5": {
+                            "artId": 630319100,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000,
+                            "genericValue": "NONE"
+                        },
+                        "artId6": 630322105,
+                        "art6": {
+                            "artId": 630322105,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "BARRIER",
+                            "targetId": "ALL",
+                            "effectValue": 3000,
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "parameter": 1,
+                            "probability": 1000
+                        },
+                        "artId7": 200300409,
+                        "art7": {
+                            "artId": 200300409,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 21044,
+                        "groupId": 1087,
+                        "name": "ほら、希望の道へ！",
+                        "shortDescription": "与えるダメージUP[Ⅶ] & HP回復[Ⅶ] & MP回復[Ⅵ]",
+                        "artId1": 310401307,
+                        "art1": {
+                            "artId": 310401307,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400407,
+                        "art2": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId3": 200400506,
+                        "art3": {
+                            "artId": 200400506,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 21041,
+                            "groupId": 1220,
+                            "name": "イグノア・シールマギア[Ⅰ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ドッペルダメージUP[Ⅰ] & マギアダメージUP[Ⅰ] & 必ずマギア不可無効』のアビリティを所持",
+                            "artId1": 390218301,
+                            "art1": {
+                                "artId": 390218301,
+                                "verbCode": "BUFF",
+                                "effectCode": "DOPPEL",
+                                "targetId": "SELF",
+                                "effectValue": 50,
+                                "growPoint": 0
+                            },
+                            "artId2": 390201401,
+                            "art2": {
+                                "artId": 390201401,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "SELF",
+                                "effectValue": 50,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId3": 690209300,
+                            "art3": {
+                                "artId": 690209300,
+                                "verbCode": "IGNORE",
+                                "effectCode": "BAN_MAGIA",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 21042,
+                            "groupId": 1220,
+                            "name": "イグノア・シールマギア[Ⅱ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ドッペルダメージUP[Ⅱ] & マギアダメージUP[Ⅱ] & 必ずマギア不可無効』のアビリティを所持",
+                            "artId1": 390218302,
+                            "art1": {
+                                "artId": 390218302,
+                                "verbCode": "BUFF",
+                                "effectCode": "DOPPEL",
+                                "targetId": "SELF",
+                                "effectValue": 100,
+                                "growPoint": 0
+                            },
+                            "artId2": 390201402,
+                            "art2": {
+                                "artId": 390201402,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "SELF",
+                                "effectValue": 75,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId3": 690209300,
+                            "art3": {
+                                "artId": 690209300,
+                                "verbCode": "IGNORE",
+                                "effectCode": "BAN_MAGIA",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "evolutionCardId1": 21045,
+                "evolutionCard1": {
+                    "cardId": 21045,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "EXCEED",
+                    "growthType": "BALANCE",
+                    "attack": 2501,
+                    "defense": 2376,
+                    "hp": 8128,
+                    "miniCharaNo": 210400,
+                    "charaNo": 2104,
+                    "cardName": "まどか・いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 21045,
+                        "groupId": 1014,
+                        "name": "プルヴィア・フトゥーロ",
+                        "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & 全ディスク効果UP & デバフ効果を1回無効 & バリア(5000)を付与(味全/3T) & HP回復(味全)",
+                        "artId1": 100300207,
+                        "art1": {
+                            "artId": 100300207,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "ALL",
+                            "effectValue": 3350,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301804,
+                        "art2": {
+                            "artId": 330301804,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330301709,
+                        "art3": {
+                            "artId": 330301709,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 330301605,
+                        "art4": {
+                            "artId": 330301605,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId5": 630319100,
+                        "art5": {
+                            "artId": 630319100,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000,
+                            "genericValue": "NONE"
+                        },
+                        "artId6": 630322109,
+                        "art6": {
+                            "artId": 630322109,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "BARRIER",
+                            "targetId": "ALL",
+                            "effectValue": 5000,
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "parameter": 1,
+                            "probability": 1000
+                        },
+                        "artId7": 200300413,
+                        "art7": {
+                            "artId": 200300413,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 21045,
+                        "groupId": 1087,
+                        "name": "ほら、希望の道へ！",
+                        "shortDescription": "与えるダメージUP[Ⅸ] & HP回復[Ⅸ] & MP回復[Ⅷ]",
+                        "artId1": 310401309,
+                        "art1": {
+                            "artId": 310401309,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400409,
+                        "art2": {
+                            "artId": 200400409,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "growPoint": 20
+                        },
+                        "artId3": 200400508,
+                        "art3": {
+                            "artId": 200400508,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "growPoint": 10
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 21041,
+                            "groupId": 1220,
+                            "name": "イグノア・シールマギア[Ⅰ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ドッペルダメージUP[Ⅰ] & マギアダメージUP[Ⅰ] & 必ずマギア不可無効』のアビリティを所持",
+                            "artId1": 390218301,
+                            "art1": {
+                                "artId": 390218301,
+                                "verbCode": "BUFF",
+                                "effectCode": "DOPPEL",
+                                "targetId": "SELF",
+                                "effectValue": 50,
+                                "growPoint": 0
+                            },
+                            "artId2": 390201401,
+                            "art2": {
+                                "artId": 390201401,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "SELF",
+                                "effectValue": 50,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId3": 690209300,
+                            "art3": {
+                                "artId": 690209300,
+                                "verbCode": "IGNORE",
+                                "effectCode": "BAN_MAGIA",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 21042,
+                            "groupId": 1220,
+                            "name": "イグノア・シールマギア[Ⅱ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ドッペルダメージUP[Ⅱ] & マギアダメージUP[Ⅱ] & 必ずマギア不可無効』のアビリティを所持",
+                            "artId1": 390218302,
+                            "art1": {
+                                "artId": 390218302,
+                                "verbCode": "BUFF",
+                                "effectCode": "DOPPEL",
+                                "targetId": "SELF",
+                                "effectValue": 100,
+                                "growPoint": 0
+                            },
+                            "artId2": 390201402,
+                            "art2": {
+                                "artId": 390201402,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "SELF",
+                                "effectValue": 75,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId3": 690209300,
+                            "art3": {
+                                "artId": 690209300,
+                                "verbCode": "IGNORE",
+                                "effectCode": "BAN_MAGIA",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "description": "誰かの幸せのために心を砕き、誰かの不幸を共に涙してくれる魔法少女。自分に自信がなかった過去や、普段から少し控え目な点などで波長が合うのか、共に戦ってからは連絡を取り合うようになった。ふたりはこの出会いが奇跡なのを知らない。",
+                "school": "―",
+                "designer": "蒼樹うめ",
+                "voiceActor": "悠木碧、麻倉もも",
+                "openDate": "2021/08/22 00:00:00",
+                "enhancementGroupId": 162
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "6794726f-53b6-4ea6-849a-07021778fa29",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 210400,
+            "npcHelpId": 249,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1658,
+            "piece": {
+                "pieceId": 1658,
+                "pieceType": "ABILITY",
+                "pieceName": "髪型アレンジ交換会",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "2104",
+                "charaList": [
+                    {
+                        "charaId": 2104,
+                        "name": "まどか・いろは"
+                    }
+                ],
+                "attack": 478,
+                "defense": 0,
+                "hp": 478,
+                "skillId": 165800,
+                "pieceSkill": {
+                    "id": 165800,
+                    "groupId": 1085,
+                    "name": "グロー・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ] & 状態異常耐性UP[Ⅱ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 390201502,
+                    "art3": {
+                        "artId": 390201502,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 165801,
+                "pieceSkill2": {
+                    "id": 165801,
+                    "groupId": 1085,
+                    "name": "グロー・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅳ] & 防御力UP[Ⅳ] & 状態異常耐性UP[Ⅲ]",
+                    "artId1": 390201104,
+                    "art1": {
+                        "artId": 390201104,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201204,
+                    "art2": {
+                        "artId": 390201204,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 390201503,
+                    "art3": {
+                        "artId": 390201503,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「うーん…いろはちゃんみたいに三つ編みにして＠後ろで束ねるにはちょっと長さが足りないかな…？」＠「私もまどかちゃんみたいにするには長いかも…？」＠なんて笑い合って少し工夫すればいつもと違うふたりの完成！",
+                "illustrator": "mepo",
+                "openDate": "2021/08/22 00:00:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 717,
+            "defense": 0,
+            "hp": 717,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 249
+        },
+        {
+            "pieceId": 1659,
+            "piece": {
+                "pieceId": 1659,
+                "pieceType": "ABILITY",
+                "pieceName": "お外でばったりこんにちは",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 853,
+                "defense": 0,
+                "hp": 893,
+                "skillId": 165900,
+                "pieceSkill": {
+                    "id": 165900,
+                    "groupId": 1085,
+                    "name": "レジストオーラ・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & ダメージカット状態[Ⅲ] & 状態異常耐性[Ⅱ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690206203,
+                    "art2": {
+                        "artId": 690206203,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 390201502,
+                    "art3": {
+                        "artId": 390201502,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 165901,
+                "pieceSkill2": {
+                    "id": 165901,
+                    "groupId": 1085,
+                    "name": "レジストオーラ・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅳ] & ダメージカット状態[Ⅳ] & 状態異常耐性[Ⅲ]",
+                    "artId1": 390201104,
+                    "art1": {
+                        "artId": 390201104,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690206204,
+                    "art2": {
+                        "artId": 690206204,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 390201503,
+                    "art3": {
+                        "artId": 390201503,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "何気ない偶然の中で、大切な人たちが仲良くなるのは嬉しい＠でも、こそばゆいのは、なんてことのない会話の中から＠家族といるときのわたしと、友だちといるときのわたしが顔を出すから＠ちょっと恥ずかしいけど、こんな日常がとっても大切",
+                "illustrator": "ー",
+                "openDate": "2021/08/22 00:00:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1279,
+            "defense": 0,
+            "hp": 1339,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 249
+        },
+        {
+            "pieceId": 1660,
+            "piece": {
+                "pieceId": 1660,
+                "pieceType": "SKILL",
+                "pieceName": "日常にお邪魔します",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 890,
+                "hp": 890,
+                "skillId": 166000,
+                "pieceSkill": {
+                    "id": 166000,
+                    "groupId": 1095,
+                    "name": "スナイピングマギア[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 12,
+                    "shortDescription": "防御力DOWN[Ⅲ](敵全/1T) & マギアダメージUP[Ⅲ](味全/1T)",
+                    "messageId": 72,
+                    "artId1": 410302103,
+                    "art1": {
+                        "artId": 410302103,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310301403,
+                    "art2": {
+                        "artId": 310301403,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 166001,
+                "pieceSkill2": {
+                    "id": 166001,
+                    "groupId": 1095,
+                    "name": "スナイピングマギア[Ⅵ]",
+                    "type": "SKILL",
+                    "intervalTurn": 10,
+                    "shortDescription": "防御力DOWN[Ⅲ](敵全/1T) & マギアダメージUP[Ⅵ](味全/1T)",
+                    "messageId": 72,
+                    "artId1": 410302103,
+                    "art1": {
+                        "artId": 410302103,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310301406,
+                    "art2": {
+                        "artId": 310301406,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "ALL",
+                        "effectValue": 175,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "いつものファストフード店に集まって＠いろんな話題が飛び交って、ちょっとケンカもしたりして＠なんてことのない日常のワンシーンは中学生らしいもの＠聞いていた話そのままで、思わず笑顔がこぼれちゃった",
+                "illustrator": "ー",
+                "openDate": "2021/08/22 00:00:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1335,
+            "hp": 1335,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 249
+        },
+        {
+            "pieceId": 1663,
+            "piece": {
+                "pieceId": 1663,
+                "pieceType": "SKILL",
+                "pieceName": "どんな夢も、希望も",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 914,
+                "hp": 754,
+                "skillId": 166300,
+                "pieceSkill": {
+                    "id": 166300,
+                    "groupId": 1078,
+                    "name": "キュアヒール[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "HP回復[Ⅲ]",
+                    "messageId": 70,
+                    "artId1": 200200403,
+                    "art1": {
+                        "artId": 200200403,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 20
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 166301,
+                "pieceSkill2": {
+                    "id": 166301,
+                    "groupId": 1078,
+                    "name": "キュアヒール[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "HP回復[Ⅲ]",
+                    "messageId": 70,
+                    "artId1": 200200403,
+                    "art1": {
+                        "artId": 200200403,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 20
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "本来ならばありえないはずのふたりの出会い＠だけど、魔法少女はどんな夢も、希望も叶えるのだから＠そんなありえない奇跡がおきたって不思議じゃないのかもしれない＠【エムアイカードコラボ①いろは＆まどか】",
+                "illustrator": "原画：月浦まり　　監修：山村洋貴",
+                "openDate": "2021/08/22 00:00:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1371,
+            "hp": 1131,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 249
+        }
+    ],
+    "isNpc": true,
+    "userName": "まどか・いろは",
+    "userRank": 100,
+    "cardId": 21045,
+    "charaName": "まどか・いろは",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 21045,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}

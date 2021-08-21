@@ -1,0 +1,1020 @@
+{
+    "npcHelpId": 247,
+    "userCardList": [
+        {
+            "cardId": 10015,
+            "displayCardId": 10015,
+            "revision": 3,
+            "attack": 6276,
+            "defense": 8332,
+            "hp": 22020,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10015,
+                "charaNo": 1001,
+                "miniCharaNo": 100101,
+                "magiaCharaNo": 100101,
+                "cardName": "環 いろは",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "HEAL",
+                "growthType": "BALANCE",
+                "attack": 1569,
+                "defense": 2083,
+                "hp": 5505,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 10015,
+                "cardMagia": {
+                    "id": 10015,
+                    "groupId": 1014,
+                    "name": "ストラーダ・フトゥーロ",
+                    "shortDescription": "敵全体にダメージ[Ⅵ] & HP回復(味全) & 蘇生",
+                    "artId1": 100300106,
+                    "art1": {
+                        "artId": 100300106,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3500,
+                        "growPoint": 100
+                    },
+                    "artId2": 200300405,
+                    "art2": {
+                        "artId": 200300405,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "growPoint": 20
+                    },
+                    "artId3": 200100613,
+                    "art3": {
+                        "artId": 200100613,
+                        "verbCode": "RESURRECT",
+                        "targetId": "ONE",
+                        "effectValue": 500,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 10018,
+                "doppelCardMagia": {
+                    "id": 10018,
+                    "groupId": 1014,
+                    "name": "沈黙のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅷ] & HP回復(味全) & 状態異常解除(味全) & 蘇生",
+                    "artId1": 190100181,
+                    "art1": {
+                        "artId": 190100181,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 7920,
+                        "growPoint": 220
+                    },
+                    "artId2": 200300405,
+                    "art2": {
+                        "artId": 200300405,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "growPoint": 20
+                    },
+                    "artId3": 200301000,
+                    "art3": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    },
+                    "artId4": 200100613,
+                    "art4": {
+                        "artId": 200100613,
+                        "verbCode": "RESURRECT",
+                        "targetId": "ONE",
+                        "effectValue": 500,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 100100,
+                "doppel": {
+                    "id": 100100,
+                    "name": "沈黙のドッペル",
+                    "title": "その姿は、呼子鳥",
+                    "description": "この感情の主は、自身のドッペルの情けなさに気が付きつつも、その姿を直視できないでいる。＠このドッペルは何も語らず聞きたくない全てを布で締め壊し、その胸に開いた穴を埋めるものを探し続けている。＠誰かを呼び求めなくてはいけなかったはずなのに、臆病なこのドッペルは布で覆い隠した現実を直視することを恐れ、沈黙し耳を塞いだままでいる。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2019/03/11 15:10:00"
+                },
+                "skillId": 10015,
+                "cardSkill": {
+                    "id": 10015,
+                    "groupId": 1078,
+                    "name": "一緒にいるから大丈夫だよ",
+                    "shortDescription": "HP回復[Ⅷ] & 攻撃力UP[Ⅵ] & やちよにコネクトでMP回復",
+                    "artId1": 200400408,
+                    "art1": {
+                        "artId": 200400408,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 475,
+                        "growPoint": 20
+                    },
+                    "artId2": 310401106,
+                    "art2": {
+                        "artId": 310401106,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 325,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 9046,
+                    "art3": {
+                        "artId": 9046,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "LIMITED",
+                        "effectValue": 300,
+                        "growPoint": 10,
+                        "limitedValue": "1002"
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_H",
+                "commandType5": "CHARGE",
+                "illustrator": "ササギコウシ",
+                "cardCustomize": {
+                    "cardId": 10015,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 503,
+                    "gift4": {
+                        "id": 503,
+                        "type": 2,
+                        "name": "マチビト馬の車輪",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 508,
+                    "gift5": {
+                        "id": 508,
+                        "type": 2,
+                        "name": "スピーカーのベル",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/07/02 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 406,
+                    "gift6": {
+                        "id": 406,
+                        "type": 2,
+                        "name": "スタッフのキースイッチ",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                },
+                "openDate": "2019/03/11 15:10:00"
+            },
+            "npcHelpId": 247,
+            "npcPieceId1": 1244,
+            "npcPieceId2": 1538,
+            "npcPieceId3": 1582,
+            "npcPieceId4": 1583
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1001,
+            "chara": {
+                "id": 1001,
+                "name": "環 いろは",
+                "kana": "たまき いろは",
+                "attributeId": "LIGHT",
+                "attackType": 3,
+                "initialType": "HEAL",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 10011,
+                "defaultCard": {
+                    "cardId": 10011,
+                    "rank": "RANK_1",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 878,
+                    "defense": 1157,
+                    "hp": 3068,
+                    "miniCharaNo": 100100,
+                    "charaNo": 1001,
+                    "cardName": "環 いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10011,
+                        "groupId": 1014,
+                        "name": "ストラーダ・フトゥーロ",
+                        "shortDescription": "敵全体にダメージ[Ⅰ] & 蘇生",
+                        "artId1": 100300101,
+                        "art1": {
+                            "artId": 100300101,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3000,
+                            "growPoint": 100
+                        },
+                        "artId2": 200100601,
+                        "art2": {
+                            "artId": 200100601,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 200,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10011,
+                        "groupId": 1078,
+                        "name": "一緒にいるから大丈夫だよ",
+                        "shortDescription": "HP回復[Ⅰ]",
+                        "artId1": 200400401,
+                        "art1": {
+                            "artId": 200400401,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "growPoint": 20
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10012,
+                "evolutionCard1": {
+                    "cardId": 10012,
+                    "rank": "RANK_2",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 948,
+                    "defense": 1255,
+                    "hp": 3323,
+                    "miniCharaNo": 100100,
+                    "charaNo": 1001,
+                    "cardName": "環 いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10012,
+                        "groupId": 1014,
+                        "name": "ストラーダ・フトゥーロ",
+                        "shortDescription": "敵全体にダメージ[Ⅰ] & 蘇生",
+                        "artId1": 100300101,
+                        "art1": {
+                            "artId": 100300101,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3000,
+                            "growPoint": 100
+                        },
+                        "artId2": 200100601,
+                        "art2": {
+                            "artId": 200100601,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 200,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10012,
+                        "groupId": 1078,
+                        "name": "一緒にいるから大丈夫だよ",
+                        "shortDescription": "HP回復[Ⅲ]",
+                        "artId1": 200400403,
+                        "art1": {
+                            "artId": 200400403,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "growPoint": 20
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 10013,
+                "evolutionCard2": {
+                    "cardId": 10013,
+                    "rank": "RANK_3",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 1132,
+                    "defense": 1497,
+                    "hp": 3963,
+                    "miniCharaNo": 100100,
+                    "charaNo": 1001,
+                    "cardName": "環 いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10013,
+                        "groupId": 1014,
+                        "name": "ストラーダ・フトゥーロ",
+                        "shortDescription": "敵全体にダメージ[Ⅱ] & 蘇生",
+                        "artId1": 100300102,
+                        "art1": {
+                            "artId": 100300102,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3100,
+                            "growPoint": 100
+                        },
+                        "artId2": 200100603,
+                        "art2": {
+                            "artId": 200100603,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10013,
+                        "groupId": 1078,
+                        "name": "一緒にいるから大丈夫だよ",
+                        "shortDescription": "HP回復[Ⅴ]",
+                        "artId1": 200400405,
+                        "art1": {
+                            "artId": 200400405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "growPoint": 20
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId3": 10014,
+                "evolutionCard3": {
+                    "cardId": 10014,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 1405,
+                    "defense": 1865,
+                    "hp": 4930,
+                    "miniCharaNo": 100100,
+                    "charaNo": 1001,
+                    "cardName": "環 いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10014,
+                        "groupId": 1014,
+                        "name": "ストラーダ・フトゥーロ",
+                        "shortDescription": "敵全体にダメージ[Ⅳ] & 蘇生",
+                        "artId1": 100300104,
+                        "art1": {
+                            "artId": 100300104,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3300,
+                            "growPoint": 100
+                        },
+                        "artId2": 200100605,
+                        "art2": {
+                            "artId": 200100605,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 300,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10014,
+                        "groupId": 1078,
+                        "name": "一緒にいるから大丈夫だよ",
+                        "shortDescription": "HP回復[Ⅶ] & やちよにコネクトでMP回復",
+                        "artId1": 200400407,
+                        "art1": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId2": 9046,
+                        "art2": {
+                            "artId": 9046,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "LIMITED",
+                            "effectValue": 300,
+                            "growPoint": 10,
+                            "limitedValue": "1002"
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId4": 10015,
+                "evolutionCard4": {
+                    "cardId": 10015,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 1569,
+                    "defense": 2083,
+                    "hp": 5505,
+                    "miniCharaNo": 100101,
+                    "charaNo": 1001,
+                    "cardName": "環 いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10015,
+                        "groupId": 1014,
+                        "name": "ストラーダ・フトゥーロ",
+                        "shortDescription": "敵全体にダメージ[Ⅵ] & HP回復(味全) & 蘇生",
+                        "artId1": 100300106,
+                        "art1": {
+                            "artId": 100300106,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3500,
+                            "growPoint": 100
+                        },
+                        "artId2": 200300405,
+                        "art2": {
+                            "artId": 200300405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "growPoint": 20
+                        },
+                        "artId3": 200100613,
+                        "art3": {
+                            "artId": 200100613,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 500,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10015,
+                        "groupId": 1078,
+                        "name": "一緒にいるから大丈夫だよ",
+                        "shortDescription": "HP回復[Ⅷ] & 攻撃力UP[Ⅵ] & やちよにコネクトでMP回復",
+                        "artId1": 200400408,
+                        "art1": {
+                            "artId": 200400408,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 475,
+                            "growPoint": 20
+                        },
+                        "artId2": 310401106,
+                        "art2": {
+                            "artId": 310401106,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 325,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 9046,
+                        "art3": {
+                            "artId": 9046,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "LIMITED",
+                            "effectValue": 300,
+                            "growPoint": 10,
+                            "limitedValue": "1002"
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "不思議な夢の真相を探るべく、神浜市にやってきた魔法少女。＠お人好しな性格で、気遣いが行き過ぎてしまうことも多々ある。＠最新の流行には疎く、スマホの扱いもぎこちない。＠日頃は控えめだが、ここ一番では芯の強さを見せる。",
+                "school": "神浜市立大附属学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "麻倉もも",
+                "enhancementGroupId": 1
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "ad3ac1c5-1173-44ea-a0cb-416d0f01178d",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 100101,
+            "npcHelpId": 247,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1244,
+            "piece": {
+                "pieceId": 1244,
+                "pieceType": "SKILL",
+                "pieceName": "ここで一息＜いろは・やちよ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 727,
+                "hp": 887,
+                "skillId": 124400,
+                "pieceSkill": {
+                    "id": 124400,
+                    "groupId": 1090,
+                    "name": "アクセルアップ[Ⅵ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "Accele MPUP[Ⅵ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 310201606,
+                    "art1": {
+                        "artId": 310201606,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 124401,
+                "pieceSkill2": {
+                    "id": 124401,
+                    "groupId": 1090,
+                    "name": "アクセルアップ[Ⅶ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "Accele MPUP[Ⅶ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 310201607,
+                    "art1": {
+                        "artId": 310201607,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "偶然見つけた素敵な場所！＠手際良く紅茶とお菓子の準備をしたら＠とっておきの休憩スポットが完成！＠せっかくだから、友達をたくさん誘っちゃおう（Tカードコラボ記念）",
+                "illustrator": "シャフト",
+                "openDate": "2018/08/08 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1090,
+            "hp": 1330,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 247
+        },
+        {
+            "pieceId": 1538,
+            "piece": {
+                "pieceId": 1538,
+                "pieceType": "ABILITY",
+                "pieceName": "今日という一生の思い出",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 886,
+                "defense": 0,
+                "hp": 726,
+                "skillId": 153800,
+                "pieceSkill": {
+                    "id": 153800,
+                    "groupId": 1173,
+                    "name": "今日という一生の思い出",
+                    "type": "ABILITY",
+                    "shortDescription": "獲得エピソードポイントUP[Ⅱ] & 攻撃力UP[Ⅰ]",
+                    "artId1": 700216302,
+                    "art1": {
+                        "artId": 700216302,
+                        "verbCode": "OTHER",
+                        "effectCode": "EPISODE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 0
+                    },
+                    "artId2": 390201101,
+                    "art2": {
+                        "artId": 390201101,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 153801,
+                "pieceSkill2": {
+                    "id": 153801,
+                    "groupId": 1173,
+                    "name": "今日という一生の思い出",
+                    "type": "ABILITY",
+                    "shortDescription": "獲得エピソードポイントUP[Ⅱ] & 攻撃力UP[Ⅱ]",
+                    "artId1": 700216302,
+                    "art1": {
+                        "artId": 700216302,
+                        "verbCode": "OTHER",
+                        "effectCode": "EPISODE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 0
+                    },
+                    "artId2": 390201102,
+                    "art2": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "今日は大事な大事な誕生日＠いつもの６人、いつもの場所で盛大にお祝い＠その日常がどれほどの幸福かを噛みしめて＠少女はひとつだけ前に進む",
+                "illustrator": "―",
+                "openDate": "2020/08/21 11:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1329,
+            "defense": 0,
+            "hp": 1089,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 247
+        },
+        {
+            "pieceId": 1582,
+            "piece": {
+                "pieceId": 1582,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "覚悟の先に風は立つ",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 842,
+                "hp": 922,
+                "skillId": 158200,
+                "pieceSkill": {
+                    "id": 158200,
+                    "groupId": 1085,
+                    "name": "スペランツァ・フォース[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 12,
+                    "shortDescription": "攻撃力UP[Ⅴ] & 防御力UP[Ⅳ] & 確率でクリティカル[Ⅳ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201105,
+                    "art1": {
+                        "artId": 330201105,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201204,
+                    "art2": {
+                        "artId": 330201204,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 630206304,
+                    "art3": {
+                        "artId": 630206304,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "SELF",
+                        "effectValue": 2000,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 250
+                    },
+                    "eventId": 1121,
+                    "eventArtId1": 1121003,
+                    "eventArt1": {
+                        "artId": 1121003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_DAILYTOWER_1121_KEY"
+                    },
+                    "eventDescription": "＆「大凧」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 158201,
+                "pieceSkill2": {
+                    "id": 158201,
+                    "groupId": 1085,
+                    "name": "スペランツァ・フォース[Ⅵ]",
+                    "type": "SKILL",
+                    "intervalTurn": 10,
+                    "shortDescription": "攻撃力UP[Ⅵ] & 防御力UP[Ⅴ] & 確率でクリティカル[Ⅴ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201106,
+                    "art1": {
+                        "artId": 330201106,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201205,
+                    "art2": {
+                        "artId": 330201205,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 375,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 630206305,
+                    "art3": {
+                        "artId": 630206305,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "SELF",
+                        "effectValue": 2000,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 300
+                    },
+                    "eventId": 1121,
+                    "eventArtId1": 1121004,
+                    "eventArt1": {
+                        "artId": 1121004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 15000,
+                        "genericValue": "EVENT_DAILYTOWER_1121_KEY"
+                    },
+                    "eventDescription": "＆「大凧」追加獲得数＋15",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "いつになく真剣な瞳…それは間違い＠本当はいつだって真剣で、同じ高さにいた＠目を向けて応じなければ、いつまでも羽ばたけない＠「ういが羽ばたくためなら…お姉ちゃん、飛ぶよ」",
+                "illustrator": "―",
+                "openDate": "2021/01/01 00:00:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1263,
+            "hp": 1383,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 247
+        },
+        {
+            "pieceId": 1583,
+            "piece": {
+                "pieceId": 1583,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "シマイミコマイ",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 929,
+                "defense": 0,
+                "hp": 809,
+                "skillId": 158300,
+                "pieceSkill": {
+                    "id": 158300,
+                    "groupId": 1085,
+                    "name": "リジェネレイト・オーラ[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & ダメージカット状態[Ⅱ] & HP自動回復[Ⅱ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690206202,
+                    "art2": {
+                        "artId": 690206202,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 690207702,
+                    "art3": {
+                        "artId": 690207702,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 30,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "eventId": 1121,
+                    "eventArtId1": 1121003,
+                    "eventArt1": {
+                        "artId": 1121003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_DAILYTOWER_1121_KEY"
+                    },
+                    "eventDescription": "＆「大凧」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 158301,
+                "pieceSkill2": {
+                    "id": 158301,
+                    "groupId": 1085,
+                    "name": "リジェネレイト・オーラ[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅳ] & ダメージカット状態[Ⅲ] & HP自動回復[Ⅲ]",
+                    "artId1": 390201104,
+                    "art1": {
+                        "artId": 390201104,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690206203,
+                    "art2": {
+                        "artId": 690206203,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 690207703,
+                    "art3": {
+                        "artId": 690207703,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 40,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "eventId": 1121,
+                    "eventArtId1": 1121004,
+                    "eventArt1": {
+                        "artId": 1121004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 15000,
+                        "genericValue": "EVENT_DAILYTOWER_1121_KEY"
+                    },
+                    "eventDescription": "＆「大凧」追加獲得数＋15",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "太鼓に合わせてシャンシャンシャン＠呼吸を合わせてシャンシャンシャン＠輝く太陽と森の恵みは＠ふたりの飛躍を祝福してる",
+                "illustrator": "―",
+                "openDate": "2021/01/01 00:00:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1393,
+            "defense": 0,
+            "hp": 1213,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 247
+        }
+    ],
+    "isNpc": true,
+    "userName": "環 いろは",
+    "userRank": 100,
+    "cardId": 10015,
+    "charaName": "環 いろは",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 10015,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
