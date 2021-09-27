@@ -1,0 +1,799 @@
+{
+    "npcHelpId": 256,
+    "userCardList": [
+        {
+            "cardId": 30535,
+            "displayCardId": 30535,
+            "revision": 3,
+            "attack": 8118,
+            "defense": 8015,
+            "hp": 23632,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30535,
+                "charaNo": 3053,
+                "miniCharaNo": 305300,
+                "magiaCharaNo": 305300,
+                "cardName": "牧野 郁美",
+                "rank": "RANK_5",
+                "attributeId": "DARK",
+                "initialType": "HEAL",
+                "growthType": "ATTACK",
+                "attack": 1985,
+                "defense": 2050,
+                "hp": 5998,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 30535,
+                "cardMagia": {
+                    "id": 30535,
+                    "groupId": 1012,
+                    "name": "ラブキュンステージ",
+                    "shortDescription": "敵単体にダメージ[Ⅵ] & 防御力UP(味全/3T) & HP回復(味全) & 状態異常解除(味全)",
+                    "artId1": 100000106,
+                    "art1": {
+                        "artId": 100000106,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11200,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301207,
+                    "art2": {
+                        "artId": 330301207,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 450,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 200300407,
+                    "art3": {
+                        "artId": 200300407,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 225,
+                        "growPoint": 20
+                    },
+                    "artId4": 200301000,
+                    "art4": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 30538,
+                "doppelCardMagia": {
+                    "id": 30538,
+                    "groupId": 1012,
+                    "name": "衆目集めのドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅷ] & 防御力UP(味全/3T) & HP回復(味全) & 状態異常解除(味全)",
+                    "artId1": 190305381,
+                    "art1": {
+                        "artId": 190305381,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 21120,
+                        "growPoint": 220
+                    },
+                    "artId2": 330301209,
+                    "art2": {
+                        "artId": 330301209,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 525,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 200300409,
+                    "art3": {
+                        "artId": 200300409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "growPoint": 20
+                    },
+                    "artId4": 200301000,
+                    "art4": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelCharaNo": 305300,
+                "doppel": {
+                    "id": 305300,
+                    "name": "衆目集めのドッペル",
+                    "title": "その姿は、ゼンマイ人形",
+                    "description": "この感情の主は他者の笑顔を求めることと、自身が求められることを僅かでも同一視してしまった。＠シンバルをめちゃくちゃに打ち鳴らし、その音に気を取られた者達の目玉へアンカーが撃ち出される。音によって呪いをかけられた者をアンカーは何処までも追ってゆき、必ずその眼球を奪うだろう。＠このドッペルを使用し続ければ、常に誰かに見られていないと不安を感じるようになってしまう。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2018/11/12 15:10:00"
+                },
+                "skillId": 30535,
+                "cardSkill": {
+                    "id": 30535,
+                    "groupId": 1078,
+                    "name": "一緒に魔法をかけますよぉ～っ？",
+                    "shortDescription": "HP回復[Ⅸ] & 攻撃力UP[Ⅶ] & 確率でマギア不可",
+                    "artId1": 200400409,
+                    "art1": {
+                        "artId": 200400409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "growPoint": 20
+                    },
+                    "artId2": 310401107,
+                    "art2": {
+                        "artId": 310401107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 350,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610411406,
+                    "art3": {
+                        "artId": 610411406,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "BAN_MAGIA",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 350
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "植田亮",
+                "cardCustomize": {
+                    "cardId": 30535,
+                    "giftId1": 152,
+                    "gift1": {
+                        "id": 152,
+                        "type": 1,
+                        "name": "ダークオーブ＋",
+                        "attributeId": "DARK",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 153,
+                    "gift3": {
+                        "id": 153,
+                        "type": 1,
+                        "name": "ダークオーブ＋＋",
+                        "attributeId": "DARK",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 509,
+                    "gift4": {
+                        "id": 509,
+                        "type": 2,
+                        "name": "クマのボルト",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/10/22 15:10:00"
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 557,
+                    "gift5": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 310,
+                    "gift6": {
+                        "id": 310,
+                        "type": 2,
+                        "name": "流浪の杭",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/09/03 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 256,
+            "npcPieceId1": 1275,
+            "npcPieceId2": 1277,
+            "npcPieceId3": 1279,
+            "npcPieceId4": 1280
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3053,
+            "chara": {
+                "id": 3053,
+                "name": "牧野 郁美",
+                "kana": "まきの いくみ",
+                "attributeId": "DARK",
+                "attackType": 3,
+                "initialType": "HEAL",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 30534,
+                "defaultCard": {
+                    "cardId": 30534,
+                    "rank": "RANK_4",
+                    "attributeId": "DARK",
+                    "initialType": "HEAL",
+                    "growthType": "ATTACK",
+                    "attack": 1752,
+                    "defense": 1777,
+                    "hp": 5298,
+                    "miniCharaNo": 305300,
+                    "charaNo": 3053,
+                    "cardName": "牧野 郁美",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30534,
+                        "groupId": 1012,
+                        "name": "ラブキュンステージ",
+                        "shortDescription": "敵単体にダメージ[Ⅳ] & 防御力UP(味全/3T) & HP回復(味全) & 状態異常解除(味全)",
+                        "artId1": 100000104,
+                        "art1": {
+                            "artId": 100000104,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10560,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301205,
+                        "art2": {
+                            "artId": 330301205,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 375,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 200300405,
+                        "art3": {
+                            "artId": 200300405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "growPoint": 20
+                        },
+                        "artId4": 200301000,
+                        "art4": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30534,
+                        "groupId": 1078,
+                        "name": "一緒に魔法をかけますよぉ～っ？",
+                        "shortDescription": "HP回復[Ⅶ] & 攻撃力UP[Ⅴ] & 確率でマギア不可",
+                        "artId1": 200400407,
+                        "art1": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId2": 310401105,
+                        "art2": {
+                            "artId": 310401105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610411405,
+                        "art3": {
+                            "artId": 610411405,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BAN_MAGIA",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 300
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30535,
+                "evolutionCard1": {
+                    "cardId": 30535,
+                    "rank": "RANK_5",
+                    "attributeId": "DARK",
+                    "initialType": "HEAL",
+                    "growthType": "ATTACK",
+                    "attack": 1985,
+                    "defense": 2050,
+                    "hp": 5998,
+                    "miniCharaNo": 305300,
+                    "charaNo": 3053,
+                    "cardName": "牧野 郁美",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30535,
+                        "groupId": 1012,
+                        "name": "ラブキュンステージ",
+                        "shortDescription": "敵単体にダメージ[Ⅵ] & 防御力UP(味全/3T) & HP回復(味全) & 状態異常解除(味全)",
+                        "artId1": 100000106,
+                        "art1": {
+                            "artId": 100000106,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11200,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301207,
+                        "art2": {
+                            "artId": 330301207,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 450,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 200300407,
+                        "art3": {
+                            "artId": 200300407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 225,
+                            "growPoint": 20
+                        },
+                        "artId4": 200301000,
+                        "art4": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30535,
+                        "groupId": 1078,
+                        "name": "一緒に魔法をかけますよぉ～っ？",
+                        "shortDescription": "HP回復[Ⅸ] & 攻撃力UP[Ⅶ] & 確率でマギア不可",
+                        "artId1": 200400409,
+                        "art1": {
+                            "artId": 200400409,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "growPoint": 20
+                        },
+                        "artId2": 310401107,
+                        "art2": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610411406,
+                        "art3": {
+                            "artId": 610411406,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BAN_MAGIA",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 350
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "いつ如何なるときも可愛くいたい、ぶりっ子魔法少女。日頃はメイド喫茶でメイドさんとして働き、思う存分キュンキュンビームを炸裂させている。しかし、センスがやや古臭いせいか、意図せずコミカルキャラを確立してしまっている。",
+                "school": "―",
+                "designer": "植田亮",
+                "voiceActor": "木野日菜",
+                "openDate": "2018/11/12 15:10:00",
+                "enhancementGroupId": 106
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "793f9e25-9f0e-4b89-8c44-714d322dcfd0",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 305300,
+            "npcHelpId": 256,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1275,
+            "piece": {
+                "pieceId": 1275,
+                "pieceType": "SKILL",
+                "pieceName": "ふたりでふたつの夢を",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3053",
+                "charaList": [
+                    {
+                        "charaId": 3053,
+                        "name": "牧野 郁美"
+                    }
+                ],
+                "attack": 0,
+                "defense": 423,
+                "hp": 515,
+                "skillId": 127500,
+                "pieceSkill": {
+                    "id": 127500,
+                    "groupId": 1084,
+                    "name": "レストア・ヘルス",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "状態異常解除(自)",
+                    "messageId": 70,
+                    "artId1": 200201000,
+                    "art1": {
+                        "artId": 200201000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 127501,
+                "pieceSkill2": {
+                    "id": 127501,
+                    "groupId": 1084,
+                    "name": "レストア・ヘルス",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "状態異常解除(自)",
+                    "messageId": 70,
+                    "artId1": 200201000,
+                    "art1": {
+                        "artId": 200201000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "バレーの選手になりたかった私＠アイドルになりたかったあの子＠自分の夢を叶える才を持たない私たちは互いの夢を交換した＠ふたりでふたつの夢をつかむと誓い合って",
+                "illustrator": "スミカワ",
+                "openDate": "2018/11/12 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 634,
+            "hp": 772,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 256
+        },
+        {
+            "pieceId": 1277,
+            "piece": {
+                "pieceId": 1277,
+                "pieceType": "ABILITY",
+                "pieceName": "ラブキュンなメイドさん",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 701,
+                "defense": 0,
+                "hp": 891,
+                "skillId": 127700,
+                "pieceSkill": {
+                    "id": 127700,
+                    "groupId": 1241,
+                    "name": "クライシスブルーム[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "瀕死時攻撃力UP[Ⅲ] & 瀕死時防御力UP[Ⅲ]",
+                    "artId1": 390202903,
+                    "art1": {
+                        "artId": 390202903,
+                        "verbCode": "BUFF_DYING",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 20,
+                        "probability": 1000
+                    },
+                    "artId2": 390203003,
+                    "art2": {
+                        "artId": 390203003,
+                        "verbCode": "BUFF_DYING",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 400,
+                        "growPoint": 20,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 127701,
+                "pieceSkill2": {
+                    "id": 127701,
+                    "groupId": 1241,
+                    "name": "クライシスブルーム[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "瀕死時攻撃力UP[Ⅳ] & 瀕死時防御力UP[Ⅳ]",
+                    "artId1": 390202904,
+                    "art1": {
+                        "artId": 390202904,
+                        "verbCode": "BUFF_DYING",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 20,
+                        "probability": 1000
+                    },
+                    "artId2": 390203004,
+                    "art2": {
+                        "artId": 390203004,
+                        "verbCode": "BUFF_DYING",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 500,
+                        "growPoint": 20,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "甘々キュンキュンなメイド服に身を包むのはアイドルメイドいくみん＠歌ってよし！踊ってよし！笑顔も一級品！＠でも、そのキャラはちょっと古臭い＠「ふえぇええん！くみのことBBAって言わないでよぉ～…！」",
+                "illustrator": "植田亮",
+                "openDate": "2018/11/12 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1051,
+            "defense": 0,
+            "hp": 1336,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 256
+        },
+        {
+            "pieceId": 1279,
+            "piece": {
+                "pieceId": 1279,
+                "pieceType": "ABILITY",
+                "pieceName": "それぞれが行く場所",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 756,
+                "defense": 0,
+                "hp": 843,
+                "skillId": 127900,
+                "pieceSkill": {
+                    "id": 127900,
+                    "groupId": 1135,
+                    "name": "イグノア・カウンター[Ⅴ]",
+                    "type": "ABILITY",
+                    "shortDescription": "確率でカウンター無効[Ⅴ] & 攻撃力UP[Ⅱ]",
+                    "artId1": 690208205,
+                    "art1": {
+                        "artId": 690208205,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 450
+                    },
+                    "artId2": 390201102,
+                    "art2": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 127901,
+                "pieceSkill2": {
+                    "id": 127901,
+                    "groupId": 1135,
+                    "name": "イグノア・カウンター",
+                    "type": "ABILITY",
+                    "shortDescription": "必ずカウンター無効 & 攻撃力UP[Ⅱ]",
+                    "artId1": 690208200,
+                    "art1": {
+                        "artId": 690208200,
+                        "verbCode": "IGNORE",
+                        "effectCode": "COUNTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId2": 390201102,
+                    "art2": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "希望を願ったから、その希望を利用されたから、目を瞑れなかった＠許せなかったから、静かに牙を剥くことにした＠きっと近いうちに、悔しさで胸が詰まるかもしれない＠その時は恨むけど、今日この瞬間は決して後悔しないだろう",
+                "illustrator": "―",
+                "openDate": "2018/11/12 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1134,
+            "defense": 0,
+            "hp": 1264,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 256
+        },
+        {
+            "pieceId": 1280,
+            "piece": {
+                "pieceId": 1280,
+                "pieceType": "SKILL",
+                "pieceName": "繋がれる場所",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 768,
+                "hp": 852,
+                "skillId": 128000,
+                "pieceSkill": {
+                    "id": 128000,
+                    "groupId": 1108,
+                    "name": "カース",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "必ず呪い(敵単/1T)",
+                    "artId1": 510005000,
+                    "art1": {
+                        "artId": 510005000,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CURSE",
+                        "targetId": "TARGET",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 128001,
+                "pieceSkill2": {
+                    "id": 128001,
+                    "groupId": 1108,
+                    "name": "カース",
+                    "type": "SKILL",
+                    "intervalTurn": 4,
+                    "shortDescription": "必ず呪い(敵単/1T)",
+                    "artId1": 510005000,
+                    "art1": {
+                        "artId": 510005000,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "CURSE",
+                        "targetId": "TARGET",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "魔法少女の宿命は、いつでも彼女たちを呑み込むことができる＠押さえ付けて溺れさせて、見えない闇の淵に引きずり込んで…＠鮮明に浮かぶ光景は、激しく離れがたく縋り付きたい場所＠それがないから、彼女はひとり焦り続ける",
+                "illustrator": "―",
+                "openDate": "2018/11/12 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1152,
+            "hp": 1278,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 256
+        }
+    ],
+    "isNpc": true,
+    "userName": "牧野 郁美",
+    "userRank": 100,
+    "cardId": 30535,
+    "charaName": "牧野 郁美",
+    "cardRank": "RANK_5",
+    "attributeId": "DARK",
+    "level": 100,
+    "displayCardId": 30535,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
