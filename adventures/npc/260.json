@@ -1,0 +1,918 @@
+{
+    "npcHelpId": 260,
+    "userCardList": [
+        {
+            "cardId": 40125,
+            "displayCardId": 40125,
+            "revision": 3,
+            "attack": 7284,
+            "defense": 8080,
+            "hp": 24084,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40125,
+                "charaNo": 4012,
+                "miniCharaNo": 401201,
+                "magiaCharaNo": 401200,
+                "cardName": "御崎 海香",
+                "rank": "RANK_5",
+                "attributeId": "WATER",
+                "initialType": "HEAL",
+                "growthType": "BALANCE",
+                "attack": 1821,
+                "defense": 2020,
+                "hp": 6021,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 40125,
+                "cardMagia": {
+                    "id": 40125,
+                    "groupId": 1014,
+                    "name": "イクス・フィーレ",
+                    "shortDescription": "敵全体にダメージ[Ⅵ] & HP回復(味全) & 状態異常解除(味全)",
+                    "artId1": 100300106,
+                    "art1": {
+                        "artId": 100300106,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3500,
+                        "growPoint": 100
+                    },
+                    "artId2": 200300407,
+                    "art2": {
+                        "artId": 200300407,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 225,
+                        "growPoint": 20
+                    },
+                    "artId3": 200301000,
+                    "art3": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 40128,
+                "doppelCardMagia": {
+                    "id": 40128,
+                    "groupId": 1014,
+                    "name": "絶筆のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅷ] & HP回復(味全) & 状態異常解除(味全)",
+                    "artId1": 190401281,
+                    "art1": {
+                        "artId": 190401281,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 7920,
+                        "growPoint": 220
+                    },
+                    "artId2": 200300409,
+                    "art2": {
+                        "artId": 200300409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "growPoint": 20
+                    },
+                    "artId3": 200301000,
+                    "art3": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelCharaNo": 401200,
+                "doppel": {
+                    "id": 401200,
+                    "name": "絶筆のドッペル",
+                    "title": "その姿は、本の虫",
+                    "description": "この感情の主は、言葉による自己表現と物語の完結に強い欲求をもつ。＠創作されたものだけが物語ではない。＠森羅万象、この世のにある物すべてに宿っている。＠そして、それが存在し続けていく限り、物語もまた続いていく。＠だが、このドッペルは、綴っていた存在そのものを消すことで、＠その物語を終わらせてしまうだろう。＠否応なしに筆は止まり、続きを書く者も現れることはない。",
+                    "designer": "原案・監修：平松正樹・天杉貴志",
+                    "archive": true,
+                    "openDate": "2020/09/07 15:10:00"
+                },
+                "skillId": 40125,
+                "cardSkill": {
+                    "id": 40125,
+                    "groupId": 1078,
+                    "name": "読めたわ！仕掛けるわよ！",
+                    "shortDescription": "HP回復[Ⅷ] & ダメージカット状態[Ⅷ] & 防御力UP[Ⅷ]",
+                    "artId1": 200400408,
+                    "art1": {
+                        "artId": 200400408,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 475,
+                        "growPoint": 20
+                    },
+                    "artId2": 610406208,
+                    "art2": {
+                        "artId": 610406208,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "CONNECT",
+                        "effectValue": 650,
+                        "enableTurn": 1,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId3": 310401208,
+                    "art3": {
+                        "artId": 310401208,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "CONNECT",
+                        "effectValue": 975,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "天杉貴志",
+                "cardCustomize": {
+                    "cardId": 40125,
+                    "giftId1": 602,
+                    "gift1": {
+                        "id": 602,
+                        "type": 9,
+                        "name": "海香の覚醒書",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum1": 1,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 602,
+                    "gift2": {
+                        "id": 602,
+                        "type": 9,
+                        "name": "海香の覚醒書",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum2": 1,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 602,
+                    "gift3": {
+                        "id": 602,
+                        "type": 9,
+                        "name": "海香の覚醒書",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum3": 1,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 602,
+                    "gift4": {
+                        "id": 602,
+                        "type": 9,
+                        "name": "海香の覚醒書",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 1,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 602,
+                    "gift5": {
+                        "id": 602,
+                        "type": 9,
+                        "name": "海香の覚醒書",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 1,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 602,
+                    "gift6": {
+                        "id": 602,
+                        "type": 9,
+                        "name": "海香の覚醒書",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 1,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                },
+                "openDate": "2020/09/07 15:10:00"
+            },
+            "npcHelpId": 260,
+            "npcPieceId1": 1141,
+            "npcPieceId2": 1144,
+            "npcPieceId3": 1146,
+            "npcPieceId4": 1145
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4012,
+            "chara": {
+                "id": 4012,
+                "name": "御崎 海香",
+                "kana": "みさき うみか",
+                "attributeId": "WATER",
+                "attackType": 1,
+                "initialType": "HEAL",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 40123,
+                "defaultCard": {
+                    "cardId": 40123,
+                    "rank": "RANK_3",
+                    "attributeId": "WATER",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 1197,
+                    "defense": 1557,
+                    "hp": 4147,
+                    "miniCharaNo": 401200,
+                    "charaNo": 4012,
+                    "cardName": "御崎 海香",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40123,
+                        "groupId": 1014,
+                        "name": "イクス・フィーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅱ] & HP回復(味全)",
+                        "artId1": 100300102,
+                        "art1": {
+                            "artId": 100300102,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3100,
+                            "growPoint": 100
+                        },
+                        "artId2": 200300403,
+                        "art2": {
+                            "artId": 200300403,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 175,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40123,
+                        "groupId": 1078,
+                        "name": "読めたわ！仕掛けるわよ！",
+                        "shortDescription": "HP回復[Ⅴ] & ダメージカット状態[Ⅴ]",
+                        "artId1": 200400405,
+                        "art1": {
+                            "artId": 200400405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "growPoint": 20
+                        },
+                        "artId2": 610406205,
+                        "art2": {
+                            "artId": 610406205,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 25,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 40124,
+                "evolutionCard1": {
+                    "cardId": 40124,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 1411,
+                    "defense": 1846,
+                    "hp": 4905,
+                    "miniCharaNo": 401200,
+                    "charaNo": 4012,
+                    "cardName": "御崎 海香",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40124,
+                        "groupId": 1014,
+                        "name": "イクス・フィーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅳ] & HP回復(味全) & 状態異常解除(味全)",
+                        "artId1": 100300104,
+                        "art1": {
+                            "artId": 100300104,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3300,
+                            "growPoint": 100
+                        },
+                        "artId2": 200300405,
+                        "art2": {
+                            "artId": 200300405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "growPoint": 20
+                        },
+                        "artId3": 200301000,
+                        "art3": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40124,
+                        "groupId": 1078,
+                        "name": "読めたわ！仕掛けるわよ！",
+                        "shortDescription": "HP回復[Ⅶ] & ダメージカット状態[Ⅶ]",
+                        "artId1": 200400407,
+                        "art1": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId2": 610406207,
+                        "art2": {
+                            "artId": 610406207,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "CONNECT",
+                            "effectValue": 600,
+                            "enableTurn": 1,
+                            "growPoint": 25,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 40125,
+                "evolutionCard2": {
+                    "cardId": 40125,
+                    "rank": "RANK_5",
+                    "attributeId": "WATER",
+                    "initialType": "HEAL",
+                    "growthType": "BALANCE",
+                    "attack": 1821,
+                    "defense": 2020,
+                    "hp": 6021,
+                    "miniCharaNo": 401201,
+                    "charaNo": 4012,
+                    "cardName": "御崎 海香",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40125,
+                        "groupId": 1014,
+                        "name": "イクス・フィーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅵ] & HP回復(味全) & 状態異常解除(味全)",
+                        "artId1": 100300106,
+                        "art1": {
+                            "artId": 100300106,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3500,
+                            "growPoint": 100
+                        },
+                        "artId2": 200300407,
+                        "art2": {
+                            "artId": 200300407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 225,
+                            "growPoint": 20
+                        },
+                        "artId3": 200301000,
+                        "art3": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40125,
+                        "groupId": 1078,
+                        "name": "読めたわ！仕掛けるわよ！",
+                        "shortDescription": "HP回復[Ⅷ] & ダメージカット状態[Ⅷ] & 防御力UP[Ⅷ]",
+                        "artId1": 200400408,
+                        "art1": {
+                            "artId": 200400408,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 475,
+                            "growPoint": 20
+                        },
+                        "artId2": 610406208,
+                        "art2": {
+                            "artId": 610406208,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "CONNECT",
+                            "effectValue": 650,
+                            "enableTurn": 1,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId3": 310401208,
+                        "art3": {
+                            "artId": 310401208,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 975,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "あすなろ市の魔法少女であり、中学生にして売れっ子の小説家。＠一軒家にかずみ、牧カオルと共に暮らしている。＠執筆に行き詰ると、ストレス解消に料理、そして買い物をするという習慣がある。＠ちなみに、小説はパソコンで書いている。",
+                "school": "―",
+                "designer": "平松正樹/天杉貴志",
+                "voiceActor": "内田彩",
+                "openDate": "2017/11/20 15:10:00",
+                "enhancementGroupId": 111
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "fd2708f3-f488-401a-b187-434a8576cffd",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 401201,
+            "npcHelpId": 260,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1141,
+            "piece": {
+                "pieceId": 1141,
+                "pieceType": "SKILL",
+                "pieceName": "七つのほしぞら",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4012",
+                "charaList": [
+                    {
+                        "charaId": 4012,
+                        "name": "御崎 海香"
+                    }
+                ],
+                "attack": 0,
+                "defense": 422,
+                "hp": 502,
+                "skillId": 114100,
+                "pieceSkill": {
+                    "id": 114100,
+                    "groupId": 1095,
+                    "name": "ウィークポイント[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "防御力DOWN[Ⅸ] & 状態異常耐性DOWN[Ⅷ](敵単/1T)",
+                    "messageId": 72,
+                    "artId1": 410002109,
+                    "art1": {
+                        "artId": 410002109,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "TARGET",
+                        "effectValue": 450,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 410002408,
+                    "art2": {
+                        "artId": 410002408,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "TARGET",
+                        "effectValue": 225,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114101,
+                "pieceSkill2": {
+                    "id": 114101,
+                    "groupId": 1095,
+                    "name": "ウィークポイント[Ⅵ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "防御力DOWN[Ⅹ] & 状態異常耐性DOWN[Ⅸ](敵単/1T)",
+                    "messageId": 72,
+                    "artId1": 410002110,
+                    "art1": {
+                        "artId": 410002110,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "TARGET",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 410002409,
+                    "art2": {
+                        "artId": 410002409,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "TARGET",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "ちいさな想いを踏みにじられ、あの日、彼女の心は死んだ＠その後に出会った少女の言葉が、再び生きる勇気をくれた＠七人の仲間に見守られ、もういちど作家の道へと踏み出した＠彼女が選んだ題名は、“七つのほしぞら”",
+                "illustrator": "ma-sa",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 633,
+            "hp": 753,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 260
+        },
+        {
+            "pieceId": 1144,
+            "piece": {
+                "pieceId": 1144,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "繋がる道を歩いてる",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 723,
+                "defense": 0,
+                "hp": 883,
+                "skillId": 114400,
+                "pieceSkill": {
+                    "id": 114400,
+                    "groupId": 1119,
+                    "name": "繋がる道を歩いてる",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ[Ⅴ] & HP自動回復[Ⅲ] &『Another Daze』最終Battleで…",
+                    "artId1": 690206105,
+                    "art1": {
+                        "artId": 690206105,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207703,
+                    "art2": {
+                        "artId": 690207703,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 40,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 100806,
+                    "art3": {
+                        "artId": 100806,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_ATK",
+                        "effectValue": 70000,
+                        "parameter": 5109911
+                    },
+                    "artId4": 100807,
+                    "art4": {
+                        "artId": 100807,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_DEF",
+                        "effectValue": 100000,
+                        "parameter": 5109911
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114401,
+                "pieceSkill2": {
+                    "id": 114401,
+                    "groupId": 1119,
+                    "name": "繋がる道を歩いてる",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ[Ⅵ] & HP自動回復[Ⅳ] &『Another Daze』最終Battleで…",
+                    "artId1": 690206106,
+                    "art1": {
+                        "artId": 690206106,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207704,
+                    "art2": {
+                        "artId": 690207704,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 100806,
+                    "art3": {
+                        "artId": 100806,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_ATK",
+                        "effectValue": 70000,
+                        "parameter": 5109911
+                    },
+                    "artId4": 100807,
+                    "art4": {
+                        "artId": 100807,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_DEF",
+                        "effectValue": 100000,
+                        "parameter": 5109911
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "『離れ離れになっても、わたしたちはきっとまた会える』＠そう思い続けて歩いていけば、今いるこの道が＠きっとふたりのいる場所に辿り着くはず…＠心と心が引き合って、道が、繋がっていくはず…",
+                "illustrator": "天杉貴志",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1084,
+            "defense": 0,
+            "hp": 1324,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 260
+        },
+        {
+            "pieceId": 1146,
+            "piece": {
+                "pieceId": 1146,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "三人で、前へ",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 883,
+                "hp": 723,
+                "skillId": 114600,
+                "pieceSkill": {
+                    "id": 114600,
+                    "groupId": 1088,
+                    "name": "マギアアップ[Ⅸ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "マギアダメージUP[Ⅸ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 310201409,
+                    "art1": {
+                        "artId": 310201409,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109003,
+                    "eventArt1": {
+                        "artId": 1109003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 3000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋3",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114601,
+                "pieceSkill2": {
+                    "id": 114601,
+                    "groupId": 1088,
+                    "name": "マギアアップ[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "マギアダメージUP[Ⅹ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 310201410,
+                    "art1": {
+                        "artId": 310201410,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 275,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109004,
+                    "eventArt1": {
+                        "artId": 1109004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 7000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋7",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "うつむいて、いつまでも下を向くのはやめようよ＠そうしていても、自分の足元しか見えないよ…？＠顔を上げて、前を見て、恐れずに進んで行こうよ＠きっといつか、素敵な景色に出会えるから…！",
+                "illustrator": "こるり",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1324,
+            "hp": 1084,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 260
+        },
+        {
+            "pieceId": 1145,
+            "piece": {
+                "pieceId": 1145,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "その味はドラマティック!?",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 573,
+                "defense": 0,
+                "hp": 633,
+                "skillId": 114500,
+                "pieceSkill": {
+                    "id": 114500,
+                    "groupId": 1093,
+                    "name": "クレバー・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]",
+                    "artId1": 390201903,
+                    "art1": {
+                        "artId": 390201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207901,
+                    "art2": {
+                        "artId": 690207901,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "MP_PLUS_WEAKED",
+                        "targetId": "SELF",
+                        "effectValue": 20,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109001,
+                    "eventArt1": {
+                        "artId": 1109001,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 2000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋2",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114501,
+                "pieceSkill2": {
+                    "id": 114501,
+                    "groupId": 1093,
+                    "name": "クレバー・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "MP獲得量UP[Ⅳ] & 弱点属性で攻撃されたときMPUP[Ⅱ]",
+                    "artId1": 390201904,
+                    "art1": {
+                        "artId": 390201904,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 125,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207902,
+                    "art2": {
+                        "artId": 690207902,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "MP_PLUS_WEAKED",
+                        "targetId": "SELF",
+                        "effectValue": 30,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109002,
+                    "eventArt1": {
+                        "artId": 1109002,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "小説家・御崎海香先生の知られざる執筆スタイル…＠それは…「行き詰ったら料理をしてストレス解消」！＠余人の口を挟ませずに黙々と作り上げるその料理は＠先生の作品ばりに、食べる者を感動させる美味しさだとか…!?",
+                "illustrator": "シソ",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 859,
+            "defense": 0,
+            "hp": 949,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 260
+        }
+    ],
+    "isNpc": true,
+    "userName": "御崎 海香",
+    "userRank": 100,
+    "cardId": 40125,
+    "charaName": "御崎 海香",
+    "cardRank": "RANK_5",
+    "attributeId": "WATER",
+    "level": 100,
+    "displayCardId": 40125,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}

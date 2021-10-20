@@ -1,0 +1,909 @@
+{
+    "npcHelpId": 258,
+    "userCardList": [
+        {
+            "cardId": 40145,
+            "displayCardId": 40145,
+            "revision": 3,
+            "attack": 10288,
+            "defense": 7376,
+            "hp": 24000,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40145,
+                "charaNo": 4014,
+                "miniCharaNo": 401400,
+                "magiaCharaNo": 401400,
+                "cardName": "昴 かずみ",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "ATTACK",
+                "growthType": "BALANCE",
+                "attack": 2572,
+                "defense": 1844,
+                "hp": 6000,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 40145,
+                "cardMagia": {
+                    "id": 40145,
+                    "groupId": 1014,
+                    "name": "メテオ―ラ・フィナーレ",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 攻撃力UP & ダメージUP(自/3T)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 430302007,
+                    "art2": {
+                        "artId": 430302007,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 430302107,
+                    "art3": {
+                        "artId": 430302107,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 330201106,
+                    "art4": {
+                        "artId": 330201106,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId5": 330201304,
+                    "art5": {
+                        "artId": 330201304,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 40148,
+                "doppelCardMagia": {
+                    "id": 40148,
+                    "groupId": 1014,
+                    "name": "空腹のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力DOWN & 防御力DOWN(敵全/5T) & 攻撃力UP & ダメージUP(自/5T) & HP回復(自)",
+                    "artId1": 190401481,
+                    "art1": {
+                        "artId": 190401481,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 450302009,
+                    "art2": {
+                        "artId": 450302009,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 450302111,
+                    "art3": {
+                        "artId": 450302111,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId4": 350201108,
+                    "art4": {
+                        "artId": 350201108,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 400,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId5": 350201306,
+                    "art5": {
+                        "artId": 350201306,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId6": 200200403,
+                    "art6": {
+                        "artId": 200200403,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 20
+                    }
+                },
+                "doppelCharaNo": 401400,
+                "doppel": {
+                    "id": 401400,
+                    "name": "空腹のドッペル",
+                    "title": "その姿は、美食家",
+                    "description": "この感情の主は、自分の存在が認められたことで、以前より前向きで余裕が生まれた。＠それに引っ張られるようにこのドッペルは、ただ食に対して貪欲なだけでなく、口にしたものを噛みしめて、素材が育む味わいを楽しむ余裕が生まれた。＠とは言っても、相手が魔法少女であろうと、魔女であろうと、手当たり次第になんでも調理して、自らの体内へと収めてしまうことに変わりはない。＠ただ、前と比較すると上品になっており、周囲に食べ物は散らばらず、テーブルに並べられた皿も自分用に置いておくだけになっている。",
+                    "designer": "原案：f4samurai、監修：平松/天杉",
+                    "archive": true,
+                    "openDate": "2021/10/20 15:10:00"
+                },
+                "skillId": 40145,
+                "cardSkill": {
+                    "id": 40145,
+                    "groupId": 1085,
+                    "name": "行こう！ココロをひとつに！",
+                    "shortDescription": "攻撃力UP[Ⅸ] & 必ずクリティカル",
+                    "artId1": 310401107,
+                    "art1": {
+                        "artId": 310401107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 350,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610406400,
+                    "art2": {
+                        "artId": 610406400,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "天杉貴志",
+                "cardCustomize": {
+                    "cardId": 40145,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 142,
+                    "gift2": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 509,
+                    "gift4": {
+                        "id": 509,
+                        "type": 2,
+                        "name": "クマのボルト",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/10/22 15:10:00"
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 506,
+                    "gift5": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 308,
+                    "gift6": {
+                        "id": 308,
+                        "type": 2,
+                        "name": "イキガミの毛玉",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/04/23 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 258,
+            "npcPieceId1": 1680,
+            "npcPieceId2": 1144,
+            "npcPieceId3": 1146,
+            "npcPieceId4": 1682
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4014,
+            "chara": {
+                "id": 4014,
+                "name": "昴 かずみ",
+                "kana": "すばる かずみ",
+                "attributeId": "LIGHT",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 40144,
+                "defaultCard": {
+                    "cardId": 40144,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "ATTACK",
+                    "growthType": "BALANCE",
+                    "attack": 2375,
+                    "defense": 1702,
+                    "hp": 5153,
+                    "miniCharaNo": 401400,
+                    "charaNo": 4014,
+                    "cardName": "昴 かずみ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40144,
+                        "groupId": 1014,
+                        "name": "メテオ―ラ・フィナーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 攻撃力UP & ダメージUP(自/3T)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302005,
+                        "art2": {
+                            "artId": 430302005,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430302105,
+                        "art3": {
+                            "artId": 430302105,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 330201104,
+                        "art4": {
+                            "artId": 330201104,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "SELF",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId5": 330201303,
+                        "art5": {
+                            "artId": 330201303,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "SELF",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40144,
+                        "groupId": 1085,
+                        "name": "行こう！ココロをひとつに！",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 必ずクリティカル",
+                        "artId1": 310401105,
+                        "art1": {
+                            "artId": 310401105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610406400,
+                        "art2": {
+                            "artId": 610406400,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 40145,
+                "evolutionCard1": {
+                    "cardId": 40145,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "ATTACK",
+                    "growthType": "BALANCE",
+                    "attack": 2572,
+                    "defense": 1844,
+                    "hp": 6000,
+                    "miniCharaNo": 401400,
+                    "charaNo": 4014,
+                    "cardName": "昴 かずみ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40145,
+                        "groupId": 1014,
+                        "name": "メテオ―ラ・フィナーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 攻撃力UP & ダメージUP(自/3T)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302007,
+                        "art2": {
+                            "artId": 430302007,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430302107,
+                        "art3": {
+                            "artId": 430302107,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 330201106,
+                        "art4": {
+                            "artId": 330201106,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "SELF",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId5": 330201304,
+                        "art5": {
+                            "artId": 330201304,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "SELF",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40145,
+                        "groupId": 1085,
+                        "name": "行こう！ココロをひとつに！",
+                        "shortDescription": "攻撃力UP[Ⅸ] & 必ずクリティカル",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610406400,
+                        "art2": {
+                            "artId": 610406400,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "魔法で生み出された合成魔法少女が、“本物の心”で契約し“本物の人間”になり、“本物の魔法少女”となった。＠キュゥべえをして「アタリ」と言わせる程の魔法力を持つ。＠「昴」は大切な仲間たち「プレイアデス聖団」に由来する。",
+                "school": "―",
+                "designer": "平松正樹/天杉貴志",
+                "voiceActor": "丹下桜",
+                "openDate": "2021/10/20 15:10:00",
+                "enhancementGroupId": 165
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "64d89e4c-f603-469c-80b4-7d0af0d6ded6",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 401400,
+            "npcHelpId": 258,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1680,
+            "piece": {
+                "pieceId": 1680,
+                "pieceType": "ABILITY",
+                "pieceName": "書きかけの日記",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4014",
+                "charaList": [
+                    {
+                        "charaId": 4014,
+                        "name": "昴 かずみ"
+                    }
+                ],
+                "attack": 460,
+                "defense": 0,
+                "hp": 500,
+                "skillId": 168000,
+                "pieceSkill": {
+                    "id": 168000,
+                    "groupId": 1085,
+                    "name": "グリッター・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & MP獲得量UP[Ⅱ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201902,
+                    "art2": {
+                        "artId": 390201902,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 75,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 168001,
+                "pieceSkill2": {
+                    "id": 168001,
+                    "groupId": 1085,
+                    "name": "グリッター・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅳ] & MP獲得量UP[Ⅲ]",
+                    "artId1": 390201104,
+                    "art1": {
+                        "artId": 390201104,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201903,
+                    "art2": {
+                        "artId": 390201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "この日記に記されるのは＠希望に満ちた魔法少女が絶望に塗りつぶされるまでの日々＠この日記に残る黒へのグラデーションは＠同じ魂を持つ者たちの新たな希望となりうるか",
+                "illustrator": "都筑禰己",
+                "openDate": "2021/10/20 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 690,
+            "defense": 0,
+            "hp": 750,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 258
+        },
+        {
+            "pieceId": 1144,
+            "piece": {
+                "pieceId": 1144,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "繋がる道を歩いてる",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 723,
+                "defense": 0,
+                "hp": 883,
+                "skillId": 114400,
+                "pieceSkill": {
+                    "id": 114400,
+                    "groupId": 1119,
+                    "name": "繋がる道を歩いてる",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ[Ⅴ] & HP自動回復[Ⅲ] &『Another Daze』最終Battleで…",
+                    "artId1": 690206105,
+                    "art1": {
+                        "artId": 690206105,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207703,
+                    "art2": {
+                        "artId": 690207703,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 40,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 100806,
+                    "art3": {
+                        "artId": 100806,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_ATK",
+                        "effectValue": 70000,
+                        "parameter": 5109911
+                    },
+                    "artId4": 100807,
+                    "art4": {
+                        "artId": 100807,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_DEF",
+                        "effectValue": 100000,
+                        "parameter": 5109911
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114401,
+                "pieceSkill2": {
+                    "id": 114401,
+                    "groupId": 1119,
+                    "name": "繋がる道を歩いてる",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ[Ⅵ] & HP自動回復[Ⅳ] &『Another Daze』最終Battleで…",
+                    "artId1": 690206106,
+                    "art1": {
+                        "artId": 690206106,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207704,
+                    "art2": {
+                        "artId": 690207704,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 100806,
+                    "art3": {
+                        "artId": 100806,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_ATK",
+                        "effectValue": 70000,
+                        "parameter": 5109911
+                    },
+                    "artId4": 100807,
+                    "art4": {
+                        "artId": 100807,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_DEF",
+                        "effectValue": 100000,
+                        "parameter": 5109911
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "『離れ離れになっても、わたしたちはきっとまた会える』＠そう思い続けて歩いていけば、今いるこの道が＠きっとふたりのいる場所に辿り着くはず…＠心と心が引き合って、道が、繋がっていくはず…",
+                "illustrator": "天杉貴志",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1084,
+            "defense": 0,
+            "hp": 1324,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 258
+        },
+        {
+            "pieceId": 1146,
+            "piece": {
+                "pieceId": 1146,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "三人で、前へ",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 883,
+                "hp": 723,
+                "skillId": 114600,
+                "pieceSkill": {
+                    "id": 114600,
+                    "groupId": 1088,
+                    "name": "マギアアップ[Ⅸ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "マギアダメージUP[Ⅸ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 310201409,
+                    "art1": {
+                        "artId": 310201409,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109003,
+                    "eventArt1": {
+                        "artId": 1109003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 3000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋3",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114601,
+                "pieceSkill2": {
+                    "id": 114601,
+                    "groupId": 1088,
+                    "name": "マギアアップ[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "マギアダメージUP[Ⅹ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 310201410,
+                    "art1": {
+                        "artId": 310201410,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 275,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109004,
+                    "eventArt1": {
+                        "artId": 1109004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 7000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋7",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "うつむいて、いつまでも下を向くのはやめようよ＠そうしていても、自分の足元しか見えないよ…？＠顔を上げて、前を見て、恐れずに進んで行こうよ＠きっといつか、素敵な景色に出会えるから…！",
+                "illustrator": "こるり",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1324,
+            "hp": 1084,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 258
+        },
+        {
+            "pieceId": 1682,
+            "piece": {
+                "pieceId": 1682,
+                "pieceType": "SKILL",
+                "pieceName": "再会を信じて「チャオ！」",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 0,
+                "defense": 675,
+                "hp": 675,
+                "skillId": 168200,
+                "pieceSkill": {
+                    "id": 168200,
+                    "groupId": 1082,
+                    "name": "キュア[Ⅱ]",
+                    "type": "SKILL",
+                    "intervalTurn": 9,
+                    "shortDescription": "デバフ解除 & HP回復[Ⅱ](自)",
+                    "messageId": 70,
+                    "artId1": 200200800,
+                    "art1": {
+                        "artId": 200200800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    },
+                    "artId2": 200200402,
+                    "art2": {
+                        "artId": 200200402,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "SELF",
+                        "effectValue": 325,
+                        "growPoint": 20
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 168201,
+                "pieceSkill2": {
+                    "id": 168201,
+                    "groupId": 1082,
+                    "name": "キュア[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "デバフ解除 & HP回復[Ⅲ](自)",
+                    "messageId": 70,
+                    "artId1": 200200800,
+                    "art1": {
+                        "artId": 200200800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    },
+                    "artId2": 200200403,
+                    "art2": {
+                        "artId": 200200403,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 20
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "数奇な運命を背負いこの世に生を受けた同じ顔の少女たち＠待ち受ける未来の全貌は、まだ何もわからない＠それでもふたりは絶望しないだろう＠同じ心で、全力で生きることを誓い合ったのだから",
+                "illustrator": "―",
+                "openDate": "2021/10/20 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1012,
+            "hp": 1012,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 258
+        }
+    ],
+    "isNpc": true,
+    "userName": "昴 かずみ",
+    "userRank": 100,
+    "cardId": 40145,
+    "charaName": "昴 かずみ",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 40145,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}

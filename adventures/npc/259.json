@@ -1,0 +1,808 @@
+{
+    "npcHelpId": 259,
+    "userCardList": [
+        {
+            "cardId": 40115,
+            "displayCardId": 40115,
+            "revision": 3,
+            "attack": 9273,
+            "defense": 7458,
+            "hp": 22958,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40115,
+                "charaNo": 4011,
+                "miniCharaNo": 401100,
+                "magiaCharaNo": 401100,
+                "cardName": "かずみ",
+                "rank": "RANK_5",
+                "attributeId": "DARK",
+                "initialType": "ATTACK",
+                "growthType": "DEFHP",
+                "attack": 2336,
+                "defense": 1837,
+                "hp": 5697,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 40115,
+                "cardMagia": {
+                    "id": 40115,
+                    "groupId": 1014,
+                    "name": "リーミティ・エステールニ",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & MP回復(自) & BlastダメージUP(味全/3T)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301807,
+                    "art2": {
+                        "artId": 330301807,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "ALL",
+                        "effectValue": 450,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 200200506,
+                    "art3": {
+                        "artId": 200200506,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 325,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 40118,
+                "doppelCardMagia": {
+                    "id": 40118,
+                    "groupId": 1014,
+                    "name": "空腹のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & MP回復(自) & BlastダメージUP(味全/3T)",
+                    "artId1": 190401181,
+                    "art1": {
+                        "artId": 190401181,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8360,
+                        "growPoint": 220
+                    },
+                    "artId2": 330301809,
+                    "art2": {
+                        "artId": 330301809,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "ALL",
+                        "effectValue": 550,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 200200508,
+                    "art3": {
+                        "artId": 200200508,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 375,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 401100,
+                "doppel": {
+                    "id": 401100,
+                    "name": "空腹のドッペル",
+                    "title": "その姿は、黒いコック",
+                    "description": "この感情の主は、食に対して人の何倍もの強い拘りをもつ。＠相手が魔法少女であろうと、魔女であろうと、お構いなし。手当たり次第になんでも調理し、自らの体内へと収めてしまう。＠まさに食欲そのものから生まれ出でし料理人であり、すべてを喰らいつくして無へと帰す暴食のドッペルである。＠テーブルの上の皿は、いつでも、何枚でも用意されている。戦いの場で席を同じくして、自らが供されることのないように…。",
+                    "designer": "原案・監修：平松正樹/天杉貴志",
+                    "archive": true,
+                    "openDate": "2017/11/20 15:10:00"
+                },
+                "skillId": 40115,
+                "cardSkill": {
+                    "id": 40115,
+                    "groupId": 1092,
+                    "name": "いまのわたしはこう動く！",
+                    "shortDescription": "BlastダメージUP[Ⅸ] & 必ず防御無視",
+                    "artId1": 310401809,
+                    "art1": {
+                        "artId": 310401809,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "CONNECT",
+                        "effectValue": 800,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610406700,
+                    "art2": {
+                        "artId": 610406700,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_H",
+                "commandType5": "CHARGE",
+                "illustrator": "天杉貴志",
+                "cardCustomize": {
+                    "cardId": 40115,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 152,
+                    "gift2": {
+                        "id": 152,
+                        "type": 1,
+                        "name": "ダークオーブ＋",
+                        "attributeId": "DARK",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 153,
+                    "gift3": {
+                        "id": 153,
+                        "type": 1,
+                        "name": "ダークオーブ＋＋",
+                        "attributeId": "DARK",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 554,
+                    "gift4": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 504,
+                    "gift5": {
+                        "id": 504,
+                        "type": 2,
+                        "name": "リュトンのリボン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 404,
+                    "gift6": {
+                        "id": 404,
+                        "type": 2,
+                        "name": "オウルのバケツ",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 259,
+            "npcPieceId1": 1139,
+            "npcPieceId2": 1144,
+            "npcPieceId3": 1146,
+            "npcPieceId4": 1145
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4011,
+            "chara": {
+                "id": 4011,
+                "name": "かずみ",
+                "kana": "かずみ",
+                "attributeId": "DARK",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 40114,
+                "defaultCard": {
+                    "cardId": 40114,
+                    "rank": "RANK_4",
+                    "attributeId": "DARK",
+                    "initialType": "ATTACK",
+                    "growthType": "DEFHP",
+                    "attack": 2061,
+                    "defense": 1620,
+                    "hp": 5026,
+                    "miniCharaNo": 401100,
+                    "charaNo": 4011,
+                    "cardName": "かずみ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40114,
+                        "groupId": 1014,
+                        "name": "リーミティ・エステールニ",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & MP回復(自)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 200200504,
+                        "art2": {
+                            "artId": 200200504,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 275,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40114,
+                        "groupId": 1092,
+                        "name": "いまのわたしはこう動く！",
+                        "shortDescription": "BlastダメージUP[Ⅶ] & 必ず防御無視",
+                        "artId1": 310401807,
+                        "art1": {
+                            "artId": 310401807,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "CONNECT",
+                            "effectValue": 700,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610406700,
+                        "art2": {
+                            "artId": 610406700,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DEFENSE_IGNORED",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 40115,
+                "evolutionCard1": {
+                    "cardId": 40115,
+                    "rank": "RANK_5",
+                    "attributeId": "DARK",
+                    "initialType": "ATTACK",
+                    "growthType": "DEFHP",
+                    "attack": 2336,
+                    "defense": 1837,
+                    "hp": 5697,
+                    "miniCharaNo": 401100,
+                    "charaNo": 4011,
+                    "cardName": "かずみ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40115,
+                        "groupId": 1014,
+                        "name": "リーミティ・エステールニ",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & MP回復(自) & BlastダメージUP(味全/3T)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301807,
+                        "art2": {
+                            "artId": 330301807,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "ALL",
+                            "effectValue": 450,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 200200506,
+                        "art3": {
+                            "artId": 200200506,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 325,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40115,
+                        "groupId": 1092,
+                        "name": "いまのわたしはこう動く！",
+                        "shortDescription": "BlastダメージUP[Ⅸ] & 必ず防御無視",
+                        "artId1": 310401809,
+                        "art1": {
+                            "artId": 310401809,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "CONNECT",
+                            "effectValue": 800,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610406700,
+                        "art2": {
+                            "artId": 610406700,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DEFENSE_IGNORED",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "記憶を失っているあすなろ市の魔法少女。＠普段は御崎海香、牧カオルと共に行動し、一緒に生活もしている。＠食に対しての意欲は人一倍で、食べるのも好きだが、作る方の腕前もかなりのもの。＠髪の毛の具合で魔女の居場所を察することができる。",
+                "school": "―",
+                "designer": "平松正樹/天杉貴志",
+                "voiceActor": "丹下桜",
+                "openDate": "2017/11/20 15:10:00",
+                "enhancementGroupId": 110
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "1707f72d-0aaa-4f7c-b506-59237a02d018",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 401100,
+            "npcHelpId": 259,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1139,
+            "piece": {
+                "pieceId": 1139,
+                "pieceType": "SKILL",
+                "pieceName": "グランマのイチゴリゾット",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4011",
+                "charaList": [
+                    {
+                        "charaId": 4011,
+                        "name": "かずみ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 462,
+                "hp": 462,
+                "skillId": 113900,
+                "pieceSkill": {
+                    "id": 113900,
+                    "groupId": 1096,
+                    "name": "スラッシュダウン[Ⅸ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "与えるダメージDOWN[Ⅸ](敵単/1T)",
+                    "messageId": 72,
+                    "artId1": 410002209,
+                    "art1": {
+                        "artId": 410002209,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "TARGET",
+                        "effectValue": 450,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 113901,
+                "pieceSkill2": {
+                    "id": 113901,
+                    "groupId": 1096,
+                    "name": "スラッシュダウン[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "与えるダメージDOWN[Ⅹ](敵単/1T)",
+                    "messageId": 72,
+                    "artId1": 410002210,
+                    "art1": {
+                        "artId": 410002210,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "TARGET",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "特別な日はイチゴリゾット、それが彼女の決まりだった＠たとえ記憶がからっぽで、自分が何者かさえ見失いそうでも…＠グランマ直伝のレシピは、その手が覚えている＠グランマは彼女の中から、絶対にいなくなったりしない",
+                "illustrator": "mepo",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 693,
+            "hp": 693,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 259
+        },
+        {
+            "pieceId": 1144,
+            "piece": {
+                "pieceId": 1144,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "繋がる道を歩いてる",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 723,
+                "defense": 0,
+                "hp": 883,
+                "skillId": 114400,
+                "pieceSkill": {
+                    "id": 114400,
+                    "groupId": 1119,
+                    "name": "繋がる道を歩いてる",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ[Ⅴ] & HP自動回復[Ⅲ] &『Another Daze』最終Battleで…",
+                    "artId1": 690206105,
+                    "art1": {
+                        "artId": 690206105,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207703,
+                    "art2": {
+                        "artId": 690207703,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 40,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 100806,
+                    "art3": {
+                        "artId": 100806,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_ATK",
+                        "effectValue": 70000,
+                        "parameter": 5109911
+                    },
+                    "artId4": 100807,
+                    "art4": {
+                        "artId": 100807,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_DEF",
+                        "effectValue": 100000,
+                        "parameter": 5109911
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114401,
+                "pieceSkill2": {
+                    "id": 114401,
+                    "groupId": 1119,
+                    "name": "繋がる道を歩いてる",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ[Ⅵ] & HP自動回復[Ⅳ] &『Another Daze』最終Battleで…",
+                    "artId1": 690206106,
+                    "art1": {
+                        "artId": 690206106,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207704,
+                    "art2": {
+                        "artId": 690207704,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 100806,
+                    "art3": {
+                        "artId": 100806,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_ATK",
+                        "effectValue": 70000,
+                        "parameter": 5109911
+                    },
+                    "artId4": 100807,
+                    "art4": {
+                        "artId": 100807,
+                        "verbCode": "OTHER",
+                        "effectCode": "QUESTBATTLE_DEF",
+                        "effectValue": 100000,
+                        "parameter": 5109911
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "『離れ離れになっても、わたしたちはきっとまた会える』＠そう思い続けて歩いていけば、今いるこの道が＠きっとふたりのいる場所に辿り着くはず…＠心と心が引き合って、道が、繋がっていくはず…",
+                "illustrator": "天杉貴志",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1084,
+            "defense": 0,
+            "hp": 1324,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 259
+        },
+        {
+            "pieceId": 1146,
+            "piece": {
+                "pieceId": 1146,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "三人で、前へ",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 883,
+                "hp": 723,
+                "skillId": 114600,
+                "pieceSkill": {
+                    "id": 114600,
+                    "groupId": 1088,
+                    "name": "マギアアップ[Ⅸ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "マギアダメージUP[Ⅸ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 310201409,
+                    "art1": {
+                        "artId": 310201409,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109003,
+                    "eventArt1": {
+                        "artId": 1109003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 3000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋3",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114601,
+                "pieceSkill2": {
+                    "id": 114601,
+                    "groupId": 1088,
+                    "name": "マギアアップ[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "マギアダメージUP[Ⅹ](自/1T)",
+                    "messageId": 72,
+                    "artId1": 310201410,
+                    "art1": {
+                        "artId": 310201410,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 275,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109004,
+                    "eventArt1": {
+                        "artId": 1109004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 7000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋7",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "うつむいて、いつまでも下を向くのはやめようよ＠そうしていても、自分の足元しか見えないよ…？＠顔を上げて、前を見て、恐れずに進んで行こうよ＠きっといつか、素敵な景色に出会えるから…！",
+                "illustrator": "こるり",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1324,
+            "hp": 1084,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 259
+        },
+        {
+            "pieceId": 1145,
+            "piece": {
+                "pieceId": 1145,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "その味はドラマティック!?",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 573,
+                "defense": 0,
+                "hp": 633,
+                "skillId": 114500,
+                "pieceSkill": {
+                    "id": 114500,
+                    "groupId": 1093,
+                    "name": "クレバー・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]",
+                    "artId1": 390201903,
+                    "art1": {
+                        "artId": 390201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207901,
+                    "art2": {
+                        "artId": 690207901,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "MP_PLUS_WEAKED",
+                        "targetId": "SELF",
+                        "effectValue": 20,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109001,
+                    "eventArt1": {
+                        "artId": 1109001,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 2000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋2",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 114501,
+                "pieceSkill2": {
+                    "id": 114501,
+                    "groupId": 1093,
+                    "name": "クレバー・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "MP獲得量UP[Ⅳ] & 弱点属性で攻撃されたときMPUP[Ⅱ]",
+                    "artId1": 390201904,
+                    "art1": {
+                        "artId": 390201904,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 125,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207902,
+                    "art2": {
+                        "artId": 690207902,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "MP_PLUS_WEAKED",
+                        "targetId": "SELF",
+                        "effectValue": 30,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "eventId": 1109,
+                    "eventArtId1": 1109002,
+                    "eventArt1": {
+                        "artId": 1109002,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_SINGLERAID_1109_EXCHANGE_1"
+                    },
+                    "eventDescription": "＆「かずみメダル」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "小説家・御崎海香先生の知られざる執筆スタイル…＠それは…「行き詰ったら料理をしてストレス解消」！＠余人の口を挟ませずに黙々と作り上げるその料理は＠先生の作品ばりに、食べる者を感動させる美味しさだとか…!?",
+                "illustrator": "シソ",
+                "openDate": "2017/11/20 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 859,
+            "defense": 0,
+            "hp": 949,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 259
+        }
+    ],
+    "isNpc": true,
+    "userName": "かずみ",
+    "userRank": 100,
+    "cardId": 40115,
+    "charaName": "かずみ",
+    "cardRank": "RANK_5",
+    "attributeId": "DARK",
+    "level": 100,
+    "displayCardId": 40115,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
