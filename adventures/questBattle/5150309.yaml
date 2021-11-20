@@ -1,0 +1,70 @@
+---
+questBattleId: 5150309
+sectionId: 515030
+eventId: 1150
+sectionIndex: 9
+questBattleType: NORMAL
+bossFlag: false
+placeId: "13082"
+bgm: bgm01_battle01
+bossBgm: bgm02_boss01
+consumeType: ITEM
+difficulty: 90
+exp: 336
+cardExp: 126
+baseBondsPt: 210
+riche: 2100
+switchCharaId1: 1032
+switchNpcId1: 267
+firstClearRewardCodes: ITEM_EVENT_DAILYTOWER_1150_EXCHANGE_1_3
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 115009
+dropItem1:
+  dropItemId: 115009
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1150_EXCHANGE_1_15
+  rewardCode2: ITEM_EVENT_DAILYTOWER_1150_EXCHANGE_1_16
+  rewardCode3: ITEM_EVENT_DAILYTOWER_1150_EXCHANGE_1_17
+dropItemId2: 115003
+dropItem2:
+  dropItemId: 115003
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1150_EXCHANGE_1_2
+dropItemId3: 5043
+dropItem3:
+  dropItemId: 5043
+  rewardCode1: GIFT_504_1
+mission1: HP_10
+missionMaster1:
+  description: 合計残HPが10％以上でクリア
+mission2: ACTION_25
+missionMaster2:
+  description: 25ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRISM_3
+waveEnemyAttributeIdList:
+- FIRE
+- WATER
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1150_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1150_KEY
+  name: サークルリスト
+  shortDescription: 「遊狩ミユリの現在修行中！」のクエストプレイ用アイテム
+  description: 「遊狩ミユリの現在修行中！」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1150
+  invalidDropFactor: true
+needItemNum: 140
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
