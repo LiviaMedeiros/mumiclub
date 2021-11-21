@@ -1,0 +1,190 @@
+---
+id: 17005
+shopId: 400
+shopItemType: CARD
+genericId: "30564"
+cardNum: 1
+card:
+  cardId: 30564
+  rank: RANK_4
+  attributeId: DARK
+  initialType: ATTACK
+  growthType: DEFHP
+  attack: 2215
+  defense: 1583
+  hp: 4952
+  miniCharaNo: 305600
+  charaNo: 3056
+  cardName: 水樹 塁
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 30564
+    groupId: 1014
+    name: 終末宣告紋章
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 確率でスタン(敵全/1T) & 攻撃力UP(自/3T)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 510304105
+    art2:
+      artId: 510304105
+      verbCode: CONDITION_BAD
+      effectCode: STUN
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 400
+    artId3: 330201105
+    art3:
+      artId: 330201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 30564
+    groupId: 1085
+    name: 行くぜ！相棒!!
+    shortDescription: 攻撃力UP[Ⅶ] & ダメージカット状態[Ⅴ] & 防御力UP[Ⅳ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406205
+    art2:
+      artId: 610406205
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: CONNECT
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId3: 310401204
+    art3:
+      artId: 310401204
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 675
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3056
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 30564
+  defaultCard:
+    cardId: 30564
+    rank: RANK_4
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: DEFHP
+    attack: 2215
+    defense: 1583
+    hp: 4952
+    miniCharaNo: 305600
+    charaNo: 3056
+    cardName: 水樹 塁
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 30564
+      groupId: 1014
+      name: 終末宣告紋章
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 確率でスタン(敵全/1T) & 攻撃力UP(自/3T)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 510304105
+      art2:
+        artId: 510304105
+        verbCode: CONDITION_BAD
+        effectCode: STUN
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 400
+      artId3: 330201105
+      art3:
+        artId: 330201105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30564
+      groupId: 1085
+      name: 行くぜ！相棒!!
+      shortDescription: 攻撃力UP[Ⅶ] & ダメージカット状態[Ⅴ] & 防御力UP[Ⅳ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406205
+      art2:
+        artId: 610406205
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+      artId3: 310401204
+      art3:
+        artId: 310401204
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 675
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みずき るい
+  description: 妄想全開な中二病の魔法少女。自身を数千年前の大戦で勝利に導いた伝説の覇王の生まれ変わりであり、“奴ら”を追うダークヒーロー、という設定で脳内をいっぱいにしている。この妄想が恥ずかしいことだと自覚しており、普段は隠している。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_PURPLE_795
+needNumber: 200
+limitedNumber: 1
+name: 水樹塁
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 10
+isDetailView: false
+startAt: 2021/10/13 15:10:00
+endAt: 2021/10/27 14:59:59
+...

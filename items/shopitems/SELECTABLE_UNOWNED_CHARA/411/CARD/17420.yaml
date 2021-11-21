@@ -1,0 +1,190 @@
+---
+id: 17420
+shopId: 411
+shopItemType: CARD
+genericId: "10234"
+cardNum: 1
+card:
+  cardId: 10234
+  rank: RANK_4
+  attributeId: WATER
+  initialType: SUPPORT
+  growthType: ATKDEF
+  attack: 1782
+  defense: 1763
+  hp: 6279
+  miniCharaNo: 102300
+  charaNo: 1023
+  cardName: 笠音 アオ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 10234
+    groupId: 1012
+    name: 超必・ソニックエッジNo.Ⅵ
+    shortDescription: 敵単体にダメージ[Ⅵ] & バフ解除 & 状態強化解除(敵単) & ダメージUP(味全/3T)
+    artId1: 100000106
+    art1:
+      artId: 100000106
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 11200
+      growPoint: 100
+    artId2: 200000700
+    art2:
+      artId: 200000700
+      verbCode: REVOKE
+      effectCode: BUFF
+      targetId: TARGET
+      growPoint: 0
+    artId3: 200000900
+    art3:
+      artId: 200000900
+      verbCode: REVOKE
+      effectCode: GOOD
+      targetId: TARGET
+      growPoint: 0
+    artId4: 330301306
+    art4:
+      artId: 330301306
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 275
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 10234
+    groupId: 1085
+    name: プレイヤー２参戦！
+    shortDescription: 攻撃力UP[Ⅶ] & MP回復[Ⅳ] & デバフ解除
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 200400504
+    art2:
+      artId: 200400504
+      verbCode: HEAL
+      effectCode: MP
+      targetId: CONNECT
+      effectValue: 200
+      growPoint: 10
+    artId3: 200400800
+    art3:
+      artId: 200400800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: CONNECT
+      growPoint: 0
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1023
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 10234
+  defaultCard:
+    cardId: 10234
+    rank: RANK_4
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: ATKDEF
+    attack: 1782
+    defense: 1763
+    hp: 6279
+    miniCharaNo: 102300
+    charaNo: 1023
+    cardName: 笠音 アオ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10234
+      groupId: 1012
+      name: 超必・ソニックエッジNo.Ⅵ
+      shortDescription: 敵単体にダメージ[Ⅵ] & バフ解除 & 状態強化解除(敵単) & ダメージUP(味全/3T)
+      artId1: 100000106
+      art1:
+        artId: 100000106
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 11200
+        growPoint: 100
+      artId2: 200000700
+      art2:
+        artId: 200000700
+        verbCode: REVOKE
+        effectCode: BUFF
+        targetId: TARGET
+        growPoint: 0
+      artId3: 200000900
+      art3:
+        artId: 200000900
+        verbCode: REVOKE
+        effectCode: GOOD
+        targetId: TARGET
+        growPoint: 0
+      artId4: 330301306
+      art4:
+        artId: 330301306
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 275
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10234
+      groupId: 1085
+      name: プレイヤー２参戦！
+      shortDescription: 攻撃力UP[Ⅶ] & MP回復[Ⅳ] & デバフ解除
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400504
+      art2:
+        artId: 200400504
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 200
+        growPoint: 10
+      artId3: 200400800
+      art3:
+        artId: 200400800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: CONNECT
+        growPoint: 0
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: かさね あお
+  description: プロミストブラッドを率いる姉妹の三女で、頭脳戦が得意な魔法少女。人を食った態度で挑発するが、内心では冷静沈着に周囲を分析している慎重派。このため、衝動的に行動する姉たちに辟易することも。ゲームや読書など、ひとり遊びが好き。
+consumeType: PURCHASED_MONEY
+needItemId: MONEY
+needNumber: 200
+limitedNumber: 1
+name: 笠音アオ
+description: 所持している場合は選択できません。
+sortkey: 138
+isDetailView: false
+startAt: 2021/11/12 15:10:00
+endAt: 2021/11/19 14:59:59
+...
