@@ -1,0 +1,88 @@
+---
+id: 5
+shopId: 2
+shopItemType: FORMATION_SHEET
+genericId: "131"
+formationSheet:
+  id: 131
+  name: マイティ・クロス
+  description: 前方と後方の魔法少女が強化される魔法陣形
+  sheetType: 1
+  placeSkillId2: 5
+  placeSkillId4: 2
+  placeSkillId5: 2
+  placeSkillId6: 2
+  placeSkillId8: 6
+  placeSkill2:
+    id: 5
+    groupId: 1086
+    name: マイティ・クロス
+    type: STARTUP
+    shortDescription: 防御力上昇[Ⅰ]&攻撃力減少[Ⅰ]
+    artId1: 700218701
+    art1:
+      artId: 700218701
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    artId2: 700218801
+    art2:
+      artId: 700218801
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_DOWN
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+  placeSkill4:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill5:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill6:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill8:
+    id: 6
+    groupId: 1085
+    name: マイティ・クロス
+    type: STARTUP
+    shortDescription: 攻撃力上昇[Ⅰ]
+    artId1: 700218601
+    art1:
+      artId: 700218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: ARENA_COIN
+needNumber: 30
+limitedNumber: 1
+name: マイティ・クロス
+description: 前方と後方が強化される魔法陣形
+recommend: true
+sortkey: 51
+isDetailView: false
+startAt: 2017/07/01 14:00:00
+...

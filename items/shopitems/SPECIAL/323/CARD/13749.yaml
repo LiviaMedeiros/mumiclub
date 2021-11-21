@@ -1,0 +1,192 @@
+---
+id: 13749
+shopId: 323
+shopItemType: CARD
+genericId: "10294"
+cardNum: 1
+card:
+  cardId: 10294
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: SUPPORT
+  growthType: BALANCE
+  attack: 1773
+  defense: 1754
+  hp: 6335
+  miniCharaNo: 102900
+  charaNo: 1029
+  cardName: 宮尾 時雨
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 10294
+    groupId: 1012
+    name: フルバースト・ヘイトユー
+    shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 攻撃力DOWN & マギアダメージDOWN(敵単/3T)
+    artId1: 100000205
+    art1:
+      artId: 100000205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: TARGET
+      effectValue: 8640
+      growPoint: 100
+    artId2: 430002003
+    art2:
+      artId: 430002003
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId3: 430002304
+    art3:
+      artId: 430002304
+      verbCode: DEBUFF
+      effectCode: MAGIA
+      targetId: TARGET
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 10294
+    groupId: 1085
+    name: どうしてぼくが助けるの…？
+    shortDescription: 攻撃力UP[Ⅶ] & 確率でクリティカル[Ⅶ] & 確率でスキル不可
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406307
+    art2:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+    artId3: 610411207
+    art3:
+      artId: 610411207
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 400
+      limitedValue: "0"
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1029
+  attributeId: TIMBER
+  initialType: SUPPORT
+  defaultCardId: 10294
+  defaultCard:
+    cardId: 10294
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1773
+    defense: 1754
+    hp: 6335
+    miniCharaNo: 102900
+    charaNo: 1029
+    cardName: 宮尾 時雨
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10294
+      groupId: 1012
+      name: フルバースト・ヘイトユー
+      shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 攻撃力DOWN & マギアダメージDOWN(敵単/3T)
+      artId1: 100000205
+      art1:
+        artId: 100000205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8640
+        growPoint: 100
+      artId2: 430002003
+      art2:
+        artId: 430002003
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430002304
+      art3:
+        artId: 430002304
+        verbCode: DEBUFF
+        effectCode: MAGIA
+        targetId: TARGET
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10294
+      groupId: 1085
+      name: どうしてぼくが助けるの…？
+      shortDescription: 攻撃力UP[Ⅶ] & 確率でクリティカル[Ⅶ] & 確率でスキル不可
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406307
+      art2:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+      artId3: 610411207
+      art3:
+        artId: 610411207
+        verbCode: ENCHANT
+        effectCode: BAN_SKILL
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 400
+        limitedValue: "0"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みやび しぐれ
+  description: ネオマギウスに所属する警戒心が強い魔法少女。心を許した相手としか話さず、常にひとりで周囲に憐れまれている。だが、人より魔法少女が優れているという思想が彼女を支えている。警戒する要因である母親のことは大好きだけど大嫌い。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_BLACK_642
+needNumber: 200
+limitedNumber: 1
+name: 宮尾時雨
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 12
+isDetailView: false
+startAt: 2021/03/22 15:10:00
+endAt: 2021/04/09 14:59:59
+...

@@ -1,0 +1,117 @@
+---
+id: 10042
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "253"
+formationSheet:
+  id: 253
+  name: グランディール・ストライク
+  description: 前方左右と後方中央の木属性の魔法少女が強化される魔法陣形
+  sheetType: 2
+  placeSkillId1: 29
+  placeSkillId2: 2
+  placeSkillId3: 29
+  placeSkillId5: 2
+  placeSkillId8: 29
+  placeSkill1:
+    id: 29
+    groupId: 1088
+    name: グランディール・ストライク
+    type: STARTUP
+    shortDescription: 木属性のマギアダメージUP[Ⅱ]&攻撃力上昇[Ⅰ]
+    artId1: 730220102
+    art1:
+      artId: 730220102
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730218601
+    art2:
+      artId: 730218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill2:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill3:
+    id: 29
+    groupId: 1088
+    name: グランディール・ストライク
+    type: STARTUP
+    shortDescription: 木属性のマギアダメージUP[Ⅱ]&攻撃力上昇[Ⅰ]
+    artId1: 730220102
+    art1:
+      artId: 730220102
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730218601
+    art2:
+      artId: 730218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill5:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill8:
+    id: 29
+    groupId: 1088
+    name: グランディール・ストライク
+    type: STARTUP
+    shortDescription: 木属性のマギアダメージUP[Ⅱ]&攻撃力上昇[Ⅰ]
+    artId1: 730220102
+    art1:
+      artId: 730220102
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730218601
+    art2:
+      artId: 730218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: グランディール・ストライク
+description: 前方左右と後方中央の木属性の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2020/07/01 00:00:00
+...

@@ -1,0 +1,90 @@
+---
+id: 10805
+shopId: 252
+shopItemType: GEM
+genericId: "3036"
+chara:
+  id: 3036
+  attributeId: WATER
+  initialType: HEAL
+  defaultCardId: 30363
+  defaultCard:
+    cardId: 30363
+    rank: RANK_3
+    attributeId: WATER
+    initialType: HEAL
+    growthType: DEFHP
+    attack: 1301
+    defense: 1609
+    hp: 4229
+    miniCharaNo: 303600
+    charaNo: 3036
+    cardName: 由貴 真里愛
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30363
+      groupId: 1012
+      name: 優しくお仕置き
+      shortDescription: 敵単体に属性強化ダメージ[Ⅲ] & HP回復 & 状態異常解除(味全)
+      artId1: 100000203
+      art1:
+        artId: 100000203
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8000
+        growPoint: 100
+      artId2: 200300403
+      art2:
+        artId: 200300403
+        verbCode: HEAL
+        effectCode: HP
+        targetId: ALL
+        effectValue: 175
+        growPoint: 20
+      artId3: 200301000
+      art3:
+        artId: 200301000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 30363
+      groupId: 1078
+      name: 頑張れたら褒めてあげる
+      shortDescription: HP回復[Ⅴ] & 必ず拘束
+      artId1: 200400405
+      art1:
+        artId: 200400405
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 400
+        growPoint: 20
+      artId2: 610409900
+      art2:
+        artId: 610409900
+        verbCode: ENCHANT
+        effectCode: RESTRAINT
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ゆき まりあ
+  description: 女子高生らしからぬ慈愛に満ち溢れた、聖母のような魔法少女。＠学童保育でアルバイトをしている。大好きな子どもたちの前ではもっぱら優しいお姉さんだが、仲のいい友達が相手となると、ちょっぴり小悪魔な顔を覗かせることがある。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 由貴真里愛の魔力解放に使用するアイテム
+sortkey: 27
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

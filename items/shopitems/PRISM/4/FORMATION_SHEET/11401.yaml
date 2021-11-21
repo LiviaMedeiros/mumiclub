@@ -1,0 +1,79 @@
+---
+id: 11401
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "271"
+formationSheet:
+  id: 271
+  name: マイティ・エシュロン
+  description: 中央の魔法少女が強化される魔法陣形
+  sheetType: 6
+  placeSkillId1: 2
+  placeSkillId3: 2
+  placeSkillId5: 31
+  placeSkillId7: 2
+  placeSkillId9: 2
+  placeSkill1:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill3:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill5:
+    id: 31
+    groupId: 1085
+    name: マイティ・エシュロン
+    type: STARTUP
+    shortDescription: 攻撃力上昇[Ⅰ]&ダメージカット[Ⅰ]
+    artId1: 700218601
+    art1:
+      artId: 700218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    artId2: 700220201
+    art2:
+      artId: 700220201
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 50
+      growPoint: 25
+      probability: 1000
+      attributeId: ALL
+    viewAttributeId: ALL
+  placeSkill7:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill9:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: マイティ・エシュロン
+description: 中央の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2020/10/01 00:00:00
+...

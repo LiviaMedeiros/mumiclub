@@ -1,0 +1,102 @@
+---
+id: 10804
+shopId: 252
+shopItemType: GEM
+genericId: "3042"
+chara:
+  id: 3042
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 30423
+  defaultCard:
+    cardId: 30423
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1359
+    defense: 1345
+    hp: 5008
+    miniCharaNo: 304200
+    charaNo: 3042
+    cardName: 枇々木 めぐる
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30423
+      groupId: 1012
+      name: デッドエンドオブザイヤー
+      shortDescription: 敵単体にダメージ[Ⅲ] & 攻撃力UP & 防御力UP(味全/3T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 330301104
+      art2:
+        artId: 330301104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 225
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301204
+      art3:
+        artId: 330301204
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 338
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30423
+      groupId: 1092
+      name: ショーを進行させるよっ！
+      shortDescription: BlastダメージUP[Ⅴ] & Charge後ダメージUP[Ⅲ] & Accele MPUP[Ⅲ]
+      artId1: 310401805
+      art1:
+        artId: 310401805
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 600
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401703
+      art2:
+        artId: 310401703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401603
+      art3:
+        artId: 310401603
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ひびき めぐる
+  description: 目の前で起きる出来事を、なんでも実況してしまう魔法少女。それは学校行事だけでなく魔法少女の戦いにまで及び、所構わず姿を現す。普段は放送部の一員として人気番組を受け持っているが、教室では何でも実況するのでウルサイと言われる。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 枇々木めぐるの魔力解放に使用するアイテム
+sortkey: 26
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

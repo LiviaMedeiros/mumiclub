@@ -1,0 +1,84 @@
+---
+id: 10797
+shopId: 252
+shopItemType: GEM
+genericId: "3046"
+chara:
+  id: 3046
+  attributeId: FIRE
+  initialType: ATTACK
+  defaultCardId: 30463
+  defaultCard:
+    cardId: 30463
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: ATTACK
+    growthType: DEFHP
+    attack: 1670
+    defense: 1257
+    hp: 3916
+    miniCharaNo: 304600
+    charaNo: 3046
+    cardName: 観鳥 令
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30463
+      groupId: 1012
+      name: 絶対炎上観鳥砲!!
+      shortDescription: 敵単体にダメージ[Ⅴ] & マギアダメージUP(自/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 330201413
+      art2:
+        artId: 330201413
+        verbCode: BUFF
+        effectCode: MAGIA
+        targetId: SELF
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30463
+      groupId: 1085
+      name: サイッコーの被写体ってね！
+      shortDescription: 攻撃力UP[Ⅳ] & 確率で回避無効
+      artId1: 310401104
+      art1:
+        artId: 310401104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610408112
+      art2:
+        artId: 610408112
+        verbCode: IGNORE
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 800
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みどり りょう
+  description: 善悪関係なく全てを撮って伝える、ゴシップ生成魔法少女。学校の問題から俗っぽい生徒間のネタまで収集するので、恐れられているが、同時に皆を楽しませている。実は趣味で撮っている“今日のにゃんこ”が、生徒には一番人気があるらしい。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 観鳥令の魔力解放に使用するアイテム
+sortkey: 19
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

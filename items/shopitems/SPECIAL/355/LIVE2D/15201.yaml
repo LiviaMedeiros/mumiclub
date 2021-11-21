@@ -1,0 +1,109 @@
+---
+id: 15201
+shopId: 355
+shopItemType: LIVE2D
+genericId: "1007_50"
+chara:
+  id: 1007
+  attributeId: FIRE
+  initialType: MAGIA
+  defaultCardId: 10074
+  defaultCard:
+    cardId: 10074
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: MAGIA
+    growthType: ATTACK
+    attack: 2109
+    defense: 1372
+    hp: 4704
+    miniCharaNo: 100700
+    charaNo: 1007
+    cardName: 里見 灯花
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10074
+      groupId: 1014
+      name: ネオ・ジェネシス☆彡
+      shortDescription: 敵全体にダメージ[Ⅴ] & 防御力DOWN(敵全/3T) & 防御力UP(自/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302105
+      art2:
+        artId: 430302105
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330201203
+      art3:
+        artId: 330201203
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: SELF
+        effectValue: 225
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10074
+      groupId: 1085
+      name: 確率あげてこー！
+      shortDescription: 攻撃力UP[Ⅶ] & MP回復[Ⅳ] & 確率でマギア不可
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400504
+      art2:
+        artId: 200400504
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 200
+        growPoint: 10
+      artId3: 610411411
+      art3:
+        artId: 610411411
+        verbCode: ENCHANT
+        effectCode: BAN_MAGIA
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: さとみ とうか
+  description: 魔女化のない世界を作ろうとしている魔法少女。入院していた里見メディカルセンターの院長の娘で、幼くして天体物理学を修めた理系の天才。普段は無数の機器に囲まれながら研究を続けており、夢は宇宙の全てを知ること。
+live2d:
+  charaId: 1007
+  live2dId: "50"
+  description: 水着(2019)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: MISSION_121_EXCHANGE
+needNumber: 1
+limitedNumber: 1
+name: 里見 灯花の衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 10
+isDetailView: false
+startAt: 2021/06/28 15:10:00
+endAt: 2021/08/13 14:59:59
+...

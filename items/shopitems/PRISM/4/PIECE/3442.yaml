@@ -1,0 +1,85 @@
+---
+id: 3442
+shopId: 4
+shopItemType: PIECE
+genericId: "1164"
+piece:
+  pieceId: 1164
+  pieceType: SKILL
+  pieceName: 忍び寄るふたつの影
+  attributeId: ALL
+  rank: RANK_3
+  attack: 0
+  defense: 542
+  hp: 662
+  skillId: 116400
+  pieceSkill:
+    id: 116400
+    groupId: 1134
+    name: インビジブルブラスト[Ⅵ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 必ず回避無効 & Blast ダメージUP[Ⅵ](自/1T)
+    messageId: 70
+    artId1: 610208100
+    art1:
+      artId: 610208100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 310201806
+    art2:
+      artId: 310201806
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 116401
+  pieceSkill2:
+    id: 116401
+    groupId: 1134
+    name: インビジブルブラスト[Ⅶ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 必ず回避無効 & Blast ダメージUP[Ⅶ](自/1T)
+    messageId: 70
+    artId1: 610208100
+    art1:
+      artId: 610208100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 310201807
+    art2:
+      artId: 310201807
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  description: さな「わぁ…いい匂いがしてきましたね、いろはさん」＠いろは「うん！そろそろ食べごろかな？」＠やちよ「待って！…まだよ…食べ頃は私が見極めるわ」＠鶴乃＆フェリシア「ふっふっふっ…突撃だぁー！」
+  illustrator: necömi
+  openDate: 2018/01/01 00:00:00
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 50
+limitedNumber: 5
+name: 【お正月限定】忍び寄るふたつの影
+description: メモリア『忍び寄るふたつの影』
+recommend: true
+sortkey: 1
+isDetailView: false
+startAt: 2019/01/01 00:00:00
+endAt: 2019/01/11 14:59:59
+...

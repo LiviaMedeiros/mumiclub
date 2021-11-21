@@ -1,0 +1,167 @@
+---
+id: 9778
+shopId: 66
+shopItemType: CARD
+genericId: "40214"
+cardNum: 1
+card:
+  cardId: 40214
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: BALANCE
+  growthType: ATKDEF
+  attack: 1894
+  defense: 1913
+  hp: 5238
+  miniCharaNo: 402100
+  charaNo: 4021
+  cardName: タルト
+  commandType1: MPUP
+  commandType2: RANGE_V
+  commandType3: RANGE_V
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 40214
+    groupId: 1014
+    name: ラ・リュミエール
+    shortDescription: 敵全体にダメージ[Ⅴ] & HP回復(味全) & 自身に呪い(1T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 200300404
+    art2:
+      artId: 200300404
+      verbCode: HEAL
+      effectCode: HP
+      targetId: ALL
+      effectValue: 187
+      growPoint: 20
+    artId3: 9059
+    art3:
+      artId: 9059
+      verbCode: CONDITION_BAD
+      effectCode: CURSE
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 0
+      probability: 2000
+  cardSkill:
+    id: 40214
+    groupId: 1085
+    name: 必ず守ってみせる！
+    shortDescription: 攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401207
+    art2:
+      artId: 310401207
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 900
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4021
+  attributeId: LIGHT
+  initialType: BALANCE
+  defaultCardId: 40214
+  defaultCard:
+    cardId: 40214
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: BALANCE
+    growthType: ATKDEF
+    attack: 1894
+    defense: 1913
+    hp: 5238
+    miniCharaNo: 402100
+    charaNo: 4021
+    cardName: タルト
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 40214
+      groupId: 1014
+      name: ラ・リュミエール
+      shortDescription: 敵全体にダメージ[Ⅴ] & HP回復(味全) & 自身に呪い(1T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 200300404
+      art2:
+        artId: 200300404
+        verbCode: HEAL
+        effectCode: HP
+        targetId: ALL
+        effectValue: 187
+        growPoint: 20
+      artId3: 9059
+      art3:
+        artId: 9059
+        verbCode: CONDITION_BAD
+        effectCode: CURSE
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 0
+        probability: 2000
+    cardSkill:
+      id: 40214
+      groupId: 1085
+      name: 必ず守ってみせる！
+      shortDescription: 攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401207
+      art2:
+        artId: 310401207
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 900
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: たると
+  description: 現在は“ジャンヌ・ダルク”の名で知られる中世フランスの魔法少女。最愛の妹カトリーヌの死をきっかけに、崩壊寸前のフランスを救うべく立ち上がった。素朴で人を信じやすく、キューブ（キュゥべえ）を“天使様”と呼び慕っている。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】タルト
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+startAt: 2020/06/12 15:10:00
+endAt: 2020/06/19 14:59:59
+...

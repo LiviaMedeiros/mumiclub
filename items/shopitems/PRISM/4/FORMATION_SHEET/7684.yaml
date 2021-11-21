@@ -1,0 +1,97 @@
+---
+id: 7684
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "211"
+formationSheet:
+  id: 211
+  name: デュオ・レゾナンス
+  description: 前方中央と中央の火・水属性の魔法少女が強化される魔法陣形
+  sheetType: 2
+  placeSkillId1: 2
+  placeSkillId2: 20
+  placeSkillId3: 2
+  placeSkillId5: 21
+  placeSkillId8: 2
+  placeSkill1:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill2:
+    id: 20
+    groupId: 1086
+    name: デュオ・レゾナンス
+    type: STARTUP
+    shortDescription: 水属性の防御力上昇[Ⅲ]&マギアダメージUP[Ⅰ]
+    artId1: 720218703
+    art1:
+      artId: 720218703
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 0
+      attributeId: WATER
+    artId2: 720220101
+    art2:
+      artId: 720220101
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 50
+      growPoint: 25
+      probability: 1000
+      attributeId: WATER
+    viewAttributeId: WATER
+  placeSkill3:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill5:
+    id: 21
+    groupId: 1085
+    name: デュオ・レゾナンス
+    type: STARTUP
+    shortDescription: 火属性の攻撃力上昇[Ⅰ]&Blast ダメージUP[Ⅰ]
+    artId1: 710218601
+    art1:
+      artId: 710218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: FIRE
+    artId2: 710219401
+    art2:
+      artId: 710219401
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: FIRE
+    viewAttributeId: FIRE
+  placeSkill8:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: デュオ・レゾナンス
+description: 前方中央と中央の火・水属性の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2020/02/01 00:00:00
+...

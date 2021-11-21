@@ -1,0 +1,84 @@
+---
+id: 559
+shopId: 4
+shopItemType: GEM
+genericId: "4013"
+chara:
+  id: 4013
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 40133
+  defaultCard:
+    cardId: 40133
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: HP
+    attack: 1389
+    defense: 1402
+    hp: 4459
+    miniCharaNo: 401300
+    charaNo: 4013
+    cardName: 牧 カオル
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 40133
+      groupId: 1012
+      name: パラ・ディ・キャノーネ
+      shortDescription: 敵単体にダメージ[Ⅲ] & 攻撃力UP(味全/3T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 330301103
+      art2:
+        artId: 330301103
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 40133
+      groupId: 1085
+      name: あんたを置いて行けるか!!
+      shortDescription: 攻撃力UP[Ⅴ] & 防御力UP[Ⅴ]
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401205
+      art2:
+        artId: 310401205
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 750
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: まき かおる
+  description: あすなろ市の魔法少女。＠普段はサッカープレイヤーであり、『将来は全日本で10番を背負う』と語れるほど、その実力はかなりのもの。＠魔法少女としても、そのフィジカル面の強さを活かした戦い方が得意。＠ユニフォームは夏でも長袖。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+name: デスティニージェム
+description: 牧カオルの魔力解放に使用するアイテム
+sortkey: 57
+isDetailView: false
+startAt: 2017/11/20 15:10:00
+...

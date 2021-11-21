@@ -1,0 +1,75 @@
+---
+id: 10787
+shopId: 252
+shopItemType: GEM
+genericId: "4001"
+chara:
+  id: 4001
+  attributeId: LIGHT
+  initialType: MAGIA
+  defaultCardId: 40013
+  defaultCard:
+    cardId: 40013
+    rank: RANK_3
+    attributeId: LIGHT
+    initialType: MAGIA
+    growthType: BALANCE
+    attack: 1557
+    defense: 1190
+    hp: 3691
+    miniCharaNo: 400100
+    charaNo: 4001
+    cardName: 美国 織莉子
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 40013
+      groupId: 1014
+      name: オラクルレイ
+      shortDescription: 敵全体にダメージ[Ⅳ]
+      artId1: 100300104
+      art1:
+        artId: 100300104
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3300
+        growPoint: 100
+    cardSkill:
+      id: 40013
+      groupId: 1085
+      name: 私の力が必要ですか？
+      shortDescription: 攻撃力UP[Ⅴ] & Accele MPUP[Ⅴ]
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401605
+      art2:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みくに おりこ
+  description: 元議員の父親を持つ、お嬢様魔法少女。＠目的のためには手段を選ばないところがあり、冷酷な人だと思われが＠ちだが、それらは父親譲りの正義感の強さに因るところである。＠行動に反して物腰は至って柔らかく、家では優雅に紅茶を嗜んでいた＠りする。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 美国織莉子の魔力解放に使用するアイテム
+sortkey: 9
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

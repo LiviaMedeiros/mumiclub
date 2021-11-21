@@ -1,0 +1,182 @@
+---
+id: 14480
+shopId: 339
+shopItemType: CARD
+genericId: "40273"
+cardNum: 1
+card:
+  cardId: 40273
+  rank: RANK_3
+  attributeId: FIRE
+  initialType: DEFENSE
+  growthType: DEFHP
+  attack: 1236
+  defense: 1720
+  hp: 5245
+  miniCharaNo: 402700
+  charaNo: 4027
+  cardName: ラピヌ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 40273
+    groupId: 1014
+    name: ラピヌ・オ・サンテュ
+    shortDescription: 敵全体にダメージ[Ⅲ] & MP獲得量DOWN(敵全/3T) & MPダメージ(敵全) & MP回復(自)
+    artId1: 100300103
+    art1:
+      artId: 100300103
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3200
+      growPoint: 100
+    artId2: 430302805
+    art2:
+      artId: 430302805
+      verbCode: DEBUFF
+      effectCode: MP_GAIN
+      targetId: ALL
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId3: 200316403
+    art3:
+      artId: 200316403
+      verbCode: HEAL
+      effectCode: MP_DAMAGE
+      targetId: ALL
+      effectValue: 250
+      growPoint: 0
+    artId4: 200200503
+    art4:
+      artId: 200200503
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 250
+      growPoint: 10
+  cardSkill:
+    id: 40273
+    groupId: 1092
+    name: まだまだ遊ぶの
+    shortDescription: Blast ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]
+    artId1: 310401805
+    art1:
+      artId: 310401805
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 600
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401105
+    art2:
+      artId: 310401105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4027
+  attributeId: FIRE
+  initialType: DEFENSE
+  defaultCardId: 40273
+  defaultCard:
+    cardId: 40273
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: DEFENSE
+    growthType: DEFHP
+    attack: 1236
+    defense: 1720
+    hp: 5245
+    miniCharaNo: 402700
+    charaNo: 4027
+    cardName: ラピヌ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 40273
+      groupId: 1014
+      name: ラピヌ・オ・サンテュ
+      shortDescription: 敵全体にダメージ[Ⅲ] & MP獲得量DOWN(敵全/3T) & MPダメージ(敵全) & MP回復(自)
+      artId1: 100300103
+      art1:
+        artId: 100300103
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3200
+        growPoint: 100
+      artId2: 430302805
+      art2:
+        artId: 430302805
+        verbCode: DEBUFF
+        effectCode: MP_GAIN
+        targetId: ALL
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId3: 200316403
+      art3:
+        artId: 200316403
+        verbCode: HEAL
+        effectCode: MP_DAMAGE
+        targetId: ALL
+        effectValue: 250
+        growPoint: 0
+      artId4: 200200503
+      art4:
+        artId: 200200503
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 250
+        growPoint: 10
+    cardSkill:
+      id: 40273
+      groupId: 1092
+      name: まだまだ遊ぶの
+      shortDescription: Blast ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]
+      artId1: 310401805
+      art1:
+        artId: 310401805
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 600
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401105
+      art2:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: らぴぬ
+  description: 百年戦争のさなか、イングランド陣営で暗躍する仮面の魔法少女。三姉妹の長女だが言動は幼い。その性質は妹のコルボーより嗜虐的で、人を「壊す」ことを遊びのように楽しむ。母親はとある貴人で、母と妹を偏愛している。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_YELLOW_675
+needNumber: 100
+limitedNumber: 1
+name: ラピヌ
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 15
+isDetailView: false
+startAt: 2021/05/17 15:10:00
+endAt: 2021/06/11 14:59:59
+...

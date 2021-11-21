@@ -1,0 +1,73 @@
+---
+id: 10788
+shopId: 252
+shopItemType: GEM
+genericId: "4003"
+chara:
+  id: 4003
+  attributeId: TIMBER
+  initialType: HEAL
+  defaultCardId: 40033
+  defaultCard:
+    cardId: 40033
+    rank: RANK_3
+    attributeId: TIMBER
+    initialType: HEAL
+    growthType: DEFENSE
+    attack: 1182
+    defense: 1587
+    hp: 4101
+    miniCharaNo: 400300
+    charaNo: 4003
+    cardName: 千歳 ゆま
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 40033
+      groupId: 1012
+      name: リンクスインパクト
+      shortDescription: 敵単体にダメージ[Ⅱ] & HP回復(味全)
+      artId1: 100000102
+      art1:
+        artId: 100000102
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9920
+        growPoint: 100
+      artId2: 200300403
+      art2:
+        artId: 200300403
+        verbCode: HEAL
+        effectCode: HP
+        targetId: ALL
+        effectValue: 175
+        growPoint: 20
+    cardSkill:
+      id: 40033
+      groupId: 1078
+      name: ゆまがお手伝いするの！
+      shortDescription: HP回復[Ⅴ]
+      artId1: 200400405
+      art1:
+        artId: 200400405
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 400
+        growPoint: 20
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ちとせ ゆま
+  description: いつも佐倉杏子に引っ付いている、まだまだ幼い魔法少女。＠杏子を肉親のように慕っており、杏子の言うことは絶対であり、杏子＠のためならどんなことでも頑張る。＠子供らしく無邪気だが、虐待のトラウマから、孤独には人一倍の恐怖＠心を持っている。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 千歳ゆまの魔力解放に使用するアイテム
+sortkey: 10
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

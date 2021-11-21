@@ -1,0 +1,95 @@
+---
+id: 10780
+shopId: 252
+shopItemType: GEM
+genericId: "1013"
+chara:
+  id: 1013
+  attributeId: WATER
+  initialType: BALANCE
+  defaultCardId: 10133
+  defaultCard:
+    cardId: 10133
+    rank: RANK_3
+    attributeId: WATER
+    initialType: BALANCE
+    growthType: DEFENSE
+    attack: 1462
+    defense: 1520
+    hp: 4557
+    miniCharaNo: 101300
+    charaNo: 1013
+    cardName: 竜城 明日香
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10133
+      groupId: 1012
+      name: 竜真閃光爪牙
+      shortDescription: 敵単体にダメージ[Ⅲ] & 必ず挑発(自/1T) & HP自動回復(自/1T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 610207600
+      art2:
+        artId: 610207600
+        verbCode: CONDITION_GOOD
+        effectCode: PROVOKE
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610207703
+      art3:
+        artId: 610207703
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: SELF
+        effectValue: 40
+        enableTurn: 1
+        growPoint: 10
+        probability: 1000
+    cardSkill:
+      id: 10133
+      groupId: 1128
+      name: 助太刀つかまつる！
+      shortDescription: 必ず挑発 & ダメージカット状態[Ⅴ]
+      artId1: 610407600
+      art1:
+        artId: 610407600
+        verbCode: CONDITION_GOOD
+        effectCode: PROVOKE
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 610406205
+      art2:
+        artId: 610406205
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: たつき あすか
+  description: 薙刀術の師範代で、免許皆伝を目指して日々稽古を重ねている魔法＠少女。長い歴史を持つ武術道場「竜真館」の一人娘。＠規律を守り、常に清廉を旨としているが、迂闊でそそっかしい一面も＠持ち、そのことで騒動を引き起こしてしまうことがある。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 竜城明日香の魔力解放に使用するアイテム
+sortkey: 2
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

@@ -1,0 +1,85 @@
+---
+id: 7292
+shopId: 3
+shopItemType: MAXPIECE
+genericId: "1441"
+piece:
+  pieceId: 1441
+  pieceType: SKILL
+  pieceName: 一餅・二獅子・三紅晴
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 400
+  hp: 400
+  skillId: 144100
+  pieceSkill:
+    id: 144100
+    groupId: 1085
+    name: アップリフト[Ⅱ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: 攻撃力UP[Ⅱ] & 状態異常耐性UP[Ⅰ](自/3T)
+    messageId: 70
+    artId1: 330201102
+    art1:
+      artId: 330201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId2: 330201501
+    art2:
+      artId: 330201501
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 144101
+  pieceSkill2:
+    id: 144101
+    groupId: 1085
+    name: アップリフト[Ⅲ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 攻撃力UP[Ⅲ] & 状態異常耐性UP[Ⅱ](自/3T)
+    messageId: 70
+    artId1: 330201103
+    art1:
+      artId: 330201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId2: 330201502
+    art2:
+      artId: 330201502
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    skillEffectRange: ALL
+  description: 「正月と言えば長く伸びるお餅。食事をしながら長寿を願うわよ」＠「私はみんなの頭を噛んで無病息災にしてきます！まどか先輩は？」＠「門松で神を呼ぶよ！…ほら、キテる！2020年のマギレポに神が…！」＠「紅晴結菜よぉ…」
+  illustrator: PAPA
+  openDate: 2020/01/01 00:00:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 88
+limitedNumber: 1
+name: 一餅・二獅子・三紅晴
+description: メモリア「一餅・二獅子・三紅晴」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 1
+isDetailView: false
+startAt: 2020/01/01 00:00:00
+endAt: 2020/01/31 23:59:59
+...

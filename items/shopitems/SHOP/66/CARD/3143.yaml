@@ -1,0 +1,195 @@
+---
+id: 3143
+shopId: 66
+shopItemType: CARD
+genericId: "40454"
+cardNum: 1
+card:
+  cardId: 40454
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: SUPPORT
+  growthType: BALANCE
+  attack: 1769
+  defense: 1750
+  hp: 6323
+  miniCharaNo: 404500
+  charaNo: 4045
+  cardName: 羽川 翼
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 40454
+    groupId: 1014
+    name: シャンプ・ファイア
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力DOWN(敵全/2T) & MPダメージ & 状態強化解除(敵全)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 420302003
+    art2:
+      artId: 420302003
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 2
+      growPoint: 25
+    artId3: 200316404
+    art3:
+      artId: 200316404
+      verbCode: HEAL
+      effectCode: MP_DAMAGE
+      targetId: ALL
+      effectValue: 300
+      growPoint: 0
+    artId4: 200300900
+    art4:
+      artId: 200300900
+      verbCode: REVOKE
+      effectCode: GOOD
+      targetId: ALL
+      growPoint: 0
+  cardSkill:
+    id: 40454
+    groupId: 1082
+    name: 友達、できちゃったね
+    shortDescription: デバフ解除 & 攻撃力UP[Ⅶ] & 必ずやけど
+    artId1: 200400800
+    art1:
+      artId: 200400800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: CONNECT
+      growPoint: 0
+    artId2: 310401107
+    art2:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610410300
+    art3:
+      artId: 610410300
+      verbCode: ENCHANT
+      effectCode: BURN
+      targetId: CONNECT
+      effectValue: 100
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4045
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 40454
+  defaultCard:
+    cardId: 40454
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1769
+    defense: 1750
+    hp: 6323
+    miniCharaNo: 404500
+    charaNo: 4045
+    cardName: 羽川 翼
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 40454
+      groupId: 1014
+      name: シャンプ・ファイア
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力DOWN(敵全/2T) & MPダメージ & 状態強化解除(敵全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 420302003
+      art2:
+        artId: 420302003
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 2
+        growPoint: 25
+      artId3: 200316404
+      art3:
+        artId: 200316404
+        verbCode: HEAL
+        effectCode: MP_DAMAGE
+        targetId: ALL
+        effectValue: 300
+        growPoint: 0
+      artId4: 200300900
+      art4:
+        artId: 200300900
+        verbCode: REVOKE
+        effectCode: GOOD
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 40454
+      groupId: 1082
+      name: 友達、できちゃったね
+      shortDescription: デバフ解除 & 攻撃力UP[Ⅶ] & 必ずやけど
+      artId1: 200400800
+      art1:
+        artId: 200400800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: CONNECT
+        growPoint: 0
+      artId2: 310401107
+      art2:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610410300
+      art3:
+        artId: 610410300
+        verbCode: ENCHANT
+        effectCode: BURN
+        targetId: CONNECT
+        effectValue: 100
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: はねかわ つばさ
+  description: 記憶の魔法少女。もしも〈物語〉シリーズのヒロインたちが魔法少女になったら…という「if」の姿。火炎瓶で何かを燃やすたびに記憶を失うが、学年トップの頭脳は常に新しい記憶を蓄積し続けている。願いごとは「全部忘れてしまいたい」。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】羽川翼
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+startAt: 2018/12/03 15:10:00
+endAt: 2018/12/11 14:59:59
+...

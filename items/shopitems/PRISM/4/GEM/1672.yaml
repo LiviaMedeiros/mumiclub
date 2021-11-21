@@ -1,0 +1,85 @@
+---
+id: 1672
+shopId: 4
+shopItemType: GEM
+genericId: "4034"
+chara:
+  id: 4034
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 40343
+  defaultCard:
+    cardId: 40343
+    rank: RANK_3
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1347
+    defense: 1332
+    hp: 4840
+    miniCharaNo: 403400
+    charaNo: 4034
+    cardName: 詩音 千里
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 40343
+      groupId: 1014
+      name: エンフォースメント
+      shortDescription: 敵全体にダメージ[Ⅲ] & 確率で拘束(敵全/1T)
+      artId1: 100300103
+      art1:
+        artId: 100300103
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3200
+        growPoint: 100
+      artId2: 510304305
+      art2:
+        artId: 510304305
+        verbCode: CONDITION_BAD
+        effectCode: RESTRAINT
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 400
+    cardSkill:
+      id: 40343
+      groupId: 1085
+      name: 一緒に更生させましょう
+      shortDescription: 攻撃力UP[Ⅵ] & 確率でスキル不可
+      artId1: 310401106
+      art1:
+        artId: 310401106
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 325
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610411206
+      art2:
+        artId: 610411206
+        verbCode: ENCHANT
+        effectCode: BAN_SKILL
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 350
+        limitedValue: "0"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: しおん ちさと
+  description: 茜ヶ咲中学校に通う魔法少女４人組のひとり。冷静沈着で、公明正大な行いを良しとする。クールではあるが、過去に素行が悪かった亜里紗を更生させるなど、仲間思いで面倒見の良い一面もある。父親は“かつて”絵本作家だった。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+name: デスティニージェム
+description: 詩音千里の魔力解放に使用するアイテム
+sortkey: 61
+isDetailView: false
+startAt: 2018/05/01 15:10:00
+...

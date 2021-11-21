@@ -1,0 +1,102 @@
+---
+id: 13275
+shopId: 308
+shopItemType: LIVE2D
+genericId: "3040_50"
+chara:
+  id: 3040
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 30403
+  defaultCard:
+    cardId: 30403
+    rank: RANK_3
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 1378
+    defense: 1342
+    hp: 4932
+    miniCharaNo: 304000
+    charaNo: 3040
+    cardName: 吉良 てまり
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30403
+      groupId: 1012
+      name: 兵どもが夢の跡
+      shortDescription: 敵単体にダメージ[Ⅲ] & 確率で暗闇(敵単/2T) & Accele MPUP(自/3T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 520005307
+      art2:
+        artId: 520005307
+        verbCode: CONDITION_BAD
+        effectCode: DARKNESS
+        targetId: TARGET
+        effectValue: 350
+        enableTurn: 2
+        growPoint: 0
+        probability: 450
+      artId3: 330201603
+      art3:
+        artId: 330201603
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30403
+      groupId: 1085
+      name: ともに新章へ
+      shortDescription: 攻撃力UP[Ⅴ] & Accele MPUP[Ⅴ]
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401605
+      art2:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: きら てまり
+  description: 変わり者の魔法少女。普段からぼんやりしていて、周囲からは何を考えているのかよく分からないと言われている。だが、文学的素養に優れ、自らも筆を取って感情を表現することがある。幼なじみの古町みくらとはウマが合い、彼女につきあって歴史研究部に所属している。
+live2d:
+  charaId: 3040
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1125_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 吉良 てまりの衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 11
+isDetailView: false
+startAt: 2021/02/12 15:10:00
+endAt: 2021/03/01 14:59:59
+...

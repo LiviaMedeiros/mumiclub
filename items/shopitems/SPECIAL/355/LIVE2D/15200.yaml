@@ -1,0 +1,130 @@
+---
+id: 15200
+shopId: 355
+shopItemType: LIVE2D
+genericId: "1014_50"
+chara:
+  id: 1014
+  attributeId: TIMBER
+  initialType: SUPPORT
+  defaultCardId: 10144
+  defaultCard:
+    cardId: 10144
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 1761
+    defense: 1715
+    hp: 6300
+    miniCharaNo: 101400
+    charaNo: 1014
+    cardName: 柊 ねむ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10144
+      groupId: 1012
+      name: 創造の子どもたち
+      shortDescription: 敵単体にダメージ[Ⅴ] & 必ず魅了・呪い・暗闇(敵単/1T) & 攻撃力UP(味全/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 510004000
+      art2:
+        artId: 510004000
+        verbCode: CONDITION_BAD
+        effectCode: CHARM
+        targetId: TARGET
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 510005000
+      art3:
+        artId: 510005000
+        verbCode: CONDITION_BAD
+        effectCode: CURSE
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId4: 510005400
+      art4:
+        artId: 510005400
+        verbCode: CONDITION_BAD
+        effectCode: DARKNESS
+        targetId: TARGET
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId5: 330301103
+      art5:
+        artId: 330301103
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10144
+      groupId: 1085
+      name: 僕と連作を完成させよう
+      shortDescription: 攻撃力UP[Ⅶ] & HP回復[Ⅳ] & 確率で幻惑
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400404
+      art2:
+        artId: 200400404
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 375
+        growPoint: 20
+      artId3: 9391
+      art3:
+        artId: 9391
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 650
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ひいらぎ ねむ
+  description: 魔女化のない世界を作ろうとしている魔法少女。自己承認欲求を満たすために物語を書き始め、ネット上で掲載すると天才作家と呼ばれるようになった。だが、今まで誰も彼女には接触できていない。夢は世界中に自分の物語を具現化させること。
+live2d:
+  charaId: 1014
+  live2dId: "50"
+  description: 水着(2019)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: MISSION_121_EXCHANGE
+needNumber: 1
+limitedNumber: 1
+name: 柊 ねむの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 9
+isDetailView: false
+startAt: 2021/06/28 15:10:00
+endAt: 2021/08/13 14:59:59
+...

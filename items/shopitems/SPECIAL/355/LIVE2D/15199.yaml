@@ -1,0 +1,113 @@
+---
+id: 15199
+shopId: 355
+shopItemType: LIVE2D
+genericId: "1008_50"
+chara:
+  id: 1008
+  attributeId: TIMBER
+  initialType: ATTACK
+  defaultCardId: 10084
+  defaultCard:
+    cardId: 10084
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 2139
+    defense: 1580
+    hp: 4881
+    miniCharaNo: 100800
+    charaNo: 1008
+    cardName: アリナ・グレイ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10084
+      groupId: 1014
+      name: Nine Phases
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP(自/2T) & 確率でクリティカル(自/2T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 320201105
+      art2:
+        artId: 320201105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 250
+        enableTurn: 2
+        growPoint: 25
+      artId3: 9088
+      art3:
+        artId: 9088
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 2000
+        enableTurn: 2
+        growPoint: 0
+        probability: 400
+    cardSkill:
+      id: 10084
+      groupId: 1085
+      name: アリナの作品に溶けて
+      shortDescription: 攻撃力UP [Ⅶ] & 必ず幻惑 & 必ず毒
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610411100
+      art2:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610410100
+      art3:
+        artId: 610410100
+        verbCode: ENCHANT
+        effectCode: POISON
+        targetId: CONNECT
+        effectValue: 50
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ありな・ぐれい
+  description: 魔女化のない世界を作ろうとしている魔法少女。生と死というテーマに取り憑かれた天才芸術家で、スランプ時は自分を題材にしたこともある。自身の目的こそが至上で努力を惜しまない彼女は、魔女を最高のアートにすることを夢見ている。
+live2d:
+  charaId: 1008
+  live2dId: "50"
+  description: 水着(2019)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: MISSION_121_EXCHANGE
+needNumber: 1
+limitedNumber: 1
+name: アリナ・グレイの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 8
+isDetailView: false
+startAt: 2021/06/28 15:10:00
+endAt: 2021/08/13 14:59:59
+...

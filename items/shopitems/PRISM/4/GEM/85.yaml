@@ -1,0 +1,95 @@
+---
+id: 85
+shopId: 4
+shopItemType: GEM
+genericId: "3030"
+chara:
+  id: 3030
+  attributeId: TIMBER
+  initialType: HEAL
+  defaultCardId: 30302
+  defaultCard:
+    cardId: 30302
+    rank: RANK_2
+    attributeId: TIMBER
+    initialType: HEAL
+    growthType: DEFHP
+    attack: 942
+    defense: 1246
+    hp: 3321
+    miniCharaNo: 303000
+    charaNo: 3030
+    cardName: 春名 このみ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 30302
+      groupId: 1015
+      name: ピオニー・ブーケ
+      shortDescription: 横方向にダメージ[Ⅰ] & HP回復(味全)
+      artId1: 100600101
+      art1:
+        artId: 100600101
+        verbCode: ATTACK
+        targetId: HORIZONTAL
+        effectValue: 4815
+        growPoint: 100
+      artId2: 200300401
+      art2:
+        artId: 200300401
+        verbCode: HEAL
+        effectCode: HP
+        targetId: ALL
+        effectValue: 150
+        growPoint: 20
+    cardSkill:
+      id: 30302
+      groupId: 1129
+      name: こんなアレンジはどう？
+      shortDescription: HP自動回復[Ⅲ](3T) & 必ず霧 & 必ず毒
+      artId1: 630407703
+      art1:
+        artId: 630407703
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: CONNECT
+        effectValue: 40
+        enableTurn: 3
+        growPoint: 10
+        probability: 1000
+      artId2: 610410700
+      art2:
+        artId: 610410700
+        verbCode: ENCHANT
+        effectCode: FOG
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610410100
+      art3:
+        artId: 610410100
+        verbCode: ENCHANT
+        effectCode: POISON
+        targetId: CONNECT
+        effectValue: 50
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: はるな このみ
+  description: 花への愛は人一倍の、お花屋さんで働く魔法少女。＠尊敬する店長さんのためには苦労も厭わないなど、情に厚い。＠接客もお手の物のしっかり者だが、花のこととなると愛ゆえに空回り＠してしまうことも。フラワーアレンジメントも得意。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 30
+name: デスティニージェム
+description: 春名このみの魔力解放に使用するアイテム
+sortkey: 49
+isDetailView: false
+startAt: 2017/07/01 14:00:00
+...

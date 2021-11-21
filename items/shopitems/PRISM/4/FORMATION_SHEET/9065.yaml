@@ -1,0 +1,110 @@
+---
+id: 9065
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "241"
+formationSheet:
+  id: 241
+  name: マーメイド・デュエット
+  description: 前方中央と後方中央の水属性の魔法少女が強化される魔法陣形
+  sheetType: 3
+  placeSkillId2: 27
+  placeSkillId5: 2
+  placeSkillId7: 2
+  placeSkillId8: 28
+  placeSkillId9: 2
+  placeSkill2:
+    id: 27
+    groupId: 1129
+    name: マーメイド・デュエット
+    type: STARTUP
+    shortDescription: 水属性のHP自動回復[Ⅲ]&ダメージカット[Ⅱ]
+    artId1: 720219503
+    art1:
+      artId: 720219503
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+      attributeId: WATER
+    artId2: 720220202
+    art2:
+      artId: 720220202
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+      attributeId: WATER
+    viewAttributeId: WATER
+  placeSkill5:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill7:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill8:
+    id: 28
+    groupId: 1202
+    name: マーメイド・デュエット
+    type: STARTUP
+    shortDescription: 水属性のBlast ダメージカット[Ⅳ]&HP自動回復[Ⅲ]&マギアダメージUP[Ⅲ]
+    artId1: 720220304
+    art1:
+      artId: 720220304
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_BLAST
+      targetId: SELF
+      effectValue: 200
+      growPoint: 0
+      probability: 1000
+      attributeId: WATER
+    artId2: 720219503
+    art2:
+      artId: 720219503
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+      attributeId: WATER
+    artId3: 720220103
+    art3:
+      artId: 720220103
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+      attributeId: WATER
+    viewAttributeId: WATER
+  placeSkill9:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: マーメイド・デュエット
+description: 前方中央と後方中央の水属性の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2020/05/01 00:00:00
+...

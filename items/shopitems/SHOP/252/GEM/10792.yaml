@@ -1,0 +1,94 @@
+---
+id: 10792
+shopId: 252
+shopItemType: GEM
+genericId: "3013"
+chara:
+  id: 3013
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 30133
+  defaultCard:
+    cardId: 30133
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: BALANCE
+    attack: 1479
+    defense: 1494
+    hp: 4615
+    miniCharaNo: 301300
+    charaNo: 3013
+    cardName: 伊吹 れいら
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30133
+      groupId: 1012
+      name: サークル・オブ・ファイア
+      shortDescription: 敵単体に属性強化ダメージ[Ⅲ] & Charge後ダメージUP(味全/3T)
+      artId1: 100000203
+      art1:
+        artId: 100000203
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8000
+        growPoint: 100
+      artId2: 330301703
+      art2:
+        artId: 330301703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30133
+      groupId: 1078
+      name: 気持ちを結ぼう！
+      shortDescription: HP回復[Ⅳ] & 攻撃力UP[Ⅴ] & 確率でやけど
+      artId1: 200400404
+      art1:
+        artId: 200400404
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 375
+        growPoint: 20
+      artId2: 310401105
+      art2:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId3: 9098
+      art3:
+        artId: 9098
+        verbCode: ENCHANT
+        effectCode: BURN
+        targetId: CONNECT
+        effectValue: 100
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: いぶき れいら
+  description: 神浜市・大東区にある団地で暮らしている魔法少女。明朗快活でとても心根が優しく、誰にでも温かく接することから、彼女の人柄に惹かれて、自然と多くの人が周囲に集まる。その反面、周囲の調和のために自分を犠牲にしてしまうこともある。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 伊吹れいらの魔力解放に使用するアイテム
+sortkey: 14
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

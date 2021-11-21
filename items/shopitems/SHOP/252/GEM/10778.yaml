@@ -1,0 +1,93 @@
+---
+id: 10778
+shopId: 252
+shopItemType: GEM
+genericId: "3021"
+chara:
+  id: 3021
+  attributeId: TIMBER
+  initialType: ATTACK
+  defaultCardId: 30212
+  defaultCard:
+    cardId: 30212
+    rank: RANK_2
+    attributeId: TIMBER
+    initialType: ATTACK
+    growthType: ATKDEF
+    attack: 1345
+    defense: 1002
+    hp: 3065
+    miniCharaNo: 302100
+    charaNo: 3021
+    cardName: 鈴鹿 さくや
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30212
+      groupId: 1012
+      name: スプレンディング・エッジ
+      shortDescription: 敵単体にダメージ[Ⅲ] & 防御力DOWN(敵単/3T) & Charge後ダメージUP(味全/3T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 430002103
+      art2:
+        artId: 430002103
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301703
+      art3:
+        artId: 330301703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30212
+      groupId: 1091
+      name: バトンは君に託すよ！
+      shortDescription: Charge後ダメージUP[Ⅲ] & 必ず回避
+      artId1: 310401703
+      art1:
+        artId: 310401703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406900
+      art2:
+        artId: 610406900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: すずか さくや
+  description: プロミストブラッドに所属する、天才的アスリートにして魔法少女。＠生きがいは走ることで、座右の銘は「完全燃焼」。何事も燃え尽きるまで取り組めるほどの集中力を持つが、こと勉強に関しては発揮できない。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 1
+name: デスティニージェム
+description: 鈴鹿さくやの魔力解放に使用するアイテム
+sortkey: 65
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

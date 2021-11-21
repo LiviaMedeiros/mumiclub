@@ -1,0 +1,86 @@
+---
+id: 10808
+shopId: 252
+shopItemType: GEM
+genericId: "3047"
+chara:
+  id: 3047
+  attributeId: TIMBER
+  initialType: BALANCE
+  defaultCardId: 30473
+  defaultCard:
+    cardId: 30473
+    rank: RANK_3
+    attributeId: TIMBER
+    initialType: BALANCE
+    growthType: ATKDEF
+    attack: 1502
+    defense: 1516
+    hp: 4628
+    miniCharaNo: 304700
+    charaNo: 3047
+    cardName: 青葉 ちか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30473
+      groupId: 1012
+      name: ネイチャー・リグレッション
+      shortDescription: 敵単体に属性強化ダメージ[Ⅲ] & 状態異常耐性UP(味全/3T)
+      artId1: 100000203
+      art1:
+        artId: 100000203
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8000
+        growPoint: 100
+      artId2: 330301505
+      art2:
+        artId: 330301505
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30473
+      groupId: 1087
+      name: 険しい道は私が案内します
+      shortDescription: 与えるダメージUP[Ⅴ] & 確率でクリティカル[Ⅴ]
+      artId1: 310401305
+      art1:
+        artId: 310401305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406305
+      art2:
+        artId: 610406305
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 500
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あおば ちか
+  description: 時女一族に所属する自然が大好きな魔法少女。時女の分家集落に来た静香たちに誘われて、１年前まで住んでいた神浜に帰ってきた。動物や植物への造詣が深く、現在は北養の山奥で自然に囲まれた生活をしながらネイチャーガイドをしている。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 青葉ちかの魔力解放に使用するアイテム
+sortkey: 30
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

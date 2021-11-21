@@ -1,0 +1,97 @@
+---
+id: 6506
+shopId: 2
+shopItemType: FORMATION_SHEET
+genericId: "201"
+formationSheet:
+  id: 201
+  name: トリコロール・レイド
+  description: 前方左右と中央の火・水・木属性の魔法少女が強化される魔法陣形
+  sheetType: 6
+  placeSkillId1: 17
+  placeSkillId3: 18
+  placeSkillId5: 19
+  placeSkillId7: 2
+  placeSkillId9: 2
+  placeSkill1:
+    id: 17
+    groupId: 1085
+    name: トリコロール・レイド
+    type: STARTUP
+    shortDescription: 木属性の攻撃力上昇[Ⅱ]
+    artId1: 730218602
+    art1:
+      artId: 730218602
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 150
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill3:
+    id: 18
+    groupId: 1085
+    name: トリコロール・レイド
+    type: STARTUP
+    shortDescription: 火属性の攻撃力上昇[Ⅱ]
+    artId1: 710218602
+    art1:
+      artId: 710218602
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 150
+      growPoint: 0
+      attributeId: FIRE
+    viewAttributeId: FIRE
+  placeSkill5:
+    id: 19
+    groupId: 1086
+    name: トリコロール・レイド
+    type: STARTUP
+    shortDescription: 水属性の防御力上昇[Ⅱ]&攻撃力上昇[Ⅰ]
+    artId1: 720218702
+    art1:
+      artId: 720218702
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 150
+      growPoint: 0
+      attributeId: WATER
+    artId2: 720218601
+    art2:
+      artId: 720218601
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: WATER
+    viewAttributeId: WATER
+  placeSkill7:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill9:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: ARENA_COIN
+needNumber: 30
+limitedNumber: 1
+name: トリコロール・レイド
+description: 前方左右と中央の火・水・木属性の魔法少女が強化される魔法陣形
+recommend: true
+sortkey: 58
+isDetailView: false
+startAt: 2019/11/11 15:10:00
+...

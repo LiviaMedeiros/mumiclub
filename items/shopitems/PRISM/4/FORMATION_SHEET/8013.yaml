@@ -1,0 +1,87 @@
+---
+id: 8013
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "221"
+formationSheet:
+  id: 221
+  name: ブレイブ・クロス
+  description: 中央の魔法少女が強化される魔法陣形
+  sheetType: 1
+  placeSkillId2: 2
+  placeSkillId4: 2
+  placeSkillId5: 22
+  placeSkillId6: 2
+  placeSkillId8: 2
+  placeSkill2:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill4:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill5:
+    id: 22
+    groupId: 1086
+    name: ブレイブ・クロス
+    type: STARTUP
+    shortDescription: 防御力上昇[Ⅲ]&状態異常耐性UP[Ⅱ]&Blast ダメージUP[Ⅰ]
+    artId1: 700218703
+    art1:
+      artId: 700218703
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 0
+      attributeId: ALL
+    artId2: 700219302
+    art2:
+      artId: 700219302
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    artId3: 700219401
+    art3:
+      artId: 700219401
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+  placeSkill6:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill8:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: ブレイブ・クロス
+description: 中央の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2020/03/01 00:00:00
+...

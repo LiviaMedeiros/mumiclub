@@ -1,0 +1,174 @@
+---
+id: 15071
+shopId: 352
+shopItemType: CARD
+genericId: "10184"
+cardNum: 1
+card:
+  cardId: 10184
+  rank: RANK_4
+  attributeId: DARK
+  initialType: BALANCE
+  growthType: ATKDEF
+  attack: 1892
+  defense: 1911
+  hp: 5811
+  miniCharaNo: 101800
+  charaNo: 1018
+  cardName: 天音 月夜
+  commandType1: MPUP
+  commandType2: RANGE_H
+  commandType3: CHARGE
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10184
+    groupId: 1014
+    name: 桜隠れ
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & Charge後ダメージUP(味全/3T)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 330301707
+    art2:
+      artId: 330301707
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 10184
+    groupId: 1091
+    name: 共に奏でるでございます
+    shortDescription: Charge後ダメージUP[Ⅸ] & 確率でクリティカル[Ⅶ] & 月咲にコネクトで攻撃力UP
+    artId1: 310401709
+    art1:
+      artId: 310401709
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406307
+    art2:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+    artId3: 9056
+    art3:
+      artId: 9056
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: LIMITED
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 25
+      limitedValue: "1019"
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1018
+  attributeId: DARK
+  initialType: BALANCE
+  defaultCardId: 10184
+  defaultCard:
+    cardId: 10184
+    rank: RANK_4
+    attributeId: DARK
+    initialType: BALANCE
+    growthType: ATKDEF
+    attack: 1892
+    defense: 1911
+    hp: 5811
+    miniCharaNo: 101800
+    charaNo: 1018
+    cardName: 天音 月夜
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10184
+      groupId: 1014
+      name: 桜隠れ
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & Charge後ダメージUP(味全/3T)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 330301707
+      art2:
+        artId: 330301707
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10184
+      groupId: 1091
+      name: 共に奏でるでございます
+      shortDescription: Charge後ダメージUP[Ⅸ] & 確率でクリティカル[Ⅶ] & 月咲にコネクトで攻撃力UP
+      artId1: 310401709
+      art1:
+        artId: 310401709
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406307
+      art2:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+      artId3: 9056
+      art3:
+        artId: 9056
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: LIMITED
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+        limitedValue: "1019"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あまね つくよ
+  description: 月咲の双子の姉にあたる、解放を望む魔法少女。＠普段から箏曲、毛筆、舞踊などの稽古に勤しみ、優れた腕前を持つ。＠後輩や同期からの信頼も厚いが、気を許せる仲の人は居ないため、妹の月咲と一緒にいるのが最も心が安らぐ。
+consumeType: PURCHASED_MONEY
+needItemId: MONEY
+needNumber: 200
+limitedNumber: 1
+name: 天音月夜
+description: 所持している場合は選択できません。
+sortkey: 107
+isDetailView: false
+startAt: 2021/06/21 15:10:00
+endAt: 2021/06/28 14:59:59
+...

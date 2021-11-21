@@ -1,0 +1,118 @@
+---
+id: 14877
+shopId: 348
+shopItemType: PIECE
+genericId: "1398"
+piece:
+  pieceId: 1398
+  pieceType: ABILITY
+  pieceName: 未来あるトモヘ
+  attributeId: ALL
+  rank: RANK_4
+  attack: 726
+  defense: 0
+  hp: 885
+  skillId: 139800
+  pieceSkill:
+    id: 139800
+    groupId: 1154
+    name: ジャマー・ブレイド[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率でスキル不可(1T)を付与[Ⅲ] & 与えるダメージUP[Ⅲ]
+    artId1: 691211203
+    art1:
+      artId: 691211203
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 200
+    artId2: 390201303
+    art2:
+      artId: 390201303
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2009
+    regularEventArtId1: 690208610
+    regularEventArt1:
+      artId: 690208610
+      verbCode: IGNORE
+      effectCode: POISON
+      targetId: SELF
+      growPoint: 0
+      probability: 700
+    regularEventArtId2: 690217602
+    regularEventArt2:
+      artId: 690217602
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_TIMBER
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で確率で毒無効[X] & 木属性ダメージカット[Ⅱ]】
+    skillEffectRange: ALL
+  skillId2: 139801
+  pieceSkill2:
+    id: 139801
+    groupId: 1154
+    name: ジャマー・ブレイド[Ⅳ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率でスキル不可(1T)を付与[Ⅳ] & 与えるダメージUP[Ⅳ]
+    artId1: 691211204
+    art1:
+      artId: 691211204
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 250
+    artId2: 390201304
+    art2:
+      artId: 390201304
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2009
+    regularEventArtId1: 690208600
+    regularEventArt1:
+      artId: 690208600
+      verbCode: IGNORE
+      effectCode: POISON
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    regularEventArtId2: 690217604
+    regularEventArt2:
+      artId: 690217604
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_TIMBER
+      targetId: SELF
+      effectValue: 200
+      growPoint: 0
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で必ず毒無効 & 木属性ダメージカット[Ⅳ]】
+    skillEffectRange: ALL
+  description: 「自分の夢を満たすでも、誰かを救うでもなく＠ただ生きるために契約したこの力。＠だからこそみんなには後悔のない選択をしてほしい＠それが今の願いかな。仲間は嬉しいけどね」
+  illustrator: 谷口淳一郎
+  openDate: 2019/09/09 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_6
+needNumber: 1
+limitedNumber: 1
+name: メモリア『未来あるトモへ』
+description: 攻撃時に確率でスキル不可(1T)を付与[Ⅳ] & 与えるダメージUP[Ⅳ]
+sortkey: 17
+isDetailView: false
+startAt: 2021/06/11 15:10:00
+endAt: 2021/07/05 14:59:59
+...

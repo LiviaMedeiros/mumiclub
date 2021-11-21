@@ -1,0 +1,155 @@
+---
+id: 14339
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "283"
+formationSheet:
+  id: 283
+  name: ヴァルト・パラディーゾ
+  description: 中央と前後方左右の木属性の魔法少女が強化される魔法陣形
+  sheetType: 6
+  placeSkillId1: 35
+  placeSkillId3: 35
+  placeSkillId5: 34
+  placeSkillId7: 35
+  placeSkillId9: 35
+  placeSkill1:
+    id: 35
+    groupId: 1129
+    name: ヴァルト・パラディーゾ
+    type: STARTUP
+    shortDescription: 木属性のHP自動回復[Ⅲ]&状態異常耐性UP[Ⅱ]
+    artId1: 730219503
+    art1:
+      artId: 730219503
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730219302
+    art2:
+      artId: 730219302
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill3:
+    id: 35
+    groupId: 1129
+    name: ヴァルト・パラディーゾ
+    type: STARTUP
+    shortDescription: 木属性のHP自動回復[Ⅲ]&状態異常耐性UP[Ⅱ]
+    artId1: 730219503
+    art1:
+      artId: 730219503
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730219302
+    art2:
+      artId: 730219302
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill5:
+    id: 34
+    groupId: 1085
+    name: ヴァルト・パラディーゾ
+    type: STARTUP
+    shortDescription: 木属性の攻撃力上昇[Ⅲ]&マギアダメージUP[Ⅱ]
+    artId1: 730218603
+    art1:
+      artId: 730218603
+      verbCode: OTHER
+      effectCode: FORMATION_ATTACK_UP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 0
+      attributeId: TIMBER
+    artId2: 730220102
+    art2:
+      artId: 730220102
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill7:
+    id: 35
+    groupId: 1129
+    name: ヴァルト・パラディーゾ
+    type: STARTUP
+    shortDescription: 木属性のHP自動回復[Ⅲ]&状態異常耐性UP[Ⅱ]
+    artId1: 730219503
+    art1:
+      artId: 730219503
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730219302
+    art2:
+      artId: 730219302
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+  placeSkill9:
+    id: 35
+    groupId: 1129
+    name: ヴァルト・パラディーゾ
+    type: STARTUP
+    shortDescription: 木属性のHP自動回復[Ⅲ]&状態異常耐性UP[Ⅱ]
+    artId1: 730219503
+    art1:
+      artId: 730219503
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+      attributeId: TIMBER
+    artId2: 730219302
+    art2:
+      artId: 730219302
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: TIMBER
+    viewAttributeId: TIMBER
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: ヴァルト・パラディーゾ
+description: 中央と前後方左右の木属性の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2021/05/01 00:00:00
+...

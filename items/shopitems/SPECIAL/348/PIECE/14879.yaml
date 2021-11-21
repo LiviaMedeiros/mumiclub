@@ -1,0 +1,96 @@
+---
+id: 14879
+shopId: 348
+shopItemType: PIECE
+genericId: "1449"
+piece:
+  pieceId: 1449
+  pieceType: ABILITY
+  pieceName: 旅する調整屋
+  attributeId: ALL
+  rank: RANK_4
+  attack: 770
+  defense: 0
+  hp: 850
+  skillId: 144900
+  pieceSkill:
+    id: 144900
+    groupId: 1121
+    name: エルピーダ・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: 確率でクリティカル[Ⅲ] & 攻撃力UP[Ⅰ] & 必ず魅了無効
+    artId1: 690206303
+    art1:
+      artId: 690206303
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      growPoint: 0
+      probability: 200
+    artId2: 390201101
+    art2:
+      artId: 390201101
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 50
+      growPoint: 25
+      probability: 1000
+    artId3: 690208300
+    art3:
+      artId: 690208300
+      verbCode: IGNORE
+      effectCode: CHARM
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 144901
+  pieceSkill2:
+    id: 144901
+    groupId: 1121
+    name: エルピーダ・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: 確率でクリティカル[Ⅳ] & 攻撃力UP[Ⅱ] & 必ず魅了無効
+    artId1: 690206304
+    art1:
+      artId: 690206304
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      growPoint: 0
+      probability: 250
+    artId2: 390201102
+    art2:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId3: 690208300
+    art3:
+      artId: 690208300
+      verbCode: IGNORE
+      effectCode: CHARM
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: 「敵から身を護りたいんやったら、私らピュエラケアが力を授けたるで。ただ絶対に中立である以上は、アンタの敵も調整するかもしれへん。＠まぁ、その時はまた私らが調整して力をあげるわ。＠イタチごっこやって思うやろうけど、そもそも世界がそんなもんやろ」
+  illustrator: ―
+  openDate: 2020/01/17 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_6
+needNumber: 1
+limitedNumber: 1
+name: メモリア『旅する調整屋』
+description: 確率でクリティカル[Ⅳ] & 攻撃力UP[Ⅱ] & 必ず魅了無効
+sortkey: 19
+isDetailView: false
+startAt: 2021/06/11 15:10:00
+endAt: 2021/07/05 14:59:59
+...

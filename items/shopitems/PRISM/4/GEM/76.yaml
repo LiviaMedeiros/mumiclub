@@ -1,0 +1,84 @@
+---
+id: 76
+shopId: 4
+shopItemType: GEM
+genericId: "3005"
+chara:
+  id: 3005
+  attributeId: WATER
+  initialType: BALANCE
+  defaultCardId: 30053
+  defaultCard:
+    cardId: 30053
+    rank: RANK_3
+    attributeId: WATER
+    initialType: BALANCE
+    growthType: ATKHP
+    attack: 1484
+    defense: 1476
+    hp: 4625
+    miniCharaNo: 300500
+    charaNo: 3005
+    cardName: 常盤 ななか
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 30053
+      groupId: 1014
+      name: 白椿
+      shortDescription: 敵全体にダメージ[Ⅲ] & 防御力DOWN(敵全/3T)
+      artId1: 100300103
+      art1:
+        artId: 100300103
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3200
+        growPoint: 100
+      artId2: 430302107
+      art2:
+        artId: 430302107
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30053
+      groupId: 1092
+      name: この策はいかがでしょうか？
+      shortDescription: Blast ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]
+      artId1: 310401805
+      art1:
+        artId: 310401805
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 600
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401105
+      art2:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ときわ ななか
+  description: 江戸時代から続く華道の名門「華心流」宗家に生まれた魔法少女。＠容姿端麗で品行方正で頭脳明晰。一見して穏やかでおっとりした性格＠のように思えるが、その実は策もめぐらせる戦略家。＠また、自分に与えられた状況を理解して冷静に対処していく。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+name: デスティニージェム
+description: 常盤ななかの魔力解放に使用するアイテム
+sortkey: 40
+isDetailView: false
+startAt: 2017/07/01 14:00:00
+...

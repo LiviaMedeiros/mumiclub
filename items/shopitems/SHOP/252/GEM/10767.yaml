@@ -1,0 +1,93 @@
+---
+id: 10767
+shopId: 252
+shopItemType: GEM
+genericId: "3002"
+chara:
+  id: 3002
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 30022
+  defaultCard:
+    cardId: 30022
+    rank: RANK_2
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: DEFHP
+    attack: 1059
+    defense: 1065
+    hp: 3866
+    miniCharaNo: 300200
+    charaNo: 3002
+    cardName: 空穂 夏希
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30022
+      groupId: 1012
+      name: ゴー！ファイト！ウィン！
+      shortDescription: 敵単体にダメージ[Ⅰ] & 攻撃力UP & 防御力UP(味全/3T)
+      artId1: 100000101
+      art1:
+        artId: 100000101
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9600
+        growPoint: 100
+      artId2: 330301102
+      art2:
+        artId: 330301102
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 175
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301202
+      art3:
+        artId: 330301202
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 263
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30022
+      groupId: 1085
+      name: ウィキャンドゥーイッ！
+      shortDescription: 攻撃力UP[Ⅳ] & 防御力UP[Ⅳ]
+      artId1: 310401104
+      art1:
+        artId: 310401104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401204
+      art2:
+        artId: 310401204
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 675
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: うつほ なつき
+  description: みんなにエールを送ってくれる、元気はつらつ魔法少女。＠野球が大好きで、学校ではチアガールとして野球部員にエールを＠送っている。＠また、野球部のマネージャーも兼任しており、名実ともに、年中無休＠のみんなのサポーターである。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 1
+name: デスティニージェム
+description: 空穂夏希の魔力解放に使用するアイテム
+sortkey: 54
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

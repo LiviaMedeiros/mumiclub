@@ -1,0 +1,77 @@
+---
+id: 10786
+shopId: 252
+shopItemType: GEM
+genericId: "3031"
+chara:
+  id: 3031
+  attributeId: FIRE
+  initialType: MAGIA
+  defaultCardId: 30313
+  defaultCard:
+    cardId: 30313
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: MAGIA
+    growthType: ATKDEF
+    attack: 1565
+    defense: 1197
+    hp: 3645
+    miniCharaNo: 303100
+    charaNo: 3031
+    cardName: 綾野 梨花
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30313
+      groupId: 1014
+      name: キラ盛りビーム
+      shortDescription: 敵全体に属性強化ダメージ[Ⅲ]
+      artId1: 100300204
+      art1:
+        artId: 100300204
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3050
+        growPoint: 100
+    cardSkill:
+      id: 30313
+      groupId: 1090
+      name: 一緒なら大丈夫だよ！
+      shortDescription: Accele MPUP[Ⅵ] & 確率でクリティカル[Ⅵ]
+      artId1: 310401606
+      art1:
+        artId: 310401606
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406306
+      art2:
+        artId: 610406306
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 550
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あやの りか
+  description: 最新のファッションやメイクが大好きな、今時のギャル系魔法少女。＠ミーハーな趣向とはウラハラに、恋には一途で、秘めたる切ない想い＠に長年悩み続けている。＠裏表のない性格で、誰とでもすぐに打ち解けられるタイプ。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 綾野梨花の魔力解放に使用するアイテム
+sortkey: 8
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

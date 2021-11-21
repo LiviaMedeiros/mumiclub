@@ -1,0 +1,85 @@
+---
+id: 10784
+shopId: 252
+shopItemType: GEM
+genericId: "3019"
+chara:
+  id: 3019
+  attributeId: DARK
+  initialType: DEFENSE
+  defaultCardId: 30193
+  defaultCard:
+    cardId: 30193
+    rank: RANK_3
+    attributeId: DARK
+    initialType: DEFENSE
+    growthType: BALANCE
+    attack: 1270
+    defense: 1631
+    hp: 5058
+    miniCharaNo: 301900
+    charaNo: 3019
+    cardName: 毬子 あやか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30193
+      groupId: 1012
+      name: ファン・ファン・ファン
+      shortDescription: 敵単体にダメージ[Ⅲ] & 防御力UP(味全/3T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 330301204
+      art2:
+        artId: 330301204
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 338
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30193
+      groupId: 1127
+      name: 任せて！これは鉄板だから！
+      shortDescription: 耐える & 確率でクリティカル[Ⅴ]
+      artId1: 610407400
+      art1:
+        artId: 610407400
+        verbCode: CONDITION_GOOD
+        effectCode: GUTS
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 610406305
+      art2:
+        artId: 610406305
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 500
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: まりこ あやか
+  description: かつてはネガティブで陰鬱な日々を送っていたが、願いによって明る＠く爽やかな性格を手に入れた魔法少女。＠かつての反動もあって、今は何事にもポジティブ。＠しかし、作られた明るさであることの後ろめたさも、笑顔の裏で時々＠感じている。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 5
+name: デスティニージェム
+description: 毬子あやかの魔力解放に使用するアイテム
+sortkey: 6
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

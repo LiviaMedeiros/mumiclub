@@ -1,0 +1,136 @@
+---
+id: 10445
+shopId: 4
+shopItemType: FORMATION_SHEET
+genericId: "261"
+formationSheet:
+  id: 261
+  name: ガーディアン・フォース
+  description: 前方左右と後方左右の魔法少女が強化される魔法陣形
+  sheetType: 6
+  placeSkillId1: 30
+  placeSkillId3: 30
+  placeSkillId5: 2
+  placeSkillId7: 30
+  placeSkillId9: 30
+  placeSkill1:
+    id: 30
+    groupId: 1129
+    name: ガーディアン・フォース
+    type: STARTUP
+    shortDescription: HP自動回復[Ⅱ]&防御力上昇[Ⅰ]
+    artId1: 700219502
+    art1:
+      artId: 700219502
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 20
+      growPoint: 10
+      probability: 1000
+      attributeId: ALL
+    artId2: 700218701
+    art2:
+      artId: 700218701
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+  placeSkill3:
+    id: 30
+    groupId: 1129
+    name: ガーディアン・フォース
+    type: STARTUP
+    shortDescription: HP自動回復[Ⅱ]&防御力上昇[Ⅰ]
+    artId1: 700219502
+    art1:
+      artId: 700219502
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 20
+      growPoint: 10
+      probability: 1000
+      attributeId: ALL
+    artId2: 700218701
+    art2:
+      artId: 700218701
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+  placeSkill5:
+    id: 2
+    groupId: 0
+    name: 効果無しマス（ダミー）
+    type: STARTUP
+    shortDescription: "0"
+    viewAttributeId: ALL
+  placeSkill7:
+    id: 30
+    groupId: 1129
+    name: ガーディアン・フォース
+    type: STARTUP
+    shortDescription: HP自動回復[Ⅱ]&防御力上昇[Ⅰ]
+    artId1: 700219502
+    art1:
+      artId: 700219502
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 20
+      growPoint: 10
+      probability: 1000
+      attributeId: ALL
+    artId2: 700218701
+    art2:
+      artId: 700218701
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+  placeSkill9:
+    id: 30
+    groupId: 1129
+    name: ガーディアン・フォース
+    type: STARTUP
+    shortDescription: HP自動回復[Ⅱ]&防御力上昇[Ⅰ]
+    artId1: 700219502
+    art1:
+      artId: 700219502
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 20
+      growPoint: 10
+      probability: 1000
+      attributeId: ALL
+    artId2: 700218701
+    art2:
+      artId: 700218701
+      verbCode: OTHER
+      effectCode: FORMATION_DEFENSE_UP
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      attributeId: ALL
+    viewAttributeId: ALL
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: ガーディアン・フォース
+description: 前方左右と後方左右の魔法少女が強化される魔法陣形
+sortkey: 1
+isDetailView: false
+startAt: 2020/08/01 00:00:00
+...

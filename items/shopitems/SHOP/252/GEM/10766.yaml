@@ -1,0 +1,84 @@
+---
+id: 10766
+shopId: 252
+shopItemType: GEM
+genericId: "3001"
+chara:
+  id: 3001
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 30012
+  defaultCard:
+    cardId: 30012
+    rank: RANK_2
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: DEFENSE
+    attack: 1287
+    defense: 1029
+    hp: 3085
+    miniCharaNo: 300100
+    charaNo: 3001
+    cardName: 矢宵 かのこ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30012
+      groupId: 1012
+      name: ヤヨイコレクション
+      shortDescription: 敵単体にダメージ[Ⅰ] & 必ず魅了(敵単/1T)
+      artId1: 100000101
+      art1:
+        artId: 100000101
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9600
+        growPoint: 100
+      artId2: 510004000
+      art2:
+        artId: 510004000
+        verbCode: CONDITION_BAD
+        effectCode: CHARM
+        targetId: TARGET
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 30012
+      groupId: 1087
+      name: 私たちのコラボデザイン！
+      shortDescription: 与えるダメージUP[Ⅲ] & 必ず魅了
+      artId1: 310401303
+      art1:
+        artId: 310401303
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610409500
+      art2:
+        artId: 610409500
+        verbCode: ENCHANT
+        effectCode: CHARM
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: やよい かのこ
+  description: ファッションデザイナーになることを夢見る魔法少女。＠板金工場の家に生まれた一人娘で、他に跡取りがおらず、親からは＠工場を受け継いでもらいたいと思われており、苦悩している。＠本人は大真面目だが周囲からは変な目で見られることがままある。
+consumeType: ITEM
+needItemId: DESTINY_BOTTLE
+needNumber: 1
+name: デスティニージェム
+description: 矢宵かのこの魔力解放に使用するアイテム
+sortkey: 53
+isDetailView: false
+startAt: 2020/08/21 11:00:00
+...

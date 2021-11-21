@@ -1,0 +1,78 @@
+---
+id: 14891
+shopId: 348
+shopItemType: PIECE
+genericId: "1587"
+piece:
+  pieceId: 1587
+  pieceType: ABILITY
+  pieceName: 猫かぶりスクールタイム
+  attributeId: ALL
+  rank: RANK_4
+  attack: 846
+  defense: 0
+  hp: 846
+  skillId: 158700
+  pieceSkill:
+    id: 158700
+    groupId: 1085
+    name: イグノア・スタン[Ⅳ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅳ] & 確率でスタン無効[Ⅹ]
+    artId1: 390201104
+    art1:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 690208410
+    art2:
+      artId: 690208410
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 700
+    skillEffectRange: ALL
+  skillId2: 158701
+  pieceSkill2:
+    id: 158701
+    groupId: 1085
+    name: イグノア・スタン[Ⅴ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅴ] & 必ずスタン無効
+    artId1: 390201105
+    art1:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    artId2: 690208400
+    art2:
+      artId: 690208400
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: 「わっ、お前メシ食ってる時に驚かすなよなー」＠「あっはは、今日も教科書わすれちまった。いつも悪いなー」＠「はぁ〜あ…なーんで女子高生ってヤツはこうも元気なんだろうな…」＠まるで学校は自分を殺す牢獄のようで、息が詰まって苦しくなる
+  illustrator: ―
+  openDate: 2021/01/18 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_6
+needNumber: 1
+limitedNumber: 1
+name: メモリア『猫かぶりスクールタイム』
+description: 攻撃力UP[Ⅴ] & 必ずスタン無効
+sortkey: 31
+isDetailView: false
+startAt: 2021/06/11 15:10:00
+endAt: 2021/07/05 14:59:59
+...
