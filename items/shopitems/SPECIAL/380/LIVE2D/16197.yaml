@@ -1,0 +1,103 @@
+---
+id: 16197
+shopId: 380
+shopItemType: LIVE2D
+genericId: "3010_50"
+chara:
+  id: 3010
+  attributeId: DARK
+  initialType: MAGIA
+  defaultCardId: 30103
+  defaultCard:
+    cardId: 30103
+    rank: RANK_3
+    attributeId: DARK
+    initialType: MAGIA
+    growthType: ATKHP
+    attack: 1574
+    defense: 1172
+    hp: 3720
+    miniCharaNo: 301000
+    charaNo: 3010
+    cardName: 阿見 莉愛
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30103
+      groupId: 1012
+      name: ベラ・スピーナ
+      shortDescription: 敵単体に属性強化ダメージ[Ⅳ] & 確率で魅了(敵単/1T) & 防御力DOWN(敵単/3T)
+      artId1: 100000204
+      art1:
+        artId: 100000204
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8320
+        growPoint: 100
+      artId2: 510003904
+      art2:
+        artId: 510003904
+        verbCode: CONDITION_BAD
+        effectCode: CHARM
+        targetId: TARGET
+        enableTurn: 1
+        growPoint: 20
+        probability: 375
+      artId3: 430002103
+      art3:
+        artId: 430002103
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30103
+      groupId: 1087
+      name: 私の美しさを見て励みなさい！
+      shortDescription: 与えるダメージUP[Ⅴ] & 必ず暗闇
+      artId1: 310401305
+      art1:
+        artId: 310401305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610410900
+      art2:
+        artId: 610410900
+        verbCode: ENCHANT
+        effectCode: DARKNESS
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あみ りあ
+  description: モデルとしても活躍を見せている魔法少女。神浜屈指の美少女との呼び声も。自分が１番目立っていないと気が済まない性格で、何事においても前へ出る。本人としては自信満々に振る舞ってはいるが、傍から見ていると、どこか間が抜けている。
+live2d:
+  charaId: 3010
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 阿見莉愛の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 80
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

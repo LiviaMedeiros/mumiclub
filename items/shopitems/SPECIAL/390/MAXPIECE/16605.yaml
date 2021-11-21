@@ -1,0 +1,104 @@
+---
+id: 16605
+shopId: 390
+shopItemType: MAXPIECE
+genericId: "1676"
+piece:
+  pieceId: 1676
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: すぎさりし夢
+  attributeId: ALL
+  rank: RANK_3
+  attack: 0
+  defense: 560
+  hp: 680
+  skillId: 167600
+  pieceSkill:
+    id: 167600
+    groupId: 1094
+    name: アサルトブレイク[Ⅱ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: 攻撃力DOWN[Ⅱ] & 与えるダメージDOWN[Ⅱ](敵単/3T)
+    messageId: 72
+    artId1: 430002002
+    art1:
+      artId: 430002002
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId2: 430002202
+    art2:
+      artId: 430002202
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1144
+    eventArtId1: 1144001
+    eventArt1:
+      artId: 1144001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 1000
+      genericValue: EVENT_DAILYTOWER_1144_KEY
+    eventDescription: ＆「想い結ぶシュシュ」追加獲得数＋1
+    skillEffectRange: ALL
+  skillId2: 167601
+  pieceSkill2:
+    id: 167601
+    groupId: 1094
+    name: アサルトブレイク[Ⅱ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: 攻撃力DOWN[Ⅱ] & 与えるダメージDOWN[Ⅱ](敵単/3T)
+    messageId: 72
+    artId1: 430002002
+    art1:
+      artId: 430002002
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId2: 430002202
+    art2:
+      artId: 430002202
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1144
+    eventArtId1: 1144002
+    eventArt1:
+      artId: 1144002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1144_KEY
+    eventDescription: ＆「想い結ぶシュシュ」追加獲得数＋5
+    skillEffectRange: ALL
+  description: “すぎさりし夢”と呼ばれるその世界に、３人の少女は立つ＠走り出した心は、どんな妨害をも跳ねのける＠不可能を可能にするのは、いつだって夢を見続ける者たちだから＠「行こう…夢はまだ、終わってない」
+  illustrator: 茨乃
+  openDate: 2021/09/21 15:10:00
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1144_EXCHANGE_1
+needNumber: 30
+limitedNumber: 1
+name: すぎさりし夢
+description: メモリア『すぎさりし夢』(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 1
+isDetailView: false
+startAt: 2021/09/21 15:10:00
+endAt: 2021/10/11 14:59:59
+...

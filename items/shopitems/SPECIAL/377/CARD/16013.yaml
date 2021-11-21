@@ -1,0 +1,208 @@
+---
+id: 16013
+shopId: 377
+shopItemType: CARD
+genericId: "40364"
+cardNum: 2
+card:
+  cardId: 40364
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: SUPPORT
+  growthType: BALANCE
+  attack: 1912
+  defense: 1921
+  hp: 6672
+  miniCharaNo: 403600
+  charaNo: 4036
+  cardName: 美琴 椿
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 40364
+    groupId: 1014
+    name: 燃ゆるは椿の紅
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & ダメージUP(味全/3T) & 確率でクリティカル(自/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330301105
+    art2:
+      artId: 330301105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330301305
+    art3:
+      artId: 330301305
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630206305
+    art4:
+      artId: 630206305
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 3
+      growPoint: 0
+      probability: 300
+  cardSkill:
+    id: 40364
+    groupId: 1085
+    name: 大丈夫、見守っています
+    shortDescription: 攻撃力UP[Ⅶ] & デバフ効果を1回無効(1T) & 必ず回避
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610419100
+    art2:
+      artId: 610419100
+      verbCode: IGNORE
+      effectCode: DEBUFF
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    artId3: 610406900
+    art3:
+      artId: 610406900
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4036
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 40364
+  defaultCard:
+    cardId: 40364
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1912
+    defense: 1921
+    hp: 6672
+    miniCharaNo: 403600
+    charaNo: 4036
+    cardName: 美琴 椿
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 40364
+      groupId: 1014
+      name: 燃ゆるは椿の紅
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & ダメージUP(味全/3T) & 確率でクリティカル(自/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301105
+      art2:
+        artId: 330301105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301305
+      art3:
+        artId: 330301305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630206305
+      art4:
+        artId: 630206305
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 2000
+        enableTurn: 3
+        growPoint: 0
+        probability: 300
+    cardSkill:
+      id: 40364
+      groupId: 1085
+      name: 大丈夫、見守っています
+      shortDescription: 攻撃力UP[Ⅶ] & デバフ効果を1回無効(1T) & 必ず回避
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610419100
+      art2:
+        artId: 610419100
+        verbCode: IGNORE
+        effectCode: DEBUFF
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+        genericValue: NONE
+      artId3: 610406900
+      art3:
+        artId: 610406900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みこと つばき
+  description: スズネ、マツリ、カガリを優しく見守っている魔法少女。魔女に両親を殺された孤児であったため、親族を頼りに各地を転々としていた。丁寧な口調と佇まいは、両親を亡くしたあと最初に身を寄せた剣道場で仕込まれたもの。年齢は秘密。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: 美琴椿
+description: デスティニージェム1個のオマケ付き
+sortkey: 33
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

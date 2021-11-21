@@ -1,0 +1,93 @@
+---
+id: 16125
+shopId: 380
+shopItemType: LIVE2D
+genericId: "1002_51"
+chara:
+  id: 1002
+  attributeId: WATER
+  initialType: BALANCE
+  defaultCardId: 10022
+  defaultCard:
+    cardId: 10022
+    rank: RANK_2
+    attributeId: WATER
+    initialType: BALANCE
+    growthType: DEFENSE
+    attack: 1164
+    defense: 1211
+    hp: 3630
+    miniCharaNo: 100200
+    charaNo: 1002
+    cardName: 七海 やちよ
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10022
+      groupId: 1014
+      name: アブソリュート・レイン
+      shortDescription: 敵全体にダメージ[Ⅰ] & Blast ダメージUP(味全/3T)
+      artId1: 100300101
+      art1:
+        artId: 100300101
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3000
+        growPoint: 100
+      artId2: 330301801
+      art2:
+        artId: 330301801
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10022
+      groupId: 1092
+      name: 道は照らしておくから
+      shortDescription: Blast ダメージUP[Ⅲ] & 確率でクリティカル[Ⅲ]
+      artId1: 310401803
+      art1:
+        artId: 310401803
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406303
+      art2:
+        artId: 610406303
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 400
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ななみ やちよ
+  description: ７年間、神浜市で魔女と戦ってきたベテランの魔法少女。＠神浜市や魔法少女についての情報に精通している。他の魔法少女とも＠距離を置き、神浜市で発生している「噂」をファイリングしている。
+live2d:
+  charaId: 1002
+  live2dId: "51"
+  description: 水着(2018)
+  defaultOpened: false
+  voicePrefixNo: "51"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 七海やちよの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 8
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

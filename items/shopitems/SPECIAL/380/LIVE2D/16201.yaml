@@ -1,0 +1,95 @@
+---
+id: 16201
+shopId: 380
+shopItemType: LIVE2D
+genericId: "3016_50"
+chara:
+  id: 3016
+  attributeId: LIGHT
+  initialType: DEFENSE
+  defaultCardId: 30164
+  defaultCard:
+    cardId: 30164
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: DEFENSE
+    growthType: DEFENSE
+    attack: 1602
+    defense: 2117
+    hp: 6392
+    miniCharaNo: 301600
+    charaNo: 3016
+    cardName: 粟根 こころ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30164
+      groupId: 1012
+      name: ディスクリート・バレット
+      shortDescription: 敵単体にダメージ[Ⅴ] & 確率でカウンター(味全/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 630307002
+      art2:
+        artId: 630307002
+        verbCode: CONDITION_GOOD
+        effectCode: COUNTER
+        targetId: ALL
+        effectValue: 800
+        enableTurn: 3
+        growPoint: 0
+        probability: 150
+    cardSkill:
+      id: 30164
+      groupId: 1125
+      name: もうひとりで我慢しないよ
+      shortDescription: 必ずカウンター & ダメージカット状態[Ⅶ]
+      artId1: 610407100
+      art1:
+        artId: 610407100
+        verbCode: CONDITION_GOOD
+        effectCode: COUNTER
+        targetId: CONNECT
+        effectValue: 800
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 610406207
+      art2:
+        artId: 610406207
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 600
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あわね こころ
+  description: 心の内にわだかまりを押さえつけている魔法少女。＠幼い頃に両親が離婚して以来、父親と共に暮らすが、お互いが正面から向き合えず、ギクシャクした関係がずっと続いてきた。＠表立って態度に示したりもせず、煮え切らない日々を過ごしている。
+live2d:
+  charaId: 3016
+  live2dId: "50"
+  description: 水着(2018)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 粟根こころの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 84
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

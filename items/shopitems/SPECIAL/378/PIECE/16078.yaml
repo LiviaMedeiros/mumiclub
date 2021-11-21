@@ -1,0 +1,97 @@
+---
+id: 16078
+shopId: 378
+shopItemType: PIECE
+genericId: "1509"
+piece:
+  pieceId: 1509
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 伝説の“乙女”
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 801
+  hp: 961
+  skillId: 150900
+  pieceSkill:
+    id: 150900
+    groupId: 1082
+    name: エンスジアスティカリー[Ⅳ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: デバフ解除 & 攻撃力UP[Ⅳ](自/3T)
+    artId1: 200200800
+    art1:
+      artId: 200200800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: SELF
+      growPoint: 0
+    artId2: 330201104
+    art2:
+      artId: 330201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1102
+    eventArtId1: 1102003
+    eventArt1:
+      artId: 1102003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_SINGLERAID_1102_EXCHANGE_1
+    eventDescription: ＆「天使のメダル」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 150901
+  pieceSkill2:
+    id: 150901
+    groupId: 1082
+    name: エンスジアスティカリー[Ⅴ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: デバフ解除 & 攻撃力UP[Ⅴ](自/3T)
+    artId1: 200200800
+    art1:
+      artId: 200200800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: SELF
+      growPoint: 0
+    artId2: 330201105
+    art2:
+      artId: 330201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1102
+    eventArtId1: 1102004
+    eventArt1:
+      artId: 1102004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_SINGLERAID_1102_EXCHANGE_1
+    eventDescription: ＆「天使のメダル」追加獲得数＋15
+    skillEffectRange: ALL
+  description: すべてを絶望へと塗り替える圧倒的な“闇”が姿を現すとき＠光を願った少女が出した、ひとつの答え…＠託された願いと、絡みあう因果を力に変えて＠今こそ“乙女”は、魔法少女を超える…
+  illustrator: 枡狐/蛙空
+  openDate: 2020/06/19 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: メモリア『伝説の“乙女”』
+description: デバフ解除 & 攻撃力UP[Ⅴ](自/3T)
+sortkey: 13
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

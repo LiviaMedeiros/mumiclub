@@ -1,0 +1,191 @@
+---
+id: 15955
+shopId: 66
+shopItemType: CARD
+genericId: "20024"
+cardNum: 1
+card:
+  cardId: 20024
+  rank: RANK_4
+  attributeId: DARK
+  initialType: ATTACK
+  growthType: DEFENSE
+  attack: 2078
+  defense: 1742
+  hp: 4825
+  miniCharaNo: 200200
+  charaNo: 2002
+  cardName: 暁美 ほむら
+  commandType1: MPUP
+  commandType2: RANGE_H
+  commandType3: RANGE_V
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 20024
+    groupId: 1014
+    name: ミサイルによる集中砲火
+    shortDescription: 敵全体にダメージ[Ⅴ] & 確率でスタン(敵全/1T) & 確率でクリティカル(自/2T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 510304108
+    art2:
+      artId: 510304108
+      verbCode: CONDITION_BAD
+      effectCode: STUN
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 475
+    artId3: 620206308
+    art3:
+      artId: 620206308
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 2
+      growPoint: 0
+      probability: 450
+      limitedValue: "0"
+  cardSkill:
+    id: 20024
+    groupId: 1085
+    name: あなたの獲物よ
+    shortDescription: 攻撃力UP[Ⅶ] & 確率でクリティカル[Ⅶ] & 確率でスタン
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406307
+    art2:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+    artId3: 9084
+    art3:
+      artId: 9084
+      verbCode: ENCHANT
+      effectCode: STUN
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 350
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 2002
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 20024
+  defaultCard:
+    cardId: 20024
+    rank: RANK_4
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: DEFENSE
+    attack: 2078
+    defense: 1742
+    hp: 4825
+    miniCharaNo: 200200
+    charaNo: 2002
+    cardName: 暁美 ほむら
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 20024
+      groupId: 1014
+      name: ミサイルによる集中砲火
+      shortDescription: 敵全体にダメージ[Ⅴ] & 確率でスタン(敵全/1T) & 確率でクリティカル(自/2T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 510304108
+      art2:
+        artId: 510304108
+        verbCode: CONDITION_BAD
+        effectCode: STUN
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 475
+      artId3: 620206308
+      art3:
+        artId: 620206308
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 2000
+        enableTurn: 2
+        growPoint: 0
+        probability: 450
+        limitedValue: "0"
+    cardSkill:
+      id: 20024
+      groupId: 1085
+      name: あなたの獲物よ
+      shortDescription: 攻撃力UP[Ⅶ] & 確率でクリティカル[Ⅶ] & 確率でスタン
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406307
+      art2:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+      artId3: 9084
+      art3:
+        artId: 9084
+        verbCode: ENCHANT
+        effectCode: STUN
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 350
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あけみ ほむら
+  description: 鹿目まどかのクラスに転校してきた、謎めいた魔法少女。＠まどかを絶望の運命から救うため、同じ時を繰り返し、＠誰にも頼ることなく「ワルプルギスの夜」の打倒を目指す。＠神浜市に向かった暁美ほむらとは異なる時間軸に属している。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】暁美ほむら
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 18
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/06 23:59:59
+...

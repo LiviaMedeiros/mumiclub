@@ -1,0 +1,206 @@
+---
+id: 16043
+shopId: 377
+shopItemType: CARD
+genericId: "30184"
+cardNum: 2
+card:
+  cardId: 30184
+  rank: RANK_4
+  attributeId: DARK
+  initialType: ATTACK
+  growthType: ATKHP
+  attack: 2114
+  defense: 1586
+  hp: 5014
+  miniCharaNo: 301800
+  charaNo: 3018
+  cardName: 更紗 帆奈
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 30184
+    groupId: 1012
+    name: ナイトメア・キャッチャー
+    shortDescription: 敵単体にダメージ[Ⅴ] & 確率で拘束(敵単/1T) & 攻撃・防御力DOWN(敵単/3T)
+    artId1: 100000105
+    art1:
+      artId: 100000105
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 10880
+      growPoint: 100
+    artId2: 510004307
+    art2:
+      artId: 510004307
+      verbCode: CONDITION_BAD
+      effectCode: RESTRAINT
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 450
+    artId3: 430002002
+    art3:
+      artId: 430002002
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId4: 430002105
+    art4:
+      artId: 430002105
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 30184
+    groupId: 1085
+    name: あたしの言った通りにね！
+    shortDescription: 攻撃力UP[Ⅵ] & 敵状態異常時ダメージUP[Ⅱ] & 確率で魅了
+    artId1: 310401105
+    art1:
+      artId: 310401105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610414602
+    art2:
+      artId: 610414602
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP_BAD
+      targetId: CONNECT
+      effectValue: 275
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId3: 9401
+    art3:
+      artId: 9401
+      verbCode: ENCHANT
+      effectCode: CHARM
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 650
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3018
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 30184
+  defaultCard:
+    cardId: 30184
+    rank: RANK_4
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 2114
+    defense: 1586
+    hp: 5014
+    miniCharaNo: 301800
+    charaNo: 3018
+    cardName: 更紗 帆奈
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 30184
+      groupId: 1012
+      name: ナイトメア・キャッチャー
+      shortDescription: 敵単体にダメージ[Ⅴ] & 確率で拘束(敵単/1T) & 攻撃・防御力DOWN(敵単/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 510004307
+      art2:
+        artId: 510004307
+        verbCode: CONDITION_BAD
+        effectCode: RESTRAINT
+        targetId: TARGET
+        enableTurn: 1
+        growPoint: 0
+        probability: 450
+      artId3: 430002002
+      art3:
+        artId: 430002002
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: TARGET
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 25
+      artId4: 430002105
+      art4:
+        artId: 430002105
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30184
+      groupId: 1085
+      name: あたしの言った通りにね！
+      shortDescription: 攻撃力UP[Ⅵ] & 敵状態異常時ダメージUP[Ⅱ] & 確率で魅了
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610414602
+      art2:
+        artId: 610414602
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_UP_BAD
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+      artId3: 9401
+      art3:
+        artId: 9401
+        verbCode: ENCHANT
+        effectCode: CHARM
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 650
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: さらさ はんな
+  description: 本来は内向的で人と接するのが苦手な魔法少女。家庭、学校において虐げられる立場に置かれてしまい、この世を憎んでいる。契約後、ある事件に遭遇してから、さらに数奇な運命を辿る。エキセントリックな性格だが、動物が好きという一面も。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: 更紗帆奈
+description: デスティニージェム1個のオマケ付き
+sortkey: 63
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

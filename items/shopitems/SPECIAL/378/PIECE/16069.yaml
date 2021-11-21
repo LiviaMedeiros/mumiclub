@@ -1,0 +1,117 @@
+---
+id: 16069
+shopId: 378
+shopItemType: PIECE
+genericId: "1583"
+piece:
+  pieceId: 1583
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: シマイミコマイ
+  attributeId: ALL
+  rank: RANK_4
+  attack: 929
+  defense: 0
+  hp: 809
+  skillId: 158300
+  pieceSkill:
+    id: 158300
+    groupId: 1085
+    name: リジェネレイト・オーラ[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅲ] & ダメージカット状態[Ⅱ] & HP自動回復[Ⅱ]
+    artId1: 390201103
+    art1:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId2: 690206202
+    art2:
+      artId: 690206202
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId3: 690207702
+    art3:
+      artId: 690207702
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+    eventId: 1121
+    eventArtId1: 1121003
+    eventArt1:
+      artId: 1121003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1121_KEY
+    eventDescription: ＆「大凧」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 158301
+  pieceSkill2:
+    id: 158301
+    groupId: 1085
+    name: リジェネレイト・オーラ[Ⅳ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅳ] & ダメージカット状態[Ⅲ] & HP自動回復[Ⅲ]
+    artId1: 390201104
+    art1:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 690206203
+    art2:
+      artId: 690206203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId3: 690207703
+    art3:
+      artId: 690207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      growPoint: 10
+      probability: 1000
+    eventId: 1121
+    eventArtId1: 1121004
+    eventArt1:
+      artId: 1121004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1121_KEY
+    eventDescription: ＆「大凧」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 太鼓に合わせてシャンシャンシャン＠呼吸を合わせてシャンシャンシャン＠輝く太陽と森の恵みは＠ふたりの飛躍を祝福してる
+  illustrator: ―
+  openDate: 2021/01/01 00:00:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: メモリア『シマイミコマイ』
+description: 攻撃力UP[Ⅳ] & ダメージカット状態[Ⅲ] & HP自動回復[Ⅲ]
+sortkey: 4
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

@@ -1,0 +1,134 @@
+---
+id: 15400
+shopId: 357
+shopItemType: CARD
+genericId: "10113"
+cardNum: 1
+card:
+  cardId: 10113
+  rank: RANK_3
+  attributeId: TIMBER
+  initialType: MAGIA
+  growthType: ATKHP
+  attack: 1565
+  defense: 1175
+  hp: 3714
+  miniCharaNo: 101100
+  charaNo: 1011
+  cardName: 秋野 かえで
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 10113
+    groupId: 1014
+    name: ジャッジメントアース
+    shortDescription: 敵全体に属性強化ダメージ[Ⅳ]
+    artId1: 100300204
+    art1:
+      artId: 100300204
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3050
+      growPoint: 100
+  cardSkill:
+    id: 10113
+    groupId: 1087
+    name: わ、私も頑張ります！
+    shortDescription: 与えるダメージUP[Ⅴ] & MP獲得量UP[Ⅴ]
+    artId1: 310401305
+    art1:
+      artId: 310401305
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401905
+    art2:
+      artId: 310401905
+      verbCode: BUFF
+      effectCode: MP_GAIN
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1011
+  attributeId: TIMBER
+  initialType: MAGIA
+  defaultCardId: 10113
+  defaultCard:
+    cardId: 10113
+    rank: RANK_3
+    attributeId: TIMBER
+    initialType: MAGIA
+    growthType: ATKHP
+    attack: 1565
+    defense: 1175
+    hp: 3714
+    miniCharaNo: 101100
+    charaNo: 1011
+    cardName: 秋野 かえで
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10113
+      groupId: 1014
+      name: ジャッジメントアース
+      shortDescription: 敵全体に属性強化ダメージ[Ⅳ]
+      artId1: 100300204
+      art1:
+        artId: 100300204
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3050
+        growPoint: 100
+    cardSkill:
+      id: 10113
+      groupId: 1087
+      name: わ、私も頑張ります！
+      shortDescription: 与えるダメージUP[Ⅴ] & MP獲得量UP[Ⅴ]
+      artId1: 310401305
+      art1:
+        artId: 310401305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401905
+      art2:
+        artId: 310401905
+        verbCode: BUFF
+        effectCode: MP_GAIN
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あきの かえで
+  description: とっても怖がりで心配性な魔法少女。しかし、優しく友達思いで＠チームのメンバーのためには困難にも立ち向かっていく。＠動植物や虫など、自然が大好きで、家では家庭菜園に勤しんでいる。＠また、上手くはないが、クレーンゲームも趣味の一つ。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_GREEN_702
+needNumber: 50
+limitedNumber: 1
+name: 秋野かえで
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 18
+isDetailView: false
+startAt: 2021/07/03 00:00:00
+endAt: 2021/10/03 23:59:59
+...

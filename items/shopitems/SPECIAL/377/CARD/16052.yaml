@@ -1,0 +1,208 @@
+---
+id: 16052
+shopId: 377
+shopItemType: CARD
+genericId: "30584"
+cardNum: 2
+card:
+  cardId: 30584
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: BALANCE
+  growthType: BALANCE
+  attack: 1908
+  defense: 1927
+  hp: 5970
+  miniCharaNo: 305800
+  charaNo: 3058
+  cardName: 南津 涼子
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 30584
+    groupId: 1012
+    name: 大炎魔警策荼毘
+    shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 必ずスタン(敵単/1T) & 必ずやけど & 攻撃力DOWN(敵単/3T)
+    artId1: 100000205
+    art1:
+      artId: 100000205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: TARGET
+      effectValue: 8640
+      growPoint: 100
+    artId2: 510004200
+    art2:
+      artId: 510004200
+      verbCode: CONDITION_BAD
+      effectCode: STUN
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 530004800
+    art3:
+      artId: 530004800
+      verbCode: CONDITION_BAD
+      effectCode: BURN
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId4: 430002003
+    art4:
+      artId: 430002003
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 30584
+    groupId: 1085
+    name: 信じろ、あたしが救ってやる
+    shortDescription: 攻撃力UP[Ⅶ] & Blast ダメージUP[Ⅵ] & Accele MPUP[Ⅴ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401806
+    art2:
+      artId: 310401806
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 650
+      enableTurn: 1
+      growPoint: 25
+    artId3: 310401605
+    art3:
+      artId: 310401605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3058
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 30584
+  defaultCard:
+    cardId: 30584
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: BALANCE
+    attack: 1908
+    defense: 1927
+    hp: 5970
+    miniCharaNo: 305800
+    charaNo: 3058
+    cardName: 南津 涼子
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 30584
+      groupId: 1012
+      name: 大炎魔警策荼毘
+      shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 必ずスタン(敵単/1T) & 必ずやけど & 攻撃力DOWN(敵単/3T)
+      artId1: 100000205
+      art1:
+        artId: 100000205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8640
+        growPoint: 100
+      artId2: 510004200
+      art2:
+        artId: 510004200
+        verbCode: CONDITION_BAD
+        effectCode: STUN
+        targetId: TARGET
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 530004800
+      art3:
+        artId: 530004800
+        verbCode: CONDITION_BAD
+        effectCode: BURN
+        targetId: TARGET
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId4: 430002003
+      art4:
+        artId: 430002003
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30584
+      groupId: 1085
+      name: 信じろ、あたしが救ってやる
+      shortDescription: 攻撃力UP[Ⅶ] & Blast ダメージUP[Ⅵ] & Accele MPUP[Ⅴ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401806
+      art2:
+        artId: 310401806
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 650
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401605
+      art3:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: なつ りょうこ
+  description: 時女一族に所属する曲がったことが大嫌いな、寺育ちの熱血魔法少女。幼い頃に両親と死別し、神浜の近郊にある寺「浄安寺」に住む厳格な祖父に厳しく育てられた。本家の少女をサポートするため、情熱のおもむくまま神浜へとやってきた。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: 南津涼子
+description: デスティニージェム1個のオマケ付き
+sortkey: 72
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

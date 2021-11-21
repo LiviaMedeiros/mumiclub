@@ -1,0 +1,99 @@
+---
+id: 16577
+shopId: 388
+shopItemType: LIVE2D
+genericId: "2001_52"
+chara:
+  id: 2001
+  attributeId: LIGHT
+  initialType: HEAL
+  defaultCardId: 20014
+  defaultCard:
+    cardId: 20014
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: HEAL
+    growthType: BALANCE
+    attack: 1508
+    defense: 2043
+    hp: 5363
+    miniCharaNo: 200100
+    charaNo: 2001
+    cardName: 鹿目 まどか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 20014
+      groupId: 1014
+      name: プルウィア☆マギカ
+      shortDescription: 敵全体にダメージ[Ⅳ] & MP回復(味全)
+      artId1: 100300104
+      art1:
+        artId: 100300104
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3300
+        growPoint: 100
+      artId2: 200300505
+      art2:
+        artId: 200300505
+        verbCode: HEAL
+        effectCode: MP
+        targetId: ALL
+        effectValue: 225
+        growPoint: 10
+    cardSkill:
+      id: 20014
+      groupId: 1078
+      name: 私が受け止めてあげるから
+      shortDescription: HP回復[Ⅵ] & MP回復[Ⅵ]
+      artId1: 200400406
+      art1:
+        artId: 200400406
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 425
+        growPoint: 20
+      artId2: 200400506
+      art2:
+        artId: 200400506
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 250
+        growPoint: 10
+      artId3: 9362
+      art3:
+        artId: 9362
+        verbCode: HEAL
+        effectCode: MP
+        targetId: LIMITED
+        effectValue: 50
+        growPoint: 10
+        limitedValue: "2003"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: かなめ まどか
+  description: 途方もない素質をもった見滝原市で活躍する魔法少女。＠見滝原中学校の２年生。家族は父、母、弟。＠おっとりしていて他者への思いやりがある優しい性格で周囲に人が＠絶えない。戦闘時では弓を武器として使っている。
+live2d:
+  charaId: 2001
+  live2dId: "52"
+  description: パジャマ
+  defaultOpened: false
+  voicePrefixNo: "52"
+consumeType: ITEM
+needItemId: CAMPAIGN_1251_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 鹿目まどかの衣装【パジャマ】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：9/21公開】
+recommend: true
+sortkey: 5
+isDetailView: false
+startAt: 2021/09/13 15:10:00
+endAt: 2021/09/28 14:59:59
+...

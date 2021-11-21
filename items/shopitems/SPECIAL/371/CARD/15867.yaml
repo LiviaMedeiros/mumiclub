@@ -1,0 +1,188 @@
+---
+id: 15867
+shopId: 371
+shopItemType: CARD
+genericId: "10224"
+cardNum: 1
+card:
+  cardId: 10224
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: SUPPORT
+  growthType: ATKHP
+  attack: 1774
+  defense: 1728
+  hp: 6337
+  miniCharaNo: 102200
+  charaNo: 1022
+  cardName: 煌里 ひかる
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 10224
+    groupId: 1014
+    name: 行け！ひかる軍団！
+    shortDescription: 敵全体にダメージ[Ⅴ] & 確率でクリティカル & 状態異常耐性UP(味全/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 630306303
+    art2:
+      artId: 630306303
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: ALL
+      effectValue: 2000
+      enableTurn: 3
+      growPoint: 0
+      probability: 200
+    artId3: 330301504
+    art3:
+      artId: 330301504
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 10224
+    groupId: 1092
+    name: 共に駆け抜けるっすよ！
+    shortDescription: BlastダメージUP[Ⅶ] & Charge後ダメージUP[Ⅳ] & Accele MPUP[Ⅴ]
+    artId1: 310401807
+    art1:
+      artId: 310401807
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 700
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401704
+    art2:
+      artId: 310401704
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: CONNECT
+      effectValue: 175
+      enableTurn: 1
+      growPoint: 25
+    artId3: 310401605
+    art3:
+      artId: 310401605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1022
+  attributeId: LIGHT
+  initialType: SUPPORT
+  defaultCardId: 10224
+  defaultCard:
+    cardId: 10224
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 1774
+    defense: 1728
+    hp: 6337
+    miniCharaNo: 102200
+    charaNo: 1022
+    cardName: 煌里 ひかる
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10224
+      groupId: 1014
+      name: 行け！ひかる軍団！
+      shortDescription: 敵全体にダメージ[Ⅴ] & 確率でクリティカル & 状態異常耐性UP(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 630306303
+      art2:
+        artId: 630306303
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: ALL
+        effectValue: 2000
+        enableTurn: 3
+        growPoint: 0
+        probability: 200
+      artId3: 330301504
+      art3:
+        artId: 330301504
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10224
+      groupId: 1092
+      name: 共に駆け抜けるっすよ！
+      shortDescription: BlastダメージUP[Ⅶ] & Charge後ダメージUP[Ⅳ] & Accele MPUP[Ⅴ]
+      artId1: 310401807
+      art1:
+        artId: 310401807
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 700
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401704
+      art2:
+        artId: 310401704
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 175
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401605
+      art3:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: きらり ひかる
+  description: プロミストブラッドに所属する従者のような魔法少女。信頼する人のためなら危険も厭わず戦い、日々のサポートも欠かさない。だが、自分の面倒は見られず、ひとりになると自堕落になり、何事にも気合いが入らなくなってしまう。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_RED_739
+needNumber: 200
+limitedNumber: 1
+name: 煌里ひかる
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 2
+isDetailView: false
+startAt: 2021/08/10 15:10:00
+endAt: 2021/08/28 14:59:59
+...

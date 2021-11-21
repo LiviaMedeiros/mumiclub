@@ -1,0 +1,85 @@
+---
+id: 16085
+shopId: 378
+shopItemType: PIECE
+genericId: "1390"
+piece:
+  pieceId: 1390
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 私たちだけのベストショット
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 807
+  hp: 807
+  skillId: 139000
+  pieceSkill:
+    id: 139000
+    groupId: 1134
+    name: レゾナンス・ブラストアップ[Ⅰ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 必ず回避無効 & Blast ダメージUP[Ⅰ](味全/1T)
+    messageId: 70
+    artId1: 610308100
+    art1:
+      artId: 610308100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 310301801
+    art2:
+      artId: 310301801
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 139001
+  pieceSkill2:
+    id: 139001
+    groupId: 1134
+    name: レゾナンス・ブラストアップ[Ⅱ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 必ず回避無効 & Blast ダメージUP[Ⅱ](味全/1T)
+    messageId: 70
+    artId1: 610308100
+    art1:
+      artId: 610308100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 310301802
+    art2:
+      artId: 310301802
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  description: 冊子に載るかもしれなかった、私たちの１枚。＠見返すと少し恥ずかしくて、載らなくて良かったって思っちゃう。＠きっと、私たちで持っているのがちょうど良いから。＠思い出した時に覗いてみて、クスッと笑うぐらいでいたいから。
+  illustrator: ―
+  openDate: 2019/08/22 00:00:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: メモリア『私たちだけのベストショット』
+description: 回避無効 & Blast ダメージUP[Ⅱ](味全/1T)
+sortkey: 20
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

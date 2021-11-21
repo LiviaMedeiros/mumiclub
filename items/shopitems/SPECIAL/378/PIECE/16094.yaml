@@ -1,0 +1,107 @@
+---
+id: 16094
+shopId: 378
+shopItemType: PIECE
+genericId: "1168"
+piece:
+  pieceId: 1168
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: お願い届けて！
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 723
+  hp: 883
+  skillId: 116800
+  pieceSkill:
+    id: 116800
+    groupId: 1172
+    name: アディクトスレイヤー[Ⅴ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: ダメージアップ状態[Ⅴ] & 敵状態異常時ダメージUP[Ⅴ](自/1T)
+    messageId: 70
+    artId1: 610206105
+    art1:
+      artId: 610206105
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId2: 610214605
+    art2:
+      artId: 610214605
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP_BAD
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    eventId: 1014
+    eventArtId1: 101401
+    eventArt1:
+      artId: 101401
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_DAILYTOWER_1014_KEY
+    eventDescription: ＆板チョコ入手時＋3
+    skillEffectRange: ALL
+  skillId2: 116801
+  pieceSkill2:
+    id: 116801
+    groupId: 1172
+    name: アディクトスレイヤー[Ⅵ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: ダメージアップ状態[Ⅵ] & 敵状態異常時ダメージUP[Ⅵ](自/1T)
+    messageId: 70
+    artId1: 610206106
+    art1:
+      artId: 610206106
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId2: 610214606
+    art2:
+      artId: 610214606
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP_BAD
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    eventId: 1014
+    eventArtId1: 101402
+    eventArt1:
+      artId: 101402
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_DAILYTOWER_1014_KEY
+    eventDescription: ＆板チョコ入手時＋7
+    skillEffectRange: ALL
+  description: 物心ついて恋をして、星が巡って巡り来る年に１度のバレンタイン＠淡い気持ちを抱いたまま、あとどれだけこの日を迎えられる？＠って、考えてしまうから、大切にしなくちゃいけない＠この日も想いもチョコレートも…だって…
+  illustrator: 茨乃
+  openDate: 2018/02/05 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: メモリア『お願い届けて！』
+description: ダメージアップ状態[Ⅵ]&敵状態異常時ダメージUP[Ⅵ](自/1T)
+sortkey: 29
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

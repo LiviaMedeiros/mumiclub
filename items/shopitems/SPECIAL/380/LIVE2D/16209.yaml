@@ -1,0 +1,85 @@
+---
+id: 16209
+shopId: 380
+shopItemType: LIVE2D
+genericId: "3029_50"
+chara:
+  id: 3029
+  attributeId: LIGHT
+  initialType: ATTACK
+  defaultCardId: 30293
+  defaultCard:
+    cardId: 30293
+    rank: RANK_3
+    attributeId: LIGHT
+    initialType: ATTACK
+    growthType: ATTACK
+    attack: 1660
+    defense: 1248
+    hp: 3873
+    miniCharaNo: 302900
+    charaNo: 3029
+    cardName: 加賀見 まさら
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30293
+      groupId: 1012
+      name: インビジブル・アサシン
+      shortDescription: 敵単体にダメージ[Ⅲ] & 必ず追撃(自/1T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 610207300
+      art2:
+        artId: 610207300
+        verbCode: CONDITION_GOOD
+        effectCode: PURSUE
+        targetId: SELF
+        effectValue: 800
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 30293
+      groupId: 1121
+      name: もう終わらせようよ
+      shortDescription: 確率でクリティカル[Ⅹ]
+      artId1: 610406310
+      art1:
+        artId: 610406310
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 750
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: かがみ まさら
+  description: 感情の起伏に乏しい魔法少女。特に波風も立たない穏やかな家庭に＠生まれ、両親の愛情を受けながら成長していった。＠しかし、生来のものなのか、非常に冷めた性格となり、淡々とした＠毎日を送っている。一方、内心では刺激を求めている。
+live2d:
+  charaId: 3029
+  live2dId: "50"
+  description: 水着(2018)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 加賀見まさらの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 92
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

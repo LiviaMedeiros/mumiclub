@@ -1,0 +1,80 @@
+---
+id: 16118
+shopId: 380
+shopItemType: LIVE2D
+genericId: "1001_03"
+chara:
+  id: 1001
+  attributeId: LIGHT
+  initialType: HEAL
+  defaultCardId: 10011
+  defaultCard:
+    cardId: 10011
+    rank: RANK_1
+    attributeId: LIGHT
+    initialType: HEAL
+    growthType: BALANCE
+    attack: 878
+    defense: 1157
+    hp: 3068
+    miniCharaNo: 100100
+    charaNo: 1001
+    cardName: 環 いろは
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10011
+      groupId: 1014
+      name: ストラーダ・フトゥーロ
+      shortDescription: 敵全体にダメージ[Ⅰ] & 蘇生
+      artId1: 100300101
+      art1:
+        artId: 100300101
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3000
+        growPoint: 100
+      artId2: 200100601
+      art2:
+        artId: 200100601
+        verbCode: RESURRECT
+        targetId: ONE
+        effectValue: 200
+        growPoint: 10
+    cardSkill:
+      id: 10011
+      groupId: 1078
+      name: 一緒にいるから大丈夫だよ
+      shortDescription: HP回復[Ⅰ]
+      artId1: 200400401
+      art1:
+        artId: 200400401
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 300
+        growPoint: 20
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: たまき いろは
+  description: 不思議な夢の真相を探るべく、神浜市にやってきた魔法少女。＠お人好しな性格で、気遣いが行き過ぎてしまうことも多々ある。＠最新の流行には疎く、スマホの扱いもぎこちない。＠日頃は控えめだが、ここ一番では芯の強さを見せる。
+live2d:
+  charaId: 1001
+  live2dId: "03"
+  description: 水着
+  defaultOpened: false
+  voicePrefixNo: "03"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 環いろはの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 1
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

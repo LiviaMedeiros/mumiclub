@@ -1,0 +1,101 @@
+---
+id: 16145
+shopId: 380
+shopItemType: LIVE2D
+genericId: "1010_50"
+chara:
+  id: 1010
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 10104
+  defaultCard:
+    cardId: 10104
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: DEFHP
+    attack: 1873
+    defense: 1920
+    hp: 5931
+    miniCharaNo: 101000
+    charaNo: 1010
+    cardName: 十咎 ももこ
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10104
+      groupId: 1012
+      name: エッジオブユニヴァース
+      shortDescription: 敵単体にダメージ[Ⅴ] & Charge後ダメージUP(味全/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 330301705
+      art2:
+        artId: 330301705
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10104
+      groupId: 1085
+      name: おせっかいで何がわるい！
+      shortDescription: 攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅶ] & 必ず防御無視
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401707
+      art2:
+        artId: 310401707
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610406700
+      art3:
+        artId: 610406700
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: とがめ ももこ
+  description: ひよっこ魔法少女たちのピンチを救ってくれる、姉御肌な魔法少女。＠男兄弟に挟まれており、本人もざっくばらんで男っぽい性格。＠しかし実は、ぬいぐるみなどの可愛いものが好き。＠可愛いものに憧れる気持ちから、女性アイドルのファンでもある。
+live2d:
+  charaId: 1010
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 十咎ももこの衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 28
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

@@ -1,0 +1,345 @@
+---
+id: 15937
+shopId: 375
+shopItemType: CARD
+genericId: "13014"
+cardNum: 1
+card:
+  cardId: 13014
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: ULTIMATE
+  growthType: DEFHP
+  attack: 2134
+  defense: 1301
+  hp: 5829
+  miniCharaNo: 130100
+  charaNo: 1301
+  cardName: いろは・やちよ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 13014
+    groupId: 1014
+    name: デュエ・アニマ
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 対魔女ダメージアップ(味全/3T) & 蘇生
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330301105
+    art2:
+      artId: 330301105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 630316802
+    art3:
+      artId: 630316802
+      verbCode: LIMITED_ENEMY_TYPE
+      effectCode: DAMAGE_UP
+      targetId: ALL
+      effectValue: 175
+      enableTurn: 3
+      growPoint: 15
+      probability: 1000
+      genericValue: WITCH
+    artId4: 200100601
+    art4:
+      artId: 200100601
+      verbCode: RESURRECT
+      targetId: ONE
+      effectValue: 200
+      growPoint: 10
+  cardSkill:
+    id: 13014
+    groupId: 1085
+    name: 一緒に環になろう
+    shortDescription: 攻撃力UP[Ⅶ] & HP回復[Ⅵ] & 確率でクリティカル[Ⅶ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 200400406
+    art2:
+      artId: 200400406
+      verbCode: HEAL
+      effectCode: HP
+      targetId: CONNECT
+      effectValue: 425
+      growPoint: 20
+    artId3: 610406307
+    art3:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+  pieceSkillList:
+  - id: 13011
+    groupId: 1086
+    name: 領域外の加護
+    type: STARTUP
+    shortDescription: クエスト開始時に『防御力UP[Ⅰ](味全/∞) & 自身にクリティカル無効×２回』を発動
+    artId1: 9404
+    art1:
+      artId: 9404
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 300
+      enableTurn: 0
+      growPoint: 25
+    artId2: 600216700
+    art2:
+      artId: 600216700
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 0
+      enableTurn: 0
+      growPoint: 0
+      probability: 1000
+    artId3: 600216700
+    art3:
+      artId: 600216700
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 0
+      enableTurn: 0
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  maxPieceSkillList:
+  - id: 13012
+    groupId: 1086
+    name: 領域外の加護(最大解放)
+    type: STARTUP
+    shortDescription: クエスト開始時に『防御力UP[Ⅱ](味全/∞) & 自身にクリティカル無効×２回』を発動
+    artId1: 9405
+    art1:
+      artId: 9405
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 375
+      enableTurn: 0
+      growPoint: 25
+    artId2: 600216700
+    art2:
+      artId: 600216700
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 0
+      enableTurn: 0
+      growPoint: 0
+      probability: 1000
+    artId3: 600216700
+    art3:
+      artId: 600216700
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 0
+      enableTurn: 0
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+chara:
+  id: 1301
+  attributeId: LIGHT
+  initialType: ULTIMATE
+  defaultCardId: 13014
+  defaultCard:
+    cardId: 13014
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: ULTIMATE
+    growthType: DEFHP
+    attack: 2134
+    defense: 1301
+    hp: 5829
+    miniCharaNo: 130100
+    charaNo: 1301
+    cardName: いろは・やちよ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 13014
+      groupId: 1014
+      name: デュエ・アニマ
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 対魔女ダメージアップ(味全/3T) & 蘇生
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301105
+      art2:
+        artId: 330301105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 630316802
+      art3:
+        artId: 630316802
+        verbCode: LIMITED_ENEMY_TYPE
+        effectCode: DAMAGE_UP
+        targetId: ALL
+        effectValue: 175
+        enableTurn: 3
+        growPoint: 15
+        probability: 1000
+        genericValue: WITCH
+      artId4: 200100601
+      art4:
+        artId: 200100601
+        verbCode: RESURRECT
+        targetId: ONE
+        effectValue: 200
+        growPoint: 10
+    cardSkill:
+      id: 13014
+      groupId: 1085
+      name: 一緒に環になろう
+      shortDescription: 攻撃力UP[Ⅶ] & HP回復[Ⅵ] & 確率でクリティカル[Ⅶ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400406
+      art2:
+        artId: 200400406
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 425
+        growPoint: 20
+      artId3: 610406307
+      art3:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList:
+    - id: 13011
+      groupId: 1086
+      name: 領域外の加護
+      type: STARTUP
+      shortDescription: クエスト開始時に『防御力UP[Ⅰ](味全/∞) & 自身にクリティカル無効×２回』を発動
+      artId1: 9404
+      art1:
+        artId: 9404
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 300
+        enableTurn: 0
+        growPoint: 25
+      artId2: 600216700
+      art2:
+        artId: 600216700
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 0
+        enableTurn: 0
+        growPoint: 0
+        probability: 1000
+      artId3: 600216700
+      art3:
+        artId: 600216700
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 0
+        enableTurn: 0
+        growPoint: 0
+        probability: 1000
+      skillEffectRange: ALL
+    maxPieceSkillList:
+    - id: 13012
+      groupId: 1086
+      name: 領域外の加護(最大解放)
+      type: STARTUP
+      shortDescription: クエスト開始時に『防御力UP[Ⅱ](味全/∞) & 自身にクリティカル無効×２回』を発動
+      artId1: 9405
+      art1:
+        artId: 9405
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 375
+        enableTurn: 0
+        growPoint: 25
+      artId2: 600216700
+      art2:
+        artId: 600216700
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 0
+        enableTurn: 0
+        growPoint: 0
+        probability: 1000
+      artId3: 600216700
+      art3:
+        artId: 600216700
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: SELF
+        effectValue: 0
+        enableTurn: 0
+        growPoint: 0
+        probability: 1000
+      skillEffectRange: ALL
+  kana: いろは・やちよ
+  title: 決戦ver.
+  description: かつて強大な魔女と戦った際に背中を支えてくれた力を、一時的に手に入れた魔法少女。出会いこそ敵同士だったが、共に行動をする中で親密になり、いつしか切っても切れない絆で結ばれていた。羽は力を宿した瞬間など、一瞬しか現れない。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_PURPLE_749
+needNumber: 200
+limitedNumber: 1
+name: いろは・やちよ 決戦ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 2
+isDetailView: false
+startAt: 2021/08/16 15:10:00
+endAt: 2021/09/13 14:59:59
+...

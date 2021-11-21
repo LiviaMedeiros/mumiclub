@@ -1,0 +1,84 @@
+---
+id: 16175
+shopId: 380
+shopItemType: LIVE2D
+genericId: "2003_51"
+chara:
+  id: 2003
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 20034
+  defaultCard:
+    cardId: 20034
+    rank: RANK_4
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1735
+    defense: 1716
+    hp: 6335
+    miniCharaNo: 200300
+    charaNo: 2003
+    cardName: 暁美 ほむら
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 20034
+      groupId: 1014
+      name: 時間止めスペシャル
+      shortDescription: 敵全体にダメージ[Ⅴ] & スキルクイック(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 630307800
+      art2:
+        artId: 630307800
+        verbCode: CONDITION_GOOD
+        effectCode: SKILL_QUICK
+        targetId: ALL
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 20034
+      groupId: 1124
+      name: 一緒に頑張ろうね！
+      shortDescription: 必ず回避
+      artId1: 610406900
+      art1:
+        artId: 610406900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あけみ ほむら
+  title: 眼鏡ver.
+  description: まどかを守れる存在になることを願った気弱な魔法少女。＠見滝原中学校の２年生。まどかが魔女化する未来を変えるために＠同じ時を繰り返している。＠とあるきっかけから、神浜市で未来を変える希望を探すことになる。
+live2d:
+  charaId: 2003
+  live2dId: "51"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 暁美ほむら 眼鏡ver.の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 58
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

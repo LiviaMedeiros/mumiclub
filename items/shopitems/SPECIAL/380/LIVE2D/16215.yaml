@@ -1,0 +1,130 @@
+---
+id: 16215
+shopId: 380
+shopItemType: LIVE2D
+genericId: "3037_50"
+chara:
+  id: 3037
+  attributeId: TIMBER
+  initialType: SUPPORT
+  defaultCardId: 30373
+  defaultCard:
+    cardId: 30373
+    rank: RANK_3
+    attributeId: TIMBER
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1332
+    defense: 1318
+    hp: 4931
+    miniCharaNo: 303700
+    charaNo: 3037
+    cardName: 安名 メル
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30373
+      groupId: 1014
+      name: 漆黒のアルカナ
+      shortDescription: 敵全体にダメージ[Ⅱ] & 確率で毒(敵全/3T) & 確率で暗闇・拘束・スキル不可(敵全/1T)
+      artId1: 100300102
+      art1:
+        artId: 100300102
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3100
+        growPoint: 100
+      artId2: 530304505
+      art2:
+        artId: 530304505
+        verbCode: CONDITION_BAD
+        effectCode: POISON
+        targetId: ALL
+        effectValue: 50
+        enableTurn: 3
+        growPoint: 0
+        probability: 400
+      artId3: 9343
+      art3:
+        artId: 9343
+        verbCode: CONDITION_BAD
+        effectCode: RESTRAINT
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 100
+      artId4: 9345
+      art4:
+        artId: 9345
+        verbCode: CONDITION_BAD
+        effectCode: DARKNESS
+        targetId: ALL
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 0
+        probability: 150
+      artId5: 9347
+      art5:
+        artId: 9347
+        verbCode: CONDITION_BAD
+        effectCode: BAN_SKILL
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 200
+    cardSkill:
+      id: 30373
+      groupId: 1085
+      name: メルと運命を切り開くのです
+      shortDescription: 攻撃力UP[Ⅴ] & 確率で回避無効 & 確率でカウンター無効
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610408101
+      art2:
+        artId: 610408101
+        verbCode: IGNORE
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 250
+      artId3: 610408201
+      art3:
+        artId: 610408201
+        verbCode: IGNORE
+        effectCode: COUNTER
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 800
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あんな める
+  description: 毎朝の占いによって一日のすべての行動を決める魔法少女。占いの結果が良いときはとてもポジティブだが、悪いと魔女狩りすらせずに部屋に引き籠る。占いをするのは好きだが冗談抜きで当たるため、魔法少女内では占い禁止令が出ている。
+live2d:
+  charaId: 3037
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 安名メルの衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 98
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

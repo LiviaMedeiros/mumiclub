@@ -1,0 +1,91 @@
+---
+id: 16164
+shopId: 380
+shopItemType: LIVE2D
+genericId: "1019_50"
+chara:
+  id: 1019
+  attributeId: LIGHT
+  initialType: MAGIA
+  defaultCardId: 10193
+  defaultCard:
+    cardId: 10193
+    rank: RANK_3
+    attributeId: LIGHT
+    initialType: MAGIA
+    growthType: DEFHP
+    attack: 1543
+    defense: 1197
+    hp: 3714
+    miniCharaNo: 101900
+    charaNo: 1019
+    cardName: 天音 月咲
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10193
+      groupId: 1014
+      name: 桜語り
+      shortDescription: 敵全体にダメージ[Ⅱ] & Accele MPUP(味全/3T)
+      artId1: 100300102
+      art1:
+        artId: 100300102
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3100
+        growPoint: 100
+      artId2: 330301603
+      art2:
+        artId: 330301603
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10193
+      groupId: 1079
+      name: これがウチらのハーモニー
+      shortDescription: MP回復[Ⅳ] & 月夜にコネクトすると さらにMP回復
+      artId1: 200400504
+      art1:
+        artId: 200400504
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 200
+        growPoint: 10
+      artId2: 9033
+      art2:
+        artId: 9033
+        verbCode: HEAL
+        effectCode: MP
+        targetId: LIMITED
+        effectValue: 200
+        growPoint: 10
+        limitedValue: "1018"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あまね つかさ
+  description: 月夜の双子の妹にあたる、解放を望む魔法少女。＠実家の竹細工工房で、父とその弟子のために、家事や家計を一手に引き受けている。＠明るく友人が多い性格だが、自身の本音をさらけ出せるのは月夜だけだと思っている。
+live2d:
+  charaId: 1019
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 天音月咲の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 47
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...

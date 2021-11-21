@@ -1,0 +1,107 @@
+---
+id: 16223
+shopId: 380
+shopItemType: LIVE2D
+genericId: "3049_50"
+chara:
+  id: 3049
+  attributeId: DARK
+  initialType: BALANCE
+  defaultCardId: 30494
+  defaultCard:
+    cardId: 30494
+    rank: RANK_4
+    attributeId: DARK
+    initialType: BALANCE
+    growthType: ATKHP
+    attack: 1849
+    defense: 1885
+    hp: 5907
+    miniCharaNo: 304900
+    charaNo: 3049
+    cardName: 雪野 かなえ
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30494
+      groupId: 1012
+      name: 無思考
+      shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 状態異常耐性UP(自/3T) & デバフ解除(自)
+      artId1: 100000205
+      art1:
+        artId: 100000205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8640
+        growPoint: 100
+      artId2: 330201505
+      art2:
+        artId: 330201505
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: SELF
+        effectValue: 400
+        enableTurn: 3
+        growPoint: 25
+      artId3: 200200800
+      art3:
+        artId: 200200800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: SELF
+        growPoint: 0
+    cardSkill:
+      id: 30494
+      groupId: 1089
+      name: ん、手伝う…
+      shortDescription: 状態異常耐性UP[Ⅶ](3T) & 攻撃力UP[Ⅶ] & デバフ解除
+      artId1: 330401507
+      art1:
+        artId: 330401507
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 25
+      artId2: 310401107
+      art2:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId3: 200400800
+      art3:
+        artId: 200400800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: CONNECT
+        growPoint: 0
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ゆきの かなえ
+  description: 本来は幼い頃から大人しく優しい性格だったが、歳を重ねるにつれ目つきの悪さから悪い連中から絡まれやすく、持ち前の負けず嫌いな性格も相まって、いつしか喧嘩ばかりの毎日に。音楽と出会ったことでギターを弾くようになる。
+live2d:
+  charaId: 3049
+  live2dId: "50"
+  description: ハロウィン衣装(2020)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1142_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 雪野かなえの衣装【ハロウィン】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 106
+isDetailView: false
+startAt: 2021/08/22 00:00:00
+endAt: 2021/09/13 14:59:59
+...
