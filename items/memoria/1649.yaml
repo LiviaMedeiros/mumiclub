@@ -1,0 +1,67 @@
+---
+pieceId: 1649
+pieceType: ABILITY
+pieceName: 時は再び動き出す
+attributeId: ALL
+rank: RANK_3
+charaIds: "2401"
+charaList:
+- charaId: 2401
+  name: 美樹 さやか 波乗りver.
+attack: 478
+defense: 0
+hp: 478
+skillId: 164900
+pieceSkill:
+  id: 164900
+  groupId: 1128
+  name: ガードアピール[Ⅳ]
+  type: ABILITY
+  shortDescription: 確率で挑発[Ⅳ] & 防御力UP[Ⅳ]
+  artId1: 690207504
+  art1:
+    artId: 690207504
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    growPoint: 0
+    probability: 250
+  artId2: 390201204
+  art2:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 164901
+pieceSkill2:
+  id: 164901
+  groupId: 1128
+  name: ガードアピール[Ⅴ]
+  type: ABILITY
+  shortDescription: 確率で挑発[Ⅴ] & 防御力UP[Ⅴ]
+  artId1: 690207505
+  art1:
+    artId: 690207505
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    growPoint: 0
+    probability: 300
+  artId2: 390201205
+  art2:
+    artId: 390201205
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 375
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 時が歩みを止めた部屋の片隅に、その子はちょこんと座っていた＠時計の針がいつ止まったのか、知る者はひとりもいない＠忘れられた物語を紐解く、最後の道しるべ＠この小さな出会いをもたらしたのは、果たして導きか偶然か…
+illustrator: かにぱんだ
+openDate: 2021/07/30 15:10:00
+...

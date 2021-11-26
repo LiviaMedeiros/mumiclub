@@ -1,0 +1,69 @@
+---
+pieceId: 1623
+pieceType: ABILITY
+pieceName: 血塗られた燭台
+attributeId: ALL
+rank: RANK_3
+charaIds: "4121"
+charaList:
+- charaId: 4121
+  name: イザボー 魔女ver.
+attack: 518
+defense: 0
+hp: 438
+skillId: 162300
+pieceSkill:
+  id: 162300
+  groupId: 1092
+  name: リジェネレイト・ブラスト[Ⅳ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅳ] & HP自動回復[Ⅱ]
+  artId1: 390201804
+  art1:
+    artId: 390201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 690207702
+  art2:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 162301
+pieceSkill2:
+  id: 162301
+  groupId: 1092
+  name: リジェネレイト・ブラスト[Ⅴ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅴ] & HP自動回復[Ⅱ]
+  artId1: 390201805
+  art1:
+    artId: 390201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    growPoint: 25
+    probability: 1000
+  artId2: 690207702
+  art2:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: キューブと名乗るその存在から、彼女はすべてを聞き出した＠話の真偽を確かめる…ただそれだけのために＠彼女は燭台を突き通し、ひとつの個体を抹殺した＠何の迷いも、何の躊躇も、何の感情もなく、ただ燭台の灯を消すように
+illustrator: 都筑禰己
+openDate: 2021/05/24 15:10:00
+...

@@ -1,0 +1,124 @@
+---
+pieceId: 1645
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 泡の行方
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 807
+hp: 967
+skillId: 164500
+pieceSkill:
+  id: 164500
+  groupId: 1119
+  name: 人魚の加護[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: ダメージアップ状態[Ⅳ] & 敵状態異常時ダメージUP[Ⅳ] & マギアダメージUP[Ⅱ](自/1T)
+  messageId: 70
+  artId1: 610206104
+  art1:
+    artId: 610206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId2: 610214604
+  art2:
+    artId: 610214604
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId3: 310201402
+  art3:
+    artId: 310201402
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 75
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1139
+  eventArtId1: 1139003
+  eventArt1:
+    artId: 1139003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1139_PART_1
+  eventArtId2: 1139007
+  eventArt2:
+    artId: 1139007
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1139_PART_2
+  eventDescription: ＆「貝殻の腕輪」「翡翠の腕輪」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 164501
+pieceSkill2:
+  id: 164501
+  groupId: 1119
+  name: 人魚の加護[Ⅵ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: ダメージアップ状態[Ⅵ] & 敵状態異常時ダメージUP[Ⅵ] & マギアダメージUP[Ⅳ](自/1T)
+  messageId: 70
+  artId1: 610206106
+  art1:
+    artId: 610206106
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId2: 610214606
+  art2:
+    artId: 610214606
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId3: 310201404
+  art3:
+    artId: 310201404
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 125
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1139
+  eventArtId1: 1139004
+  eventArt1:
+    artId: 1139004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1139_PART_1
+  eventArtId2: 1139008
+  eventArt2:
+    artId: 1139008
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1139_PART_2
+  eventDescription: ＆「貝殻の腕輪」「翡翠の腕輪」追加獲得数＋15
+  skillEffectRange: ALL
+description: ただ、想いたかった。ただ、想われたかった＠叶わぬ夢に焦がれて消えた淡い淡い恋心＠灘の底から浮かび上がって波間に消えゆく呼び声を＠悲しいだけでは終わらせない
+illustrator: ―
+openDate: 2021/07/12 15:10:00
+...

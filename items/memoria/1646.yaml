@@ -1,0 +1,63 @@
+---
+pieceId: 1646
+pieceType: ABILITY
+pieceName: ひとくちにのせて
+attributeId: ALL
+rank: RANK_3
+attack: 578
+defense: 0
+hp: 728
+skillId: 164600
+pieceSkill:
+  id: 164600
+  groupId: 1139
+  name: アンチ・ポイズン[Ⅷ]
+  type: ABILITY
+  shortDescription: 確率で毒無効[Ⅷ] & 攻撃力UP[Ⅰ]
+  artId1: 690208608
+  art1:
+    artId: 690208608
+    verbCode: IGNORE
+    effectCode: POISON
+    targetId: SELF
+    growPoint: 0
+    probability: 600
+  artId2: 390201101
+  art2:
+    artId: 390201101
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 164601
+pieceSkill2:
+  id: 164601
+  groupId: 1139
+  name: アンチ・ポイズン
+  type: ABILITY
+  shortDescription: 必ず毒無効 & 攻撃力UP[Ⅱ]
+  artId1: 690208600
+  art1:
+    artId: 690208600
+    verbCode: IGNORE
+    effectCode: POISON
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 390201102
+  art2:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 夕暮れに照らされて、いつになく穏やかに流れる時間に＠つい本音が出てしまいそうになるけれど…＠すべてを語らなくてもわかりあえると教えてくれたあなただから＠甘く冷たいひとくちにのせて、そっと感謝を伝えるわ
+illustrator: ―
+openDate: 2021/07/12 15:10:00
+...

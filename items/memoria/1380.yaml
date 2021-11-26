@@ -1,0 +1,71 @@
+---
+pieceId: 1380
+pieceType: SKILL
+pieceName: 無人島のご馳走
+attributeId: ALL
+rank: RANK_3
+charaIds: "2600"
+charaList:
+- charaId: 2600
+  name: 佐倉 杏子 水着ver.
+attack: 0
+defense: 472
+hp: 469
+skillId: 138000
+pieceSkill:
+  id: 138000
+  groupId: 1092
+  name: ビッグ・キャッチ[Ⅱ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: Blast ダメージUP[Ⅱ] & MP獲得量UP[Ⅳ](自/3T)
+  artId1: 330201802
+  art1:
+    artId: 330201802
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201904
+  art2:
+    artId: 330201904
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 125
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 138001
+pieceSkill2:
+  id: 138001
+  groupId: 1092
+  name: ビッグ・キャッチ[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: Blast ダメージUP[Ⅲ] & MP獲得量UP[Ⅴ](自/3T)
+  artId1: 330201803
+  art1:
+    artId: 330201803
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201905
+  art2:
+    artId: 330201905
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: 素潜りで捕まえた魚、磯で拾い集めた様々な貝＠お店では目にしない不揃いな食材だけど＠どれもこれも新鮮で、今しか食べられない海の幸＠無人島ならではの贅沢を味わい尽くしたい！
+illustrator: かにぱんだ
+openDate: 2019/07/26 15:10:00
+...

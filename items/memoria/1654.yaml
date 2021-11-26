@@ -1,0 +1,85 @@
+---
+pieceId: 1654
+pieceType: ABILITY
+pieceName: 綴る明日を待ちわびて
+attributeId: ALL
+rank: RANK_3
+charaIds: "1021"
+charaList:
+- charaId: 1021
+  name: 紅晴 結菜
+attack: 474
+defense: 0
+hp: 474
+skillId: 165400
+pieceSkill:
+  id: 165400
+  groupId: 1241
+  name: パーシストクライシス[Ⅴ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅴ] & 瀕死時防御力UP[Ⅱ] & 確率で挑発無視[Ⅲ]
+  artId1: 390202905
+  art1:
+    artId: 390202905
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId2: 390203002
+  art2:
+    artId: 390203002
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId3: 690219003
+  art3:
+    artId: 690219003
+    verbCode: IGNORE
+    effectCode: PROVOKE
+    targetId: SELF
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+skillId2: 165401
+pieceSkill2:
+  id: 165401
+  groupId: 1241
+  name: パーシストクライシス[Ⅶ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅶ] & 瀕死時防御力UP[Ⅳ] & 確率で挑発無視[Ⅴ]
+  artId1: 390202907
+  art1:
+    artId: 390202907
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390203004
+  art2:
+    artId: 390203004
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+    probability: 1000
+  artId3: 690219005
+  art3:
+    artId: 690219005
+    verbCode: IGNORE
+    effectCode: PROVOKE
+    targetId: SELF
+    growPoint: 0
+    probability: 500
+  skillEffectRange: ALL
+description: 学校に自由と安寧を与えるために生徒会長になった心優しい少女＠誰かのため、そう思えば彼女はどんな逆境も乗り越えられた＠そんな彼女を陰で支えるのは、大切な人から贈られた万年筆＠その筆は、新たな持ち主が綴る革命の続きを心待ちにする
+illustrator: mepo
+openDate: 2021/08/10 15:10:00
+...
