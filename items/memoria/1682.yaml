@@ -1,0 +1,63 @@
+---
+pieceId: 1682
+pieceType: SKILL
+pieceName: 再会を信じて「チャオ！」
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 675
+hp: 675
+skillId: 168200
+pieceSkill:
+  id: 168200
+  groupId: 1082
+  name: キュア[Ⅱ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: デバフ解除 & HP回復[Ⅱ](自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200200402
+  art2:
+    artId: 200200402
+    verbCode: HEAL
+    effectCode: HP
+    targetId: SELF
+    effectValue: 325
+    growPoint: 20
+  skillEffectRange: ALL
+skillId2: 168201
+pieceSkill2:
+  id: 168201
+  groupId: 1082
+  name: キュア[Ⅲ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: デバフ解除 & HP回復[Ⅲ](自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200200403
+  art2:
+    artId: 200200403
+    verbCode: HEAL
+    effectCode: HP
+    targetId: SELF
+    effectValue: 350
+    growPoint: 20
+  skillEffectRange: ALL
+description: 数奇な運命を背負いこの世に生を受けた同じ顔の少女たち＠待ち受ける未来の全貌は、まだ何もわからない＠それでもふたりは絶望しないだろう＠同じ心で、全力で生きることを誓い合ったのだから
+illustrator: ―
+openDate: 2021/10/20 15:10:00
+...

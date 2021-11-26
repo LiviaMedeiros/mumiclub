@@ -1,0 +1,88 @@
+---
+pieceId: 1681
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 未来（きぼう）への一歩
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 934
+hp: 854
+skillId: 168100
+pieceSkill:
+  id: 168100
+  groupId: 1095
+  name: スナイピングアタック[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 防御力DOWN[Ⅳ](敵全/3T) & 攻撃力UP[Ⅳ](自/3T)
+  messageId: 72
+  artId1: 430302104
+  art1:
+    artId: 430302104
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 125
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201104
+  art2:
+    artId: 330201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1147
+  eventArtId1: 1147003
+  eventArt1:
+    artId: 1147003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1147_KEY
+  eventDescription: ＆「ジュゥべえメダル」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 168101
+pieceSkill2:
+  id: 168101
+  groupId: 1095
+  name: スナイピングアタック[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 防御力DOWN[Ⅴ](敵全/3T) & 攻撃力UP[Ⅴ](自/3T)
+  messageId: 72
+  artId1: 430302105
+  art1:
+    artId: 430302105
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201105
+  art2:
+    artId: 330201105
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1147
+  eventArtId1: 1147004
+  eventArt1:
+    artId: 1147004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1147_KEY
+  eventDescription: ＆「ジュゥべえメダル」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「無意味なんかじゃない＠みんなの魔法や魔女の力を借りずに＠自分の足で明日に踏み出すために＠わたしはわたしだけの身体が必要なの！」
+illustrator: ―
+openDate: 2021/10/20 15:10:00
+...

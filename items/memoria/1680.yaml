@@ -1,0 +1,69 @@
+---
+pieceId: 1680
+pieceType: ABILITY
+pieceName: 書きかけの日記
+attributeId: ALL
+rank: RANK_3
+charaIds: "4014"
+charaList:
+- charaId: 4014
+  name: 昴 かずみ
+attack: 460
+defense: 0
+hp: 500
+skillId: 168000
+pieceSkill:
+  id: 168000
+  groupId: 1085
+  name: グリッター・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & MP獲得量UP[Ⅱ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201902
+  art2:
+    artId: 390201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 168001
+pieceSkill2:
+  id: 168001
+  groupId: 1085
+  name: グリッター・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅳ] & MP獲得量UP[Ⅲ]
+  artId1: 390201104
+  art1:
+    artId: 390201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 390201903
+  art2:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: この日記に記されるのは＠希望に満ちた魔法少女が絶望に塗りつぶされるまでの日々＠この日記に残る黒へのグラデーションは＠同じ魂を持つ者たちの新たな希望となりうるか
+illustrator: 都筑禰己
+openDate: 2021/10/20 15:10:00
+...

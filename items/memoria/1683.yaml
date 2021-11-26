@@ -1,0 +1,65 @@
+---
+pieceId: 1683
+pieceType: ABILITY
+pieceName: 魔法少女狩りは正義のために
+attributeId: ALL
+rank: RANK_4
+attack: 825
+defense: 0
+hp: 825
+skillId: 168300
+pieceSkill:
+  id: 168300
+  groupId: 1087
+  name: スラッシュ・アーマメント[Ⅱ]
+  type: ABILITY
+  shortDescription: 与えるダメージUP[Ⅱ] & ダメージカット状態[Ⅱ]
+  artId1: 390201302
+  art1:
+    artId: 390201302
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690206202
+  art2:
+    artId: 690206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 168301
+pieceSkill2:
+  id: 168301
+  groupId: 1087
+  name: スラッシュ・アーマメント[Ⅲ]
+  type: ABILITY
+  shortDescription: 与えるダメージUP[Ⅲ] & ダメージカット状態[Ⅲ]
+  artId1: 390201303
+  art1:
+    artId: 390201303
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690206203
+  art2:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 希望が絶望に染まる前に、魔法少女を狩る＠絶望の連鎖を食い止めるために、魔法少女を狩る＠大事な家族が、何も知らず幸せに生きていけるように…＠「始めよう、３人ぼっちのプレイアデス聖団で」
+illustrator: ―
+openDate: 2021/10/20 15:10:00
+...
