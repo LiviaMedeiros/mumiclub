@@ -1,0 +1,50 @@
+---
+pieceId: 1005
+pieceType: SKILL
+pieceName: ハコの魔女の手下
+attributeId: ALL
+rank: RANK_1
+attack: 0
+defense: 220
+hp: 180
+skillId: 100510
+pieceSkill:
+  id: 100510
+  groupId: 1094
+  name: アタックダウン[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 攻撃力DOWN[Ⅲ](敵単/1T)
+  messageId: 72
+  artId1: 410002003
+  art1:
+    artId: 410002003
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 100511
+pieceSkill2:
+  id: 100511
+  groupId: 1094
+  name: アタックダウン[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 攻撃力DOWN[Ⅳ](敵単/1T)
+  messageId: 72
+  artId1: 410002004
+  art1:
+    artId: 410002004
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: ハコの魔女の手下。その役割は運搬。＠この手下がさわった物体はとても運びやすくなってしまう。
+illustrator: 劇団イヌカレー
+...

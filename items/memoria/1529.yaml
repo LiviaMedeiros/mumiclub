@@ -1,0 +1,90 @@
+---
+pieceId: 1529
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: アレもコレもと欲張りたい
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 924
+hp: 844
+skillId: 152900
+pieceSkill:
+  id: 152900
+  groupId: 1090
+  name: クリアマインド[Ⅴ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: Accele MPUP[Ⅴ] & ダメージアップ状態[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 330201605
+  art1:
+    artId: 330201605
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  artId2: 630206103
+  art2:
+    artId: 630206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  eventId: 1127
+  eventArtId1: 1127003
+  eventArt1:
+    artId: 1127003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1127_KEY
+  eventDescription: ＆「アクアリウムへの招待状」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 152901
+pieceSkill2:
+  id: 152901
+  groupId: 1090
+  name: クリアマインド[Ⅵ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: Accele MPUP[Ⅵ] & ダメージアップ状態[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 330201606
+  art1:
+    artId: 330201606
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 3
+    growPoint: 25
+  artId2: 630206104
+  art2:
+    artId: 630206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  eventId: 1127
+  eventArtId1: 1127004
+  eventArt1:
+    artId: 1127004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1127_KEY
+  eventDescription: ＆「アクアリウムへの招待状」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「｜夏の思い出を作るためにいろいろ用意した＠私はどれも使ったことがないから、今から楽しみ…＠貸して欲しいものがあったら言って？＠一緒にたくさん遊んで楽しい日にしよう｜」
+illustrator: ―
+openDate: 2020/08/07 15:10:00
+...

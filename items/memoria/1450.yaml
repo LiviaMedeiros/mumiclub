@@ -1,0 +1,71 @@
+---
+pieceId: 1450
+pieceType: SKILL
+pieceName: 夢で悲しみは許される
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 640
+hp: 580
+skillId: 145000
+pieceSkill:
+  id: 145000
+  groupId: 1129
+  name: フォーギブネス[Ⅱ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: HP自動回復[Ⅱ] & MP獲得量UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630207702
+  art1:
+    artId: 630207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 330201902
+  art2:
+    artId: 330201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 145001
+pieceSkill2:
+  id: 145001
+  groupId: 1129
+  name: フォーギブネス[Ⅲ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: HP自動回復[Ⅲ] & MP獲得量UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630207703
+  art1:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 330201903
+  art2:
+    artId: 330201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: かつて優しかった大人の声を聞いて柔らかい微睡み。＠残る無邪気な歌声が、情景と香りを鮮明にしていく。＠10年も20年も続けば良かったのに。＠崩れて引きずった臭い時間は、深く魂にまで染みついてしまった。
+illustrator: ―
+openDate: 2020/01/17 15:10:00
+...

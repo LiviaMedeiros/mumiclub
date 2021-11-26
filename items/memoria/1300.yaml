@@ -1,0 +1,88 @@
+---
+pieceId: 1300
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 祈りの対価を
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 728
+hp: 889
+skillId: 130000
+pieceSkill:
+  id: 130000
+  groupId: 1134
+  name: コンシールブラスト[Ⅷ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 確率で回避無効[Ⅷ] & Blast ダメージUP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630216208
+  art1:
+    artId: 630216208
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 600
+  artId2: 330201803
+  art2:
+    artId: 330201803
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1083
+  eventArtId1: 1083003
+  eventArt1:
+    artId: 1083003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_BRANCH_1083_PART_1
+  eventDescription: ＆「記憶の砂」入手時＋3
+  skillEffectRange: ALL
+skillId2: 130001
+pieceSkill2:
+  id: 130001
+  groupId: 1134
+  name: コンシールブラスト[Ⅹ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 確率で回避無効[Ⅹ] & Blast ダメージUP[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630216210
+  art1:
+    artId: 630216210
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 700
+  artId2: 330201804
+  art2:
+    artId: 330201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1083
+  eventArtId1: 1083004
+  eventArt1:
+    artId: 1083004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_BRANCH_1083_PART_1
+  eventDescription: ＆「記憶の砂」入手時＋7
+  skillEffectRange: ALL
+description: 「魔法少女…＠それは人の命でさえ贖えないもの…“奇跡”を願った者たち＠運命に逆らい、因果をもねじ曲げる祈りの対価を＠私たちは終わらない夢の中で、支払い続ける宿命なのよ」
+illustrator: 谷口淳一郎
+openDate: 2019/01/21 15:10:00
+...

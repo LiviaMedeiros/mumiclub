@@ -1,0 +1,75 @@
+---
+pieceId: 1523
+pieceType: SKILL
+pieceName: いつもと違う花火
+attributeId: ALL
+rank: RANK_3
+charaIds: "2501"
+charaList:
+- charaId: 2501
+  name: 巴 マミ 水着ver.
+attack: 0
+defense: 494
+hp: 454
+skillId: 152300
+pieceSkill:
+  id: 152300
+  groupId: 1085
+  name: アディクトスレイヤー[Ⅲ]
+  type: SKILL
+  intervalTurn: 11
+  shortDescription: 攻撃力UP[Ⅲ] & 敵状態異常時ダメージUP[Ⅲ](自/1T)
+  messageId: 70
+  artId1: 310201103
+  art1:
+    artId: 310201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610214603
+  art2:
+    artId: 610214603
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 152301
+pieceSkill2:
+  id: 152301
+  groupId: 1085
+  name: アディクトスレイヤー[Ⅳ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 攻撃力UP[Ⅳ] & 敵状態異常時ダメージUP[Ⅳ](自/1T)
+  messageId: 70
+  artId1: 310201104
+  art1:
+    artId: 310201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610214604
+  art2:
+    artId: 610214604
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 夜の夏空を舞台に繰り広げられる、きらびやかなショータイム＠これまで見た花火と少し違って見えるのは＠地上の光でショーアップされたアトラクションだから？＠それとも今は、一緒に見上げる後輩たちがいてくれるおかげかしら？
+illustrator: かにぱんだ
+openDate: 2020/07/27 15:10:00
+...

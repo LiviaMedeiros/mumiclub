@@ -1,0 +1,106 @@
+---
+pieceId: 1270
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: なぎさが解決するのです！
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 892
+hp: 732
+skillId: 127000
+pieceSkill:
+  id: 127000
+  groupId: 1104
+  name: ピーカーブー[Ⅱ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 確率でスタン[Ⅱ](敵単/1T) & Blast ダメージDOWN[Ⅶ] & 攻撃力DOWN[Ⅲ](敵単/2T)
+  messageId: 72
+  artId1: 510004102
+  art1:
+    artId: 510004102
+    verbCode: CONDITION_BAD
+    effectCode: STUN
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 0
+    probability: 325
+  artId2: 420002707
+  art2:
+    artId: 420002707
+    verbCode: DEBUFF
+    effectCode: BLAST
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 2
+    growPoint: 25
+  artId3: 420002003
+  art3:
+    artId: 420002003
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 2
+    growPoint: 25
+  eventId: 1040
+  eventArtId1: 1040003
+  eventArt1:
+    artId: 1040003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_DAILYTOWER_1040_KEY
+  eventDescription: ＆回数券＋3
+  skillEffectRange: ALL
+skillId2: 127001
+pieceSkill2:
+  id: 127001
+  groupId: 1104
+  name: ピーカーブー[Ⅳ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率でスタン[Ⅳ](敵単/1T) & Blast ダメージDOWN[Ⅷ] & 攻撃力DOWN[Ⅳ](敵単/2T)
+  messageId: 72
+  artId1: 510004104
+  art1:
+    artId: 510004104
+    verbCode: CONDITION_BAD
+    effectCode: STUN
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 0
+    probability: 375
+  artId2: 420002708
+  art2:
+    artId: 420002708
+    verbCode: DEBUFF
+    effectCode: BLAST
+    targetId: TARGET
+    effectValue: 225
+    enableTurn: 2
+    growPoint: 25
+  artId3: 420002004
+  art3:
+    artId: 420002004
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 2
+    growPoint: 25
+  eventId: 1040
+  eventArtId1: 1040004
+  eventArt1:
+    artId: 1040004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_DAILYTOWER_1040_KEY
+  eventDescription: ＆回数券＋7
+  skillEffectRange: ALL
+description: 「うんうん…今、神浜が大騒ぎなのは知っているのです！＠この百江なぎさにぜーんぶお任せなのです！＠カッチコチにハードなトラブルも、チーズのようにトローッと解決！＠…って、い、今、なぎさが原因だって言ったのは誰なのです～!?」
+illustrator: 谷口淳一郎
+openDate: 2018/10/29 15:10:00
+...

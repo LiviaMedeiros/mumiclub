@@ -1,0 +1,63 @@
+---
+pieceId: 1424
+pieceType: ABILITY
+pieceName: 都会の水が合わなくて
+attributeId: ALL
+rank: RANK_3
+attack: 644
+defense: 0
+hp: 584
+skillId: 142400
+pieceSkill:
+  id: 142400
+  groupId: 1139
+  name: 'アンチ・ポイズン[Ⅶ] '
+  type: ABILITY
+  shortDescription: 確率で毒無効[Ⅶ] & Blast ダメージUP[Ⅰ]
+  artId1: 690208607
+  art1:
+    artId: 690208607
+    verbCode: IGNORE
+    effectCode: POISON
+    targetId: SELF
+    growPoint: 0
+    probability: 550
+  artId2: 390201801
+  art2:
+    artId: 390201801
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 142401
+pieceSkill2:
+  id: 142401
+  groupId: 1139
+  name: アンチ・ポイズン
+  type: ABILITY
+  shortDescription: 必ず毒無効 & Blast ダメージUP[Ⅱ]
+  artId1: 690208600
+  art1:
+    artId: 690208600
+    verbCode: IGNORE
+    effectCode: POISON
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 390201802
+  art2:
+    artId: 390201802
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 固いアスファルト、灰色で彩られた建物、縦横無尽に行き交う人々！＠洗礼を受けて、ふわふわ頭を浮かせた少女たちよ、早く立ち直れ！＠小動物のように怯えている場合じゃない、都会なんかにやられるな！＠だから、この水をお飲みなさい。毒が入ってるかもしれないけれど
+illustrator: 星和貴
+openDate: 2019/11/11 15:10:00
+...

@@ -1,0 +1,71 @@
+---
+pieceId: 1482
+pieceType: SKILL
+pieceName: 光属性の者です
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 630
+hp: 690
+skillId: 148200
+pieceSkill:
+  id: 148200
+  groupId: 1111
+  name: スウィート・トーク[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 確率で幻惑[Ⅵ] & 攻撃力DOWN[Ⅵ](敵単/1T)
+  messageId: 72
+  artId1: 510005506
+  art1:
+    artId: 510005506
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 425
+  artId2: 410002006
+  art2:
+    artId: 410002006
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 148201
+pieceSkill2:
+  id: 148201
+  groupId: 1111
+  name: スウィート・トーク[Ⅶ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 確率で幻惑[Ⅶ] & 攻撃力DOWN[Ⅶ](敵単/1T)
+  messageId: 72
+  artId1: 510005507
+  art1:
+    artId: 510005507
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 450
+  artId2: 410002007
+  art2:
+    artId: 410002007
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 「光と共にコンニチハ。私たちは怪しい者ではございません＠スーツがどれだけ黒くとも、心の中は清廉で純白＠夢見る少女を応援することが、私たちの幸せになるんです＠ところで、トップアイドルを目指さないかな？」
+illustrator: PAPA
+openDate: 2020/04/02 15:10:00
+...

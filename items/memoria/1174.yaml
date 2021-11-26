@@ -1,0 +1,66 @@
+---
+pieceId: 1174
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 天使様の軍旗
+attributeId: ALL
+rank: RANK_3
+attack: 632
+defense: 0
+hp: 572
+skillId: 117400
+pieceSkill:
+  id: 117400
+  groupId: 1132
+  name: リベンジ・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 弱点属性で攻撃されたときMPUP[Ⅱ]
+  artId1: 690207902
+  art1:
+    artId: 690207902
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  eventId: 1061
+  eventArtId1: 1061003
+  eventArt1:
+    artId: 1061003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_SINGLERAID_1061_EXCHANGE_1
+  eventDescription: ＆「聖女のメダル」入手時＋1
+  skillEffectRange: ALL
+skillId2: 117401
+pieceSkill2:
+  id: 117401
+  groupId: 1132
+  name: リベンジ・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 弱点属性で攻撃されたときMPUP[Ⅲ]
+  artId1: 690207903
+  art1:
+    artId: 690207903
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 40
+    growPoint: 0
+    probability: 1000
+  eventId: 1061
+  eventArtId1: 1061004
+  eventArt1:
+    artId: 1061004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_SINGLERAID_1061_EXCHANGE_1
+  eventDescription: ＆「聖女のメダル」入手時＋5
+  skillEffectRange: ALL
+description: キューブは、信じる者にしか見ることができない不思議な存在＠純粋なタルトは、その光輪こそが天使のあかしと信じ＠“天使様”の旗を掲げて戦場を馳せる＠タルトに心酔するメリッサもまた、同様…
+illustrator: かにぱんだ
+openDate: 2018/02/15 15:10:00
+...

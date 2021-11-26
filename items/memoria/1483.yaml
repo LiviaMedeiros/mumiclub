@@ -1,0 +1,99 @@
+---
+pieceId: 1483
+pieceType: ABILITY
+pieceName: 脈拍数は150↑
+attributeId: ALL
+rank: RANK_3
+attack: 541
+defense: 0
+hp: 661
+skillId: 148300
+pieceSkill:
+  id: 148300
+  groupId: 1085
+  name: イレート・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & Accele MPUP[Ⅰ] & 防御力DOWN[Ⅴ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 390201601
+  art2:
+    artId: 390201601
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId3: 9368
+  art3:
+    artId: 9368
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 250
+    growPoint: 0
+  eventId: 1093
+  eventArtId1: 1093001
+  eventArt1:
+    artId: 1093001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1093_KEY
+  eventDescription: ＆「まどかPからの連絡」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 148301
+pieceSkill2:
+  id: 148301
+  groupId: 1085
+  name: イレート・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & Accele MPUP[Ⅱ] & 防御力DOWN[Ⅴ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201602
+  art2:
+    artId: 390201602
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId3: 9368
+  art3:
+    artId: 9368
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 250
+    growPoint: 0
+  eventId: 1093
+  eventArtId1: 1093002
+  eventArt1:
+    artId: 1093002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1093_KEY
+  eventDescription: ＆「まどかPからの連絡」追加獲得数＋5
+  skillEffectRange: ALL
+description: 幸せって怖い。生まれて初めてそう思った…＠憧れの人が隣にいるだけで、頭の中が真っ白を超えて無になって、＠何も考えられずにステージをこなすだけの本能になってた…＠今でも怖くなる。同じ空気を吸ってたって思うだけで震えるぐらい
+illustrator: PAPA
+openDate: 2020/04/02 15:10:00
+...

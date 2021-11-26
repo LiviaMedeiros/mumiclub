@@ -1,0 +1,71 @@
+---
+pieceId: 1186
+pieceType: SKILL
+pieceName: 雨上がりの帰り道＜れいら＞
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 662
+hp: 542
+skillId: 118600
+pieceSkill:
+  id: 118600
+  groupId: 1110
+  name: シェイド・ストローク[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 必ず暗闇(敵単/1T) & 攻撃力DOWN[Ⅵ](敵単/1T)
+  messageId: 72
+  artId1: 510005400
+  art1:
+    artId: 510005400
+    verbCode: CONDITION_BAD
+    effectCode: DARKNESS
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002006
+  art2:
+    artId: 410002006
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 118601
+pieceSkill2:
+  id: 118601
+  groupId: 1110
+  name: シェイド・ストローク[Ⅶ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ず暗闇(敵単/1T) & 攻撃力DOWN[Ⅶ](敵単/1T)
+  messageId: 72
+  artId1: 510005400
+  art1:
+    artId: 510005400
+    verbCode: CONDITION_BAD
+    effectCode: DARKNESS
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002007
+  art2:
+    artId: 410002007
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 雨の日の帰り道、こういう時は決まって…＠ほら、みとが水たまりに飛び込んだ！そこを予想してガード！＠ふふ～！もう慣れっこだもんね！次は私もやってみようかな…!?＠それにしても、こういう時、自然に避けてるよね～、せいかは…！
+illustrator: ハノカゲ
+openDate: 2018/03/12 15:10:00
+...

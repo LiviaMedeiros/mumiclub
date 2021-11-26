@@ -1,0 +1,73 @@
+---
+pieceId: 1338
+pieceType: SKILL
+pieceName: 進路希望調査表
+attributeId: ALL
+rank: RANK_3
+charaIds: "1015"
+charaList:
+- charaId: 1015
+  name: 環 うい
+attack: 0
+defense: 432
+hp: 501
+skillId: 133800
+pieceSkill:
+  id: 133800
+  groupId: 1102
+  name: トライアンファント[Ⅷ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: MP獲得量 DOWN[Ⅷ](敵全/3T) & MP獲得量UP[Ⅱ](自/3T)
+  messageId: 72
+  artId1: 430302808
+  art1:
+    artId: 430302808
+    verbCode: DEBUFF
+    effectCode: MP_GAIN
+    targetId: ALL
+    effectValue: 450
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201902
+  art2:
+    artId: 330201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 133801
+pieceSkill2:
+  id: 133801
+  groupId: 1102
+  name: トライアンファント[Ⅸ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: MP獲得量 DOWN[Ⅸ](敵全/3T) & MP獲得量UP[Ⅲ](自/3T)
+  messageId: 72
+  artId1: 430302809
+  art1:
+    artId: 430302809
+    verbCode: DEBUFF
+    effectCode: MP_GAIN
+    targetId: ALL
+    effectValue: 500
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201903
+  art2:
+    artId: 330201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: たった１枚、A4サイズのわら半紙＠行きたい学校や就きたい仕事が、小さくギュッと詰まってる＠筆は進もうとしたけれど、すぐにブレーキがかかってしまった＠書こうと思えば数分で終わるけど、人生は続いているから
+illustrator: mepo
+openDate: 2019/04/26 15:10:00
+...

@@ -1,0 +1,92 @@
+---
+pieceId: 1619
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: これはただの散歩だから
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 967
+hp: 807
+skillId: 161900
+pieceSkill:
+  id: 161900
+  groupId: 1111
+  name: メズマライズ・ゲイズ[Ⅵ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率で幻惑[XXI](敵単/1T) & 敵状態異常時ダメージUP[Ⅵ](自/1T)
+  messageId: 72
+  artId1: 510005521
+  art1:
+    artId: 510005521
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 800
+  artId2: 610214606
+  art2:
+    artId: 610214606
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  eventId: 1132
+  eventArtId1: 1132003
+  eventArt1:
+    artId: 1132003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1132_PART_1
+  eventDescription: ＆「アザレアの咲く場所」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 161901
+pieceSkill2:
+  id: 161901
+  groupId: 1111
+  name: メズマライズ・ゲイズ[Ⅶ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 必ず幻惑(敵単/1T) & 敵状態異常時ダメージUP[Ⅶ](自/1T)
+  messageId: 72
+  artId1: 510005600
+  art1:
+    artId: 510005600
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610214607
+  art2:
+    artId: 610214607
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  eventId: 1132
+  eventArtId1: 1132004
+  eventArt1:
+    artId: 1132004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1132_PART_1
+  eventDescription: ＆「アザレアの咲く場所」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「このは～、あやめの後をつけるのはやめようよ…」＠「…偶然そう見えてるだけよ。私の目的は写真撮影だから…」＠（あやめに何かあったら困るし…見守るだけならいいわよね…）＠（このは…きっと“見守るだけなら”って考えてるな、こりゃ…）
+illustrator: ―
+openDate: 2021/04/30 15:10:00
+...

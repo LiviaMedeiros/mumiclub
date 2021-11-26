@@ -1,0 +1,96 @@
+---
+pieceId: 1432
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: エンドロールは前途多難
+attributeId: ALL
+rank: RANK_3
+attack: 602
+defense: 0
+hp: 602
+skillId: 143200
+pieceSkill:
+  id: 143200
+  groupId: 1085
+  name: リバティ[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 確率で拘束無効[Ⅵ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690208506
+  art2:
+    artId: 690208506
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 500
+  eventId: 1078
+  eventArtId1: 1078001
+  eventArt1:
+    artId: 1078001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_BRANCH_1078_PART_1
+  eventArtId2: 1078005
+  eventArt2:
+    artId: 1078005
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_BRANCH_1078_PART_2
+  eventDescription: ＆『喝采』『残り火』＋2
+  skillEffectRange: ALL
+skillId2: 143201
+pieceSkill2:
+  id: 143201
+  groupId: 1085
+  name: リバティ[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 必ず拘束無効
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690208500
+  art2:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1078
+  eventArtId1: 1078002
+  eventArt1:
+    artId: 1078002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1078_PART_1
+  eventArtId2: 1078006
+  eventArt2:
+    artId: 1078006
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1078_PART_2
+  eventDescription: ＆『喝采』『残り火』＋5
+  skillEffectRange: ALL
+description: 「私は自分の映画を撮りたかっただけで、＠自分で映画に出たかったわけじゃないんですけどね…＠いやいやいや、やるからにはちゃんとやりますよ！＠一途な恋のヒロインを完璧に演じてみせますから！」
+illustrator: ―
+openDate: 2019/11/29 15:10:00
+...

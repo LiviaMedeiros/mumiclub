@@ -1,0 +1,75 @@
+---
+pieceId: 1356
+pieceType: SKILL
+pieceName: スタンバイ・レディ
+attributeId: ALL
+rank: RANK_3
+charaIds: "4051"
+charaList:
+- charaId: 4051
+  name: 高町 なのは
+attack: 0
+defense: 472
+hp: 472
+skillId: 135600
+pieceSkill:
+  id: 135600
+  groupId: 1120
+  name: 'スタンバイ・レディ[Ⅶ] '
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: ダメージカット状態[Ⅶ] & 確率でダメージカット無視[Ⅵ](自/1T)
+  messageId: 70
+  artId1: 610206207
+  art1:
+    artId: 610206207
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId2: 610216506
+  art2:
+    artId: 610216506
+    verbCode: IGNORE
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 550
+  skillEffectRange: ALL
+skillId2: 135601
+pieceSkill2:
+  id: 135601
+  groupId: 1120
+  name: 'スタンバイ・レディ[Ⅷ] '
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: ダメージカット状態[Ⅷ] & 確率でダメージカット無視[Ⅶ](自/1T)
+  messageId: 70
+  artId1: 610206208
+  art1:
+    artId: 610206208
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId2: 610216507
+  art2:
+    artId: 610216507
+    verbCode: IGNORE
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 600
+  skillEffectRange: ALL
+description: なのはが初めて魔法を使ったときから＠ずっとそばにいたインテリジェントデバイス“レイジングハート”＠新たな戦いを経るたびに、姿を変え、改良を重ねても＠なのはと結んだ、絆と信頼は揺るがない
+illustrator: ma-sa
+openDate: 2019/06/17 15:10:00
+...

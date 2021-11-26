@@ -1,0 +1,65 @@
+---
+pieceId: 1310
+pieceType: ABILITY
+pieceName: エースはサウスポー
+attributeId: ALL
+rank: RANK_4
+attack: 885
+defense: 0
+hp: 718
+skillId: 131000
+pieceSkill:
+  id: 131000
+  groupId: 1121
+  name: イネヴィタブル・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 確率でクリティカル[Ⅱ] & 確率で回避無効[Ⅷ]
+  messageId: 70
+  artId1: 690206302
+  art1:
+    artId: 690206302
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 150
+  artId2: 690216208
+  art2:
+    artId: 690216208
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 600
+  skillEffectRange: ALL
+skillId2: 131001
+pieceSkill2:
+  id: 131001
+  groupId: 1121
+  name: イネヴィタブル・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 確率でクリティカル[Ⅲ] & 確率で回避無効[ⅩⅢ]
+  messageId: 70
+  artId1: 690206303
+  art1:
+    artId: 690206303
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 200
+  artId2: 690216213
+  art2:
+    artId: 690216213
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 850
+  skillEffectRange: ALL
+description: 「私はサウスポーなんだ＠勝敗を競うスポーツの世界では、左利きは有利に立てる場合が多い＠私がエースになれた理由の一つが、そこにある＠左腕の包帯…？ああ、これは…気にしないでほしい」
+illustrator: 一十九二
+openDate: 2019/02/15 15:10:00
+...

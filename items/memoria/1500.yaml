@@ -1,0 +1,75 @@
+---
+pieceId: 1500
+pieceType: SKILL
+pieceName: 憂鬱は紅茶に溶かして
+attributeId: ALL
+rank: RANK_3
+charaIds: "3050"
+charaList:
+- charaId: 3050
+  name: 香春 ゆうな
+attack: 0
+defense: 433
+hp: 513
+skillId: 150000
+pieceSkill:
+  id: 150000
+  groupId: 1109
+  name: シック・フォッグ[XIII]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 確率で霧[XIII](敵単/3T) & 攻撃力DOWN[Ⅲ](敵単/3T)
+  messageId: 72
+  artId1: 530005113
+  art1:
+    artId: 530005113
+    verbCode: CONDITION_BAD
+    effectCode: FOG
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 0
+    probability: 600
+  artId2: 430002003
+  art2:
+    artId: 430002003
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 150001
+pieceSkill2:
+  id: 150001
+  groupId: 1109
+  name: シック・フォッグ[XV]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 確率で霧[XV](敵単/3T) & 攻撃力DOWN[Ⅳ](敵単/3T)
+  messageId: 72
+  artId1: 530005115
+  art1:
+    artId: 530005115
+    verbCode: CONDITION_BAD
+    effectCode: FOG
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 0
+    probability: 650
+  artId2: 430002004
+  art2:
+    artId: 430002004
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: 悩みごとで塞ぎこんだ時は、窓際で紅茶を一杯＠優しい香りと温かな味わいで不安を包み込むその時間は＠まるで聖女様とお話しているかのようで＠大切で、やわらかなひととき…
+illustrator: かにぱんだ
+openDate: 2020/05/29 15:10:00
+...

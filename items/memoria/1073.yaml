@@ -1,0 +1,52 @@
+---
+pieceId: 1073
+pieceType: SKILL
+pieceName: びっしり書かれた料理レシピ
+attributeId: ALL
+rank: RANK_3
+charaIds: "1001"
+charaList:
+- charaId: 1001
+  name: 環 いろは
+attack: 0
+defense: 420
+hp: 500
+skillId: 107300
+pieceSkill:
+  id: 107300
+  groupId: 1078
+  name: キュアヒール[Ⅸ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: HP回復[Ⅸ]
+  messageId: 70
+  artId1: 200200409
+  art1:
+    artId: 200200409
+    verbCode: HEAL
+    effectCode: HP
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+  skillEffectRange: ALL
+skillId2: 107301
+pieceSkill2:
+  id: 107301
+  groupId: 1078
+  name: キュアヒール[Ⅹ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: HP回復[Ⅹ]
+  messageId: 70
+  artId1: 200200410
+  art1:
+    artId: 200200410
+    verbCode: HEAL
+    effectCode: HP
+    targetId: SELF
+    effectValue: 525
+    growPoint: 20
+  skillEffectRange: ALL
+description: 栄養バランスや注意点が細かく書かれた手書きのレシピ。＠その筆跡から、いろはが書いたものと思われるが本人は覚えていない。＠調理してみるものの、果たしてこれが「誰の為」の料理なのかは、＠あのときのいろはには、わからないのであった。
+illustrator: 宮本サトル
+...

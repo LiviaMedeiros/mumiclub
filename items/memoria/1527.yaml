@@ -1,0 +1,75 @@
+---
+pieceId: 1527
+pieceType: SKILL
+pieceName: 私しかいない世界
+attributeId: ALL
+rank: RANK_4
+charaIds: "1004"
+charaList:
+- charaId: 1004
+  name: 二葉 さな
+attack: 0
+defense: 880
+hp: 720
+skillId: 152700
+pieceSkill:
+  id: 152700
+  groupId: 1170
+  name: 私しかいない世界
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 味方を必ずかばう & ダメージカット状態[Ⅶ](自/1T)
+  messageId: 71
+  artId1: 610213300
+  art1:
+    artId: 610213300
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610206207
+  art2:
+    artId: 610206207
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 152701
+pieceSkill2:
+  id: 152701
+  groupId: 1170
+  name: 私しかいない世界
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 味方を必ずかばう & ダメージカット状態[Ⅶ](自/1T)
+  messageId: 71
+  artId1: 610213300
+  art1:
+    artId: 610213300
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610206207
+  art2:
+    artId: 610206207
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: Blu-ray&DVD 第4巻 描き下ろしジャケットイラスト
+illustrator: 谷口淳一郎
+openDate: 2020/08/04 00:00:00
+...

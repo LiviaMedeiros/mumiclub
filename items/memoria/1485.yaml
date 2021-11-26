@@ -1,0 +1,77 @@
+---
+pieceId: 1485
+pieceType: SKILL
+pieceName: メモと心はくっついて
+attributeId: ALL
+rank: RANK_3
+charaIds: "3036"
+charaList:
+- charaId: 3036
+  name: 由貴 真里愛
+attack: 0
+defense: 430
+hp: 510
+skillId: 148500
+pieceSkill:
+  id: 148500
+  groupId: 1129
+  name: リジェネレイト・シールド[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: HP自動回復[Ⅲ] & ダメージカット状態[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630207703
+  art1:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 630206203
+  art2:
+    artId: 630206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 148501
+pieceSkill2:
+  id: 148501
+  groupId: 1129
+  name: リジェネレイト・シールド[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630207704
+  art1:
+    artId: 630207704
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 630206204
+  art2:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 朝起きる前に出かけ、夜眠った後に帰ってくる両親たち＠メモに書かれるのは互いの予定と、ほんのわずかな本当の気持ち＠たったそれだけで、心まではすれ違っていないという証になった＠寂しくても、交換ノートのように少しだけ楽しかった思い出
+illustrator: mepo
+openDate: 2020/04/13 15:10:00
+...

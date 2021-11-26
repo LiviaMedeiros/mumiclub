@@ -1,0 +1,63 @@
+---
+pieceId: 1503
+pieceType: ABILITY
+pieceName: あたしのもの！
+attributeId: ALL
+rank: RANK_3
+attack: 634
+defense: 0
+hp: 634
+skillId: 150300
+pieceSkill:
+  id: 150300
+  groupId: 1090
+  name: ブレス・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: Accele MPUP[Ⅱ] & 確率で呪い無効[Ⅹ]
+  artId1: 390201602
+  art1:
+    artId: 390201602
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId2: 690208810
+  art2:
+    artId: 690208810
+    verbCode: IGNORE
+    effectCode: CURSE
+    targetId: SELF
+    growPoint: 0
+    probability: 700
+  skillEffectRange: ALL
+skillId2: 150301
+pieceSkill2:
+  id: 150301
+  groupId: 1090
+  name: ブレス・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: Accele MPUP[Ⅲ] & 必ず呪い無効
+  artId1: 390201603
+  art1:
+    artId: 390201603
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690208800
+  art2:
+    artId: 690208800
+    verbCode: IGNORE
+    effectCode: CURSE
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 「ほら、思った通り！やっぱり似合うじゃないほとりん！」＠「は、恥ずかしいよ…ボク、こういう可愛いのはあんまり…」＠「はぁ？何言ってるの、あたしが似合うって言ったら似合ってるの＠ほとりんもこういう服を好きになること！いいわね！」
+illustrator: 桜木蓮
+openDate: 2020/05/29 15:10:00
+...

@@ -1,0 +1,84 @@
+---
+pieceId: 1169
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 初めての手作りチョコレート
+attributeId: ALL
+rank: RANK_3
+attack: 632
+defense: 0
+hp: 572
+skillId: 116900
+pieceSkill:
+  id: 116900
+  groupId: 1086
+  name: クライシスガード[Ⅲ]
+  type: ABILITY
+  shortDescription: 瀕死時防御力UP[Ⅲ] & 防御力UP[Ⅱ]
+  artId1: 390203003
+  art1:
+    artId: 390203003
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  eventId: 1014
+  eventArtId1: 101403
+  eventArt1:
+    artId: 101403
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1014_KEY
+  eventDescription: ＆板チョコ入手時＋1
+  skillEffectRange: ALL
+skillId2: 116901
+pieceSkill2:
+  id: 116901
+  groupId: 1086
+  name: クライシスガード[Ⅳ]
+  type: ABILITY
+  shortDescription: 瀕死時防御力UP[Ⅳ] & 防御力UP[Ⅲ]
+  artId1: 390203004
+  art1:
+    artId: 390203004
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+    probability: 1000
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  eventId: 1014
+  eventArtId1: 101404
+  eventArt1:
+    artId: 101404
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1014_KEY
+  eventDescription: ＆板チョコ入手時＋5
+  skillEffectRange: ALL
+description: 感謝の気持ちを込めてひとつひとつ＠ドキドキワクワクと、ちょっぴりの不安＠でも、大好きな人たちの喜ぶ顔が見たいから…＠大切な…大切な人たちは喜んでくれるかなぁ…？
+illustrator: ふゆの春秋
+openDate: 2018/02/05 15:10:00
+...

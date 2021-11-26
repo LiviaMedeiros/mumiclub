@@ -1,0 +1,75 @@
+---
+pieceId: 1422
+pieceType: SKILL
+pieceName: 公民館でお手伝い
+attributeId: ALL
+rank: RANK_3
+charaIds: "1027"
+charaList:
+- charaId: 1027
+  name: 土岐 すなお
+attack: 0
+defense: 486
+hp: 446
+skillId: 142200
+pieceSkill:
+  id: 142200
+  groupId: 1121
+  name: エスペランサ―・ストライク[Ⅲ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 確率でクリティカル[Ⅲ] & 攻撃力UP[Ⅴ](自/1T)
+  messageId: 70
+  artId1: 610206303
+  art1:
+    artId: 610206303
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 1
+    growPoint: 0
+    probability: 200
+  artId2: 310201105
+  art2:
+    artId: 310201105
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 142201
+pieceSkill2:
+  id: 142201
+  groupId: 1121
+  name: エスペランサ―・ストライク[Ⅳ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率でクリティカル[Ⅳ] & 攻撃力UP[Ⅵ](自/1T)
+  messageId: 70
+  artId1: 610206304
+  art1:
+    artId: 610206304
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 1
+    growPoint: 0
+    probability: 250
+  artId2: 310201106
+  art2:
+    artId: 310201106
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 全ては気持ちに従った結果だから、心配する必要はどこにもない＠楽しそうだなって思った時も、大丈夫かなって思った時も＠自然と体が前に出て、彼女はお手伝いのために動いてしまう＠今日だってそう。お婆ちゃんたちと団子を作るのが楽しみで仕方がない
+illustrator: mepo
+openDate: 2019/11/11 15:10:00
+...

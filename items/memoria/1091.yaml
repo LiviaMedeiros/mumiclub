@@ -1,0 +1,54 @@
+---
+pieceId: 1091
+pieceType: SKILL
+pieceName: 数量限定！まなか特製弁当
+attributeId: ALL
+rank: RANK_3
+charaIds: "3009"
+charaList:
+- charaId: 3009
+  name: 胡桃 まなか
+attack: 0
+defense: 483
+hp: 443
+skillId: 109100
+pieceSkill:
+  id: 109100
+  groupId: 1088
+  name: マギアアップ[Ⅸ]
+  type: SKILL
+  intervalTurn: 15
+  shortDescription: マギアダメージUP[Ⅸ](自/1T)
+  messageId: 70
+  artId1: 310201409
+  art1:
+    artId: 310201409
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 109101
+pieceSkill2:
+  id: 109101
+  groupId: 1088
+  name: マギアアップ[Ⅹ]
+  type: SKILL
+  intervalTurn: 13
+  shortDescription: マギアダメージUP[Ⅹ](自/1T)
+  messageId: 70
+  artId1: 310201410
+  art1:
+    artId: 310201410
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 275
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 彼女の家は歴史ある洋食店で、味はピカイチである。＠お弁当になっても味のクオリティは変わらず、リピーターも多い。＠数量限定が故、買えなかったお客さんは、＠後日再挑戦しようと、闘志を燃やすのであった。
+illustrator: tatsuya
+...

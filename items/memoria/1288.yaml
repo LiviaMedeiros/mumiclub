@@ -1,0 +1,88 @@
+---
+pieceId: 1288
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: クリスマス・ナイト・マジック
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 805
+hp: 805
+skillId: 128800
+pieceSkill:
+  id: 128800
+  groupId: 1092
+  name: チル・アンド・ウォーム[Ⅶ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: Blast ダメージUP[Ⅶ](自/1T) & 状態異常耐性DOWN[Ⅳ](敵全/1T)
+  messageId: 72
+  artId1: 410302404
+  art1:
+    artId: 410302404
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 125
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201807
+  art2:
+    artId: 310201807
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1045
+  eventArtId1: 1045003
+  eventArt1:
+    artId: 1045003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_DAILYTOWER_1045_KEY
+  eventDescription: ＆「ブラックカード」入手時＋3
+  skillEffectRange: ALL
+skillId2: 128801
+pieceSkill2:
+  id: 128801
+  groupId: 1092
+  name: チル・アンド・ウォーム[Ⅷ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: Blast ダメージUP[Ⅷ](自/1T) & 状態異常耐性DOWN[Ⅴ](敵全/1T)
+  messageId: 72
+  artId1: 410302405
+  art1:
+    artId: 410302405
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201808
+  art2:
+    artId: 310201808
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1045
+  eventArtId1: 1045004
+  eventArt1:
+    artId: 1045004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_DAILYTOWER_1045_KEY
+  eventDescription: ＆「ブラックカード」入手時＋7
+  skillEffectRange: ALL
+description: 天気予報では、今夜は雪。＠今年は、ホワイトクリスマスが見られるかな？＠ひとりなら凍えてしまいそうな寒さも、ふたりなら…＠「ほら、あったかいね！」
+illustrator: ―
+openDate: 2018/12/11 15:10:00
+...

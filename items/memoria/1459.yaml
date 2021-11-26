@@ -1,0 +1,73 @@
+---
+pieceId: 1459
+pieceType: SKILL
+pieceName: 宇宙一のチョコレートケーキ
+attributeId: ALL
+rank: RANK_3
+charaIds: "2700"
+charaList:
+- charaId: 2700
+  name: 百江 なぎさ バレンタインver.
+attack: 0
+defense: 432
+hp: 512
+skillId: 145900
+pieceSkill:
+  id: 145900
+  groupId: 1096
+  name: ビター・スウィート[Ⅱ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 与えるダメージDOWN[Ⅱ](敵全/1T) & マギアダメージUP[Ⅴ](自/1T)
+  messageId: 72
+  artId1: 410302202
+  art1:
+    artId: 410302202
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: ALL
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201405
+  art2:
+    artId: 310201405
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 145901
+pieceSkill2:
+  id: 145901
+  groupId: 1096
+  name: ビター・スウィート[Ⅲ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 与えるダメージDOWN[Ⅲ](敵全/1T) & マギアダメージUP[Ⅵ](自/1T)
+  messageId: 72
+  artId1: 410302203
+  art1:
+    artId: 410302203
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: ALL
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201406
+  art2:
+    artId: 310201406
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 175
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 今となっては、思い出せない＠どうしてそんなに欲しかったのか、思い出せない＠あの人が大嫌いだったから？　それともあの人が大好きだったから？＠ケーキを彩る砂糖の銀河だけが、その理由を知っている
+illustrator: 青味ドリ
+openDate: 2020/02/14 15:10:00
+...

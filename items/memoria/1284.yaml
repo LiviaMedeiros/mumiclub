@@ -1,0 +1,69 @@
+---
+pieceId: 1284
+pieceType: SKILL
+pieceName: メルアド、登録しといたから
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 801
+hp: 801
+skillId: 128400
+pieceSkill:
+  id: 128400
+  groupId: 1088
+  name: ウィズダムアップ[Ⅴ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: マギアダメージUP[Ⅴ] & 確率でスキルクイック[Ⅴ](自/1T)
+  messageId: 70
+  artId1: 310201405
+  art1:
+    artId: 310201405
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 9377
+  art2:
+    artId: 9377
+    verbCode: CONDITION_GOOD
+    effectCode: SKILL_QUICK
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+skillId2: 128401
+pieceSkill2:
+  id: 128401
+  groupId: 1088
+  name: ウィズダムアップ[Ⅷ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: マギアダメージUP[Ⅷ] & スキルクイック(自/1T)
+  messageId: 70
+  artId1: 310201408
+  art1:
+    artId: 310201408
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610207800
+  art2:
+    artId: 610207800
+    verbCode: CONDITION_GOOD
+    effectCode: SKILL_QUICK
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 「何で友達、作らないの？＠ふうん…じゃ、携帯持ってる？貸して？＠…私の番号とメルアド、登録しといたから＠ざーんねん、友達、できちゃったね」
+illustrator: ―
+openDate: 2018/11/26 15:10:00
+...

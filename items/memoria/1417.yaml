@@ -1,0 +1,100 @@
+---
+pieceId: 1417
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 受け継がれたお守り
+attributeId: ALL
+rank: RANK_4
+attack: 853
+defense: 0
+hp: 773
+skillId: 141700
+pieceSkill:
+  id: 141700
+  groupId: 1086
+  name: ロバスト・アンチバーン[Ⅱ]
+  type: ABILITY
+  shortDescription: 瀕死時防御力UP[Ⅱ] & 防御力UP[Ⅳ] & 必ずやけど無効
+  artId1: 390203002
+  art1:
+    artId: 390203002
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId2: 390201204
+  art2:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId3: 690208700
+  art3:
+    artId: 690208700
+    verbCode: IGNORE
+    effectCode: BURN
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1122
+  eventArtId1: 1122001
+  eventArt1:
+    artId: 1122001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_SINGLERAID_1122_EXCHANGE_1
+  eventDescription: ＆『キリサキさんの噂話』入手時＋3
+  skillEffectRange: ALL
+skillId2: 141701
+pieceSkill2:
+  id: 141701
+  groupId: 1086
+  name: ロバスト・アンチバーン[Ⅲ]
+  type: ABILITY
+  shortDescription: 瀕死時防御力UP[Ⅲ] & 防御力UP[Ⅴ] & 必ずやけど無効
+  artId1: 390203003
+  art1:
+    artId: 390203003
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390201205
+  art2:
+    artId: 390201205
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 375
+    growPoint: 25
+    probability: 1000
+  artId3: 690208700
+  art3:
+    artId: 690208700
+    verbCode: IGNORE
+    effectCode: BURN
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1122
+  eventArtId1: 1122002
+  eventArt1:
+    artId: 1122002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_SINGLERAID_1122_EXCHANGE_1
+  eventDescription: ＆『キリサキさんの噂話』入手時＋7
+  skillEffectRange: ALL
+description: 取り戻した記憶　亡くしてしまった大切な人たち＠辛いことも苦しいことも何ひとつ忘れたくないから＠「マツリはどんなことがあっても…最後まであきらめない」＠託された約束と共に日向茉莉は進み続ける
+illustrator: GAN
+openDate: 2019/10/31 15:10:00
+...

@@ -1,0 +1,63 @@
+---
+pieceId: 1187
+pieceType: ABILITY
+pieceName: 雨上がりの帰り道＜せいか＞
+attributeId: ALL
+rank: RANK_2
+attack: 423
+defense: 0
+hp: 383
+skillId: 118700
+pieceSkill:
+  id: 118700
+  groupId: 1141
+  name: アンチ・カース[XIII]
+  type: ABILITY
+  shortDescription: 確率で呪い無効[XIII] & 攻撃力UP[Ⅰ]
+  artId1: 690208813
+  art1:
+    artId: 690208813
+    verbCode: IGNORE
+    effectCode: CURSE
+    targetId: SELF
+    growPoint: 0
+    probability: 850
+  artId2: 390201101
+  art2:
+    artId: 390201101
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 118701
+pieceSkill2:
+  id: 118701
+  groupId: 1141
+  name: アンチ・カース
+  type: ABILITY
+  shortDescription: 必ず呪い無効 & 攻撃力UP[Ⅱ]
+  artId1: 690208800
+  art1:
+    artId: 690208800
+    verbCode: IGNORE
+    effectCode: CURSE
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 390201102
+  art2:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 今朝から降り続いていた雨も、放課後にはようやく晴れて…＠うん、気持ちがいいな、雨上がりって…＠これで虹でも架かってたら…れいらとみとに言ってみようかな…＠『あの虹に向かって走ろうよ！』って…！青春っぽくないかな？
+illustrator: ハノカゲ
+openDate: 2018/03/12 15:10:00
+...

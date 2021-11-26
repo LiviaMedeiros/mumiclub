@@ -1,0 +1,88 @@
+---
+pieceId: 1361
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 響け終焉の笛
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 838
+hp: 786
+skillId: 136100
+pieceSkill:
+  id: 136100
+  groupId: 1095
+  name: '響け終焉の笛[Ⅳ] '
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 防御力DOWN[Ⅳ](敵全/1T) & マギアダメージUP[Ⅵ](自/1T)
+  messageId: 70
+  artId1: 410302104
+  art1:
+    artId: 410302104
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201406
+  art2:
+    artId: 310201406
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 175
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1096
+  eventArtId1: 1096003
+  eventArt1:
+    artId: 1096003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_SINGLERAID_1096_EXCHANGE_1
+  eventDescription: ＆「勝利のメダル」追加獲得数＋3
+  skillEffectRange: ALL
+skillId2: 136101
+pieceSkill2:
+  id: 136101
+  groupId: 1095
+  name: '響け終焉の笛[Ⅴ] '
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 防御力DOWN[Ⅴ](敵全/1T) & マギアダメージUP[Ⅶ](自/1T)
+  messageId: 70
+  artId1: 410302105
+  art1:
+    artId: 410302105
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201407
+  art2:
+    artId: 310201407
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1096
+  eventArtId1: 1096004
+  eventArt1:
+    artId: 1096004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_SINGLERAID_1096_EXCHANGE_1
+  eventDescription: ＆「勝利のメダル」追加獲得数＋7
+  skillEffectRange: ALL
+description: （ひとりだけの魔法やない…＠夜天の守護騎士たちが…小さなリインが、わたしに力をくれる＠なのはちゃんとフェイトちゃんが、相手を引きつけてくれている）＠「いくよ、リイン…響け終焉の笛！ラグナロク！」
+illustrator: ―
+openDate: 2019/06/17 15:10:00
+...

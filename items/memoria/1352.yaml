@@ -1,0 +1,71 @@
+---
+pieceId: 1352
+pieceType: SKILL
+pieceName: 大切なお友達からのメッセージ
+attributeId: ALL
+rank: RANK_3
+charaIds: "3033"
+charaList:
+- charaId: 3033
+  name: 史乃 沙優希
+attack: 0
+defense: 424
+hp: 510
+skillId: 135200
+pieceSkill:
+  id: 135200
+  groupId: 1129
+  name: チアリング[Ⅲ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: HP自動回復[Ⅲ](自/3T) & デバフ解除(自)
+  messageId: 70
+  artId1: 630207703
+  art1:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 200200800
+  art2:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+skillId2: 135201
+pieceSkill2:
+  id: 135201
+  groupId: 1129
+  name: チアリング[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: HP自動回復[Ⅳ](自/3T) & デバフ解除(自)
+  messageId: 70
+  artId1: 630207704
+  art1:
+    artId: 630207704
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 200200800
+  art2:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+description: 手書きの言葉、画面越しの言葉、短いメッセージ、長いメッセージ…＠形は違えど、そのどれもに込められているのは同じ形の気持ち＠彼女にとってその気持ちこそ、何より嬉しいメッセージ＠「応援してます」その気持ちだけでなんだって頑張れる
+illustrator: mepo
+openDate: 2019/06/10 15:10:00
+...

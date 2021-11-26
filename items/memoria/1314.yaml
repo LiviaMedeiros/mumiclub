@@ -1,0 +1,73 @@
+---
+pieceId: 1314
+pieceType: ABILITY
+pieceName: あの日の悔い
+attributeId: ALL
+rank: RANK_3
+charaIds: "3900"
+charaList:
+- charaId: 3900
+  name: 黒
+attack: 500
+defense: 0
+hp: 420
+skillId: 131400
+pieceSkill:
+  id: 131400
+  groupId: 1085
+  name: 無言の加護[Ⅲ]
+  type: ABILITY
+  shortDescription: 戦闘不能時に攻撃力UP[Ⅲ] & 防御力UP[Ⅲ](味全/2T)を発動
+  artId1: 320303503
+  art1:
+    artId: 320303503
+    verbCode: BUFF_DIE
+    effectCode: ATTACK
+    targetId: ALL
+    effectValue: 50
+    enableTurn: 2
+    growPoint: 20
+    probability: 1000
+  artId2: 320303603
+  art2:
+    artId: 320303603
+    verbCode: BUFF_DIE
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 100
+    enableTurn: 2
+    growPoint: 20
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 131401
+pieceSkill2:
+  id: 131401
+  groupId: 1085
+  name: 無言の加護[Ⅳ]
+  type: ABILITY
+  shortDescription: 戦闘不能時に攻撃力UP[Ⅳ] & 防御力UP[Ⅳ](味全/2T)を発動
+  artId1: 320303504
+  art1:
+    artId: 320303504
+    verbCode: BUFF_DIE
+    effectCode: ATTACK
+    targetId: ALL
+    effectValue: 63
+    enableTurn: 2
+    growPoint: 20
+    probability: 1000
+  artId2: 320303604
+  art2:
+    artId: 320303604
+    verbCode: BUFF_DIE
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 126
+    enableTurn: 2
+    growPoint: 20
+    probability: 1000
+  skillEffectRange: ALL
+description: あなたに渡したかったチョコレート、ここにあるんだ＠あなたに喜んでもらおうと思って用意したチョコレートが＠でも、ごめんね、もうわたし、あなたに渡せないんだ＠わたしはわたしじゃなくなるし、このチョコレートもきっと苦いし
+illustrator: ―
+openDate: 2019/02/04 15:10:00
+...

@@ -1,0 +1,67 @@
+---
+pieceId: 1226
+pieceType: ABILITY
+pieceName: 解放の導き手
+attributeId: ALL
+rank: RANK_4
+attack: 726
+defense: 0
+hp: 886
+skillId: 122600
+pieceSkill:
+  id: 122600
+  groupId: 1151
+  name: フォッグ・ブレイド[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で霧(3T)を付与[Ⅱ] & 与えるダメージUP[Ⅲ]
+  artId1: 690210602
+  art1:
+    artId: 690210602
+    verbCode: ENCHANT
+    effectCode: FOG
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 0
+    probability: 150
+  artId2: 390201303
+  art2:
+    artId: 390201303
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 122601
+pieceSkill2:
+  id: 122601
+  groupId: 1151
+  name: フォッグ・ブレイド[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で霧(3T)を付与[Ⅲ] & 与えるダメージUP[Ⅳ]
+  artId1: 690210603
+  art1:
+    artId: 690210603
+    verbCode: ENCHANT
+    effectCode: FOG
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 0
+    probability: 200
+  artId2: 390201304
+  art2:
+    artId: 390201304
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 「心配することはないわ。私たちが信じる解放の先には、＠きっと魔法少女たちにとっての明るい未来が待っているから＠だから恐れないで、怖がらないで、安心してその身を委ねて＠私が必ずみんなの手を引いて、羽根のみんなを救いに導くから」
+illustrator: シャフト
+openDate: 2018/06/18 15:10:00
+...

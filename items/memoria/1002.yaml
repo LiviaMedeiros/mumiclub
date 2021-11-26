@@ -1,0 +1,50 @@
+---
+pieceId: 1002
+pieceType: SKILL
+pieceName: 薔薇園の魔女の手下
+attributeId: ALL
+rank: RANK_1
+attack: 0
+defense: 190
+hp: 210
+skillId: 100210
+pieceSkill:
+  id: 100210
+  groupId: 1086
+  name: ガードアップ[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 防御力UP[Ⅲ](自/1T)
+  messageId: 70
+  artId1: 310201203
+  art1:
+    artId: 310201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 100211
+pieceSkill2:
+  id: 100211
+  groupId: 1086
+  name: ガードアップ[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 防御力UP[Ⅳ](自/1T)
+  messageId: 70
+  artId1: 310201204
+  art1:
+    artId: 310201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 薔薇園の魔女の手下。その役割は警戒。＠人間を見つけると、ベルのような警戒音を鳴らし、容赦ない頭突きを食らわせる。＠視力は2.5。小さなタイプは侵入者を阻む薔薇の蔓に変身可能。
+illustrator: 劇団イヌカレー
+...

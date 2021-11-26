@@ -1,0 +1,88 @@
+---
+pieceId: 1476
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 桜前線急上昇
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 840
+hp: 920
+skillId: 147600
+pieceSkill:
+  id: 147600
+  groupId: 1113
+  name: リストリクト・マギア[Ⅵ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ずマギア不可 & 攻撃力DOWN[Ⅵ](敵単/1T)
+  messageId: 72
+  artId1: 510006000
+  art1:
+    artId: 510006000
+    verbCode: CONDITION_BAD
+    effectCode: BAN_MAGIA
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002006
+  art2:
+    artId: 410002006
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1092
+  eventArtId1: 1092003
+  eventArt1:
+    artId: 1092003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1092_EXCHANGE_1
+  eventDescription: ＆「一度きりの時間」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 147601
+pieceSkill2:
+  id: 147601
+  groupId: 1113
+  name: リストリクト・マギア[Ⅶ]
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: 必ずマギア不可 & 攻撃力DOWN[Ⅶ](敵単/1T)
+  messageId: 72
+  artId1: 510006000
+  art1:
+    artId: 510006000
+    verbCode: CONDITION_BAD
+    effectCode: BAN_MAGIA
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002007
+  art2:
+    artId: 410002007
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1092
+  eventArtId1: 1092004
+  eventArt1:
+    artId: 1092004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1092_EXCHANGE_1
+  eventDescription: ＆「一度きりの時間」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「あっ」と声が漏れた時、世界は桜色に染まっていた＠本当に唐突で何の予兆もなく、反射的に私の力が溢れてしまったから＠どうしてかと言われるとポッとすぐに熱くなる＠だから何も聞かないで、良いことがあっただけだから
+illustrator: ―
+openDate: 2020/03/27 15:10:00
+...

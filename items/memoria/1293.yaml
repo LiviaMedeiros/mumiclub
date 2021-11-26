@@ -1,0 +1,100 @@
+---
+pieceId: 1293
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 屋台パラダイス
+attributeId: ALL
+rank: RANK_4
+attack: 808
+defense: 0
+hp: 808
+skillId: 129300
+pieceSkill:
+  id: 129300
+  groupId: 1092
+  name: アンインヒビテッド[Ⅱ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅱ] & Accele MPUP[Ⅱ] & 必ず拘束無効
+  artId1: 390201802
+  art1:
+    artId: 390201802
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 390201602
+  art2:
+    artId: 390201602
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId3: 690208500
+  art3:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1121
+  eventArtId1: 1121001
+  eventArt1:
+    artId: 1121001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1121_KEY
+  eventDescription: ＆「大凧」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 129301
+pieceSkill2:
+  id: 129301
+  groupId: 1092
+  name: アンインヒビテッド[Ⅳ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅳ] & Accele MPUP[Ⅲ] & 必ず拘束無効
+  artId1: 390201804
+  art1:
+    artId: 390201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 390201603
+  art2:
+    artId: 390201603
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 690208500
+  art3:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1121
+  eventArtId1: 1121002
+  eventArt1:
+    artId: 1121002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1121_KEY
+  eventDescription: ＆「大凧」追加獲得数＋5
+  skillEffectRange: ALL
+description: 「これはお雑煮イベントの課題を見つけるため…＠遠回りに見えるかもしれないけど、屋台巡りこそが最善の方法なの＠あぁもうっ、違うったら！＠たこ焼きの味比べをしたいなんて…思っていないんだからぁっ♪」
+illustrator: ―
+openDate: 2019/01/01 00:00:00
+...

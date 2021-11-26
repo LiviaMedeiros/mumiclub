@@ -1,0 +1,56 @@
+---
+pieceId: 1101
+pieceType: SKILL
+pieceName: 愛のかたまり
+attributeId: ALL
+rank: RANK_3
+charaIds: "4002"
+charaList:
+- charaId: 4002
+  name: 呉 キリカ
+attack: 0
+defense: 486
+hp: 446
+skillId: 110100
+pieceSkill:
+  id: 110100
+  groupId: 1125
+  name: カウンター
+  type: SKILL
+  intervalTurn: 15
+  shortDescription: 必ずカウンター(自/1T)
+  messageId: 70
+  artId1: 610207100
+  art1:
+    artId: 610207100
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 110101
+pieceSkill2:
+  id: 110101
+  groupId: 1125
+  name: カウンター
+  type: SKILL
+  intervalTurn: 13
+  shortDescription: 必ずカウンター(自/1T)
+  messageId: 70
+  artId1: 610207100
+  art1:
+    artId: 610207100
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 彼女に残されているものは【愛】だけ＠そんな彼女が、愛している人から初めて貰ったプレゼント＠【うさまる】は、同等の愛情が注ぎ込まれている＠その【愛】の為なら、彼女はどんなことだって成し遂げる
+illustrator: 都筑禰己
+...

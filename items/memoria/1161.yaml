@@ -1,0 +1,86 @@
+---
+pieceId: 1161
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 晴れ着でおでかけ
+attributeId: ALL
+rank: RANK_4
+attack: 841
+defense: 0
+hp: 761
+skillId: 116100
+pieceSkill:
+  id: 116100
+  groupId: 1153
+  name: メズマライズ・ブレイド[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で幻惑(1T)を付与[Ⅱ] & 与えるダメージUP[Ⅳ]
+  artId1: 690211002
+  art1:
+    artId: 690211002
+    verbCode: ENCHANT
+    effectCode: BLINDNESS
+    targetId: SELF
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 150
+  artId2: 390201304
+  art2:
+    artId: 390201304
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  eventId: 1121
+  eventArtId1: 1121001
+  eventArt1:
+    artId: 1121001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1121_KEY
+  eventDescription: ＆「大凧」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 116101
+pieceSkill2:
+  id: 116101
+  groupId: 1153
+  name: メズマライズ・ブレイド[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で幻惑(1T)を付与[Ⅲ] & 与えるダメージUP[Ⅴ]
+  artId1: 690211003
+  art1:
+    artId: 690211003
+    verbCode: ENCHANT
+    effectCode: BLINDNESS
+    targetId: SELF
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 200
+  artId2: 390201305
+  art2:
+    artId: 390201305
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  eventId: 1121
+  eventArtId1: 1121002
+  eventArt1:
+    artId: 1121002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1121_KEY
+  eventDescription: ＆「大凧」追加獲得数＋5
+  skillEffectRange: ALL
+description: 「鹿目さんと一緒に初詣をして、お団子を買って…＠入院していた頃は考えられなかったなぁ…＠…うんっ！せっかくのお正月だもん＠今日は、目一杯楽しまなきゃ…！」
+illustrator: シャフト
+openDate: 2018/01/01 00:00:00
+...

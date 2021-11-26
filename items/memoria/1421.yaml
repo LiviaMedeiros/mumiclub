@@ -1,0 +1,90 @@
+---
+pieceId: 1421
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 友達になった日
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 542
+hp: 660
+skillId: 142100
+pieceSkill:
+  id: 142100
+  groupId: 1121
+  name: エスペランサ―・フォース[Ⅰ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 確率でクリティカル[Ⅰ] & 攻撃力UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630206301
+  art1:
+    artId: 630206301
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 100
+  artId2: 330201102
+  art2:
+    artId: 330201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1122
+  eventArtId1: 1122003
+  eventArt1:
+    artId: 1122003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_SINGLERAID_1122_EXCHANGE_1
+  eventDescription: ＆『キリサキさんの噂話』入手時＋2
+  skillEffectRange: ALL
+skillId2: 142101
+pieceSkill2:
+  id: 142101
+  groupId: 1121
+  name: エスペランサ―・フォース[Ⅰ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 確率でクリティカル[Ⅰ] & 攻撃力UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630206302
+  art1:
+    artId: 630206302
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 150
+  artId2: 330201103
+  art2:
+    artId: 330201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1122
+  eventArtId1: 1122004
+  eventArt1:
+    artId: 1122004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_SINGLERAID_1122_EXCHANGE_1
+  eventDescription: ＆『キリサキさんの噂話』入手時＋5
+  skillEffectRange: ALL
+description: ひとりぼっちだった　もう何もしたくなかった＠膝を抱えて　うつむいて　消えてしまいたかったのに＠「あのさ…友達になろうよ！」＠でも、あの子はこんな私に手を差し伸べてくれた
+illustrator: GAN
+openDate: 2019/10/31 15:10:00
+...

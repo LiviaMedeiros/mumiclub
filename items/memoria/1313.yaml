@@ -1,0 +1,85 @@
+---
+pieceId: 1313
+pieceType: ABILITY
+pieceName: 不穏な金髪幼女
+attributeId: ALL
+rank: RANK_4
+attack: 728
+defense: 0
+hp: 890
+skillId: 131300
+pieceSkill:
+  id: 131300
+  groupId: 1150
+  name: ヴァンパイア・ネイル[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で呪い(1T)を付与[Ⅱ] & ダメージアップ状態[Ⅱ] & HP自動回復[Ⅱ]
+  artId1: 690210402
+  art1:
+    artId: 690210402
+    verbCode: ENCHANT
+    effectCode: CURSE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 0
+    probability: 150
+  artId2: 690206102
+  art2:
+    artId: 690206102
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId3: 690207702
+  art3:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 131301
+pieceSkill2:
+  id: 131301
+  groupId: 1150
+  name: ヴァンパイア・ネイル[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で呪い(1T)を付与[Ⅲ] & ダメージアップ状態[Ⅲ] & HP自動回復[Ⅲ]
+  artId1: 690210403
+  art1:
+    artId: 690210403
+    verbCode: ENCHANT
+    effectCode: CURSE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 0
+    probability: 200
+  artId2: 690206103
+  art2:
+    artId: 690206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 690207703
+  art3:
+    artId: 690207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: 「別に魔法少女になどならずとも、＠全盛期の儂なら世界を滅ぼすことすらできたじゃろうな＠かかっ、この世にドーナツがある限り、そんなことはせんよ＠…で、いつになれば儂は死ねるんかのう？」
+illustrator: 渡辺明夫
+openDate: 2019/02/22 15:10:00
+...

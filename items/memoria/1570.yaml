@@ -1,0 +1,63 @@
+---
+pieceId: 1570
+pieceType: ABILITY
+pieceName: 架空の雪原にて
+attributeId: ALL
+rank: RANK_3
+attack: 600
+defense: 0
+hp: 690
+skillId: 157000
+pieceSkill:
+  id: 157000
+  groupId: 1085
+  name: イグノア・スタン[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 確率でスタン無効[Ⅹ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690208410
+  art2:
+    artId: 690208410
+    verbCode: IGNORE
+    effectCode: STUN
+    targetId: SELF
+    growPoint: 0
+    probability: 700
+  skillEffectRange: ALL
+skillId2: 157001
+pieceSkill2:
+  id: 157001
+  groupId: 1085
+  name: イグノア・スタン[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 必ずスタン無効
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690208400
+  art2:
+    artId: 690208400
+    verbCode: IGNORE
+    effectCode: STUN
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 「世界の果てって、どんな感じなんだろう？やっぱり大きな崖？」＠「大きな滝で、海の水がドバーッと落ちてるのかもしんねーぞ！」＠「それだとさ、あっという間に水がなくならない…？」＠「…ハッ、そうじゃん！早くしないと世界終わっちゃうじゃん！」
+illustrator: ―
+openDate: 2020/12/04 16:10:00
+...

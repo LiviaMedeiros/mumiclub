@@ -1,0 +1,65 @@
+---
+pieceId: 1554
+pieceType: SKILL
+pieceName: メイド・イン・ヴァンパイア
+attributeId: ALL
+rank: RANK_3
+charaIds: "1116"
+charaList:
+- charaId: 1116
+  name: 和泉 十七夜 ヴァンパイアver.
+attack: 0
+defense: 454
+hp: 494
+skillId: 155400
+pieceSkill:
+  id: 155400
+  groupId: 1082
+  name: リフレッシュ
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: デバフ解除 & 状態異常解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200201000
+  art2:
+    artId: 200201000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+skillId2: 155401
+pieceSkill2:
+  id: 155401
+  groupId: 1082
+  name: リフレッシュ
+  type: SKILL
+  intervalTurn: 2
+  shortDescription: デバフ解除 & 状態異常解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200201000
+  art2:
+    artId: 200201000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+description: あれれメイドさん、間違えてませんか？＠あれれメイドさん、おしゃれなキバですね＠黄色いキャンバスと真っ赤なインク＠そこに描かれたのは可愛いコウモリ
+illustrator: mepo
+openDate: 2020/10/23 15:10:00
+...

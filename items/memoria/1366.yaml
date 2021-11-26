@@ -1,0 +1,65 @@
+---
+pieceId: 1366
+pieceType: ABILITY
+pieceName: 小さな弦月
+attributeId: ALL
+rank: RANK_3
+charaIds: "1118"
+charaList:
+- charaId: 1118
+  name: 天音姉妹 水着ver.
+attack: 423
+defense: 0
+hp: 500
+skillId: 136600
+pieceSkill:
+  id: 136600
+  groupId: 1144
+  name: アンチ・ナイトメア[Ⅷ]
+  type: ABILITY
+  shortDescription: 必ず幻惑無効 & 確率で暗闇無効[Ⅷ]
+  artId1: 690209100
+  art1:
+    artId: 690209100
+    verbCode: IGNORE
+    effectCode: BLINDNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 690209008
+  art2:
+    artId: 690209008
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 600
+  skillEffectRange: ALL
+skillId2: 136601
+pieceSkill2:
+  id: 136601
+  groupId: 1144
+  name: アンチ・ナイトメア
+  type: ABILITY
+  shortDescription: 必ず幻惑無効 & 必ず暗闇無効
+  artId1: 690209100
+  art1:
+    artId: 690209100
+    verbCode: IGNORE
+    effectCode: BLINDNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 690209000
+  art2:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 荒い波にさらわれて　夜の海で迷ったら＠この手の弦月（つき）に　思いを馳せる＠夏の暑さ　氷の冷たさ　海でのひととき　笑い声＠弦月に封じたすべての記憶が　ふたりを照らす道しるべ
+illustrator: かにぱんだ
+openDate: 2019/07/01 15:10:00
+...

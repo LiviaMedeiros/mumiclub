@@ -1,0 +1,96 @@
+---
+pieceId: 1190
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 団地に差し込む陽差し
+attributeId: ALL
+rank: RANK_4
+attack: 762
+defense: 0
+hp: 842
+skillId: 119000
+pieceSkill:
+  id: 119000
+  groupId: 1170
+  name: 'Hカバーリング・アデプト[Ⅱ] '
+  type: ABILITY
+  shortDescription: 確率でかばう[Ⅱ] & 防御力UP[Ⅲ]
+  artId1: 690213202
+  art1:
+    artId: 690213202
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    growPoint: 0
+    probability: 150
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  eventId: 1017
+  eventArtId1: 101703
+  eventArt1:
+    artId: 101703
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_BRANCH_1017_PART_1
+  eventArtId2: 101707
+  eventArt2:
+    artId: 101707
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_BRANCH_1017_PART_2
+  eventDescription: ＆木の実(青)入手時＋3＆木の実(茶)入手時+3
+  skillEffectRange: ALL
+skillId2: 119001
+pieceSkill2:
+  id: 119001
+  groupId: 1170
+  name: Hカバーリング・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 確率でかばう[Ⅲ] & 防御力UP[Ⅳ]
+  artId1: 690213203
+  art1:
+    artId: 690213203
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    growPoint: 0
+    probability: 200
+  artId2: 390201204
+  art2:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  eventId: 1017
+  eventArtId1: 101704
+  eventArt1:
+    artId: 101704
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_BRANCH_1017_PART_1
+  eventArtId2: 101708
+  eventArt2:
+    artId: 101708
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_BRANCH_1017_PART_2
+  eventDescription: ＆木の実(青)入手時＋7＆木の実(茶)入手時+7
+  skillEffectRange: ALL
+description: 団地にある公園は、三人がいつも集まる場所＠学校帰りにおしゃべりしたり、時にはピクニックみたいなことも＠そういう時は、三人はゆっくりとした穏やかな時間を味わっている＠暖かい光を浴びながら、れいらが持ってきたお菓子を味わいつつ…
+illustrator: ―
+openDate: 2018/03/12 15:10:00
+...

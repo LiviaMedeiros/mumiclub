@@ -1,0 +1,69 @@
+---
+pieceId: 1438
+pieceType: SKILL
+pieceName: 今夜のゲストは…
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 556
+hp: 676
+skillId: 143800
+pieceSkill:
+  id: 143800
+  groupId: 1085
+  name: ペネトレイトアタック[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 攻撃力UP[Ⅲ] & 確率で防御無視[Ⅵ](自/1T)
+  messageId: 70
+  artId1: 310201103
+  art1:
+    artId: 310201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610206606
+  art2:
+    artId: 610206606
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 350
+  skillEffectRange: ALL
+skillId2: 143801
+pieceSkill2:
+  id: 143801
+  groupId: 1085
+  name: ペネトレイトアタック[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 攻撃力UP[Ⅳ] & 確率で防御無視[Ⅶ](自/1T)
+  messageId: 70
+  artId1: 310201104
+  art1:
+    artId: 310201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610206607
+  art2:
+    artId: 610206607
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+description: 「クリスマス・イブに現れたのは、れんちゃんだった！＠体調が悪いあたしを気遣って、わざわざ家に来てくれて…＠本っ当にどこまでも優しくて、嬉しかったなー」
+illustrator: ―
+openDate: 2019/12/16 15:10:00
+...

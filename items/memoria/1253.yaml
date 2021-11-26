@@ -1,0 +1,53 @@
+---
+pieceId: 1253
+pieceType: SKILL
+pieceName: コピーのふたり
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 570
+hp: 631
+skillId: 125300
+pieceSkill:
+  id: 125300
+  groupId: 1106
+  name: ポイズン[Ⅹ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 確率で毒[Ⅹ](敵単/3T)
+  messageId: 72
+  artId1: 530004510
+  art1:
+    artId: 530004510
+    verbCode: CONDITION_BAD
+    effectCode: POISON
+    targetId: TARGET
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 0
+    probability: 525
+  skillEffectRange: ALL
+skillId2: 125301
+pieceSkill2:
+  id: 125301
+  groupId: 1106
+  name: ポイズン
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: 必ず毒(敵単/3T)
+  messageId: 72
+  artId1: 530004600
+  art1:
+    artId: 530004600
+    verbCode: CONDITION_BAD
+    effectCode: POISON
+    targetId: TARGET
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 「？かるか分、とこな事大番一で女少法魔、前お…ナレ！しぉよい」＠「…ぉよいならか分、ナレ…んゃちでえか?!とこな事大」＠「！けてれ入合気！合気、よだ合気…るやてえ教あゃじ…！くたっ」＠「！～ぁないいコッカ、んゃちでえか、もてしにれそ！んう、う」
+illustrator: ―
+openDate: 2018/08/27 15:10:00
+...

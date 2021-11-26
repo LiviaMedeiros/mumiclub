@@ -1,0 +1,73 @@
+---
+pieceId: 1445
+pieceType: SKILL
+pieceName: 筆を走らす恋ごころ
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 840
+hp: 760
+skillId: 144500
+pieceSkill:
+  id: 144500
+  groupId: 1119
+  name: エンハンス・アーマメント[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: ダメージアップ状態[Ⅳ] & ダメージカット状態[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630206104
+  art1:
+    artId: 630206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 630206203
+  art2:
+    artId: 630206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 144501
+pieceSkill2:
+  id: 144501
+  groupId: 1119
+  name: エンハンス・アーマメント[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: ダメージアップ状態[Ⅴ] & ダメージカット状態[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630206105
+  art1:
+    artId: 630206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 630206204
+  art2:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 字の上手さに自信なんてない。綺麗に書く方法も知らない＠やれることはただひとつ。気持ちを込めること＠きっかけとなった恋ごころと、友人たちの想い＠そんなふたつの気持ちを込めて、ただ、筆を走らせるだけ
+illustrator: ―
+openDate: 2020/01/01 00:00:00
+...

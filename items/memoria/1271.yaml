@@ -1,0 +1,65 @@
+---
+pieceId: 1271
+pieceType: ABILITY
+pieceName: 舞い戻った少女
+attributeId: ALL
+rank: RANK_3
+attack: 550
+defense: 0
+hp: 670
+skillId: 127100
+pieceSkill:
+  id: 127100
+  groupId: 1129
+  name: リジェネレイト・ブレイド[Ⅰ]
+  type: ABILITY
+  shortDescription: HP自動回復[Ⅰ] & 与えるダメージUP[Ⅱ]
+  artId1: 690207701
+  art1:
+    artId: 690207701
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 20
+    growPoint: 10
+    probability: 1000
+  artId2: 390201302
+  art2:
+    artId: 390201302
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 127101
+pieceSkill2:
+  id: 127101
+  groupId: 1129
+  name: リジェネレイト・ブレイド[Ⅱ]
+  type: ABILITY
+  shortDescription: HP自動回復[Ⅱ] & 与えるダメージUP[Ⅲ]
+  artId1: 690207702
+  art1:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  artId2: 390201303
+  art2:
+    artId: 390201303
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: お久しぶりに帰ってきたこの世界は＠なぎさが生きていた頃と変わったのか、変わってないのか…＠ただ、この風に乗って漂ってくる花の香り…！＠とーっても懐かしくて、思わず追いかけて走り出してしまうのです！
+illustrator: ハノカゲ
+openDate: 2018/10/29 15:10:00
+...

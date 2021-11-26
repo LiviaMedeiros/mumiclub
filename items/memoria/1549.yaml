@@ -1,0 +1,69 @@
+---
+pieceId: 1549
+pieceType: ABILITY
+pieceName: 放課後の待ち合わせ
+attributeId: ALL
+rank: RANK_3
+charaIds: "1102"
+charaList:
+- charaId: 1102
+  name: やちよ・みふゆ 始まりver.
+attack: 463
+defense: 0
+hp: 463
+skillId: 154900
+pieceSkill:
+  id: 154900
+  groupId: 1092
+  name: モラールブラスト・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅳ] & Blast攻撃時MP獲得[Ⅱ]
+  artId1: 390201804
+  art1:
+    artId: 390201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 690220002
+  art2:
+    artId: 690220002
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 154901
+pieceSkill2:
+  id: 154901
+  groupId: 1092
+  name: モラールブラスト・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅴ] & Blast攻撃時MP獲得[Ⅲ]
+  artId1: 390201805
+  art1:
+    artId: 390201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    growPoint: 25
+    probability: 1000
+  artId2: 690220003
+  art2:
+    artId: 690220003
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: ひとつは、化粧道具と雑誌を詰めて…＠ひとつは、何冊もの楽譜を詰めて…＠放課後も大忙しのふたりが落ち着けるのは＠習い事が終わってからの、みかづき荘でのひととき
+illustrator: くらは
+openDate: 2020/10/12 15:10:00
+...

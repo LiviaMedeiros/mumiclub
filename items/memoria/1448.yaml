@@ -1,0 +1,75 @@
+---
+pieceId: 1448
+pieceType: SKILL
+pieceName: 電脳安息空間
+attributeId: ALL
+rank: RANK_3
+charaIds: "3044"
+charaList:
+- charaId: 3044
+  name: 智珠 らんか
+attack: 0
+defense: 490
+hp: 450
+skillId: 144800
+pieceSkill:
+  id: 144800
+  groupId: 1124
+  name: リジェネレイト・ドッジ[Ⅲ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 確率で回避[Ⅲ] & HP自動回復[Ⅲ] (自/3T)
+  messageId: 70
+  artId1: 630206803
+  art1:
+    artId: 630206803
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 200
+  artId2: 630207703
+  art2:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 144801
+pieceSkill2:
+  id: 144801
+  groupId: 1124
+  name: リジェネレイト・ドッジ[Ⅳ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率で回避[Ⅳ] & HP自動回復[Ⅳ] (自/3T)
+  messageId: 70
+  artId1: 630206804
+  art1:
+    artId: 630206804
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 250
+  artId2: 630207704
+  art2:
+    artId: 630207704
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: 触れることもできない、０と１だけで表現された世界。＠けれど、その世界は確かにある。私の居場所を作っている。＠自分を見失いそうになっても、ここに居れば取り戻せる。＠だからここは安らぎの空間。自分だけの居場所。
+illustrator: mepo
+openDate: 2020/01/17 15:10:00
+...

@@ -1,0 +1,69 @@
+---
+pieceId: 1389
+pieceType: ABILITY
+pieceName: 冷やせば落ちつくかな？
+attributeId: ALL
+rank: RANK_3
+charaIds: "1301"
+charaList:
+- charaId: 1301
+  name: いろは・やちよ 決戦ver.
+attack: 501
+defense: 0
+hp: 421
+skillId: 138900
+pieceSkill:
+  id: 138900
+  groupId: 1093
+  name: クレバー・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅱ] & 弱点属性で攻撃されたときMPUP[Ⅰ]
+  artId1: 390201902
+  art1:
+    artId: 390201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  artId2: 690207901
+  art2:
+    artId: 690207901
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 138901
+pieceSkill2:
+  id: 138901
+  groupId: 1093
+  name: クレバー・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]
+  artId1: 390201903
+  art1:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690207901
+  art2:
+    artId: 690207901
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 「今日行ったジェラートのお店、すごく美味しかったわね」＠「はい、ただ私、緊張してたのかあまり味を覚えてなくって…」＠「あら、それなら今度、みんなで一緒に行きましょうか」＠「いいですねっ！みんなどんな味を選ぶのかなぁ」
+illustrator: くらは
+openDate: 2019/08/22 00:00:00
+...

@@ -1,0 +1,88 @@
+---
+pieceId: 1160
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: この良き日のために
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 762
+hp: 842
+skillId: 116000
+pieceSkill:
+  id: 116000
+  groupId: 1094
+  name: 'アサルトダウン[Ⅸ] '
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 攻撃力DOWN[Ⅸ] & 与えるダメージDOWN[Ⅷ](敵単/1T)
+  messageId: 72
+  artId1: 410002009
+  art1:
+    artId: 410002009
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002208
+  art2:
+    artId: 410002208
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1121
+  eventArtId1: 1121001
+  eventArt1:
+    artId: 1121001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1121_KEY
+  eventDescription: ＆「大凧」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 116001
+pieceSkill2:
+  id: 116001
+  groupId: 1094
+  name: アサルトダウン[Ⅹ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 攻撃力DOWN[Ⅹ] & 与えるダメージDOWN[Ⅸ](敵単/1T)
+  messageId: 72
+  artId1: 410002010
+  art1:
+    artId: 410002010
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002209
+  art2:
+    artId: 410002209
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1121
+  eventArtId1: 1121002
+  eventArt1:
+    artId: 1121002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1121_KEY
+  eventDescription: ＆「大凧」追加獲得数＋5
+  skillEffectRange: ALL
+description: 「ねぇねぇ、ほむらちゃん＠やっぱり、晴れ着でおでかけって楽しいね！＠すっごく特別な日！って感じがするもん＠楽しい思い出たくさん作ろうね！」
+illustrator: ―
+openDate: 2018/01/01 00:00:00
+...

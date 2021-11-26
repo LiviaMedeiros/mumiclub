@@ -1,0 +1,54 @@
+---
+pieceId: 1076
+pieceType: SKILL
+pieceName: 対極的な存在
+attributeId: ALL
+rank: RANK_3
+charaIds: "1009"
+charaList:
+- charaId: 1009
+  name: 水波 レナ
+attack: 0
+defense: 480
+hp: 440
+skillId: 107600
+pieceSkill:
+  id: 107600
+  groupId: 1093
+  name: モラールアップ[Ⅸ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: MP獲得量UP[Ⅸ](自/1T)
+  messageId: 70
+  artId1: 310201909
+  art1:
+    artId: 310201909
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 107601
+pieceSkill2:
+  id: 107601
+  groupId: 1093
+  name: モラールアップ[Ⅹ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: MP獲得量UP[Ⅹ](自/1T)
+  messageId: 70
+  artId1: 310201910
+  art1:
+    artId: 310201910
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 275
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: キラキラと光るアイドル達。＠その光はグッズでさえも輝かせる。＠彼女はその光景を見るたびに＠自分に嫌悪感を抱き、嫌いになっていく。
+illustrator: 宮野アキヒロ
+...

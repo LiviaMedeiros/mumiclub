@@ -1,0 +1,69 @@
+---
+pieceId: 1282
+pieceType: ABILITY
+pieceName: 神に選ばれた委員長
+attributeId: ALL
+rank: RANK_3
+charaIds: "4045"
+charaList:
+- charaId: 4045
+  name: 羽川 翼
+attack: 430
+defense: 0
+hp: 510
+skillId: 128200
+pieceSkill:
+  id: 128200
+  groupId: 1093
+  name: クレバー・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅱ] & 弱点属性で攻撃されたときMPUP[Ⅰ]
+  artId1: 390201902
+  art1:
+    artId: 390201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  artId2: 690207901
+  art2:
+    artId: 690207901
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 128201
+pieceSkill2:
+  id: 128201
+  groupId: 1093
+  name: クレバー・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]
+  artId1: 390201903
+  art1:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690207901
+  art2:
+    artId: 690207901
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 究極の優等生、委員長の中の委員長…＠クラスメイトに選ばれたのではなく＠神に選ばれた委員長とさえ噂する者もいるという彼女にとって＠三つ編み、眼鏡はもちろん標準装備
+illustrator: mepo
+openDate: 2018/12/03 15:10:00
+...

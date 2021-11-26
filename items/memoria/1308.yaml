@@ -1,0 +1,71 @@
+---
+pieceId: 1308
+pieceType: SKILL
+pieceName: 武器は加速装置
+attributeId: ALL
+rank: RANK_3
+charaIds: "4043"
+charaList:
+- charaId: 4043
+  name: 神原 駿河
+attack: 0
+defense: 446
+hp: 484
+skillId: 130800
+pieceSkill:
+  id: 130800
+  groupId: 1090
+  name: フルスロットルアップ[Ⅳ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: Charge後ダメージUP[Ⅳ] & Accele MPUP[Ⅱ] (自/1T)
+  artId1: 310201602
+  art1:
+    artId: 310201602
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 125
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201704
+  art2:
+    artId: 310201704
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 125
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 130801
+pieceSkill2:
+  id: 130801
+  groupId: 1090
+  name: フルスロットルアップ[Ⅴ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: Charge後ダメージUP[Ⅴ] & Accele MPUP[Ⅲ] (自/1T)
+  artId1: 310201603
+  art1:
+    artId: 310201603
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201705
+  art2:
+    artId: 310201705
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 第一歩からトップスピード＠敵のディフェンスをすり抜けるようにかわし、＠驚異の瞬発力で、彼女はダンクシュートを叩き込む＠…まるで加速装置でも備えているかのように
+illustrator: スミカワ
+openDate: 2019/02/15 15:10:00
+...

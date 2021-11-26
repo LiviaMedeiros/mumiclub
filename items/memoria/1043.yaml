@@ -1,0 +1,62 @@
+---
+pieceId: 1043
+pieceType: ABILITY
+pieceName: これが恋の香り
+attributeId: ALL
+rank: RANK_2
+attack: 424
+defense: 0
+hp: 384
+skillId: 104300
+pieceSkill:
+  id: 104300
+  groupId: 1138
+  name: アンチ・バインド
+  type: ABILITY
+  shortDescription: 必ず拘束無効 & 防御力UP[Ⅰ]
+  artId1: 690208500
+  art1:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 390201201
+  art2:
+    artId: 390201201
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 104301
+pieceSkill2:
+  id: 104301
+  groupId: 1138
+  name: アンチ・バインド
+  type: ABILITY
+  shortDescription: 必ず拘束無効 & 防御力UP[Ⅱ]
+  artId1: 690208500
+  art1:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 夢でも幻でも、何だっていい。＠嘘とか罪悪感とか、そういうのも置いといて。＠今はただ、もう少しだけ、この甘い匂いに酔っていたい。
+illustrator: マシマサキ
+...

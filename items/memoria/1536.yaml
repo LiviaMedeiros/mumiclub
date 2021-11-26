@@ -1,0 +1,87 @@
+---
+pieceId: 1536
+pieceType: SKILL
+pieceName: 戦う少女に御利益を
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 763
+hp: 843
+skillId: 153600
+pieceSkill:
+  id: 153600
+  groupId: 1101
+  name: ミスティックタッチ[Ⅸ]
+  type: SKILL
+  intervalTurn: 11
+  shortDescription: BlastダメージDOWN[Ⅸ] & マギアダメージDOWN[Ⅹ](敵単/1T) & 防御力UP[Ⅵ](自/1T)
+  messageId: 72
+  artId1: 410002709
+  art1:
+    artId: 410002709
+    verbCode: DEBUFF
+    effectCode: BLAST
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002310
+  art2:
+    artId: 410002310
+    verbCode: DEBUFF
+    effectCode: MAGIA
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  artId3: 310201206
+  art3:
+    artId: 310201206
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 153601
+pieceSkill2:
+  id: 153601
+  groupId: 1101
+  name: ミスティックタッチ[Ⅹ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: BlastダメージDOWN[Ⅹ] & マギアダメージDOWN[Ⅹ](敵単/1T) & 防御力UP[Ⅶ](自/1T)
+  messageId: 72
+  artId1: 410002710
+  art1:
+    artId: 410002710
+    verbCode: DEBUFF
+    effectCode: BLAST
+    targetId: TARGET
+    effectValue: 275
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002310
+  art2:
+    artId: 410002310
+    verbCode: DEBUFF
+    effectCode: MAGIA
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  artId3: 310201207
+  art3:
+    artId: 310201207
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 525
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 過去も願いも戦う理由も決してひとつではない＠それでも今日はみんなで上を向いてみんなで笑った＠進むべき道はひとつだと信じて＠明るい未来であって欲しいと願う
+illustrator: ―
+openDate: 2020/08/21 11:10:00
+...

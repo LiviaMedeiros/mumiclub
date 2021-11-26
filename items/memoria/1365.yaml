@@ -1,0 +1,84 @@
+---
+pieceId: 1365
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 祝福の風ふたたび
+attributeId: ALL
+rank: RANK_3
+attack: 540
+defense: 0
+hp: 661
+skillId: 136500
+pieceSkill:
+  id: 136500
+  groupId: 1120
+  name: '祝福の風ふたたび[Ⅱ] '
+  type: ABILITY
+  shortDescription: ダメージカット状態[Ⅱ] & 防御力UP[Ⅱ]
+  artId1: 690206202
+  art1:
+    artId: 690206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  eventId: 1096
+  eventArtId1: 1096001
+  eventArt1:
+    artId: 1096001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_SINGLERAID_1096_EXCHANGE_1
+  eventDescription: ＆「勝利のメダル」追加獲得数＋2
+  skillEffectRange: ALL
+skillId2: 136501
+pieceSkill2:
+  id: 136501
+  groupId: 1120
+  name: '祝福の風ふたたび[Ⅲ] '
+  type: ABILITY
+  shortDescription: ダメージカット状態[Ⅲ] & 防御力UP[Ⅲ]
+  artId1: 690206203
+  art1:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  eventId: 1096
+  eventArtId1: 1096002
+  eventArt1:
+    artId: 1096002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_SINGLERAID_1096_EXCHANGE_1
+  eventDescription: ＆「勝利のメダル」追加獲得数＋5
+  skillEffectRange: ALL
+description: 主はやてを守るため＠“夜天の書”の闇を引き受けて消滅した“リインフォース”…＠その想いと願いを託されて誕生した、生まれて間もない融合騎＠その名は、リインフォースII（ツヴァイ）
+illustrator: ―
+openDate: 2019/06/17 15:10:00
+...

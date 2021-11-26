@@ -1,0 +1,82 @@
+---
+pieceId: 1303
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 甘いおすそわけ
+attributeId: ALL
+rank: RANK_4
+attack: 732
+defense: 0
+hp: 892
+skillId: 130300
+pieceSkill:
+  id: 130300
+  groupId: 1121
+  name: キーンインサイト[Ⅲ]
+  type: ABILITY
+  shortDescription: 確率でクリティカル[Ⅲ] & 確率で幻惑無効[Ⅹ]
+  artId1: 690206303
+  art1:
+    artId: 690206303
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 200
+  artId2: 690209110
+  art2:
+    artId: 690209110
+    verbCode: IGNORE
+    effectCode: BLINDNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 700
+  eventId: 1050
+  eventArtId1: 1050003
+  eventArt1:
+    artId: 1050003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_DAILYTOWER_1050_KEY
+  eventDescription: ＆「フォーチュンペーパー」入手時＋3
+  skillEffectRange: ALL
+skillId2: 130301
+pieceSkill2:
+  id: 130301
+  groupId: 1121
+  name: キーンインサイト[Ⅳ]
+  type: ABILITY
+  shortDescription: 確率でクリティカル[Ⅳ] & 必ず幻惑無効
+  artId1: 690206304
+  art1:
+    artId: 690206304
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 250
+  artId2: 690209100
+  art2:
+    artId: 690209100
+    verbCode: IGNORE
+    effectCode: BLINDNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1050
+  eventArtId1: 1050004
+  eventArt1:
+    artId: 1050004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_DAILYTOWER_1050_KEY
+  eventDescription: ＆「フォーチュンペーパー」入手時＋7
+  skillEffectRange: ALL
+description: 「この冬の限定だってさ、１本どうだい？」＠「ふふっ…じゃあ、お言葉に甘えていただこうかしら」＠もう過ぎ去ってしまった過去のこと、まだふたりの間に溝がなかった頃＠心の隅に残っている温かい冬のある日
+illustrator: ―
+openDate: 2019/02/04 15:10:00
+...

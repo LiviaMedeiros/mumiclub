@@ -1,0 +1,79 @@
+---
+pieceId: 1560
+pieceType: SKILL
+pieceName: 夢は真っ白なベールに包んで
+attributeId: ALL
+rank: RANK_3
+charaIds: "1110"
+charaList:
+- charaId: 1110
+  name: 十咎 ももこ シスターver.
+attack: 0
+defense: 495
+hp: 455
+skillId: 156000
+pieceSkill:
+  id: 156000
+  groupId: 1129
+  name: ナーシング・サークル[Ⅱ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: HP自動回復[Ⅱ] & MP自動回復[Ⅰ](味全/3T)
+  messageId: 70
+  artId1: 630307702
+  art1:
+    artId: 630307702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: ALL
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 630314801
+  art2:
+    artId: 630314801
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: ALL
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 5
+    probability: 1000
+    genericValue: MP
+  skillEffectRange: ALL
+skillId2: 156001
+pieceSkill2:
+  id: 156001
+  groupId: 1129
+  name: ナーシング・サークル[Ⅲ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: HP自動回復[Ⅲ] & MP自動回復[Ⅰ](味全/3T)
+  messageId: 70
+  artId1: 630307703
+  art1:
+    artId: 630307703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: ALL
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 630314801
+  art2:
+    artId: 630314801
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: ALL
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 5
+    probability: 1000
+    genericValue: MP
+  skillEffectRange: ALL
+description: 「さすがももこ！とっても似合ってるわ。私の目に狂いなし！＠白を基調にしたのは正解だったわね。ももこの若い魅力が際立つし…、＠ウェディングドレスっぽくも見えて…ドキドキしちゃうわ～。ももこも＠ちょっとは想像した…」「してない！も～～、よく喋るなぁ！」
+illustrator: くらは
+openDate: 2020/11/02 15:10:00
+...

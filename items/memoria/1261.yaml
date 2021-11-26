@@ -1,0 +1,89 @@
+---
+pieceId: 1261
+pieceType: SKILL
+pieceName: 世界観を越えた夢のコラボ
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 850
+hp: 770
+skillId: 126100
+pieceSkill:
+  id: 126100
+  groupId: 1085
+  name: スペランツァ・フォース[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 攻撃力UP[Ⅳ] & 防御力UP[Ⅲ] & 確率でクリティカル[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 330201104
+  art1:
+    artId: 330201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201203
+  art2:
+    artId: 330201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 3
+    growPoint: 25
+  artId3: 630206304
+  art3:
+    artId: 630206304
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 250
+  skillEffectRange: ALL
+skillId2: 126101
+pieceSkill2:
+  id: 126101
+  groupId: 1085
+  name: スペランツァ・フォース[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 攻撃力UP[Ⅴ] & 防御力UP[Ⅳ] & 確率でクリティカル[Ⅴ](自/3T)
+  messageId: 70
+  artId1: 330201105
+  art1:
+    artId: 330201105
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201204
+  art2:
+    artId: 330201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  artId3: 630206305
+  art3:
+    artId: 630206305
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 300
+  skillEffectRange: ALL
+description: パラレルなワールド、パラレルなルート＠怪異の存在する世界、奇跡も魔法もある世界＠重なりあうはずのないふたつの世界が交差するとき…＠新たな物語が走り出す
+illustrator: 谷口淳一郎
+openDate: 2018/09/25 15:10:00
+...

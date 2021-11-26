@@ -1,0 +1,93 @@
+---
+pieceId: 1312
+pieceType: SKILL
+pieceName: お菓子の宝石箱
+attributeId: ALL
+rank: RANK_3
+charaIds: "4046"
+charaList:
+- charaId: 4046
+  name: 忍野 忍
+attack: 0
+defense: 428
+hp: 507
+skillId: 131200
+pieceSkill:
+  id: 131200
+  groupId: 1094
+  name: ドレインタッチ[Ⅳ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 攻撃力DOWN[Ⅳ] & 防御力DOWN[Ⅳ](敵単/1T) & HP自動回復[Ⅲ](自/3T)
+  messageId: 72
+  artId1: 410002004
+  art1:
+    artId: 410002004
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002104
+  art2:
+    artId: 410002104
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId3: 630207703
+  art3:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 131201
+pieceSkill2:
+  id: 131201
+  groupId: 1094
+  name: ドレインタッチ[Ⅴ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 攻撃力DOWN[Ⅴ] & 防御力DOWN[Ⅴ](敵単/1T) & HP自動回復[Ⅳ](自/3T)
+  messageId: 72
+  artId1: 410002005
+  art1:
+    artId: 410002005
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002105
+  art2:
+    artId: 410002105
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId3: 630207704
+  art3:
+    artId: 630207704
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: 「結構深刻な話なのじゃ、ことは急を要する＠儂が極秘ルートから入手した情報によると＠今、ドーナツの全品100円セールを行っておるらしいのじゃ＠これは今すぐ行かんと、売り切れてしまうぞ！」
+illustrator: かにぱんだ
+openDate: 2019/02/22 15:10:00
+...

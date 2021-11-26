@@ -1,0 +1,69 @@
+---
+pieceId: 1208
+pieceType: SKILL
+pieceName: チサトが掴んだ手
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 573
+hp: 633
+skillId: 120800
+pieceSkill:
+  id: 120800
+  groupId: 1135
+  name: リジェクト・カウンター
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 必ずカウンター無効 & 攻撃力UP[Ⅴ](自/3T)
+  messageId: 70
+  artId1: 630208200
+  art1:
+    artId: 630208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 330201105
+  art2:
+    artId: 330201105
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 120801
+pieceSkill2:
+  id: 120801
+  groupId: 1135
+  name: リジェクト・カウンター
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 必ずカウンター無効 & 攻撃力UP[Ⅵ](自/3T)
+  messageId: 70
+  artId1: 630208200
+  art1:
+    artId: 630208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 330201106
+  art2:
+    artId: 330201106
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: “願い”によって壊れてしまった父さんを理想の父さんに変えた＠でもそれは、絵本作家の夢を父さんから奪うことでもあった＠人知れずその罪悪感で苦しんでいた私の心を軽くしてくれたのは＠手を繋ぐことができたこの人だった…
+illustrator: GAN
+openDate: 2018/05/01 15:10:00
+...

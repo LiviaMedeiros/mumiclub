@@ -1,0 +1,77 @@
+---
+pieceId: 1464
+pieceType: SKILL
+pieceName: お手軽トラウマ
+attributeId: ALL
+rank: RANK_3
+charaIds: "3034"
+charaList:
+- charaId: 3034
+  name: 恵 萌花
+attack: 0
+defense: 430
+hp: 510
+skillId: 146400
+pieceSkill:
+  id: 146400
+  groupId: 1217
+  name: Cコンボプラス・シールド[Ⅱ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: Charge Combo時Charge数+2 & ダメージカット状態[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630219202
+  art1:
+    artId: 630219202
+    verbCode: CONDITION_GOOD
+    effectCode: C_COMBO_PLUS
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 630206204
+  art2:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 146401
+pieceSkill2:
+  id: 146401
+  groupId: 1217
+  name: Cコンボプラス・シールド[Ⅱ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: Charge Combo時Charge数+2 & ダメージカット状態[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630219202
+  art1:
+    artId: 630219202
+    verbCode: CONDITION_GOOD
+    effectCode: C_COMBO_PLUS
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 630206204
+  art2:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 星を見上げる焼き魚、最深部を護る鶏の唐揚げ＠全てを包み込む生クリーム、その中心で輝くイクラ＠おかずパフェとして現在売り出し中の目玉スイーツ＠お値段2980円（税別）の火遊び
+illustrator: くらは
+openDate: 2020/02/25 15:10:00
+...

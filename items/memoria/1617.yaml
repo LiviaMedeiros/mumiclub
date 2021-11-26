@@ -1,0 +1,65 @@
+---
+pieceId: 1617
+pieceType: SKILL
+pieceName: 音色は優しく溶けて
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 614
+hp: 674
+skillId: 161700
+pieceSkill:
+  id: 161700
+  groupId: 1082
+  name: カウンタラクトアタック[Ⅱ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: デバフ解除 & 攻撃力UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 330201102
+  art2:
+    artId: 330201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 161701
+pieceSkill2:
+  id: 161701
+  groupId: 1082
+  name: カウンタラクトアタック[Ⅲ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: デバフ解除 & 攻撃力UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 330201103
+  art2:
+    artId: 330201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: 素知らぬ顔で通り過ぎる風も、ときどきざわめく木々も＠たったひとつの音の揺らめきだけで手を取り合って＠ひとりの少女の演奏を引き立たせる演出家になっていく＠人も集って生まれる絶対の調和…ここにあるのは平穏だけ
+illustrator: ―
+openDate: 2021/04/14 15:10:00
+...

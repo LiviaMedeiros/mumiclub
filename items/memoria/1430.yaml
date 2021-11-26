@@ -1,0 +1,69 @@
+---
+pieceId: 1430
+pieceType: SKILL
+pieceName: 予鈴で目を覚ます
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 578
+hp: 638
+skillId: 143000
+pieceSkill:
+  id: 143000
+  groupId: 1095
+  name: レイジー・アウェイキング[Ⅵ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 防御力DOWN[Ⅵ](敵全/1T) & 状態異常耐性UP[Ⅴ](自/1T)
+  messageId: 72
+  artId1: 410302106
+  art1:
+    artId: 410302106
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201505
+  art2:
+    artId: 310201505
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 143001
+pieceSkill2:
+  id: 143001
+  groupId: 1095
+  name: レイジー・アウェイキング[Ⅶ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 防御力DOWN[Ⅶ](敵全/1T) & 状態異常耐性UP[Ⅵ](自/1T)
+  messageId: 72
+  artId1: 410302107
+  art1:
+    artId: 410302107
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201506
+  art2:
+    artId: 310201506
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 「放課後に小説を読み始めたらつい夢中になって、＠翌朝の予鈴で目を覚ましたりとか、＠１冊だけのつもりが、全集読み終えちゃったとか…＠普通、ありません？…そうですか、ありませんか」
+illustrator: なかじまゆか
+openDate: 2019/11/29 15:10:00
+...

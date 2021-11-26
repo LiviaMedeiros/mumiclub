@@ -1,0 +1,96 @@
+---
+pieceId: 1497
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 隠し味探偵つむぎ（自称）
+attributeId: ALL
+rank: RANK_3
+attack: 632
+defense: 0
+hp: 572
+skillId: 149700
+pieceSkill:
+  id: 149700
+  groupId: 1085
+  name: グラムビジョン[Ⅰ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅰ] & 必ず暗闇無効
+  artId1: 390201101
+  art1:
+    artId: 390201101
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  artId2: 690209000
+  art2:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1099
+  eventArtId1: 1099001
+  eventArt1:
+    artId: 1099001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_BRANCH_1099_PART_1
+  eventArtId2: 1099005
+  eventArt2:
+    artId: 1099005
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_BRANCH_1099_PART_2
+  eventDescription: ＆「トラブルのタネ」「ほくそ笑む花」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 149701
+pieceSkill2:
+  id: 149701
+  groupId: 1085
+  name: グラムビジョン[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 必ず暗闇無効
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690209000
+  art2:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1099
+  eventArtId1: 1099002
+  eventArt1:
+    artId: 1099002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1099_PART_1
+  eventArtId2: 1099006
+  eventArt2:
+    artId: 1099006
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1099_PART_2
+  eventDescription: ＆「トラブルのタネ」「ほくそ笑む花」追加獲得数＋5
+  skillEffectRange: ALL
+description: 「隠し味探偵つむぎ！見極めたり！この料理の隠し味はね…＠ごめん、ちょっと待って！冷めないうちに食べないと料理に失礼だよ＠すぐに食べちゃうから隠し味の話はそれからねっ！＠ん…？隠し味探偵って何かって？いま考えた！」
+illustrator: ―
+openDate: 2020/05/18 15:10:00
+...

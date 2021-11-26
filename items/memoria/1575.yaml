@@ -1,0 +1,90 @@
+---
+pieceId: 1575
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 笑顔が本当の贈りもの
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 960
+hp: 800
+skillId: 157500
+pieceSkill:
+  id: 157500
+  groupId: 1111
+  name: スウィート・トーク[XV]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 確率で幻惑[XV] & 攻撃力DOWN[XII](敵単/1T)
+  messageId: 72
+  artId1: 510005515
+  art1:
+    artId: 510005515
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 650
+  artId2: 410002012
+  art2:
+    artId: 410002012
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 600
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1120
+  eventArtId1: 1120003
+  eventArt1:
+    artId: 1120003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1120_KEY
+  eventDescription: ＆「ヒイラギの葉」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 157501
+pieceSkill2:
+  id: 157501
+  groupId: 1111
+  name: スウィート・トーク
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず幻惑 & 攻撃力DOWN[XIII](敵単/1T)
+  messageId: 72
+  artId1: 510005600
+  art1:
+    artId: 510005600
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002013
+  art2:
+    artId: 410002013
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 650
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1120
+  eventArtId1: 1120004
+  eventArt1:
+    artId: 1120004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1120_KEY
+  eventDescription: ＆「ヒイラギの葉」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「はいっ！メリークリスマスっ。灯花ちゃん、ねむちゃん！」＠もらって心から嬉しいと感じた、初めてのクリスマスプレゼント＠何度も何度も考えて、その訳にようやく気づく＠あの子がくれた笑顔こそ、本当の贈りものだったんだ
+illustrator: ―
+openDate: 2020/12/16 15:10:00
+...

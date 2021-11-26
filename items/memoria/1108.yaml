@@ -1,0 +1,66 @@
+---
+pieceId: 1108
+pieceType: SKILL
+pieceName: 光を知った日
+attributeId: ALL
+rank: RANK_3
+charaIds: "3025"
+charaList:
+- charaId: 3025
+  name: 五十鈴 れん
+attack: 0
+defense: 487
+hp: 447
+skillId: 110800
+pieceSkill:
+  id: 110800
+  groupId: 1126
+  name: チェイスアタック
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 必ず追撃(自/1T)
+  messageId: 70
+  artId1: 610207300
+  art1:
+    artId: 610207300
+    verbCode: CONDITION_GOOD
+    effectCode: PURSUE
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 110801
+pieceSkill2:
+  id: 110801
+  groupId: 1126
+  name: チェイスアタック
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ず追撃(自/1T) & マギアダメージUP[Ⅸ]
+  messageId: 70
+  artId1: 610207300
+  art1:
+    artId: 610207300
+    verbCode: CONDITION_GOOD
+    effectCode: PURSUE
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201409
+  art2:
+    artId: 310201409
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: あの日、君に出会って、君が教えてくれて、＠僕は大切なことを知ったんだ＠「この世界には、まだ知らない美しいものがたくさんある」＠まだ追いつかない僕の彩りで描いたのは、黒一色の夕焼けだった
+illustrator: 都筑禰己
+openDate: 2017/09/15 15:10:00
+...

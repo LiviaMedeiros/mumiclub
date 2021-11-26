@@ -1,0 +1,75 @@
+---
+pieceId: 1159
+pieceType: SKILL
+pieceName: 羽根つき遊び
+attributeId: ALL
+rank: RANK_3
+charaIds: "2100"
+charaList:
+- charaId: 2100
+  name: 鹿目 まどか 晴着ver.
+attack: 0
+defense: 508
+hp: 428
+skillId: 115900
+pieceSkill:
+  id: 115900
+  groupId: 1127
+  name: 'イモータリティ[Ⅰ] '
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 耐える & HP自動回復[Ⅰ] (自/3T)
+  messageId: 70
+  artId1: 630207400
+  art1:
+    artId: 630207400
+    verbCode: CONDITION_GOOD
+    effectCode: GUTS
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 630207701
+  art2:
+    artId: 630207701
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 20
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 115901
+pieceSkill2:
+  id: 115901
+  groupId: 1127
+  name: 'イモータリティ[Ⅱ] '
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 耐える & HP自動回復[Ⅱ] (自/3T)
+  messageId: 70
+  artId1: 630207400
+  art1:
+    artId: 630207400
+    verbCode: CONDITION_GOOD
+    effectCode: GUTS
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 630207702
+  art2:
+    artId: 630207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: カコンッカコンッ羽根を突きましょう＠大切なあの子が患わぬよう全ての厄を払いましょう＠どうか無事平穏に過ごせますよう…＠幸せが舞い込みますよう…願いを込めて
+illustrator: 小森ニコ
+openDate: 2018/01/01 00:00:00
+...

@@ -1,0 +1,84 @@
+---
+pieceId: 1592
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: いつもの朝の光景
+attributeId: ALL
+rank: RANK_3
+attack: 554
+defense: 0
+hp: 674
+skillId: 159200
+pieceSkill:
+  id: 159200
+  groupId: 1129
+  name: バイタルアタック・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: HP自動回復[Ⅱ] & 攻撃力UP[Ⅲ]
+  artId1: 690207702
+  art1:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  artId2: 390201103
+  art2:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  eventId: 1123
+  eventArtId1: 1123001
+  eventArt1:
+    artId: 1123001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_SINGLERAID_1123_EXCHANGE_1
+  eventDescription: ＆「花の香り」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 159201
+pieceSkill2:
+  id: 159201
+  groupId: 1129
+  name: バイタルアタック・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: HP自動回復[Ⅱ] & 攻撃力UP[Ⅲ]
+  artId1: 690207702
+  art1:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  artId2: 390201103
+  art2:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  eventId: 1123
+  eventArtId1: 1123002
+  eventArt1:
+    artId: 1123002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_SINGLERAID_1123_EXCHANGE_1
+  eventDescription: ＆「花の香り」追加獲得数＋5
+  skillEffectRange: ALL
+description: 「今日は、ツバキの代わりにマツリが結んであげるね」＠「…ええ、ありがとう」＠「あっ、おはようございます。そろそろ学校に行く時間ですよ」＠「ふわぁ…わかってるよ。心配しなくても遅刻しないから」
+illustrator: ―
+openDate: 2021/01/25 15:10:00
+...

@@ -1,0 +1,73 @@
+---
+pieceId: 1104
+pieceType: SKILL
+pieceName: 牧場の思い出
+attributeId: ALL
+rank: RANK_3
+charaIds: "1005"
+charaList:
+- charaId: 1005
+  name: 深月 フェリシア
+attack: 0
+defense: 427
+hp: 507
+skillId: 110410
+pieceSkill:
+  id: 110410
+  groupId: 1135
+  name: リジェクト・カウンター
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 必ずカウンター無効(敵単/3T) & 攻撃力UP[Ⅷ](自/1T)
+  messageId: 70
+  artId1: 630208200
+  art1:
+    artId: 630208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 310201108
+  art2:
+    artId: 310201108
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 110411
+pieceSkill2:
+  id: 110411
+  groupId: 1135
+  name: リジェクト・カウンター
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 必ずカウンター無効(敵単/3T) & 攻撃力UP[Ⅸ](自/1T)
+  messageId: 70
+  artId1: 630208200
+  art1:
+    artId: 630208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  artId2: 310201109
+  art2:
+    artId: 310201109
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 家族で牧場に遊びに行った日は、正に奇跡の一日だった＠両親は一言も喧嘩をすることもなく、ずっと家族で笑い合い＠おやすみのキスをもらうときは、眠るのが惜しかった＠だからこの子は幸せの証。世界で一番の家族だったときの証だ
+illustrator: 都筑禰己
+openDate: 2017/09/04 15:10:00
+...

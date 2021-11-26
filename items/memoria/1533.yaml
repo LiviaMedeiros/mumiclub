@@ -1,0 +1,73 @@
+---
+pieceId: 1533
+pieceType: SKILL
+pieceName: いちばんちっちゃな家族の証
+attributeId: ALL
+rank: RANK_3
+charaIds: "1042"
+charaList:
+- charaId: 1042
+  name: userName
+attack: 0
+defense: 494
+hp: 454
+skillId: 153300
+pieceSkill:
+  id: 153300
+  groupId: 1085
+  name: ペネトレイトアタック[Ⅲ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 攻撃力UP[Ⅲ] & 確率で防御無視[Ⅲ](自/1T)
+  messageId: 70
+  artId1: 310201103
+  art1:
+    artId: 310201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610206603
+  art2:
+    artId: 610206603
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 200
+  skillEffectRange: ALL
+skillId2: 153301
+pieceSkill2:
+  id: 153301
+  groupId: 1085
+  name: ペネトレイトアタック[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 攻撃力UP[Ⅳ] & 確率で防御無視[Ⅳ](自/1T)
+  messageId: 70
+  artId1: 310201104
+  art1:
+    artId: 310201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610206604
+  art2:
+    artId: 610206604
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 250
+  skillEffectRange: ALL
+description: みかづき荘でいちばんちっちゃな家族のために＠みんなで選んだちっちゃなお茶碗＠お茶はほんの少ししか入れられないけれど＠たくさんの愛情が注げる、確かな家族の証
+illustrator: 秘鷺悠弥
+openDate: 2020/08/21 11:10:00
+...

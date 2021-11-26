@@ -1,0 +1,115 @@
+---
+pieceId: 1568
+pieceType: ABILITY
+pieceName: ジャンクハウスへようこそ
+attributeId: ALL
+rank: RANK_4
+attack: 881
+defense: 0
+hp: 841
+skillId: 156800
+pieceSkill:
+  id: 156800
+  groupId: 1085
+  name: フルゲージ・ブルームヒール[Ⅴ]
+  type: ABILITY
+  shortDescription: HP最大時攻撃力UP[Ⅴ] & HP最大時防御力UP[Ⅶ] & HP自動回復[Ⅱ]
+  artId1: 390203105
+  art1:
+    artId: 390203105
+    verbCode: BUFF_HPMAX
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    growPoint: 20
+    probability: 1000
+  artId2: 390203207
+  art2:
+    artId: 390203207
+    verbCode: BUFF_HPMAX
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 700
+    growPoint: 20
+    probability: 1000
+  artId3: 690207702
+  art3:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  eventId: 1119
+  eventArtId1: 1119003
+  eventArt1:
+    artId: 1119003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1119_PART_1
+  eventArtId2: 1119007
+  eventArt2:
+    artId: 1119007
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1119_PART_2
+  eventDescription: ＆「マジカルキャンディ」「マジカルコイン」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 156801
+pieceSkill2:
+  id: 156801
+  groupId: 1085
+  name: フルゲージ・ブルームヒール[Ⅵ]
+  type: ABILITY
+  shortDescription: HP最大時攻撃力UP[Ⅵ] & HP最大時防御力UP[Ⅷ] & HP自動回復[Ⅲ]
+  artId1: 390203106
+  art1:
+    artId: 390203106
+    verbCode: BUFF_HPMAX
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId2: 390203208
+  art2:
+    artId: 390203208
+    verbCode: BUFF_HPMAX
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 800
+    growPoint: 20
+    probability: 1000
+  artId3: 690207703
+  art3:
+    artId: 690207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    growPoint: 10
+    probability: 1000
+  eventId: 1119
+  eventArtId1: 1119004
+  eventArt1:
+    artId: 1119004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1119_PART_1
+  eventArtId2: 1119008
+  eventArt2:
+    artId: 1119008
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1119_PART_2
+  eventDescription: ＆「マジカルキャンディ」「マジカルコイン」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「ジャンクの山かと思ったら、綺麗に整頓してあってびっくりだよ！」＠「なー、そっちのロボって動くのか？」＠「一応…話しかけると返事するけど…今は、整備中」＠「寝言にも反応するみたいだね…一度、それで起こされちゃった…」
+illustrator: ―
+openDate: 2020/12/04 16:10:00
+...

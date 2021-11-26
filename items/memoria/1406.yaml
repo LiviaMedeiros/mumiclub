@@ -1,0 +1,102 @@
+---
+pieceId: 1406
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 交流会へようこそ
+attributeId: ALL
+rank: RANK_3
+attack: 538
+defense: 0
+hp: 661
+skillId: 140600
+pieceSkill:
+  id: 140600
+  groupId: 1120
+  name: ナローシールド[Ⅱ]
+  type: ABILITY
+  shortDescription: ダメージカット状態[Ⅱ] & 瀕死時攻撃力UP[Ⅰ] & 瀕死時防御力UP[Ⅰ]
+  artId1: 690206202
+  art1:
+    artId: 690206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 390202901
+  art2:
+    artId: 390202901
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 20
+    probability: 1000
+  artId3: 390203001
+  art3:
+    artId: 390203001
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 200
+    growPoint: 20
+    probability: 1000
+  eventId: 1071
+  eventArtId1: 1071001
+  eventArt1:
+    artId: 1071001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_DAILYTOWER_1071_KEY
+  eventDescription: ＆七草入手時＋2
+  skillEffectRange: ALL
+skillId2: 140601
+pieceSkill2:
+  id: 140601
+  groupId: 1120
+  name: ナローシールド[Ⅲ]
+  type: ABILITY
+  shortDescription: ダメージカット状態[Ⅲ] & 瀕死時攻撃力UP[Ⅱ] & 瀕死時防御力UP[Ⅱ]
+  artId1: 690206203
+  art1:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390202902
+  art2:
+    artId: 390202902
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 20
+    probability: 1000
+  artId3: 390203002
+  art3:
+    artId: 390203002
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  eventId: 1071
+  eventArtId1: 1071002
+  eventArt1:
+    artId: 1071002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1071_KEY
+  eventDescription: ＆七草入手時＋5
+  skillEffectRange: ALL
+description: 「ようこそ、聖リリアンナ学園と水名女学園の交流会へっ！＠両校の生徒会が主催するこの交流会では、＠部活動で活躍する方々など、素敵なゲストをお招きして、＠互いの親睦を深めるお役に立っております…そのはずですっ」
+illustrator: 星和貴
+openDate: 2019/09/17 15:10:00
+...

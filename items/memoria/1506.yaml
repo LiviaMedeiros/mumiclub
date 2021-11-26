@@ -1,0 +1,87 @@
+---
+pieceId: 1506
+pieceType: ABILITY
+pieceName: なんだってしてやるよ
+attributeId: ALL
+rank: RANK_4
+charaIds: "1005"
+charaList:
+- charaId: 1005
+  name: 深月 フェリシア
+attack: 880
+defense: 0
+hp: 720
+skillId: 150600
+pieceSkill:
+  id: 150600
+  groupId: 1154
+  name: なんだってしてやるよ
+  type: ABILITY
+  shortDescription: 攻撃時に確率でスキル不可(1T)を付与[Ⅵ] & 攻撃力UP[Ⅲ] & Charge後ダメージUP[Ⅲ]
+  artId1: 691211206
+  art1:
+    artId: 691211206
+    verbCode: ENCHANT
+    effectCode: BAN_SKILL
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 350
+  artId2: 390201103
+  art2:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 390201703
+  art3:
+    artId: 390201703
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 150601
+pieceSkill2:
+  id: 150601
+  groupId: 1154
+  name: なんだってしてやるよ
+  type: ABILITY
+  shortDescription: 攻撃時に確率でスキル不可(1T)を付与[Ⅵ] & 攻撃力UP[Ⅲ] & Charge後ダメージUP[Ⅲ]
+  artId1: 691211206
+  art1:
+    artId: 691211206
+    verbCode: ENCHANT
+    effectCode: BAN_SKILL
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 350
+  artId2: 390201103
+  art2:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 390201703
+  art3:
+    artId: 390201703
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: Blu-ray&DVD 第3巻 描き下ろしジャケットイラスト
+illustrator: 谷口淳一郎
+openDate: 2020/06/09 00:00:00
+...

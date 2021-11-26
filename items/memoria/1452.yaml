@@ -1,0 +1,75 @@
+---
+pieceId: 1452
+pieceType: SKILL
+pieceName: 貫くなら自分から
+attributeId: ALL
+rank: RANK_3
+charaIds: "3058"
+charaList:
+- charaId: 3058
+  name: 南津 涼子
+attack: 0
+defense: 431
+hp: 510
+skillId: 145200
+pieceSkill:
+  id: 145200
+  groupId: 1120
+  name: チャージライズ・シールド[Ⅲ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: ダメージカット状態[Ⅲ] & Charge後ダメージUP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630206203
+  art1:
+    artId: 630206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201702
+  art2:
+    artId: 330201702
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 75
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 145201
+pieceSkill2:
+  id: 145201
+  groupId: 1120
+  name: チャージライズ・シールド[Ⅳ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: ダメージカット状態[Ⅳ] & Charge後ダメージUP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630206204
+  art1:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201703
+  art2:
+    artId: 330201703
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+description: テストで100点取るより難しい皆勤賞＠小中全制覇の賞状は、丈夫な体と真っ直ぐな心の証＠両親から授かった、何ものにも代えがたい最高の財産＠でも、遠くで助けを求める声があれば、一目散に学校を抜け出す
+illustrator: mepo
+openDate: 2020/01/27 15:10:00
+...

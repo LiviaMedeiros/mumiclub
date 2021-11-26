@@ -1,0 +1,65 @@
+---
+pieceId: 1562
+pieceType: ABILITY
+pieceName: 祈りと使命のヒーロー
+attributeId: ALL
+rank: RANK_3
+attack: 691
+defense: 0
+hp: 601
+skillId: 156200
+pieceSkill:
+  id: 156200
+  groupId: 1119
+  name: アーマメント・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅱ] & ダメージカット状態[Ⅱ]
+  artId1: 690206102
+  art1:
+    artId: 690206102
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690206202
+  art2:
+    artId: 690206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 156201
+pieceSkill2:
+  id: 156201
+  groupId: 1119
+  name: アーマメント・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅲ] & ダメージカット状態[Ⅲ]
+  artId1: 690206103
+  art1:
+    artId: 690206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690206203
+  art2:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: アタシはシスター、だから祈る＠祈りは愛、愛は命を救う＠アタシは魔法少女、だから戦う＠戦いは使命、使命は命を救う
+illustrator: ―
+openDate: 2020/11/02 15:10:00
+...

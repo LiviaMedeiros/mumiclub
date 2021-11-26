@@ -1,0 +1,63 @@
+---
+pieceId: 1490
+pieceType: ABILITY
+pieceName: 愛しき異界からの天啓
+attributeId: ALL
+rank: RANK_4
+attack: 801
+defense: 0
+hp: 801
+skillId: 149000
+pieceSkill:
+  id: 149000
+  groupId: 1085
+  name: インビジブル・アデプト[Ⅰ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅰ] & 確率で回避無効[Ⅶ]
+  artId1: 390201101
+  art1:
+    artId: 390201101
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  artId2: 690216207
+  art2:
+    artId: 690216207
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 550
+  skillEffectRange: ALL
+skillId2: 149001
+pieceSkill2:
+  id: 149001
+  groupId: 1085
+  name: インビジブル・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 確率で回避無効[Ⅷ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690216208
+  art2:
+    artId: 690216208
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 600
+  skillEffectRange: ALL
+description: 何の前触れもなく、脳と体を駆け抜けた一筋の電流＠それは知識、経験、思考、状況、他すべての生きる力がもたらした＠異次元からの真理＠「そうか…何もかも全部…完全に解った…！」
+illustrator: ―
+openDate: 2020/05/01 15:10:00
+...

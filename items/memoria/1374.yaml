@@ -1,0 +1,90 @@
+---
+pieceId: 1374
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 火竜吼える
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 812
+hp: 812
+skillId: 137400
+pieceSkill:
+  id: 137400
+  groupId: 1107
+  name: ドラゴンロア―[XV]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 確率でやけど[XV] & 防御力DOWN[Ⅷ](敵単/1T)
+  messageId: 72
+  artId1: 510004715
+  art1:
+    artId: 510004715
+    verbCode: CONDITION_BAD
+    effectCode: BURN
+    targetId: TARGET
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 0
+    probability: 650
+  artId2: 410002108
+  art2:
+    artId: 410002108
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1101
+  eventArtId1: 1101003
+  eventArt1:
+    artId: 1101003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 3000
+    genericValue: EVENT_SINGLERAID_1101_EXCHANGE_1
+  eventDescription: ＆「騎士団のメダル」追加獲得数＋3
+  skillEffectRange: ALL
+skillId2: 137401
+pieceSkill2:
+  id: 137401
+  groupId: 1107
+  name: ドラゴンロア―
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: 必ずやけど & 防御力DOWN[Ⅸ](敵単/1T)
+  messageId: 72
+  artId1: 510004800
+  art1:
+    artId: 510004800
+    verbCode: CONDITION_BAD
+    effectCode: BURN
+    targetId: TARGET
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002109
+  art2:
+    artId: 410002109
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1101
+  eventArtId1: 1101004
+  eventArt1:
+    artId: 1101004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 7000
+    genericValue: EVENT_SINGLERAID_1101_EXCHANGE_1
+  eventDescription: ＆「騎士団のメダル」追加獲得数＋7
+  skillEffectRange: ALL
+description: 「わたくしの前に立ちふさがる者がいれば、＠すべて焼き払って差し上げますわ！＠神聖ローマ帝国ドラゴン騎士団がひとり＠エリザ・ツェリスカが放つ、この魔弾で！」
+illustrator: 枡狐/蛙空
+openDate: 2019/07/12 15:10:00
+...

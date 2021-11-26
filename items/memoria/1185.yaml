@@ -1,0 +1,66 @@
+---
+pieceId: 1185
+pieceType: SKILL
+pieceName: 空想世界のスケッチ
+attributeId: ALL
+rank: RANK_3
+charaIds: "3015"
+charaList:
+- charaId: 3015
+  name: 相野 みと
+attack: 0
+defense: 489
+hp: 449
+skillId: 118500
+pieceSkill:
+  id: 118500
+  groupId: 1126
+  name: チェイスアタック
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 必ず追撃(自/1T)
+  messageId: 70
+  artId1: 610207300
+  art1:
+    artId: 610207300
+    verbCode: CONDITION_GOOD
+    effectCode: PURSUE
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 118501
+pieceSkill2:
+  id: 118501
+  groupId: 1126
+  name: チェイスアタック
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ず追撃(自/1T) & マギアダメージUP[Ⅸ]
+  messageId: 70
+  artId1: 610207300
+  art1:
+    artId: 610207300
+    verbCode: CONDITION_GOOD
+    effectCode: PURSUE
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201409
+  art2:
+    artId: 310201409
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 私ね、頭の中で色んな想像をするのが大好きなんだ～！＠楽しいし、自由だし、いつでもできるし！＠思いついた生き物とかは、ノートに絵を描いてるの！＠ほら、これ！見て見て！ちょっとした『みと動物園』でしょ？
+illustrator: ma-sa
+openDate: 2018/03/12 15:10:00
+...

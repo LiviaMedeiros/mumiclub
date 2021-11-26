@@ -1,0 +1,84 @@
+---
+pieceId: 1145
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: その味はドラマティック!?
+attributeId: ALL
+rank: RANK_3
+attack: 573
+defense: 0
+hp: 633
+skillId: 114500
+pieceSkill:
+  id: 114500
+  groupId: 1093
+  name: クレバー・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]
+  artId1: 390201903
+  art1:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690207901
+  art2:
+    artId: 690207901
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  eventId: 1109
+  eventArtId1: 1109001
+  eventArt1:
+    artId: 1109001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_SINGLERAID_1109_EXCHANGE_1
+  eventDescription: ＆「かずみメダル」追加獲得数＋2
+  skillEffectRange: ALL
+skillId2: 114501
+pieceSkill2:
+  id: 114501
+  groupId: 1093
+  name: クレバー・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅳ] & 弱点属性で攻撃されたときMPUP[Ⅱ]
+  artId1: 390201904
+  art1:
+    artId: 390201904
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId2: 690207902
+  art2:
+    artId: 690207902
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  eventId: 1109
+  eventArtId1: 1109002
+  eventArt1:
+    artId: 1109002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_SINGLERAID_1109_EXCHANGE_1
+  eventDescription: ＆「かずみメダル」追加獲得数＋5
+  skillEffectRange: ALL
+description: 小説家・御崎海香先生の知られざる執筆スタイル…＠それは…「行き詰ったら料理をしてストレス解消」！＠余人の口を挟ませずに黙々と作り上げるその料理は＠先生の作品ばりに、食べる者を感動させる美味しさだとか…!?
+illustrator: シソ
+openDate: 2017/11/20 15:10:00
+...

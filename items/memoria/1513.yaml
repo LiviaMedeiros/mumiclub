@@ -1,0 +1,69 @@
+---
+pieceId: 1513
+pieceType: ABILITY
+pieceName: 景色は罪色
+attributeId: ALL
+rank: RANK_3
+charaIds: "1039"
+charaList:
+- charaId: 1039
+  name: 佐和 月出里
+attack: 432
+defense: 0
+hp: 512
+skillId: 151300
+pieceSkill:
+  id: 151300
+  groupId: 1120
+  name: モラールシールド・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: ダメージカット状態[Ⅱ] & MP獲得量UP[Ⅱ]
+  artId1: 690206202
+  art1:
+    artId: 690206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 390201902
+  art2:
+    artId: 390201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 151301
+pieceSkill2:
+  id: 151301
+  groupId: 1120
+  name: モラールシールド・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: ダメージカット状態[Ⅲ] & MP獲得量UP[Ⅲ]
+  artId1: 690206203
+  art1:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201903
+  art2:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 教室もクラスメイトも、みんなのっぺりとして真っ白だった＠あるのは授業を進める声と、鉛筆を走らせる無機質な音だけ＠だけど今は夕日に照らされて、赤潮に満ちた景色が焼き付いている＠たった一言が巨大な筆を走らせたから
+illustrator: mepo
+openDate: 2020/07/06 15:10:00
+...

@@ -1,0 +1,73 @@
+---
+pieceId: 1141
+pieceType: SKILL
+pieceName: 七つのほしぞら
+attributeId: ALL
+rank: RANK_3
+charaIds: "4012"
+charaList:
+- charaId: 4012
+  name: 御崎 海香
+attack: 0
+defense: 422
+hp: 502
+skillId: 114100
+pieceSkill:
+  id: 114100
+  groupId: 1095
+  name: ウィークポイント[Ⅴ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 防御力DOWN[Ⅸ] & 状態異常耐性DOWN[Ⅷ](敵単/1T)
+  messageId: 72
+  artId1: 410002109
+  art1:
+    artId: 410002109
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002408
+  art2:
+    artId: 410002408
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: TARGET
+    effectValue: 225
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 114101
+pieceSkill2:
+  id: 114101
+  groupId: 1095
+  name: ウィークポイント[Ⅵ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 防御力DOWN[Ⅹ] & 状態異常耐性DOWN[Ⅸ](敵単/1T)
+  messageId: 72
+  artId1: 410002110
+  art1:
+    artId: 410002110
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002409
+  art2:
+    artId: 410002409
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: ちいさな想いを踏みにじられ、あの日、彼女の心は死んだ＠その後に出会った少女の言葉が、再び生きる勇気をくれた＠七人の仲間に見守られ、もういちど作家の道へと踏み出した＠彼女が選んだ題名は、“七つのほしぞら”
+illustrator: ma-sa
+openDate: 2017/11/20 15:10:00
+...

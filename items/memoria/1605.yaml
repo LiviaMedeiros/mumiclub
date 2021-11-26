@@ -1,0 +1,88 @@
+---
+pieceId: 1605
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: クローゼットとご相談
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 961
+hp: 801
+skillId: 160500
+pieceSkill:
+  id: 160500
+  groupId: 1095
+  name: スナイピングブラスト[Ⅷ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 防御力DOWN[Ⅷ](敵全/1T) & Blast ダメージUP[Ⅵ](自/1T)
+  messageId: 72
+  artId1: 410302108
+  art1:
+    artId: 410302108
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201806
+  art2:
+    artId: 310201806
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1126
+  eventArtId1: 1126003
+  eventArt1:
+    artId: 1126003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1126_KEY
+  eventDescription: ＆「絡まりリボン」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 160501
+pieceSkill2:
+  id: 160501
+  groupId: 1095
+  name: スナイピングブラスト[Ⅸ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 防御力DOWN[Ⅸ](敵全/1T) & Blast ダメージUP[Ⅶ](自/1T)
+  messageId: 72
+  artId1: 410302109
+  art1:
+    artId: 410302109
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201807
+  art2:
+    artId: 310201807
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1126
+  eventArtId1: 1126004
+  eventArt1:
+    artId: 1126004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1126_KEY
+  eventDescription: ＆「絡まりリボン」追加獲得数＋15
+  skillEffectRange: ALL
+description: 町中にはKAWAIIがたくさんあふれてる＠どれもこれもKAWAIIから、あれもこれも欲しいけど…＠クローゼットはすでにKAWAIIでいっぱいいっぱい！＠でも、今日もちょっとだけKAWAIIを連れて帰っちゃおう！
+illustrator: 紅緒
+openDate: 2021/02/22 15:10:00
+...

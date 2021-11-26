@@ -1,0 +1,73 @@
+---
+pieceId: 1285
+pieceType: SKILL
+pieceName: 迷子は日常自販機
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 849
+hp: 769
+skillId: 128500
+pieceSkill:
+  id: 128500
+  groupId: 1109
+  name: イアリー・フォッグ[Ⅴ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 確率で霧[Ⅴ](敵全/1T) & 敵状態異常時ダメージUP[Ⅳ](自/1T)
+  messageId: 72
+  artId1: 510305105
+  art1:
+    artId: 510305105
+    verbCode: CONDITION_BAD
+    effectCode: FOG
+    targetId: ALL
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  artId2: 610214604
+  art2:
+    artId: 610214604
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 128501
+pieceSkill2:
+  id: 128501
+  groupId: 1109
+  name: イアリー・フォッグ[Ⅶ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 確率で霧[Ⅶ](敵全/1T) & 敵状態異常時ダメージUP[Ⅴ](自/1T)
+  messageId: 72
+  artId1: 510305107
+  art1:
+    artId: 510305107
+    verbCode: CONDITION_BAD
+    effectCode: FOG
+    targetId: ALL
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 0
+    probability: 450
+  artId2: 610214605
+  art2:
+    artId: 610214605
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 「さあ、今日も頑張って迷子をエンジョイします！＠…なんてことは決して思っていませんが＠何度迷子になろうとも、いつか家にたどり着いてみせます＠わたしにとってはこの程度、日常自販機なんですからっ！」
+illustrator: 渡辺明夫
+openDate: 2018/11/26 15:10:00
+...

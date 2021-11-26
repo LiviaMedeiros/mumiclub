@@ -1,0 +1,46 @@
+---
+pieceId: 1010
+pieceType: ABILITY
+pieceName: 芸術家の魔女の手下
+attributeId: ALL
+rank: RANK_1
+attack: 190
+defense: 0
+hp: 210
+skillId: 101000
+pieceSkill:
+  id: 101000
+  groupId: 1086
+  name: ガード・アデプト[Ⅰ]
+  type: ABILITY
+  shortDescription: 防御力UP[Ⅰ]
+  artId1: 390201201
+  art1:
+    artId: 390201201
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 101001
+pieceSkill2:
+  id: 101001
+  groupId: 1086
+  name: ガード・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 防御力UP[Ⅱ]
+  artId1: 390201202
+  art1:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 芸術家の魔女の手下。その役割は作品。＠魔女によって命を奪われた人間は、その体の一部分を盗まれ、この中に組み込まれてしまう。
+illustrator: 劇団イヌカレー
+...

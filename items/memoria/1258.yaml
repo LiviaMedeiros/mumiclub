@@ -1,0 +1,81 @@
+---
+pieceId: 1258
+pieceType: ABILITY
+pieceName: 趣味、帽子集め
+attributeId: ALL
+rank: RANK_3
+charaIds: "4044"
+charaList:
+- charaId: 4044
+  name: 千石 撫子
+attack: 427
+defense: 0
+hp: 507
+skillId: 125800
+pieceSkill:
+  id: 125800
+  groupId: 1142
+  name: スネークビジョン[XII]
+  type: ABILITY
+  shortDescription: 必ず霧無効 & 必ず暗闇無効 & 確率で魅了無効[XII]
+  artId1: 690208900
+  art1:
+    artId: 690208900
+    verbCode: IGNORE
+    effectCode: FOG
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 690209000
+  art2:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId3: 690208312
+  art3:
+    artId: 690208312
+    verbCode: IGNORE
+    effectCode: CHARM
+    targetId: SELF
+    growPoint: 0
+    probability: 800
+  skillEffectRange: ALL
+skillId2: 125801
+pieceSkill2:
+  id: 125801
+  groupId: 1142
+  name: スネークビジョン
+  type: ABILITY
+  shortDescription: 必ず霧無効 & 必ず暗闇無効 & 必ず魅了無効
+  artId1: 690208900
+  art1:
+    artId: 690208900
+    verbCode: IGNORE
+    effectCode: FOG
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 690209000
+  art2:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId3: 690208300
+  art3:
+    artId: 690208300
+    verbCode: IGNORE
+    effectCode: CHARM
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 相手の顔を見ながら喋れない＠人の視線が苦手、見られたくない、見るのも見られるのも嫌＠だから帽子を目深にかぶる＠目を見られないように、目を見ずに済むように
+illustrator: 都筑禰己
+openDate: 2018/09/25 15:10:00
+...

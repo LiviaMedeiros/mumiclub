@@ -1,0 +1,67 @@
+---
+pieceId: 1525
+pieceType: ABILITY
+pieceName: 絶対無敵サマータイム
+attributeId: ALL
+rank: RANK_4
+attack: 761
+defense: 0
+hp: 841
+skillId: 152500
+pieceSkill:
+  id: 152500
+  groupId: 1085
+  name: イグニッション・エッジ[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 攻撃時に確率でやけど(2T)を付与[Ⅳ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690210204
+  art2:
+    artId: 690210204
+    verbCode: ENCHANT
+    effectCode: BURN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 2
+    growPoint: 0
+    probability: 250
+  skillEffectRange: ALL
+skillId2: 152501
+pieceSkill2:
+  id: 152501
+  groupId: 1085
+  name: イグニッション・エッジ[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 攻撃時に確率でやけど(2T)を付与[Ⅴ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690210205
+  art2:
+    artId: 690210205
+    verbCode: ENCHANT
+    effectCode: BURN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 2
+    growPoint: 0
+    probability: 300
+  skillEffectRange: ALL
+description: 「行くのです！もっとスピードを上げるのです！」＠「わかった、最短距離になるようにコースを取ってみる」＠「操縦は任せるのです。障害物はなぎさが蹴散らすのです！」＠「ウォータースライダーに障害物はないと思う…」
+illustrator: ―
+openDate: 2020/07/27 15:10:00
+...

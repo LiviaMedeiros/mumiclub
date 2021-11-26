@@ -1,0 +1,79 @@
+---
+pieceId: 1392
+pieceType: ABILITY
+pieceName: 歓喜は刹那か永遠か…？
+attributeId: ALL
+rank: RANK_4
+attack: 710
+defense: 0
+hp: 882
+skillId: 139200
+pieceSkill:
+  id: 139200
+  groupId: 1119
+  name: レイ・オブ・ホープ[Ⅱ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅱ] & 必ず霧無効 & 必ず暗闇無効
+  artId1: 690206102
+  art1:
+    artId: 690206102
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690208900
+  art2:
+    artId: 690208900
+    verbCode: IGNORE
+    effectCode: FOG
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId3: 690209000
+  art3:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 139201
+pieceSkill2:
+  id: 139201
+  groupId: 1119
+  name: レイ・オブ・ホープ[Ⅲ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅲ] & 必ず霧無効 & 必ず暗闇無効
+  artId1: 690206103
+  art1:
+    artId: 690206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690208900
+  art2:
+    artId: 690208900
+    verbCode: IGNORE
+    effectCode: FOG
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId3: 690209000
+  art3:
+    artId: 690209000
+    verbCode: IGNORE
+    effectCode: DARKNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 離れた手が繋がれて、１日に幕が下りてゆく。＠背に受ける夕日の温もりは、手の温もりと同じ。＠だが、その背後に迫るのは夜。＠夕の後に空を支配できるのは、否応なく夜だけだ。
+illustrator: ―
+openDate: 2019/08/22 00:00:00
+...

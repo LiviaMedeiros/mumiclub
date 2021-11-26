@@ -1,0 +1,72 @@
+---
+pieceId: 1335
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 突如届いた石×200
+attributeId: ALL
+rank: RANK_4
+attack: 757
+defense: 0
+hp: 840
+skillId: 133500
+pieceSkill:
+  id: 133500
+  groupId: 1144
+  name: 'リアリスト[Ⅸ] '
+  type: ABILITY
+  shortDescription: 確率で幻惑無効[Ⅸ]
+  artId1: 690209109
+  art1:
+    artId: 690209109
+    verbCode: IGNORE
+    effectCode: BLINDNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 650
+  eventId: 1056
+  eventArtId1: 1056001
+  eventArt1:
+    artId: 1056001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 2000
+    genericValue: EVENT_DAILYTOWER_1056_EXCHANGE_1
+  eventDescription: ＆「レアリティースター」入手時＋2
+  skillEffectRange: ALL
+skillId2: 133501
+pieceSkill2:
+  id: 133501
+  groupId: 1144
+  name: リアリスト
+  type: ABILITY
+  shortDescription: 必ず幻惑無効 & CCの獲得量UP[Ⅰ](クエストでのDROP分、サポート装備分は適用されません)
+  artId1: 690209100
+  art1:
+    artId: 690209100
+    verbCode: IGNORE
+    effectCode: BLINDNESS
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 700215901
+  art2:
+    artId: 700215901
+    verbCode: OTHER
+    effectCode: GOLD_UP
+    targetId: SELF
+    effectValue: 50
+    growPoint: 0
+  eventId: 1056
+  eventArtId1: 1056002
+  eventArt1:
+    artId: 1056002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1056_EXCHANGE_1
+  eventDescription: ＆「レアリティースター」入手時＋5
+  skillEffectRange: ALL
+description: 「フェリシアちゃん、ご飯作ったから久しぶりに一緒に食べよう」＠「石があるんだから、んなひつよーねーだろ！オレ外で食うから！」＠「…………」＠（あの頃より豊かになった。だけど本当に今の私は幸せなのかな…）
+illustrator: PAPA
+openDate: 2019/04/15 15:10:00
+...

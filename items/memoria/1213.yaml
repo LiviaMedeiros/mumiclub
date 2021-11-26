@@ -1,0 +1,65 @@
+---
+pieceId: 1213
+pieceType: SKILL
+pieceName: 代わりに話してくれるもの
+attributeId: ALL
+rank: RANK_3
+charaIds: "3049"
+charaList:
+- charaId: 3049
+  name: 雪野 かなえ
+attack: 0
+defense: 430
+hp: 510
+skillId: 121300
+pieceSkill:
+  id: 121300
+  groupId: 1082
+  name: リフレッシュ
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: デバフ解除 & 状態異常解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200201000
+  art2:
+    artId: 200201000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+skillId2: 121301
+pieceSkill2:
+  id: 121301
+  groupId: 1082
+  name: リフレッシュ
+  type: SKILL
+  intervalTurn: 2
+  shortDescription: デバフ解除 & 状態異常解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200201000
+  art2:
+    artId: 200201000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+description: 「…………」＠静かに見据える先にあるものは、自分が変わった証＠１音、１音、指で弾いて音を空気に滑らせていくと、＠張り詰めていた心の弦も緩んで、気持ち良く音を立てている気がする
+illustrator: ma-sa
+openDate: 2018/05/21 15:10:00
+...

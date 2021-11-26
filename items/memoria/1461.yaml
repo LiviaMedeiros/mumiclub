@@ -1,0 +1,88 @@
+---
+pieceId: 1461
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 念願のチョコデート！
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 632
+hp: 569
+skillId: 146100
+pieceSkill:
+  id: 146100
+  groupId: 1085
+  name: グリッターライズ[Ⅱ]
+  type: SKILL
+  intervalTurn: 11
+  shortDescription: 攻撃力UP[Ⅱ] & MP獲得量UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 330201102
+  art1:
+    artId: 330201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201902
+  art2:
+    artId: 330201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1124
+  eventArtId1: 1124001
+  eventArt1:
+    artId: 1124001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1124_KEY
+  eventDescription: ＆宇宙一のレシピ＋1
+  skillEffectRange: ALL
+skillId2: 146101
+pieceSkill2:
+  id: 146101
+  groupId: 1085
+  name: グリッターライズ[Ⅲ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 攻撃力UP[Ⅲ] & MP獲得量UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 330201103
+  art1:
+    artId: 330201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201903
+  art2:
+    artId: 330201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1124
+  eventArtId1: 1124002
+  eventArt1:
+    artId: 1124002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1124_KEY
+  eventDescription: ＆宇宙一のレシピ＋5
+  skillEffectRange: ALL
+description: バレンタインデーの１日は、穏やかに過ぎていく＠「見て、月夜ちゃん！期間限定のチョコドリンクだって！」＠「まぁ…！ぜひ飲んでみたいでございます」＠ごく普通の会話が、何よりも安らげるふたりの甘い時間
+illustrator: 星和貴
+openDate: 2020/02/14 15:10:00
+...

@@ -1,0 +1,82 @@
+---
+pieceId: 1550
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 知り合い以上、友だち未満
+attributeId: ALL
+rank: RANK_4
+attack: 804
+defense: 0
+hp: 924
+skillId: 155000
+pieceSkill:
+  id: 155000
+  groupId: 1119
+  name: パーシストウェポン・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅴ] & 確率で挑発無視[Ⅴ]
+  artId1: 690206105
+  art1:
+    artId: 690206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId2: 690219005
+  art2:
+    artId: 690219005
+    verbCode: IGNORE
+    effectCode: PROVOKE
+    targetId: SELF
+    growPoint: 0
+    probability: 500
+  eventId: 1114
+  eventArtId1: 1114003
+  eventArt1:
+    artId: 1114003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1114_KEY
+  eventDescription: ＆「白紙の便箋」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 155001
+pieceSkill2:
+  id: 155001
+  groupId: 1119
+  name: パーシストウェポン・アデプト[Ⅵ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅵ] & 確率で挑発無視[Ⅷ]
+  artId1: 690206106
+  art1:
+    artId: 690206106
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 690219008
+  art2:
+    artId: 690219008
+    verbCode: IGNORE
+    effectCode: PROVOKE
+    targetId: SELF
+    growPoint: 0
+    probability: 650
+  eventId: 1114
+  eventArtId1: 1114004
+  eventArt1:
+    artId: 1114004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1114_KEY
+  eventDescription: ＆「白紙の便箋」追加獲得数＋15
+  skillEffectRange: ALL
+description: 駄菓子屋に来るのが初めてで浮かれていたり＠水あめやグミに驚いて、美味しそうに食べたり…＠泣き虫なところしか知らなかったから、なんだか新鮮＠…別に、仲良くなったわけじゃないけど
+illustrator: ―
+openDate: 2020/10/12 15:10:00
+...

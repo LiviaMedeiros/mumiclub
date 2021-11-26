@@ -1,0 +1,112 @@
+---
+pieceId: 1071
+pieceType: SKILL
+pieceName: 果たすと誓った約束
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 800
+hp: 800
+skillId: 107110
+pieceSkill:
+  id: 107110
+  groupId: 1121
+  name: イネヴィタブル[Ⅴ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 確率でクリティカル[Ⅴ] & 必ず回避無効(自/3T)
+  messageId: 70
+  artId1: 630206305
+  art1:
+    artId: 630206305
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 300
+  artId2: 630208100
+  art2:
+    artId: 630208100
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  regularEventId: 2009
+  regularEventArtId1: 370201501
+  regularEventArt1:
+    artId: 370201501
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 7
+    growPoint: 25
+  regularEventArtId2: 530005600
+  regularEventArt2:
+    artId: 530005600
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  regularEventDescription: 【殲滅戦時追加で状態異常耐性UP[Ⅰ](自/7T) & 必ず幻惑(敵単/3T)】
+  skillEffectRange: ALL
+skillId2: 107111
+pieceSkill2:
+  id: 107111
+  groupId: 1121
+  name: イネヴィタブル[Ⅵ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率でクリティカル[Ⅵ] & 必ず回避無効(自/3T)
+  messageId: 70
+  artId1: 630206306
+  art1:
+    artId: 630206306
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 350
+  artId2: 630208100
+  art2:
+    artId: 630208100
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  regularEventId: 2009
+  regularEventArtId1: 370201503
+  regularEventArt1:
+    artId: 370201503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 7
+    growPoint: 25
+  regularEventArtId2: 530005600
+  regularEventArt2:
+    artId: 530005600
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  regularEventDescription: 【殲滅戦時追加で状態異常耐性UP[Ⅲ](自/7T) & 必ず幻惑(敵単/3T)】
+  skillEffectRange: ALL
+description: 「あの時、私は約束をした。必ずあなたを守り、そして救う、と。＠たとえ時の大河を何度渡ることになろうとも、私は後悔なんてしない。＠立ち塞がる敵がいるのなら、引き金を引くことも躊躇わない。＠待っていてね、鹿目さん…私が運命を変えてみせるから…！」
+illustrator: 谷口淳一郎
+...

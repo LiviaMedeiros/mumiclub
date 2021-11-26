@@ -1,0 +1,73 @@
+---
+pieceId: 1546
+pieceType: SKILL
+pieceName: お近づきのしるし
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 699
+hp: 579
+skillId: 154600
+pieceSkill:
+  id: 154600
+  groupId: 1129
+  name: リジェネレイト・シールド[Ⅱ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: HP自動回復[Ⅱ] & ダメージカット状態[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630207702
+  art1:
+    artId: 630207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 630206202
+  art2:
+    artId: 630206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 154601
+pieceSkill2:
+  id: 154601
+  groupId: 1129
+  name: リジェネレイト・シールド[Ⅱ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: HP自動回復[Ⅱ] & ダメージカット状態[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630207702
+  art1:
+    artId: 630207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 630206202
+  art2:
+    artId: 630206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: ネズミ捕り式のバネが仕込まれた、ガムそっくりのオモチャ＠むかし懐かしすぎて、その存在を忘れられたこの時代こそ＠チープないたずらオモチャが真価を発揮する＠「ヘヘヘッ、これは…お近づきのしるし！」
+illustrator: 星和貴
+openDate: 2020/09/28 15:10:00
+...

@@ -1,0 +1,84 @@
+---
+pieceId: 1512
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 手に手を添えて
+attributeId: ALL
+rank: RANK_3
+attack: 571
+defense: 0
+hp: 631
+skillId: 151200
+pieceSkill:
+  id: 151200
+  groupId: 1085
+  name: スマイト・アデプト[Ⅰ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅰ] & Charge後ダメージUP[Ⅰ]
+  artId1: 390201101
+  art1:
+    artId: 390201101
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  artId2: 390201701
+  art2:
+    artId: 390201701
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  eventId: 1102
+  eventArtId1: 1102001
+  eventArt1:
+    artId: 1102001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_SINGLERAID_1102_EXCHANGE_1
+  eventDescription: ＆「天使のメダル」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 151201
+pieceSkill2:
+  id: 151201
+  groupId: 1085
+  name: スマイト・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & Charge後ダメージUP[Ⅱ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 390201702
+  art2:
+    artId: 390201702
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  eventId: 1102
+  eventArtId1: 1102002
+  eventArt1:
+    artId: 1102002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_SINGLERAID_1102_EXCHANGE_1
+  eventDescription: ＆「天使のメダル」追加獲得数＋5
+  skillEffectRange: ALL
+description: 「柄は強く握りすぎないで…余計な力はいらないのよ」＠左手に添えられたぬくもりに、故郷の記憶が脳裏をよぎる＠キラキラと瞳を輝かせて、ふたりを見上げていた＠あのいとおしい笑顔とともに
+illustrator: ―
+openDate: 2020/06/19 15:10:00
+...

@@ -1,0 +1,65 @@
+---
+pieceId: 1260
+pieceType: ABILITY
+pieceName: 開けたら許さないから
+attributeId: ALL
+rank: RANK_4
+attack: 770
+defense: 0
+hp: 850
+skillId: 126000
+pieceSkill:
+  id: 126000
+  groupId: 1147
+  name: バインド・ブレイド[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で拘束(1T)を付与[Ⅱ] & 与えるダメージUP[Ⅳ]
+  artId1: 690209802
+  art1:
+    artId: 690209802
+    verbCode: ENCHANT
+    effectCode: RESTRAINT
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 150
+  artId2: 390201304
+  art2:
+    artId: 390201304
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 126001
+pieceSkill2:
+  id: 126001
+  groupId: 1147
+  name: バインド・ブレイド[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で拘束(1T)を付与[Ⅲ] & 与えるダメージUP[Ⅴ]
+  artId1: 690209803
+  art1:
+    artId: 690209803
+    verbCode: ENCHANT
+    effectCode: RESTRAINT
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 200
+  artId2: 390201305
+  art2:
+    artId: 390201305
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 「み、見た!?見てないよね!?＠え…………何を、って？＠もちろん、撫子の部屋のクローゼットだよ！＠開けたら絶対に許さないから」
+illustrator: ―
+openDate: 2018/09/25 15:10:00
+...

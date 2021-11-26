@@ -1,0 +1,75 @@
+---
+pieceId: 1299
+pieceType: SKILL
+pieceName: 壊れた世界で
+attributeId: ALL
+rank: RANK_3
+charaIds: "2002"
+charaList:
+- charaId: 2002
+  name: 暁美 ほむら
+attack: 0
+defense: 428
+hp: 515
+skillId: 129900
+pieceSkill:
+  id: 129900
+  groupId: 1124
+  name: タイムスキップ[Ⅶ]
+  type: SKILL
+  intervalTurn: 12
+  shortDescription: 必ず回避 & 確率で追撃[Ⅶ](自/1T)
+  messageId: 70
+  artId1: 610206900
+  art1:
+    artId: 610206900
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610207207
+  art2:
+    artId: 610207207
+    verbCode: CONDITION_GOOD
+    effectCode: PURSUE
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+skillId2: 129901
+pieceSkill2:
+  id: 129901
+  groupId: 1124
+  name: タイムスキップ[Ⅹ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 必ず回避 & 確率で追撃[Ⅹ](自/1T)
+  messageId: 70
+  artId1: 610206900
+  art1:
+    artId: 610206900
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610207210
+  art2:
+    artId: 610207210
+    verbCode: CONDITION_GOOD
+    effectCode: PURSUE
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 550
+  skillEffectRange: ALL
+description: 「ほむらちゃん、過去に戻れるんだよね？＠こんな終わり方にならないように、歴史を変えられるって、言ってたよね…」＠まどかの“命”とともに託された想いを胸に、彼女はこの時間に幕を引き＠再び過去へと向かう…いつの日か、まどかを救う未来を求めて
+illustrator: かにぱんだ
+openDate: 2019/01/21 15:10:00
+...

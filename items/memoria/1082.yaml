@@ -1,0 +1,52 @@
+---
+pieceId: 1082
+pieceType: SKILL
+pieceName: つかの間の休息
+attributeId: ALL
+rank: RANK_3
+charaIds: "2005"
+charaList:
+- charaId: 2005
+  name: 巴 マミ
+attack: 0
+defense: 501
+hp: 421
+skillId: 108200
+pieceSkill:
+  id: 108200
+  groupId: 1161
+  name: モノポライズドロー
+  type: SKILL
+  intervalTurn: 15
+  shortDescription: 自分のDiscドロー
+  messageId: 70
+  artId1: 700211700
+  art1:
+    artId: 700211700
+    verbCode: DRAW
+    effectCode: CHARACTER
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 108201
+pieceSkill2:
+  id: 108201
+  groupId: 1161
+  name: モノポライズドロー
+  type: SKILL
+  intervalTurn: 13
+  shortDescription: 自分のDiscドロー
+  messageId: 70
+  artId1: 700211700
+  art1:
+    artId: 700211700
+    verbCode: DRAW
+    effectCode: CHARACTER
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 優雅なティータイム＠戦い続けることを宿命づけられた彼女達には＠休息も大切なのである
+illustrator: かにぱんだ
+...
