@@ -1,0 +1,92 @@
+---
+id: 17669
+shopId: 418
+shopItemType: LIVE2D
+genericId: "3008_50"
+chara:
+  id: 3008
+  attributeId: WATER
+  initialType: ATTACK
+  defaultCardId: 30082
+  defaultCard:
+    cardId: 30082
+    rank: RANK_2
+    attributeId: WATER
+    initialType: ATTACK
+    growthType: ATTACK
+    attack: 1322
+    defense: 994
+    hp: 3085
+    miniCharaNo: 300800
+    charaNo: 3008
+    cardName: 志伸 あきら
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30082
+      groupId: 1012
+      name: 巨拳連弾
+      shortDescription: 敵単体にダメージ[Ⅰ] & Charge後ダメージUP(味全/3T)
+      artId1: 100000101
+      art1:
+        artId: 100000101
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9600
+        growPoint: 100
+      artId2: 330301701
+      art2:
+        artId: 330301701
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30082
+      groupId: 1091
+      name: ボクと拳を重ねて！
+      shortDescription: Charge後ダメージUP[Ⅲ] & 攻撃力UP[Ⅲ]
+      artId1: 310401703
+      art1:
+        artId: 310401703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401103
+      art2:
+        artId: 310401103
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: しのぶ あきら
+  description: 外見や言動もボーイッシュな魔法少女。空手道場を営む父に、幼い頃＠から男の子たちと等しく鍛えられ育てられてきた。＠頼まれ事は断れない性格で、何でもついつい引き受けて解決してしま＠うことから「参京院のトラブルシューター」と呼ばれている。
+live2d:
+  charaId: 3008
+  live2dId: "50"
+  description: クリスマス衣装(2019)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_BRANCH_1151_EXCHANGE_1
+needNumber: 1
+limitedNumber: 1
+name: 志伸 あきらの衣装【クリスマス】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：有】
+sortkey: 7
+isDetailView: false
+startAt: 2021/11/29 15:10:00
+endAt: 2021/12/17 14:59:59
+...

@@ -1,0 +1,111 @@
+---
+id: 17577
+shopId: 416
+shopItemType: MAXPIECE
+genericId: "1572"
+piece:
+  pieceId: 1572
+  pieceType: ABILITY
+  pieceName: その星屑は奇跡になって
+  attributeId: ALL
+  rank: RANK_3
+  attack: 583
+  defense: 0
+  hp: 643
+  skillId: 157200
+  pieceSkill:
+    id: 157200
+    groupId: 1085
+    name: ペネトレイトライジング[Ⅱ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅱ] & 確率で防御無視[Ⅱ]
+    artId1: 390201102
+    art1:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId2: 690206602
+    art2:
+      artId: 690206602
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      growPoint: 0
+      probability: 150
+    eventId: 1151
+    eventArtId1: 1151001
+    eventArt1:
+      artId: 1151001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 1000
+      genericValue: EVENT_BRANCH_1151_PART_1
+    eventArtId2: 1151005
+    eventArt2:
+      artId: 1151005
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 1000
+      genericValue: EVENT_BRANCH_1151_PART_2
+    eventDescription: ＆「マジカルキャンディ」「マジカルコイン」追加獲得数＋1
+    skillEffectRange: ALL
+  skillId2: 157201
+  pieceSkill2:
+    id: 157201
+    groupId: 1085
+    name: ペネトレイトライジング[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅲ] & 確率で防御無視[Ⅲ]
+    artId1: 390201103
+    art1:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId2: 690206603
+    art2:
+      artId: 690206603
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      growPoint: 0
+      probability: 200
+    eventId: 1151
+    eventArtId1: 1151002
+    eventArt1:
+      artId: 1151002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1151_PART_1
+    eventArtId2: 1151006
+    eventArt2:
+      artId: 1151006
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1151_PART_2
+    eventDescription: ＆「マジカルキャンディ」「マジカルコイン」追加獲得数＋5
+    skillEffectRange: ALL
+  description: 「いけー、鶴乃！星の彼方までぶっちぎれ！」＠「いいからちゃんとつかまって！落っこちても知らないよ！」＠それは、笑顔がもたらす奇跡…＠キラキラ星屑をこぼしながら、トナカイサンタは夜空を駆ける
+  illustrator: ―
+  openDate: 2020/12/04 16:10:00
+consumeType: ITEM
+needItemId: EVENT_BRANCH_1151_PART_1
+needNumber: 50
+limitedNumber: 1
+name: その星屑は奇跡になって
+description: メモリア『その星屑は奇跡になって』(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 1
+isDetailView: false
+startAt: 2021/11/29 15:10:00
+endAt: 2021/12/17 14:59:59
+...
