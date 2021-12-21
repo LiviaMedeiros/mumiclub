@@ -1,0 +1,69 @@
+---
+pieceId: 1701
+pieceType: ABILITY
+pieceName: 虚構の救世主
+attributeId: ALL
+rank: RANK_3
+charaIds: "2502"
+charaList:
+- charaId: 2502
+  name: ホーリーマミ アニメver.
+attack: 520
+defense: 0
+hp: 440
+skillId: 170100
+pieceSkill:
+  id: 170100
+  groupId: 1119
+  name: モラールウェポン・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅲ] & MP獲得量UP[Ⅱ]
+  artId1: 690206103
+  art1:
+    artId: 690206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201902
+  art2:
+    artId: 390201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 170101
+pieceSkill2:
+  id: 170101
+  groupId: 1119
+  name: モラールウェポン・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅳ] & MP獲得量UP[Ⅲ]
+  artId1: 690206104
+  art1:
+    artId: 690206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 390201903
+  art2:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 真実に傷付き、運命から解放されたいと望む少女に＠そのための力を与えると宝冠は囁く＠身も心も捧げて得たのは、解放に尽くす喜びだけ＠解放への想いも葛藤も、今では少女の記憶の彼方
+illustrator: mepo
+openDate: 2021/12/10 15:00:00
+...
