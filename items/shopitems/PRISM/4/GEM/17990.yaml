@@ -1,0 +1,86 @@
+---
+id: 17990
+shopId: 4
+shopItemType: GEM
+genericId: "3039"
+chara:
+  id: 3039
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 30393
+  defaultCard:
+    cardId: 30393
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: DEFHP
+    attack: 1389
+    defense: 1423
+    hp: 4394
+    miniCharaNo: 303900
+    charaNo: 3039
+    cardName: 三穂野 せいら
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30393
+      groupId: 1014
+      name: クリフハンガー
+      shortDescription: 敵全体にダメージ[Ⅲ] & 確率でスタン(敵全/1T)
+      artId1: 100300103
+      art1:
+        artId: 100300103
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3200
+        growPoint: 100
+      artId2: 510304103
+      art2:
+        artId: 510304103
+        verbCode: CONDITION_BAD
+        effectCode: STUN
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 350
+    cardSkill:
+      id: 30393
+      groupId: 1085
+      name: ダブルキャストで！
+      shortDescription: 攻撃力UP[Ⅴ] & ダメージカット状態[Ⅴ]
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406205
+      art2:
+        artId: 610406205
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みほの せいら
+  description: 映画監督志望の魔法少女。いつか自分の映画を撮るべく、常にネタを探しているが、そのことでトラブルを呼び込んでしまうことも。勝ち気でしばしば無茶をするが、持ち前の熱意と行動力で周囲を巻き込み、ついには無茶も実現させてしまう。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 9
+name: デスティニージェム
+description: 三穂野せいらの魔力解放に使用するアイテム
+sortkey: 17
+isDetailView: false
+startAt: 2021/12/21 19:00:00
+...

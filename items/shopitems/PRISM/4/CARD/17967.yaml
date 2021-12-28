@@ -1,0 +1,154 @@
+---
+id: 17967
+shopId: 4
+shopItemType: CARD
+genericId: "30282"
+cardNum: 1
+card:
+  cardId: 30282
+  rank: RANK_2
+  attributeId: FIRE
+  initialType: ATTACK
+  growthType: BALANCE
+  attack: 1300
+  defense: 1006
+  hp: 3122
+  miniCharaNo: 302800
+  charaNo: 3028
+  cardName: 三栗 あやめ
+  commandType1: MPUP
+  commandType2: RANGE_V
+  commandType3: CHARGE
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 30282
+    groupId: 1012
+    name: 未確認飛行ファイヤー
+    shortDescription: 敵単体にダメージ[Ⅰ] & 必ずやけど(敵単/1T)
+    artId1: 100000101
+    art1:
+      artId: 100000101
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 9600
+      growPoint: 100
+    artId2: 510004800
+    art2:
+      artId: 510004800
+      verbCode: CONDITION_BAD
+      effectCode: BURN
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 30282
+    groupId: 1091
+    name: あちしの力、見せてやんよ！
+    shortDescription: Charge後ダメージUP[Ⅲ] & 必ずやけど
+    artId1: 310401703
+    art1:
+      artId: 310401703
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: CONNECT
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610410300
+    art2:
+      artId: 610410300
+      verbCode: ENCHANT
+      effectCode: BURN
+      targetId: CONNECT
+      effectValue: 100
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3028
+  attributeId: FIRE
+  initialType: ATTACK
+  defaultCardId: 30282
+  defaultCard:
+    cardId: 30282
+    rank: RANK_2
+    attributeId: FIRE
+    initialType: ATTACK
+    growthType: BALANCE
+    attack: 1300
+    defense: 1006
+    hp: 3122
+    miniCharaNo: 302800
+    charaNo: 3028
+    cardName: 三栗 あやめ
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30282
+      groupId: 1012
+      name: 未確認飛行ファイヤー
+      shortDescription: 敵単体にダメージ[Ⅰ] & 必ずやけど(敵単/1T)
+      artId1: 100000101
+      art1:
+        artId: 100000101
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9600
+        growPoint: 100
+      artId2: 510004800
+      art2:
+        artId: 510004800
+        verbCode: CONDITION_BAD
+        effectCode: BURN
+        targetId: TARGET
+        effectValue: 100
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 30282
+      groupId: 1091
+      name: あちしの力、見せてやんよ！
+      shortDescription: Charge後ダメージUP[Ⅲ] & 必ずやけど
+      artId1: 310401703
+      art1:
+        artId: 310401703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610410300
+      art2:
+        artId: 610410300
+        verbCode: ENCHANT
+        effectCode: BURN
+        targetId: CONNECT
+        effectValue: 100
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みくり あやめ
+  description: 神浜市の施設「つつじの家」出身の魔法少女。＠１歳の頃に捨てられて以来、つつじの家で育つ。＠純粋で真っ直ぐな心の持ち主で、なおかつとても野性的。＠常にアクティブで、何でも向こう見ずに突き進んでしまうためにトラブルも頻繁に巻き起こしてきた。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 100
+limitedNumber: 1
+name: 三栗あやめ
+description: 所持している場合、デスティニージェムを獲得
+recommend: true
+sortkey: 1
+isDetailView: false
+startAt: 2021/12/21 19:00:00
+...

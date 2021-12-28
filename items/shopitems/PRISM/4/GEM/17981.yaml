@@ -1,0 +1,96 @@
+---
+id: 17981
+shopId: 4
+shopItemType: GEM
+genericId: "3014"
+chara:
+  id: 3014
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 30142
+  defaultCard:
+    cardId: 30142
+    rank: RANK_2
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 1076
+    defense: 1047
+    hp: 3866
+    miniCharaNo: 301400
+    charaNo: 3014
+    cardName: 桑水 せいか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30142
+      groupId: 1014
+      name: サモン・ウェーブ
+      shortDescription: 敵全体にダメージ[Ⅰ] & 確率で霧(敵全/3T)
+      artId1: 100300101
+      art1:
+        artId: 100300101
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3000
+        growPoint: 100
+      artId2: 530305108
+      art2:
+        artId: 530305108
+        verbCode: CONDITION_BAD
+        effectCode: FOG
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 0
+        probability: 475
+    cardSkill:
+      id: 30142
+      groupId: 1085
+      name: あの…その…私と…その…
+      shortDescription: 攻撃力UP[Ⅳ] & Charge後ダメージUP[Ⅲ] & 確率で霧
+      artId1: 310401104
+      art1:
+        artId: 310401104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401703
+      art2:
+        artId: 310401703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 25
+      artId3: 9099
+      art3:
+        artId: 9099
+        verbCode: ENCHANT
+        effectCode: FOG
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: くみ せいか
+  description: 内向きな性格で、感情を素直に表現することができない魔法少女。伊吹れいらと相野みとと同じ団地に住んでいて、そのふたり以外とは距離を置いて人付き合いをする。冷たい人間に見られがちだが、実は密かに熱血しているドラマや漫画が好き。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 30
+limitedNumber: 30
+name: デスティニージェム
+description: 桑水せいかの魔力解放に使用するアイテム
+sortkey: 11
+isDetailView: false
+startAt: 2021/12/21 19:00:00
+...

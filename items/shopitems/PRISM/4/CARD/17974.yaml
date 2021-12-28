@@ -1,0 +1,148 @@
+---
+id: 17974
+shopId: 4
+shopItemType: CARD
+genericId: "10193"
+cardNum: 1
+card:
+  cardId: 10193
+  rank: RANK_3
+  attributeId: LIGHT
+  initialType: MAGIA
+  growthType: DEFHP
+  attack: 1543
+  defense: 1197
+  hp: 3714
+  miniCharaNo: 101900
+  charaNo: 1019
+  cardName: 天音 月咲
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10193
+    groupId: 1014
+    name: 桜語り
+    shortDescription: 敵全体にダメージ[Ⅱ] & Accele MPUP(味全/3T)
+    artId1: 100300102
+    art1:
+      artId: 100300102
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3100
+      growPoint: 100
+    artId2: 330301603
+    art2:
+      artId: 330301603
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 10193
+    groupId: 1079
+    name: これがウチらのハーモニー
+    shortDescription: MP回復[Ⅳ] & 月夜にコネクトすると さらにMP回復
+    artId1: 200400504
+    art1:
+      artId: 200400504
+      verbCode: HEAL
+      effectCode: MP
+      targetId: CONNECT
+      effectValue: 200
+      growPoint: 10
+    artId2: 9033
+    art2:
+      artId: 9033
+      verbCode: HEAL
+      effectCode: MP
+      targetId: LIMITED
+      effectValue: 200
+      growPoint: 10
+      limitedValue: "1018"
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1019
+  attributeId: LIGHT
+  initialType: MAGIA
+  defaultCardId: 10193
+  defaultCard:
+    cardId: 10193
+    rank: RANK_3
+    attributeId: LIGHT
+    initialType: MAGIA
+    growthType: DEFHP
+    attack: 1543
+    defense: 1197
+    hp: 3714
+    miniCharaNo: 101900
+    charaNo: 1019
+    cardName: 天音 月咲
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10193
+      groupId: 1014
+      name: 桜語り
+      shortDescription: 敵全体にダメージ[Ⅱ] & Accele MPUP(味全/3T)
+      artId1: 100300102
+      art1:
+        artId: 100300102
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3100
+        growPoint: 100
+      artId2: 330301603
+      art2:
+        artId: 330301603
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10193
+      groupId: 1079
+      name: これがウチらのハーモニー
+      shortDescription: MP回復[Ⅳ] & 月夜にコネクトすると さらにMP回復
+      artId1: 200400504
+      art1:
+        artId: 200400504
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 200
+        growPoint: 10
+      artId2: 9033
+      art2:
+        artId: 9033
+        verbCode: HEAL
+        effectCode: MP
+        targetId: LIMITED
+        effectValue: 200
+        growPoint: 10
+        limitedValue: "1018"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あまね つかさ
+  description: 月夜の双子の妹にあたる、解放を望む魔法少女。＠実家の竹細工工房で、父とその弟子のために、家事や家計を一手に引き受けている。＠明るく友人が多い性格だが、自身の本音をさらけ出せるのは月夜だけだと思っている。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: 天音月咲
+description: 所持している場合、デスティニージェムを獲得
+recommend: true
+sortkey: 6
+isDetailView: false
+startAt: 2021/12/21 19:00:00
+...

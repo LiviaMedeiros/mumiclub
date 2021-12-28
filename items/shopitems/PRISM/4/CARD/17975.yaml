@@ -1,0 +1,146 @@
+---
+id: 17975
+shopId: 4
+shopItemType: CARD
+genericId: "40233"
+cardNum: 1
+card:
+  cardId: 40233
+  rank: RANK_3
+  attributeId: WATER
+  initialType: MAGIA
+  growthType: HP
+  attack: 1543
+  defense: 1175
+  hp: 3782
+  miniCharaNo: 402300
+  charaNo: 4023
+  cardName: メリッサ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 40233
+    groupId: 1012
+    name: デザンテグラシオン
+    shortDescription: 敵単体にダメージ[Ⅳ] & 防御力DOWN(敵単/3T)
+    artId1: 100000104
+    art1:
+      artId: 100000104
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 10560
+      growPoint: 100
+    artId2: 430002103
+    art2:
+      artId: 430002103
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 40233
+    groupId: 1090
+    name: 誰が欠けてもダメなんですっ！
+    shortDescription: Accele MPUP[Ⅴ] & デバフ解除
+    artId1: 310401605
+    art1:
+      artId: 310401605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId2: 200400800
+    art2:
+      artId: 200400800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: CONNECT
+      growPoint: 0
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4023
+  attributeId: WATER
+  initialType: MAGIA
+  defaultCardId: 40233
+  defaultCard:
+    cardId: 40233
+    rank: RANK_3
+    attributeId: WATER
+    initialType: MAGIA
+    growthType: HP
+    attack: 1543
+    defense: 1175
+    hp: 3782
+    miniCharaNo: 402300
+    charaNo: 4023
+    cardName: メリッサ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 40233
+      groupId: 1012
+      name: デザンテグラシオン
+      shortDescription: 敵単体にダメージ[Ⅳ] & 防御力DOWN(敵単/3T)
+      artId1: 100000104
+      art1:
+        artId: 100000104
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10560
+        growPoint: 100
+      artId2: 430002103
+      art2:
+        artId: 430002103
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 40233
+      groupId: 1090
+      name: 誰が欠けてもダメなんですっ！
+      shortDescription: Accele MPUP[Ⅴ] & デバフ解除
+      artId1: 310401605
+      art1:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400800
+      art2:
+        artId: 200400800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: CONNECT
+        growPoint: 0
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: めりっさ
+  description: タルトの身の周りの世話をするために従軍している、中世フランスの魔法少女。ジャンヌ・ダルクの戦友として知られる傭兵隊長“憤怒（ラ・イル）”の娘。普段は世話好きでおしとやかな少女だが、一度キレるとその怒りは誰にも止められないという。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 1
+name: メリッサ
+description: 魔法少女『メリッサ』
+recommend: true
+sortkey: 7
+isDetailView: false
+startAt: 2021/12/21 19:00:00
+...

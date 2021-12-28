@@ -1,0 +1,94 @@
+---
+id: 17993
+shopId: 4
+shopItemType: GEM
+genericId: "3045"
+chara:
+  id: 3045
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 30453
+  defaultCard:
+    cardId: 30453
+    rank: RANK_3
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1329
+    defense: 1315
+    hp: 4922
+    miniCharaNo: 304500
+    charaNo: 3045
+    cardName: 柚希 りおん
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30453
+      groupId: 1014
+      name: シトロン・プリンセス・キッス
+      shortDescription: 敵全体にダメージ[Ⅲ] & 防御力DOWN(敵全/3T) & 確率で拘束(敵全/1T)
+      artId1: 100300103
+      art1:
+        artId: 100300103
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3200
+        growPoint: 100
+      artId2: 430302107
+      art2:
+        artId: 430302107
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId3: 510304304
+      art3:
+        artId: 510304304
+        verbCode: CONDITION_BAD
+        effectCode: RESTRAINT
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 375
+    cardSkill:
+      id: 30453
+      groupId: 1085
+      name: あたしがいなきゃダメなんだから
+      shortDescription: 攻撃力UP[Ⅴ] & 必ず拘束
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610409900
+      art2:
+        artId: 610409900
+        verbCode: ENCHANT
+        effectCode: RESTRAINT
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ゆずき りおん
+  description: 双子の姉への独占欲が強い、超ド級のシスコン魔法少女。姉に近付く人は誰であろうと邪魔者扱い。怒りの原因は全てヤキモチ。ここまで姉を愛しているのに、愛情表現がひねくれ過ぎており、常に空回り。姉には想いがまったく伝わっていない。
+consumeType: ITEM
+needItemId: PRISM
+needNumber: 150
+limitedNumber: 9
+name: デスティニージェム
+description: 柚希りおんの魔力解放に使用するアイテム
+sortkey: 19
+isDetailView: false
+startAt: 2021/12/21 19:00:00
+...
