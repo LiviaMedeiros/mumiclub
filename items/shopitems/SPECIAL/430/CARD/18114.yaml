@@ -1,0 +1,185 @@
+---
+id: 18114
+shopId: 430
+shopItemType: CARD
+genericId: "11184"
+cardNum: 2
+card:
+  cardId: 11184
+  rank: RANK_4
+  attributeId: WATER
+  initialType: HEAL
+  growthType: ATTACK
+  attack: 1752
+  defense: 1777
+  hp: 5408
+  miniCharaNo: 111800
+  charaNo: 1118
+  cardName: 天音姉妹
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 11184
+    groupId: 1014
+    name: 三日月甘蕉船
+    shortDescription: 敵全体にダメージ[Ⅳ] & HP自動回復 & 状態異常耐性UP(味全/3T)
+    artId1: 100300104
+    art1:
+      artId: 100300104
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3300
+      growPoint: 100
+    artId2: 630307705
+    art2:
+      artId: 630307705
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: ALL
+      effectValue: 60
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId3: 330301502
+    art3:
+      artId: 330301502
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 11184
+    groupId: 1079
+    name: 涼夏共鳴(レゾナントサマー)
+    shortDescription: MP回復[Ⅵ] & 確率でクリティカル[Ⅶ] & 状態異常解除
+    artId1: 200400506
+    art1:
+      artId: 200400506
+      verbCode: HEAL
+      effectCode: MP
+      targetId: CONNECT
+      effectValue: 250
+      growPoint: 10
+    artId2: 610406307
+    art2:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+    artId3: 200401000
+    art3:
+      artId: 200401000
+      verbCode: REVOKE
+      effectCode: BAD
+      targetId: CONNECT
+      growPoint: 0
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1118
+  attributeId: WATER
+  initialType: HEAL
+  defaultCardId: 11184
+  defaultCard:
+    cardId: 11184
+    rank: RANK_4
+    attributeId: WATER
+    initialType: HEAL
+    growthType: ATTACK
+    attack: 1752
+    defense: 1777
+    hp: 5408
+    miniCharaNo: 111800
+    charaNo: 1118
+    cardName: 天音姉妹
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 11184
+      groupId: 1014
+      name: 三日月甘蕉船
+      shortDescription: 敵全体にダメージ[Ⅳ] & HP自動回復 & 状態異常耐性UP(味全/3T)
+      artId1: 100300104
+      art1:
+        artId: 100300104
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3300
+        growPoint: 100
+      artId2: 630307705
+      art2:
+        artId: 630307705
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: ALL
+        effectValue: 60
+        enableTurn: 3
+        growPoint: 10
+        probability: 1000
+      artId3: 330301502
+      art3:
+        artId: 330301502
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 11184
+      groupId: 1079
+      name: 涼夏共鳴(レゾナントサマー)
+      shortDescription: MP回復[Ⅵ] & 確率でクリティカル[Ⅶ] & 状態異常解除
+      artId1: 200400506
+      art1:
+        artId: 200400506
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 250
+        growPoint: 10
+      artId2: 610406307
+      art2:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+      artId3: 200401000
+      art3:
+        artId: 200401000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: CONNECT
+        growPoint: 0
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あまね しまい
+  title: 水着ver.
+  description: 夏休みを謳歌する双子の魔法少女。＠バナナボートと水鉄砲を駆使して戦いながら、息ぴったりのコンビネーションを発揮する。家のことやマギウスの翼の活動は都合をつけて休んでいるので、海で遊んでいることは周りに秘密。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_3
+needNumber: 1
+limitedNumber: 1
+name: 天音姉妹 水着ver.
+description: デスティニージェム1個のオマケ付き
+sortkey: 15
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

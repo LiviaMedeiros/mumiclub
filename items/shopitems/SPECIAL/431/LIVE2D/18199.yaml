@@ -1,0 +1,84 @@
+---
+id: 18199
+shopId: 431
+shopItemType: LIVE2D
+genericId: "1004_52"
+chara:
+  id: 1004
+  attributeId: TIMBER
+  initialType: DEFENSE
+  defaultCardId: 10042
+  defaultCard:
+    cardId: 10042
+    rank: RANK_2
+    attributeId: TIMBER
+    initialType: DEFENSE
+    growthType: DEFENSE
+    attack: 1000
+    defense: 1322
+    hp: 3993
+    miniCharaNo: 100400
+    charaNo: 1004
+    cardName: 二葉 さな
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10042
+      groupId: 1014
+      name: フォルターゲフェングニス
+      shortDescription: 敵全体にダメージ[Ⅰ] & 防御力UP(味全/3T)
+      artId1: 100300101
+      art1:
+        artId: 100300101
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3000
+        growPoint: 100
+      artId2: 330301202
+      art2:
+        artId: 330301202
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 263
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10042
+      groupId: 1120
+      name: 私が必要なら、いくらでも
+      shortDescription: ダメージカット状態[Ⅶ]
+      artId1: 610406207
+      art1:
+        artId: 610406207
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 600
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ふたば さな
+  description: 常にネガティブ思考の魔法少女。＠家族や周囲から拒絶され、まったく自分に自信が持てなくなっているが、＠他者に対しては優しく、そして自分を必要としてくれる人には従順で、＠気に入るといつもヒッソリとそばに付き添っている。
+live2d:
+  charaId: 1004
+  live2dId: "52"
+  description: お正月衣装
+  defaultOpened: false
+  voicePrefixNo: "52"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1154_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 二葉さなの衣装【お正月】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 7
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

@@ -1,0 +1,84 @@
+---
+id: 18209
+shopId: 431
+shopItemType: MAXPIECE
+genericId: "1580"
+piece:
+  pieceId: 1580
+  pieceType: SKILL
+  pieceName: 丑年は美味しいオレの年
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 840
+  hp: 840
+  skillId: 158000
+  pieceSkill:
+    id: 158000
+    groupId: 1104
+    name: スタン・アタック[Ⅳ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 確率でスタン[Ⅳ](敵単/1T) & 攻撃力UP[Ⅳ](自/3T)
+    messageId: 72
+    artId1: 510004104
+    art1:
+      artId: 510004104
+      verbCode: CONDITION_BAD
+      effectCode: STUN
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 375
+    artId2: 330201104
+    art2:
+      artId: 330201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 158001
+  pieceSkill2:
+    id: 158001
+    groupId: 1104
+    name: スタン・アタック[Ⅳ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 確率でスタン[Ⅳ](敵単/1T) & 攻撃力UP[Ⅳ](自/3T)
+    messageId: 72
+    artId1: 510004104
+    art1:
+      artId: 510004104
+      verbCode: CONDITION_BAD
+      effectCode: STUN
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 375
+    artId2: 330201104
+    art2:
+      artId: 330201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    skillEffectRange: ALL
+  description: 「なぁ、知ってるか？2021年ってウシが主役らしいぞ!?＠やっぱ牛乳ってうめーし、アイスクリームにもなるから当然だよな!?＠しかも、ツノとかカッコイイし、目とか超カワイイんだぞ!?＠あ、こんだけ最強なら来年も再来年もウシ年だろ！オレ自信あるぞ！」
+  illustrator: PAPA
+  openDate: 2021/01/01 00:00:00
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1154_EXCHANGE_2
+needNumber: 3
+limitedNumber: 1
+name: 丑年は美味しいオレの年
+description: メモリア「丑年は美味しいオレの年」(Lv最大/最大限界突破済)
+sortkey: 17
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

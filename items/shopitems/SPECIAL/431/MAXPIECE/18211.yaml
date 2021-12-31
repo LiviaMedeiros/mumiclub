@@ -1,0 +1,98 @@
+---
+id: 18211
+shopId: 431
+shopItemType: MAXPIECE
+genericId: "1446"
+piece:
+  pieceId: 1446
+  pieceType: ABILITY
+  pieceName: 新たな年の真ごころ
+  attributeId: ALL
+  rank: RANK_3
+  attack: 600
+  defense: 0
+  hp: 600
+  skillId: 144600
+  pieceSkill:
+    id: 144600
+    groupId: 1129
+    name: バイタルアタック・アデプト[Ⅰ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅰ] & 攻撃力UP[Ⅱ]
+    artId1: 690207701
+    art1:
+      artId: 690207701
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 20
+      growPoint: 10
+      probability: 1000
+    artId2: 390201102
+    art2:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    eventId: 1082
+    eventArtId1: 1082001
+    eventArt1:
+      artId: 1082001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 1000
+      genericValue: EVENT_DAILYTOWER_1082_EXCHANGE_1
+    eventDescription: ＆お年玉＋1
+    skillEffectRange: ALL
+  skillId2: 144601
+  pieceSkill2:
+    id: 144601
+    groupId: 1129
+    name: バイタルアタック・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅲ] & 攻撃力UP[Ⅱ]
+    artId1: 690207703
+    art1:
+      artId: 690207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      growPoint: 10
+      probability: 1000
+    artId2: 390201102
+    art2:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    eventId: 1082
+    eventArtId1: 1082002
+    eventArt1:
+      artId: 1082002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1082_EXCHANGE_1
+    eventDescription: ＆お年玉＋5
+    skillEffectRange: ALL
+  description: 「うおー!!お年玉っ！」「私…感動しています…」＠「さっすがやちよししょー！太っ腹だよね！」＠「うん…！ありがとうございます…やちよさん！」＠（ふふ…お年玉って、渡す方もこんなに嬉しいものなのね）
+  illustrator: ―
+  openDate: 2020/01/01 00:00:00
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1154_EXCHANGE_2
+needNumber: 3
+limitedNumber: 1
+name: 新たな年の真ごころ
+description: メモリア「新たな年の真ごころ」(Lv最大/最大限界突破済)
+sortkey: 19
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

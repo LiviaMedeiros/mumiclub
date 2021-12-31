@@ -1,0 +1,103 @@
+---
+id: 18097
+shopId: 429
+shopItemType: PIECE
+genericId: "1177"
+piece:
+  pieceId: 1177
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 時を超えた援軍
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 803
+  hp: 803
+  skillId: 117700
+  pieceSkill:
+    id: 117700
+    groupId: 1085
+    name: ペネトレイトアタック[Ⅸ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: 攻撃力UP[Ⅸ] & 確率で防御無視[Ⅷ](自/1T)
+    messageId: 70
+    artId1: 310201109
+    art1:
+      artId: 310201109
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610206608
+    art2:
+      artId: 610206608
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 450
+    eventId: 1061
+    eventArtId1: 1061001
+    eventArt1:
+      artId: 1061001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_SINGLERAID_1061_EXCHANGE_1
+    eventDescription: ＆「聖女のメダル」入手時＋3
+    skillEffectRange: ALL
+  skillId2: 117701
+  pieceSkill2:
+    id: 117701
+    groupId: 1085
+    name: ペネトレイトアタック[Ⅹ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 攻撃力UP[Ⅹ] & 確率で防御無視[Ⅸ](自/1T)
+    messageId: 70
+    artId1: 310201110
+    art1:
+      artId: 310201110
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610206609
+    art2:
+      artId: 610206609
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 500
+    eventId: 1061
+    eventArtId1: 1061002
+    eventArt1:
+      artId: 1061002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_SINGLERAID_1061_EXCHANGE_1
+    eventDescription: ＆「聖女のメダル」入手時＋7
+    skillEffectRange: ALL
+  description: 「どうしてこうなったのって言われると＠ややこしすぎて、説明できそうもないんだけど…＠元はと言えば…多分、みたまさんの勘違いから＠始まったんだと思う…」
+  illustrator: ―
+  openDate: 2018/02/15 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_8
+needNumber: 1
+limitedNumber: 3
+name: メモリア『時を超えた援軍』
+description: 攻撃力UP[Ⅹ] & 確率で防御力無視[Ⅸ](自/1T)
+sortkey: 30
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

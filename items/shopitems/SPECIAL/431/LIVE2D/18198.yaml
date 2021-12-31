@@ -1,0 +1,92 @@
+---
+id: 18198
+shopId: 431
+shopItemType: LIVE2D
+genericId: "1005_52"
+chara:
+  id: 1005
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 10052
+  defaultCard:
+    cardId: 10052
+    rank: RANK_2
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 1305
+    defense: 994
+    hp: 3140
+    miniCharaNo: 100500
+    charaNo: 1005
+    cardName: 深月 フェリシア
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10052
+      groupId: 1012
+      name: ウルトラグレートビッグハンマー
+      shortDescription: 敵単体にダメージ[Ⅰ] & 防御力DOWN(敵単/3T)
+      artId1: 100000101
+      art1:
+        artId: 100000101
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9600
+        growPoint: 100
+      artId2: 430002101
+      art2:
+        artId: 430002101
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 50
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10052
+      groupId: 1087
+      name: ガツンと任せとけって！
+      shortDescription: 与えるダメージUP[Ⅲ] & 必ずカウンター無効
+      artId1: 310401303
+      art1:
+        artId: 310401303
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610408200
+      art2:
+        artId: 610408200
+        verbCode: IGNORE
+        effectCode: COUNTER
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みつき ふぇりしあ
+  description: 元気で勝気で自由気ままな魔法少女。＠魔女を両親の仇として心底憎んでおり、＠そのため「傭兵」を生業として、神浜の各地で＠魔女との戦いを繰り広げている。＠ワイルドな口調はバトル系少年漫画の影響。＠ただ、心根は優しく動物が大好き。
+live2d:
+  charaId: 1005
+  live2dId: "52"
+  description: お正月衣装
+  defaultOpened: false
+  voicePrefixNo: "52"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1154_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 深月フェリシアの衣装【お正月】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 6
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

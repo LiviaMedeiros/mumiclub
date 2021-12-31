@@ -1,0 +1,203 @@
+---
+id: 18139
+shopId: 430
+shopItemType: CARD
+genericId: "12024"
+cardNum: 2
+card:
+  cardId: 12024
+  rank: RANK_4
+  attributeId: WATER
+  initialType: ATTACK
+  growthType: ATTACK
+  attack: 2366
+  defense: 1701
+  hp: 4985
+  miniCharaNo: 120200
+  charaNo: 1202
+  cardName: 七海 やちよ
+  commandType1: MPUP
+  commandType2: RANGE_H
+  commandType3: CHARGE
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 12024
+    groupId: 1022
+    name: ひさかたの天つ印と
+    shortDescription: ランダム5回　ダメージ[Ⅴ] & 攻撃力UP & 水属性攻撃力UP(自/3T) & HP回復(自)
+    artId1: 101200105
+    art1:
+      artId: 101200105
+      verbCode: ATTACK
+      targetId: RANDOM5
+      effectValue: 2244
+      growPoint: 80
+    artId2: 330201104
+    art2:
+      artId: 330201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330221407
+    art3:
+      artId: 330221407
+      verbCode: BUFF
+      effectCode: ATTACK_WATER
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId4: 9498
+    art4:
+      artId: 9498
+      verbCode: HEAL
+      effectCode: HP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 20
+  cardSkill:
+    id: 12024
+    groupId: 1085
+    name: 共に星明りに照らされて
+    shortDescription: 攻撃力UP[Ⅶ] & 必ずダメージカット無視 & 必ず回避無効
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610416515
+    art2:
+      artId: 610416515
+      verbCode: IGNORE
+      effectCode: DAMAGE_DOWN
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 610408100
+    art3:
+      artId: 610408100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1202
+  attributeId: WATER
+  initialType: ATTACK
+  defaultCardId: 12024
+  defaultCard:
+    cardId: 12024
+    rank: RANK_4
+    attributeId: WATER
+    initialType: ATTACK
+    growthType: ATTACK
+    attack: 2366
+    defense: 1701
+    hp: 4985
+    miniCharaNo: 120200
+    charaNo: 1202
+    cardName: 七海 やちよ
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 12024
+      groupId: 1022
+      name: ひさかたの天つ印と
+      shortDescription: ランダム5回　ダメージ[Ⅴ] & 攻撃力UP & 水属性攻撃力UP(自/3T) & HP回復(自)
+      artId1: 101200105
+      art1:
+        artId: 101200105
+        verbCode: ATTACK
+        targetId: RANDOM5
+        effectValue: 2244
+        growPoint: 80
+      artId2: 330201104
+      art2:
+        artId: 330201104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330221407
+      art3:
+        artId: 330221407
+        verbCode: BUFF
+        effectCode: ATTACK_WATER
+        targetId: SELF
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId4: 9498
+      art4:
+        artId: 9498
+        verbCode: HEAL
+        effectCode: HP
+        targetId: SELF
+        effectValue: 200
+        growPoint: 20
+    cardSkill:
+      id: 12024
+      groupId: 1085
+      name: 共に星明りに照らされて
+      shortDescription: 攻撃力UP[Ⅶ] & 必ずダメージカット無視 & 必ず回避無効
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610416515
+      art2:
+        artId: 610416515
+        verbCode: IGNORE
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610408100
+      art3:
+        artId: 610408100
+        verbCode: IGNORE
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ななみ やちよ
+  title: 七夕ver.
+  description: 伝承の少女に共感したことで星々の輝きを身に纏った魔法少女。扇からこぼれる星屑は本人に力を与えるだけでなく、輝きを見た者に幸福感を与える。戦う姿を目撃した人に天女と見間違われたあとで、魔法少女たちの間で話題にもなった。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_3
+needNumber: 1
+limitedNumber: 1
+name: 七海やちよ 七夕ver.
+description: デスティニージェム1個のオマケ付き
+sortkey: 40
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...

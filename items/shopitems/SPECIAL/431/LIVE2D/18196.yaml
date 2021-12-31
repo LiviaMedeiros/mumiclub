@@ -1,0 +1,111 @@
+---
+id: 18196
+shopId: 431
+shopItemType: LIVE2D
+genericId: "2005_53"
+chara:
+  id: 2005
+  attributeId: TIMBER
+  initialType: MAGIA
+  defaultCardId: 20054
+  defaultCard:
+    cardId: 20054
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: MAGIA
+    growthType: ATTACK
+    attack: 2079
+    defense: 1480
+    hp: 4687
+    miniCharaNo: 200500
+    charaNo: 2005
+    cardName: 巴 マミ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 20054
+      groupId: 1014
+      name: ティロ・フィナーレ
+      shortDescription: 敵全体にダメージ[Ⅵ] & 確率で拘束(敵全/1T) & 自分防御DOWN(自/1T)
+      artId1: 100300106
+      art1:
+        artId: 100300106
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3500
+        growPoint: 100
+      artId2: 510304308
+      art2:
+        artId: 510304308
+        verbCode: CONDITION_BAD
+        effectCode: RESTRAINT
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 475
+      artId3: 9011
+      art3:
+        artId: 9011
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: SELF
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+    cardSkill:
+      id: 20054
+      groupId: 1087
+      name: ティロ・デュエット！
+      shortDescription: 与えるダメージUP[Ⅶ] & 必ず拘束 & 必ずやけど
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610409900
+      art2:
+        artId: 610409900
+        verbCode: ENCHANT
+        effectCode: RESTRAINT
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610410300
+      art3:
+        artId: 610410300
+        verbCode: ENCHANT
+        effectCode: BURN
+        targetId: CONNECT
+        effectValue: 100
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ともえ まみ
+  description: 鹿目まどかたちよりも前から見滝原市で魔女たちと戦い続けている＠魔法少女。見滝原中学校の３年生。＠魔法少女としてもまどかたちのよき先輩でもあり、人を救えることを＠誇りに思っている。紅茶好き。
+live2d:
+  charaId: 2005
+  live2dId: "53"
+  description: お正月衣装
+  defaultOpened: false
+  voicePrefixNo: "53"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1154_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 巴マミの衣装【お正月】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 4
+isDetailView: false
+startAt: 2022/01/01 00:00:00
+endAt: 2022/01/18 14:59:59
+...
