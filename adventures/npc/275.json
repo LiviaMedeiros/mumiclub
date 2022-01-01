@@ -1,0 +1,820 @@
+{
+    "npcHelpId": 275,
+    "userCardList": [
+        {
+            "cardId": 10255,
+            "displayCardId": 10255,
+            "revision": 3,
+            "attack": 9014,
+            "defense": 9219,
+            "hp": 27662,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10255,
+                "charaNo": 1025,
+                "miniCharaNo": 102500,
+                "magiaCharaNo": 102500,
+                "cardName": "時女 静香",
+                "rank": "RANK_5",
+                "attributeId": "FIRE",
+                "initialType": "BALANCE",
+                "growthType": "ATTACK",
+                "attack": 2204,
+                "defense": 2358,
+                "hp": 7021,
+                "rateGainMpAtk": 900,
+                "rateGainMpDef": 900,
+                "magiaId": 10255,
+                "cardMagia": {
+                    "id": 10255,
+                    "groupId": 1014,
+                    "name": "巫流・祈祷通天ノ光",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 防御力UP(味全/3T) & 状態強化解除(敵全)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301107,
+                    "art2": {
+                        "artId": 330301107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330301208,
+                    "art3": {
+                        "artId": 330301208,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 488,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 200300900,
+                    "art4": {
+                        "artId": 200300900,
+                        "verbCode": "REVOKE",
+                        "effectCode": "GOOD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 10258,
+                "doppelCardMagia": {
+                    "id": 10258,
+                    "groupId": 1014,
+                    "name": "安寧のドッペル",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & 攻撃力UP & 防御力UP(味全/3T) & 状態強化解除(敵全)",
+                    "artId1": 190102581,
+                    "art1": {
+                        "artId": 190102581,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 7810,
+                        "growPoint": 220
+                    },
+                    "artId2": 330301109,
+                    "art2": {
+                        "artId": 330301109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330301210,
+                    "art3": {
+                        "artId": 330301210,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 563,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 200300900,
+                    "art4": {
+                        "artId": 200300900,
+                        "verbCode": "REVOKE",
+                        "effectCode": "GOOD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelCharaNo": 102500,
+                "doppel": {
+                    "id": 102500,
+                    "name": "安寧のドッペル",
+                    "title": "その姿は、千手",
+                    "description": "この感情の主は、滅私と言えるほど己の人生を誰かのために捧げており、ドッペルも同じような精神を持つことから、両者は深く繋がり合っている。＠このドッペルは主が敵視するものに対して敏感に反応し、不要とあらば相手に利他の素晴らしさを理解してもらうために、暴力をもって教え込もうとする。教えを受ける者は酷いケガを負うことになるが、そのドッペルの姿は黄金に輝いて美しく、繰り返される教えの暴力も芸術的であることから、痛みを忘れるほど惚れ惚れとした気持ちになり、知らない間に虜になってしまうという。",
+                    "designer": "原案：f4samurai、監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2020/09/18 15:10:00"
+                },
+                "skillId": 10255,
+                "cardSkill": {
+                    "id": 10255,
+                    "groupId": 1085,
+                    "name": "共に日の本のために！",
+                    "shortDescription": "攻撃力UP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610406309,
+                    "art2": {
+                        "artId": 610406309,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 700
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "RANGE_H",
+                "commandType5": "CHARGE",
+                "illustrator": "一十九二",
+                "cardCustomize": {
+                    "cardId": 10255,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 70,
+                    "giftId2": 113,
+                    "gift2": {
+                        "id": 113,
+                        "type": 1,
+                        "name": "フレイムオーブ＋＋",
+                        "attributeId": "FIRE",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 70,
+                    "giftId3": 112,
+                    "gift3": {
+                        "id": 112,
+                        "type": 1,
+                        "name": "フレイムオーブ＋",
+                        "attributeId": "FIRE",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum3": 15,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 554,
+                    "gift4": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 506,
+                    "gift5": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 309,
+                    "gift6": {
+                        "id": 309,
+                        "type": 2,
+                        "name": "ゴムの浮き輪",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 275,
+            "npcPieceId1": 1540,
+            "npcPieceId2": 1316,
+            "npcPieceId3": 1193,
+            "npcPieceId4": 1617
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1025,
+            "chara": {
+                "id": 1025,
+                "name": "時女 静香",
+                "kana": "ときめ しずか",
+                "attributeId": "FIRE",
+                "attackType": 1,
+                "initialType": "BALANCE",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10254,
+                "defaultCard": {
+                    "cardId": 10254,
+                    "rank": "RANK_4",
+                    "attributeId": "FIRE",
+                    "initialType": "BALANCE",
+                    "growthType": "ATTACK",
+                    "attack": 1977,
+                    "defense": 2082,
+                    "hp": 6118,
+                    "miniCharaNo": 102500,
+                    "charaNo": 1025,
+                    "cardName": "時女 静香",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10254,
+                        "groupId": 1014,
+                        "name": "巫流・祈祷通天ノ光",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力UP & 防御力UP(味全/3T) & 状態強化解除(敵全)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301105,
+                        "art2": {
+                            "artId": 330301105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330301206,
+                        "art3": {
+                            "artId": 330301206,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 413,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 200300900,
+                        "art4": {
+                            "artId": 200300900,
+                            "verbCode": "REVOKE",
+                            "effectCode": "GOOD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10254,
+                        "groupId": 1085,
+                        "name": "共に日の本のために！",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 確率でクリティカル[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610406307,
+                        "art2": {
+                            "artId": 610406307,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10255,
+                "evolutionCard1": {
+                    "cardId": 10255,
+                    "rank": "RANK_5",
+                    "attributeId": "FIRE",
+                    "initialType": "BALANCE",
+                    "growthType": "ATTACK",
+                    "attack": 2204,
+                    "defense": 2358,
+                    "hp": 7021,
+                    "miniCharaNo": 102500,
+                    "charaNo": 1025,
+                    "cardName": "時女 静香",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10255,
+                        "groupId": 1014,
+                        "name": "巫流・祈祷通天ノ光",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 防御力UP(味全/3T) & 状態強化解除(敵全)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301107,
+                        "art2": {
+                            "artId": 330301107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330301208,
+                        "art3": {
+                            "artId": 330301208,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 488,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 200300900,
+                        "art4": {
+                            "artId": 200300900,
+                            "verbCode": "REVOKE",
+                            "effectCode": "GOOD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10255,
+                        "groupId": 1085,
+                        "name": "共に日の本のために！",
+                        "shortDescription": "攻撃力UP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610406309,
+                        "art2": {
+                            "artId": 610406309,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 700
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "時女一族を引っ張る本家出身の魔法少女。閉鎖された秘境で生まれ育ち、日の本のために巫（かんなぎ）と呼ばれる魔法少女になることが決まっていた。都会での生活は初めてなので、みんなに助けてもらっている。昔から釣りが得意。",
+                "school": "―",
+                "designer": "蒼樹うめ",
+                "voiceActor": "内田秀",
+                "openDate": "2020/09/18 15:10:00",
+                "enhancementGroupId": 113
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "d10fc3c9-1833-4570-a201-8546916235d1",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 102500,
+            "npcHelpId": 275,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1540,
+            "piece": {
+                "pieceId": 1540,
+                "pieceType": "ABILITY",
+                "pieceName": "旅立ちの衣装",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1025",
+                "charaList": [
+                    {
+                        "charaId": 1025,
+                        "name": "時女 静香"
+                    }
+                ],
+                "attack": 422,
+                "defense": 0,
+                "hp": 502,
+                "skillId": 154000,
+                "pieceSkill": {
+                    "id": 154000,
+                    "groupId": 1085,
+                    "name": "アップリフト・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅳ] & 状態異常耐性UP[Ⅱ]",
+                    "artId1": 390201104,
+                    "art1": {
+                        "artId": 390201104,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201502,
+                    "art2": {
+                        "artId": 390201502,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 154001,
+                "pieceSkill2": {
+                    "id": 154001,
+                    "groupId": 1085,
+                    "name": "アップリフト・アデプト[Ⅴ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅴ] & 状態異常耐性UP[Ⅲ]",
+                    "artId1": 390201105,
+                    "art1": {
+                        "artId": 390201105,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201503,
+                    "art2": {
+                        "artId": 390201503,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "この衣装を着て儀式をしたならば、今日から大人の仲間入り＠明日からは、狭い集落を出て＠より広く日の本のために尽くせるようになる…＠そう信じた時女の巫たちは水底に旅立った",
+                "illustrator": "くらは",
+                "openDate": "2020/09/18 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 633,
+            "defense": 0,
+            "hp": 753,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 275
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 275
+        },
+        {
+            "pieceId": 1193,
+            "piece": {
+                "pieceId": 1193,
+                "pieceType": "SKILL",
+                "pieceName": "美術館でアルバイト",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 0,
+                "defense": 633,
+                "hp": 573,
+                "skillId": 119300,
+                "pieceSkill": {
+                    "id": 119300,
+                    "groupId": 1090,
+                    "name": "アストラルライズ[Ⅳ] ",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "Accele MPUP[Ⅳ] & マギアダメージUP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201604,
+                    "art1": {
+                        "artId": 330201604,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 175,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201403,
+                    "art2": {
+                        "artId": 330201403,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 119301,
+                "pieceSkill2": {
+                    "id": 119301,
+                    "groupId": 1090,
+                    "name": "アストラルライズ[Ⅴ] ",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "Accele MPUP[Ⅴ] & マギアダメージUP[Ⅳ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201605,
+                    "art1": {
+                        "artId": 330201605,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201404,
+                    "art2": {
+                        "artId": 330201404,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 125,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「…といった由来がある貴重な作品です。…ふぅ、噛まずに言えました」＠美術品に関わりたくて始めた美術館のアルバイト＠慣れないことも失敗してしまうこともあるけれど＠夢に近づくため、少女は与えられた仕事を今日も頑張る！",
+                "illustrator": "植田亮",
+                "openDate": "2018/03/23 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 949,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 275
+        },
+        {
+            "pieceId": 1617,
+            "piece": {
+                "pieceId": 1617,
+                "pieceType": "SKILL",
+                "pieceName": "音色は優しく溶けて",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 0,
+                "defense": 614,
+                "hp": 674,
+                "skillId": 161700,
+                "pieceSkill": {
+                    "id": 161700,
+                    "groupId": 1082,
+                    "name": "カウンタラクトアタック[Ⅱ]",
+                    "type": "SKILL",
+                    "intervalTurn": 9,
+                    "shortDescription": "デバフ解除 & 攻撃力UP[Ⅱ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 200200800,
+                    "art1": {
+                        "artId": 200200800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    },
+                    "artId2": 330201102,
+                    "art2": {
+                        "artId": 330201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 161701,
+                "pieceSkill2": {
+                    "id": 161701,
+                    "groupId": 1082,
+                    "name": "カウンタラクトアタック[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "デバフ解除 & 攻撃力UP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 200200800,
+                    "art1": {
+                        "artId": 200200800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    },
+                    "artId2": 330201103,
+                    "art2": {
+                        "artId": 330201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "素知らぬ顔で通り過ぎる風も、ときどきざわめく木々も＠たったひとつの音の揺らめきだけで手を取り合って＠ひとりの少女の演奏を引き立たせる演出家になっていく＠人も集って生まれる絶対の調和…ここにあるのは平穏だけ",
+                "illustrator": "―",
+                "openDate": "2021/04/14 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 921,
+            "hp": 1011,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 275
+        }
+    ],
+    "isNpc": true,
+    "userName": "時女 静香",
+    "userRank": 100,
+    "cardId": 10255,
+    "charaName": "時女 静香",
+    "cardRank": "RANK_5",
+    "attributeId": "FIRE",
+    "level": 100,
+    "displayCardId": 10255,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
