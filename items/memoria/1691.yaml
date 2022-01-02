@@ -1,0 +1,71 @@
+---
+pieceId: 1691
+pieceType: SKILL
+pieceName: 未来は炎に消えて
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 582
+hp: 702
+skillId: 169100
+pieceSkill:
+  id: 169100
+  groupId: 1121
+  name: イネヴィタブル[Ⅰ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 確率でクリティカル[Ⅰ] & 確率で回避無効[XII](自/3T)
+  messageId: 70
+  artId1: 630206301
+  art1:
+    artId: 630206301
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 100
+  artId2: 630216212
+  art2:
+    artId: 630216212
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 800
+  skillEffectRange: ALL
+skillId2: 169101
+pieceSkill2:
+  id: 169101
+  groupId: 1121
+  name: イネヴィタブル[Ⅱ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 確率でクリティカル[Ⅱ] & 必ず回避無効(自/3T)
+  messageId: 70
+  artId1: 630206302
+  art1:
+    artId: 630206302
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 3
+    growPoint: 0
+    probability: 150
+  artId2: 630208100
+  art2:
+    artId: 630208100
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: みんなと大切に守ってきた居場所が＠大きな炎に焼き尽くされてしまう…＠「やめて…お願いだから…＠私とみんなが繋がれる居場所を奪わないで…！」
+illustrator: ―
+openDate: 2021/11/12 15:10:00
+...
