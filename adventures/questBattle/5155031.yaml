@@ -1,0 +1,59 @@
+---
+questBattleId: 5155031
+sectionId: 515503
+eventId: 1155
+sectionIndex: 1
+questBattleType: NORMAL
+bossFlag: false
+title: エクストラⅠ
+placeId: "47106"
+bgm: bgm01_anime12
+bossBgm: bgm01_anime12
+consumeType: NORMAL
+ap: 20
+difficulty: 60
+exp: 120
+cardExp: 80
+baseBondsPt: 60
+riche: 1000
+parameter: EP=2500
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 115504
+dropItem1:
+  dropItemId: 115504
+  rewardCode1: ITEM_EVENT_TRAINING_1155_2
+  rewardCode2: ITEM_EVENT_TRAINING_1155_3
+  rewardCode3: ITEM_EVENT_TRAINING_1155_4
+dropItemId2: 115505
+dropItem2:
+  dropItemId: 115505
+  rewardCode1: GIFT_307_1
+dropItemId3: 115519
+dropItem3:
+  dropItemId: 115519
+  rewardCode1: ITEM_EVENT_TRAINING_1155_2
+  rewardCode2: ITEM_EVENT_TRAINING_1155_3
+  rewardCode3: ITEM_EVENT_TRAINING_1155_4
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_5
+waveEnemyAttributeIdList:
+- DARK
+- WATER
+parameterMap:
+  EP: "2500"
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
