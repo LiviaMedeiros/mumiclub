@@ -1,0 +1,200 @@
+---
+id: 18524
+shopId: 437
+shopItemType: CARD
+genericId: "10354"
+cardNum: 1
+card:
+  cardId: 10354
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: SUPPORT
+  growthType: DEFHP
+  attack: 1799
+  defense: 1806
+  hp: 6723
+  miniCharaNo: 103500
+  charaNo: 1035
+  cardName: 栗栖 アレクサンドラ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10354
+    groupId: 1014
+    name: フラジール・セレナーデ
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力 & 防御力DOWN(敵全/3T) & バフ解除(敵全)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 430302005
+    art2:
+      artId: 430302005
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 430302105
+    art3:
+      artId: 430302105
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 200300700
+    art4:
+      artId: 200300700
+      verbCode: REVOKE
+      effectCode: BUFF
+      targetId: ALL
+      growPoint: 0
+  cardSkill:
+    id: 10354
+    groupId: 1085
+    name: 一緒にユニゾンしましょう♪
+    shortDescription: 攻撃力UP[Ⅶ] & MP獲得量UP[Ⅶ] & 必ず魅了
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401907
+    art2:
+      artId: 310401907
+      verbCode: BUFF
+      effectCode: MP_GAIN
+      targetId: CONNECT
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610409500
+    art3:
+      artId: 610409500
+      verbCode: ENCHANT
+      effectCode: CHARM
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1035
+  attributeId: TIMBER
+  initialType: SUPPORT
+  defaultCardId: 10354
+  defaultCard:
+    cardId: 10354
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: SUPPORT
+    growthType: DEFHP
+    attack: 1799
+    defense: 1806
+    hp: 6723
+    miniCharaNo: 103500
+    charaNo: 1035
+    cardName: 栗栖 アレクサンドラ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10354
+      groupId: 1014
+      name: フラジール・セレナーデ
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力 & 防御力DOWN(敵全/3T) & バフ解除(敵全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302005
+      art2:
+        artId: 430302005
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430302105
+      art3:
+        artId: 430302105
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 200300700
+      art4:
+        artId: 200300700
+        verbCode: REVOKE
+        effectCode: BUFF
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 10354
+      groupId: 1085
+      name: 一緒にユニゾンしましょう♪
+      shortDescription: 攻撃力UP[Ⅶ] & MP獲得量UP[Ⅶ] & 必ず魅了
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401907
+      art2:
+        artId: 310401907
+        verbCode: BUFF
+        effectCode: MP_GAIN
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610409500
+      art3:
+        artId: 610409500
+        verbCode: ENCHANT
+        effectCode: CHARM
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: くるす あれくさんどら
+  description: ネオマギウスに身を寄せている、居場所を失った魔法少女。幼い頃から合唱団に入り、以前は部活でも歌うほどの歌好きだった。おっとりとした人好きのする雰囲気や、それに反して物怖じせずに突き進むところが信頼される一因になっている。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_GREEN_859
+needNumber: 200
+limitedNumber: 1
+name: 栗栖アレクサンドラ
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 19
+isDetailView: false
+startAt: 2022/01/21 15:10:00
+endAt: 2022/02/04 14:59:59
+...
