@@ -1,0 +1,101 @@
+---
+pieceId: 1721
+pieceType: SKILL
+pieceName: 私にしかできないことです
+attributeId: ALL
+rank: RANK_4
+charaIds: "1008,2500,2502"
+charaList:
+- charaId: 1008
+  name: アリナ・グレイ
+- charaId: 2500
+  name: ホーリーマミ
+- charaId: 2502
+  name: ホーリーマミ アニメver.
+attack: 0
+defense: 810
+hp: 970
+skillId: 172100
+pieceSkill:
+  id: 172100
+  groupId: 1106
+  name: 私にしかできないことです
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず強化毒 & 必ず呪い(敵単/1T) & 敵状態異常時ダメージUP[Ⅴ](自/1T)
+  messageId: 70
+  artId1: 510018400
+  art1:
+    artId: 510018400
+    verbCode: CONDITION_BAD
+    effectCode: POISON
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 510005000
+  art2:
+    artId: 510005000
+    verbCode: CONDITION_BAD
+    effectCode: CURSE
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId3: 610214605
+  art3:
+    artId: 610214605
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 172101
+pieceSkill2:
+  id: 172101
+  groupId: 1106
+  name: 私にしかできないことです
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず強化毒 & 必ず呪い(敵単/1T) & 敵状態異常時ダメージUP[Ⅴ](自/1T)
+  messageId: 70
+  artId1: 510018400
+  art1:
+    artId: 510018400
+    verbCode: CONDITION_BAD
+    effectCode: POISON
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 510005000
+  art2:
+    artId: 510005000
+    verbCode: CONDITION_BAD
+    effectCode: CURSE
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId3: 610214605
+  art3:
+    artId: 610214605
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: Blu-ray&DVD 第3巻 描き下ろしジャケットイラスト＠（TVアニメ 2nd SEASON）
+illustrator: 谷口淳一郎
+openDate: 2022/01/25 00:00:00
+...
