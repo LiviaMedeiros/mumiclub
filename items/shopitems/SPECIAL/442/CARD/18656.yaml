@@ -1,0 +1,227 @@
+---
+id: 18656
+shopId: 442
+shopItemType: CARD
+genericId: "10344"
+cardNum: 1
+card:
+  cardId: 10344
+  rank: RANK_4
+  attributeId: DARK
+  initialType: SUPPORT
+  growthType: HP
+  attack: 1864
+  defense: 1902
+  hp: 6552
+  miniCharaNo: 103400
+  charaNo: 1034
+  cardName: 三浦 旭
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10344
+    groupId: 1012
+    name: 突貫！絶対必中弾雨
+    shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 防御力UP & デバフ効果を1回無効 & 状態異常を1回無効(味全/3T) & 蘇生
+    artId1: 100000205
+    art1:
+      artId: 100000205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: TARGET
+      effectValue: 8640
+      growPoint: 100
+    artId2: 200100603
+    art2:
+      artId: 200100603
+      verbCode: RESURRECT
+      targetId: ONE
+      effectValue: 250
+      growPoint: 10
+    artId3: 330301206
+    art3:
+      artId: 330301206
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 413
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630319100
+    art4:
+      artId: 630319100
+      verbCode: IGNORE
+      effectCode: DEBUFF
+      targetId: ALL
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    artId5: 630320800
+    art5:
+      artId: 630320800
+      verbCode: IGNORE
+      effectCode: CONDITION_BAD
+      targetId: ALL
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+  cardSkill:
+    id: 10344
+    groupId: 1085
+    name: 手を貸すでありますよ
+    shortDescription: 攻撃力UP[Ⅶ] & サヴァイヴ & 味方を必ずかばう
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610414701
+    art2:
+      artId: 610414701
+      verbCode: CONDITION_GOOD
+      effectCode: SURVIVE
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 610413300
+    art3:
+      artId: 610413300
+      verbCode: CONDITION_GOOD
+      effectCode: PROTECT
+      targetId: ONE
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1034
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 10344
+  defaultCard:
+    cardId: 10344
+    rank: RANK_4
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1864
+    defense: 1902
+    hp: 6552
+    miniCharaNo: 103400
+    charaNo: 1034
+    cardName: 三浦 旭
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10344
+      groupId: 1012
+      name: 突貫！絶対必中弾雨
+      shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 防御力UP & デバフ効果を1回無効 & 状態異常を1回無効(味全/3T) &
+        蘇生
+      artId1: 100000205
+      art1:
+        artId: 100000205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8640
+        growPoint: 100
+      artId2: 200100603
+      art2:
+        artId: 200100603
+        verbCode: RESURRECT
+        targetId: ONE
+        effectValue: 250
+        growPoint: 10
+      artId3: 330301206
+      art3:
+        artId: 330301206
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 413
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630319100
+      art4:
+        artId: 630319100
+        verbCode: IGNORE
+        effectCode: DEBUFF
+        targetId: ALL
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+        genericValue: NONE
+      artId5: 630320800
+      art5:
+        artId: 630320800
+        verbCode: IGNORE
+        effectCode: CONDITION_BAD
+        targetId: ALL
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+        genericValue: NONE
+    cardSkill:
+      id: 10344
+      groupId: 1085
+      name: 手を貸すでありますよ
+      shortDescription: 攻撃力UP[Ⅶ] & サヴァイヴ & 味方を必ずかばう
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610414701
+      art2:
+        artId: 610414701
+        verbCode: CONDITION_GOOD
+        effectCode: SURVIVE
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610413300
+      art3:
+        artId: 610413300
+        verbCode: CONDITION_GOOD
+        effectCode: PROTECT
+        targetId: ONE
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みうら あさひ
+  description: 時女一族に身を寄せている、実直な魔法少女。堅物で融通が利かないように見えるが、情にもろい一面もある。兼業で猟師業を営む家庭で育ち、狩りの腕前はかなりのもの。大のミリタリー好きだが、その趣味は隠しているつもり。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_BLACK_863
+needNumber: 200
+limitedNumber: 1
+name: 三浦 旭
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+startAt: 2022/01/28 15:10:00
+endAt: 2022/02/17 14:59:59
+...
