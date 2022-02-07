@@ -1,0 +1,69 @@
+---
+pieceId: 1718
+pieceType: ABILITY
+pieceName: 災厄を招く馬鹿騒ぎ
+attributeId: ALL
+rank: RANK_3
+charaIds: "1302"
+charaList:
+- charaId: 1302
+  name: 七海 やちよ アニメver.
+attack: 440
+defense: 0
+hp: 520
+skillId: 171800
+pieceSkill:
+  id: 171800
+  groupId: 1119
+  name: ウェポンブラスト・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅳ] & Blast ダメージUP[Ⅲ]
+  artId1: 690206104
+  art1:
+    artId: 690206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 390201803
+  art2:
+    artId: 390201803
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 171801
+pieceSkill2:
+  id: 171801
+  groupId: 1119
+  name: ウェポンブラスト・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: ダメージアップ状態[Ⅴ] & Blast ダメージUP[Ⅳ]
+  artId1: 690206105
+  art1:
+    artId: 690206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId2: 390201804
+  art2:
+    artId: 390201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 「ここから先、乗り心地は期待しないでちょうだい」＠免停覚悟で突っ込む先は、ウワサに呼び寄せられた魔女たちのパレード＠行進の向こうで待ち構えるものが望むものとは限らない＠だけど、この馬鹿騒ぎを止められるのは私たち魔法少女だけだから
+illustrator: mepo
+openDate: 2022/01/11 15:10:00
+...
