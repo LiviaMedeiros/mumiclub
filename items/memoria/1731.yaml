@@ -1,0 +1,90 @@
+---
+pieceId: 1731
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: Sisters
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 586
+hp: 646
+skillId: 173100
+pieceSkill:
+  id: 173100
+  groupId: 1129
+  name: フォーギブネス[Ⅲ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: HP自動回復[Ⅲ] & MP獲得量UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630207703
+  art1:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 330201903
+  art2:
+    artId: 330201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1157
+  eventArtId1: 1157001
+  eventArt1:
+    artId: 1157001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1157_KEY
+  eventDescription: ＆「憧憬の烙印」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 173101
+pieceSkill2:
+  id: 173101
+  groupId: 1129
+  name: フォーギブネス[Ⅲ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: HP自動回復[Ⅲ] & MP獲得量UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630207703
+  art1:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 330201903
+  art2:
+    artId: 330201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1157
+  eventArtId1: 1157002
+  eventArt1:
+    artId: 1157002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1157_KEY
+  eventDescription: ＆「憧憬の烙印」追加獲得数＋5
+  skillEffectRange: ALL
+description: 決して豊かな暮らしじゃなかったけど＠モモと一緒なら、笑顔でいられた＠みんなが耳を傾けてくれるまで、正直に生き続けよう＠…優しい父さんの夢が、家族の、ふたりの夢だった
+illustrator: ―
+openDate: 2022/02/10 15:10:00
+...
