@@ -1,0 +1,208 @@
+---
+id: 18813
+shopId: 66
+shopItemType: CARD
+genericId: "26024"
+cardNum: 1
+card:
+  cardId: 26024
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: ATTACK
+  growthType: ATKHP
+  attack: 2302
+  defense: 1732
+  hp: 5645
+  miniCharaNo: 260200
+  charaNo: 2602
+  cardName: 佐倉 杏子
+  commandType1: MPUP
+  commandType2: RANGE_V
+  commandType3: RANGE_H
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 26024
+    groupId: 1014
+    name: 鉄火神裁（ひぎしょう）
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & Blast ダメージUP & 攻撃力UP & 火属性攻撃力UP(自/3T)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 330201804
+    art2:
+      artId: 330201804
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330201102
+    art3:
+      artId: 330201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId4: 330221101
+    art4:
+      artId: 330221101
+      verbCode: BUFF
+      effectCode: ATTACK_FIRE
+      targetId: SELF
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 26024
+    groupId: 1092
+    name: 共同戦線だな！
+    shortDescription: Blast ダメージUP[Ⅶ] & 与えるダメージUP[Ⅶ] & 必ず幻惑
+    artId1: 310401807
+    art1:
+      artId: 310401807
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 700
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401307
+    art2:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610411100
+    art3:
+      artId: 610411100
+      verbCode: ENCHANT
+      effectCode: BLINDNESS
+      targetId: CONNECT
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 2602
+  attributeId: FIRE
+  initialType: ATTACK
+  defaultCardId: 26024
+  defaultCard:
+    cardId: 26024
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 2302
+    defense: 1732
+    hp: 5645
+    miniCharaNo: 260200
+    charaNo: 2602
+    cardName: 佐倉 杏子
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 26024
+      groupId: 1014
+      name: 鉄火神裁（ひぎしょう）
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & Blast ダメージUP & 攻撃力UP & 火属性攻撃力UP(自/3T)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 330201804
+      art2:
+        artId: 330201804
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: SELF
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330201102
+      art3:
+        artId: 330201102
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 25
+      artId4: 330221101
+      art4:
+        artId: 330221101
+        verbCode: BUFF
+        effectCode: ATTACK_FIRE
+        targetId: SELF
+        effectValue: 50
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 26024
+      groupId: 1092
+      name: 共同戦線だな！
+      shortDescription: Blast ダメージUP[Ⅶ] & 与えるダメージUP[Ⅶ] & 必ず幻惑
+      artId1: 310401807
+      art1:
+        artId: 310401807
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 700
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401307
+      art2:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610411100
+      art3:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: さくら きょうこ
+  title: ドッペルver.
+  description: 風見野市出身の魔法少女。新しい信仰を説く父親のもとに生まれたが、現在は天涯孤独。ドッペルという新たな可能性が存在する神浜市に出向いたことで、自身の逃れられない過去と向き合うことになる。かつては眩惑の魔法を得意としていた。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】佐倉杏子 ドッペルver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+startAt: 2022/02/10 15:10:00
+endAt: 2022/02/21 14:59:59
+...

@@ -1,0 +1,109 @@
+---
+id: 18927
+shopId: 444
+shopItemType: LIVE2D
+genericId: "1038_50"
+chara:
+  id: 1038
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 10384
+  defaultCard:
+    cardId: 10384
+    rank: RANK_4
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1899
+    defense: 1734
+    hp: 6294
+    miniCharaNo: 103800
+    charaNo: 1038
+    cardName: 八雲 みかげ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10384
+      groupId: 1012
+      name: 今だけ悪い子！
+      shortDescription: 敵単体にダメージ[Ⅴ] & 攻撃力UP & ダメージUP(味全/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 330301105
+      art2:
+        artId: 330301105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301305
+      art3:
+        artId: 330301305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10384
+      groupId: 1085
+      name: ミィが手伝ったげよっか？
+      shortDescription: 攻撃力UP[Ⅶ] & MP回復 & 必ず魅了
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400507
+      art2:
+        artId: 200400507
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 275
+        growPoint: 10
+      artId3: 610409500
+      art3:
+        artId: 610409500
+        verbCode: ENCHANT
+        effectCode: CHARM
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: やくも みかげ
+  description: 姉が抱える神浜市への恨みを消そうとしている魔法少女。マイペースで周りを振り回す節があるものの、無邪気で人からは好かれる性質。駄菓子屋や公園ではひとりで遊んでいる姿が目撃されているが、親友と呼べる友だちもいる。おねだり上手。
+live2d:
+  charaId: 1038
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1157_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 八雲 みかげの衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 18
+isDetailView: false
+startAt: 2022/02/10 15:10:00
+endAt: 2022/02/28 14:59:59
+...
