@@ -1,0 +1,204 @@
+---
+id: 19074
+shopId: 450
+shopItemType: CARD
+genericId: "10264"
+cardNum: 1
+card:
+  cardId: 10264
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: DEFENSE
+  growthType: ATTACK
+  attack: 1738
+  defense: 2223
+  hp: 6714
+  miniCharaNo: 102600
+  charaNo: 1026
+  cardName: 広江 ちはる
+  commandType1: MPUP
+  commandType2: RANGE_H
+  commandType3: RANGE_V
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10264
+    groupId: 1012
+    name: 魔法同心・ちはる捕物帳
+    shortDescription: 敵単体にダメージ[Ⅴ] & 防御力DOWN & 状態異常耐性DOWN(敵単/3T) & 必ず拘束(敵単/1T)
+    artId1: 100000105
+    art1:
+      artId: 100000105
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 10880
+      growPoint: 100
+    artId2: 430002103
+    art2:
+      artId: 430002103
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId3: 430002403
+    art3:
+      artId: 430002403
+      verbCode: DEBUFF
+      effectCode: RESIST
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId4: 510004400
+    art4:
+      artId: 510004400
+      verbCode: CONDITION_BAD
+      effectCode: RESTRAINT
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 10264
+    groupId: 1085
+    name: 相棒ってカッコイイよね！
+    shortDescription: 攻撃力UP[Ⅶ] & 必ず拘束 & 確率でスタン
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610409900
+    art2:
+      artId: 610409900
+      verbCode: ENCHANT
+      effectCode: RESTRAINT
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 9378
+    art3:
+      artId: 9378
+      verbCode: ENCHANT
+      effectCode: STUN
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 500
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1026
+  attributeId: TIMBER
+  initialType: DEFENSE
+  defaultCardId: 10264
+  defaultCard:
+    cardId: 10264
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: DEFENSE
+    growthType: ATTACK
+    attack: 1738
+    defense: 2223
+    hp: 6714
+    miniCharaNo: 102600
+    charaNo: 1026
+    cardName: 広江 ちはる
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10264
+      groupId: 1012
+      name: 魔法同心・ちはる捕物帳
+      shortDescription: 敵単体にダメージ[Ⅴ] & 防御力DOWN & 状態異常耐性DOWN(敵単/3T) & 必ず拘束(敵単/1T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 430002103
+      art2:
+        artId: 430002103
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430002403
+      art3:
+        artId: 430002403
+        verbCode: DEBUFF
+        effectCode: RESIST
+        targetId: TARGET
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 25
+      artId4: 510004400
+      art4:
+        artId: 510004400
+        verbCode: CONDITION_BAD
+        effectCode: RESTRAINT
+        targetId: TARGET
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 10264
+      groupId: 1085
+      name: 相棒ってカッコイイよね！
+      shortDescription: 攻撃力UP[Ⅶ] & 必ず拘束 & 確率でスタン
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610409900
+      art2:
+        artId: 610409900
+        verbCode: ENCHANT
+        effectCode: RESTRAINT
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 9378
+      art3:
+        artId: 9378
+        verbCode: ENCHANT
+        effectCode: STUN
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 500
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ひろえ ちはる
+  description: 時女一族に所属する嗅覚が鋭い魔法少女。母親と共に時女集落に行き自身の血脈を知った。無鉄砲で正義感が強く、悪意に対する嗅覚も鋭いが、事件や悪意が多い場所では、混ざってしまって役に立たない。宿無し探偵、等々力耕一が好き。
+consumeType: PURCHASED_MONEY
+needItemId: MONEY
+needNumber: 200
+limitedNumber: 1
+name: 広江ちはる
+description: 所持している場合は選択できません。
+sortkey: 128
+isDetailView: false
+startAt: 2022/02/28 15:10:00
+endAt: 2022/03/07 14:59:59
+...
