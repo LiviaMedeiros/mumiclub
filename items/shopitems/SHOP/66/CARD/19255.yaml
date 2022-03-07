@@ -1,0 +1,208 @@
+---
+id: 19255
+shopId: 66
+shopItemType: CARD
+genericId: "41214"
+cardNum: 1
+card:
+  cardId: 41214
+  rank: RANK_4
+  attributeId: DARK
+  initialType: BALANCE
+  growthType: ATTACK
+  attack: 2081
+  defense: 1519
+  hp: 8521
+  miniCharaNo: 412100
+  charaNo: 4121
+  cardName: イザボー
+  commandType1: MPUP
+  commandType2: RANGE_V
+  commandType3: RANGE_V
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 41214
+    groupId: 1014
+    name: 女王の抱擁
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 必ずマギア不可(敵全/3T) & Blast ダメージUP & サヴァイヴ(自/3T)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 530306000
+    art2:
+      artId: 530306000
+      verbCode: CONDITION_BAD
+      effectCode: BAN_MAGIA
+      targetId: ALL
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId3: 330201805
+    art3:
+      artId: 330201805
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630214705
+    art4:
+      artId: 630214705
+      verbCode: CONDITION_GOOD
+      effectCode: SURVIVE
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 41214
+    groupId: 1085
+    name: 女王が命ずる…
+    shortDescription: 攻撃力UP[Ⅶ] & 闇属性攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421207
+    art2:
+      artId: 310421207
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    artId3: 310401207
+    art3:
+      artId: 310401207
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 900
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4121
+  attributeId: DARK
+  initialType: BALANCE
+  defaultCardId: 41214
+  defaultCard:
+    cardId: 41214
+    rank: RANK_4
+    attributeId: DARK
+    initialType: BALANCE
+    growthType: ATTACK
+    attack: 2081
+    defense: 1519
+    hp: 8521
+    miniCharaNo: 412100
+    charaNo: 4121
+    cardName: イザボー
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 41214
+      groupId: 1014
+      name: 女王の抱擁
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 必ずマギア不可(敵全/3T) & Blast ダメージUP & サヴァイヴ(自/3T)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 530306000
+      art2:
+        artId: 530306000
+        verbCode: CONDITION_BAD
+        effectCode: BAN_MAGIA
+        targetId: ALL
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId3: 330201805
+      art3:
+        artId: 330201805
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: SELF
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630214705
+      art4:
+        artId: 630214705
+        verbCode: CONDITION_GOOD
+        effectCode: SURVIVE
+        targetId: SELF
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 41214
+      groupId: 1085
+      name: 女王が命ずる…
+      shortDescription: 攻撃力UP[Ⅶ] & 闇属性攻撃力UP[Ⅶ] & 防御力UP[Ⅶ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421207
+      art2:
+        artId: 310421207
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401207
+      art3:
+        artId: 310401207
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 900
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: いざぼー
+  title: 魔女ver.
+  description: 百年戦争のさなか、フランス王位をイングランドに売り渡し、「売国妃」と呼ばれたフランスの元王妃。魔法少女に変身することなく、魔女を思わせる規格外の魔法を行使し、タルト（ジャンヌ・ダルク）らの最後の敵として立ちはだかる。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】イザボー 魔女ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 2
+isDetailView: false
+startAt: 2022/03/07 15:10:00
+endAt: 2022/03/28 14:59:59
+...
