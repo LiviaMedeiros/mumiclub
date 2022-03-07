@@ -1,0 +1,69 @@
+---
+questBattleId: 5158123
+sectionId: 515812
+eventId: 1158
+sectionIndex: 3
+questBattleType: NORMAL
+bossFlag: false
+placeId: "31061"
+bgm: bgm05_event04
+bossBgm: bgm05_event04
+consumeType: NORMAL
+ap: 10
+difficulty: 60
+limitTurn: 15
+exp: 80
+cardExp: 30
+baseBondsPt: 50
+riche: 500
+parameter: WAVE_LIMIT_DROP=110203
+mission1: HP_30
+missionMaster1:
+  description: 合計残HPが30％以上でクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_2
+waveEnemyAttributeIdList:
+- WATER
+- FIRE
+- DARK
+- LIGHT
+parameterMap:
+  WAVE_LIMIT_DROP: "110203"
+addDropNum: 1
+addDropItemId: EVENT_SINGLERAID_1158_EXCHANGE_1
+addDropLotArr: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,200,200,200,200,0
+addDropLotMap:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 200
+- 200
+- 200
+- 200
+- 200
+- 0
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
