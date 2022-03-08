@@ -1,24 +1,19 @@
 ---
-ATTACK:
-  3902033:
-    3:
-      artId: 390203303
-      verbCode: BUFF_PARTY_DIE
-      effectCode: ATTACK
-      targetId: SELF
-      effectValue: 50
-      growPoint: 20
-      probability: 1000
-DEFENSE: &refid1
-  ATTACK:
-    3902033:
-      3:
-        artId: 390203303
-        verbCode: BUFF_PARTY_DIE
-        effectCode: ATTACK
-        targetId: SELF
-        effectValue: 50
-        growPoint: 20
-        probability: 1000
-  DEFENSE: *refid1
+3902034:
+  2:
+    artId: 390203402
+    verbCode: BUFF_PARTY_DIE
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 76
+    growPoint: 20
+    probability: 1000
+  3:
+    artId: 390203403
+    verbCode: BUFF_PARTY_DIE
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 100
+    growPoint: 20
+    probability: 1000
 ...
