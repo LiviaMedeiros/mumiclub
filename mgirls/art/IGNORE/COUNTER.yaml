@@ -8,22 +8,45 @@
   growPoint: 0
   probability: 1000
 6104082:
-  1:
-    artId: 610408201
-    verbCode: IGNORE
-    effectCode: COUNTER
-    targetId: CONNECT
-    enableTurn: 1
-    growPoint: 0
-    probability: 800
-6302082:
-- artId: 630208200
+- artId: 610408200
   verbCode: IGNORE
   effectCode: COUNTER
-  targetId: SELF
-  enableTurn: 3
+  targetId: CONNECT
+  enableTurn: 1
   growPoint: 0
   probability: 1000
+- artId: 610408201
+  verbCode: IGNORE
+  effectCode: COUNTER
+  targetId: CONNECT
+  enableTurn: 1
+  growPoint: 0
+  probability: 800
+6302082:
+  0:
+    artId: 630208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+  9:
+    artId: 630208209
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 650
+  12:
+    artId: 630208212
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 3
+    growPoint: 0
+    probability: 800
 6303082:
 - artId: 630308200
   verbCode: IGNORE
@@ -33,10 +56,39 @@
   growPoint: 0
   probability: 1000
 6902082:
-- artId: 690208200
-  verbCode: IGNORE
-  effectCode: COUNTER
-  targetId: SELF
-  growPoint: 0
-  probability: 1000
+  0:
+    artId: 690208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  4:
+    artId: 690208204
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    growPoint: 0
+    probability: 400
+  5:
+    artId: 690208205
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    growPoint: 0
+    probability: 450
+  6:
+    artId: 690208206
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    growPoint: 0
+    probability: 500
+  8:
+    artId: 690208208
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    growPoint: 0
+    probability: 600
 ...

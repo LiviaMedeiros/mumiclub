@@ -9,6 +9,15 @@
   targetId: SELF
   verbCode: CONDITION_GOOD
 6102070:
+  6:
+    artId: 610207006
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 350
   13:
     artId: 610207013
     verbCode: CONDITION_GOOD
@@ -46,6 +55,24 @@
     enableTurn: 3
     growPoint: 0
     probability: 150
+  3:
+    artId: 630307003
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: ALL
+    effectValue: 800
+    enableTurn: 3
+    growPoint: 0
+    probability: 200
+  4:
+    artId: 630307004
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: ALL
+    effectValue: 800
+    enableTurn: 3
+    growPoint: 0
+    probability: 250
 6902070:
   2:
     artId: 690207002
@@ -55,6 +82,30 @@
     effectValue: 800
     growPoint: 0
     probability: 150
+  3:
+    artId: 690207003
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    growPoint: 0
+    probability: 200
+  4:
+    artId: 690207004
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    growPoint: 0
+    probability: 250
+  5:
+    artId: 690207005
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    growPoint: 0
+    probability: 300
 6902185:
   3:
     artId: 690218503

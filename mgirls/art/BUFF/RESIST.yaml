@@ -8,6 +8,14 @@
   targetId: CONNECT
   verbCode: BUFF
 1902101:
+  2:
+    artId: 190210102
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 0
+    growPoint: 0
   4:
     artId: 190210104
     verbCode: BUFF
@@ -25,6 +33,46 @@
     effectValue: 400
     enableTurn: 1
     growPoint: 25
+  6:
+    artId: 310201506
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  7:
+    artId: 310201507
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  8:
+    artId: 310201508
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 550
+    enableTurn: 1
+    growPoint: 25
+  9:
+    artId: 310201509
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 600
+    enableTurn: 1
+    growPoint: 25
+  17:
+    artId: 310201517
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 1000
+    enableTurn: 1
+    growPoint: 25
 3103015:
   3:
     artId: 310301503
@@ -32,6 +80,30 @@
     effectCode: RESIST
     targetId: ALL
     effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  5:
+    artId: 310301505
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  7:
+    artId: 310301507
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+  9:
+    artId: 310301509
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 600
     enableTurn: 1
     growPoint: 25
 3104015:
@@ -43,7 +115,55 @@
     effectValue: 500
     enableTurn: 1
     growPoint: 25
+  9:
+    artId: 310401509
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: CONNECT
+    effectValue: 600
+    enableTurn: 1
+    growPoint: 25
 3302015:
+  1:
+    artId: 330201501
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  2:
+    artId: 330201502
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  3:
+    artId: 330201503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  4:
+    artId: 330201504
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 3
+    growPoint: 25
+  5:
+    artId: 330201505
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 3
+    growPoint: 25
   7:
     artId: 330201507
     verbCode: BUFF
@@ -53,6 +173,54 @@
     enableTurn: 3
     growPoint: 25
 3303015:
+  2:
+    artId: 330301502
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  3:
+    artId: 330301503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  4:
+    artId: 330301504
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  5:
+    artId: 330301505
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  6:
+    artId: 330301506
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 350
+    enableTurn: 3
+    growPoint: 25
+  7:
+    artId: 330301507
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 400
+    enableTurn: 3
+    growPoint: 25
   9:
     artId: 330301509
     verbCode: BUFF
@@ -61,7 +229,23 @@
     effectValue: 500
     enableTurn: 3
     growPoint: 25
+  11:
+    artId: 330301511
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 600
+    enableTurn: 3
+    growPoint: 25
 3304015:
+  7:
+    artId: 330401507
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: CONNECT
+    effectValue: 350
+    enableTurn: 3
+    growPoint: 25
   9:
     artId: 330401509
     verbCode: BUFF
@@ -79,7 +263,47 @@
     effectValue: 150
     enableTurn: 5
     growPoint: 25
+  3:
+    artId: 350301503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 5
+    growPoint: 25
+  4:
+    artId: 350301504
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 250
+    enableTurn: 5
+    growPoint: 25
 3902015:
+  1:
+    artId: 390201501
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  2:
+    artId: 390201502
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  3:
+    artId: 390201503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
   4:
     artId: 390201504
     verbCode: BUFF
