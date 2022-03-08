@@ -27,6 +27,15 @@
   targetId: SELF
   verbCode: CONDITION_GOOD
 6102062:
+  2:
+    artId: 610206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
   3:
     artId: 610206203
     verbCode: CONDITION_GOOD
@@ -255,6 +264,15 @@
     enableTurn: 3
     growPoint: 25
     probability: 1000
+  14:
+    artId: 630206214
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 700
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
 6303062:
   1:
     artId: 630306201
@@ -262,6 +280,15 @@
     effectCode: DAMAGE_DOWN
     targetId: ALL
     effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  2:
+    artId: 630306202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: ALL
+    effectValue: 225
     enableTurn: 3
     growPoint: 25
     probability: 1000

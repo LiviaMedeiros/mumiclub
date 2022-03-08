@@ -190,6 +190,15 @@
     enableTurn: 1
     growPoint: 0
     probability: 850
+6104064:
+- artId: 610406400
+  verbCode: CONDITION_GOOD
+  effectCode: CRITICAL
+  targetId: CONNECT
+  effectValue: 2000
+  enableTurn: 1
+  growPoint: 0
+  probability: 1000
 6202063:
   5:
     artId: 620206305
@@ -394,4 +403,12 @@
     effectValue: 2000
     growPoint: 0
     probability: 250
+  5:
+    artId: 690206305
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 300
 ...

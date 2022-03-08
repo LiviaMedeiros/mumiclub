@@ -19,6 +19,25 @@
     enableTurn: 1
     growPoint: 50
     probability: 1000
+6303170:
+  4:
+    artId: 630317004
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN_BLAST
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 50
+    probability: 1000
+  5:
+    artId: 630317005
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN_BLAST
+    targetId: ALL
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 50
+    probability: 1000
 6902170:
   2:
     artId: 690217002
@@ -42,6 +61,14 @@
     effectCode: DAMAGE_DOWN_BLAST
     targetId: SELF
     effectValue: 200
+    growPoint: 0
+    probability: 1000
+  5:
+    artId: 690217005
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN_BLAST
+    targetId: SELF
+    effectValue: 250
     growPoint: 0
     probability: 1000
 ...
