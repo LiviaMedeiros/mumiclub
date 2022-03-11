@@ -1,0 +1,69 @@
+---
+pieceId: 1720
+pieceType: SKILL
+pieceName: あてがわれたみかづき荘
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 678
+hp: 678
+skillId: 172000
+pieceSkill:
+  id: 172000
+  groupId: 1103
+  name: アトリションチャーム[Ⅶ]
+  type: SKILL
+  intervalTurn: 11
+  shortDescription: '確率で魅了[Ⅶ] & 防御力DOWN[Ⅳ](敵単/1T) '
+  messageId: 70
+  artId1: 510003907
+  art1:
+    artId: 510003907
+    verbCode: CONDITION_BAD
+    effectCode: CHARM
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 20
+    probability: 450
+  artId2: 410002104
+  art2:
+    artId: 410002104
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+skillId2: 172001
+pieceSkill2:
+  id: 172001
+  groupId: 1103
+  name: アトリションチャーム[Ⅸ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: '確率で魅了[Ⅸ] & 防御力DOWN[Ⅴ](敵単/1T) '
+  messageId: 70
+  artId1: 510003909
+  art1:
+    artId: 510003909
+    verbCode: CONDITION_BAD
+    effectCode: CHARM
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 20
+    probability: 500
+  artId2: 410002105
+  art2:
+    artId: 410002105
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+description: 「いろはが思う理想のみかづき荘にはね、みんなの笑顔が溢れてたわ＠でもね、たとえ私が居なくなっても作られた私が出てくるみたいで＠黒江さんに聞いた話だと、その服装はいつもと違っていたらしいの＠いろはに、私がどう見られているのかちょっとだけ不安になったわ…」
+illustrator: ―
+openDate: 2022/01/11 15:10:00
+...
