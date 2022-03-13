@@ -1,0 +1,849 @@
+{
+    "npcHelpId": 188,
+    "userCardList": [
+        {
+            "cardId": 13015,
+            "displayCardId": 13015,
+            "revision": 3,
+            "attack": 9651,
+            "defense": 6784,
+            "hp": 26610,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 13015,
+                "charaNo": 1301,
+                "miniCharaNo": 130100,
+                "magiaCharaNo": 130100,
+                "cardName": "いろは・やちよ",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "ULTIMATE",
+                "growthType": "DEFHP",
+                "attack": 2431,
+                "defense": 1671,
+                "hp": 6603,
+                "rateGainMpAtk": 1100,
+                "rateGainMpDef": 1200,
+                "magiaId": 13015,
+                "cardMagia": {
+                    "id": 13015,
+                    "groupId": 1014,
+                    "name": "デュエ・アニマ",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 対魔女ダメージアップ(味全/3T) & 蘇生",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301107,
+                    "art2": {
+                        "artId": 330301107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 630316803,
+                    "art3": {
+                        "artId": 630316803,
+                        "verbCode": "LIMITED_ENEMY_TYPE",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 15,
+                        "probability": 1000,
+                        "genericValue": "WITCH"
+                    },
+                    "artId4": 200100603,
+                    "art4": {
+                        "artId": 200100603,
+                        "verbCode": "RESURRECT",
+                        "targetId": "ONE",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 13018,
+                "doppelCardMagia": {
+                    "id": 13018,
+                    "groupId": 1014,
+                    "name": "フェアウェル・グリーフ",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力UP & 対魔女ダメージアップ(味全/3T) & 蘇生",
+                    "artId1": 190130181,
+                    "art1": {
+                        "artId": 190130181,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 330301109,
+                    "art2": {
+                        "artId": 330301109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 630316805,
+                    "art3": {
+                        "artId": 630316805,
+                        "verbCode": "LIMITED_ENEMY_TYPE",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 15,
+                        "probability": 1000,
+                        "genericValue": "WITCH"
+                    },
+                    "artId4": 200100605,
+                    "art4": {
+                        "artId": 200100605,
+                        "verbCode": "RESURRECT",
+                        "targetId": "ONE",
+                        "effectValue": 300,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 130100,
+                "doppel": {
+                    "id": 130100,
+                    "name": "フェアウェル・グリーフ",
+                    "title": "ー",
+                    "description": "ー",
+                    "designer": "ー",
+                    "archive": false,
+                    "openDate": "2019/08/22 00:00:00"
+                },
+                "skillId": 13015,
+                "cardSkill": {
+                    "id": 13015,
+                    "groupId": 1085,
+                    "name": "一緒に環になろう",
+                    "shortDescription": "攻撃力UP[Ⅸ] & HP回復[Ⅷ] & 確率でクリティカル[Ⅸ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200400408,
+                    "art2": {
+                        "artId": 200400408,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 475,
+                        "growPoint": 20
+                    },
+                    "artId3": 610406309,
+                    "art3": {
+                        "artId": 610406309,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 700
+                    }
+                },
+                "pieceSkillId1": 13011,
+                "pieceSkillList": [
+                    {
+                        "id": 13011,
+                        "groupId": 1086,
+                        "name": "領域外の加護",
+                        "type": "STARTUP",
+                        "shortDescription": "クエスト開始時に『防御力UP[Ⅰ](味全/∞) & 自身にクリティカル無効×２回』を発動",
+                        "artId1": 9404,
+                        "art1": {
+                            "artId": 9404,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 0,
+                            "growPoint": 25
+                        },
+                        "artId2": 600216700,
+                        "art2": {
+                            "artId": 600216700,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CRITICAL",
+                            "targetId": "SELF",
+                            "effectValue": 0,
+                            "enableTurn": 0,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 600216700,
+                        "art3": {
+                            "artId": 600216700,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CRITICAL",
+                            "targetId": "SELF",
+                            "effectValue": 0,
+                            "enableTurn": 0,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "maxPieceSkillId1": 13012,
+                "maxPieceSkillList": [
+                    {
+                        "id": 13012,
+                        "groupId": 1086,
+                        "name": "領域外の加護(最大解放)",
+                        "type": "STARTUP",
+                        "shortDescription": "クエスト開始時に『防御力UP[Ⅱ](味全/∞) & 自身にクリティカル無効×２回』を発動",
+                        "artId1": 9405,
+                        "art1": {
+                            "artId": 9405,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 375,
+                            "enableTurn": 0,
+                            "growPoint": 25
+                        },
+                        "artId2": 600216700,
+                        "art2": {
+                            "artId": 600216700,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CRITICAL",
+                            "targetId": "SELF",
+                            "effectValue": 0,
+                            "enableTurn": 0,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 600216700,
+                        "art3": {
+                            "artId": 600216700,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CRITICAL",
+                            "targetId": "SELF",
+                            "effectValue": 0,
+                            "enableTurn": 0,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "ササギコウシ",
+                "cardCustomize": {
+                    "cardId": 13015,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 555,
+                    "gift4": {
+                        "id": 555,
+                        "type": 2,
+                        "name": "振子の重心",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 506,
+                    "gift5": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 310,
+                    "gift6": {
+                        "id": 310,
+                        "type": 2,
+                        "name": "流浪の杭",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/09/03 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 188,
+            "npcPieceId1": 1390
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1301,
+            "chara": {
+                "id": 1301,
+                "name": "いろは・やちよ",
+                "kana": "いろは・やちよ",
+                "title": "決戦ver.",
+                "attributeId": "LIGHT",
+                "attackType": 1,
+                "initialType": "ULTIMATE",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": true,
+                "doubleUnitLive2dDetail": "130102",
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 13014,
+                "defaultCard": {
+                    "cardId": 13014,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "ULTIMATE",
+                    "growthType": "DEFHP",
+                    "attack": 2134,
+                    "defense": 1301,
+                    "hp": 5829,
+                    "miniCharaNo": 130100,
+                    "charaNo": 1301,
+                    "cardName": "いろは・やちよ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 13014,
+                        "groupId": 1014,
+                        "name": "デュエ・アニマ",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力UP & 対魔女ダメージアップ(味全/3T) & 蘇生",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301105,
+                        "art2": {
+                            "artId": 330301105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 630316802,
+                        "art3": {
+                            "artId": 630316802,
+                            "verbCode": "LIMITED_ENEMY_TYPE",
+                            "effectCode": "DAMAGE_UP",
+                            "targetId": "ALL",
+                            "effectValue": 175,
+                            "enableTurn": 3,
+                            "growPoint": 15,
+                            "probability": 1000,
+                            "genericValue": "WITCH"
+                        },
+                        "artId4": 200100601,
+                        "art4": {
+                            "artId": 200100601,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 200,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 13014,
+                        "groupId": 1085,
+                        "name": "一緒に環になろう",
+                        "shortDescription": "攻撃力UP[Ⅶ] & HP回復[Ⅵ] & 確率でクリティカル[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400406,
+                        "art2": {
+                            "artId": 200400406,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 425,
+                            "growPoint": 20
+                        },
+                        "artId3": 610406307,
+                        "art3": {
+                            "artId": 610406307,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 13011,
+                            "groupId": 1086,
+                            "name": "領域外の加護",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『防御力UP[Ⅰ](味全/∞) & 自身にクリティカル無効×２回』を発動",
+                            "artId1": 9404,
+                            "art1": {
+                                "artId": 9404,
+                                "verbCode": "BUFF",
+                                "effectCode": "DEFENSE",
+                                "targetId": "ALL",
+                                "effectValue": 300,
+                                "enableTurn": 0,
+                                "growPoint": 25
+                            },
+                            "artId2": 600216700,
+                            "art2": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId3": 600216700,
+                            "art3": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 13012,
+                            "groupId": 1086,
+                            "name": "領域外の加護(最大解放)",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『防御力UP[Ⅱ](味全/∞) & 自身にクリティカル無効×２回』を発動",
+                            "artId1": 9405,
+                            "art1": {
+                                "artId": 9405,
+                                "verbCode": "BUFF",
+                                "effectCode": "DEFENSE",
+                                "targetId": "ALL",
+                                "effectValue": 375,
+                                "enableTurn": 0,
+                                "growPoint": 25
+                            },
+                            "artId2": 600216700,
+                            "art2": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId3": 600216700,
+                            "art3": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "evolutionCardId1": 13015,
+                "evolutionCard1": {
+                    "cardId": 13015,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "ULTIMATE",
+                    "growthType": "DEFHP",
+                    "attack": 2431,
+                    "defense": 1671,
+                    "hp": 6603,
+                    "miniCharaNo": 130100,
+                    "charaNo": 1301,
+                    "cardName": "いろは・やちよ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 13015,
+                        "groupId": 1014,
+                        "name": "デュエ・アニマ",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 対魔女ダメージアップ(味全/3T) & 蘇生",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301107,
+                        "art2": {
+                            "artId": 330301107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 630316803,
+                        "art3": {
+                            "artId": 630316803,
+                            "verbCode": "LIMITED_ENEMY_TYPE",
+                            "effectCode": "DAMAGE_UP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 15,
+                            "probability": 1000,
+                            "genericValue": "WITCH"
+                        },
+                        "artId4": 200100603,
+                        "art4": {
+                            "artId": 200100603,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 13015,
+                        "groupId": 1085,
+                        "name": "一緒に環になろう",
+                        "shortDescription": "攻撃力UP[Ⅸ] & HP回復[Ⅷ] & 確率でクリティカル[Ⅸ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400408,
+                        "art2": {
+                            "artId": 200400408,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 475,
+                            "growPoint": 20
+                        },
+                        "artId3": 610406309,
+                        "art3": {
+                            "artId": 610406309,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 700
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 13011,
+                            "groupId": 1086,
+                            "name": "領域外の加護",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『防御力UP[Ⅰ](味全/∞) & 自身にクリティカル無効×２回』を発動",
+                            "artId1": 9404,
+                            "art1": {
+                                "artId": 9404,
+                                "verbCode": "BUFF",
+                                "effectCode": "DEFENSE",
+                                "targetId": "ALL",
+                                "effectValue": 300,
+                                "enableTurn": 0,
+                                "growPoint": 25
+                            },
+                            "artId2": 600216700,
+                            "art2": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId3": 600216700,
+                            "art3": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 13012,
+                            "groupId": 1086,
+                            "name": "領域外の加護(最大解放)",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『防御力UP[Ⅱ](味全/∞) & 自身にクリティカル無効×２回』を発動",
+                            "artId1": 9405,
+                            "art1": {
+                                "artId": 9405,
+                                "verbCode": "BUFF",
+                                "effectCode": "DEFENSE",
+                                "targetId": "ALL",
+                                "effectValue": 375,
+                                "enableTurn": 0,
+                                "growPoint": 25
+                            },
+                            "artId2": 600216700,
+                            "art2": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId3": 600216700,
+                            "art3": {
+                                "artId": 600216700,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CRITICAL",
+                                "targetId": "SELF",
+                                "effectValue": 0,
+                                "enableTurn": 0,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "description": "かつて強大な魔女と戦った際に背中を支えてくれた力を、一時的に手に入れた魔法少女。出会いこそ敵同士だったが、共に行動をする中で親密になり、いつしか切っても切れない絆で結ばれていた。羽は力を宿した瞬間など、一瞬しか現れない。",
+                "school": "―",
+                "designer": "蒼樹うめ",
+                "voiceActor": "麻倉もも、雨宮天",
+                "openDate": "2019/08/22 00:00:00",
+                "enhancementGroupId": 108
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "8eef9475-2004-4547-b8ea-c56d2e6a308f",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 130100,
+            "npcHelpId": 188,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1390,
+            "piece": {
+                "pieceId": 1390,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "私たちだけのベストショット",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 807,
+                "hp": 807,
+                "skillId": 139000,
+                "pieceSkill": {
+                    "id": 139000,
+                    "groupId": 1134,
+                    "name": "レゾナンス・ブラストアップ[Ⅰ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "必ず回避無効 & Blast ダメージUP[Ⅰ](味全/1T)",
+                    "messageId": 70,
+                    "artId1": 610308100,
+                    "art1": {
+                        "artId": 610308100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "AVOID",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId2": 310301801,
+                    "art2": {
+                        "artId": 310301801,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 139001,
+                "pieceSkill2": {
+                    "id": 139001,
+                    "groupId": 1134,
+                    "name": "レゾナンス・ブラストアップ[Ⅱ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "必ず回避無効 & Blast ダメージUP[Ⅱ](味全/1T)",
+                    "messageId": 70,
+                    "artId1": 610308100,
+                    "art1": {
+                        "artId": 610308100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "AVOID",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId2": 310301802,
+                    "art2": {
+                        "artId": 310301802,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "冊子に載るかもしれなかった、私たちの１枚。＠見返すと少し恥ずかしくて、載らなくて良かったって思っちゃう。＠きっと、私たちで持っているのがちょうど良いから。＠思い出した時に覗いてみて、クスッと笑うぐらいでいたいから。",
+                "illustrator": "―",
+                "openDate": "2019/08/22 00:00:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1210,
+            "hp": 1210,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 188
+        }
+    ],
+    "isNpc": true,
+    "userName": "いろは・やちよ",
+    "userRank": 100,
+    "cardId": 13015,
+    "charaName": "いろは・やちよ",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 13015,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

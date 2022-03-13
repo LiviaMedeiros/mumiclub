@@ -1,0 +1,1034 @@
+{
+    "npcHelpId": 189,
+    "userCardList": [
+        {
+            "cardId": 40285,
+            "displayCardId": 40285,
+            "revision": 3,
+            "attack": 9055,
+            "defense": 9082,
+            "hp": 28127,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40285,
+                "charaNo": 4028,
+                "miniCharaNo": 402800,
+                "magiaCharaNo": 402800,
+                "cardName": "タルト",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "EXCEED",
+                "growthType": "ATTACK",
+                "attack": 2214,
+                "defense": 2323,
+                "hp": 7139,
+                "rateGainMpAtk": 900,
+                "rateGainMpDef": 1000,
+                "magiaId": 40285,
+                "cardMagia": {
+                    "id": 40285,
+                    "groupId": 1014,
+                    "name": "完璧なるイレギュラー",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & Blast攻撃時MP獲得(自/2T) & MP回復(自)",
+                    "artId1": 100300207,
+                    "art1": {
+                        "artId": 100300207,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 3350,
+                        "growPoint": 100
+                    },
+                    "artId2": 620220003,
+                    "art2": {
+                        "artId": 620220003,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "MP_PLUS_BLAST",
+                        "targetId": "SELF",
+                        "effectValue": 30,
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 200200503,
+                    "art3": {
+                        "artId": 200200503,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 40288,
+                "doppelCardMagia": {
+                    "id": 40288,
+                    "groupId": 1014,
+                    "name": "ラ・ポルトゥ・ドゥ・パラディ",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & Blast攻撃時MP獲得(自/2T) & MP回復(自)",
+                    "artId1": 190402881,
+                    "art1": {
+                        "artId": 190402881,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 7810,
+                        "growPoint": 220
+                    },
+                    "artId2": 620220005,
+                    "art2": {
+                        "artId": 620220005,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "MP_PLUS_BLAST",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 200200506,
+                    "art3": {
+                        "artId": 200200506,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 325,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 402800,
+                "doppel": {
+                    "id": 402800,
+                    "name": "ラ・ポルトゥ・ドゥ・パラディ",
+                    "title": "ー",
+                    "description": "ー",
+                    "designer": "………",
+                    "archive": false,
+                    "openDate": "2050/12/16 15:10:00"
+                },
+                "skillId": 40285,
+                "cardSkill": {
+                    "id": 40285,
+                    "groupId": 1085,
+                    "name": "あなたに光あれ",
+                    "shortDescription": "攻撃力UP[Ⅸ] & 防御力UP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401209,
+                    "art2": {
+                        "artId": 310401209,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "CONNECT",
+                        "effectValue": 1050,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610406309,
+                    "art3": {
+                        "artId": 610406309,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 700
+                    }
+                },
+                "pieceSkillId1": 40281,
+                "pieceSkillList": [
+                    {
+                        "id": 40281,
+                        "groupId": 1119,
+                        "name": "ブレッシング・アデプト[Ⅰ]",
+                        "type": "ABILITY",
+                        "shortDescription": "『ダメージアップ状態[Ⅰ] & 呪い無効』のアビリティを所持",
+                        "artId1": 690206101,
+                        "art1": {
+                            "artId": 690206101,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_UP",
+                            "targetId": "SELF",
+                            "effectValue": 50,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId2": 690208800,
+                        "art2": {
+                            "artId": 690208800,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CURSE",
+                            "targetId": "SELF",
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "maxPieceSkillId1": 40282,
+                "maxPieceSkillList": [
+                    {
+                        "id": 40282,
+                        "groupId": 1119,
+                        "name": "ブレッシング・アデプト[Ⅱ]",
+                        "type": "ABILITY",
+                        "shortDescription": "『ダメージアップ状態[Ⅱ] & 呪い無効』のアビリティを所持",
+                        "artId1": 690206102,
+                        "art1": {
+                            "artId": 690206102,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_UP",
+                            "targetId": "SELF",
+                            "effectValue": 100,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId2": 690208800,
+                        "art2": {
+                            "artId": 690208800,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CURSE",
+                            "targetId": "SELF",
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_H",
+                "commandType3": "RANGE_V",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "枡狐/蛙空",
+                "cardCustomize": {
+                    "cardId": 40285,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 70,
+                    "giftId2": 143,
+                    "gift2": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 70,
+                    "giftId3": 142,
+                    "gift3": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum3": 15,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 506,
+                    "gift4": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 50,
+                    "giftId5": 554,
+                    "gift5": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 8,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 90,
+                    "giftId6": 302,
+                    "gift6": {
+                        "id": 302,
+                        "type": 2,
+                        "name": "鏡の招待状",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 189,
+            "npcPieceId1": 1113,
+            "npcPieceId2": 1453,
+            "npcPieceId3": 1494,
+            "npcPieceId4": 1508
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4028,
+            "chara": {
+                "id": 4028,
+                "name": "タルト",
+                "kana": "たると",
+                "title": "ver.Final",
+                "attributeId": "LIGHT",
+                "attackType": 1,
+                "initialType": "EXCEED",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 40284,
+                "defaultCard": {
+                    "cardId": 40284,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "EXCEED",
+                    "growthType": "ATTACK",
+                    "attack": 1951,
+                    "defense": 2047,
+                    "hp": 6290,
+                    "miniCharaNo": 402800,
+                    "charaNo": 4028,
+                    "cardName": "タルト",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40284,
+                        "groupId": 1014,
+                        "name": "完璧なるイレギュラー",
+                        "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] & Blast攻撃時MP獲得(自/2T) & MP回復(自)",
+                        "artId1": 100300205,
+                        "art1": {
+                            "artId": 100300205,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "ALL",
+                            "effectValue": 3150,
+                            "growPoint": 100
+                        },
+                        "artId2": 620220002,
+                        "art2": {
+                            "artId": 620220002,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "MP_PLUS_BLAST",
+                            "targetId": "SELF",
+                            "effectValue": 20,
+                            "enableTurn": 2,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 200200502,
+                        "art3": {
+                            "artId": 200200502,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 180,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40284,
+                        "groupId": 1085,
+                        "name": "あなたに光あれ",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 防御力UP[Ⅶ] & 確率でクリティカル[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401207,
+                        "art2": {
+                            "artId": 310401207,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 900,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406307,
+                        "art3": {
+                            "artId": 610406307,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 40281,
+                            "groupId": 1119,
+                            "name": "ブレッシング・アデプト[Ⅰ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ダメージアップ状態[Ⅰ] & 呪い無効』のアビリティを所持",
+                            "artId1": 690206101,
+                            "art1": {
+                                "artId": 690206101,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "DAMAGE_UP",
+                                "targetId": "SELF",
+                                "effectValue": 50,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId2": 690208800,
+                            "art2": {
+                                "artId": 690208800,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CURSE",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 40282,
+                            "groupId": 1119,
+                            "name": "ブレッシング・アデプト[Ⅱ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ダメージアップ状態[Ⅱ] & 呪い無効』のアビリティを所持",
+                            "artId1": 690206102,
+                            "art1": {
+                                "artId": 690206102,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "DAMAGE_UP",
+                                "targetId": "SELF",
+                                "effectValue": 100,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId2": 690208800,
+                            "art2": {
+                                "artId": 690208800,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CURSE",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "evolutionCardId1": 40285,
+                "evolutionCard1": {
+                    "cardId": 40285,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "EXCEED",
+                    "growthType": "ATTACK",
+                    "attack": 2214,
+                    "defense": 2323,
+                    "hp": 7139,
+                    "miniCharaNo": 402800,
+                    "charaNo": 4028,
+                    "cardName": "タルト",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40285,
+                        "groupId": 1014,
+                        "name": "完璧なるイレギュラー",
+                        "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & Blast攻撃時MP獲得(自/2T) & MP回復(自)",
+                        "artId1": 100300207,
+                        "art1": {
+                            "artId": 100300207,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "ALL",
+                            "effectValue": 3350,
+                            "growPoint": 100
+                        },
+                        "artId2": 620220003,
+                        "art2": {
+                            "artId": 620220003,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "MP_PLUS_BLAST",
+                            "targetId": "SELF",
+                            "effectValue": 30,
+                            "enableTurn": 2,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 200200503,
+                        "art3": {
+                            "artId": 200200503,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40285,
+                        "groupId": 1085,
+                        "name": "あなたに光あれ",
+                        "shortDescription": "攻撃力UP[Ⅸ] & 防御力UP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401209,
+                        "art2": {
+                            "artId": 310401209,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 1050,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406309,
+                        "art3": {
+                            "artId": 610406309,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 700
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 40281,
+                            "groupId": 1119,
+                            "name": "ブレッシング・アデプト[Ⅰ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ダメージアップ状態[Ⅰ] & 呪い無効』のアビリティを所持",
+                            "artId1": 690206101,
+                            "art1": {
+                                "artId": 690206101,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "DAMAGE_UP",
+                                "targetId": "SELF",
+                                "effectValue": 50,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId2": 690208800,
+                            "art2": {
+                                "artId": 690208800,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CURSE",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 40282,
+                            "groupId": 1119,
+                            "name": "ブレッシング・アデプト[Ⅱ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『ダメージアップ状態[Ⅱ] & 呪い無効』のアビリティを所持",
+                            "artId1": 690206102,
+                            "art1": {
+                                "artId": 690206102,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "DAMAGE_UP",
+                                "targetId": "SELF",
+                                "effectValue": 100,
+                                "growPoint": 25,
+                                "probability": 1000
+                            },
+                            "artId2": 690208800,
+                            "art2": {
+                                "artId": 690208800,
+                                "verbCode": "IGNORE",
+                                "effectCode": "CURSE",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "description": "人々の希望と因果を力に変え、真の英雄として覚醒したタルト（ジャンヌ・ダルク）。光の力に加え、漆黒の籠手には影の力をも宿す。とある願いがもたらした束の間の奇跡により、魔法少女の限界を超えた「完璧なるイレギュラー」。",
+                "school": "―",
+                "designer": "枡狐/蛙空",
+                "voiceActor": "堀江由衣",
+                "openDate": "2020/06/19 15:10:00",
+                "enhancementGroupId": 98
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "bfa9c046-3c95-48b8-8418-3f04273304d7",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 402800,
+            "npcHelpId": 189,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1113,
+            "piece": {
+                "pieceId": 1113,
+                "pieceType": "SKILL",
+                "pieceName": "曲げない信念",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 0,
+                "defense": 721,
+                "hp": 881,
+                "skillId": 111300,
+                "pieceSkill": {
+                    "id": 111300,
+                    "groupId": 1092,
+                    "name": "ブラストアップ[Ⅸ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "Blast ダメージUP[Ⅸ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 310201809,
+                    "art1": {
+                        "artId": 310201809,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "SELF",
+                        "effectValue": 550,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "regularEventId": 2009,
+                    "regularEventArtId1": 350201106,
+                    "regularEventArt1": {
+                        "artId": 350201106,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "regularEventArtId2": 650206603,
+                    "regularEventArt2": {
+                        "artId": 650206603,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "SELF",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 200
+                    },
+                    "regularEventDescription": " 【殲滅戦時追加で攻撃力UP[Ⅵ] & 確率で防御無視[Ⅲ](自/5T)】",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 111301,
+                "pieceSkill2": {
+                    "id": 111301,
+                    "groupId": 1092,
+                    "name": "ブラストアップ[Ⅹ]",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "Blast ダメージUP[Ⅹ](自/1T)",
+                    "messageId": 70,
+                    "artId1": 310201810,
+                    "art1": {
+                        "artId": 310201810,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "SELF",
+                        "effectValue": 600,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "regularEventId": 2009,
+                    "regularEventArtId1": 350201110,
+                    "regularEventArt1": {
+                        "artId": 350201110,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 500,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "regularEventArtId2": 650206605,
+                    "regularEventArt2": {
+                        "artId": 650206605,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "SELF",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 300
+                    },
+                    "regularEventDescription": "【殲滅戦時追加で攻撃力UP[X] & 確率で防御無視[Ⅴ](自/5T)】",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "あたしの願いなんてちっぽけなもんだよ。良かれと思ったのに、＠結局は失敗しちまったんだ…。だからこそ、あたしは心に決めた。＠今度は失敗しない、自分のためだけに生きるって。＠これがあたしのさ、曲げられない信念なんだよ。",
+                "illustrator": "谷口淳一郎",
+                "openDate": "2017/09/28 23:40:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 1081,
+            "hp": 1321,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 189
+        },
+        {
+            "pieceId": 1453,
+            "piece": {
+                "pieceId": 1453,
+                "pieceType": "ABILITY",
+                "pieceName": "涼子とさくや：刹那の絶好",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 727,
+                "defense": 0,
+                "hp": 888,
+                "skillId": 145300,
+                "pieceSkill": {
+                    "id": 145300,
+                    "groupId": 1119,
+                    "name": "リジェネレイト・ウェポン[Ⅴ]",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ状態[Ⅴ] & HP自動回復[Ⅲ]",
+                    "artId1": 690206105,
+                    "art1": {
+                        "artId": 690206105,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207703,
+                    "art2": {
+                        "artId": 690207703,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 40,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 145301,
+                "pieceSkill2": {
+                    "id": 145301,
+                    "groupId": 1119,
+                    "name": "リジェネレイト・ウェポン[Ⅵ]",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージアップ状態[Ⅵ] & HP自動回復[Ⅳ]",
+                    "artId1": 690206106,
+                    "art1": {
+                        "artId": 690206106,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_UP",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690207704,
+                    "art2": {
+                        "artId": 690207704,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "SELF",
+                        "effectValue": 50,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "諸行無常？そんな言葉は忘れた＠今はただ、変わらないものもあると信じていればいい＠つまらないことを考えるのはもう止め＠大親友を前にそんな野暮なことはしてられない",
+                "illustrator": "―",
+                "openDate": "2020/01/27 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1090,
+            "defense": 0,
+            "hp": 1332,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 189
+        },
+        {
+            "pieceId": 1494,
+            "piece": {
+                "pieceId": 1494,
+                "pieceType": "ABILITY",
+                "pieceKind": "EVENT",
+                "pieceName": "人生で最も幸せな時間",
+                "attributeId": "ALL",
+                "rank": "RANK_4",
+                "attack": 754,
+                "defense": 0,
+                "hp": 914,
+                "skillId": 149400,
+                "pieceSkill": {
+                    "id": 149400,
+                    "groupId": 1085,
+                    "name": "フルゲージオーバードライブ[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "HP最大時攻撃力UP[Ⅳ] & 攻撃力UP[Ⅲ]",
+                    "artId1": 390203104,
+                    "art1": {
+                        "artId": 390203104,
+                        "verbCode": "BUFF_HPMAX",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 20,
+                        "probability": 1000
+                    },
+                    "artId2": 390201103,
+                    "art2": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "eventId": 1099,
+                    "eventArtId1": 1099003,
+                    "eventArt1": {
+                        "artId": 1099003,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_BRANCH_1099_PART_1"
+                    },
+                    "eventArtId2": 1099007,
+                    "eventArt2": {
+                        "artId": 1099007,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_BRANCH_1099_PART_2"
+                    },
+                    "eventDescription": "＆「トラブルのタネ」「ほくそ笑む花」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 149401,
+                "pieceSkill2": {
+                    "id": 149401,
+                    "groupId": 1085,
+                    "name": "フルゲージオーバードライブ[Ⅴ]",
+                    "type": "ABILITY",
+                    "shortDescription": "HP最大時攻撃力UP[Ⅴ] & 攻撃力UP[Ⅳ]",
+                    "artId1": 390203105,
+                    "art1": {
+                        "artId": 390203105,
+                        "verbCode": "BUFF_HPMAX",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "growPoint": 20,
+                        "probability": 1000
+                    },
+                    "artId2": 390201104,
+                    "art2": {
+                        "artId": 390201104,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "eventId": 1099,
+                    "eventArtId1": 1099004,
+                    "eventArt1": {
+                        "artId": 1099004,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 15000,
+                        "genericValue": "EVENT_BRANCH_1099_PART_1"
+                    },
+                    "eventArtId2": 1099008,
+                    "eventArt2": {
+                        "artId": 1099008,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 15000,
+                        "genericValue": "EVENT_BRANCH_1099_PART_2"
+                    },
+                    "eventDescription": "＆「トラブルのタネ」「ほくそ笑む花」追加獲得数＋15",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「ああ…おいしい、おいしすぎるよ～！口の中でお米が躍ってる！＠バターとお野菜と、それから少しのコショウの香りがふんわり＠鼻に抜けてきて…もう1000回食べても楽しめちゃいそう…！＠あ、私ほっぺたちゃんとついてる？落ちちゃってない？大丈夫？」",
+                "illustrator": "くらは",
+                "openDate": "2020/05/18 15:10:00"
+            },
+            "level": 30,
+            "lbCount": 0,
+            "attack": 1131,
+            "defense": 0,
+            "hp": 1371,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 189
+        },
+        {
+            "pieceId": 1508,
+            "piece": {
+                "pieceId": 1508,
+                "pieceType": "SKILL",
+                "pieceName": "最後の祈り",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4028",
+                "charaList": [
+                    {
+                        "charaId": 4028,
+                        "name": "タルト ver.Final"
+                    }
+                ],
+                "attack": 0,
+                "defense": 453,
+                "hp": 493,
+                "skillId": 150800,
+                "pieceSkill": {
+                    "id": 150800,
+                    "groupId": 1168,
+                    "name": "ブラストドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "Blastドロー",
+                    "messageId": 70,
+                    "artId1": 700212000,
+                    "art1": {
+                        "artId": 700212000,
+                        "verbCode": "DRAW",
+                        "effectCode": "BLAST",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 150801,
+                "pieceSkill2": {
+                    "id": 150801,
+                    "groupId": 1168,
+                    "name": "ブラストドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "Blastドロー",
+                    "messageId": 70,
+                    "artId1": 700212000,
+                    "art1": {
+                        "artId": 700212000,
+                        "verbCode": "DRAW",
+                        "effectCode": "BLAST",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "いわれなき異端の罪に、理不尽な最期を迎えながら＠聖女が発したのは、祈りと信仰の言葉だった＠“乙女”の命が尽きる瞬間＠人々は、飛び立つ純白のハトを見たという",
+                "illustrator": "秘鷺悠弥",
+                "openDate": "2020/06/19 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 679,
+            "hp": 739,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 189
+        }
+    ],
+    "isNpc": true,
+    "userName": "タルト",
+    "userRank": 100,
+    "cardId": 40285,
+    "charaName": "タルト",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 40285,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
