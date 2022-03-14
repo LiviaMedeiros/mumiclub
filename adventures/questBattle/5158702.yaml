@@ -1,0 +1,66 @@
+---
+questBattleId: 5158702
+sectionId: 515870
+eventId: 1158
+sectionIndex: 2
+questBattleType: NORMAL
+bossFlag: false
+placeId: "20091"
+bgm: bgm05_event03
+bossBgm: bgm05_event03
+consumeType: NORMAL
+ap: 10
+difficulty: 70
+limitTurn: 25
+exp: 60
+cardExp: 25
+baseBondsPt: 30
+riche: 350
+parameter: WAVE_LIMIT_DROP=110202
+mission1: CLEAR
+missionMaster1:
+  description: クリア
+mission2: ACTION_25
+missionMaster2:
+  description: 25ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_EVENT_SINGLERAID_1158_EXCHANGE_1_50
+waveEnemyAttributeIdList:
+- LIGHT
+- WATER
+- TIMBER
+parameterMap:
+  WAVE_LIMIT_DROP: "110202"
+addDropNum: 1
+addDropItemId: EVENT_SINGLERAID_1158_EXCHANGE_1
+addDropLotArr: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,250,300,250,100,0
+addDropLotMap:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 100
+- 250
+- 300
+- 250
+- 100
+- 0
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
