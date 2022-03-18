@@ -1,0 +1,60 @@
+---
+questBattleId: 5158261
+sectionId: 515826
+eventId: 1158
+sectionIndex: 1
+questBattleType: NORMAL
+bossFlag: false
+placeId: "20091"
+bgm: bgm05_event04
+bossBgm: bgm05_event04
+consumeType: NORMAL
+ap: 10
+difficulty: 60
+limitTurn: 25
+exp: 40
+cardExp: 20
+baseBondsPt: 20
+riche: 200
+parameter: WAVE_LIMIT_DROP=110201
+mission1: CLEAR
+missionMaster1:
+  description: クリア
+mission2: ACTION_25
+missionMaster2:
+  description: 25ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_EVENT_SINGLERAID_1158_EXCHANGE_1_50
+waveEnemyAttributeIdList:
+- LIGHT
+- DARK
+- FIRE
+parameterMap:
+  WAVE_LIMIT_DROP: "110201"
+addDropNum: 1
+addDropItemId: EVENT_SINGLERAID_1158_EXCHANGE_1
+addDropLotArr: 0,0,0,0,0,0,0,0,0,0,0,100,200,300,300,100,0
+addDropLotMap:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+- 100
+- 200
+- 300
+- 300
+- 100
+- 0
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
