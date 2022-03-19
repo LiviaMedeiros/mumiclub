@@ -1,0 +1,104 @@
+---
+pieceId: 1735
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 女王の歩む道
+attributeId: ALL
+rank: RANK_4
+attack: 858
+defense: 0
+hp: 898
+skillId: 173500
+pieceSkill:
+  id: 173500
+  groupId: 1085
+  name: ブルーム・カースエッジ[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 防御力UP[Ⅲ] & 攻撃時に確率で呪い(1T)を付与[Ⅱ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  artId3: 690210402
+  art3:
+    artId: 690210402
+    verbCode: ENCHANT
+    effectCode: CURSE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 0
+    probability: 150
+  eventId: 1159
+  eventArtId1: 1159003
+  eventArt1:
+    artId: 1159003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1159_EXCHANGE_1
+  eventDescription: ＆「想いを記すもの」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 173501
+pieceSkill2:
+  id: 173501
+  groupId: 1085
+  name: ブルーム・カースエッジ[Ⅳ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅳ] & 防御力UP[Ⅳ] & 攻撃時に確率で呪い(1T)を付与[Ⅲ]
+  artId1: 390201104
+  art1:
+    artId: 390201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 390201204
+  art2:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId3: 690210403
+  art3:
+    artId: 690210403
+    verbCode: ENCHANT
+    effectCode: CURSE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 0
+    probability: 200
+  eventId: 1159
+  eventArtId1: 1159004
+  eventArt1:
+    artId: 1159004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1159_EXCHANGE_1
+  eventDescription: ＆「想いを記すもの」追加獲得数＋15
+  skillEffectRange: ALL
+description: 若さも、力も、あらゆるものを手中にした＠フランス王妃が夢見るのは、終わりなき権勢の夢＠邪魔する者は処断する＠その威光は黄昏の陰りを知らず、その視界には広大な未来だけがある
+illustrator: ―
+openDate: 2022/03/18 15:10:00
+...
