@@ -1,0 +1,73 @@
+---
+pieceId: 1700
+pieceType: SKILL
+pieceName: 魔法少女になれる気がしたの
+attributeId: ALL
+rank: RANK_4
+charaIds: "1001,2001"
+charaList:
+- charaId: 1001
+  name: 環 いろは
+- charaId: 2001
+  name: 鹿目 まどか
+attack: 0
+defense: 890
+hp: 890
+skillId: 170000
+pieceSkill:
+  id: 170000
+  groupId: 1231
+  name: 魔法少女になれる気がしたの
+  type: SKILL
+  intervalTurn: 12
+  shortDescription: 状態異常を1回無効(味全/3T) & 状態異常解除(味全)
+  messageId: 70
+  artId1: 630320800
+  art1:
+    artId: 630320800
+    verbCode: IGNORE
+    effectCode: CONDITION_BAD
+    targetId: ALL
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+    genericValue: NONE
+  artId2: 200301000
+  art2:
+    artId: 200301000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: ALL
+    growPoint: 0
+  skillEffectRange: ALL
+skillId2: 170001
+pieceSkill2:
+  id: 170001
+  groupId: 1231
+  name: 魔法少女になれる気がしたの
+  type: SKILL
+  intervalTurn: 12
+  shortDescription: 状態異常を1回無効(味全/3T) & 状態異常解除(味全)
+  messageId: 70
+  artId1: 630320800
+  art1:
+    artId: 630320800
+    verbCode: IGNORE
+    effectCode: CONDITION_BAD
+    targetId: ALL
+    enableTurn: 3
+    growPoint: 0
+    probability: 1000
+    genericValue: NONE
+  artId2: 200301000
+  art2:
+    artId: 200301000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: ALL
+    growPoint: 0
+  skillEffectRange: ALL
+description: Blu-ray&DVD 第1巻 描き下ろしジャケットイラスト＠（TVアニメ 2nd SEASON）
+illustrator: 谷口淳一郎
+openDate: 2021/11/24 00:00:00
+...
