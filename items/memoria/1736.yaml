@@ -1,0 +1,90 @@
+---
+pieceId: 1736
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 錬金術士コンビ参上！
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 818
+hp: 978
+skillId: 173600
+pieceSkill:
+  id: 173600
+  groupId: 1120
+  name: Hシールド・ライズ[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: ダメージカット状態[Ⅲ] & 防御力UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630206203
+  art1:
+    artId: 630206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201203
+  art2:
+    artId: 330201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1159
+  eventArtId1: 1159003
+  eventArt1:
+    artId: 1159003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1159_EXCHANGE_1
+  eventDescription: ＆「想いを記すもの」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 173601
+pieceSkill2:
+  id: 173601
+  groupId: 1120
+  name: Hシールド・ライズ[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: ダメージカット状態[Ⅳ] & 防御力UP[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630206204
+  art1:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201204
+  art2:
+    artId: 330201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1159
+  eventArtId1: 1159004
+  eventArt1:
+    artId: 1159004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1159_EXCHANGE_1
+  eventDescription: ＆「想いを記すもの」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「探しましたよ。近所で遊んでるのかと思ったら、まさかこんな…」＠「聞けばキューブも一緒じゃないって言うし、僕たち心配したよ！」＠「魔女に会ったら普通の人間は太刀打ちできないわ。火遊びはダメよ」＠「それを言ったら僕も普通の人間だけどね…」
+illustrator: ―
+openDate: 2022/03/24 16:00:00
+...
