@@ -1,0 +1,53 @@
+---
+pieceId: 1740
+pieceType: SKILL
+pieceName: 無感情の放課後
+attributeId: ALL
+rank: RANK_3
+charaIds: "1043"
+charaList:
+- charaId: 1043
+  name: 黒江
+attack: 0
+defense: 440
+hp: 520
+skillId: 174000
+pieceSkill:
+  id: 174000
+  groupId: 1079
+  name: マナチャージ・サークル[Ⅰ]
+  type: SKILL
+  intervalTurn: 12
+  shortDescription: MP回復[Ⅰ](味全)
+  messageId: 71
+  artId1: 200300501
+  art1:
+    artId: 200300501
+    verbCode: HEAL
+    effectCode: MP
+    targetId: ALL
+    effectValue: 125
+    growPoint: 10
+  skillEffectRange: ALL
+skillId2: 174001
+pieceSkill2:
+  id: 174001
+  groupId: 1079
+  name: マナチャージ・サークル[Ⅱ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: MP回復[Ⅱ](味全)
+  messageId: 71
+  artId1: 200300502
+  art1:
+    artId: 200300502
+    verbCode: HEAL
+    effectCode: MP
+    targetId: ALL
+    effectValue: 150
+    growPoint: 10
+  skillEffectRange: ALL
+description: 競技を始めたきっかけは他愛もないことだったから＠辞めるのに少しの未練もなかった＠有望な選手でなくても、仲のいい友だちがいなくても＠普通の学生だったなら、もっと一生懸命になれたのかな
+illustrator: 都筑禰己
+openDate: 2022/03/28 15:10:00
+...
