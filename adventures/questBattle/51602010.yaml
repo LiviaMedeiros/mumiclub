@@ -1,0 +1,61 @@
+---
+questBattleId: 51602010
+sectionId: 516020
+eventId: 1160
+sectionIndex: 10
+questBattleType: NORMAL
+bossFlag: false
+endStory: 516020-10
+placeId: "47000"
+bgm: bgm01_anime12
+bossBgm: bgm01_anime12
+consumeType: ITEM
+difficulty: 40
+exp: 80
+cardExp: 30
+baseBondsPt: 50
+riche: 500
+switchCharaId1: 1043
+switchNpcId1: 292
+firstClearRewardCodes: ITEM_EVENT_DAILYTOWER_1160_EXCHANGE_1_3
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 116002
+dropItem1:
+  dropItemId: 116002
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1160_EXCHANGE_1_1
+mission1: HP_30
+missionMaster1:
+  description: 合計残HPが30％以上でクリア
+mission2: ACTION_10
+missionMaster2:
+  description: 10ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- TIMBER
+- LIGHT
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1160_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1160_KEY
+  name: マギウスの指令書
+  shortDescription: 「Little Bird's Star」のクエストプレイ用アイテム
+  description: 「Little Bird's Star」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1160
+  invalidDropFactor: true
+needItemNum: 30
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
