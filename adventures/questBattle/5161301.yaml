@@ -1,0 +1,68 @@
+---
+questBattleId: 5161301
+sectionId: 516130
+eventId: 1161
+sectionIndex: 1
+questBattleType: NORMAL
+bossFlag: false
+placeId: "11094"
+bgm: bgm01_battle01
+bossBgm: bgm01_battle01
+consumeType: ITEM
+difficulty: 50
+exp: 96
+cardExp: 36
+baseBondsPt: 60
+riche: 600
+switchCharaId1: 2201
+switchNpcId1: 293
+firstClearRewardCodes: ITEM_EVENT_DAILYTOWER_1161_EXCHANGE_1_3
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 116103
+dropItem1:
+  dropItemId: 116103
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1161_EXCHANGE_1_2
+dropItemId2: 116102
+dropItem2:
+  dropItemId: 116102
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1161_EXCHANGE_1_1
+dropItemId3: 4023
+dropItem3:
+  dropItemId: 4023
+  rewardCode1: GIFT_402_1
+mission1: HP_30
+missionMaster1:
+  description: 合計残HPが30％以上でクリア
+mission2: ACTION_25
+missionMaster2:
+  description: 25ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRISM_3
+waveEnemyAttributeIdList:
+- LIGHT
+- TIMBER
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1161_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1161_KEY
+  name: ハワイ行のチケット
+  shortDescription: 「神浜スパアドベンチャー」のクエストプレイ用アイテム
+  description: 「神浜スパアドベンチャー」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1161
+  invalidDropFactor: true
+needItemNum: 40
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
