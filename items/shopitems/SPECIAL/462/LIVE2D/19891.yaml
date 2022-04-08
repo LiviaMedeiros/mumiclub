@@ -1,0 +1,103 @@
+---
+id: 19891
+shopId: 462
+shopItemType: LIVE2D
+genericId: "1201_50"
+chara:
+  id: 1201
+  attributeId: LIGHT
+  initialType: SUPPORT
+  defaultCardId: 12014
+  defaultCard:
+    cardId: 12014
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 1785
+    defense: 1692
+    hp: 6559
+    miniCharaNo: 120100
+    charaNo: 1201
+    cardName: いろはちゃん
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 12014
+      groupId: 1014
+      name: 星に願いを
+      shortDescription: 敵全体にダメージ[Ⅴ] & 確率で幻惑(敵全/1T) & デバフ解除(味全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 510305504
+      art2:
+        artId: 510305504
+        verbCode: CONDITION_BAD
+        effectCode: BLINDNESS
+        targetId: ALL
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 375
+      artId3: 200300800
+      art3:
+        artId: 200300800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 12014
+      groupId: 1121
+      name: 次は引ける気がします！
+      shortDescription: 確率でクリティカル[Ⅷ] & 確率で幻惑
+      artId1: 610406308
+      art1:
+        artId: 610406308
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 650
+      artId2: 9391
+      art2:
+        artId: 9391
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 650
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: いろはちゃん
+  description: マギレコの魅力をお届けするべく、常に最新情報を追い続けている神浜市の魔法少女。まどか先輩に振り回される中で成長し、今となっては顔芸も達者になった。またプレイヤーきっての引き弱で、いつも★４が手に入らずにもだえている。
+live2d:
+  charaId: 1201
+  live2dId: "50"
+  description: アイドル
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1161_EXCHANGE_1
+needNumber: 20
+limitedNumber: 1
+name: いろはちゃんの衣装【アイドル】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：無】
+recommend: true
+sortkey: 4
+isDetailView: false
+startAt: 2022/04/08 15:10:00
+endAt: 2022/04/25 14:59:59
+...
