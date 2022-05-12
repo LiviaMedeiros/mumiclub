@@ -1,0 +1,91 @@
+---
+pieceId: 1372
+pieceType: SKILL
+pieceName: 気高き魂を宿す石
+attributeId: ALL
+rank: RANK_3
+charaIds: "4026"
+charaList:
+- charaId: 4026
+  name: エリザ
+attack: 0
+defense: 511
+hp: 423
+skillId: 137200
+pieceSkill:
+  id: 137200
+  groupId: 1085
+  name: オース[Ⅳ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 攻撃力UP[Ⅳ] & 防御力UP[Ⅴ] & 確率で挑発[Ⅶ](自/1T)
+  messageId: 70
+  artId1: 310201104
+  art1:
+    artId: 310201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201205
+  art2:
+    artId: 310201205
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 375
+    enableTurn: 1
+    growPoint: 25
+  artId3: 610207507
+  art3:
+    artId: 610207507
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+skillId2: 137201
+pieceSkill2:
+  id: 137201
+  groupId: 1085
+  name: オース[Ⅴ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 攻撃力UP[Ⅴ] & 防御力UP[Ⅵ] & 確率で挑発[Ⅷ](自/1T)
+  messageId: 70
+  artId1: 310201105
+  art1:
+    artId: 310201105
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201206
+  art2:
+    artId: 310201206
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  artId3: 610207508
+  art3:
+    artId: 610207508
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 450
+  skillEffectRange: ALL
+description: それは高貴な血筋にふさわしい、大いなる因果の賜物＠ひとりぼっちの幼子の祈りは＠紅蓮に輝くソウルジェムを生み出した＠竜の雷火を宿すがごとき、気高い光を放ちながら…
+illustrator: スミカワ
+openDate: 2019/07/12 15:10:00
+...

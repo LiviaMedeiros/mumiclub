@@ -1,0 +1,82 @@
+---
+pieceId: 1761
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: いつでも心にあるもの
+attributeId: ALL
+rank: RANK_4
+attack: 939
+defense: 0
+hp: 819
+skillId: 176100
+pieceSkill:
+  id: 176100
+  groupId: 1220
+  name: リーサル・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: ドッペルダメージUP[Ⅴ] & ダメージアップ状態[Ⅱ]
+  artId1: 390218305
+  art1:
+    artId: 390218305
+    verbCode: BUFF
+    effectCode: DOPPEL
+    targetId: SELF
+    effectValue: 250
+    growPoint: 0
+  artId2: 690206102
+  art2:
+    artId: 690206102
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  eventId: 1165
+  eventArtId1: 1165003
+  eventArt1:
+    artId: 1165003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1165_KEY
+  eventDescription: ＆「黒革の手帳」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 176101
+pieceSkill2:
+  id: 176101
+  groupId: 1220
+  name: リーサル・アデプト[Ⅵ]
+  type: ABILITY
+  shortDescription: ドッペルダメージUP[Ⅵ] & ダメージアップ状態[Ⅲ]
+  artId1: 390218306
+  art1:
+    artId: 390218306
+    verbCode: BUFF
+    effectCode: DOPPEL
+    targetId: SELF
+    effectValue: 300
+    growPoint: 0
+  artId2: 690206103
+  art2:
+    artId: 690206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  eventId: 1165
+  eventArtId1: 1165004
+  eventArt1:
+    artId: 1165004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1165_KEY
+  eventDescription: ＆「黒革の手帳」追加獲得数＋15
+  skillEffectRange: ALL
+description: 心の底で求めていたものは案外近くにあって＠いつでもわたしを許してくれていた＠この力はあなたを受け入れることができたその証＠いまこのときから、わたしはあなたと共に歩み出す
+illustrator: ―
+openDate: 2022/05/11 15:10:00
+...
