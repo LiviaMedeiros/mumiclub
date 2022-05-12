@@ -1,0 +1,1052 @@
+{
+    "npcHelpId": 294,
+    "userCardList": [
+        {
+            "cardId": 40045,
+            "displayCardId": 40045,
+            "revision": 3,
+            "attack": 10300,
+            "defense": 7300,
+            "hp": 28355,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40045,
+                "charaNo": 4004,
+                "miniCharaNo": 400400,
+                "magiaCharaNo": 400400,
+                "cardName": "美国 織莉子",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "EXCEED",
+                "growthType": "ATKHP",
+                "attack": 2556,
+                "defense": 1839,
+                "hp": 6984,
+                "rateGainMpAtk": 900,
+                "rateGainMpDef": 1000,
+                "magiaId": 40045,
+                "cardMagia": {
+                    "id": 40045,
+                    "groupId": 1014,
+                    "name": "ヴァンパイアレイ",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 確率で防御無視 & 確率でダメージカット無視 & 必ず回避(自/1T) & MP回復(自)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 610206611,
+                    "art2": {
+                        "artId": 610206611,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "SELF",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 600
+                    },
+                    "artId3": 610216511,
+                    "art3": {
+                        "artId": 610216511,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 800
+                    },
+                    "artId4": 610206900,
+                    "art4": {
+                        "artId": 610206900,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AVOID",
+                        "targetId": "SELF",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId5": 200200507,
+                    "art5": {
+                        "artId": 200200507,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 40048,
+                "doppelCardMagia": {
+                    "id": 40048,
+                    "groupId": 1014,
+                    "name": "煩悶のドッペル",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & 必ず防御無視 & 必ずダメージカット無視 & 必ず回避(自/2T) & MP回復(自)",
+                    "artId1": 190400481,
+                    "art1": {
+                        "artId": 190400481,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 7810,
+                        "growPoint": 220
+                    },
+                    "artId2": 620206700,
+                    "art2": {
+                        "artId": 620206700,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DEFENSE_IGNORED",
+                        "targetId": "SELF",
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 620216515,
+                    "art3": {
+                        "artId": 620216515,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId4": 620206900,
+                    "art4": {
+                        "artId": 620206900,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AVOID",
+                        "targetId": "SELF",
+                        "enableTurn": 2,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId5": 200200511,
+                    "art5": {
+                        "artId": 200200511,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 450,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 400400,
+                "doppel": {
+                    "id": 400400,
+                    "name": "煩悶のドッペル",
+                    "title": "その姿は、舞踏会",
+                    "description": "この感情の主は、予知した未来を変える事を使命としている。紫色をしたバラの花びらは、やがて起きる事象に登場する相手を切り刻む予兆。風が吹いて舞い始めると、このドッペルの舞踏会が始まる。付き従うコウモリは従者ではなく共に演ずる主のパートナーで、その主がドッペルと共に巨大な針を無数に生成して相手を串刺しにしようとすると、まるで呼応するように相手を切り刻む。それは一定のリズムの中で狂乱のハーモニーを生み出して、舞踏会の熱量を最高潮にすると、バラが黒く焦げるまでドッペルを踊らせる。",
+                    "designer": "原案：f4samurai、監修：ムラ黒江",
+                    "archive": true,
+                    "openDate": "2022/05/11 15:10:00"
+                },
+                "skillId": 40045,
+                "cardSkill": {
+                    "id": 40045,
+                    "groupId": 1085,
+                    "name": "自分の世界を守りましょう",
+                    "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401609,
+                    "art2": {
+                        "artId": 310401609,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610406309,
+                    "art3": {
+                        "artId": 610406309,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 700
+                    }
+                },
+                "pieceSkillId1": 40041,
+                "pieceSkillList": [
+                    {
+                        "id": 40041,
+                        "groupId": 1124,
+                        "name": "マナステップ・アデプト[Ⅳ]",
+                        "type": "ABILITY",
+                        "shortDescription": "『確率で回避[Ⅲ] & MP自動回復[Ⅳ]』のアビリティを所持",
+                        "artId1": 690206803,
+                        "art1": {
+                            "artId": 690206803,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AVOID",
+                            "targetId": "SELF",
+                            "growPoint": 0,
+                            "probability": 200
+                        },
+                        "artId2": 690214804,
+                        "art2": {
+                            "artId": 690214804,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "SELF",
+                            "effectValue": 75,
+                            "growPoint": 10,
+                            "probability": 1000,
+                            "genericValue": "MP"
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "maxPieceSkillId1": 40042,
+                "maxPieceSkillList": [
+                    {
+                        "id": 40042,
+                        "groupId": 1124,
+                        "name": "マナステップ・アデプト[Ⅴ]",
+                        "type": "ABILITY",
+                        "shortDescription": "『確率で回避[Ⅳ] & MP自動回復[Ⅴ]』のアビリティを所持",
+                        "artId1": 690206804,
+                        "art1": {
+                            "artId": 690206804,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AVOID",
+                            "targetId": "SELF",
+                            "growPoint": 0,
+                            "probability": 250
+                        },
+                        "artId2": 690214805,
+                        "art2": {
+                            "artId": 690214805,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "SELF",
+                            "effectValue": 90,
+                            "growPoint": 10,
+                            "probability": 1000,
+                            "genericValue": "MP"
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "ムラ黒江",
+                "cardCustomize": {
+                    "cardId": 40045,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 80,
+                    "giftId2": 142,
+                    "gift2": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 505,
+                    "gift4": {
+                        "id": 505,
+                        "type": 2,
+                        "name": "人工知能のコード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 402,
+                    "gift5": {
+                        "id": 402,
+                        "type": 2,
+                        "name": "南京錠の鎖",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum5": 15,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 555,
+                    "gift6": {
+                        "id": 555,
+                        "type": 2,
+                        "name": "振子の重心",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 294,
+            "npcPieceId1": 1760,
+            "npcPieceId2": 1316,
+            "npcPieceId3": 1062,
+            "npcPieceId4": 1657
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4004,
+            "chara": {
+                "id": 4004,
+                "name": "美国 織莉子",
+                "kana": "みくに おりこ",
+                "title": "ver.Final",
+                "attributeId": "LIGHT",
+                "attackType": 3,
+                "initialType": "EXCEED",
+                "growthType": "ATKHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 40044,
+                "defaultCard": {
+                    "cardId": 40044,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "EXCEED",
+                    "growthType": "ATKHP",
+                    "attack": 2071,
+                    "defense": 1490,
+                    "hp": 5658,
+                    "miniCharaNo": 400400,
+                    "charaNo": 4004,
+                    "cardName": "美国 織莉子",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40044,
+                        "groupId": 1014,
+                        "name": "ヴァンパイアレイ",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 確率で防御無視 & 確率でダメージカット無視 & 必ず回避(自/1T) & MP回復(自)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 610206609,
+                        "art2": {
+                            "artId": 610206609,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DEFENSE_IGNORED",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 500
+                        },
+                        "artId3": 610216509,
+                        "art3": {
+                            "artId": 610216509,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 700
+                        },
+                        "artId4": 610206900,
+                        "art4": {
+                            "artId": 610206900,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AVOID",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId5": 200200505,
+                        "art5": {
+                            "artId": 200200505,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 300,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40044,
+                        "groupId": 1085,
+                        "name": "自分の世界を守りましょう",
+                        "shortDescription": "攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ] & 確率でクリティカル[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401607,
+                        "art2": {
+                            "artId": 310401607,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406307,
+                        "art3": {
+                            "artId": 610406307,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 40041,
+                            "groupId": 1124,
+                            "name": "マナステップ・アデプト[Ⅳ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『確率で回避[Ⅲ] & MP自動回復[Ⅳ]』のアビリティを所持",
+                            "artId1": 690206803,
+                            "art1": {
+                                "artId": 690206803,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AVOID",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 200
+                            },
+                            "artId2": 690214804,
+                            "art2": {
+                                "artId": 690214804,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "SELF",
+                                "effectValue": 75,
+                                "growPoint": 10,
+                                "probability": 1000,
+                                "genericValue": "MP"
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 40042,
+                            "groupId": 1124,
+                            "name": "マナステップ・アデプト[Ⅴ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『確率で回避[Ⅳ] & MP自動回復[Ⅴ]』のアビリティを所持",
+                            "artId1": 690206804,
+                            "art1": {
+                                "artId": 690206804,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AVOID",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 250
+                            },
+                            "artId2": 690214805,
+                            "art2": {
+                                "artId": 690214805,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "SELF",
+                                "effectValue": 90,
+                                "growPoint": 10,
+                                "probability": 1000,
+                                "genericValue": "MP"
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "evolutionCardId1": 40045,
+                "evolutionCard1": {
+                    "cardId": 40045,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "EXCEED",
+                    "growthType": "ATKHP",
+                    "attack": 2556,
+                    "defense": 1839,
+                    "hp": 6984,
+                    "miniCharaNo": 400400,
+                    "charaNo": 4004,
+                    "cardName": "美国 織莉子",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40045,
+                        "groupId": 1014,
+                        "name": "ヴァンパイアレイ",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 確率で防御無視 & 確率でダメージカット無視 & 必ず回避(自/1T) & MP回復(自)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 610206611,
+                        "art2": {
+                            "artId": 610206611,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DEFENSE_IGNORED",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        },
+                        "artId3": 610216511,
+                        "art3": {
+                            "artId": 610216511,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 800
+                        },
+                        "artId4": 610206900,
+                        "art4": {
+                            "artId": 610206900,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AVOID",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId5": 200200507,
+                        "art5": {
+                            "artId": 200200507,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 350,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40045,
+                        "groupId": 1085,
+                        "name": "自分の世界を守りましょう",
+                        "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅸ] & 確率でクリティカル[Ⅸ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401609,
+                        "art2": {
+                            "artId": 310401609,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406309,
+                        "art3": {
+                            "artId": 610406309,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 700
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 40041,
+                            "groupId": 1124,
+                            "name": "マナステップ・アデプト[Ⅳ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『確率で回避[Ⅲ] & MP自動回復[Ⅳ]』のアビリティを所持",
+                            "artId1": 690206803,
+                            "art1": {
+                                "artId": 690206803,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AVOID",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 200
+                            },
+                            "artId2": 690214804,
+                            "art2": {
+                                "artId": 690214804,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "SELF",
+                                "effectValue": 75,
+                                "growPoint": 10,
+                                "probability": 1000,
+                                "genericValue": "MP"
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 40042,
+                            "groupId": 1124,
+                            "name": "マナステップ・アデプト[Ⅴ]",
+                            "type": "ABILITY",
+                            "shortDescription": "『確率で回避[Ⅳ] & MP自動回復[Ⅴ]』のアビリティを所持",
+                            "artId1": 690206804,
+                            "art1": {
+                                "artId": 690206804,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AVOID",
+                                "targetId": "SELF",
+                                "growPoint": 0,
+                                "probability": 250
+                            },
+                            "artId2": 690214805,
+                            "art2": {
+                                "artId": 690214805,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "SELF",
+                                "effectValue": 90,
+                                "growPoint": 10,
+                                "probability": 1000,
+                                "genericValue": "MP"
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "description": "“生きる意味”を求め、たどり着いた魔法少女。自身の心に刻まれていた存在に気づき、受け入れたことで新しい力に目覚めた。また、自身の内面にある弱さを自覚して、晴れやかになった。実は、ケーキのスポンジを上手に焼けるようになりたい。",
+                "school": "―",
+                "designer": "ムラ黒江",
+                "voiceActor": "早見沙織",
+                "openDate": "2022/05/11 15:10:00",
+                "enhancementGroupId": 180
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "92c6da46-b7a2-4dae-be50-5eb869fc856e",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 400400,
+            "npcHelpId": 294,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1760,
+            "piece": {
+                "pieceId": 1760,
+                "pieceType": "SKILL",
+                "pieceName": "今日はあなたの食べ方で",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4004",
+                "charaList": [
+                    {
+                        "charaId": 4004,
+                        "name": "美国 織莉子 ver.Final"
+                    }
+                ],
+                "attack": 0,
+                "defense": 460,
+                "hp": 500,
+                "skillId": 176000,
+                "pieceSkill": {
+                    "id": 176000,
+                    "groupId": 1161,
+                    "name": "モノポライズドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "自分のDiscドロー",
+                    "messageId": 70,
+                    "artId1": 700211700,
+                    "art1": {
+                        "artId": 700211700,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARACTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 176001,
+                "pieceSkill2": {
+                    "id": 176001,
+                    "groupId": 1161,
+                    "name": "モノポライズドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 4,
+                    "shortDescription": "自分のDiscドロー",
+                    "messageId": 70,
+                    "artId1": 700211700,
+                    "art1": {
+                        "artId": 700211700,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARACTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "あなたのお気に入りの食べ方に従って＠生地がびしゃびしゃになるまでシロップをかければ＠笑みがこぼれるほどに甘い特製パンケーキの完成＠それでもあなたの愛には及ばないかもしれないわね",
+                "illustrator": "都筑禰己",
+                "openDate": "2022/05/11 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 690,
+            "hp": 750,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 294
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 294
+        },
+        {
+            "pieceId": 1062,
+            "piece": {
+                "pieceId": 1062,
+                "pieceType": "ABILITY",
+                "pieceName": "みんなには内緒だよ！",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 571,
+                "defense": 0,
+                "hp": 631,
+                "skillId": 106200,
+                "pieceSkill": {
+                    "id": 106200,
+                    "groupId": 1090,
+                    "name": "アクセル・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅲ]",
+                    "artId1": 390201603,
+                    "art1": {
+                        "artId": 390201603,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 106201,
+                "pieceSkill2": {
+                    "id": 106201,
+                    "groupId": 1090,
+                    "name": "アクセル・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅳ]",
+                    "artId1": 390201604,
+                    "art1": {
+                        "artId": 390201604,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 175,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「私は魔法少女！＠夢と希望を叶える魔法少女！＠でも、それって秘密のことで…。＠だから、クラスのみんなには内緒だよ！」",
+                "illustrator": "ハノカゲ"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 856,
+            "defense": 0,
+            "hp": 946,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 294
+        },
+        {
+            "pieceId": 1657,
+            "piece": {
+                "pieceId": 1657,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "未来を語り、鬼は笑う",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 0,
+                "defense": 553,
+                "hp": 673,
+                "skillId": 165700,
+                "pieceSkill": {
+                    "id": 165700,
+                    "groupId": 1088,
+                    "name": "モラールマギアライズ[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "マギアダメージUP[Ⅴ] & MP獲得量UP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201405,
+                    "art1": {
+                        "artId": 330201405,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201903,
+                    "art2": {
+                        "artId": 330201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "eventId": 1141,
+                    "eventArtId1": 1141001,
+                    "eventArt1": {
+                        "artId": 1141001,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 1000,
+                        "genericValue": "EVENT_DAILYTOWER_1141_KEY"
+                    },
+                    "eventDescription": "＆「憩いのアイス」追加獲得数＋1",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 165701,
+                "pieceSkill2": {
+                    "id": 165701,
+                    "groupId": 1088,
+                    "name": "モラールマギアライズ[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "マギアダメージUP[Ⅴ] & MP獲得量UP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201405,
+                    "art1": {
+                        "artId": 330201405,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201903,
+                    "art2": {
+                        "artId": 330201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "eventId": 1141,
+                    "eventArtId1": 1141002,
+                    "eventArt1": {
+                        "artId": 1141002,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_DAILYTOWER_1141_KEY"
+                    },
+                    "eventDescription": "＆「憩いのアイス」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "あの日、語り合ったのは幸せでありふれた未来＠当たり前に訪れると思ったその景色が目の前で崩れ落ちたあの日＠恨みの想いに飲み込まれ、大切な人の教えすら忘れかけたあの日＠少女は鬼となり、未来を語ることなど虚しいだけだと、悲しげに笑った",
+                "illustrator": "―",
+                "openDate": "2021/08/10 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 829,
+            "hp": 1009,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 294
+        }
+    ],
+    "isNpc": true,
+    "userName": "美国 織莉子",
+    "userRank": 100,
+    "cardId": 40045,
+    "charaName": "美国 織莉子",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 40045,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}

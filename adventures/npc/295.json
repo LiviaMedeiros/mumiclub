@@ -1,0 +1,832 @@
+{
+    "npcHelpId": 295,
+    "userCardList": [
+        {
+            "cardId": 40015,
+            "displayCardId": 40015,
+            "revision": 3,
+            "attack": 8480,
+            "defense": 6480,
+            "hp": 20088,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 40015,
+                "charaNo": 4001,
+                "miniCharaNo": 400101,
+                "magiaCharaNo": 400100,
+                "cardName": "美国 織莉子",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "MAGIA",
+                "growthType": "BALANCE",
+                "attack": 2120,
+                "defense": 1620,
+                "hp": 5022,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1200,
+                "magiaId": 40015,
+                "cardMagia": {
+                    "id": 40015,
+                    "groupId": 1014,
+                    "name": "オラクルレイ",
+                    "shortDescription": "敵全体にダメージ[Ⅷ] & MP回復(自) & 必ず回避(自/1T)",
+                    "artId1": 100300108,
+                    "art1": {
+                        "artId": 100300108,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3700,
+                        "growPoint": 100
+                    },
+                    "artId2": 200200505,
+                    "art2": {
+                        "artId": 200200505,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "growPoint": 10
+                    },
+                    "artId3": 610206900,
+                    "art3": {
+                        "artId": 610206900,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AVOID",
+                        "targetId": "SELF",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "doppelMagiaId": 40018,
+                "doppelCardMagia": {
+                    "id": 40018,
+                    "groupId": 1014,
+                    "name": "煩悶のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅹ] & MP回復(自) & 必ず回避(自/1T)",
+                    "artId1": 190400181,
+                    "art1": {
+                        "artId": 190400181,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8580,
+                        "growPoint": 220
+                    },
+                    "artId2": 200200507,
+                    "art2": {
+                        "artId": 200200507,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "growPoint": 10
+                    },
+                    "artId3": 610206900,
+                    "art3": {
+                        "artId": 610206900,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AVOID",
+                        "targetId": "SELF",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "doppelCharaNo": 400100,
+                "doppel": {
+                    "id": 400100,
+                    "name": "煩悶のドッペル",
+                    "title": "その姿は、舞踏会",
+                    "description": "この感情の主は、予知した未来を変える事を使命としている。＠風が吹き、花が散り、花びらは異界へと迷い入る。やがて立ち込めてくる霧があたりを包み込むと、その時は訪れる。＠霧はたゆたう花びらと混ざり合い、宴の幕は開く。そしてこのドッペルはステップを刻み始める。そのステップが最高潮に達した時、まるで花に嵐の例えのように敵影は姿を消し、舞踏会には贄が供されることとなる。",
+                    "designer": "原案・監修：ムラ黒江",
+                    "archive": true,
+                    "openDate": "2018/10/22 15:10:00"
+                },
+                "skillId": 40015,
+                "cardSkill": {
+                    "id": 40015,
+                    "groupId": 1085,
+                    "name": "私の力が必要ですか？",
+                    "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅷ] & 確率でクリティカル[Ⅶ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401608,
+                    "art2": {
+                        "artId": 310401608,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "CONNECT",
+                        "effectValue": 450,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610406307,
+                    "art3": {
+                        "artId": 610406307,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 2000,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 600
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "ムラ黒江",
+                "cardCustomize": {
+                    "cardId": 40015,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 80,
+                    "giftId2": 142,
+                    "gift2": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 507,
+                    "gift4": {
+                        "id": 507,
+                        "type": 2,
+                        "name": "ビッグフェリスのタービン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/21 15:10:00"
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 405,
+                    "gift5": {
+                        "id": 405,
+                        "type": 2,
+                        "name": "メールのグライダー",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum5": 15,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 556,
+                    "gift6": {
+                        "id": 556,
+                        "type": 2,
+                        "name": "子守の取っ手",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/07 16:00:00"
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                },
+                "openDate": "2018/10/22 15:10:00"
+            },
+            "npcHelpId": 295,
+            "npcPieceId1": 1100,
+            "npcPieceId2": 1316,
+            "npcPieceId3": 1503,
+            "npcPieceId4": 1193
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 4001,
+            "chara": {
+                "id": 4001,
+                "name": "美国 織莉子",
+                "kana": "みくに おりこ",
+                "attributeId": "LIGHT",
+                "attackType": 1,
+                "initialType": "MAGIA",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 40013,
+                "defaultCard": {
+                    "cardId": 40013,
+                    "rank": "RANK_3",
+                    "attributeId": "LIGHT",
+                    "initialType": "MAGIA",
+                    "growthType": "BALANCE",
+                    "attack": 1557,
+                    "defense": 1190,
+                    "hp": 3691,
+                    "miniCharaNo": 400100,
+                    "charaNo": 4001,
+                    "cardName": "美国 織莉子",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40013,
+                        "groupId": 1014,
+                        "name": "オラクルレイ",
+                        "shortDescription": "敵全体にダメージ[Ⅳ]",
+                        "artId1": 100300104,
+                        "art1": {
+                            "artId": 100300104,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3300,
+                            "growPoint": 100
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40013,
+                        "groupId": 1085,
+                        "name": "私の力が必要ですか？",
+                        "shortDescription": "攻撃力UP[Ⅴ] & Accele MPUP[Ⅴ]",
+                        "artId1": 310401105,
+                        "art1": {
+                            "artId": 310401105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401605,
+                        "art2": {
+                            "artId": 310401605,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 40014,
+                "evolutionCard1": {
+                    "cardId": 40014,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "MAGIA",
+                    "growthType": "BALANCE",
+                    "attack": 1912,
+                    "defense": 1461,
+                    "hp": 4532,
+                    "miniCharaNo": 400100,
+                    "charaNo": 4001,
+                    "cardName": "美国 織莉子",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40014,
+                        "groupId": 1014,
+                        "name": "オラクルレイ",
+                        "shortDescription": "敵全体にダメージ[Ⅵ] & MP回復(自)",
+                        "artId1": 100300106,
+                        "art1": {
+                            "artId": 100300106,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3500,
+                            "growPoint": 100
+                        },
+                        "artId2": 200200504,
+                        "art2": {
+                            "artId": 200200504,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 275,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40014,
+                        "groupId": 1085,
+                        "name": "私の力が必要ですか？",
+                        "shortDescription": "攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401607,
+                        "art2": {
+                            "artId": 310401607,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 40015,
+                "evolutionCard2": {
+                    "cardId": 40015,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "MAGIA",
+                    "growthType": "BALANCE",
+                    "attack": 2120,
+                    "defense": 1620,
+                    "hp": 5022,
+                    "miniCharaNo": 400101,
+                    "charaNo": 4001,
+                    "cardName": "美国 織莉子",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 40015,
+                        "groupId": 1014,
+                        "name": "オラクルレイ",
+                        "shortDescription": "敵全体にダメージ[Ⅷ] & MP回復(自) & 必ず回避(自/1T)",
+                        "artId1": 100300108,
+                        "art1": {
+                            "artId": 100300108,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3700,
+                            "growPoint": 100
+                        },
+                        "artId2": 200200505,
+                        "art2": {
+                            "artId": 200200505,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "SELF",
+                            "effectValue": 300,
+                            "growPoint": 10
+                        },
+                        "artId3": 610206900,
+                        "art3": {
+                            "artId": 610206900,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AVOID",
+                            "targetId": "SELF",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 40015,
+                        "groupId": 1085,
+                        "name": "私の力が必要ですか？",
+                        "shortDescription": "攻撃力UP[Ⅸ] & Accele MPUP[Ⅷ] & 確率でクリティカル[Ⅶ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401608,
+                        "art2": {
+                            "artId": 310401608,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610406307,
+                        "art3": {
+                            "artId": 610406307,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 2000,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 600
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "元議員の父親を持つ、お嬢様魔法少女。＠目的のためには手段を選ばないところがあり、冷酷な人だと思われが＠ちだが、それらは父親譲りの正義感の強さに因るところである。＠行動に反して物腰は至って柔らかく、家では優雅に紅茶を嗜んでいた＠りする。",
+                "school": "―",
+                "designer": "ムラ黒江",
+                "voiceActor": "早見沙織",
+                "enhancementGroupId": 35
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "5c30bec7-ae5a-4edb-9e57-04cd0e938ee3",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 400101,
+            "npcHelpId": 295,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1100,
+            "piece": {
+                "pieceId": 1100,
+                "pieceType": "SKILL",
+                "pieceName": "罪と罰",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "4001",
+                "charaList": [
+                    {
+                        "charaId": 4001,
+                        "name": "美国 織莉子"
+                    }
+                ],
+                "attack": 0,
+                "defense": 466,
+                "hp": 466,
+                "skillId": 110000,
+                "pieceSkill": {
+                    "id": 110000,
+                    "groupId": 1161,
+                    "name": "モノポライズドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "自分のDiscドロー",
+                    "messageId": 70,
+                    "artId1": 700211700,
+                    "art1": {
+                        "artId": 700211700,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARACTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 110001,
+                "pieceSkill2": {
+                    "id": 110001,
+                    "groupId": 1161,
+                    "name": "モノポライズドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "自分のDiscドロー",
+                    "messageId": 70,
+                    "artId1": 700211700,
+                    "art1": {
+                        "artId": 700211700,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARACTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "小さな頃から何度も読み返してきた【罪と罰】＠そこに描かれている主人公は、あの子とよく似ている＠だが【死の重さ】に耐えられない様なら＠彼女の駒にはなることはできない",
+                "illustrator": "小森ニコ"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 699,
+            "hp": 699,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 295
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 295
+        },
+        {
+            "pieceId": 1503,
+            "piece": {
+                "pieceId": 1503,
+                "pieceType": "ABILITY",
+                "pieceName": "あたしのもの！",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 634,
+                "defense": 0,
+                "hp": 634,
+                "skillId": 150300,
+                "pieceSkill": {
+                    "id": 150300,
+                    "groupId": 1090,
+                    "name": "ブレス・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅱ] & 確率で呪い無効[Ⅹ]",
+                    "artId1": 390201602,
+                    "art1": {
+                        "artId": 390201602,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 125,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690208810,
+                    "art2": {
+                        "artId": 690208810,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CURSE",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 700
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 150301,
+                "pieceSkill2": {
+                    "id": 150301,
+                    "groupId": 1090,
+                    "name": "ブレス・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅲ] & 必ず呪い無効",
+                    "artId1": 390201603,
+                    "art1": {
+                        "artId": 390201603,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690208800,
+                    "art2": {
+                        "artId": 690208800,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CURSE",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「ほら、思った通り！やっぱり似合うじゃないほとりん！」＠「は、恥ずかしいよ…ボク、こういう可愛いのはあんまり…」＠「はぁ？何言ってるの、あたしが似合うって言ったら似合ってるの＠ほとりんもこういう服を好きになること！いいわね！」",
+                "illustrator": "桜木蓮",
+                "openDate": "2020/05/29 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 951,
+            "defense": 0,
+            "hp": 951,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 295
+        },
+        {
+            "pieceId": 1193,
+            "piece": {
+                "pieceId": 1193,
+                "pieceType": "SKILL",
+                "pieceName": "美術館でアルバイト",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 0,
+                "defense": 633,
+                "hp": 573,
+                "skillId": 119300,
+                "pieceSkill": {
+                    "id": 119300,
+                    "groupId": 1090,
+                    "name": "アストラルライズ[Ⅳ] ",
+                    "type": "SKILL",
+                    "intervalTurn": 7,
+                    "shortDescription": "Accele MPUP[Ⅳ] & マギアダメージUP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201604,
+                    "art1": {
+                        "artId": 330201604,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 175,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201403,
+                    "art2": {
+                        "artId": 330201403,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 119301,
+                "pieceSkill2": {
+                    "id": 119301,
+                    "groupId": 1090,
+                    "name": "アストラルライズ[Ⅴ] ",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "Accele MPUP[Ⅴ] & マギアダメージUP[Ⅳ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201605,
+                    "art1": {
+                        "artId": 330201605,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201404,
+                    "art2": {
+                        "artId": 330201404,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 125,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「…といった由来がある貴重な作品です。…ふぅ、噛まずに言えました」＠美術品に関わりたくて始めた美術館のアルバイト＠慣れないことも失敗してしまうこともあるけれど＠夢に近づくため、少女は与えられた仕事を今日も頑張る！",
+                "illustrator": "植田亮",
+                "openDate": "2018/03/23 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 949,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 295
+        }
+    ],
+    "isNpc": true,
+    "userName": "美国 織莉子",
+    "userRank": 100,
+    "cardId": 40015,
+    "charaName": "美国 織莉子",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 40015,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
