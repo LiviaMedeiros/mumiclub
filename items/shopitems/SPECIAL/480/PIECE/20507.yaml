@@ -1,0 +1,113 @@
+---
+id: 20507
+shopId: 480
+shopItemType: PIECE
+genericId: "1428"
+piece:
+  pieceId: 1428
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 書庫は友だち
+  attributeId: ALL
+  rank: RANK_4
+  attack: 732
+  defense: 0
+  hp: 892
+  skillId: 142800
+  pieceSkill:
+    id: 142800
+    groupId: 1092
+    name: ブラストエキスパート[Ⅳ]
+    type: ABILITY
+    shortDescription: Blast ダメージUP[Ⅳ] & Blast ダメージカット状態[Ⅱ]
+    artId1: 390201804
+    art1:
+      artId: 390201804
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    artId2: 690217002
+    art2:
+      artId: 690217002
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_BLAST
+      targetId: SELF
+      effectValue: 100
+      growPoint: 0
+      probability: 1000
+    eventId: 1078
+    eventArtId1: 1078003
+    eventArt1:
+      artId: 1078003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_BRANCH_1078_PART_1
+    eventArtId2: 1078007
+    eventArt2:
+      artId: 1078007
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_BRANCH_1078_PART_2
+    eventDescription: ＆『喝采』『残り火』＋3
+    skillEffectRange: ALL
+  skillId2: 142801
+  pieceSkill2:
+    id: 142801
+    groupId: 1092
+    name: ブラストエキスパート[Ⅴ]
+    type: ABILITY
+    shortDescription: Blast ダメージUP[Ⅴ] & Blast ダメージカット状態[Ⅲ]
+    artId1: 390201805
+    art1:
+      artId: 390201805
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 350
+      growPoint: 25
+      probability: 1000
+    artId2: 690217003
+    art2:
+      artId: 690217003
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_BLAST
+      targetId: SELF
+      effectValue: 150
+      growPoint: 0
+      probability: 1000
+    eventId: 1078
+    eventArtId1: 1078004
+    eventArt1:
+      artId: 1078004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_BRANCH_1078_PART_1
+    eventArtId2: 1078008
+    eventArt2:
+      artId: 1078008
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_BRANCH_1078_PART_2
+    eventDescription: ＆『喝采』『残り火』＋7
+    skillEffectRange: ALL
+  description: 広く公刊されていない私家版の書物や＠希少な古文書や郷土史料は、各地の資料館に眠っている＠時間の経つのをも忘れて、書庫の資料を読みふける＠今はいない誰かの夢に、想いを馳せながら
+  illustrator: おちゃう
+  openDate: 2019/11/29 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『書庫は友だち』
+description: Blast ダメージUP[Ⅴ] & Blast ダメージカット状態[Ⅲ]
+sortkey: 29
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

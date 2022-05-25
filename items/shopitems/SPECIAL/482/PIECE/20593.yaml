@@ -1,0 +1,145 @@
+---
+id: 20593
+shopId: 482
+shopItemType: PIECE
+genericId: "1403"
+piece:
+  pieceId: 1403
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: ピンチはチャンス
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 723
+  hp: 885
+  skillId: 140300
+  pieceSkill:
+    id: 140300
+    groupId: 1121
+    name: ジャックポット・ストライク[XII]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 確率でクリティカル[XII] & 確率で防御無視[Ⅷ](自/1T) & 自身に必ず暗闇 & 確率で幻惑(1T)
+    messageId: 70
+    artId1: 610206312
+    art1:
+      artId: 610206312
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 650
+    artId2: 610206608
+    art2:
+      artId: 610206608
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 450
+    artId3: 9407
+    art3:
+      artId: 9407
+      verbCode: CONDITION_BAD
+      effectCode: DARKNESS
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 0
+      probability: 1300
+    artId4: 9408
+    art4:
+      artId: 9408
+      verbCode: CONDITION_BAD
+      effectCode: BLINDNESS
+      targetId: SELF
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 0
+      probability: 700
+    eventId: 1071
+    eventArtId1: 1071003
+    eventArt1:
+      artId: 1071003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_DAILYTOWER_1071_KEY
+    eventDescription: ＆七草入手時＋3
+    skillEffectRange: ALL
+  skillId2: 140301
+  pieceSkill2:
+    id: 140301
+    groupId: 1121
+    name: ジャックポット・ストライク[XIII]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 確率でクリティカル[XIII] & 確率で防御無視[Ⅸ](自/1T) & 自身に必ず暗闇&確率で幻惑(1T)
+    messageId: 70
+    artId1: 610206313
+    art1:
+      artId: 610206313
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 700
+    artId2: 610206609
+    art2:
+      artId: 610206609
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 500
+    artId3: 9407
+    art3:
+      artId: 9407
+      verbCode: CONDITION_BAD
+      effectCode: DARKNESS
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 0
+      probability: 1300
+    artId4: 9408
+    art4:
+      artId: 9408
+      verbCode: CONDITION_BAD
+      effectCode: BLINDNESS
+      targetId: SELF
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 0
+      probability: 700
+    eventId: 1071
+    eventArtId1: 1071004
+    eventArt1:
+      artId: 1071004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_DAILYTOWER_1071_KEY
+    eventDescription: ＆七草入手時＋7
+    skillEffectRange: ALL
+  description: 「結果の見えてる人生なんて、面白くありませんっ！＠伸るか反るか、生きるか死ぬか、億万長者か破産か…＠追い込まれたときほど命が、魂が燃え上がって！＠力が湧いて………くるような…気が、しません？」
+  illustrator: 枡狐/蛙空
+  openDate: 2019/09/17 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『ピンチはチャンス』
+description: 確率でクリティカル[XIII] & 確率で防御無視[Ⅸ](自/1T) & 自身に必ず暗闇&確率で幻惑(1T)
+sortkey: 33
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

@@ -1,0 +1,99 @@
+---
+id: 20636
+shopId: 480
+shopItemType: PIECE
+genericId: "1723"
+piece:
+  pieceId: 1723
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 諦めたはずの光
+  attributeId: ALL
+  rank: RANK_4
+  attack: 936
+  defense: 0
+  hp: 816
+  skillId: 172300
+  pieceSkill:
+    id: 172300
+    groupId: 1145
+    name: マターナル・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率で魅了(1T)を付与[Ⅱ] & 攻撃力UP[Ⅳ]
+    artId1: 690209402
+    art1:
+      artId: 690209402
+      verbCode: ENCHANT
+      effectCode: CHARM
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 150
+    artId2: 390201104
+    art2:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    eventId: 1156
+    eventArtId1: 1156003
+    eventArt1:
+      artId: 1156003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_SINGLERAID_1156_EXCHANGE_1
+    eventDescription: ＆「見えない意思」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 172301
+  pieceSkill2:
+    id: 172301
+    groupId: 1145
+    name: マターナル・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率で魅了(1T)を付与[Ⅲ] & 攻撃力UP[Ⅴ]
+    artId1: 690209403
+    art1:
+      artId: 690209403
+      verbCode: ENCHANT
+      effectCode: CHARM
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 200
+    artId2: 390201105
+    art2:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    eventId: 1156
+    eventArtId1: 1156004
+    eventArt1:
+      artId: 1156004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_SINGLERAID_1156_EXCHANGE_1
+    eventDescription: ＆「見えない意思」追加獲得数＋15
+    skillEffectRange: ALL
+  description: この人なら自分を受け入れてくれる…そんな希望はもう持たない＠…そう心に決めていたはずだったのに＠心の扉をこじあけた彼女たちの笑顔に、最後の光を見そうになる＠そんなもの、とっくに諦めたはずなのに
+  illustrator: ―
+  openDate: 2022/01/28 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『諦めたはずの光』
+description: 攻撃時に確率で魅了(1T)を付与[Ⅲ] & 攻撃力UP[Ⅴ]
+sortkey: 1
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

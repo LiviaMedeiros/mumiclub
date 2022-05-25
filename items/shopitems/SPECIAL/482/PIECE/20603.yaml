@@ -1,0 +1,86 @@
+---
+id: 20603
+shopId: 482
+shopItemType: PIECE
+genericId: "1331"
+piece:
+  pieceId: 1331
+  pieceType: SKILL
+  pieceName: 大嫌いな人が好きな人
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 767
+  hp: 847
+  skillId: 133100
+  pieceSkill:
+    id: 133100
+    groupId: 1090
+    name: アクセル・フォース[Ⅳ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: Accele MPUP[Ⅳ] & 確率でクリティカル[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 330201604
+    art1:
+      artId: 330201604
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: SELF
+      effectValue: 175
+      enableTurn: 3
+      growPoint: 25
+    artId2: 630206304
+    art2:
+      artId: 630206304
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 3
+      growPoint: 0
+      probability: 250
+    skillEffectRange: ALL
+  skillId2: 133101
+  pieceSkill2:
+    id: 133101
+    groupId: 1090
+    name: アクセル・フォース[Ⅴ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: Accele MPUP[Ⅴ] & 確率でクリティカル[Ⅴ](自/3T)
+    messageId: 70
+    artId1: 330201605
+    art1:
+      artId: 330201605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId2: 630206305
+    art2:
+      artId: 630206305
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 3
+      growPoint: 0
+      probability: 300
+    skillEffectRange: ALL
+  description: 「ちょっとしたことで怒ったり、ワガママ言ったり、泣いたり＠素直じゃなくて、周りを疑ってる自分が、すっごく嫌い＠だけど、それでも好きだって言ってくれる人も側にいるから＠その人たちを悲しませたくないし、悲しませる人は許さない」
+  illustrator: 谷口淳一郎
+  openDate: 2019/04/08 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『大嫌いな人が好きな人』
+description: Accele MPUP[Ⅴ] & 確率でクリティカル[Ⅴ](自/3T)
+sortkey: 43
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

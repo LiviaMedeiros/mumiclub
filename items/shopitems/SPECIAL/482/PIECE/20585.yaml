@@ -1,0 +1,84 @@
+---
+id: 20585
+shopId: 482
+shopItemType: PIECE
+genericId: "1465"
+piece:
+  pieceId: 1465
+  pieceType: SKILL
+  pieceName: 裏方独演会
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 769
+  hp: 849
+  skillId: 146500
+  pieceSkill:
+    id: 146500
+    groupId: 1092
+    name: ブランディッシュ[Ⅴ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: Blast ダメージUP[Ⅴ] & 与えるダメージUP[Ⅲ](自/1T)
+    messageId: 70
+    artId1: 310201805
+    art1:
+      artId: 310201805
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201303
+    art2:
+      artId: 310201303
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 146501
+  pieceSkill2:
+    id: 146501
+    groupId: 1092
+    name: ブランディッシュ[Ⅵ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: Blast ダメージUP[Ⅵ] & 与えるダメージUP[Ⅳ](自/1T)
+    messageId: 70
+    artId1: 310201806
+    art1:
+      artId: 310201806
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201304
+    art2:
+      artId: 310201304
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  description: 演劇部の片隅、鏡の前でひっそり独演会＠仕上がったばかりの衣装をまとってくるりと回れば＠鏡の中の私は誰より素敵なお姫様＠…なんて、想像してみたり
+  illustrator: ―
+  openDate: 2020/02/25 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『裏方独演会』
+description: Blast ダメージUP[Ⅵ] & 与えるダメージUP[Ⅳ](自/1T)
+sortkey: 25
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

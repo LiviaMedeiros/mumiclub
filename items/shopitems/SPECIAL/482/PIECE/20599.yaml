@@ -1,0 +1,117 @@
+---
+id: 20599
+shopId: 482
+shopItemType: PIECE
+genericId: "1343"
+piece:
+  pieceId: 1343
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: たとえ道を間違えても
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 803
+  hp: 803
+  skillId: 134300
+  pieceSkill:
+    id: 134300
+    groupId: 1135
+    name: ディスミス・カウンター[Ⅸ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 確率でカウンター無効[Ⅸ] & 攻撃力UP[Ⅵ](自/3T)
+    messageId: 70
+    artId1: 630208209
+    art1:
+      artId: 630208209
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 650
+    artId2: 330201106
+    art2:
+      artId: 330201106
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1059
+    eventArtId1: 1059002
+    eventArt1:
+      artId: 1059002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1059_PART_1
+    eventArtId2: 1059006
+    eventArt2:
+      artId: 1059006
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1059_PART_2
+    eventDescription: ＆赤つつじ入手時＋2＆白つつじ入手時+2
+    skillEffectRange: ALL
+  skillId2: 134301
+  pieceSkill2:
+    id: 134301
+    groupId: 1135
+    name: ディスミス・カウンター[XII]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 確率でカウンター無効[XII] & 攻撃力UP[Ⅶ](自/3T)
+    messageId: 70
+    artId1: 630208212
+    art1:
+      artId: 630208212
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 800
+    artId2: 330201107
+    art2:
+      artId: 330201107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1059
+    eventArtId1: 1059009
+    eventArt1:
+      artId: 1059009
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1059_PART_1
+    eventArtId2: 1059010
+    eventArt2:
+      artId: 1059010
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1059_PART_2
+    eventDescription: ＆赤つつじ入手時＋5＆白つつじ入手時+5
+    skillEffectRange: ALL
+  description: 静海このはは頭脳明晰、冷静沈着でいつも大人な振る舞いの頼れる存在＠…と思われがちだけど、脆い所もあれば天然な所もある＠そして、時には道を間違え、自分を責めることもある＠それでも彼女は立ち上がる…明日も３人で生き抜くために！
+  illustrator: ゆーげん
+  openDate: 2019/05/17 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『たとえ道を間違えても』
+description: 確率でカウンター無効[XII] & 攻撃力UP[Ⅶ](自/3T)
+sortkey: 39
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

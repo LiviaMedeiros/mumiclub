@@ -1,0 +1,100 @@
+---
+id: 20523
+shopId: 480
+shopItemType: PIECE
+genericId: "1320"
+piece:
+  pieceId: 1320
+  pieceType: ABILITY
+  pieceName: 彼方への憧れ
+  attributeId: ALL
+  rank: RANK_4
+  attack: 803
+  defense: 0
+  hp: 803
+  skillId: 132000
+  pieceSkill:
+    id: 132000
+    groupId: 1085
+    name: アップリフト・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅲ] & 状態異常耐性UP[Ⅱ]
+    artId1: 390201103
+    art1:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId2: 390201502
+    art2:
+      artId: 390201502
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2016
+    regularEventArtId1: 690209010
+    regularEventArt1:
+      artId: 690209010
+      verbCode: IGNORE
+      effectCode: DARKNESS
+      targetId: SELF
+      growPoint: 0
+      probability: 700
+    regularEventDescription: 【殲滅戦時追加で確率で暗闇無効[Ⅹ]】
+    skillEffectRange: ALL
+  skillId2: 132001
+  pieceSkill2:
+    id: 132001
+    groupId: 1085
+    name: アップリフト・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅳ] & 状態異常耐性UP[Ⅲ]
+    artId1: 390201104
+    art1:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 390201503
+    art2:
+      artId: 390201503
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2016
+    regularEventArtId1: 690209000
+    regularEventArt1:
+      artId: 690209000
+      verbCode: IGNORE
+      effectCode: DARKNESS
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で必ず暗闇無効】
+    skillEffectRange: ALL
+  description: 「小さくてせまーいわたくしの世界と、暗くてながーい永遠の時間＠世界を広げてくれたのは宙の果て。時間を流してくれたのも宙の果て＠だから脳細胞がオーバーヒートしてもいいから、ぜーんぶ知りたい＠わたくしにとって優しい持ち物になるから。それで優しくなれるから」
+  illustrator: 谷口淳一郎
+  openDate: 2019/03/15 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『彼方への憧れ』
+description: 攻撃力UP[Ⅳ] & 状態異常耐性UP[Ⅲ]
+sortkey: 45
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

@@ -1,0 +1,102 @@
+---
+id: 20538
+shopId: 480
+shopItemType: PIECE
+genericId: "1180"
+piece:
+  pieceId: 1180
+  pieceType: ABILITY
+  pieceName: 芸術への姿勢
+  attributeId: ALL
+  rank: RANK_4
+  attack: 763
+  defense: 0
+  hp: 843
+  skillId: 118000
+  pieceSkill:
+    id: 118000
+    groupId: 1139
+    name: ヴェノム・アーチザン[Ⅳ]
+    type: ABILITY
+    shortDescription: 必ず毒無効 & 敵状態異常時ダメージUP[Ⅳ]
+    artId1: 690208600
+    art1:
+      artId: 690208600
+      verbCode: IGNORE
+      effectCode: POISON
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 610414604
+    art2:
+      artId: 610414604
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP_BAD
+      targetId: CONNECT
+      effectValue: 325
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2016
+    regularEventArtId1: 390201202
+    regularEventArt1:
+      artId: 390201202
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で防御力UP[Ⅱ]】
+    skillEffectRange: ALL
+  skillId2: 118001
+  pieceSkill2:
+    id: 118001
+    groupId: 1139
+    name: ヴェノム・アーチザン[Ⅴ]
+    type: ABILITY
+    shortDescription: 必ず毒無効 & 敵状態異常時ダメージUP[Ⅴ]
+    artId1: 690208600
+    art1:
+      artId: 690208600
+      verbCode: IGNORE
+      effectCode: POISON
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 610414605
+    art2:
+      artId: 610414605
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP_BAD
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2016
+    regularEventArtId1: 390201205
+    regularEventArt1:
+      artId: 390201205
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 375
+      growPoint: 25
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で防御力UP[Ⅴ]】
+    skillEffectRange: ALL
+  description: 「生の美、死の美、滅びの美、アリナのテーマは“アリナの美”＠アリナがゾックゾクしたものを、アリナは勝手に作るダケ＠見たいならみせてアゲル。そして、勝手にゾックゾクしちゃってヨネ＠きっとブレインがサイケデリックでブリリアントになるカラ」
+  illustrator: 谷口淳一郎
+  openDate: 2018/03/02 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『芸術への姿勢』
+description: 必ず毒無効 & 敵状態異常時ダメージUP[Ⅴ]
+sortkey: 60
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

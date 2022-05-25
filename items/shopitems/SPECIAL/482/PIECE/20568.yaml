@@ -1,0 +1,97 @@
+---
+id: 20568
+shopId: 482
+shopItemType: PIECE
+genericId: "1655"
+piece:
+  pieceId: 1655
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 心優しき革命家
+  attributeId: ALL
+  rank: RANK_4
+  attack: 926
+  defense: 0
+  hp: 766
+  skillId: 165500
+  pieceSkill:
+    id: 165500
+    groupId: 1219
+    name: ウィル・アデプト[Ⅵ]
+    type: ABILITY
+    shortDescription: 確率で挑発無視[Ⅵ] & 攻撃力UP[Ⅳ]
+    artId1: 690219006
+    art1:
+      artId: 690219006
+      verbCode: IGNORE
+      effectCode: PROVOKE
+      targetId: SELF
+      growPoint: 0
+      probability: 550
+    artId2: 390201104
+    art2:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    eventId: 1141
+    eventArtId1: 1141003
+    eventArt1:
+      artId: 1141003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1141_KEY
+    eventDescription: ＆「憩いのアイス」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 165501
+  pieceSkill2:
+    id: 165501
+    groupId: 1219
+    name: ウィル・アデプト[Ⅷ]
+    type: ABILITY
+    shortDescription: 確率で挑発無視[Ⅷ] & 攻撃力UP[Ⅴ]
+    artId1: 690219008
+    art1:
+      artId: 690219008
+      verbCode: IGNORE
+      effectCode: PROVOKE
+      targetId: SELF
+      growPoint: 0
+      probability: 650
+    artId2: 390201105
+    art2:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    eventId: 1141
+    eventArtId1: 1141004
+    eventArt1:
+      artId: 1141004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1141_KEY
+    eventDescription: ＆「憩いのアイス」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「彼女だよね？１年生で生徒会長になった紅晴さんって…」＠「堂々としていて、頼りがいがあって…なんだか下級生とは思えない」＠「…彼女なら、このクソみたいな学校を変えてくれるのかも」＠「わかる！そういうのなんて言うんだっけ…えっと…そう、革命家！」
+  illustrator: ―
+  openDate: 2021/08/10 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『心優しき革命家』
+description: 確率で挑発無視[Ⅷ] & 攻撃力UP[Ⅴ]
+sortkey: 6
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

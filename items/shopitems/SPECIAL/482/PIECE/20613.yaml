@@ -1,0 +1,100 @@
+---
+id: 20613
+shopId: 482
+shopItemType: PIECE
+genericId: "1221"
+piece:
+  pieceId: 1221
+  pieceType: ABILITY
+  pieceName: 自責に包まれて
+  attributeId: ALL
+  rank: RANK_4
+  attack: 841
+  defense: 0
+  hp: 760
+  skillId: 122100
+  pieceSkill:
+    id: 122100
+    groupId: 1183
+    name: メディエイト・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: 必ずスキル不可無効 & Accele MPUP[Ⅱ]
+    artId1: 690209200
+    art1:
+      artId: 690209200
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 390201602
+    art2:
+      artId: 390201602
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: SELF
+      effectValue: 125
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2016
+    regularEventArtId1: 691211203
+    regularEventArt1:
+      artId: 691211203
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 200
+    regularEventDescription: 【殲滅戦時追加で攻撃時に確率でスキル不可(1T)を付与[Ⅲ]】
+    skillEffectRange: ALL
+  skillId2: 122101
+  pieceSkill2:
+    id: 122101
+    groupId: 1183
+    name: メディエイト・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: 必ずスキル不可無効 & Accele MPUP[Ⅲ]
+    artId1: 690209200
+    art1:
+      artId: 690209200
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 390201603
+    art2:
+      artId: 390201603
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2016
+    regularEventArtId1: 691211206
+    regularEventArt1:
+      artId: 691211206
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 350
+    regularEventDescription: 【殲滅戦時追加で攻撃時に確率でスキル不可(1T)を付与[Ⅵ]】
+    skillEffectRange: ALL
+  description: 「諦めていた普通の女の子として生きる夢＠だけど一瞬でも見てしまった、普通の女性として生きたい未来＠それだけで崩れてしまった、積み重ねた覚悟は、容易く崩れてしまった＠脆いワタシが重ねた罪は、どうやって購うべきでしょうか…」
+  illustrator: 谷口淳一郎
+  openDate: 2018/06/08 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『自責に包まれて』
+description: 必ずスキル不可無効 & Accele MPUP[Ⅲ]
+sortkey: 53
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

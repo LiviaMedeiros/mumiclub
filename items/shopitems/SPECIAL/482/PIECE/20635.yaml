@@ -1,0 +1,105 @@
+---
+id: 20635
+shopId: 482
+shopItemType: PIECE
+genericId: "1067"
+piece:
+  pieceId: 1067
+  pieceType: SKILL
+  pieceName: 迷わないこの道
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 720
+  hp: 880
+  skillId: 106710
+  pieceSkill:
+    id: 106710
+    groupId: 1085
+    name: ブルームライズ[Ⅴ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: 攻撃力UP[Ⅴ] & 防御力UP[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 330201105
+    art1:
+      artId: 330201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId2: 330201204
+    art2:
+      artId: 330201204
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    regularEventId: 2011
+    regularEventArtId1: 350201503
+    regularEventArt1:
+      artId: 350201503
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 5
+      growPoint: 25
+    regularEventDescription: 【殲滅戦時追加で状態異常耐性UP[Ⅲ](自/5T)】
+    skillEffectRange: ALL
+  skillId2: 106711
+  pieceSkill2:
+    id: 106711
+    groupId: 1085
+    name: ブルームライズ[Ⅵ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 攻撃力UP[Ⅵ] & 防御力UP[Ⅴ](自/3T)
+    messageId: 70
+    artId1: 330201106
+    art1:
+      artId: 330201106
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId2: 330201205
+    art2:
+      artId: 330201205
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 375
+      enableTurn: 3
+      growPoint: 25
+    regularEventId: 2011
+    regularEventArtId1: 350201505
+    regularEventArt1:
+      artId: 350201505
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 5
+      growPoint: 25
+    regularEventDescription: 【殲滅戦時追加で状態異常耐性UP[Ⅴ](自/5T)】
+    skillEffectRange: ALL
+  description: 「夢を見る度に感じていた温かい気持ち。＠魔法少女になった理由を思い出した今なら、その理由が分かる…。＠待っててね…どんな困難な道のりであったとしても、＠絶対に諦めずに、私が見つけ出してみせるから」
+  illustrator: 谷口淳一郎
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『迷わないこの道』
+description: 攻撃力UP[Ⅴ] & 防御力UP[Ⅳ](自/3T)
+sortkey: 75
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

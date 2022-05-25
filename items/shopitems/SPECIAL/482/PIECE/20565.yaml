@@ -1,0 +1,105 @@
+---
+id: 20565
+shopId: 482
+shopItemType: PIECE
+genericId: "1696"
+piece:
+  pieceId: 1696
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 飛んじゃうくらいに大好きな
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 803
+  hp: 883
+  skillId: 169600
+  pieceSkill:
+    id: 169600
+    groupId: 1119
+    name: エンハンス・ステップ[Ⅵ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: ダメージアップ状態[Ⅵ] & 確率で回避[Ⅵ] (自/3T)
+    messageId: 70
+    artId1: 630206106
+    art1:
+      artId: 630206106
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 630206806
+    art2:
+      artId: 630206806
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 350
+    eventId: 1150
+    eventArtId1: 1150003
+    eventArt1:
+      artId: 1150003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1150_KEY
+    eventDescription: ＆「サークルリスト」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 169601
+  pieceSkill2:
+    id: 169601
+    groupId: 1119
+    name: エンハンス・ステップ[Ⅶ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: ダメージアップ状態[Ⅶ] & 確率で回避[Ⅶ] (自/3T)
+    messageId: 70
+    artId1: 630206107
+    art1:
+      artId: 630206107
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 630206807
+    art2:
+      artId: 630206807
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 400
+    eventId: 1150
+    eventArtId1: 1150004
+    eventArt1:
+      artId: 1150004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1150_KEY
+    eventDescription: ＆「サークルリスト」追加獲得数＋15
+    skillEffectRange: ALL
+  description: あの日、出会ったのはきらきら輝く好きの感情＠呼吸は止まり、心臓はその出会いを祝福するように早鐘を打つ＠瞬間、世界は光と色に満ちあふれ、同時に視界は真っ暗になった＠薄れゆく意識の中で最後に見たのは、人生を変えるほどに美しい…
+  illustrator: ―
+  openDate: 2021/11/19 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『飛んじゃうくらいに大好きな』
+description: ダメージアップ状態[Ⅶ] & 確率で回避[Ⅶ] (自/3T)
+sortkey: 3
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

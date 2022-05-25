@@ -1,0 +1,99 @@
+---
+id: 20500
+shopId: 480
+shopItemType: PIECE
+genericId: "1475"
+piece:
+  pieceId: 1475
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 紫苑の花を添えて
+  attributeId: ALL
+  rank: RANK_4
+  attack: 840
+  defense: 0
+  hp: 880
+  skillId: 147500
+  pieceSkill:
+    id: 147500
+    groupId: 1085
+    name: スマイト・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅳ] & Charge後ダメージUP[Ⅳ]
+    artId1: 390201104
+    art1:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 390201704
+    art2:
+      artId: 390201704
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 125
+      growPoint: 25
+      probability: 1000
+    eventId: 1091
+    eventArtId1: 1091003
+    eventArt1:
+      artId: 1091003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1091_EXCHANGE_1
+    eventDescription: ＆「幽霊免許」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 147501
+  pieceSkill2:
+    id: 147501
+    groupId: 1085
+    name: スマイト・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅴ] & Charge後ダメージUP[Ⅴ]
+    artId1: 390201105
+    art1:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    artId2: 390201705
+    art2:
+      artId: 390201705
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    eventId: 1091
+    eventArtId1: 1091004
+    eventArt1:
+      artId: 1091004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 10000
+      genericValue: EVENT_DAILYTOWER_1091_EXCHANGE_1
+    eventDescription: ＆「幽霊免許」追加獲得数＋10
+    skillEffectRange: ALL
+  description: かつて共に過ごした日々も今は遠く、彼方へと過ぎていった＠死者は見守り、生者は未来へ進む＠もう、同じ時を歩むことはできないけれど＠在りし日の思い出が、色あせることは決してない
+  illustrator: 星和貴
+  openDate: 2020/03/23 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『紫苑の花を添えて』
+description: 攻撃力UP[Ⅴ] & Charge後ダメージUP[Ⅴ]
+sortkey: 22
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

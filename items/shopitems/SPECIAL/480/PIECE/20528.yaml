@@ -1,0 +1,105 @@
+---
+id: 20528
+shopId: 480
+shopItemType: PIECE
+genericId: "1254"
+piece:
+  pieceId: 1254
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: この世界で生きていく
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 765
+  hp: 844
+  skillId: 125400
+  pieceSkill:
+    id: 125400
+    groupId: 1126
+    name: ファントム・スタブ[Ⅴ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: 確率で追撃[Ⅴ](自/3T) & 防御力DOWN[Ⅲ](敵全/3T)
+    messageId: 70
+    artId1: 430302103
+    art1:
+      artId: 430302103
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId2: 630207205
+    art2:
+      artId: 630207205
+      verbCode: CONDITION_GOOD
+      effectCode: PURSUE
+      targetId: SELF
+      effectValue: 800
+      enableTurn: 3
+      growPoint: 0
+      probability: 180
+    eventId: 1035
+    eventArtId1: 1035003
+    eventArt1:
+      artId: 1035003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_TOWER_1035_KEY
+    eventDescription: ＆色鉛筆入手時＋3
+    skillEffectRange: ALL
+  skillId2: 125401
+  pieceSkill2:
+    id: 125401
+    groupId: 1126
+    name: ファントム・スタブ[Ⅶ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 確率で追撃[Ⅶ](自/3T) & 防御力DOWN[Ⅳ](敵全/3T)
+    messageId: 70
+    artId1: 430302104
+    art1:
+      artId: 430302104
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 125
+      enableTurn: 3
+      growPoint: 25
+    artId2: 630207207
+    art2:
+      artId: 630207207
+      verbCode: CONDITION_GOOD
+      effectCode: PURSUE
+      targetId: SELF
+      effectValue: 800
+      enableTurn: 3
+      growPoint: 0
+      probability: 210
+    eventId: 1035
+    eventArtId1: 1035004
+    eventArt1:
+      artId: 1035004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_TOWER_1035_KEY
+    eventDescription: ＆色鉛筆入手時＋7
+    skillEffectRange: ALL
+  description: 終わりのない悪意と悲しみで、色を失くしたこの世界＠それでも僕は、ここで生きていく＠この世界に、彩りと輝きを取り戻すために＠僕に希望を照らしてくれた、君と一緒に
+  illustrator: さくら小春(QP:flapper)
+  openDate: 2018/09/10 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『この世界で生きていく』
+description: 確率で追撃[Ⅶ](自/3T) & 防御力DOWN[Ⅳ](敵全/3T)
+sortkey: 50
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

@@ -1,0 +1,117 @@
+---
+id: 20549
+shopId: 480
+shopItemType: PIECE
+genericId: "1070"
+piece:
+  pieceId: 1070
+  pieceType: ABILITY
+  pieceName: 灯し続ける明かり
+  attributeId: ALL
+  rank: RANK_4
+  attack: 760
+  defense: 0
+  hp: 840
+  skillId: 107000
+  pieceSkill:
+    id: 107000
+    groupId: 1129
+    name: リベレイト・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅱ] & 必ず拘束無効
+    artId1: 690207702
+    art1:
+      artId: 690207702
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+    artId2: 690208500
+    art2:
+      artId: 690208500
+      verbCode: IGNORE
+      effectCode: RESTRAINT
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    regularEventId: 2009
+    regularEventArtId1: 690210904
+    regularEventArt1:
+      artId: 690210904
+      verbCode: ENCHANT
+      effectCode: DARKNESS
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 0
+      probability: 250
+    regularEventArtId2: 690208410
+    regularEventArt2:
+      artId: 690208410
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 700
+    regularEventDescription: 【殲滅戦時追加で攻撃時確率で暗闇(1T)を付与[Ⅳ] & 確率でスタン無効[X]】
+    skillEffectRange: ALL
+  skillId2: 107001
+  pieceSkill2:
+    id: 107001
+    groupId: 1129
+    name: リベレイト・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅲ] & 必ず拘束無効
+    artId1: 690207703
+    art1:
+      artId: 690207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      growPoint: 10
+      probability: 1000
+    artId2: 690208500
+    art2:
+      artId: 690208500
+      verbCode: IGNORE
+      effectCode: RESTRAINT
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    regularEventId: 2009
+    regularEventArtId1: 690210905
+    regularEventArt1:
+      artId: 690210905
+      verbCode: ENCHANT
+      effectCode: DARKNESS
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 0
+      probability: 300
+    regularEventArtId2: 690208400
+    regularEventArt2:
+      artId: 690208400
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で攻撃時確率で暗闇(1T)を付与[Ⅴ] & 必ずスタン無効】
+    skillEffectRange: ALL
+  description: 「私にはいーっぱい見えているよ。＠みんなの中で輝いている、夢や希望の明かりが。＠誰にも消させない…きっと私が灯し続けて見せるから…！＠だって、それが魔法少女でしょ？」
+  illustrator: 谷口淳一郎
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『灯し続ける明かり』
+description: HP自動回復[Ⅲ] & 必ず拘束無効
+sortkey: 71
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

@@ -1,0 +1,78 @@
+---
+id: 20483
+shopId: 480
+shopItemType: PIECE
+genericId: "1692"
+piece:
+  pieceId: 1692
+  pieceType: ABILITY
+  pieceName: ゆらめく憧憬
+  attributeId: ALL
+  rank: RANK_4
+  attack: 843
+  defense: 0
+  hp: 843
+  skillId: 169200
+  pieceSkill:
+    id: 169200
+    groupId: 1138
+    name: アンチ・バインド[Ⅹ]
+    type: ABILITY
+    shortDescription: 確率で拘束無効[Ⅹ] & 攻撃力UP[Ⅳ]
+    artId1: 690208510
+    art1:
+      artId: 690208510
+      verbCode: IGNORE
+      effectCode: RESTRAINT
+      targetId: SELF
+      growPoint: 0
+      probability: 700
+    artId2: 390201104
+    art2:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 169201
+  pieceSkill2:
+    id: 169201
+    groupId: 1138
+    name: アンチ・バインド
+    type: ABILITY
+    shortDescription: 必ず拘束無効 & 攻撃力UP[Ⅴ]
+    artId1: 690208500
+    art1:
+      artId: 690208500
+      verbCode: IGNORE
+      effectCode: RESTRAINT
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 390201105
+    art2:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  description: 何気なく掛けられた言葉のおかげで＠ゆらめく炎の中に神様が見えた気がした＠ただ怖かった炎が神秘的に見えたあのときが＠私の覚えている、初めての憧憬
+  illustrator: ―
+  openDate: 2021/11/12 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『ゆらめく憧憬』
+description: 必ず拘束無効 & 攻撃力UP[Ⅴ]
+sortkey: 3
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

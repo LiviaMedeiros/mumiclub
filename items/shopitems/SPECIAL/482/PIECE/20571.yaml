@@ -1,0 +1,103 @@
+---
+id: 20571
+shopId: 482
+shopItemType: PIECE
+genericId: "1609"
+piece:
+  pieceId: 1609
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: ナイトバズタイム
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 806
+  hp: 886
+  skillId: 160900
+  pieceSkill:
+    id: 160900
+    groupId: 1098
+    name: クウェルレジストマギア[Ⅵ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 状態異常耐性DOWN[Ⅵ](敵全/1T) & マギアダメージUP[Ⅵ](自/1T)
+    messageId: 72
+    artId1: 410302406
+    art1:
+      artId: 410302406
+      verbCode: DEBUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 175
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201406
+    art2:
+      artId: 310201406
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 175
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1129
+    eventArtId1: 1129003
+    eventArt1:
+      artId: 1129003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_SINGLERAID_1129_EXCHANGE_1
+    eventDescription: ＆「興味のハート」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 160901
+  pieceSkill2:
+    id: 160901
+    groupId: 1098
+    name: クウェルレジストマギア[Ⅶ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 状態異常耐性DOWN[Ⅵ](敵全/1T) & マギアダメージUP[Ⅶ](自/1T)
+    messageId: 72
+    artId1: 410302406
+    art1:
+      artId: 410302406
+      verbCode: DEBUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 175
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201407
+    art2:
+      artId: 310201407
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1129
+    eventArtId1: 1129004
+    eventArt1:
+      artId: 1129004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_SINGLERAID_1129_EXCHANGE_1
+    eventDescription: ＆「興味のハート」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「ハロー、私が来たからにはもう安心して＠宝崎を悪い魔女から守る正義のヒーローだから！＠別に秘密にしているわけじゃないから、写真も動画も問題なし！＠動画配信サイトやSNSにアップするのは全然オッケーだからねｗ」
+  illustrator: ―
+  openDate: 2021/03/22 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『ナイトバズタイム』
+description: 状態異常耐性DOWN[Ⅵ](敵全/1T) & マギアダメージUP[Ⅶ](自/1T)
+sortkey: 10
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

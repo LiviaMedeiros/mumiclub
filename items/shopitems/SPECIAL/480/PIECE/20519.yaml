@@ -1,0 +1,84 @@
+---
+id: 20519
+shopId: 480
+shopItemType: PIECE
+genericId: "1332"
+piece:
+  pieceId: 1332
+  pieceType: SKILL
+  pieceName: 自然から力をもらって
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 887
+  hp: 727
+  skillId: 133200
+  pieceSkill:
+    id: 133200
+    groupId: 1105
+    name: バインディングマギア[Ⅲ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 確率で拘束[Ⅲ](敵全/1T) & マギアダメージUP[Ⅵ](自/1T)
+    messageId: 72
+    artId1: 510304303
+    art1:
+      artId: 510304303
+      verbCode: CONDITION_BAD
+      effectCode: RESTRAINT
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 350
+    artId2: 310201406
+    art2:
+      artId: 310201406
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 175
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 133201
+  pieceSkill2:
+    id: 133201
+    groupId: 1105
+    name: バインディングマギア[Ⅳ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 確率で拘束[Ⅳ](敵全/1T) & マギアダメージUP[Ⅶ](自/1T)
+    messageId: 72
+    artId1: 510304304
+    art1:
+      artId: 510304304
+      verbCode: CONDITION_BAD
+      effectCode: RESTRAINT
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 375
+    artId2: 310201407
+    art2:
+      artId: 310201407
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  description: 「小さなころから敷地内にある色とりどりの自然に囲まれて＠きれいな花も、かわいい動物も、美味しい野菜に果物も守ってきた＠今も前も変わらずに、自然は掛け替えのない大切な友だち＠だからみんなを守るためにくれたと思う。ガーデニングをする力を」
+  illustrator: 谷口淳一郎
+  openDate: 2019/04/08 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『自然から力をもらって』
+description: 確率で拘束[Ⅳ](敵全/1T) & マギアダメージUP[Ⅶ](自/1T)
+sortkey: 41
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

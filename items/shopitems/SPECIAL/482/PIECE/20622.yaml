@@ -1,0 +1,128 @@
+---
+id: 20622
+shopId: 482
+shopItemType: PIECE
+genericId: "1167"
+piece:
+  pieceId: 1167
+  pieceType: SKILL
+  pieceName: 大切な人のために
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 802
+  hp: 802
+  skillId: 116700
+  pieceSkill:
+    id: 116700
+    groupId: 1129
+    name: リジェネレイト・シールド[Ⅲ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: HP自動回復[Ⅲ] & ダメージカット状態[Ⅲ](自/3T)
+    messageId: 70
+    artId1: 630207703
+    art1:
+      artId: 630207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId2: 630206203
+    art2:
+      artId: 630206203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2009
+    regularEventArtId1: 650206809
+    regularEventArt1:
+      artId: 650206809
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 5
+      growPoint: 0
+      probability: 500
+    regularEventArtId2: 350201204
+    regularEventArt2:
+      artId: 350201204
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 5
+      growPoint: 25
+    regularEventDescription: 【殲滅戦時追加で確率で回避[Ⅸ] & 防御力UP[Ⅳ](自/5T)】
+    skillEffectRange: ALL
+  skillId2: 116701
+  pieceSkill2:
+    id: 116701
+    groupId: 1129
+    name: リジェネレイト・シールド[Ⅳ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 630207704
+    art1:
+      artId: 630207704
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId2: 630206204
+    art2:
+      artId: 630206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2009
+    regularEventArtId1: 650206813
+    regularEventArt1:
+      artId: 650206813
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 5
+      growPoint: 0
+      probability: 700
+    regularEventArtId2: 350201206
+    regularEventArt2:
+      artId: 350201206
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 450
+      enableTurn: 5
+      growPoint: 25
+    regularEventDescription: 【殲滅戦時追加で確率で回避[XIII] & 防御力UP[Ⅵ](自/5T)】
+    skillEffectRange: ALL
+  description: あたしはさ、自分の大切な人が幸せだったらそれでいいんだ。＠その人の笑顔を見るだけで、あたしまで笑顔になれるんだもん。＠だから、あたしは自分のためには戦わない。＠あたしだけは大切な人のために戦い続ける！
+  illustrator: 谷口淳一郎
+  openDate: 2018/01/22 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『大切な人のために』
+description: HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)
+sortkey: 62
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

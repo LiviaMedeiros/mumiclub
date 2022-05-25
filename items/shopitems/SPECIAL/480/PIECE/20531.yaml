@@ -1,0 +1,85 @@
+---
+id: 20531
+shopId: 480
+shopItemType: PIECE
+genericId: "1215"
+piece:
+  pieceId: 1215
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 穏やかな風
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 724
+  hp: 884
+  skillId: 121500
+  pieceSkill:
+    id: 121500
+    groupId: 1089
+    name: レジストライズ[Ⅴ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 状態異常耐性UP[Ⅴ](自/3T)
+    messageId: 70
+    artId1: 330201505
+    art1:
+      artId: 330201505
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1091
+    eventArtId1: 1091003
+    eventArt1:
+      artId: 1091003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1091_EXCHANGE_1
+    eventDescription: ＆「幽霊免許」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 121501
+  pieceSkill2:
+    id: 121501
+    groupId: 1089
+    name: レジストライズ[Ⅶ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 状態異常耐性UP[Ⅶ](自/3T)
+    messageId: 70
+    artId1: 330201507
+    art1:
+      artId: 330201507
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 500
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1091
+    eventArtId1: 1091004
+    eventArt1:
+      artId: 1091004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 10000
+      genericValue: EVENT_DAILYTOWER_1091_EXCHANGE_1
+    eventDescription: ＆「幽霊免許」追加獲得数＋10
+    skillEffectRange: ALL
+  description: 静かになった教室に飛びこんでくる風が、心地良く髪を撫でる＠黄昏は夜の喧騒や、魔女と争う茨への誘いではなくなったらしい＠証明している…この穏やかな心が証明しているから…＠だから振り払ってみせよう、どれだけ過去が追いかけてきても…
+  illustrator: NOCO
+  openDate: 2018/05/21 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_ACCOMPLISH_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『穏やかな風』
+description: 状態異常耐性UP[Ⅶ](自/3T)
+sortkey: 53
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

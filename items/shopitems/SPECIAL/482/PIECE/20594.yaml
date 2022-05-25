@@ -1,0 +1,120 @@
+---
+id: 20594
+shopId: 482
+shopItemType: PIECE
+genericId: "1399"
+piece:
+  pieceId: 1399
+  pieceType: SKILL
+  pieceName: 小さなつわもの
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 767
+  hp: 847
+  skillId: 139900
+  pieceSkill:
+    id: 139900
+    groupId: 1095
+    name: フォースアウト・カウンター[Ⅶ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 防御力DOWN[Ⅶ](敵単/1T) & 必ずカウンター無効(自/1T)
+    messageId: 72
+    artId1: 410002107
+    art1:
+      artId: 410002107
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610208200
+    art2:
+      artId: 610208200
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    regularEventId: 2011
+    regularEventArtId1: 310201407
+    regularEventArt1:
+      artId: 310201407
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    regularEventArtId2: 200100700
+    regularEventArt2:
+      artId: 200100700
+      verbCode: REVOKE
+      effectCode: BUFF
+      targetId: ONE
+      growPoint: 0
+    regularEventDescription: 【殲滅戦時追加でマギアダメージUP[Ⅶ](自/1T) & バフ解除(敵単)】
+    skillEffectRange: ALL
+  skillId2: 139901
+  pieceSkill2:
+    id: 139901
+    groupId: 1095
+    name: フォースアウト・カウンター[Ⅷ]
+    type: SKILL
+    intervalTurn: 4
+    shortDescription: 防御力DOWN[Ⅷ](敵単/1T) & 必ずカウンター無効(自/1T)
+    messageId: 72
+    artId1: 410002108
+    art1:
+      artId: 410002108
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610208200
+    art2:
+      artId: 610208200
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    regularEventId: 2011
+    regularEventArtId1: 310201411
+    regularEventArt1:
+      artId: 310201411
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    regularEventArtId2: 200100700
+    regularEventArt2:
+      artId: 200100700
+      verbCode: REVOKE
+      effectCode: BUFF
+      targetId: ONE
+      growPoint: 0
+    regularEventDescription: 【殲滅戦時追加でマギアダメージUP[XI](自/1T) & バフ解除(敵単)】
+    skillEffectRange: ALL
+  description: 「父ちゃんと母ちゃんを奪った魔女を倒すために、戦い続けるんだ＠わがままだって周りは言うけど、そんなのどーでもいい！＠オレはオレのやりたいように、ズカンとドカンとやってやる!!＠…でもいつか、オレのことをわかってくれるヤツが現れたらいいな」
+  illustrator: 谷口淳一郎
+  openDate: 2019/09/09 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『小さなつわもの』
+description: 防御力DOWN[Ⅷ](敵単/1T) & 必ずカウンター無効(自/1T)
+sortkey: 34
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...

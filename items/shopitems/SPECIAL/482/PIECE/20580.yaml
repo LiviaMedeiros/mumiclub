@@ -1,0 +1,113 @@
+---
+id: 20580
+shopId: 482
+shopItemType: PIECE
+genericId: "1494"
+piece:
+  pieceId: 1494
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 人生で最も幸せな時間
+  attributeId: ALL
+  rank: RANK_4
+  attack: 754
+  defense: 0
+  hp: 914
+  skillId: 149400
+  pieceSkill:
+    id: 149400
+    groupId: 1085
+    name: フルゲージオーバードライブ[Ⅳ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅳ] & 攻撃力UP[Ⅲ]
+    artId1: 390203104
+    art1:
+      artId: 390203104
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 20
+      probability: 1000
+    artId2: 390201103
+    art2:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    eventId: 1099
+    eventArtId1: 1099003
+    eventArt1:
+      artId: 1099003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1099_PART_1
+    eventArtId2: 1099007
+    eventArt2:
+      artId: 1099007
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1099_PART_2
+    eventDescription: ＆「トラブルのタネ」「ほくそ笑む花」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 149401
+  pieceSkill2:
+    id: 149401
+    groupId: 1085
+    name: フルゲージオーバードライブ[Ⅴ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅴ] & 攻撃力UP[Ⅳ]
+    artId1: 390203105
+    art1:
+      artId: 390203105
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 20
+      probability: 1000
+    artId2: 390201104
+    art2:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    eventId: 1099
+    eventArtId1: 1099004
+    eventArt1:
+      artId: 1099004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_BRANCH_1099_PART_1
+    eventArtId2: 1099008
+    eventArt2:
+      artId: 1099008
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_BRANCH_1099_PART_2
+    eventDescription: ＆「トラブルのタネ」「ほくそ笑む花」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「ああ…おいしい、おいしすぎるよ～！口の中でお米が躍ってる！＠バターとお野菜と、それから少しのコショウの香りがふんわり＠鼻に抜けてきて…もう1000回食べても楽しめちゃいそう…！＠あ、私ほっぺたちゃんとついてる？落ちちゃってない？大丈夫？」
+  illustrator: くらは
+  openDate: 2020/05/18 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_1
+needNumber: 1
+limitedNumber: 1
+name: メモリア『人生で最も幸せな時間』
+description: HP最大時攻撃力UP[Ⅴ] & 攻撃力UP[Ⅳ]
+sortkey: 19
+isDetailView: false
+startAt: 2022/05/23 15:10:00
+endAt: 2022/06/06 14:59:59
+...
