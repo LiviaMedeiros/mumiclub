@@ -1,0 +1,653 @@
+{
+    "npcHelpId": 300,
+    "userCardList": [
+        {
+            "cardId": 10225,
+            "displayCardId": 10225,
+            "revision": 3,
+            "attack": 8116,
+            "defense": 7785,
+            "hp": 29199,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10225,
+                "charaNo": 1022,
+                "miniCharaNo": 102200,
+                "magiaCharaNo": 102200,
+                "cardName": "煌里 ひかる",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "SUPPORT",
+                "growthType": "ATKHP",
+                "attack": 2014,
+                "defense": 1961,
+                "hp": 7192,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 10225,
+                "cardMagia": {
+                    "id": 10225,
+                    "groupId": 1014,
+                    "name": "行け！ひかる軍団！",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 確率でクリティカル & 状態異常耐性UP(味全/3T)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 630306305,
+                    "art2": {
+                        "artId": 630306305,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "ALL",
+                        "effectValue": 2000,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 300
+                    },
+                    "artId3": 330301506,
+                    "art3": {
+                        "artId": 330301506,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 10228,
+                "doppelCardMagia": {
+                    "id": 10228,
+                    "groupId": 1014,
+                    "name": "鈍重のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 確率でクリティカル & 状態異常耐性UP(味全/3T)",
+                    "artId1": 190102281,
+                    "art1": {
+                        "artId": 190102281,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 630306306,
+                    "art2": {
+                        "artId": 630306306,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "CRITICAL",
+                        "targetId": "ALL",
+                        "effectValue": 2000,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 350
+                    },
+                    "artId3": 330301509,
+                    "art3": {
+                        "artId": 330301509,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "ALL",
+                        "effectValue": 500,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelCharaNo": 102200,
+                "doppel": {
+                    "id": 102200,
+                    "name": "鈍重のドッペル",
+                    "title": "その姿は、戦車",
+                    "description": "この感情の主は他者のためにあることを至極の喜びだと感じ、自身の事になると怠惰を極めるので、己の分身である存在を引っ張ることに複雑な気持ちが拭えない。＠このドッペルは主の力を原動力にしているため、自ら進んで行動をすることはできないが、主によって投げられると、その重厚かつ頑強な体を打ち付けて、たちまち相手を潰してしまう。ドッペル自身は人の役に立てることに喜びを感じているので、抱擁するつもりで飛びこんでいるのだが、投げられると体から巨大な刃が出てきてしまうので、いつも失敗だと思っている。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2019/10/15 15:10:00"
+                },
+                "skillId": 10225,
+                "cardSkill": {
+                    "id": 10225,
+                    "groupId": 1092,
+                    "name": "共に駆け抜けるっすよ！",
+                    "shortDescription": "BlastダメージUP[Ⅸ] & Charge後ダメージUP[Ⅵ] & Accele MPUP[Ⅶ]",
+                    "artId1": 310401809,
+                    "art1": {
+                        "artId": 310401809,
+                        "verbCode": "BUFF",
+                        "effectCode": "BLAST",
+                        "targetId": "CONNECT",
+                        "effectValue": 800,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401706,
+                    "art2": {
+                        "artId": 310401706,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 225,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 310401607,
+                    "art3": {
+                        "artId": 310401607,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "くろにゃん",
+                "cardCustomize": {
+                    "cardId": 10225,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 143,
+                    "gift2": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 551,
+                    "gift3": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum3": 3,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 90,
+                    "giftId4": 555,
+                    "gift4": {
+                        "id": 555,
+                        "type": 2,
+                        "name": "振子の重心",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 507,
+                    "gift5": {
+                        "id": 507,
+                        "type": 2,
+                        "name": "ビッグフェリスのタービン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/21 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 308,
+                    "gift6": {
+                        "id": 308,
+                        "type": 2,
+                        "name": "イキガミの毛玉",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/04/23 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 300,
+            "npcPieceId1": 1316,
+            "npcPieceId2": 1408
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1022,
+            "chara": {
+                "id": 1022,
+                "name": "煌里 ひかる",
+                "kana": "きらり ひかる",
+                "attributeId": "LIGHT",
+                "attackType": 1,
+                "initialType": "SUPPORT",
+                "growthType": "ATKHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10224,
+                "defaultCard": {
+                    "cardId": 10224,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATKHP",
+                    "attack": 1774,
+                    "defense": 1728,
+                    "hp": 6337,
+                    "miniCharaNo": 102200,
+                    "charaNo": 1022,
+                    "cardName": "煌里 ひかる",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10224,
+                        "groupId": 1014,
+                        "name": "行け！ひかる軍団！",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 確率でクリティカル & 状態異常耐性UP(味全/3T)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 630306303,
+                        "art2": {
+                            "artId": 630306303,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "ALL",
+                            "effectValue": 2000,
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 200
+                        },
+                        "artId3": 330301504,
+                        "art3": {
+                            "artId": 330301504,
+                            "verbCode": "BUFF",
+                            "effectCode": "RESIST",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10224,
+                        "groupId": 1092,
+                        "name": "共に駆け抜けるっすよ！",
+                        "shortDescription": "BlastダメージUP[Ⅶ] & Charge後ダメージUP[Ⅳ] & Accele MPUP[Ⅴ]",
+                        "artId1": 310401807,
+                        "art1": {
+                            "artId": 310401807,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "CONNECT",
+                            "effectValue": 700,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401704,
+                        "art2": {
+                            "artId": 310401704,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 175,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 310401605,
+                        "art3": {
+                            "artId": 310401605,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10225,
+                "evolutionCard1": {
+                    "cardId": 10225,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATKHP",
+                    "attack": 2014,
+                    "defense": 1961,
+                    "hp": 7192,
+                    "miniCharaNo": 102200,
+                    "charaNo": 1022,
+                    "cardName": "煌里 ひかる",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10225,
+                        "groupId": 1014,
+                        "name": "行け！ひかる軍団！",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 確率でクリティカル & 状態異常耐性UP(味全/3T)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 630306305,
+                        "art2": {
+                            "artId": 630306305,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "CRITICAL",
+                            "targetId": "ALL",
+                            "effectValue": 2000,
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 300
+                        },
+                        "artId3": 330301506,
+                        "art3": {
+                            "artId": 330301506,
+                            "verbCode": "BUFF",
+                            "effectCode": "RESIST",
+                            "targetId": "ALL",
+                            "effectValue": 350,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10225,
+                        "groupId": 1092,
+                        "name": "共に駆け抜けるっすよ！",
+                        "shortDescription": "BlastダメージUP[Ⅸ] & Charge後ダメージUP[Ⅵ] & Accele MPUP[Ⅶ]",
+                        "artId1": 310401809,
+                        "art1": {
+                            "artId": 310401809,
+                            "verbCode": "BUFF",
+                            "effectCode": "BLAST",
+                            "targetId": "CONNECT",
+                            "effectValue": 800,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401706,
+                        "art2": {
+                            "artId": 310401706,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 225,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 310401607,
+                        "art3": {
+                            "artId": 310401607,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "プロミストブラッドに所属する従者のような魔法少女。信頼する人のためなら危険も厭わず戦い、日々のサポートも欠かさない。だが、自分の面倒は見られず、ひとりになると自堕落になり、何事にも気合いが入らなくなってしまう。",
+                "school": "虎屋町学園",
+                "designer": "蒼樹うめ",
+                "voiceActor": "和泉風花",
+                "openDate": "2019/10/15 15:10:00",
+                "enhancementGroupId": 4
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "0f422336-d7a3-4cce-b00c-aec0fbf993e4",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 102200,
+            "npcHelpId": 300,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 300
+        },
+        {
+            "pieceId": 1408,
+            "piece": {
+                "pieceId": 1408,
+                "pieceType": "SKILL",
+                "pieceName": "自堕落なひととき",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1022",
+                "charaList": [
+                    {
+                        "charaId": 1022,
+                        "name": "煌里 ひかる"
+                    }
+                ],
+                "attack": 0,
+                "defense": 442,
+                "hp": 480,
+                "skillId": 140800,
+                "pieceSkill": {
+                    "id": 140800,
+                    "groupId": 1097,
+                    "name": "ディストラクション[Ⅶ]",
+                    "type": "SKILL",
+                    "intervalTurn": 6,
+                    "shortDescription": "マギアダメージDOWN[Ⅶ] & 攻撃力DOWN[Ⅴ](敵単/1T)",
+                    "messageId": 72,
+                    "artId1": 410002307,
+                    "art1": {
+                        "artId": 410002307,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "TARGET",
+                        "effectValue": 350,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 410002005,
+                    "art2": {
+                        "artId": 410002005,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 140801,
+                "pieceSkill2": {
+                    "id": 140801,
+                    "groupId": 1097,
+                    "name": "ディストラクション[Ⅷ]",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "マギアダメージDOWN[Ⅷ] & 攻撃力DOWN[Ⅵ](敵単/1T)",
+                    "messageId": 72,
+                    "artId1": 410002308,
+                    "art1": {
+                        "artId": 410002308,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "TARGET",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 410002006,
+                    "art2": {
+                        "artId": 410002006,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 300,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「いや～、ひとりになると、どうしてもダメなんすよね…＠気がついたら楽な方に流れて行くんすよ…＠どうしてかって聞かれて答えられるぐらいなら苦労はしないっす＠好きで無気力になりたいなんて思ってないんすから」",
+                "illustrator": "くらは",
+                "openDate": "2019/10/15 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 663,
+            "hp": 720,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 300
+        }
+    ],
+    "isNpc": true,
+    "userName": "煌里 ひかる",
+    "userRank": 100,
+    "cardId": 10225,
+    "charaName": "煌里 ひかる",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 10225,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

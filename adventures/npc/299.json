@@ -1,0 +1,642 @@
+{
+    "npcHelpId": 299,
+    "userCardList": [
+        {
+            "cardId": 10235,
+            "displayCardId": 10235,
+            "revision": 3,
+            "attack": 8213,
+            "defense": 8068,
+            "hp": 28294,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10235,
+                "charaNo": 1023,
+                "miniCharaNo": 102300,
+                "magiaCharaNo": 102300,
+                "cardName": "笠音 アオ",
+                "rank": "RANK_5",
+                "attributeId": "WATER",
+                "initialType": "SUPPORT",
+                "growthType": "ATKDEF",
+                "attack": 2023,
+                "defense": 2002,
+                "hp": 7127,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 10235,
+                "cardMagia": {
+                    "id": 10235,
+                    "groupId": 1012,
+                    "name": "超必・ソニックエッジNo.Ⅵ",
+                    "shortDescription": "敵単体にダメージ[Ⅷ] & バフ解除 & 状態強化解除(敵単) & ダメージUP(味全/3T)",
+                    "artId1": 100000108,
+                    "art1": {
+                        "artId": 100000108,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11840,
+                        "growPoint": 100
+                    },
+                    "artId2": 200000700,
+                    "art2": {
+                        "artId": 200000700,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BUFF",
+                        "targetId": "TARGET",
+                        "growPoint": 0
+                    },
+                    "artId3": 200000900,
+                    "art3": {
+                        "artId": 200000900,
+                        "verbCode": "REVOKE",
+                        "effectCode": "GOOD",
+                        "targetId": "TARGET",
+                        "growPoint": 0
+                    },
+                    "artId4": 330301308,
+                    "art4": {
+                        "artId": 330301308,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "ALL",
+                        "effectValue": 325,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 10238,
+                "doppelCardMagia": {
+                    "id": 10238,
+                    "groupId": 1012,
+                    "name": "悪果のドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅹ] & バフ解除 & 状態強化解除(敵単) & ダメージUP(味全/3T)",
+                    "artId1": 190102381,
+                    "art1": {
+                        "artId": 190102381,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 27456,
+                        "growPoint": 220
+                    },
+                    "artId2": 200000700,
+                    "art2": {
+                        "artId": 200000700,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BUFF",
+                        "targetId": "TARGET",
+                        "growPoint": 0
+                    },
+                    "artId3": 200000900,
+                    "art3": {
+                        "artId": 200000900,
+                        "verbCode": "REVOKE",
+                        "effectCode": "GOOD",
+                        "targetId": "TARGET",
+                        "growPoint": 0
+                    },
+                    "artId4": 330301310,
+                    "art4": {
+                        "artId": 330301310,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "ALL",
+                        "effectValue": 375,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelCharaNo": 102300,
+                "doppel": {
+                    "id": 102300,
+                    "name": "悪果のドッペル",
+                    "title": "その姿は、叢雲",
+                    "description": "この感情の主は非情の皮を被った有情の者。やむを得ず他を傷つけることへの自責が拭えず、その苦境から逃れる為に再び傷付けることで、負の連鎖を繰り返す。＠このドッペルはそんな主を捕らえると、苦しみから解き放つために首を刎ね、その瞬間だけ責任を取るという解放感を与える。だが頭が良い主は、全てが自己満足のまやかしであることに気付いて懊悩すると、解放されない自責を固めてひとつの巨人となり、行き場のない感情を八つ当たりという形で解放しようとする。＠こうして罪は断じられることも散ることもなく、群がり続けるだろう。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2020/04/13 15:10:00"
+                },
+                "skillId": 10235,
+                "cardSkill": {
+                    "id": 10235,
+                    "groupId": 1085,
+                    "name": "プレイヤー２参戦！",
+                    "shortDescription": "攻撃力UP[Ⅸ] & MP回復[Ⅵ] & デバフ解除",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200400506,
+                    "art2": {
+                        "artId": 200400506,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "CONNECT",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    },
+                    "artId3": 200400800,
+                    "art3": {
+                        "artId": 200400800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "CONNECT",
+                        "growPoint": 0
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "MPUP",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "いもあん",
+                "cardCustomize": {
+                    "cardId": 10235,
+                    "giftId1": 122,
+                    "gift1": {
+                        "id": 122,
+                        "type": 1,
+                        "name": "アクアオーブ＋",
+                        "attributeId": "WATER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 123,
+                    "gift2": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 551,
+                    "gift3": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum3": 3,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 90,
+                    "giftId4": 506,
+                    "gift4": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 90,
+                    "giftId5": 559,
+                    "gift5": {
+                        "id": 559,
+                        "type": 2,
+                        "name": "流浪の藁",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2019/12/09 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 308,
+                    "gift6": {
+                        "id": 308,
+                        "type": 2,
+                        "name": "イキガミの毛玉",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/04/23 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 299,
+            "npcPieceId1": 1316,
+            "npcPieceId2": 1484
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1023,
+            "chara": {
+                "id": 1023,
+                "name": "笠音 アオ",
+                "kana": "かさね あお",
+                "attributeId": "WATER",
+                "attackType": 1,
+                "initialType": "SUPPORT",
+                "growthType": "ATKDEF",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10234,
+                "defaultCard": {
+                    "cardId": 10234,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATKDEF",
+                    "attack": 1782,
+                    "defense": 1763,
+                    "hp": 6279,
+                    "miniCharaNo": 102300,
+                    "charaNo": 1023,
+                    "cardName": "笠音 アオ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10234,
+                        "groupId": 1012,
+                        "name": "超必・ソニックエッジNo.Ⅵ",
+                        "shortDescription": "敵単体にダメージ[Ⅵ] & バフ解除 & 状態強化解除(敵単) & ダメージUP(味全/3T)",
+                        "artId1": 100000106,
+                        "art1": {
+                            "artId": 100000106,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11200,
+                            "growPoint": 100
+                        },
+                        "artId2": 200000700,
+                        "art2": {
+                            "artId": 200000700,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BUFF",
+                            "targetId": "TARGET",
+                            "growPoint": 0
+                        },
+                        "artId3": 200000900,
+                        "art3": {
+                            "artId": 200000900,
+                            "verbCode": "REVOKE",
+                            "effectCode": "GOOD",
+                            "targetId": "TARGET",
+                            "growPoint": 0
+                        },
+                        "artId4": 330301306,
+                        "art4": {
+                            "artId": 330301306,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "ALL",
+                            "effectValue": 275,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10234,
+                        "groupId": 1085,
+                        "name": "プレイヤー２参戦！",
+                        "shortDescription": "攻撃力UP[Ⅶ] & MP回復[Ⅳ] & デバフ解除",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400504,
+                        "art2": {
+                            "artId": 200400504,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 200,
+                            "growPoint": 10
+                        },
+                        "artId3": 200400800,
+                        "art3": {
+                            "artId": 200400800,
+                            "verbCode": "REVOKE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10235,
+                "evolutionCard1": {
+                    "cardId": 10235,
+                    "rank": "RANK_5",
+                    "attributeId": "WATER",
+                    "initialType": "SUPPORT",
+                    "growthType": "ATKDEF",
+                    "attack": 2023,
+                    "defense": 2002,
+                    "hp": 7127,
+                    "miniCharaNo": 102300,
+                    "charaNo": 1023,
+                    "cardName": "笠音 アオ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10235,
+                        "groupId": 1012,
+                        "name": "超必・ソニックエッジNo.Ⅵ",
+                        "shortDescription": "敵単体にダメージ[Ⅷ] & バフ解除 & 状態強化解除(敵単) & ダメージUP(味全/3T)",
+                        "artId1": 100000108,
+                        "art1": {
+                            "artId": 100000108,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11840,
+                            "growPoint": 100
+                        },
+                        "artId2": 200000700,
+                        "art2": {
+                            "artId": 200000700,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BUFF",
+                            "targetId": "TARGET",
+                            "growPoint": 0
+                        },
+                        "artId3": 200000900,
+                        "art3": {
+                            "artId": 200000900,
+                            "verbCode": "REVOKE",
+                            "effectCode": "GOOD",
+                            "targetId": "TARGET",
+                            "growPoint": 0
+                        },
+                        "artId4": 330301308,
+                        "art4": {
+                            "artId": 330301308,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "ALL",
+                            "effectValue": 325,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10235,
+                        "groupId": 1085,
+                        "name": "プレイヤー２参戦！",
+                        "shortDescription": "攻撃力UP[Ⅸ] & MP回復[Ⅵ] & デバフ解除",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400506,
+                        "art2": {
+                            "artId": 200400506,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "growPoint": 10
+                        },
+                        "artId3": 200400800,
+                        "art3": {
+                            "artId": 200400800,
+                            "verbCode": "REVOKE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "プロミストブラッドを率いる姉妹の三女で、頭脳戦が得意な魔法少女。人を食った態度で挑発するが、内心では冷静沈着に周囲を分析している慎重派。このため、衝動的に行動する姉たちに辟易することも。ゲームや読書など、ひとり遊びが好き。",
+                "school": "蛇の宮中学・高等学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "天野聡美",
+                "openDate": "2020/04/13 15:10:00",
+                "enhancementGroupId": 76
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "f2e5030d-779d-4daf-bbec-9a0eb896a1be",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 102300,
+            "npcHelpId": 299,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 299
+        },
+        {
+            "pieceId": 1484,
+            "piece": {
+                "pieceId": 1484,
+                "pieceType": "SKILL",
+                "pieceName": "人生を変えるゲーム",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1023",
+                "charaList": [
+                    {
+                        "charaId": 1023,
+                        "name": "笠音 アオ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 452,
+                "hp": 492,
+                "skillId": 148400,
+                "pieceSkill": {
+                    "id": 148400,
+                    "groupId": 1156,
+                    "name": "アトリビュートドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 10,
+                    "shortDescription": "同じ属性ドロー",
+                    "messageId": 70,
+                    "artId1": 700211600,
+                    "art1": {
+                        "artId": 700211600,
+                        "verbCode": "DRAW",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 148401,
+                "pieceSkill2": {
+                    "id": 148401,
+                    "groupId": 1156,
+                    "name": "アトリビュートドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "同じ属性ドロー",
+                    "messageId": 70,
+                    "artId1": 700211600,
+                    "art1": {
+                        "artId": 700211600,
+                        "verbCode": "DRAW",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "放課後、並べた机にボードゲームを広げる＠気の合う友だちと敵対して駆け引きしたり、協力して乗り越えて＠予想外の結果に笑い合う…描いていたのは、そんな人生＠だけど運命は転がり始め、あのゲームが始まった",
+                "illustrator": "くらは",
+                "openDate": "2020/04/13 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 678,
+            "hp": 738,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 299
+        }
+    ],
+    "isNpc": true,
+    "userName": "笠音 アオ",
+    "userRank": 100,
+    "cardId": 10235,
+    "charaName": "笠音 アオ",
+    "cardRank": "RANK_5",
+    "attributeId": "WATER",
+    "level": 100,
+    "displayCardId": 10235,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
