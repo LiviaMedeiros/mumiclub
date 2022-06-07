@@ -1,0 +1,73 @@
+---
+pieceId: 1518
+pieceType: SKILL
+pieceName: 夏に咲く花
+attributeId: ALL
+rank: RANK_3
+charaIds: "1209"
+charaList:
+- charaId: 1209
+  name: レナ・かえで 水着ver.
+attack: 0
+defense: 474
+hp: 474
+skillId: 151800
+pieceSkill:
+  id: 151800
+  groupId: 1085
+  name: パラッシュアップ[Ⅲ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 攻撃力UP[Ⅲ] & 必ずダメージカット無視(自/1T)
+  messageId: 70
+  artId1: 310201103
+  art1:
+    artId: 310201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610216515
+  art2:
+    artId: 610216515
+    verbCode: IGNORE
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 151801
+pieceSkill2:
+  id: 151801
+  groupId: 1085
+  name: パラッシュアップ[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 攻撃力UP[Ⅳ] & 必ずダメージカット無視(自/1T)
+  messageId: 70
+  artId1: 310201104
+  art1:
+    artId: 310201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610216515
+  art2:
+    artId: 610216515
+    verbCode: IGNORE
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+description: 小さく明るい花の間にポツリポツリと咲く会話＠波の音と合わさって、花は消えていくけれど＠花が照らした笑顔と会話は夏の夜を彩り続ける＠きっとこの夜は、忘れられない光景になる
+illustrator: mepo
+openDate: 2020/07/15 15:10:00
+...
