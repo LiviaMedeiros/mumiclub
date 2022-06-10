@@ -1,0 +1,100 @@
+---
+pieceId: 1774
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: ゆっくりと、でも着実に
+attributeId: ALL
+rank: RANK_4
+attack: 779
+defense: 0
+hp: 979
+skillId: 177400
+pieceSkill:
+  id: 177400
+  groupId: 1086
+  name: フォートレス・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: 防御力UP[Ⅳ] & ダメージカット状態[Ⅲ] & 攻撃力DOWN[Ⅴ]
+  artId1: 390201203
+  art1:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  artId2: 690206204
+  art2:
+    artId: 690206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId3: 9747
+  art3:
+    artId: 9747
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    growPoint: 0
+  eventId: 1167
+  eventArtId1: 1167003
+  eventArt1:
+    artId: 1167003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1167_KEY
+  eventDescription: ＆「お見合い写真」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 177401
+pieceSkill2:
+  id: 177401
+  groupId: 1086
+  name: フォートレス・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: 防御力UP[Ⅴ] & ダメージカット状態[Ⅳ] & 攻撃力DOWN[Ⅴ]
+  artId1: 390201204
+  art1:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 690206205
+  art2:
+    artId: 690206205
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId3: 9747
+  art3:
+    artId: 9747
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    growPoint: 0
+  eventId: 1167
+  eventArtId1: 1167004
+  eventArt1:
+    artId: 1167004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1167_KEY
+  eventDescription: ＆「お見合い写真」追加獲得数＋15
+  skillEffectRange: ALL
+description: 例え小さな歩幅でも、一歩また一歩と歩いていけば＠焦がれてやまない大人の姿に近づいていける＠そうすれば、いまは合わせてもらっている歩幅も＠あなたに相応しいものになるはずだから
+illustrator: ―
+openDate: 2022/06/09 15:10:00
+...
