@@ -1,0 +1,84 @@
+---
+id: 21008
+shopId: 488
+shopItemType: PIECE
+genericId: "1151"
+piece:
+  pieceId: 1151
+  pieceType: SKILL
+  pieceName: 終わらない稽古
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 881
+  hp: 721
+  skillId: 115100
+  pieceSkill:
+    id: 115100
+    groupId: 1128
+    name: ダイヴァージョン[Ⅷ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 必ず挑発 & 防御力UP[Ⅷ](自/1T)
+    messageId: 70
+    artId1: 610207600
+    art1:
+      artId: 610207600
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 310201208
+    art2:
+      artId: 310201208
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 600
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 115101
+  pieceSkill2:
+    id: 115101
+    groupId: 1128
+    name: ダイヴァージョン[Ⅸ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 必ず挑発 & 防御力UP[Ⅸ](自/1T)
+    messageId: 70
+    artId1: 610207600
+    art1:
+      artId: 610207600
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 310201209
+    art2:
+      artId: 310201209
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 675
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  description: 「箏曲部の後は毛筆のお稽古、その後は確か華道が入っていて、お風呂＠を上がってからは、お婆さまに言われた古典文学を読んで、朝起きたら＠確かお料理の稽古を、って邪念は捨てるでございます！今は部員の皆さ＠まに六段の調を極めてもらわないと、今度の大会を切り抜けるには…」
+  illustrator: ―
+  openDate: 2017/11/30 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『終わらない稽古』
+description: 必ず挑発 & 防御力UP[Ⅸ](自/1T)
+sortkey: 62
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...

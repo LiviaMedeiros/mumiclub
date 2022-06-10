@@ -1,0 +1,86 @@
+---
+id: 20973
+shopId: 488
+shopItemType: PIECE
+genericId: "1434"
+piece:
+  pieceId: 1434
+  pieceType: SKILL
+  pieceName: フードの中の繋がり
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 894
+  hp: 734
+  skillId: 143400
+  pieceSkill:
+    id: 143400
+    groupId: 1101
+    name: ブラー・ヘイズ[Ⅶ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: Blast ダメージDOWN[Ⅶ] & 確率で霧[XV](敵単/3T)
+    messageId: 72
+    artId1: 430002707
+    art1:
+      artId: 430002707
+      verbCode: DEBUFF
+      effectCode: BLAST
+      targetId: TARGET
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId2: 530005115
+    art2:
+      artId: 530005115
+      verbCode: CONDITION_BAD
+      effectCode: FOG
+      targetId: TARGET
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 0
+      probability: 650
+    skillEffectRange: ALL
+  skillId2: 143401
+  pieceSkill2:
+    id: 143401
+    groupId: 1101
+    name: ブラー・ヘイズ[Ⅷ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: Blast ダメージDOWN[Ⅷ] & 必ず霧(敵単/3T)
+    messageId: 72
+    artId1: 430002708
+    art1:
+      artId: 430002708
+      verbCode: DEBUFF
+      effectCode: BLAST
+      targetId: TARGET
+      effectValue: 225
+      enableTurn: 3
+      growPoint: 25
+    artId2: 530005200
+    art2:
+      artId: 530005200
+      verbCode: CONDITION_BAD
+      effectCode: FOG
+      targetId: TARGET
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: この人は明るくて柔らかくて、笑顔がとっても似合う人＠ぼくとは全然違う沢山の人と喋ることができる人＠でも、時々笑った顔が寂しそうで泣きそうで気付かされた＠一緒なんだ、ぼくと一緒なんだって。握った手はねとても温かだった
+  illustrator: ―
+  openDate: 2019/12/09 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『フードの中の繋がり』
+description: Blast ダメージDOWN[Ⅷ] & 必ず霧(敵単/3T)
+sortkey: 27
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...

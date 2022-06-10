@@ -1,0 +1,115 @@
+---
+id: 20948
+shopId: 488
+shopItemType: PIECE
+genericId: "1773"
+piece:
+  pieceId: 1773
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 子どもっぽいって言わないで！
+  attributeId: ALL
+  rank: RANK_4
+  attack: 939
+  defense: 0
+  hp: 819
+  skillId: 177300
+  pieceSkill:
+    id: 177300
+    groupId: 1085
+    name: バリアント・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅴ] & ダメージカット状態[Ⅱ] & 防御力DOWN[Ⅴ]
+    artId1: 390201105
+    art1:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    artId2: 690206202
+    art2:
+      artId: 690206202
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId3: 9368
+    art3:
+      artId: 9368
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 250
+      growPoint: 0
+    eventId: 1167
+    eventArtId1: 1167003
+    eventArt1:
+      artId: 1167003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1167_KEY
+    eventDescription: ＆「お見合い写真」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 177301
+  pieceSkill2:
+    id: 177301
+    groupId: 1085
+    name: バリアント・アデプト[Ⅵ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅵ] & ダメージカット状態[Ⅲ] & 防御力DOWN[Ⅴ]
+    artId1: 390201106
+    art1:
+      artId: 390201106
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    artId2: 690206203
+    art2:
+      artId: 690206203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId3: 9368
+    art3:
+      artId: 9368
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 250
+      growPoint: 0
+    eventId: 1167
+    eventArtId1: 1167004
+    eventArt1:
+      artId: 1167004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1167_KEY
+    eventDescription: ＆「お見合い写真」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「大人だってぬいぐるみが好きな人はいるでしょ？＠寝てる蛍の側にぬいぐるみを置いといたら、抱きしめてたし…＠私が子どもっぽいってことじゃないから…！＠それにぷちうさは特別なの…うぅ…からかわないで！」
+  illustrator: くろにゃん
+  openDate: 2022/06/09 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『子どもっぽいって言わないで！』
+description: 攻撃力UP[Ⅵ] & ダメージカット状態[Ⅲ] & 防御力DOWN[Ⅴ]
+sortkey: 1
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...

@@ -1,0 +1,84 @@
+---
+id: 20958
+shopId: 488
+shopItemType: PIECE
+genericId: "1564"
+piece:
+  pieceId: 1564
+  pieceType: SKILL
+  pieceName: 登場からの人気者
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 763
+  hp: 923
+  skillId: 156400
+  pieceSkill:
+    id: 156400
+    groupId: 1095
+    name: スナイピングマギア[Ⅴ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: 防御力DOWN[Ⅴ](敵単/1T) & マギアダメージUP[Ⅵ](自/1T)
+    messageId: 72
+    artId1: 410002105
+    art1:
+      artId: 410002105
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201406
+    art2:
+      artId: 310201406
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 175
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  skillId2: 156401
+  pieceSkill2:
+    id: 156401
+    groupId: 1095
+    name: スナイピングマギア[Ⅵ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: 防御力DOWN[Ⅵ](敵単/1T) & マギアダメージUP[Ⅶ](自/1T)
+    messageId: 72
+    artId1: 410002106
+    art1:
+      artId: 410002106
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201407
+    art2:
+      artId: 310201407
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+  description: みんなが知ってるあの人に、とっても似ている可愛い少女＠この子はどこの子？うわさの子？＠お家のことや好きなこと、飛び出す興味が止まらない＠賑わう様子に少女もにっこり、友だち100人できるかな？
+  illustrator: ―
+  openDate: 2020/11/16 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『登場からの人気者』
+description: 防御力DOWN[Ⅵ](敵単/1T) & マギアダメージUP[Ⅶ](自/1T)
+sortkey: 12
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...

@@ -1,0 +1,78 @@
+---
+id: 20989
+shopId: 488
+shopItemType: PIECE
+genericId: "1330"
+piece:
+  pieceId: 1330
+  pieceType: ABILITY
+  pieceName: お節介なタイミング
+  attributeId: ALL
+  rank: RANK_4
+  attack: 882
+  defense: 0
+  hp: 732
+  skillId: 133000
+  pieceSkill:
+    id: 133000
+    groupId: 1177
+    name: 'ショーテル・アデプト[Ⅴ] '
+    type: ABILITY
+    shortDescription: 確率でダメージカット無視[Ⅴ] & Charge後ダメージUP[Ⅳ]
+    artId1: 690216505
+    art1:
+      artId: 690216505
+      verbCode: IGNORE
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      growPoint: 0
+      probability: 500
+    artId2: 390201704
+    art2:
+      artId: 390201704
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 125
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 133001
+  pieceSkill2:
+    id: 133001
+    groupId: 1177
+    name: ショーテル・アデプト[Ⅶ]
+    type: ABILITY
+    shortDescription: 確率でダメージカット無視[Ⅶ] & Charge後ダメージUP[Ⅴ]
+    artId1: 690216507
+    art1:
+      artId: 690216507
+      verbCode: IGNORE
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      growPoint: 0
+      probability: 600
+    artId2: 390201705
+    art2:
+      artId: 390201705
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  description: 「少し遅くて言うのを逃したり、間に合わなくて守れなかったり＠タイミングの悪さが招いた失敗は、思い出せばいくらでもある＠それでも性分に反するから、お節介だけはやめないよ＠見て見ない振りはできないし、どうにか力になりたいからさ」
+  illustrator: 谷口淳一郎
+  openDate: 2019/04/08 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『お節介なタイミング』
+description: 確率でダメージカット無視[Ⅶ] & Charge後ダメージUP[Ⅴ]
+sortkey: 43
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...

@@ -1,0 +1,78 @@
+---
+id: 21000
+shopId: 488
+shopItemType: PIECE
+genericId: "1203"
+piece:
+  pieceId: 1203
+  pieceType: ABILITY
+  pieceName: 竜真流師範代
+  attributeId: ALL
+  rank: RANK_4
+  attack: 722
+  defense: 0
+  hp: 882
+  skillId: 120300
+  pieceSkill:
+    id: 120300
+    groupId: 1125
+    name: 反撃攻勢[Ⅳ]
+    type: ABILITY
+    shortDescription: 確率でカウンター[Ⅳ] & 確率で挑発[Ⅴ]
+    artId1: 690207004
+    art1:
+      artId: 690207004
+      verbCode: CONDITION_GOOD
+      effectCode: COUNTER
+      targetId: SELF
+      effectValue: 800
+      growPoint: 0
+      probability: 250
+    artId2: 690207505
+    art2:
+      artId: 690207505
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      growPoint: 0
+      probability: 300
+    skillEffectRange: ALL
+  skillId2: 120301
+  pieceSkill2:
+    id: 120301
+    groupId: 1125
+    name: 反撃攻勢[Ⅴ]
+    type: ABILITY
+    shortDescription: 確率でカウンター[Ⅴ] & 確率で挑発[Ⅵ]
+    artId1: 690207005
+    art1:
+      artId: 690207005
+      verbCode: CONDITION_GOOD
+      effectCode: COUNTER
+      targetId: SELF
+      effectValue: 800
+      growPoint: 0
+      probability: 300
+    artId2: 690207506
+    art2:
+      artId: 690207506
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      growPoint: 0
+      probability: 350
+    skillEffectRange: ALL
+  description: 「伝統ある“竜真流”の師範代であるからには＠道場を守り、盛り上げていくことがつとめであり＠力あるものとして悪を討ち正義を成すことも私の使命＠悪行は許しません!!」
+  illustrator: 谷口淳一郎
+  openDate: 2018/04/23 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『竜真流師範代』
+description: 確率でカウンター[Ⅴ] & 確率で挑発[Ⅵ]
+sortkey: 54
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...

@@ -1,0 +1,103 @@
+---
+id: 20954
+shopId: 488
+shopItemType: PIECE
+genericId: "1629"
+piece:
+  pieceId: 1629
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: ほんとうの私を隠して
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 926
+  hp: 766
+  skillId: 162900
+  pieceSkill:
+    id: 162900
+    groupId: 1094
+    name: ドレイン・スキルクイック[Ⅷ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 攻撃力DOWN[Ⅷ](敵単/1T) & スキルクイック(自/1T)
+    messageId: 72
+    artId1: 410002008
+    art1:
+      artId: 410002008
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610207800
+    art2:
+      artId: 610207800
+      verbCode: CONDITION_GOOD
+      effectCode: SKILL_QUICK
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    eventId: 1135
+    eventArtId1: 1135003
+    eventArt1:
+      artId: 1135003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1135_KEY
+    eventDescription: ＆「疑惑の写真」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 162901
+  pieceSkill2:
+    id: 162901
+    groupId: 1094
+    name: ドレイン・スキルクイック[Ⅹ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 攻撃力DOWN[Ⅹ](敵単/1T) & スキルクイック(自/1T)
+    messageId: 72
+    artId1: 410002010
+    art1:
+      artId: 410002010
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610207800
+    art2:
+      artId: 610207800
+      verbCode: CONDITION_GOOD
+      effectCode: SKILL_QUICK
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    eventId: 1135
+    eventArtId1: 1135004
+    eventArt1:
+      artId: 1135004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1135_KEY
+    eventDescription: ＆「疑惑の写真」追加獲得数＋15
+    skillEffectRange: ALL
+  description: ほんとうの自分を隠して偽物の仮面を被ることに決めたのは＠ありのままじゃスタートラインにさえ立てないのだと知ったから＠いつの日か仮面も、この顔に馴染んでひとつになっていく＠そうすれば偽りは真実になり、理想の仮面こそがほんとうの私になる
+  illustrator: らぐほのえりか
+  openDate: 2021/06/04 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_2
+needNumber: 1
+limitedNumber: 1
+name: メモリア『ほんとうの私を隠して』
+description: 攻撃力DOWN[Ⅹ](敵単/1T) & スキルクイック(自/1T)
+sortkey: 8
+isDetailView: false
+startAt: 2022/06/09 15:10:00
+endAt: 2022/06/27 14:59:59
+...
