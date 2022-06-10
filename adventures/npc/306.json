@@ -1,0 +1,569 @@
+{
+    "npcHelpId": 306,
+    "userCardList": [
+        {
+            "cardId": 30454,
+            "displayCardId": 30454,
+            "revision": 3,
+            "attack": 5747,
+            "defense": 5726,
+            "hp": 22383,
+            "level": 80,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30454,
+                "charaNo": 3045,
+                "miniCharaNo": 304500,
+                "magiaCharaNo": 304500,
+                "cardName": "柚希 りおん",
+                "rank": "RANK_4",
+                "attributeId": "DARK",
+                "initialType": "SUPPORT",
+                "growthType": "HP",
+                "attack": 1632,
+                "defense": 1614,
+                "hp": 6043,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 30454,
+                "cardMagia": {
+                    "id": 30454,
+                    "groupId": 1014,
+                    "name": "シトロン・プリンセス・キッス",
+                    "shortDescription": "敵全体にダメージ[Ⅴ] & 防御力DOWN(敵全/3T) & 確率で拘束(敵全/1T)",
+                    "artId1": 100300105,
+                    "art1": {
+                        "artId": 100300105,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3400,
+                        "growPoint": 100
+                    },
+                    "artId2": 430302109,
+                    "art2": {
+                        "artId": 430302109,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 510304306,
+                    "art3": {
+                        "artId": 510304306,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "RESTRAINT",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 425
+                    }
+                },
+                "skillId": 30454,
+                "cardSkill": {
+                    "id": 30454,
+                    "groupId": 1085,
+                    "name": "あたしがいなきゃダメなんだから",
+                    "shortDescription": "攻撃力UP[Ⅶ] & 必ず拘束",
+                    "artId1": 310401107,
+                    "art1": {
+                        "artId": 310401107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 350,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610409900,
+                    "art2": {
+                        "artId": 610409900,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "RESTRAINT",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "桜木蓮",
+                "cardCustomize": {
+                    "cardId": 30454,
+                    "giftId1": 612,
+                    "gift1": {
+                        "id": 612,
+                        "type": 9,
+                        "name": "りおん色のお友だち",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2020/05/29 15:10:00"
+                    },
+                    "giftNum1": 1,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 50,
+                    "giftId2": 612,
+                    "gift2": {
+                        "id": 612,
+                        "type": 9,
+                        "name": "りおん色のお友だち",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2020/05/29 15:10:00"
+                    },
+                    "giftNum2": 1,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 612,
+                    "gift3": {
+                        "id": 612,
+                        "type": 9,
+                        "name": "りおん色のお友だち",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2020/05/29 15:10:00"
+                    },
+                    "giftNum3": 1,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 80,
+                    "giftId4": 612,
+                    "gift4": {
+                        "id": 612,
+                        "type": 9,
+                        "name": "りおん色のお友だち",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2020/05/29 15:10:00"
+                    },
+                    "giftNum4": 1,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 60,
+                    "giftId5": 612,
+                    "gift5": {
+                        "id": 612,
+                        "type": 9,
+                        "name": "りおん色のお友だち",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2020/05/29 15:10:00"
+                    },
+                    "giftNum5": 1,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 40,
+                    "giftId6": 612,
+                    "gift6": {
+                        "id": 612,
+                        "type": 9,
+                        "name": "りおん色のお友だち",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2020/05/29 15:10:00"
+                    },
+                    "giftNum6": 1,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 60
+                }
+            },
+            "npcHelpId": 306,
+            "npcPieceId1": 1316,
+            "npcPieceId2": 1499
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3045,
+            "chara": {
+                "id": 3045,
+                "name": "柚希 りおん",
+                "kana": "ゆずき りおん",
+                "attributeId": "DARK",
+                "attackType": 1,
+                "initialType": "SUPPORT",
+                "growthType": "HP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 30453,
+                "defaultCard": {
+                    "cardId": 30453,
+                    "rank": "RANK_3",
+                    "attributeId": "DARK",
+                    "initialType": "SUPPORT",
+                    "growthType": "HP",
+                    "attack": 1329,
+                    "defense": 1315,
+                    "hp": 4922,
+                    "miniCharaNo": 304500,
+                    "charaNo": 3045,
+                    "cardName": "柚希 りおん",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30453,
+                        "groupId": 1014,
+                        "name": "シトロン・プリンセス・キッス",
+                        "shortDescription": "敵全体にダメージ[Ⅲ] & 防御力DOWN(敵全/3T) & 確率で拘束(敵全/1T)",
+                        "artId1": 100300103,
+                        "art1": {
+                            "artId": 100300103,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3200,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302107,
+                        "art2": {
+                            "artId": 430302107,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 510304304,
+                        "art3": {
+                            "artId": 510304304,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "ALL",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 375
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30453,
+                        "groupId": 1085,
+                        "name": "あたしがいなきゃダメなんだから",
+                        "shortDescription": "攻撃力UP[Ⅴ] & 必ず拘束",
+                        "artId1": 310401105,
+                        "art1": {
+                            "artId": 310401105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610409900,
+                        "art2": {
+                            "artId": 610409900,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30454,
+                "evolutionCard1": {
+                    "cardId": 30454,
+                    "rank": "RANK_4",
+                    "attributeId": "DARK",
+                    "initialType": "SUPPORT",
+                    "growthType": "HP",
+                    "attack": 1632,
+                    "defense": 1614,
+                    "hp": 6043,
+                    "miniCharaNo": 304500,
+                    "charaNo": 3045,
+                    "cardName": "柚希 りおん",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30454,
+                        "groupId": 1014,
+                        "name": "シトロン・プリンセス・キッス",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 防御力DOWN(敵全/3T) & 確率で拘束(敵全/1T)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 430302109,
+                        "art2": {
+                            "artId": 430302109,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 510304306,
+                        "art3": {
+                            "artId": 510304306,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "ALL",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 425
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30454,
+                        "groupId": 1085,
+                        "name": "あたしがいなきゃダメなんだから",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 必ず拘束",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610409900,
+                        "art2": {
+                            "artId": 610409900,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "双子の姉への独占欲が強い、超ド級のシスコン魔法少女。姉に近付く人は誰であろうと邪魔者扱い。怒りの原因は全てヤキモチ。ここまで姉を愛しているのに、愛情表現がひねくれ過ぎており、常に空回り。姉には想いがまったく伝わっていない。",
+                "school": "聖リリアンナ学園",
+                "designer": "桜木蓮",
+                "voiceActor": "田中ちえ美",
+                "openDate": "2020/05/29 15:10:00",
+                "enhancementGroupId": 90
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "d3cace07-2f49-47dd-816e-a8d38d565eb1",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 304500,
+            "npcHelpId": 306,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 306
+        },
+        {
+            "pieceId": 1499,
+            "piece": {
+                "pieceId": 1499,
+                "pieceType": "ABILITY",
+                "pieceName": "全ては思いのままに",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3045",
+                "charaList": [
+                    {
+                        "charaId": 3045,
+                        "name": "柚希 りおん"
+                    }
+                ],
+                "attack": 512,
+                "defense": 0,
+                "hp": 432,
+                "skillId": 149900,
+                "pieceSkill": {
+                    "id": 149900,
+                    "groupId": 1090,
+                    "name": "インテント・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅲ] & 必ず魅了無効",
+                    "artId1": 390201603,
+                    "art1": {
+                        "artId": 390201603,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690208300,
+                    "art2": {
+                        "artId": 690208300,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CHARM",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 149901,
+                "pieceSkill2": {
+                    "id": 149901,
+                    "groupId": 1090,
+                    "name": "インテント・アデプト[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Accele MPUP[Ⅳ] & 必ず魅了無効",
+                    "artId1": 390201604,
+                    "art1": {
+                        "artId": 390201604,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "effectValue": 175,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 690208300,
+                    "art2": {
+                        "artId": 690208300,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CHARM",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "お人形さんは、あたしの言うことなんでもきいてくれるの＠文句も言わない、反抗もしない、もちろん嫌がったりもしない＠あたしの選んだ服を着て、あたしが選んだアクセをつけてくれる＠こんなふうに、いろんなことがあたしの思い通りになればいいのに！",
+                "illustrator": "くらは",
+                "openDate": "2020/05/29 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 768,
+            "defense": 0,
+            "hp": 648,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 306
+        }
+    ],
+    "isNpc": true,
+    "userName": "柚希 りおん",
+    "userRank": 80,
+    "cardId": 30454,
+    "charaName": "柚希 りおん",
+    "cardRank": "RANK_4",
+    "attributeId": "DARK",
+    "level": 80,
+    "displayCardId": 30454,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
