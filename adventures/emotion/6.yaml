@@ -1,0 +1,230 @@
+---
+wave:
+- field: 15063
+  effect: 0
+  boss: true
+  enemyList:
+  - posBody: 5
+    action: 0
+    bossType: 0
+    magnification: 100
+    cardId: 69999
+    charId: 6012
+    miniCharId: 699999
+    miniMagiaId: 699900
+    miniDoppelId: 699999
+    pos: 1
+    name: 従順な ルビーのへそ
+    level: 1
+    align: FIRE
+    hpStart: 0
+    hp: 0
+    mpStart: 0
+    maxMp: 1000
+    attack: 0
+    defence: 9600
+    speed: 0
+    discType1: RANGE_H
+    discType2: RANGE_V
+    discType3: MPUP
+    formationId: 101
+    blast: 0
+    charge: 0
+    mpup: 0
+    rateGainMpAtk: 0
+    rateGainMpDef: 0
+    leader: false
+    ai: 0
+    enemyKindType: EMOTION
+    enemySizeType: BIG
+    genericValue: RUBY
+    memoriaList: []
+  - posBody: 5
+    action: 0
+    bossType: 0
+    magnification: 100
+    cardId: 69999
+    charId: 6012
+    miniCharId: 699999
+    miniMagiaId: 699900
+    miniDoppelId: 699999
+    pos: 3
+    name: 従順な ルビーのへそ
+    level: 1
+    align: FIRE
+    hpStart: 0
+    hp: 0
+    mpStart: 0
+    maxMp: 1000
+    attack: 0
+    defence: 9600
+    speed: 0
+    discType1: RANGE_H
+    discType2: RANGE_V
+    discType3: MPUP
+    formationId: 103
+    blast: 0
+    charge: 0
+    mpup: 0
+    rateGainMpAtk: 0
+    rateGainMpDef: 0
+    leader: false
+    ai: 0
+    enemyKindType: EMOTION
+    enemySizeType: BIG
+    genericValue: RUBY
+    memoriaList: []
+  - action: 3
+    bossType: 4
+    magnification: 100
+    cutinId: 0
+    cardId: 60120
+    charId: 6012
+    miniCharId: 601200
+    miniMagiaId: 601200
+    miniDoppelId: 601200
+    pos: 5
+    name: 従順な ルビーのへそ
+    level: 1
+    align: FIRE
+    hpStart: 540000000
+    hp: 540000000
+    mpStart: 0
+    maxMp: 1000
+    attack: 7000
+    defence: 9600
+    speed: 0
+    discType1: RANGE_H
+    discType2: RANGE_V
+    discType3: RANGE_V
+    magiaId: 905701
+    formationId: 105
+    blast: 0
+    charge: 0
+    mpup: 0
+    rateGainMpAtk: 0
+    rateGainMpDef: 0
+    leader: false
+    ai: 0
+    enemyKindType: EMOTION
+    enemySizeType: BIG
+    genericValue: RUBY
+    memoriaList:
+    - 8352
+    - 8354
+    - 8273
+    - 8353
+memoria:
+- memoriaId: 8273
+  name: MP自動回復
+  icon: 1180
+  level: 0
+  cost: 0
+  description: クエスト開始時にMP自動回復
+  voice: 0
+  artList:
+  - 9390
+  type: STARTUP
+  displayType: MEMORIA
+- memoriaId: 8352
+  name: 攻撃力UP ＆ 状態異常時ダメージUP
+  icon: 1091
+  level: 0
+  cost: 1
+  description: 攻撃力UP ＆ 状態異常時ダメージUP
+  voice: 70
+  artList:
+  - 1097014
+  - 1097012
+  type: SKILL
+  displayType: MEMORIA
+- memoriaId: 8353
+  name: 魅了 ＆ スタン ＆ 拘束 ＆ マギア不可無効 ＆ 状態異常耐性
+  icon: 1091
+  level: 0
+  cost: 0
+  description: 魅了 ＆ スタン ＆ 拘束 ＆ マギア不可無効 ＆ 状態異常耐性
+  voice: 0
+  artList:
+  - 690208300
+  - 690208400
+  - 690208500
+  - 690209300
+  - 1027001
+  type: ABILITY
+  displayType: MEMORIA
+- memoriaId: 8354
+  name: MP自動回復 ＆ マギアダメージUP
+  icon: 1091
+  level: 0
+  cost: 4
+  description: MP自動回復 ＆ マギアダメージUP
+  voice: 70
+  artList:
+  - 9390
+  - 310201405
+  type: SKILL
+  displayType: MEMORIA
+art:
+- artId: 9390
+  code: CONDITION_GOOD
+  target: SELF
+  sub: AUTO_HEAL
+  effect: 99994
+  turn: 1
+  rate: 1000
+  growPoint: 10
+  genericValue: MP
+- artId: 1027001
+  code: BUFF
+  target: SELF
+  sub: RESIST
+  effect: 300
+  growPoint: 25
+- artId: 1097012
+  code: CONDITION_GOOD
+  target: SELF
+  sub: DAMAGE_UP_BAD
+  effect: 100
+  turn: 4
+  rate: 1000
+  growPoint: 25
+- artId: 1097014
+  code: BUFF
+  target: SELF
+  sub: ATTACK
+  effect: 100
+  turn: 4
+  growPoint: 25
+- artId: 310201405
+  code: BUFF
+  target: SELF
+  sub: MAGIA
+  effect: 150
+  turn: 1
+  growPoint: 25
+- artId: 690208300
+  code: IGNORE
+  target: SELF
+  sub: CHARM
+  rate: 1000
+  growPoint: 0
+- artId: 690208400
+  code: IGNORE
+  target: SELF
+  sub: STUN
+  rate: 1000
+  growPoint: 0
+- artId: 690208500
+  code: IGNORE
+  target: SELF
+  sub: RESTRAINT
+  rate: 1000
+  growPoint: 0
+- artId: 690209300
+  code: IGNORE
+  target: SELF
+  sub: BAN_MAGIA
+  rate: 1000
+  growPoint: 0
+...
