@@ -1,0 +1,84 @@
+---
+pieceId: 1759
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: ショータイムなんよ！
+attributeId: ALL
+rank: RANK_3
+attack: 673
+defense: 0
+hp: 553
+skillId: 175900
+pieceSkill:
+  id: 175900
+  groupId: 1085
+  name: クライシスアタック[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 瀕死時攻撃力UP[Ⅰ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390202901
+  art2:
+    artId: 390202901
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 20
+    probability: 1000
+  eventId: 1164
+  eventArtId1: 1164001
+  eventArt1:
+    artId: 1164001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1164_EXCHANGE_1
+  eventDescription: ＆「思い出メッセージ」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 175901
+pieceSkill2:
+  id: 175901
+  groupId: 1085
+  name: クライシスアタック[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 瀕死時攻撃力UP[Ⅰ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390202901
+  art2:
+    artId: 390202901
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 20
+    probability: 1000
+  eventId: 1164
+  eventArtId1: 1164002
+  eventArt1:
+    artId: 1164002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1164_EXCHANGE_1
+  eventDescription: ＆「思い出メッセージ」追加獲得数＋5
+  skillEffectRange: ALL
+description: オーディエンスをあっと驚かせる＠最高難度のスペシャルトリック＠一瞬でハートをつかんでみせるから＠覚悟しててほしいんよ！
+illustrator: ―
+openDate: 2022/04/28 15:10:00
+...
