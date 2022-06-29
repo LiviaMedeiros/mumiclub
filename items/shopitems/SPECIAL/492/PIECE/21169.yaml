@@ -1,0 +1,121 @@
+---
+id: 21169
+shopId: 492
+shopItemType: PIECE
+genericId: "1409"
+piece:
+  pieceId: 1409
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 唯一無二の矛盾
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 763
+  hp: 843
+  skillId: 140900
+  pieceSkill:
+    id: 140900
+    groupId: 1120
+    name: シールド・フォース[Ⅳ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: ダメージカット状態[Ⅳ] & 確率でクリティカル[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 630206204
+    art1:
+      artId: 630206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 630206304
+    art2:
+      artId: 630206304
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 3
+      growPoint: 0
+      probability: 250
+    eventId: 1074
+    eventArtId1: 1074003
+    eventArt1:
+      artId: 1074003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_BRANCH_1074_PART_1
+    eventArtId2: 1074007
+    eventArt2:
+      artId: 1074007
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_BRANCH_1074_PART_2
+    eventDescription: ＆『秘められた馬』『目覚める闇』入手時＋3
+    skillEffectRange: ALL
+  skillId2: 140901
+  pieceSkill2:
+    id: 140901
+    groupId: 1120
+    name: シールド・フォース[Ⅴ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: ダメージカット状態[Ⅴ] & 確率でクリティカル[Ⅴ](自/3T)
+    messageId: 70
+    artId1: 630206205
+    art1:
+      artId: 630206205
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 630206305
+    art2:
+      artId: 630206305
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      enableTurn: 3
+      growPoint: 0
+      probability: 300
+    eventId: 1074
+    eventArtId1: 1074004
+    eventArt1:
+      artId: 1074004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_BRANCH_1074_PART_1
+    eventArtId2: 1074008
+    eventArt2:
+      artId: 1074008
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_BRANCH_1074_PART_2
+    eventDescription: ＆『秘められた馬』『目覚める闇』入手時＋7
+    skillEffectRange: ALL
+  description: 「決して破られない存在でありたい、全てを貫く存在でありたい＠幾千幾万の火が降り注ごうとも、幾重にも並ぶ堅牢な壁であっても＠精根尽き果てるまで、生きがいである人のために駆け続けたい＠だから最強の矛であり盾となる。ふたつを纏う最強の矛盾として」
+  illustrator: ―
+  openDate: 2019/10/15 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_3
+needNumber: 1
+limitedNumber: 1
+name: メモリア『唯一無二の矛盾』
+description: ダメージカット状態[Ⅴ] & 確率でクリティカル[Ⅴ](自/3T)
+sortkey: 32
+isDetailView: false
+startAt: 2022/06/27 15:10:00
+endAt: 2022/07/18 14:59:59
+...

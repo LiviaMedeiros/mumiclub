@@ -1,0 +1,101 @@
+---
+id: 21138
+shopId: 492
+shopItemType: PIECE
+genericId: "1756"
+piece:
+  pieceId: 1756
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 憧れに背伸びして
+  attributeId: ALL
+  rank: RANK_4
+  attack: 858
+  defense: 0
+  hp: 898
+  skillId: 175600
+  pieceSkill:
+    id: 175600
+    groupId: 1151
+    name: フォッグ・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率で霧(3T)を付与[Ⅱ] & 攻撃力UP[Ⅳ]
+    artId1: 690210602
+    art1:
+      artId: 690210602
+      verbCode: ENCHANT
+      effectCode: FOG
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 0
+      probability: 150
+    artId2: 390201104
+    art2:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    eventId: 1164
+    eventArtId1: 1164003
+    eventArt1:
+      artId: 1164003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1164_EXCHANGE_1
+    eventDescription: ＆「思い出メッセージ」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 175601
+  pieceSkill2:
+    id: 175601
+    groupId: 1151
+    name: フォッグ・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率で霧(3T)を付与[Ⅲ] & 攻撃力UP[Ⅴ]
+    artId1: 690210603
+    art1:
+      artId: 690210603
+      verbCode: ENCHANT
+      effectCode: FOG
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 0
+      probability: 200
+    artId2: 390201105
+    art2:
+      artId: 390201105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    eventId: 1164
+    eventArtId1: 1164004
+    eventArt1:
+      artId: 1164004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1164_EXCHANGE_1
+    eventDescription: ＆「思い出メッセージ」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 初めて会ったときから憧れで＠いつだって頼りになる３人の先輩たち＠だけど憧れるだけではいたくないから＠近づけるように、もっともっと成長しなくちゃ
+  illustrator: ―
+  openDate: 2022/04/28 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_3
+needNumber: 1
+limitedNumber: 1
+name: メモリア『憧れに背伸びして』
+description: 攻撃時に確率で霧(3T)を付与[Ⅲ] & 攻撃力UP[Ⅴ]
+sortkey: 1
+isDetailView: false
+startAt: 2022/06/27 15:10:00
+endAt: 2022/07/18 14:59:59
+...

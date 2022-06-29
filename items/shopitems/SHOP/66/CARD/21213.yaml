@@ -1,0 +1,208 @@
+---
+id: 21213
+shopId: 66
+shopItemType: CARD
+genericId: "10364"
+cardNum: 1
+card:
+  cardId: 10364
+  rank: RANK_4
+  attributeId: WATER
+  initialType: BALANCE
+  growthType: BALANCE
+  attack: 2001
+  defense: 2024
+  hp: 6240
+  miniCharaNo: 103600
+  charaNo: 1036
+  cardName: 有愛 うらら
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10364
+    groupId: 1022
+    name: ミラクルトリック・ストライク！
+    shortDescription: ランダム5回　ダメージ[Ⅴ] & 必ず挑発 & 被ダメージ時MPUP & ダメージカット状態(自/1T)
+    artId1: 101200105
+    art1:
+      artId: 101200105
+      verbCode: ATTACK
+      targetId: RANDOM5
+      effectValue: 2244
+      growPoint: 80
+    artId2: 610207600
+    art2:
+      artId: 610207600
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 610220502
+    art3:
+      artId: 610220502
+      verbCode: CONDITION_GOOD
+      effectCode: MP_PLUS_DAMAGED
+      targetId: SELF
+      effectValue: 20
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId4: 610206204
+    art4:
+      artId: 610206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+  cardSkill:
+    id: 10364
+    groupId: 1085
+    name: ウチだって役に立てるんよ！
+    shortDescription: 攻撃力UP[Ⅶ] & 防御力UP[Ⅶ] & 必ず霧
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401207
+    art2:
+      artId: 310401207
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 900
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610410700
+    art3:
+      artId: 610410700
+      verbCode: ENCHANT
+      effectCode: FOG
+      targetId: CONNECT
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1036
+  attributeId: WATER
+  initialType: BALANCE
+  defaultCardId: 10364
+  defaultCard:
+    cardId: 10364
+    rank: RANK_4
+    attributeId: WATER
+    initialType: BALANCE
+    growthType: BALANCE
+    attack: 2001
+    defense: 2024
+    hp: 6240
+    miniCharaNo: 103600
+    charaNo: 1036
+    cardName: 有愛 うらら
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10364
+      groupId: 1022
+      name: ミラクルトリック・ストライク！
+      shortDescription: ランダム5回　ダメージ[Ⅴ] & 必ず挑発 & 被ダメージ時MPUP & ダメージカット状態(自/1T)
+      artId1: 101200105
+      art1:
+        artId: 101200105
+        verbCode: ATTACK
+        targetId: RANDOM5
+        effectValue: 2244
+        growPoint: 80
+      artId2: 610207600
+      art2:
+        artId: 610207600
+        verbCode: CONDITION_GOOD
+        effectCode: PROVOKE
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610220502
+      art3:
+        artId: 610220502
+        verbCode: CONDITION_GOOD
+        effectCode: MP_PLUS_DAMAGED
+        targetId: SELF
+        effectValue: 20
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId4: 610206204
+      art4:
+        artId: 610206204
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: SELF
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+    cardSkill:
+      id: 10364
+      groupId: 1085
+      name: ウチだって役に立てるんよ！
+      shortDescription: 攻撃力UP[Ⅶ] & 防御力UP[Ⅶ] & 必ず霧
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401207
+      art2:
+        artId: 310401207
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 900
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610410700
+      art3:
+        artId: 610410700
+        verbCode: ENCHANT
+        effectCode: FOG
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ゆめ うらら
+  description: プロミストブラッドに身を寄せている、前向きで頑張り屋の魔法少女。周囲の役に立ちたいと頑張るほどドジしてしまうのが悩みだが、その一生懸命な姿勢は周囲から好かれている。大道芸の素質に恵まれ、地元ではプロとして活動していた。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 有愛うらら
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 158
+isDetailView: false
+startAt: 2022/06/27 15:10:00
+...

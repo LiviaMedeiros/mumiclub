@@ -1,0 +1,78 @@
+---
+id: 21201
+shopId: 492
+shopItemType: PIECE
+genericId: "1130"
+piece:
+  pieceId: 1130
+  pieceType: ABILITY
+  pieceName: マイバイブル
+  attributeId: ALL
+  rank: RANK_4
+  attack: 721
+  defense: 0
+  hp: 881
+  skillId: 113000
+  pieceSkill:
+    id: 113000
+    groupId: 1119
+    name: ブレッシング・アデプト
+    type: ABILITY
+    shortDescription: ダメージアップ状態[Ⅳ] & 必ず呪い無効
+    artId1: 690206104
+    art1:
+      artId: 690206104
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 690208800
+    art2:
+      artId: 690208800
+      verbCode: IGNORE
+      effectCode: CURSE
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 113001
+  pieceSkill2:
+    id: 113001
+    groupId: 1119
+    name: ブレッシング・アデプト
+    type: ABILITY
+    shortDescription: ダメージアップ状態[Ⅴ] & 必ず呪い無効
+    artId1: 690206105
+    art1:
+      artId: 690206105
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    artId2: 690208800
+    art2:
+      artId: 690208800
+      verbCode: IGNORE
+      effectCode: CURSE
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: 「なるほど、ここで鍵開けテクが活用できるんだ！…って違う？うそでしょ!?＠この主人公、擦れ違い様に警備員から鍵を取ってたの!?＠どういうことだろ…え、えっと、解説は巻末の152Pに記載…＠こんなテクニックが書いてあるなんて、作者は何者なの!?」
+  illustrator: ニリツ
+  openDate: 2017/10/30 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_3
+needNumber: 1
+limitedNumber: 1
+name: メモリア『マイバイブル』
+description: ダメージアップ状態[Ⅴ] & 必ず呪い無効
+sortkey: 64
+isDetailView: false
+startAt: 2022/06/27 15:10:00
+endAt: 2022/07/18 14:59:59
+...

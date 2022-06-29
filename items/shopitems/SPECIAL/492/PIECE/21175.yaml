@@ -1,0 +1,99 @@
+---
+id: 21175
+shopId: 492
+shopItemType: PIECE
+genericId: "1345"
+piece:
+  pieceId: 1345
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 背中を合わせて
+  attributeId: ALL
+  rank: RANK_4
+  attack: 806
+  defense: 0
+  hp: 808
+  skillId: 134500
+  pieceSkill:
+    id: 134500
+    groupId: 1149
+    name: インビジブル・バーンエッジ[Ⅴ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率でやけど(2T)を付与[Ⅴ] & 確率で回避無効[Ⅹ]
+    artId1: 690210205
+    art1:
+      artId: 690210205
+      verbCode: ENCHANT
+      effectCode: BURN
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 2
+      growPoint: 0
+      probability: 300
+    artId2: 690216210
+    art2:
+      artId: 690216210
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: SELF
+      growPoint: 0
+      probability: 700
+    eventId: 1060
+    eventArtId1: 1060003
+    eventArt1:
+      artId: 1060003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_BRANCH_1060_PART_1
+    eventDescription: ＆リース入手時＋3
+    skillEffectRange: ALL
+  skillId2: 134501
+  pieceSkill2:
+    id: 134501
+    groupId: 1149
+    name: インビジブル・バーンエッジ[Ⅵ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率でやけど(2T)を付与[Ⅵ] & 必ず回避無効
+    artId1: 690210206
+    art1:
+      artId: 690210206
+      verbCode: ENCHANT
+      effectCode: BURN
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 2
+      growPoint: 0
+      probability: 350
+    artId2: 690208100
+    art2:
+      artId: 690208100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    eventId: 1060
+    eventArtId1: 1060004
+    eventArt1:
+      artId: 1060004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_BRANCH_1060_PART_1
+    eventDescription: ＆リース入手時＋7
+    skillEffectRange: ALL
+  description: 目の前の苦難に対し、彼女たちはお互いを向かない＠目の前の苦難に向き合ってお互いの背中を預ける＠もし、不安で心が揺れたら誰かがそれを止める＠そして、新たに心を奮い立たせて再び前を向く
+  illustrator: ゆーげん
+  openDate: 2019/05/24 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_3
+needNumber: 1
+limitedNumber: 1
+name: メモリア『背中を合わせて』
+description: 攻撃時に確率でやけど(2T)を付与[Ⅵ] & 必ず回避無効
+sortkey: 38
+isDetailView: false
+startAt: 2022/06/27 15:10:00
+endAt: 2022/07/18 14:59:59
+...
