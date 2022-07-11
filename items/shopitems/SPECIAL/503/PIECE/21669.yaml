@@ -1,0 +1,61 @@
+---
+id: 21669
+shopId: 503
+shopItemType: PIECE
+genericId: "1072"
+piece:
+  pieceId: 1072
+  pieceType: ABILITY
+  pieceName: 勝利の紅茶
+  attributeId: ALL
+  rank: RANK_4
+  attack: 800
+  defense: 0
+  hp: 800
+  skillId: 107200
+  pieceSkill:
+    id: 107200
+    groupId: 1132
+    name: リベンジ・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: 弱点属性で攻撃されたときMPUP[Ⅳ]
+    artId1: 690207904
+    art1:
+      artId: 690207904
+      verbCode: CONDITION_GOOD
+      effectCode: MP_PLUS_WEAKED
+      targetId: SELF
+      effectValue: 50
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 107201
+  pieceSkill2:
+    id: 107201
+    groupId: 1132
+    name: リベンジ・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: 弱点属性で攻撃されたときMPUP[Ⅴ]
+    artId1: 690207905
+    art1:
+      artId: 690207905
+      verbCode: CONDITION_GOOD
+      effectCode: MP_PLUS_WEAKED
+      targetId: SELF
+      effectValue: 60
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: ふわっと広がる紅茶の香りが、彼女の体を癒してくれる。＠魔女を倒した後の一杯の味わいは特別。＠さっきまでの慌ただしかった戦いが嘘のように、＠ゆっくりとした時間の流れを戻してくれる。
+  illustrator: ファルまろ
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_4
+needNumber: 1
+limitedNumber: 1
+name: メモリア『勝利の紅茶』
+description: 弱点属性で攻撃されたときMPUP[Ⅴ]
+sortkey: 70
+isDetailView: false
+startAt: 2022/07/11 15:10:00
+endAt: 2022/07/29 14:59:59
+...

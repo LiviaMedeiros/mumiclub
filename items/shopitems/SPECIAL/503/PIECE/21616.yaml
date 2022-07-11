@@ -1,0 +1,80 @@
+---
+id: 21616
+shopId: 503
+shopItemType: PIECE
+genericId: "1515"
+piece:
+  pieceId: 1515
+  pieceType: ABILITY
+  pieceName: 休憩はおいしく
+  attributeId: ALL
+  rank: RANK_4
+  attack: 748
+  defense: 0
+  hp: 908
+  skillId: 151500
+  pieceSkill:
+    id: 151500
+    groupId: 1086
+    name: フルゲージ・シールド[Ⅶ]
+    type: ABILITY
+    shortDescription: HP最大時防御力UP[Ⅶ] & ダメージカット状態[Ⅲ]
+    artId1: 390203207
+    art1:
+      artId: 390203207
+      verbCode: BUFF_HPMAX
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 700
+      growPoint: 20
+      probability: 1000
+    artId2: 690206203
+    art2:
+      artId: 690206203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 151501
+  pieceSkill2:
+    id: 151501
+    groupId: 1086
+    name: フルゲージ・シールド[Ⅸ]
+    type: ABILITY
+    shortDescription: HP最大時防御力UP[Ⅸ] & ダメージカット状態[Ⅳ]
+    artId1: 390203209
+    art1:
+      artId: 390203209
+      verbCode: BUFF_HPMAX
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 900
+      growPoint: 20
+      probability: 1000
+    artId2: 690206204
+    art2:
+      artId: 690206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  description: 「お客さんもおらんし、ここはみんなそろって休憩にしよか」＠「では、お茶を煎れますね。お茶菓子も用意しましたので」＠「ふむー！ふっむーふむんむ！」＠「食べ過ぎたらあかんで月出里。ご飯食べれんくなるからな」
+  illustrator: ―
+  openDate: 2020/07/06 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_4
+needNumber: 1
+limitedNumber: 1
+name: メモリア『休憩はおいしく』
+description: HP最大時防御力UP[Ⅸ] & ダメージカット状態[Ⅳ]
+sortkey: 17
+isDetailView: false
+startAt: 2022/07/11 15:10:00
+endAt: 2022/07/29 14:59:59
+...

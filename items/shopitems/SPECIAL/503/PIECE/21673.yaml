@@ -1,0 +1,127 @@
+---
+id: 21673
+shopId: 503
+shopItemType: PIECE
+genericId: "1068"
+piece:
+  pieceId: 1068
+  pieceType: SKILL
+  pieceName: 過去と未来
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 760
+  hp: 840
+  skillId: 106810
+  pieceSkill:
+    id: 106810
+    groupId: 1119
+    name: エンハンス・アーマメント[Ⅴ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: ダメージアップ状態[Ⅴ] & ダメージカット状態[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 630206105
+    art1:
+      artId: 630206105
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 630206204
+    art2:
+      artId: 630206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2011
+    regularEventArtId1: 350201203
+    regularEventArt1:
+      artId: 350201203
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 225
+      enableTurn: 5
+      growPoint: 25
+    regularEventArtId2: 630207400
+    regularEventArt2:
+      artId: 630207400
+      verbCode: CONDITION_GOOD
+      effectCode: GUTS
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で防御力UP[Ⅲ](自/5T) & 耐える(自/3T)】
+    skillEffectRange: ALL
+  skillId2: 106811
+  pieceSkill2:
+    id: 106811
+    groupId: 1119
+    name: エンハンス・アーマメント[Ⅵ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: ダメージアップ状態[Ⅵ] & ダメージカット状態[Ⅴ](自/3T)
+    messageId: 70
+    artId1: 630206106
+    art1:
+      artId: 630206106
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 630206205
+    art2:
+      artId: 630206205
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2011
+    regularEventArtId1: 350201205
+    regularEventArt1:
+      artId: 350201205
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 375
+      enableTurn: 5
+      growPoint: 25
+    regularEventArtId2: 630207400
+    regularEventArt2:
+      artId: 630207400
+      verbCode: CONDITION_GOOD
+      effectCode: GUTS
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で防御力UP[Ⅴ](自/5T) & 耐える(自/3T)】
+    skillEffectRange: ALL
+  description: 「長きに渡る魔法少女としての戦いの日々。＠数多見てきた悲しい光景…数多味わってきた辛い経験…。＠それでも、私は生きることを決して諦めはしない。＠過去を無意味なものにしないためにも…」
+  illustrator: 谷口淳一郎
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_4
+needNumber: 1
+limitedNumber: 1
+name: メモリア『過去と未来』
+description: ダメージアップ状態[Ⅴ] & ダメージカット状態[Ⅳ](自/3T)
+sortkey: 74
+isDetailView: false
+startAt: 2022/07/11 15:10:00
+endAt: 2022/07/29 14:59:59
+...

@@ -1,0 +1,103 @@
+---
+id: 21617
+shopId: 503
+shopItemType: PIECE
+genericId: "1501"
+piece:
+  pieceId: 1501
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 別世界の住人
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 754
+  hp: 914
+  skillId: 150100
+  pieceSkill:
+    id: 150100
+    groupId: 1103
+    name: アルーア[Ⅴ]
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: 確率で魅了[Ⅴ] & 攻撃力DOWN[Ⅴ](敵全/1T)
+    messageId: 72
+    artId1: 510303905
+    art1:
+      artId: 510303905
+      verbCode: CONDITION_BAD
+      effectCode: CHARM
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 400
+    artId2: 410302005
+    art2:
+      artId: 410302005
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1100
+    eventArtId1: 1100003
+    eventArt1:
+      artId: 1100003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1100_KEY
+    eventDescription: ＆「乙女の秘密」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 150101
+  pieceSkill2:
+    id: 150101
+    groupId: 1103
+    name: アルーア[Ⅵ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 確率で魅了[Ⅵ] & 攻撃力DOWN[Ⅵ](敵全/1T)
+    messageId: 72
+    artId1: 510303906
+    art1:
+      artId: 510303906
+      verbCode: CONDITION_BAD
+      effectCode: CHARM
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 425
+    artId2: 410302006
+    art2:
+      artId: 410302006
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1100
+    eventArtId1: 1100004
+    eventArt1:
+      artId: 1100004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1100_KEY
+    eventDescription: ＆「乙女の秘密」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「あ…！香春さんが登校されますわ！」＠「今日も気品があって、優雅でオーラがあるわねぇ～」＠「専任の運転手に執事に、荷物持ちのメイド…住む世界が違うなぁ…」＠「うちの学校でも、香春さんは桁違いのお嬢様だよね。あー羨ましい！」
+  illustrator: 柴乃櫂人
+  openDate: 2020/05/29 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_4
+needNumber: 1
+limitedNumber: 1
+name: メモリア『別世界の住人』
+description: 確率で魅了[Ⅵ] & 攻撃力DOWN[Ⅵ](敵全/1T)
+sortkey: 18
+isDetailView: false
+startAt: 2022/07/11 15:10:00
+endAt: 2022/07/29 14:59:59
+...

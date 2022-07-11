@@ -1,0 +1,97 @@
+---
+id: 21612
+shopId: 503
+shopItemType: PIECE
+genericId: "1545"
+piece:
+  pieceId: 1545
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 無敵の駄菓子大将
+  attributeId: ALL
+  rank: RANK_4
+  attack: 763
+  defense: 0
+  hp: 923
+  skillId: 154500
+  pieceSkill:
+    id: 154500
+    groupId: 1088
+    name: イグノア・シールマギア[Ⅵ]
+    type: ABILITY
+    shortDescription: マギアダメージUP[Ⅵ] & 確率でマギア不可無効
+    artId1: 390201406
+    art1:
+      artId: 390201406
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 175
+      growPoint: 25
+      probability: 1000
+    artId2: 690209309
+    art2:
+      artId: 690209309
+      verbCode: IGNORE
+      effectCode: BAN_MAGIA
+      targetId: SELF
+      growPoint: 0
+      probability: 650
+    eventId: 1111
+    eventArtId1: 1111003
+    eventArt1:
+      artId: 1111003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1111_KEY
+    eventDescription: ＆「いたずら駄菓子」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 154501
+  pieceSkill2:
+    id: 154501
+    groupId: 1088
+    name: イグノア・シールマギア[Ⅶ]
+    type: ABILITY
+    shortDescription: マギアダメージUP[Ⅶ] & 必ずマギア不可無効
+    artId1: 390201407
+    art1:
+      artId: 390201407
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 690209300
+    art2:
+      artId: 690209300
+      verbCode: IGNORE
+      effectCode: BAN_MAGIA
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    eventId: 1111
+    eventArtId1: 1111004
+    eventArt1:
+      artId: 1111004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1111_KEY
+    eventDescription: ＆「いたずら駄菓子」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「ほら、フワフワバーに、ミニミニヨーグルト！＠それからこっちは、ホシイカ星人のくじ付きイカだ！」＠時は移ろい、メンツは変われど…＠子どもたちはいつでも餌付けに弱い
+  illustrator: ヤスダスズヒト
+  openDate: 2020/09/28 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_4
+needNumber: 1
+limitedNumber: 1
+name: メモリア『無敵の駄菓子大将』
+description: マギアダメージUP[Ⅶ] & 必ずマギア不可無効
+sortkey: 13
+isDetailView: false
+startAt: 2022/07/11 15:10:00
+endAt: 2022/07/29 14:59:59
+...

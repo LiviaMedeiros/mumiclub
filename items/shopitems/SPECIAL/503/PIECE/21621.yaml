@@ -1,0 +1,84 @@
+---
+id: 21621
+shopId: 503
+shopItemType: PIECE
+genericId: "1486"
+piece:
+  pieceId: 1486
+  pieceType: SKILL
+  pieceName: 見上げればアオ
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 886
+  hp: 806
+  skillId: 148600
+  pieceSkill:
+    id: 148600
+    groupId: 1088
+    name: ウィズダムアップ[Ⅴ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: マギアダメージUP[Ⅴ] & 確率でスキルクイック[Ⅴ](自/1T)
+    messageId: 70
+    artId1: 310201405
+    art1:
+      artId: 310201405
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 25
+    artId2: 9377
+    art2:
+      artId: 9377
+      verbCode: CONDITION_GOOD
+      effectCode: SKILL_QUICK
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 400
+    skillEffectRange: ALL
+  skillId2: 148601
+  pieceSkill2:
+    id: 148601
+    groupId: 1088
+    name: ウィズダムアップ[Ⅷ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: マギアダメージUP[Ⅷ] & スキルクイック(自/1T)
+    messageId: 70
+    artId1: 310201408
+    art1:
+      artId: 310201408
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 225
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610207800
+    art2:
+      artId: 610207800
+      verbCode: CONDITION_GOOD
+      effectCode: SKILL_QUICK
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: 抜けるように晴れ渡った空の下、心は曇り空＠魔女、魔法少女、争い…考えたところで答えはない＠いつか、すべてを解決できれば、心は晴れるのかな＠仰げば見える優しい光に、身を委ねてもいいのかな
+  illustrator: ―
+  openDate: 2020/04/13 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_REGULAR_MEMORIA_TICKET_4
+needNumber: 1
+limitedNumber: 1
+name: メモリア『見上げればアオ』
+description: マギアダメージUP[Ⅷ] & スキルクイック(自/1T)
+sortkey: 22
+isDetailView: false
+startAt: 2022/07/11 15:10:00
+endAt: 2022/07/29 14:59:59
+...
