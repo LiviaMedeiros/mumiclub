@@ -1,0 +1,111 @@
+---
+id: 21934
+shopId: 512
+shopItemType: LIVE2D
+genericId: "1012_50"
+chara:
+  id: 1012
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 10124
+  defaultCard:
+    cardId: 10124
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 1724
+    defense: 1677
+    hp: 6189
+    miniCharaNo: 101200
+    charaNo: 1012
+    cardName: 御園 かりん
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10124
+      groupId: 1012
+      name: キャンディーデススコール
+      shortDescription: 敵単体にダメージ[Ⅴ] & 防御力DOWN(敵単/3T) & Accele MPUP(味全/3T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 430002106
+      art2:
+        artId: 430002106
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301606
+      art3:
+        artId: 330301606
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 225
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10124
+      groupId: 1085
+      name: 一夜限りのお手伝いなのっ！
+      shortDescription: 攻撃力UP[Ⅶ] & 必ず幻惑 & 確率でマギア不可
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610411405
+      art2:
+        artId: 610411405
+        verbCode: ENCHANT
+        effectCode: BAN_MAGIA
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 300
+      artId3: 610411100
+      art3:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みその かりん
+  description: 自称、ハロウィンが生んだ魔法少女。＠夢見がちで都合良く解釈しようとする性格と、漫画の読み描きという趣味が相まって、魔法少女としての設定を作ってしまった。＠“怪盗少女マジカルきりん”というお気に入りの漫画に影響されている。
+live2d:
+  charaId: 1012
+  live2dId: "50"
+  description: 水着(2019)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: MISSION_176_EXCHANGE
+needNumber: 1
+limitedNumber: 1
+name: 御園 かりんの衣装【水着】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：有】
+sortkey: 17
+isDetailView: false
+startAt: 2022/07/29 15:10:00
+endAt: 2022/08/29 14:59:59
+...

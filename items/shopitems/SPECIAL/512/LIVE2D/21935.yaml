@@ -1,0 +1,111 @@
+---
+id: 21935
+shopId: 512
+shopItemType: LIVE2D
+genericId: "1015_50"
+chara:
+  id: 1015
+  attributeId: DARK
+  initialType: BALANCE
+  defaultCardId: 10154
+  defaultCard:
+    cardId: 10154
+    rank: RANK_4
+    attributeId: DARK
+    initialType: BALANCE
+    growthType: DEFHP
+    attack: 1883
+    defense: 1930
+    hp: 5973
+    miniCharaNo: 101500
+    charaNo: 1015
+    cardName: 環 うい
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10154
+      groupId: 1014
+      name: ルーチェ・スペランツァー
+      shortDescription: 敵全体にダメージ[Ⅵ] & MPダメージ(敵全) & 必ず呪い(敵全/1T)
+      artId1: 100300106
+      art1:
+        artId: 100300106
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3500
+        growPoint: 100
+      artId2: 200316404
+      art2:
+        artId: 200316404
+        verbCode: HEAL
+        effectCode: MP_DAMAGE
+        targetId: ALL
+        effectValue: 300
+        growPoint: 0
+      artId3: 510305000
+      art3:
+        artId: 510305000
+        verbCode: CONDITION_BAD
+        effectCode: CURSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 10154
+      groupId: 1085
+      name: ひよっこでもいいですか!?
+      shortDescription: 攻撃力UP[Ⅶ] & 必ずダメージカット無視 & 確率で呪い
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610416515
+      art2:
+        artId: 610416515
+        verbCode: IGNORE
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 9400
+      art3:
+        artId: 9400
+        verbCode: ENCHANT
+        effectCode: CURSE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 0
+        probability: 650
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: たまき うい
+  description: 幸せのために何ができるのか迷い続ける魔法少女。外を知らずに育ち、魔法少女としても初心者なので、周りに負けないように努力を続けている。相手の良い面を見つけるのが上手で、人を嫌いになることがない。灯花＆ねむの幼馴染でいろはの妹。
+live2d:
+  charaId: 1015
+  live2dId: "50"
+  description: 水着(2019)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: MISSION_176_EXCHANGE
+needNumber: 1
+limitedNumber: 1
+name: 環 ういの衣装【水着】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：有】
+sortkey: 18
+isDetailView: false
+startAt: 2022/07/29 15:10:00
+endAt: 2022/08/29 14:59:59
+...
