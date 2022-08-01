@@ -1,0 +1,729 @@
+{
+    "npcHelpId": 312,
+    "userCardList": [
+        {
+            "cardId": 30115,
+            "displayCardId": 30115,
+            "revision": 3,
+            "attack": 6609,
+            "defense": 7949,
+            "hp": 21291,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30115,
+                "charaNo": 3011,
+                "miniCharaNo": 301101,
+                "magiaCharaNo": 301100,
+                "cardName": "夏目 かこ",
+                "rank": "RANK_5",
+                "attributeId": "TIMBER",
+                "initialType": "HEAL",
+                "growthType": "ATTACK",
+                "attack": 1616,
+                "defense": 2033,
+                "hp": 5404,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 30115,
+                "cardMagia": {
+                    "id": 30115,
+                    "groupId": 1012,
+                    "name": "煌道のページ",
+                    "shortDescription": "敵単体にダメージ[Ⅵ] & HP自動回復(味全/3T) & 状態異常解除(味全)",
+                    "artId1": 100000106,
+                    "art1": {
+                        "artId": 100000106,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11200,
+                        "growPoint": 100
+                    },
+                    "artId2": 630307710,
+                    "art2": {
+                        "artId": 630307710,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 110,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId3": 200301000,
+                    "art3": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 30118,
+                "doppelCardMagia": {
+                    "id": 30118,
+                    "groupId": 1012,
+                    "name": "勇み足のドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅷ] & バフ解除(敵単) & HP自動回復(味全/3T) & 状態異常解除(味全)",
+                    "artId1": 190301181,
+                    "art1": {
+                        "artId": 190301181,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 26048,
+                        "growPoint": 220
+                    },
+                    "artId2": 200000700,
+                    "art2": {
+                        "artId": 200000700,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BUFF",
+                        "targetId": "TARGET",
+                        "growPoint": 0
+                    },
+                    "artId3": 630307711,
+                    "art3": {
+                        "artId": 630307711,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 120,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId4": 200301000,
+                    "art4": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelCharaNo": 301100,
+                "doppel": {
+                    "id": 301100,
+                    "name": "勇み足のドッペル",
+                    "title": "その姿は、裁断",
+                    "description": "この感情の主は躊躇なく刃物を振り回し大事な本までことごとく切り刻んでしまう自分のドッペルを怖がっているが、内心言い表せない開放感があることも事実である。＠出現したドッペルは何事にも物怖じしてしまう主と違い、考えるより先にギロチン刃で切りきざみ、相手の肉体のみならず、あらゆる魔法の繋がりを寸断してしまう。＠物理的に近距離しか攻撃ができず、間違って仲間に斬りかかることもあるので隙が生じることも間々あるが、このドッペルは感情の主にはコントロールができないので、ただ怯えて固まることしかできない。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2019/08/29 15:10:00"
+                },
+                "skillId": 30115,
+                "cardSkill": {
+                    "id": 30115,
+                    "groupId": 1078,
+                    "name": "次のページへ進みましょう！",
+                    "shortDescription": "HP回復[Ⅷ](状態異常解除後) & 状態異常解除",
+                    "artId1": 200401000,
+                    "art1": {
+                        "artId": 200401000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "CONNECT",
+                        "growPoint": 0
+                    },
+                    "artId2": 200400408,
+                    "art2": {
+                        "artId": 200400408,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 475,
+                        "growPoint": 20
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_V",
+                "commandType4": "RANGE_H",
+                "commandType5": "CHARGE",
+                "illustrator": "茨乃",
+                "cardCustomize": {
+                    "cardId": 30115,
+                    "giftId1": 132,
+                    "gift1": {
+                        "id": 132,
+                        "type": 1,
+                        "name": "フォレストオーブ＋",
+                        "attributeId": "TIMBER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 133,
+                    "gift3": {
+                        "id": 133,
+                        "type": 1,
+                        "name": "フォレストオーブ＋＋",
+                        "attributeId": "TIMBER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 556,
+                    "gift4": {
+                        "id": 556,
+                        "type": 2,
+                        "name": "子守の取っ手",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/07 16:00:00"
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 557,
+                    "gift5": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 408,
+                    "gift6": {
+                        "id": 408,
+                        "type": 2,
+                        "name": "クマの襟巻",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000,
+                        "openDate": "2018/09/03 15:10:00"
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                },
+                "openDate": "2019/08/29 15:10:00"
+            },
+            "npcHelpId": 312,
+            "npcPieceId1": 1093,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3011,
+            "chara": {
+                "id": 3011,
+                "name": "夏目 かこ",
+                "kana": "なつめ かこ",
+                "attributeId": "TIMBER",
+                "attackType": 3,
+                "initialType": "HEAL",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 30112,
+                "defaultCard": {
+                    "cardId": 30112,
+                    "rank": "RANK_2",
+                    "attributeId": "TIMBER",
+                    "initialType": "HEAL",
+                    "growthType": "ATTACK",
+                    "attack": 977,
+                    "defense": 1229,
+                    "hp": 3267,
+                    "miniCharaNo": 301100,
+                    "charaNo": 3011,
+                    "cardName": "夏目 かこ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30112,
+                        "groupId": 1012,
+                        "name": "煌道のページ",
+                        "shortDescription": "敵単体にダメージ[Ⅰ] & HP自動回復(味全/3T)",
+                        "artId1": 100000101,
+                        "art1": {
+                            "artId": 100000101,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 9600,
+                            "growPoint": 100
+                        },
+                        "artId2": 630307705,
+                        "art2": {
+                            "artId": 630307705,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 60,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30112,
+                        "groupId": 1078,
+                        "name": "次のページへ進みましょう！",
+                        "shortDescription": "HP回復[Ⅲ] & 状態異常解除",
+                        "artId1": 200400403,
+                        "art1": {
+                            "artId": 200400403,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "growPoint": 20
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30113,
+                "evolutionCard1": {
+                    "cardId": 30113,
+                    "rank": "RANK_3",
+                    "attributeId": "TIMBER",
+                    "initialType": "HEAL",
+                    "growthType": "ATTACK",
+                    "attack": 1165,
+                    "defense": 1465,
+                    "hp": 3896,
+                    "miniCharaNo": 301100,
+                    "charaNo": 3011,
+                    "cardName": "夏目 かこ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30113,
+                        "groupId": 1012,
+                        "name": "煌道のページ",
+                        "shortDescription": "敵単体にダメージ[Ⅱ] & HP自動回復(味全/3T)",
+                        "artId1": 100000102,
+                        "art1": {
+                            "artId": 100000102,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 9920,
+                            "growPoint": 100
+                        },
+                        "artId2": 630307707,
+                        "art2": {
+                            "artId": 630307707,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 80,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30113,
+                        "groupId": 1078,
+                        "name": "次のページへ進みましょう！",
+                        "shortDescription": "HP回復[Ⅴ] & 状態異常解除",
+                        "artId1": 200400405,
+                        "art1": {
+                            "artId": 200400405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "growPoint": 20
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 30114,
+                "evolutionCard2": {
+                    "cardId": 30114,
+                    "rank": "RANK_4",
+                    "attributeId": "TIMBER",
+                    "initialType": "HEAL",
+                    "growthType": "ATTACK",
+                    "attack": 1448,
+                    "defense": 1821,
+                    "hp": 4842,
+                    "miniCharaNo": 301100,
+                    "charaNo": 3011,
+                    "cardName": "夏目 かこ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30114,
+                        "groupId": 1012,
+                        "name": "煌道のページ",
+                        "shortDescription": "敵単体にダメージ[Ⅳ] & HP自動回復(味全/3T) & 状態異常解除(味全)",
+                        "artId1": 100000104,
+                        "art1": {
+                            "artId": 100000104,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10560,
+                            "growPoint": 100
+                        },
+                        "artId2": 630307709,
+                        "art2": {
+                            "artId": 630307709,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId3": 200301000,
+                        "art3": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30114,
+                        "groupId": 1078,
+                        "name": "次のページへ進みましょう！",
+                        "shortDescription": "HP回復[Ⅶ] & 状態異常解除",
+                        "artId1": 200400407,
+                        "art1": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId3": 30115,
+                "evolutionCard3": {
+                    "cardId": 30115,
+                    "rank": "RANK_5",
+                    "attributeId": "TIMBER",
+                    "initialType": "HEAL",
+                    "growthType": "ATTACK",
+                    "attack": 1616,
+                    "defense": 2033,
+                    "hp": 5404,
+                    "miniCharaNo": 301101,
+                    "charaNo": 3011,
+                    "cardName": "夏目 かこ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_V",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30115,
+                        "groupId": 1012,
+                        "name": "煌道のページ",
+                        "shortDescription": "敵単体にダメージ[Ⅵ] & HP自動回復(味全/3T) & 状態異常解除(味全)",
+                        "artId1": 100000106,
+                        "art1": {
+                            "artId": 100000106,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11200,
+                            "growPoint": 100
+                        },
+                        "artId2": 630307710,
+                        "art2": {
+                            "artId": 630307710,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 110,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId3": 200301000,
+                        "art3": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30115,
+                        "groupId": 1078,
+                        "name": "次のページへ進みましょう！",
+                        "shortDescription": "HP回復[Ⅷ](状態異常解除後) & 状態異常解除",
+                        "artId1": 200401000,
+                        "art1": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        },
+                        "artId2": 200400408,
+                        "art2": {
+                            "artId": 200400408,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 475,
+                            "growPoint": 20
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "とにかく本が大好きな魔法少女。＠神浜市の古書店「夏目書房」の一人娘で、母親は国語の教師。＠日々読書という生活を送っている。＠心優しく、普段は自分を押し出したりはしないが、ここぞという時は＠しっかり主張できる芯の強さも持ち合わせている。",
+                "school": "神浜市立大附属学校",
+                "designer": "茨乃",
+                "voiceActor": "鈴木絵理",
+                "enhancementGroupId": 61
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "004812f0-7d9a-4ae9-b14f-958372b9cea5",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 301101,
+            "npcHelpId": 312,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1093,
+            "piece": {
+                "pieceId": 1093,
+                "pieceType": "SKILL",
+                "pieceName": "本の住人",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3011",
+                "charaList": [
+                    {
+                        "charaId": 3011,
+                        "name": "夏目 かこ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 424,
+                "hp": 504,
+                "skillId": 109300,
+                "pieceSkill": {
+                    "id": 109300,
+                    "groupId": 1166,
+                    "name": "アクセルドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "Acceleドロー",
+                    "messageId": 70,
+                    "artId1": 700211800,
+                    "art1": {
+                        "artId": 700211800,
+                        "verbCode": "DRAW",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 109301,
+                "pieceSkill2": {
+                    "id": 109301,
+                    "groupId": 1166,
+                    "name": "アクセルドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "Acceleドロー",
+                    "messageId": 70,
+                    "artId1": 700211800,
+                    "art1": {
+                        "artId": 700211800,
+                        "verbCode": "DRAW",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "“夏目書房”に住む彼女は、本が大好き。＠蔵書や図書館に赴いては、時間も忘れて読書に耽る＠本に囲まれた生活は、彼女にとっては楽園である。",
+                "illustrator": "くらは"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 636,
+            "hp": 756,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 312
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 312
+        }
+    ],
+    "isNpc": true,
+    "userName": "夏目 かこ",
+    "userRank": 100,
+    "cardId": 30115,
+    "charaName": "夏目 かこ",
+    "cardRank": "RANK_5",
+    "attributeId": "TIMBER",
+    "level": 100,
+    "displayCardId": 30115,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

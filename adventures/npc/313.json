@@ -1,0 +1,765 @@
+{
+    "npcHelpId": 313,
+    "userCardList": [
+        {
+            "cardId": 30085,
+            "displayCardId": 30085,
+            "revision": 3,
+            "attack": 8613,
+            "defense": 6678,
+            "hp": 21721,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30085,
+                "charaNo": 3008,
+                "miniCharaNo": 300801,
+                "magiaCharaNo": 300800,
+                "cardName": "志伸 あきら",
+                "rank": "RANK_5",
+                "attributeId": "WATER",
+                "initialType": "ATTACK",
+                "growthType": "ATTACK",
+                "attack": 2106,
+                "defense": 1708,
+                "hp": 5513,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 30085,
+                "cardMagia": {
+                    "id": 30085,
+                    "groupId": 1012,
+                    "name": "巨拳連弾",
+                    "shortDescription": "敵単体にダメージ[Ⅶ] & Charge後ダメージUP(味全/3T) & ダメージUP & ChargeディスクダメージUP(自/3T)",
+                    "artId1": 100000107,
+                    "art1": {
+                        "artId": 100000107,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11520,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301706,
+                    "art2": {
+                        "artId": 330301706,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "ALL",
+                        "effectValue": 225,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330201306,
+                    "art3": {
+                        "artId": 330201306,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 330218006,
+                    "art4": {
+                        "artId": 330218006,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGING",
+                        "targetId": "SELF",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 30088,
+                "doppelCardMagia": {
+                    "id": 30088,
+                    "groupId": 1012,
+                    "name": "ありのままのドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅸ] & Charge後ダメージUP(味全/3T) & ダメージUP & ChargeディスクダメージUP(自/3T)",
+                    "artId1": 190300881,
+                    "art1": {
+                        "artId": 190300881,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 26752,
+                        "growPoint": 220
+                    },
+                    "artId2": 330301708,
+                    "art2": {
+                        "artId": 330301708,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "ALL",
+                        "effectValue": 275,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330201308,
+                    "art3": {
+                        "artId": 330201308,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "SELF",
+                        "effectValue": 400,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 330218008,
+                    "art4": {
+                        "artId": 330218008,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGING",
+                        "targetId": "SELF",
+                        "effectValue": 400,
+                        "enableTurn": 3,
+                        "growPoint": 0
+                    }
+                },
+                "doppelCharaNo": 300800,
+                "doppel": {
+                    "id": 300800,
+                    "name": "ありのままのドッペル",
+                    "title": "その姿は、ポーチ",
+                    "description": "この感情の主はこのドッペルを悪くは思っていないが、やはり他人に見られるのはどこか抵抗もある。二面性を持ち合わせたドッペルは、フリルなどの装飾からカラーリングまで、可愛らしく温もりを感じさせる見た目をしているが、内側の印象は対照的。ポーチを開くと可愛らしいアイテムの代わりに可愛らしい内臓が顔を覗かせて、見た者の空気を凍らせる。さらに、内臓は物理的にも非常に冷たいので、殴られた者は一瞬で精神的にも肉体的にも凍りつく。ちなみにドッペルは自分が原因で凍ってるとは思っていない。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2022/03/28 15:10:00"
+                },
+                "skillId": 30085,
+                "cardSkill": {
+                    "id": 30085,
+                    "groupId": 1091,
+                    "name": "ボクと拳を重ねて！",
+                    "shortDescription": "Charge後ダメージUP[Ⅷ] & 攻撃力UP[Ⅷ]",
+                    "artId1": 310401708,
+                    "art1": {
+                        "artId": 310401708,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 275,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401108,
+                    "art2": {
+                        "artId": 310401108,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 375,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_H",
+                "commandType3": "CHARGE",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "おちゃう",
+                "cardCustomize": {
+                    "cardId": 30085,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 122,
+                    "gift2": {
+                        "id": 122,
+                        "type": 1,
+                        "name": "アクアオーブ＋",
+                        "attributeId": "WATER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 123,
+                    "gift3": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 403,
+                    "gift4": {
+                        "id": 403,
+                        "type": 2,
+                        "name": "絵馬の水引",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum4": 15,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 50,
+                    "giftId5": 503,
+                    "gift5": {
+                        "id": 503,
+                        "type": 2,
+                        "name": "マチビト馬の車輪",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 554,
+                    "gift6": {
+                        "id": 554,
+                        "type": 2,
+                        "name": "屋上のバルーン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 90
+                },
+                "openDate": "2022/03/28 15:10:00"
+            },
+            "npcHelpId": 313,
+            "npcPieceId1": 1090,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3008,
+            "chara": {
+                "id": 3008,
+                "name": "志伸 あきら",
+                "kana": "しのぶ あきら",
+                "attributeId": "WATER",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "defaultCardId": 30082,
+                "defaultCard": {
+                    "cardId": 30082,
+                    "rank": "RANK_2",
+                    "attributeId": "WATER",
+                    "initialType": "ATTACK",
+                    "growthType": "ATTACK",
+                    "attack": 1322,
+                    "defense": 994,
+                    "hp": 3085,
+                    "miniCharaNo": 300800,
+                    "charaNo": 3008,
+                    "cardName": "志伸 あきら",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30082,
+                        "groupId": 1012,
+                        "name": "巨拳連弾",
+                        "shortDescription": "敵単体にダメージ[Ⅰ] & Charge後ダメージUP(味全/3T)",
+                        "artId1": 100000101,
+                        "art1": {
+                            "artId": 100000101,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 9600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301701,
+                        "art2": {
+                            "artId": 330301701,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "ALL",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30082,
+                        "groupId": 1091,
+                        "name": "ボクと拳を重ねて！",
+                        "shortDescription": "Charge後ダメージUP[Ⅲ] & 攻撃力UP[Ⅲ]",
+                        "artId1": 310401703,
+                        "art1": {
+                            "artId": 310401703,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 150,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401103,
+                        "art2": {
+                            "artId": 310401103,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30083,
+                "evolutionCard1": {
+                    "cardId": 30083,
+                    "rank": "RANK_3",
+                    "attributeId": "WATER",
+                    "initialType": "ATTACK",
+                    "growthType": "ATTACK",
+                    "attack": 1577,
+                    "defense": 1186,
+                    "hp": 3680,
+                    "miniCharaNo": 300800,
+                    "charaNo": 3008,
+                    "cardName": "志伸 あきら",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30083,
+                        "groupId": 1012,
+                        "name": "巨拳連弾",
+                        "shortDescription": "敵単体にダメージ[Ⅲ] & Charge後ダメージUP(味全/3T)",
+                        "artId1": 100000103,
+                        "art1": {
+                            "artId": 100000103,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10240,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301703,
+                        "art2": {
+                            "artId": 330301703,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30083,
+                        "groupId": 1091,
+                        "name": "ボクと拳を重ねて！",
+                        "shortDescription": "Charge後ダメージUP[Ⅴ] & 攻撃力UP[Ⅴ]",
+                        "artId1": 310401705,
+                        "art1": {
+                            "artId": 310401705,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 200,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401105,
+                        "art2": {
+                            "artId": 310401105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId2": 30084,
+                "evolutionCard2": {
+                    "cardId": 30084,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "ATTACK",
+                    "growthType": "ATTACK",
+                    "attack": 1960,
+                    "defense": 1474,
+                    "hp": 4573,
+                    "miniCharaNo": 300800,
+                    "charaNo": 3008,
+                    "cardName": "志伸 あきら",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30084,
+                        "groupId": 1012,
+                        "name": "巨拳連弾",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & Charge後ダメージUP(味全/3T) & ダメージUP(自/3T)",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301705,
+                        "art2": {
+                            "artId": 330301705,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330201305,
+                        "art3": {
+                            "artId": 330201305,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "SELF",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30084,
+                        "groupId": 1091,
+                        "name": "ボクと拳を重ねて！",
+                        "shortDescription": "Charge後ダメージUP[Ⅶ] & 攻撃力UP[Ⅶ]",
+                        "artId1": 310401707,
+                        "art1": {
+                            "artId": 310401707,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401107,
+                        "art2": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId3": 30085,
+                "evolutionCard3": {
+                    "cardId": 30085,
+                    "rank": "RANK_5",
+                    "attributeId": "WATER",
+                    "initialType": "ATTACK",
+                    "growthType": "ATTACK",
+                    "attack": 2106,
+                    "defense": 1708,
+                    "hp": 5513,
+                    "miniCharaNo": 300801,
+                    "charaNo": 3008,
+                    "cardName": "志伸 あきら",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30085,
+                        "groupId": 1012,
+                        "name": "巨拳連弾",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & Charge後ダメージUP(味全/3T) & ダメージUP & ChargeディスクダメージUP(自/3T)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301706,
+                        "art2": {
+                            "artId": 330301706,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "ALL",
+                            "effectValue": 225,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330201306,
+                        "art3": {
+                            "artId": 330201306,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "SELF",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 330218006,
+                        "art4": {
+                            "artId": 330218006,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGING",
+                            "targetId": "SELF",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30085,
+                        "groupId": 1091,
+                        "name": "ボクと拳を重ねて！",
+                        "shortDescription": "Charge後ダメージUP[Ⅷ] & 攻撃力UP[Ⅷ]",
+                        "artId1": 310401708,
+                        "art1": {
+                            "artId": 310401708,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 275,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401108,
+                        "art2": {
+                            "artId": 310401108,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 375,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "外見や言動もボーイッシュな魔法少女。空手道場を営む父に、幼い頃＠から男の子たちと等しく鍛えられ育てられてきた。＠頼まれ事は断れない性格で、何でもついつい引き受けて解決してしま＠うことから「参京院のトラブルシューター」と呼ばれている。",
+                "school": "参京院教育学園",
+                "designer": "おちゃう",
+                "voiceActor": "村中知",
+                "enhancementGroupId": 53
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "e96a8c4d-8b7f-4ed3-bb51-1494029b51b0",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 300801,
+            "npcHelpId": 313,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1090,
+            "piece": {
+                "pieceId": 1090,
+                "pieceType": "SKILL",
+                "pieceName": "優しき強者",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3008",
+                "charaList": [
+                    {
+                        "charaId": 3008,
+                        "name": "志伸 あきら"
+                    }
+                ],
+                "attack": 0,
+                "defense": 463,
+                "hp": 463,
+                "skillId": 109000,
+                "pieceSkill": {
+                    "id": 109000,
+                    "groupId": 1167,
+                    "name": "チャージドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "Chargeドロー",
+                    "messageId": 70,
+                    "artId1": 700211900,
+                    "art1": {
+                        "artId": 700211900,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARGE",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 109001,
+                "pieceSkill2": {
+                    "id": 109001,
+                    "groupId": 1167,
+                    "name": "チャージドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "Chargeドロー",
+                    "messageId": 70,
+                    "artId1": 700211900,
+                    "art1": {
+                        "artId": 700211900,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARGE",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「困っている人に手を差し伸べることこそ武の存在意義」＠幼い頃から、そう教わってきた彼女は、＠それを成し遂げるだけの力をつけてきた。＠若くして黒帯を締めていることこそが、その証明である。",
+                "illustrator": "茶ちえ"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 694,
+            "hp": 694,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 313
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 313
+        }
+    ],
+    "isNpc": true,
+    "userName": "志伸 あきら",
+    "userRank": 100,
+    "cardId": 30085,
+    "charaName": "志伸 あきら",
+    "cardRank": "RANK_5",
+    "attributeId": "WATER",
+    "level": 100,
+    "displayCardId": 30085,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
