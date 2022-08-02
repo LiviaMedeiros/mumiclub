@@ -1,0 +1,71 @@
+---
+pieceId: 1790
+pieceType: SKILL
+pieceName: また、次の夏も
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 739
+hp: 619
+skillId: 179000
+pieceSkill:
+  id: 179000
+  groupId: 1086
+  name: リジェネレイト・ガード[Ⅱ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 防御力UP[Ⅱ] & HP自動回復[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 330201202
+  art1:
+    artId: 330201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  artId2: 630207702
+  art2:
+    artId: 630207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 179001
+pieceSkill2:
+  id: 179001
+  groupId: 1086
+  name: リジェネレイト・ガード[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 防御力UP[Ⅲ] & HP自動回復[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 330201203
+  art1:
+    artId: 330201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 3
+    growPoint: 25
+  artId2: 630207703
+  art2:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: 「楽しい夏休み」とはなんなのか、答えはまだわからない＠それでも、くたくたになるまで走り回って＠きっと楽しい夏休みだったって、今は言える＠日焼けで真っ赤になった肌が、その証
+illustrator: ―
+openDate: 2022/07/29 15:10:00
+...
