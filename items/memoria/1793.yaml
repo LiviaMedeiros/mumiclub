@@ -1,0 +1,69 @@
+---
+pieceId: 1793
+pieceType: ABILITY
+pieceName: 振り返ればいつもそこに
+attributeId: ALL
+rank: RANK_3
+charaIds: "2106"
+charaList:
+- charaId: 2106
+  name: 鹿目 まどか 水着ver.
+attack: 460
+defense: 0
+hp: 500
+skillId: 179300
+pieceSkill:
+  id: 179300
+  groupId: 1217
+  name: Cコンボプラス・ガード[Ⅱ]
+  type: ABILITY
+  shortDescription: Charge Combo時Charge数+1 & 防御力UP[Ⅱ]
+  artId1: 690219201
+  art1:
+    artId: 690219201
+    verbCode: CONDITION_GOOD
+    effectCode: C_COMBO_PLUS
+    targetId: SELF
+    effectValue: 1000
+    growPoint: 0
+    probability: 1000
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 179301
+pieceSkill2:
+  id: 179301
+  groupId: 1217
+  name: Cコンボプラス・ガード[Ⅲ]
+  type: ABILITY
+  shortDescription: Charge Combo時Charge数+2 & 防御力UP[Ⅲ]
+  artId1: 690219202
+  art1:
+    artId: 690219202
+    verbCode: CONDITION_GOOD
+    effectCode: C_COMBO_PLUS
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 1000
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: 日常から離れて真夏のリゾートを満喫！＠たくさん作った思い出の全部を覚えてはおけないけれど＠写真やお土産…思い出の欠片を飾っておけば＠楽しかった気持ちはいつだって心に浮かぶはず
+illustrator: 都筑禰己
+openDate: 2022/08/10 15:10:00
+...
