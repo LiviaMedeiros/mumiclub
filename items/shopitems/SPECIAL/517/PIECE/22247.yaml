@@ -1,0 +1,117 @@
+---
+id: 22247
+shopId: 517
+shopItemType: PIECE
+genericId: "1728"
+piece:
+  pieceId: 1728
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: she has a heart
+  attributeId: ALL
+  rank: RANK_4
+  attack: 938
+  defense: 0
+  hp: 818
+  skillId: 172800
+  pieceSkill:
+    id: 172800
+    groupId: 1085
+    name: アサルト・ソルジャー[Ⅴ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅴ] & Blast ダメージUP[Ⅳ] & HP自動回復[Ⅱ]
+    artId1: 390203105
+    art1:
+      artId: 390203105
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 20
+      probability: 1000
+    artId2: 390201804
+    art2:
+      artId: 390201804
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    artId3: 690207702
+    art3:
+      artId: 690207702
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+    eventId: 1157
+    eventArtId1: 1157003
+    eventArt1:
+      artId: 1157003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1157_KEY
+    eventDescription: ＆「憧憬の烙印」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 172801
+  pieceSkill2:
+    id: 172801
+    groupId: 1085
+    name: アサルト・ソルジャー[Ⅵ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅵ] & Blast ダメージUP[Ⅴ] & HP自動回復[Ⅲ]
+    artId1: 390203106
+    art1:
+      artId: 390203106
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      growPoint: 20
+      probability: 1000
+    artId2: 390201805
+    art2:
+      artId: 390201805
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 350
+      growPoint: 25
+      probability: 1000
+    artId3: 690207703
+    art3:
+      artId: 690207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      growPoint: 10
+      probability: 1000
+    eventId: 1157
+    eventArtId1: 1157004
+    eventArt1:
+      artId: 1157004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1157_KEY
+    eventDescription: ＆「憧憬の烙印」追加獲得数＋15
+    skillEffectRange: ALL
+  description: ふとしたきっかけで、よみがえる想いと誓い＠曇りゆく気持ちを映したように、冷たい空気は雪へと変わり＠彼女の心を連れ戻す＠もう二度と返らない、あの笑顔のもとへ
+  illustrator: ―
+  openDate: 2022/02/10 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_9
+needNumber: 1
+limitedNumber: 4
+name: メモリア『she has a heart』
+description: HP最大時攻撃力UP[Ⅵ] & Blast ダメージUP[Ⅴ] & HP自動回復[Ⅲ]
+sortkey: 3
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

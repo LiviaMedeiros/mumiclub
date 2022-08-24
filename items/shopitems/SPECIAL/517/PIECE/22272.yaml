@@ -1,0 +1,99 @@
+---
+id: 22272
+shopId: 517
+shopItemType: PIECE
+genericId: "1209"
+piece:
+  pieceId: 1209
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 光と闇の狭間で振るう剣
+  attributeId: ALL
+  rank: RANK_4
+  attack: 766
+  defense: 0
+  hp: 846
+  skillId: 120900
+  pieceSkill:
+    id: 120900
+    groupId: 1085
+    name: フルゲージオーバードライブ[Ⅳ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅳ] & 攻撃力UP[Ⅲ]
+    artId1: 390203104
+    art1:
+      artId: 390203104
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 20
+      probability: 1000
+    artId2: 390201103
+    art2:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    eventId: 1072
+    eventArtId1: 1072001
+    eventArt1:
+      artId: 1072001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_SINGLERAID_1072_EXCHANGE_1
+    eventDescription: ＆「すずねメダル」入手時＋3
+    skillEffectRange: ALL
+  skillId2: 120901
+  pieceSkill2:
+    id: 120901
+    groupId: 1085
+    name: フルゲージオーバードライブ[Ⅴ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅴ] & 攻撃力UP[Ⅳ]
+    artId1: 390203105
+    art1:
+      artId: 390203105
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 20
+      probability: 1000
+    artId2: 390201104
+    art2:
+      artId: 390201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    eventId: 1072
+    eventArtId1: 1072002
+    eventArt1:
+      artId: 1072002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_SINGLERAID_1072_EXCHANGE_1
+    eventDescription: ＆「すずねメダル」入手時＋7
+    skillEffectRange: ALL
+  description: 少女の足下に見える夜の神浜市には、煌びやかな灯りが彩を加えている＠光と闇の交錯…それは人と人ではない者たちとの交錯のようだった＠少女は手に持つ刃をもって、常なるこの交錯を断とうとしている＠たとえ誰にも理解されることはなくても、彼女がそう決めたから…
+  illustrator: ―
+  openDate: 2018/05/01 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_9
+needNumber: 1
+limitedNumber: 4
+name: メモリア『光と闇の狭間で振るう剣』
+description: HP最大時攻撃力UP[Ⅴ] & 攻撃力UP[Ⅳ]
+sortkey: 28
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

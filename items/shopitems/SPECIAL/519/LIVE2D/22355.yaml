@@ -1,0 +1,109 @@
+---
+id: 22355
+shopId: 519
+shopItemType: LIVE2D
+genericId: "1025_50"
+chara:
+  id: 1025
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 10254
+  defaultCard:
+    cardId: 10254
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: ATTACK
+    attack: 1977
+    defense: 2082
+    hp: 6118
+    miniCharaNo: 102500
+    charaNo: 1025
+    cardName: 時女 静香
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10254
+      groupId: 1014
+      name: 巫流・祈祷通天ノ光
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 防御力UP(味全/3T) & 状態強化解除(敵全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301105
+      art2:
+        artId: 330301105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301206
+      art3:
+        artId: 330301206
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 413
+        enableTurn: 3
+        growPoint: 25
+      artId4: 200300900
+      art4:
+        artId: 200300900
+        verbCode: REVOKE
+        effectCode: GOOD
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 10254
+      groupId: 1085
+      name: 共に日の本のために！
+      shortDescription: 攻撃力UP[Ⅶ] & 確率でクリティカル[Ⅶ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406307
+      art2:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ときめ しずか
+  description: 時女一族を引っ張る本家出身の魔法少女。閉鎖された秘境で生まれ育ち、日の本のために巫（かんなぎ）と呼ばれる魔法少女になることが決まっていた。都会での生活は初めてなので、みんなに助けてもらっている。昔から釣りが得意。
+live2d:
+  charaId: 1025
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 時女静香の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 59
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

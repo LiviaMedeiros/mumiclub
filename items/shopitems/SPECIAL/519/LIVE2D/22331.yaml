@@ -1,0 +1,84 @@
+---
+id: 22331
+shopId: 519
+shopItemType: LIVE2D
+genericId: "1011_50"
+chara:
+  id: 1011
+  attributeId: TIMBER
+  initialType: MAGIA
+  defaultCardId: 10113
+  defaultCard:
+    cardId: 10113
+    rank: RANK_3
+    attributeId: TIMBER
+    initialType: MAGIA
+    growthType: ATKHP
+    attack: 1565
+    defense: 1175
+    hp: 3714
+    miniCharaNo: 101100
+    charaNo: 1011
+    cardName: 秋野 かえで
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10113
+      groupId: 1014
+      name: ジャッジメントアース
+      shortDescription: 敵全体に属性強化ダメージ[Ⅳ]
+      artId1: 100300204
+      art1:
+        artId: 100300204
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3050
+        growPoint: 100
+    cardSkill:
+      id: 10113
+      groupId: 1087
+      name: わ、私も頑張ります！
+      shortDescription: 与えるダメージUP[Ⅴ] & MP獲得量UP[Ⅴ]
+      artId1: 310401305
+      art1:
+        artId: 310401305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401905
+      art2:
+        artId: 310401905
+        verbCode: BUFF
+        effectCode: MP_GAIN
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あきの かえで
+  description: とっても怖がりで心配性な魔法少女。しかし、優しく友達思いで＠チームのメンバーのためには困難にも立ち向かっていく。＠動植物や虫など、自然が大好きで、家では家庭菜園に勤しんでいる。＠また、上手くはないが、クレーンゲームも趣味の一つ。
+live2d:
+  charaId: 1011
+  live2dId: "50"
+  description: 水着(2018)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 秋野かえでの衣装【水着】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 35
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

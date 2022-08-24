@@ -1,0 +1,140 @@
+---
+id: 22257
+shopId: 517
+shopItemType: PIECE
+genericId: "1569"
+piece:
+  pieceId: 1569
+  pieceType: SKILL
+  pieceName: 旅立ちの記憶
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 880
+  hp: 880
+  skillId: 156900
+  pieceSkill:
+    id: 156900
+    groupId: 1119
+    name: ホーリー・エンチャント[Ⅷ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: ダメージアップ状態[Ⅷ] & デバフ効果を2回無効(自/1T)
+    messageId: 70
+    artId1: 610206108
+    art1:
+      artId: 610206108
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId2: 610219100
+    art2:
+      artId: 610219100
+      verbCode: IGNORE
+      effectCode: DEBUFF
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    artId3: 610219100
+    art3:
+      artId: 610219100
+      verbCode: IGNORE
+      effectCode: DEBUFF
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    eventId: 1151
+    eventArtId1: 1151003
+    eventArt1:
+      artId: 1151003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1151_PART_1
+    eventArtId2: 1151007
+    eventArt2:
+      artId: 1151007
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1151_PART_2
+    eventDescription: ＆「マジカルキャンディ」「マジカルコイン」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 156901
+  pieceSkill2:
+    id: 156901
+    groupId: 1119
+    name: ホーリー・エンチャント[Ⅸ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: ダメージアップ状態[Ⅸ] & デバフ効果を2回無効(自/1T)
+    messageId: 70
+    artId1: 610206109
+    art1:
+      artId: 610206109
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId2: 610219100
+    art2:
+      artId: 610219100
+      verbCode: IGNORE
+      effectCode: DEBUFF
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    artId3: 610219100
+    art3:
+      artId: 610219100
+      verbCode: IGNORE
+      effectCode: DEBUFF
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    eventId: 1151
+    eventArtId1: 1151004
+    eventArt1:
+      artId: 1151004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_BRANCH_1151_PART_1
+    eventArtId2: 1151008
+    eventArt2:
+      artId: 1151008
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_BRANCH_1151_PART_2
+    eventDescription: ＆「マジカルキャンディ」「マジカルコイン」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 「えー、やっぱりおかしーだろ？この地図間違ってんじゃねーか？」＠「それはないでしょ？ナビ端末が間違ってたら何も信用できないよ？」＠旅立ちの日に取り決めた、ナビと運転の役割分担＠繰り返した迷走も、すべては今につながる糧
+  illustrator: ―
+  openDate: 2020/12/04 16:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_9
+needNumber: 1
+limitedNumber: 4
+name: メモリア『旅立ちの記憶』
+description: ダメージアップ状態[Ⅸ] & デバフ効果を2回無効(自/1T)
+sortkey: 13
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

@@ -1,0 +1,93 @@
+---
+id: 22403
+shopId: 519
+shopItemType: LIVE2D
+genericId: "3012_50"
+chara:
+  id: 3012
+  attributeId: WATER
+  initialType: DEFENSE
+  defaultCardId: 30123
+  defaultCard:
+    cardId: 30123
+    rank: RANK_3
+    attributeId: WATER
+    initialType: DEFENSE
+    growthType: DEFENSE
+    attack: 1256
+    defense: 1660
+    hp: 5013
+    miniCharaNo: 301200
+    charaNo: 3012
+    cardName: 純 美雨
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30123
+      groupId: 1012
+      name: 鷹影爪風斬
+      shortDescription: 敵単体にダメージ[Ⅲ] & 必ず回避(自/1T)
+      artId1: 100000103
+      art1:
+        artId: 100000103
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10240
+        growPoint: 100
+      artId2: 610206900
+      art2:
+        artId: 610206900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 30123
+      groupId: 1124
+      name: 助け合うのが組織の掟ヨ
+      shortDescription: 必ず回避 & 確率でクリティカル[Ⅴ]
+      artId1: 610406900
+      art1:
+        artId: 610406900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 610406305
+      art2:
+        artId: 610406305
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 500
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ちゅん めいゆい
+  description: 「蒼海幇」という組織に所属する魔法少女。カンフーの使い手。＠中国にいる親の元から離れて、単身で日本に渡って来た。＠普段から口調も振る舞いもクールだが、仲間と地元のことをなにより＠も大切にしている熱い心を秘めている。麻雀をたしなむ。
+live2d:
+  charaId: 3012
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 純美雨の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 107
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

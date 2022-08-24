@@ -1,0 +1,117 @@
+---
+id: 22249
+shopId: 517
+shopItemType: PIECE
+genericId: "1707"
+piece:
+  pieceId: 1707
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 波乱のダブルス部門
+  attributeId: ALL
+  rank: RANK_4
+  attack: 896
+  defense: 0
+  hp: 856
+  skillId: 170700
+  pieceSkill:
+    id: 170700
+    groupId: 1121
+    name: デッドリーアタック・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: 確率でクリティカル[Ⅳ] & 攻撃力UP[Ⅲ] & Charge後ダメージUP[Ⅱ]
+    artId1: 690206304
+    art1:
+      artId: 690206304
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      growPoint: 0
+      probability: 250
+    artId2: 390201103
+    art2:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId3: 390201702
+    art3:
+      artId: 390201702
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+    eventId: 1153
+    eventArtId1: 1153003
+    eventArt1:
+      artId: 1153003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1153_KEY
+    eventDescription: ＆「記憶のオーナメント」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 170701
+  pieceSkill2:
+    id: 170701
+    groupId: 1121
+    name: デッドリーアタック・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: 確率でクリティカル[Ⅴ] & 攻撃力UP[Ⅲ] & Charge後ダメージUP[Ⅲ]
+    artId1: 690206305
+    art1:
+      artId: 690206305
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: SELF
+      effectValue: 2000
+      growPoint: 0
+      probability: 300
+    artId2: 390201103
+    art2:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId3: 390201703
+    art3:
+      artId: 390201703
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    eventId: 1153
+    eventArtId1: 1153004
+    eventArt1:
+      artId: 1153004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1153_KEY
+    eventDescription: ＆「記憶のオーナメント」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 必要に迫られて飛び入り参加したコスプレコンテスト＠いっぱい不安はあったけど、声援はとても温かかった＠「可愛いー！ベファーナって言うんだって？」＠「似合いすぎ！本当に魔法とか使っちゃいそう！」
+  illustrator: ―
+  openDate: 2021/12/20 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_9
+needNumber: 1
+limitedNumber: 4
+name: メモリア『波乱のダブルス部門』
+description: 確率でクリティカル[Ⅴ] & 攻撃力UP[Ⅲ] & Charge後ダメージUP[Ⅲ]
+sortkey: 5
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

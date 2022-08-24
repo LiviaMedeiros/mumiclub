@@ -1,0 +1,92 @@
+---
+id: 22306
+shopId: 519
+shopItemType: LIVE2D
+genericId: "1003_50"
+chara:
+  id: 1003
+  attributeId: FIRE
+  initialType: MAGIA
+  defaultCardId: 10032
+  defaultCard:
+    cardId: 10032
+    rank: RANK_2
+    attributeId: FIRE
+    initialType: MAGIA
+    growthType: ATTACK
+    attack: 1264
+    defense: 936
+    hp: 2904
+    miniCharaNo: 100300
+    charaNo: 1003
+    cardName: 由比 鶴乃
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10032
+      groupId: 1014
+      name: 炎扇斬舞
+      shortDescription: 敵全体にダメージ[Ⅱ] & Blast ダメージUP(味全/3T)
+      artId1: 100300102
+      art1:
+        artId: 100300102
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3100
+        growPoint: 100
+      artId2: 330301801
+      art2:
+        artId: 330301801
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10032
+      groupId: 1092
+      name: 出たとこ勝負で行こうよ！
+      shortDescription: Blast ダメージUP[Ⅲ] & 攻撃力UP[Ⅲ]
+      artId1: 310401803
+      art1:
+        artId: 310401803
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401103
+      art2:
+        artId: 310401103
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ゆい つるの
+  description: 元気いっぱいで猪突猛進な魔法少女。由緒正しい歴史ある生家と＠その隆盛を導いた祖父や曾祖父を敬愛してやまない。＠一方で、現在は没落した由比家をどうにか再興しようと奮闘しており＠そのために最強の魔法少女になることを目指している。
+live2d:
+  charaId: 1003
+  live2dId: "50"
+  description: クリスマス衣装
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 由比鶴乃の衣装【クリスマス】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 10
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

@@ -1,0 +1,120 @@
+---
+id: 22421
+shopId: 519
+shopItemType: LIVE2D
+genericId: "3035_50"
+chara:
+  id: 3035
+  attributeId: LIGHT
+  initialType: SUPPORT
+  defaultCardId: 30354
+  defaultCard:
+    cardId: 30354
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: SUPPORT
+    growthType: ATTACK
+    attack: 1706
+    defense: 1677
+    hp: 6374
+    miniCharaNo: 303500
+    charaNo: 3035
+    cardName: 千秋 理子
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30354
+      groupId: 1014
+      name: 食べごろハンター
+      shortDescription: 敵全体にダメージ[Ⅴ] & Charge後ダメージUP & 確率でクリティカル(味全/3T) & MP回復(味全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301707
+      art2:
+        artId: 330301707
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 630306304
+      art3:
+        artId: 630306304
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: ALL
+        effectValue: 2000
+        enableTurn: 3
+        growPoint: 0
+        probability: 250
+      artId4: 200300502
+      art4:
+        artId: 200300502
+        verbCode: HEAL
+        effectCode: MP
+        targetId: ALL
+        effectValue: 150
+        growPoint: 10
+    cardSkill:
+      id: 30354
+      groupId: 1085
+      name: こんな風にするの！
+      shortDescription: 攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅷ] & 確率でスキル不可
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401708
+      art2:
+        artId: 310401708
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610411212
+      art3:
+        artId: 610411212
+        verbCode: ENCHANT
+        effectCode: BAN_SKILL
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 650
+        limitedValue: "0"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ちあき りこ
+  description: お姉さん魔法少女たち全員の、妹的存在の魔法少女。＠普段は、家のお弁当屋さんの看板娘として、お客さんの心を和ませている。小学生らしい無邪気さを持ちながらも、＠周りの大人たちへの気遣いも忘れない、健気な頑張り屋さん。
+live2d:
+  charaId: 3035
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 千秋理子の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 125
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

@@ -1,0 +1,96 @@
+---
+id: 22267
+shopId: 517
+shopItemType: PIECE
+genericId: "1397"
+piece:
+  pieceId: 1397
+  pieceType: ABILITY
+  pieceName: 今は、このまま
+  attributeId: ALL
+  rank: RANK_4
+  attack: 765
+  defense: 0
+  hp: 850
+  skillId: 139700
+  pieceSkill:
+    id: 139700
+    groupId: 1129
+    name: アンブリンキング・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅱ] & ダメージアップ状態[Ⅲ] & 必ずスタン無効
+    artId1: 690207702
+    art1:
+      artId: 690207702
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+    artId2: 690206103
+    art2:
+      artId: 690206103
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId3: 690208400
+    art3:
+      artId: 690208400
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 139701
+  pieceSkill2:
+    id: 139701
+    groupId: 1129
+    name: アンブリンキング・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅲ] & ダメージアップ状態[Ⅳ] & 必ずスタン無効
+    artId1: 690207703
+    art1:
+      artId: 690207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      growPoint: 10
+      probability: 1000
+    artId2: 690206104
+    art2:
+      artId: 690206104
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId3: 690208400
+    art3:
+      artId: 690208400
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+  description: 導くことも干渉もできない、未完成のレコード＠ここでは魔法少女たちが今も答えを探してる＠みんながどんな希望を見つけるのか＠ずっとそばで、見守ってるよ
+  illustrator: 谷口淳一郎
+  openDate: 2019/09/06 00:00:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_9
+needNumber: 1
+limitedNumber: 4
+name: メモリア『今は、このまま』
+description: HP自動回復[Ⅲ] & ダメージアップ状態[Ⅳ] & 必ずスタン無効
+sortkey: 23
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

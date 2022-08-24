@@ -1,0 +1,214 @@
+---
+id: 22185
+shopId: 516
+shopItemType: CARD
+genericId: "40294"
+cardNum: 2
+card:
+  cardId: 40294
+  rank: RANK_4
+  attributeId: VOID
+  initialType: DEFENSE
+  growthType: DEFHP
+  attack: 1730
+  defense: 2441
+  hp: 6731
+  miniCharaNo: 402900
+  charaNo: 4029
+  cardName: ペレネル
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 40294
+    groupId: 1014
+    name: エン・ト・パン
+    shortDescription: 敵全体にダメージ[Ⅴ] & 防御力UP & ダメージカット状態 & バリア(8000)を付与(味全/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330301208
+    art2:
+      artId: 330301208
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 488
+      enableTurn: 3
+      growPoint: 25
+    artId3: 630306207
+    art3:
+      artId: 630306207
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: ALL
+      effectValue: 350
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId4: 630322115
+    art4:
+      artId: 630322115
+      verbCode: CONDITION_GOOD
+      effectCode: BARRIER
+      targetId: ALL
+      effectValue: 8000
+      enableTurn: 3
+      growPoint: 0
+      parameter: 1
+      probability: 1000
+  cardSkill:
+    id: 40294
+    groupId: 1086
+    name: あらあら、大変ね
+    shortDescription: 防御力UP[XⅢ] & ダメージカット状態[XⅢ] & HP自動回復[Ⅴ](3T)
+    artId1: 310401213
+    art1:
+      artId: 310401213
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 1350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406213
+    art2:
+      artId: 610406213
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: CONNECT
+      effectValue: 900
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId3: 630407705
+    art3:
+      artId: 630407705
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: CONNECT
+      effectValue: 60
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4029
+  attributeId: VOID
+  initialType: DEFENSE
+  defaultCardId: 40294
+  defaultCard:
+    cardId: 40294
+    rank: RANK_4
+    attributeId: VOID
+    initialType: DEFENSE
+    growthType: DEFHP
+    attack: 1730
+    defense: 2441
+    hp: 6731
+    miniCharaNo: 402900
+    charaNo: 4029
+    cardName: ペレネル
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 40294
+      groupId: 1014
+      name: エン・ト・パン
+      shortDescription: 敵全体にダメージ[Ⅴ] & 防御力UP & ダメージカット状態 & バリア(8000)を付与(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301208
+      art2:
+        artId: 330301208
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 488
+        enableTurn: 3
+        growPoint: 25
+      artId3: 630306207
+      art3:
+        artId: 630306207
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: ALL
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 25
+        probability: 1000
+      artId4: 630322115
+      art4:
+        artId: 630322115
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: ALL
+        effectValue: 8000
+        enableTurn: 3
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+    cardSkill:
+      id: 40294
+      groupId: 1086
+      name: あらあら、大変ね
+      shortDescription: 防御力UP[XⅢ] & ダメージカット状態[XⅢ] & HP自動回復[Ⅴ](3T)
+      artId1: 310401213
+      art1:
+        artId: 310401213
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 1350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406213
+      art2:
+        artId: 610406213
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 900
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+      artId3: 630407705
+      art3:
+        artId: 630407705
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: CONNECT
+        effectValue: 60
+        enableTurn: 3
+        growPoint: 10
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ぺれねる
+  description: 伝説的な錬金術士ニコラ・フラメルの妻で、共同研究者として名を残す中世フランスの魔法少女。イザボーの野望を阻止するためタルト（ジャンヌ・ダルク）たちに魔法の武器を授け、助言を与えた。エリザとは旧知の仲で、彼女が幼い頃には慕われていた。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_5
+needNumber: 1
+limitedNumber: 1
+name: ペレネル
+description: デスティニージェム1個のオマケ付き
+sortkey: 51
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

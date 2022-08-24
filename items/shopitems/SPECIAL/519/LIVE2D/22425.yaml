@@ -1,0 +1,93 @@
+---
+id: 22425
+shopId: 519
+shopItemType: LIVE2D
+genericId: "3039_02"
+chara:
+  id: 3039
+  attributeId: FIRE
+  initialType: BALANCE
+  defaultCardId: 30393
+  defaultCard:
+    cardId: 30393
+    rank: RANK_3
+    attributeId: FIRE
+    initialType: BALANCE
+    growthType: DEFHP
+    attack: 1389
+    defense: 1423
+    hp: 4394
+    miniCharaNo: 303900
+    charaNo: 3039
+    cardName: 三穂野 せいら
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30393
+      groupId: 1014
+      name: クリフハンガー
+      shortDescription: 敵全体にダメージ[Ⅲ] & 確率でスタン(敵全/1T)
+      artId1: 100300103
+      art1:
+        artId: 100300103
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3200
+        growPoint: 100
+      artId2: 510304103
+      art2:
+        artId: 510304103
+        verbCode: CONDITION_BAD
+        effectCode: STUN
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 350
+    cardSkill:
+      id: 30393
+      groupId: 1085
+      name: ダブルキャストで！
+      shortDescription: 攻撃力UP[Ⅴ] & ダメージカット状態[Ⅴ]
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406205
+      art2:
+        artId: 610406205
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みほの せいら
+  description: 映画監督志望の魔法少女。いつか自分の映画を撮るべく、常にネタを探しているが、そのことでトラブルを呼び込んでしまうことも。勝ち気でしばしば無茶をするが、持ち前の熱意と行動力で周囲を巻き込み、ついには無茶も実現させてしまう。
+live2d:
+  charaId: 3039
+  live2dId: "02"
+  description: 銀幕衣装
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 三穂野せいらの衣装【銀幕衣装】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：無】
+sortkey: 129
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...

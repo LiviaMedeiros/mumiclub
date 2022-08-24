@@ -1,0 +1,93 @@
+---
+id: 22395
+shopId: 519
+shopItemType: LIVE2D
+genericId: "3006_51"
+chara:
+  id: 3006
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 30062
+  defaultCard:
+    cardId: 30062
+    rank: RANK_2
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: ATTACK
+    attack: 1094
+    defense: 1047
+    hp: 3812
+    miniCharaNo: 300600
+    charaNo: 3006
+    cardName: 木崎 衣美里
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30062
+      groupId: 1014
+      name: あーしのヤバめなハート
+      shortDescription: 敵全体にダメージ[Ⅰ] & 与えるダメージDOWN(敵全/3T)
+      artId1: 100300101
+      art1:
+        artId: 100300101
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3000
+        growPoint: 100
+      artId2: 430302202
+      art2:
+        artId: 430302202
+        verbCode: DEBUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 175
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30062
+      groupId: 1087
+      name: あーしとドキドキしよ！
+      shortDescription: 与えるダメージUP[Ⅳ] & 必ず幻惑
+      artId1: 310401304
+      art1:
+        artId: 310401304
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610411100
+      art2:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: きさき えみり
+  description: 「最強にカワイイ」を目指している小悪魔系な魔法少女。＠自分のことを「あーし」と言う。素直で明るく物怖じしない性格で＠初対面の相手でもすぐにあだ名をつけてズケズケと距離を詰めて＠いくが、いつの間にか相手の懐へスルリと潜り込んでしまう。
+live2d:
+  charaId: 3006
+  live2dId: "51"
+  description: クリスマス衣装(2019)
+  defaultOpened: false
+  voicePrefixNo: "51"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1171_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 木崎衣美里の衣装【クリスマス】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 99
+isDetailView: false
+startAt: 2022/08/22 15:10:00
+endAt: 2022/09/12 14:59:59
+...
