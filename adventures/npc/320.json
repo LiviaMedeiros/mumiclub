@@ -1,0 +1,1142 @@
+{
+    "npcHelpId": 320,
+    "userCardList": [
+        {
+            "cardId": 16015,
+            "displayCardId": 16015,
+            "revision": 3,
+            "attack": 10168,
+            "defense": 10000,
+            "hp": 33168,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 16015,
+                "charaNo": 1601,
+                "miniCharaNo": 160100,
+                "magiaCharaNo": 160100,
+                "cardName": "∞いろは",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "INFINITE",
+                "growthType": "BALANCE",
+                "attack": 2542,
+                "defense": 2500,
+                "hp": 8292,
+                "rateGainMpAtk": 1100,
+                "rateGainMpDef": 1200,
+                "magiaId": 16015,
+                "cardMagia": {
+                    "id": 16015,
+                    "groupId": 1014,
+                    "name": "集結の百夢",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & デバフ効果・状態異常を1回無効 & HP自動回復(味全/3T) & 状態異常解除(味全) & 蘇生",
+                    "artId1": 100300207,
+                    "art1": {
+                        "artId": 100300207,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 3350,
+                        "growPoint": 100
+                    },
+                    "artId2": 200100613,
+                    "art2": {
+                        "artId": 200100613,
+                        "verbCode": "RESURRECT",
+                        "targetId": "ONE",
+                        "effectValue": 500,
+                        "growPoint": 10
+                    },
+                    "artId3": 630319100,
+                    "art3": {
+                        "artId": 630319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId4": 630320800,
+                    "art4": {
+                        "artId": 630320800,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CONDITION_BAD",
+                        "targetId": "ALL",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId5": 630307709,
+                    "art5": {
+                        "artId": 630307709,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId6": 200301000,
+                    "art6": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 16018,
+                "doppelCardMagia": {
+                    "id": 16018,
+                    "groupId": 1014,
+                    "name": "喚呼のドッペル",
+                    "shortDescription": "敵全体に属性強化ダメージ[Ⅸ] & デバフ効果・状態異常を2回無効 & HP自動回復(味全/5T) & 状態異常解除(味全) & ヴァリアブル(自/3T) & 蘇生",
+                    "artId1": 190160181,
+                    "art1": {
+                        "artId": 190160181,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "ALL",
+                        "effectValue": 7810,
+                        "growPoint": 220
+                    },
+                    "artId2": 9772,
+                    "art2": {
+                        "artId": 9772,
+                        "verbCode": "RESURRECT",
+                        "targetId": "ONE",
+                        "effectValue": 1000,
+                        "growPoint": 0
+                    },
+                    "artId3": 650319100,
+                    "art3": {
+                        "artId": 650319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId4": 650319100,
+                    "art4": {
+                        "artId": 650319100,
+                        "verbCode": "IGNORE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId5": 650320800,
+                    "art5": {
+                        "artId": 650320800,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CONDITION_BAD",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId6": 650320800,
+                    "art6": {
+                        "artId": 650320800,
+                        "verbCode": "IGNORE",
+                        "effectCode": "CONDITION_BAD",
+                        "targetId": "ALL",
+                        "enableTurn": 5,
+                        "growPoint": 0,
+                        "probability": 1000,
+                        "genericValue": "NONE"
+                    },
+                    "artId7": 650307709,
+                    "art7": {
+                        "artId": 650307709,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 5,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId8": 200301000,
+                    "art8": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    },
+                    "artId9": 630220700,
+                    "art9": {
+                        "artId": 630220700,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "IMITATE_ATTRIBUTE",
+                        "targetId": "SELF",
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "doppelCharaNo": 160100,
+                "doppel": {
+                    "id": 160100,
+                    "name": "喚呼のドッペル",
+                    "title": "その姿は、感情",
+                    "description": "この全ての感情の主は、溢れた想いを回収しながらドッペルとの間で循環させる。このドッペルはすべての感情を呼び起こすが、すべての感情を混ぜ合わせたとしても、決して混沌とした黒ではなく、光の元素を取り込んだ真白な光明となる。その中でも強い光明を浴びた者は、自分の感情が制御できなくなる上に粒子レベルまで分解されて、未来を作るエネルギーにされてしまうが、最上の悦びを得るらしい。ただ、このドッペルは奇跡的な感情のバランスで体を保っているので、主の感情が一定の方向に振れすぎると、明日への道標だけを残して消えてしまう。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2022/08/22 15:10:00"
+                },
+                "skillId": 16015,
+                "cardSkill": {
+                    "id": 16015,
+                    "groupId": 1129,
+                    "name": "私たちが思い描いた明日へ！",
+                    "shortDescription": "HP自動回復[Ⅹ](3T) & 攻撃力UP[Ⅹ] & 防御力UP[Ⅹ]",
+                    "artId1": 630407710,
+                    "art1": {
+                        "artId": 630407710,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "CONNECT",
+                        "effectValue": 110,
+                        "enableTurn": 3,
+                        "growPoint": 10,
+                        "probability": 1000
+                    },
+                    "artId2": 310401110,
+                    "art2": {
+                        "artId": 310401110,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 425,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 310401210,
+                    "art3": {
+                        "artId": 310401210,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "CONNECT",
+                        "effectValue": 1125,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillId1": 16011,
+                "pieceSkillList": [
+                    {
+                        "id": 16011,
+                        "groupId": 1129,
+                        "name": "明日への架け橋",
+                        "type": "STARTUP",
+                        "shortDescription": "クエスト開始時に『HP自動回復[Ⅱ] & マギアダメージUP[Ⅱ](味全/∞)』を発動",
+                        "artId1": 9773,
+                        "art1": {
+                            "artId": 9773,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 30,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId2": 9775,
+                        "art2": {
+                            "artId": 9775,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "ALL",
+                            "effectValue": 120,
+                            "growPoint": 0
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "maxPieceSkillId1": 16012,
+                "maxPieceSkillList": [
+                    {
+                        "id": 16012,
+                        "groupId": 1129,
+                        "name": "明日への架け橋(最大解放)",
+                        "type": "STARTUP",
+                        "shortDescription": "クエスト開始時に『HP自動回復[Ⅲ] & マギアダメージUP[Ⅲ](味全/∞)』を発動",
+                        "artId1": 9774,
+                        "art1": {
+                            "artId": 9774,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 40,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId2": 9776,
+                        "art2": {
+                            "artId": 9776,
+                            "verbCode": "BUFF",
+                            "effectCode": "MAGIA",
+                            "targetId": "ALL",
+                            "effectValue": 140,
+                            "growPoint": 0
+                        },
+                        "skillEffectRange": "ALL"
+                    }
+                ],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "一十九二",
+                "cardCustomize": {
+                    "cardId": 16015,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 70,
+                    "giftId2": 143,
+                    "gift2": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 70,
+                    "giftId3": 142,
+                    "gift3": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum3": 15,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 553,
+                    "gift4": {
+                        "id": 553,
+                        "type": 2,
+                        "name": "羊の角",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 507,
+                    "gift5": {
+                        "id": 507,
+                        "type": 2,
+                        "name": "ビッグフェリスのタービン",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/05/21 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 406,
+                    "gift6": {
+                        "id": 406,
+                        "type": 2,
+                        "name": "スタッフのキースイッチ",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 320,
+            "npcPieceId1": 1798,
+            "npcPieceId2": 1316,
+            "npcPieceId3": 1565,
+            "npcPieceId4": 1657
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1601,
+            "chara": {
+                "id": 1601,
+                "name": "∞いろは",
+                "kana": "いんふぃにっといろは",
+                "attributeId": "LIGHT",
+                "attackType": 3,
+                "initialType": "INFINITE",
+                "growthType": "BALANCE",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 16014,
+                "defaultCard": {
+                    "cardId": 16014,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "INFINITE",
+                    "growthType": "BALANCE",
+                    "attack": 2288,
+                    "defense": 2250,
+                    "hp": 7463,
+                    "miniCharaNo": 160100,
+                    "charaNo": 1601,
+                    "cardName": "∞いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 16014,
+                        "groupId": 1014,
+                        "name": "集結の百夢",
+                        "shortDescription": "敵全体に属性強化ダメージ[Ⅴ] & デバフ効果・状態異常を1回無効 & HP自動回復(味全/3T) & 状態異常解除(味全) & 蘇生",
+                        "artId1": 100300205,
+                        "art1": {
+                            "artId": 100300205,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "ALL",
+                            "effectValue": 3150,
+                            "growPoint": 100
+                        },
+                        "artId2": 200100611,
+                        "art2": {
+                            "artId": 200100611,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 450,
+                            "growPoint": 10
+                        },
+                        "artId3": 630319100,
+                        "art3": {
+                            "artId": 630319100,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000,
+                            "genericValue": "NONE"
+                        },
+                        "artId4": 630320800,
+                        "art4": {
+                            "artId": 630320800,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CONDITION_BAD",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000,
+                            "genericValue": "NONE"
+                        },
+                        "artId5": 630307707,
+                        "art5": {
+                            "artId": 630307707,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 80,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId6": 200301000,
+                        "art6": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 16014,
+                        "groupId": 1129,
+                        "name": "私たちが思い描いた明日へ！",
+                        "shortDescription": "HP自動回復[Ⅷ](3T) & 攻撃力UP[Ⅷ] & 防御力UP[Ⅷ]",
+                        "artId1": 630407708,
+                        "art1": {
+                            "artId": 630407708,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 90,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId2": 310401108,
+                        "art2": {
+                            "artId": 310401108,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 375,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 310401208,
+                        "art3": {
+                            "artId": 310401208,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 975,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 16011,
+                            "groupId": 1129,
+                            "name": "明日への架け橋",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『HP自動回復[Ⅱ] & マギアダメージUP[Ⅱ](味全/∞)』を発動",
+                            "artId1": 9773,
+                            "art1": {
+                                "artId": 9773,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "ALL",
+                                "effectValue": 30,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId2": 9775,
+                            "art2": {
+                                "artId": 9775,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "ALL",
+                                "effectValue": 120,
+                                "growPoint": 0
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 16012,
+                            "groupId": 1129,
+                            "name": "明日への架け橋(最大解放)",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『HP自動回復[Ⅲ] & マギアダメージUP[Ⅲ](味全/∞)』を発動",
+                            "artId1": 9774,
+                            "art1": {
+                                "artId": 9774,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "ALL",
+                                "effectValue": 40,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId2": 9776,
+                            "art2": {
+                                "artId": 9776,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "ALL",
+                                "effectValue": 140,
+                                "growPoint": 0
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "evolutionCardId1": 16015,
+                "evolutionCard1": {
+                    "cardId": 16015,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "INFINITE",
+                    "growthType": "BALANCE",
+                    "attack": 2542,
+                    "defense": 2500,
+                    "hp": 8292,
+                    "miniCharaNo": 160100,
+                    "charaNo": 1601,
+                    "cardName": "∞いろは",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 16015,
+                        "groupId": 1014,
+                        "name": "集結の百夢",
+                        "shortDescription": "敵全体に属性強化ダメージ[Ⅶ] & デバフ効果・状態異常を1回無効 & HP自動回復(味全/3T) & 状態異常解除(味全) & 蘇生",
+                        "artId1": 100300207,
+                        "art1": {
+                            "artId": 100300207,
+                            "verbCode": "ATTACK",
+                            "effectCode": "ALIGNMENT",
+                            "targetId": "ALL",
+                            "effectValue": 3350,
+                            "growPoint": 100
+                        },
+                        "artId2": 200100613,
+                        "art2": {
+                            "artId": 200100613,
+                            "verbCode": "RESURRECT",
+                            "targetId": "ONE",
+                            "effectValue": 500,
+                            "growPoint": 10
+                        },
+                        "artId3": 630319100,
+                        "art3": {
+                            "artId": 630319100,
+                            "verbCode": "IGNORE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000,
+                            "genericValue": "NONE"
+                        },
+                        "artId4": 630320800,
+                        "art4": {
+                            "artId": 630320800,
+                            "verbCode": "IGNORE",
+                            "effectCode": "CONDITION_BAD",
+                            "targetId": "ALL",
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 1000,
+                            "genericValue": "NONE"
+                        },
+                        "artId5": 630307709,
+                        "art5": {
+                            "artId": 630307709,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId6": 200301000,
+                        "art6": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 16015,
+                        "groupId": 1129,
+                        "name": "私たちが思い描いた明日へ！",
+                        "shortDescription": "HP自動回復[Ⅹ](3T) & 攻撃力UP[Ⅹ] & 防御力UP[Ⅹ]",
+                        "artId1": 630407710,
+                        "art1": {
+                            "artId": 630407710,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "CONNECT",
+                            "effectValue": 110,
+                            "enableTurn": 3,
+                            "growPoint": 10,
+                            "probability": 1000
+                        },
+                        "artId2": 310401110,
+                        "art2": {
+                            "artId": 310401110,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 425,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 310401210,
+                        "art3": {
+                            "artId": 310401210,
+                            "verbCode": "BUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "CONNECT",
+                            "effectValue": 1125,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [
+                        {
+                            "id": 16011,
+                            "groupId": 1129,
+                            "name": "明日への架け橋",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『HP自動回復[Ⅱ] & マギアダメージUP[Ⅱ](味全/∞)』を発動",
+                            "artId1": 9773,
+                            "art1": {
+                                "artId": 9773,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "ALL",
+                                "effectValue": 30,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId2": 9775,
+                            "art2": {
+                                "artId": 9775,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "ALL",
+                                "effectValue": 120,
+                                "growPoint": 0
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ],
+                    "maxPieceSkillList": [
+                        {
+                            "id": 16012,
+                            "groupId": 1129,
+                            "name": "明日への架け橋(最大解放)",
+                            "type": "STARTUP",
+                            "shortDescription": "クエスト開始時に『HP自動回復[Ⅲ] & マギアダメージUP[Ⅲ](味全/∞)』を発動",
+                            "artId1": 9774,
+                            "art1": {
+                                "artId": 9774,
+                                "verbCode": "CONDITION_GOOD",
+                                "effectCode": "AUTO_HEAL",
+                                "targetId": "ALL",
+                                "effectValue": 40,
+                                "growPoint": 0,
+                                "probability": 1000
+                            },
+                            "artId2": 9776,
+                            "art2": {
+                                "artId": 9776,
+                                "verbCode": "BUFF",
+                                "effectCode": "MAGIA",
+                                "targetId": "ALL",
+                                "effectValue": 140,
+                                "growPoint": 0
+                            },
+                            "skillEffectRange": "ALL"
+                        }
+                    ]
+                },
+                "description": "救いを求める魔法少女に、明日を与える力を身に付けた少女。三位一体となって成立したこの姿の中には、目には見えないふたりの姿が隠されている。普段は他の少女たちと共同生活を送って慌ただしく過ごしているが、その理由はわからない。",
+                "school": "―",
+                "designer": "蒼樹うめ",
+                "voiceActor": "麻倉もも",
+                "openDate": "2022/08/22 15:10:00",
+                "enhancementGroupId": 189
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "0d5a5010-1d19-4f0b-8afe-dd0ab550defb",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 160100,
+            "npcHelpId": 320,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1798,
+            "piece": {
+                "pieceId": 1798,
+                "pieceType": "SKILL",
+                "pieceName": "なんでもない運命の悪戯",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1601",
+                "charaList": [
+                    {
+                        "charaId": 1601,
+                        "name": "∞いろは"
+                    }
+                ],
+                "attack": 0,
+                "defense": 441,
+                "hp": 521,
+                "skillId": 179800,
+                "pieceSkill": {
+                    "id": 179800,
+                    "groupId": 1166,
+                    "name": "アクセルドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "Acceleドロー",
+                    "messageId": 70,
+                    "artId1": 700211800,
+                    "art1": {
+                        "artId": 700211800,
+                        "verbCode": "DRAW",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 179801,
+                "pieceSkill2": {
+                    "id": 179801,
+                    "groupId": 1166,
+                    "name": "アクセルドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 4,
+                    "shortDescription": "Acceleドロー",
+                    "messageId": 70,
+                    "artId1": 700211800,
+                    "art1": {
+                        "artId": 700211800,
+                        "verbCode": "DRAW",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "それは、変わらない日常の中で起きたちょっとした変化＠ただ、足元に石ころが転がってきて蹴っただけ＠それでも運命は大きく変わることになった＠死ぬか…生かすか…それほどの違いが未来で待っている",
+                "illustrator": "都筑禰己",
+                "openDate": "2022/08/22 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 661,
+            "hp": 781,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 320
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 320
+        },
+        {
+            "pieceId": 1565,
+            "piece": {
+                "pieceId": 1565,
+                "pieceType": "ABILITY",
+                "pieceName": "初めてのお化粧",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 702,
+                "defense": 0,
+                "hp": 582,
+                "skillId": 156500,
+                "pieceSkill": {
+                    "id": 156500,
+                    "groupId": 1120,
+                    "name": "モラールシールド・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージカット状態[Ⅱ] & MP獲得量UP[Ⅱ]",
+                    "artId1": 690206202,
+                    "art1": {
+                        "artId": 690206202,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201902,
+                    "art2": {
+                        "artId": 390201902,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 75,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 156501,
+                "pieceSkill2": {
+                    "id": 156501,
+                    "groupId": 1120,
+                    "name": "モラールシールド・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "ダメージカット状態[Ⅲ] & MP獲得量UP[Ⅲ]",
+                    "artId1": 690206203,
+                    "art1": {
+                        "artId": 690206203,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201903,
+                    "art2": {
+                        "artId": 390201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL"
+                },
+                "description": "「これが、ミィ…」＠まぶたを開けたら、自分が自分じゃないみたいだった＠ほっぺやくちびるにほんのり色がついただけなのに＠ちょっぴり大人になれちゃう、姉ちゃの不思議な不思議な魔法",
+                "illustrator": "―",
+                "openDate": "2020/11/16 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 1053,
+            "defense": 0,
+            "hp": 873,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 320
+        },
+        {
+            "pieceId": 1657,
+            "piece": {
+                "pieceId": 1657,
+                "pieceType": "SKILL",
+                "pieceKind": "EVENT",
+                "pieceName": "未来を語り、鬼は笑う",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 0,
+                "defense": 553,
+                "hp": 673,
+                "skillId": 165700,
+                "pieceSkill": {
+                    "id": 165700,
+                    "groupId": 1088,
+                    "name": "モラールマギアライズ[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "マギアダメージUP[Ⅴ] & MP獲得量UP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201405,
+                    "art1": {
+                        "artId": 330201405,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201903,
+                    "art2": {
+                        "artId": 330201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "eventId": 1141,
+                    "eventArtId1": 1141001,
+                    "eventArt1": {
+                        "artId": 1141001,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 1000,
+                        "genericValue": "EVENT_DAILYTOWER_1141_KEY"
+                    },
+                    "eventDescription": "＆「憩いのアイス」追加獲得数＋1",
+                    "skillEffectRange": "ALL"
+                },
+                "skillId2": 165701,
+                "pieceSkill2": {
+                    "id": 165701,
+                    "groupId": 1088,
+                    "name": "モラールマギアライズ[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "マギアダメージUP[Ⅴ] & MP獲得量UP[Ⅲ](自/3T)",
+                    "messageId": 70,
+                    "artId1": 330201405,
+                    "art1": {
+                        "artId": 330201405,
+                        "verbCode": "BUFF",
+                        "effectCode": "MAGIA",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId2": 330201903,
+                    "art2": {
+                        "artId": 330201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "eventId": 1141,
+                    "eventArtId1": 1141002,
+                    "eventArt1": {
+                        "artId": 1141002,
+                        "verbCode": "OTHER",
+                        "effectCode": "DROPADD",
+                        "effectValue": 5000,
+                        "genericValue": "EVENT_DAILYTOWER_1141_KEY"
+                    },
+                    "eventDescription": "＆「憩いのアイス」追加獲得数＋5",
+                    "skillEffectRange": "ALL"
+                },
+                "description": "あの日、語り合ったのは幸せでありふれた未来＠当たり前に訪れると思ったその景色が目の前で崩れ落ちたあの日＠恨みの想いに飲み込まれ、大切な人の教えすら忘れかけたあの日＠少女は鬼となり、未来を語ることなど虚しいだけだと、悲しげに笑った",
+                "illustrator": "―",
+                "openDate": "2021/08/10 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 829,
+            "hp": 1009,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 320
+        }
+    ],
+    "isNpc": true,
+    "userName": "∞いろは",
+    "userRank": 100,
+    "cardId": 16015,
+    "charaName": "∞いろは",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 16015,
+    "revision": 3,
+    "follow": false,
+    "follower": false
+}
