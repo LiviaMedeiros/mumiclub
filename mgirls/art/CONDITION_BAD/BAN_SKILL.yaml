@@ -81,6 +81,14 @@
     enableTurn: 1
     growPoint: 0
     probability: 400
+  10:
+    artId: 510305710
+    verbCode: CONDITION_BAD
+    effectCode: BAN_SKILL
+    targetId: ALL
+    enableTurn: 1
+    growPoint: 0
+    probability: 525
 5103058:
 - artId: 510305800
   verbCode: CONDITION_BAD
@@ -94,6 +102,14 @@
   verbCode: CONDITION_BAD
   effectCode: BAN_SKILL
   targetId: TARGET
+  enableTurn: 2
+  growPoint: 0
+  probability: 1000
+5203058:
+- artId: 520305800
+  verbCode: CONDITION_BAD
+  effectCode: BAN_SKILL
+  targetId: ALL
   enableTurn: 2
   growPoint: 0
   probability: 1000
@@ -130,4 +146,12 @@
     enableTurn: 3
     growPoint: 0
     probability: 800
+5303058:
+- artId: 530305800
+  verbCode: CONDITION_BAD
+  effectCode: BAN_SKILL
+  targetId: ALL
+  enableTurn: 3
+  growPoint: 0
+  probability: 1000
 ...

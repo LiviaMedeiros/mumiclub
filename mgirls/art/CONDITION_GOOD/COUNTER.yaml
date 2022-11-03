@@ -45,6 +45,15 @@
   enableTurn: 1
   growPoint: 0
   probability: 1000
+6104224:
+- artId: 610422400
+  verbCode: CONDITION_GOOD
+  effectCode: COUNTER
+  targetId: CONNECT
+  effectValue: 1200
+  enableTurn: 1
+  growPoint: 0
+  probability: 1000
 6303070:
   2:
     artId: 630307002
@@ -73,6 +82,24 @@
     enableTurn: 3
     growPoint: 0
     probability: 250
+6303224:
+- artId: 630322400
+  verbCode: CONDITION_GOOD
+  effectCode: COUNTER
+  targetId: ALL
+  effectValue: 1200
+  enableTurn: 3
+  growPoint: 0
+  probability: 1000
+6502224:
+- artId: 650222400
+  verbCode: CONDITION_GOOD
+  effectCode: COUNTER
+  targetId: SELF
+  effectValue: 1200
+  enableTurn: 5
+  growPoint: 0
+  probability: 1000
 6902070:
   2:
     artId: 690207002
