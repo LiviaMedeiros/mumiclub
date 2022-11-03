@@ -1,0 +1,88 @@
+---
+pieceId: 1811
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 夕日のように輝いて
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 584
+hp: 644
+skillId: 181100
+pieceSkill:
+  id: 181100
+  groupId: 1095
+  name: ガードブレイク[Ⅱ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 防御力DOWN[Ⅱ] & さらに防御力DOWN[Ⅲ](敵単/1T)
+  messageId: 72
+  artId1: 410002102
+  art1:
+    artId: 410002102
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002103
+  art2:
+    artId: 410002103
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1173
+  eventArtId1: 1173001
+  eventArt1:
+    artId: 1173001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1173_EXCHANGE_1
+  eventDescription: ＆「ふたりの青春」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 181101
+pieceSkill2:
+  id: 181101
+  groupId: 1095
+  name: ガードブレイク[Ⅱ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 防御力DOWN[Ⅱ] & さらに防御力DOWN[Ⅲ](敵単/1T)
+  messageId: 72
+  artId1: 410002102
+  art1:
+    artId: 410002102
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410002103
+  art2:
+    artId: 410002103
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1173
+  eventArtId1: 1173002
+  eventArt1:
+    artId: 1173002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1173_EXCHANGE_1
+  eventDescription: ＆「ふたりの青春」追加獲得数＋5
+  skillEffectRange: ALL
+description: どこまでも行けるような気がしていた＠何でもできる気がしていた…何にでもなれる気がしていた＠他の誰から理解されなくても、これがふたりの青春＠沈んでいく太陽は最後の輝きを放っていた
+illustrator: ―
+openDate: 2022/09/20 15:10:00
+...

@@ -1,0 +1,85 @@
+---
+pieceId: 1814
+pieceType: ABILITY
+pieceName: 毎日がはじまる場所
+attributeId: ALL
+rank: RANK_3
+charaIds: "1216"
+charaList:
+- charaId: 1216
+  name: 和泉 十七夜 常闇ver.
+attack: 501
+defense: 0
+hp: 461
+skillId: 181400
+pieceSkill:
+  id: 181400
+  groupId: 1092
+  name: デスペレイト・アタック[Ⅴ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅴ] & Blast攻撃時MP獲得[Ⅲ] & 防御力DOWN[Ⅲ]
+  artId1: 390201805
+  art1:
+    artId: 390201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    growPoint: 25
+    probability: 1000
+  artId2: 690220003
+  art2:
+    artId: 690220003
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  artId3: 9825
+  art3:
+    artId: 9825
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 0
+  skillEffectRange: ALL
+skillId2: 181401
+pieceSkill2:
+  id: 181401
+  groupId: 1092
+  name: デスペレイト・アタック[Ⅶ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅶ] & Blast攻撃時MP獲得[Ⅴ] & 防御力DOWN[Ⅲ]
+  artId1: 390201807
+  art1:
+    artId: 390201807
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 450
+    growPoint: 25
+    probability: 1000
+  artId2: 690220005
+  art2:
+    artId: 690220005
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 50
+    growPoint: 0
+    probability: 1000
+  artId3: 9825
+  art3:
+    artId: 9825
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 0
+  skillEffectRange: ALL
+description: それは、数ある団地の扉のひとつに過ぎないけれど＠中には、この部屋だけの物語と思い出がある＠軋む扉の音とともに、いつかのできごとたちがよみがえる＠それは、かけがえのない家族の記憶
+illustrator: 都筑禰己
+openDate: 2022/10/03 15:10:00
+...

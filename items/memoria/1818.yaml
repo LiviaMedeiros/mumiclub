@@ -1,0 +1,69 @@
+---
+pieceId: 1818
+pieceType: ABILITY
+pieceName: 「ただいま…」
+attributeId: ALL
+rank: RANK_3
+charaIds: "1217"
+charaList:
+- charaId: 1217
+  name: 八雲 みたま 常闇ver.
+attack: 441
+defense: 0
+hp: 521
+skillId: 181800
+pieceSkill:
+  id: 181800
+  groupId: 1130
+  name: マナ・エキスパート[Ⅳ]
+  type: ABILITY
+  shortDescription: 自分のMPが15%溜まった状態でバトル開始 & Accele MPUP[Ⅳ]
+  artId1: 790213600
+  art1:
+    artId: 790213600
+    verbCode: INITIAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 0
+    probability: 1000
+  artId2: 390201604
+  art2:
+    artId: 390201604
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 175
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 181801
+pieceSkill2:
+  id: 181801
+  groupId: 1130
+  name: マナ・エキスパート[Ⅴ]
+  type: ABILITY
+  shortDescription: 自分のMPが20%溜まった状態でバトル開始 & Accele MPUP[Ⅴ]
+  artId1: 790212300
+  art1:
+    artId: 790212300
+    verbCode: INITIAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 200
+    growPoint: 0
+    probability: 1000
+  artId2: 390201605
+  art2:
+    artId: 390201605
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+description: ふわふわの泡は嫌なことを洗い流してくれる＠温かなお湯は身体だけではなく心も温めてくれる＠外の世界で忘れてしまった些細な幸福がここにはある＠だから、ここはわたしがわたしに戻れる場所
+illustrator: 都筑禰己
+openDate: 2022/10/24 15:10:00
+...

@@ -1,0 +1,89 @@
+---
+pieceId: 1779
+pieceType: ABILITY
+pieceName: 誰も知らない、私たちの記録
+attributeId: ALL
+rank: RANK_4
+charaIds: "1001,1015"
+charaList:
+- charaId: 1001
+  name: 環 いろは
+- charaId: 1015
+  name: 環 うい
+attack: 810
+defense: 0
+hp: 930
+skillId: 177900
+pieceSkill:
+  id: 177900
+  groupId: 1093
+  name: 誰も知らない、私たちの記録
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅳ] & ダメージカット状態[Ⅲ] & HP自動回復[Ⅲ]
+  artId1: 390201904
+  art1:
+    artId: 390201904
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId2: 690206203
+  art2:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 690207703
+  art3:
+    artId: 690207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+skillId2: 177901
+pieceSkill2:
+  id: 177901
+  groupId: 1093
+  name: 誰も知らない、私たちの記録
+  type: ABILITY
+  shortDescription: MP獲得量UP[Ⅳ] & ダメージカット状態[Ⅲ] & HP自動回復[Ⅲ]
+  artId1: 390201904
+  art1:
+    artId: 390201904
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId2: 690206203
+  art2:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 690207703
+  art3:
+    artId: 690207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+description: Blu-ray&DVD 第2巻 描き下ろしジャケットイラスト2＠（TVアニメ Final SEASON）
+illustrator: 谷口淳一郎
+openDate: 2022/06/28 00:00:00
+...
