@@ -1,0 +1,207 @@
+---
+id: 24364
+shopId: 66
+shopItemType: CARD
+genericId: "11074"
+cardNum: 1
+card:
+  cardId: 11074
+  rank: RANK_4
+  attributeId: DARK
+  initialType: SUPPORT
+  growthType: DEFHP
+  attack: 1899
+  defense: 1812
+  hp: 6651
+  miniCharaNo: 110700
+  charaNo: 1107
+  cardName: 灯花・ねむ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 11074
+    groupId: 1014
+    name: クリスマスゴースト・カミング
+    shortDescription: 敵全体にダメージ[Ⅴ] & 与えるダメージDOWN & 攻撃力DOWN(敵全/3T) & 闇属性攻撃力UP(自/5T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 430302203
+    art2:
+      artId: 430302203
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId3: 430302001
+    art3:
+      artId: 430302001
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 350221205
+    art4:
+      artId: 350221205
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 5
+      growPoint: 25
+  cardSkill:
+    id: 11074
+    groupId: 1087
+    name: 一緒に絆を結びなおそー！
+    shortDescription: 与えるダメージUP[Ⅶ] & 闇属性攻撃力UP[Ⅶ] & 必ず幻惑
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421207
+    art2:
+      artId: 310421207
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610411100
+    art3:
+      artId: 610411100
+      verbCode: ENCHANT
+      effectCode: BLINDNESS
+      targetId: CONNECT
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1107
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 11074
+  defaultCard:
+    cardId: 11074
+    rank: RANK_4
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: DEFHP
+    attack: 1899
+    defense: 1812
+    hp: 6651
+    miniCharaNo: 110700
+    charaNo: 1107
+    cardName: 灯花・ねむ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 11074
+      groupId: 1014
+      name: クリスマスゴースト・カミング
+      shortDescription: 敵全体にダメージ[Ⅴ] & 与えるダメージDOWN & 攻撃力DOWN(敵全/3T) & 闇属性攻撃力UP(自/5T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302203
+      art2:
+        artId: 430302203
+        verbCode: DEBUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430302001
+      art3:
+        artId: 430302001
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 350221205
+      art4:
+        artId: 350221205
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 5
+        growPoint: 25
+    cardSkill:
+      id: 11074
+      groupId: 1087
+      name: 一緒に絆を結びなおそー！
+      shortDescription: 与えるダメージUP[Ⅶ] & 闇属性攻撃力UP[Ⅶ] & 必ず幻惑
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421207
+      art2:
+        artId: 310421207
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610411100
+      art3:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: とうか・ねむ
+  title: 聖夜ver.
+  description: ある強い想いがきっかけで、聖夜がモチーフの姿に変身した魔法少女。不思議な日記を通してクリスマスを巡りながら、自分たちの身に起きた不思議な現象を調べている。口には出さないが、自分たちの格好は気に入っている。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】灯花・ねむ 聖夜ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 3
+isDetailView: false
+viewStartAt: 2022/12/12 17:00:00
+startAt: 2022/12/12 15:10:00
+endAt: 2022/12/20 14:59:59
+...
