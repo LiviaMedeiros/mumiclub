@@ -25,26 +25,17 @@ pieceSkill:
     effectValue: 550
     enableTurn: 1
     growPoint: 25
-  regularEventId: 2009
-  regularEventArtId1: 350201106
+  regularEventId: 2024
+  regularEventArtId1: 530014901
   regularEventArt1:
-    artId: 350201106
-    verbCode: BUFF
-    effectCode: ATTACK
-    targetId: SELF
-    effectValue: 300
-    enableTurn: 5
-    growPoint: 25
-  regularEventArtId2: 650206603
-  regularEventArt2:
-    artId: 650206603
-    verbCode: CONDITION_GOOD
-    effectCode: DEFENSE_IGNORED
-    targetId: SELF
-    enableTurn: 5
+    artId: 530014901
+    verbCode: CONDITION_BAD
+    effectCode: INVALID_HEAL_HP
+    targetId: TARGET
+    enableTurn: 3
     growPoint: 0
-    probability: 200
-  regularEventDescription: ' 【殲滅戦時追加で攻撃力UP[Ⅵ] & 確率で防御無視[Ⅲ](自/5T)】'
+    probability: 300
+  regularEventDescription: ' 【殲滅戦時追加で確率でHP回復禁止(敵単/3T)】'
   skillEffectRange: ALL
 skillId2: 111301
 pieceSkill2:
@@ -64,26 +55,17 @@ pieceSkill2:
     effectValue: 600
     enableTurn: 1
     growPoint: 25
-  regularEventId: 2009
-  regularEventArtId1: 350201110
+  regularEventId: 2024
+  regularEventArtId1: 520015000
   regularEventArt1:
-    artId: 350201110
-    verbCode: BUFF
-    effectCode: ATTACK
-    targetId: SELF
-    effectValue: 500
-    enableTurn: 5
-    growPoint: 25
-  regularEventArtId2: 650206605
-  regularEventArt2:
-    artId: 650206605
-    verbCode: CONDITION_GOOD
-    effectCode: DEFENSE_IGNORED
-    targetId: SELF
-    enableTurn: 5
+    artId: 520015000
+    verbCode: CONDITION_BAD
+    effectCode: INVALID_HEAL_HP
+    targetId: TARGET
+    enableTurn: 2
     growPoint: 0
-    probability: 300
-  regularEventDescription: 【殲滅戦時追加で攻撃力UP[X] & 確率で防御無視[Ⅴ](自/5T)】
+    probability: 1000
+  regularEventDescription: 【殲滅戦時追加で必ずHP回復禁止(敵単/2T)】
   skillEffectRange: ALL
 description: あたしの願いなんてちっぽけなもんだよ。良かれと思ったのに、＠結局は失敗しちまったんだ…。だからこそ、あたしは心に決めた。＠今度は失敗しない、自分のためだけに生きるって。＠これがあたしのさ、曲げられない信念なんだよ。
 illustrator: 谷口淳一郎

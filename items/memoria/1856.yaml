@@ -1,0 +1,106 @@
+---
+pieceId: 1856
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 束の間の安らぎ
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 900
+hp: 900
+skillId: 185600
+pieceSkill:
+  id: 185600
+  groupId: 1091
+  name: Fフルスウィングライズ[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: Charge後ダメージUP[Ⅴ] & Blast ダメージUP[Ⅴ] & 火属性攻撃力UP[Ⅵ](自/3T)
+  messageId: 70
+  artId1: 330201705
+  art1:
+    artId: 330201705
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201805
+  art2:
+    artId: 330201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 3
+    growPoint: 25
+  artId3: 330221106
+  art3:
+    artId: 330221106
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: SELF
+    effectValue: 175
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1183
+  eventArtId1: 1183003
+  eventArt1:
+    artId: 1183003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1183_KEY
+  eventDescription: ＆「群印」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 185601
+pieceSkill2:
+  id: 185601
+  groupId: 1091
+  name: Fフルスウィングライズ[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: Charge後ダメージUP[Ⅵ] & Blast ダメージUP[Ⅵ] & 火属性攻撃力UP[Ⅶ](自/3T)
+  messageId: 70
+  artId1: 330201706
+  art1:
+    artId: 330201706
+    verbCode: BUFF
+    effectCode: CHARGE
+    targetId: SELF
+    effectValue: 175
+    enableTurn: 3
+    growPoint: 25
+  artId2: 330201806
+  art2:
+    artId: 330201806
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 400
+    enableTurn: 3
+    growPoint: 25
+  artId3: 330221107
+  art3:
+    artId: 330221107
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1183
+  eventArtId1: 1183004
+  eventArt1:
+    artId: 1183004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1183_KEY
+  eventDescription: ＆「群印」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「もうすぐ終わるから、あとで妖魔を倒しに行きましょう」＠「のんびりしてぇところだけど、仕方ねぇよな」＠「私たちは食べてるぶんだけ働いて、みんなを救わないと」＠「働き手が多い方が未来の米が増えるしな」「あら、割と打算的ね」
+illustrator: ―
+openDate: 2023/01/27 15:10:00
+...

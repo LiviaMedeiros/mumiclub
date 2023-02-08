@@ -1,0 +1,88 @@
+---
+pieceId: 1845
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: ほんとうの終わりへ
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 900
+hp: 900
+skillId: 184500
+pieceSkill:
+  id: 184500
+  groupId: 1088
+  name: モラールマギア[Ⅸ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: マギアダメージUP[Ⅸ] & MP獲得量UP[Ⅸ](自/1T)
+  messageId: 70
+  artId1: 310201409
+  art1:
+    artId: 310201409
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201909
+  art2:
+    artId: 310201909
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1181
+  eventArtId1: 1181003
+  eventArt1:
+    artId: 1181003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1181_EXCHANGE_1
+  eventDescription: ＆「初夢祈願」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 184501
+pieceSkill2:
+  id: 184501
+  groupId: 1088
+  name: モラールマギア[Ⅹ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: マギアダメージUP[Ⅹ] & MP獲得量UP[Ⅹ](自/1T)
+  messageId: 70
+  artId1: 310201410
+  art1:
+    artId: 310201410
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 275
+    enableTurn: 1
+    growPoint: 25
+  artId2: 310201910
+  art2:
+    artId: 310201910
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 275
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1181
+  eventArtId1: 1181004
+  eventArt1:
+    artId: 1181004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1181_EXCHANGE_1
+  eventDescription: ＆「初夢祈願」追加獲得数＋15
+  skillEffectRange: ALL
+description: たとえ出口を見失って、時をめぐる迷子になっても＠たとえ道を間違えて、何度もふりだしに戻されても＠ただふたりで目指せばいい、初日のひかりふる明るい場所を＠ほんとうの終わりが訪れる、明るい場所を
+illustrator: ―
+openDate: 2023/01/01 00:00:00
+...
