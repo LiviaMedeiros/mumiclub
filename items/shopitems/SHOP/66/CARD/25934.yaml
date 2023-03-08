@@ -1,0 +1,234 @@
+---
+id: 25934
+shopId: 66
+shopItemType: CARD
+genericId: "10434"
+cardNum: 1
+card:
+  cardId: 10434
+  rank: RANK_4
+  attributeId: DARK
+  initialType: SUPPORT
+  growthType: ATKHP
+  attack: 2012
+  defense: 1754
+  hp: 6721
+  miniCharaNo: 104300
+  charaNo: 1043
+  cardName: 黒江
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 10434
+    groupId: 1021
+    name: カラミタス・ガーラ
+    shortDescription: ランダム4回　属性強化ダメージ[Ⅴ] & 闇属性攻撃力UP(味全/3T) & デバフ解除 & 状態異常解除(味全) &
+      MP回復(自)
+    artId1: 101100205
+    art1:
+      artId: 101100205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: RANDOM4
+      effectValue: 2736
+      growPoint: 100
+    artId2: 330321209
+    art2:
+      artId: 330321209
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 200300800
+    art3:
+      artId: 200300800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: ALL
+      growPoint: 0
+    artId4: 200301000
+    art4:
+      artId: 200301000
+      verbCode: REVOKE
+      effectCode: BAD
+      targetId: ALL
+      growPoint: 0
+    artId5: 200200505
+    art5:
+      artId: 200200505
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 300
+      growPoint: 10
+  cardSkill:
+    id: 10434
+    groupId: 1087
+    name: 見捨てることはできないし…
+    shortDescription: 与えるダメージUP[Ⅶ] & Accele MPUP[Ⅴ] & MP獲得量UP[Ⅴ]
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401605
+    art2:
+      artId: 310401605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId3: 310401905
+    art3:
+      artId: 310401905
+      verbCode: BUFF
+      effectCode: MP_GAIN
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    artId4: 9672
+    art4:
+      artId: 9672
+      verbCode: HEAL
+      effectCode: MP
+      targetId: LIMITED
+      effectValue: 300
+      growPoint: 0
+      limitedValue: "1001"
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1043
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 10434
+  defaultCard:
+    cardId: 10434
+    rank: RANK_4
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 2012
+    defense: 1754
+    hp: 6721
+    miniCharaNo: 104300
+    charaNo: 1043
+    cardName: 黒江
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10434
+      groupId: 1021
+      name: カラミタス・ガーラ
+      shortDescription: ランダム4回　属性強化ダメージ[Ⅴ] & 闇属性攻撃力UP(味全/3T) & デバフ解除 & 状態異常解除(味全)
+        & MP回復(自)
+      artId1: 101100205
+      art1:
+        artId: 101100205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: RANDOM4
+        effectValue: 2736
+        growPoint: 100
+      artId2: 330321209
+      art2:
+        artId: 330321209
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 200300800
+      art3:
+        artId: 200300800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: ALL
+        growPoint: 0
+      artId4: 200301000
+      art4:
+        artId: 200301000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: ALL
+        growPoint: 0
+      artId5: 200200505
+      art5:
+        artId: 200200505
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 300
+        growPoint: 10
+    cardSkill:
+      id: 10434
+      groupId: 1087
+      name: 見捨てることはできないし…
+      shortDescription: 与えるダメージUP[Ⅶ] & Accele MPUP[Ⅴ] & MP獲得量UP[Ⅴ]
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401605
+      art2:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401905
+      art3:
+        artId: 310401905
+        verbCode: BUFF
+        effectCode: MP_GAIN
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+      artId4: 9672
+      art4:
+        artId: 9672
+        verbCode: HEAL
+        effectCode: MP
+        targetId: LIMITED
+        effectValue: 300
+        growPoint: 0
+        limitedValue: "1001"
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: くろえ
+  description: 宝崎市に住む魔法少女。いろはと一緒に魔女と戦うこともあるが、定期的に情報交換をする程度の仲。命がけで戦うことに恐れを抱き、魔法少女であることから救われたいと感じている。とある噂をきっかけに、神浜市へと執着し始める。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】黒江
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+viewStartAt: 2023/02/27 16:00:00
+startAt: 2023/02/27 15:10:00
+endAt: 2023/03/10 14:59:59
+...

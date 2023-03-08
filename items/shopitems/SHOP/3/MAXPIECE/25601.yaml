@@ -1,0 +1,81 @@
+---
+id: 25601
+shopId: 3
+shopItemType: MAXPIECE
+genericId: "1225"
+piece:
+  pieceId: 1225
+  pieceType: ABILITY
+  pieceName: お出かけは清楚な装いで
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 0
+  hp: 1600
+  skillId: 122500
+  pieceSkill:
+    id: 122500
+    groupId: 1129
+    name: ニートネス・アデプト[Ⅰ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅰ] & 状態異常耐性UP[Ⅱ]
+    artId1: 690207701
+    art1:
+      artId: 690207701
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 20
+      growPoint: 10
+      probability: 1000
+    artId2: 390201502
+    art2:
+      artId: 390201502
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  skillId2: 122501
+  pieceSkill2:
+    id: 122501
+    groupId: 1129
+    name: ニートネス・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: HP自動回復[Ⅱ] & 状態異常耐性UP[Ⅲ]
+    artId1: 690207702
+    art1:
+      artId: 690207702
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 30
+      growPoint: 10
+      probability: 1000
+    artId2: 390201503
+    art2:
+      artId: 390201503
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+  description: 真っ白なワンピースに身を包んで、お出かけしよう。＠汚しちゃったらどうしよう…なんて、ドキドキするけど、＠二人一緒なら、きっとどんなことでも楽しめちゃうよね。＠さあ、はぐれないように、迷わないように、ぎゅっと手を繋ごう
+  illustrator: 中村直人
+  openDate: 2018/06/18 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 2000
+limitedNumber: 1
+name: お出かけは清楚な装いで
+description: メモリア『お出かけは清楚な装いで』(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 71
+isDetailView: false
+viewStartAt: 2023/02/10 16:00:00
+startAt: 2023/02/10 15:10:00
+...
