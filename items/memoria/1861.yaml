@@ -1,0 +1,102 @@
+---
+pieceId: 1861
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 飛び跳ねるほどのテンパリング
+attributeId: ALL
+rank: RANK_4
+attack: 780
+defense: 0
+hp: 980
+skillId: 186100
+pieceSkill:
+  id: 186100
+  groupId: 1086
+  name: フルゲージ・ヒールシールド[Ⅳ]
+  type: ABILITY
+  shortDescription: HP最大時防御力UP[Ⅳ] & 防御力UP[Ⅲ] & HP自動回復[Ⅱ]
+  artId1: 390203204
+  art1:
+    artId: 390203204
+    verbCode: BUFF_HPMAX
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  artId3: 690207702
+  art3:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  eventId: 1184
+  eventArtId1: 1184003
+  eventArt1:
+    artId: 1184003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1184_EXCHANGE_1
+  eventDescription: ＆「ピュエラケアのチラシ」追加獲得数＋5
+  skillEffectRange: ALL
+skillId2: 186101
+pieceSkill2:
+  id: 186101
+  groupId: 1086
+  name: フルゲージ・ヒールシールド[Ⅴ]
+  type: ABILITY
+  shortDescription: HP最大時防御力UP[Ⅴ] & 防御力UP[Ⅳ] & HP自動回復[Ⅲ]
+  artId1: 390203205
+  art1:
+    artId: 390203205
+    verbCode: BUFF_HPMAX
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+    probability: 1000
+  artId2: 390201204
+  art2:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId3: 690207703
+  art3:
+    artId: 690207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    growPoint: 10
+    probability: 1000
+  eventId: 1184
+  eventArtId1: 1184004
+  eventArt1:
+    artId: 1184004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1184_EXCHANGE_1
+  eventDescription: ＆「ピュエラケアのチラシ」追加獲得数＋15
+  skillEffectRange: ALL
+description: 「えいえいえいっ！わわわ、飛んじゃった～！ごめんね～」＠「ふっむむふむむん、ふんむーむ！＠（とっても甘くて、おいしいよ！）」＠「あ、味見してる！結果オーライって言うんだっけ？」
+illustrator: ―
+openDate: 2023/02/10 15:10:00
+...
