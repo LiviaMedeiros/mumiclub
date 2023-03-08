@@ -82,6 +82,14 @@
   growPoint: 10
   targetId: SELF
   verbCode: HEAL
+9865:
+  artId: 9865
+  effectCode: MP
+  effectValue: 200
+  growPoint: 0
+  limitedValue: "1043"
+  targetId: LIMITED
+  verbCode: HEAL
 100842:
   artId: 100842
   effectCode: MP
@@ -232,6 +240,20 @@
     effectValue: 350
     growPoint: 10
 2004005:
+  2:
+    artId: 200400502
+    verbCode: HEAL
+    effectCode: MP
+    targetId: CONNECT
+    effectValue: 150
+    growPoint: 10
+  3:
+    artId: 200400503
+    verbCode: HEAL
+    effectCode: MP
+    targetId: CONNECT
+    effectValue: 175
+    growPoint: 10
   4:
     artId: 200400504
     verbCode: HEAL
