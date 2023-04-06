@@ -1,4 +1,11 @@
 ---
+9858:
+  artId: 9858
+  effectCode: ATTACK_FIRE
+  effectValue: 200
+  growPoint: 0
+  targetId: ALL
+  verbCode: BUFF
 3103211:
   4:
     artId: 310321104
@@ -17,6 +24,22 @@
     enableTurn: 1
     growPoint: 25
 3104211:
+  1:
+    artId: 310421101
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: CONNECT
+    effectValue: 50
+    enableTurn: 1
+    growPoint: 25
+  3:
+    artId: 310421103
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: CONNECT
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
   7:
     artId: 310421107
     verbCode: BUFF
@@ -106,6 +129,22 @@
     effectValue: 200
     enableTurn: 3
     growPoint: 25
+  9:
+    artId: 330221109
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  11:
+    artId: 330221111
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
 3303211:
   2:
     artId: 330321102
@@ -164,6 +203,14 @@
     effectValue: 250
     enableTurn: 5
     growPoint: 25
+  13:
+    artId: 350221113
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 5
+    growPoint: 25
 3503211:
   7:
     artId: 350321107
@@ -195,5 +242,12 @@
     effectCode: ATTACK_FIRE
     targetId: SELF
     effectValue: 75
+    growPoint: 25
+  3:
+    artId: 390221103
+    verbCode: BUFF
+    effectCode: ATTACK_FIRE
+    targetId: SELF
+    effectValue: 100
     growPoint: 25
 ...
