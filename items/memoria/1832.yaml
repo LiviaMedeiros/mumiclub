@@ -1,0 +1,92 @@
+---
+pieceId: 1832
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: つつ闇の中で
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 614
+hp: 614
+skillId: 183200
+pieceSkill:
+  id: 183200
+  groupId: 1106
+  name: ポイズン・ゲイズ[Ⅳ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ず毒(敵単/1T) & 敵状態異常時ダメージUP[Ⅳ](自/1T)
+  messageId: 72
+  artId1: 510004600
+  art1:
+    artId: 510004600
+    verbCode: CONDITION_BAD
+    effectCode: POISON
+    targetId: TARGET
+    effectValue: 50
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610214604
+  art2:
+    artId: 610214604
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  eventId: 1178
+  eventArtId1: 1178001
+  eventArt1:
+    artId: 1178001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1178_KEY
+  eventDescription: ＆「アルちゃんのウォンテッドポスター」追加獲得数＋1
+  skillEffectRange: ALL
+skillId2: 183201
+pieceSkill2:
+  id: 183201
+  groupId: 1106
+  name: ポイズン・ゲイズ[Ⅳ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ず毒(敵単/1T) & 敵状態異常時ダメージUP[Ⅳ](自/1T)
+  messageId: 72
+  artId1: 510004600
+  art1:
+    artId: 510004600
+    verbCode: CONDITION_BAD
+    effectCode: POISON
+    targetId: TARGET
+    effectValue: 50
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610214604
+  art2:
+    artId: 610214604
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  eventId: 1178
+  eventArtId1: 1178002
+  eventArt1:
+    artId: 1178002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1178_KEY
+  eventDescription: ＆「アルちゃんのウォンテッドポスター」追加獲得数＋5
+  skillEffectRange: ALL
+description: 冷たい夜風がクタクタの体を鞭打つ＠初めての敗北が、心を闇色に蝕んでいく＠「こんなはずじゃなかったのに…」＠大好きな友だちの言葉も、今は遠くに聞こえる
+illustrator: ―
+openDate: 2022/11/25 15:10:00
+...
