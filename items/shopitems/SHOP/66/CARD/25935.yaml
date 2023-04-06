@@ -1,0 +1,208 @@
+---
+id: 25935
+shopId: 66
+shopItemType: CARD
+genericId: "10484"
+cardNum: 1
+card:
+  cardId: 10484
+  rank: RANK_4
+  attributeId: DARK
+  initialType: MAGIA
+  growthType: ATKHP
+  attack: 2299
+  defense: 2046
+  hp: 6268
+  miniCharaNo: 104800
+  charaNo: 1048
+  cardName: エボニー
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 10484
+    groupId: 1012
+    name: ホルスの眼差し　
+    shortDescription: 敵単体に属性強化ダメージ[Ⅵ] & 闇属性耐性DOWN(敵単/2T) & 闇属性攻撃力UP & ダメージUP(味全/3T)
+    artId1: 100000206
+    art1:
+      artId: 100000206
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: TARGET
+      effectValue: 8960
+      growPoint: 100
+    artId2: 9867
+    art2:
+      artId: 9867
+      verbCode: DEBUFF
+      effectCode: WEAK_DARK
+      targetId: TARGET
+      effectValue: 40
+      enableTurn: 2
+      growPoint: 0
+    artId3: 330321205
+    art3:
+      artId: 330321205
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630306103
+    art4:
+      artId: 630306103
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+  cardSkill:
+    id: 10484
+    groupId: 1087
+    name: ベンヌの双翼
+    shortDescription: 与えるダメージUP[Ⅶ] & MP回復[Ⅴ] & 必ず幻惑
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 200400505
+    art2:
+      artId: 200400505
+      verbCode: HEAL
+      effectCode: MP
+      targetId: CONNECT
+      effectValue: 225
+      growPoint: 10
+    artId3: 610411100
+    art3:
+      artId: 610411100
+      verbCode: ENCHANT
+      effectCode: BLINDNESS
+      targetId: CONNECT
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1048
+  attributeId: DARK
+  initialType: MAGIA
+  defaultCardId: 10484
+  defaultCard:
+    cardId: 10484
+    rank: RANK_4
+    attributeId: DARK
+    initialType: MAGIA
+    growthType: ATKHP
+    attack: 2299
+    defense: 2046
+    hp: 6268
+    miniCharaNo: 104800
+    charaNo: 1048
+    cardName: エボニー
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10484
+      groupId: 1012
+      name: ホルスの眼差し　
+      shortDescription: 敵単体に属性強化ダメージ[Ⅵ] & 闇属性耐性DOWN(敵単/2T) & 闇属性攻撃力UP & ダメージUP(味全/3T)
+      artId1: 100000206
+      art1:
+        artId: 100000206
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8960
+        growPoint: 100
+      artId2: 9867
+      art2:
+        artId: 9867
+        verbCode: DEBUFF
+        effectCode: WEAK_DARK
+        targetId: TARGET
+        effectValue: 40
+        enableTurn: 2
+        growPoint: 0
+      artId3: 330321205
+      art3:
+        artId: 330321205
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630306103
+      art4:
+        artId: 630306103
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_UP
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+        probability: 1000
+    cardSkill:
+      id: 10484
+      groupId: 1087
+      name: ベンヌの双翼
+      shortDescription: 与えるダメージUP[Ⅶ] & MP回復[Ⅴ] & 必ず幻惑
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200400505
+      art2:
+        artId: 200400505
+        verbCode: HEAL
+        effectCode: MP
+        targetId: CONNECT
+        effectValue: 225
+        growPoint: 10
+      artId3: 610411100
+      art3:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: えぼにー
+  description: ファラオに忠誠を誓う一族に生まれた魔法少女。幼い頃より王朝への服従を誓わされ、大人たちによって強制的に魔法少女の契約を結ばされた。自分は本当にファラオに尽くすためだけに生まれてきたのかと密かに疑問に感じている。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】エボニー
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+viewStartAt: 2023/03/10 18:00:00
+startAt: 2023/03/10 15:10:00
+endAt: 2023/03/20 14:59:59
+...

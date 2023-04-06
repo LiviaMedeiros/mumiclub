@@ -1,0 +1,114 @@
+---
+id: 26248
+shopId: 608
+shopItemType: PIECE
+genericId: "1333"
+piece:
+  pieceId: 1333
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 伸るか反るか
+  attributeId: ALL
+  rank: RANK_4
+  attack: 727
+  defense: 0
+  hp: 890
+  skillId: 133300
+  pieceSkill:
+    id: 133300
+    groupId: 1085
+    name: チェスト・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅴ] & 確率でカウンター無効[Ⅴ] & 防御力DOWN[Ⅴ]
+    artId1: 390203105
+    art1:
+      artId: 390203105
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 250
+      growPoint: 20
+      probability: 1000
+    artId2: 690208205
+    art2:
+      artId: 690208205
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      growPoint: 0
+      probability: 450
+    artId3: 9368
+    art3:
+      artId: 9368
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 250
+      growPoint: 0
+    eventId: 1056
+    eventArtId1: 1056003
+    eventArt1:
+      artId: 1056003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_DAILYTOWER_1056_EXCHANGE_1
+    eventDescription: ＆「レアリティースター」入手時＋3
+    skillEffectRange: ALL
+  skillId2: 133301
+  pieceSkill2:
+    id: 133301
+    groupId: 1085
+    name: チェスト・アデプト[Ⅵ]
+    type: ABILITY
+    shortDescription: HP最大時攻撃力UP[Ⅵ] & 必ずカウンター無効 & 防御力DOWN[Ⅴ]
+    artId1: 390203106
+    art1:
+      artId: 390203106
+      verbCode: BUFF_HPMAX
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      growPoint: 20
+      probability: 1000
+    artId2: 690208200
+    art2:
+      artId: 690208200
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId3: 9368
+    art3:
+      artId: 9368
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 250
+      growPoint: 0
+    eventId: 1056
+    eventArtId1: 1056004
+    eventArt1:
+      artId: 1056004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_DAILYTOWER_1056_EXCHANGE_1
+    eventDescription: ＆「レアリティースター」入手時＋7
+    skillEffectRange: ALL
+  description: 待ち焦がれたあの子に会うために、運命を託して一気に引くべきか＠単発でお得に引いて、天井を待つべきか＠寂しい懐事情を抱えながら＠冷静と興奮の狭間で、迷いの渦は深まるばかり…
+  illustrator: PAPA
+  openDate: 2019/04/15 15:10:00
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_PURPLE_1372
+needNumber: 200
+limitedNumber: 1
+name: メモリア『伸るか反るか』
+description: ★4メモリア『伸るか反るか』(Lv1/限界突破なし)
+sortkey: 9
+isDetailView: false
+viewStartAt: 2023/03/27 16:00:00
+startAt: 2023/03/27 15:10:00
+endAt: 2023/04/12 14:59:59
+...

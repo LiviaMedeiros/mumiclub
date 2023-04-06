@@ -1,0 +1,106 @@
+---
+id: 26262
+shopId: 609
+shopItemType: PIECE
+genericId: "1747"
+piece:
+  pieceId: 1747
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 悪魔でクールにレスキュー待ち
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 978
+  hp: 818
+  skillId: 174700
+  pieceSkill:
+    id: 174700
+    groupId: 1096
+    name: サンセットビーチ[Ⅷ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 与えるダメージDOWN[Ⅷ](敵単/1T) & ダメージカット状態[Ⅷ](自/1T)
+    messageId: 72
+    artId1: 410002208
+    art1:
+      artId: 410002208
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: TARGET
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610206208
+    art2:
+      artId: 610206208
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    eventId: 1188
+    eventArtId1: 1188003
+    eventArt1:
+      artId: 1188003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1188_KEY
+    eventDescription: ＆「ハワイ行のチケット」追加獲得数＋5
+    skillEffectRange: ALL
+  skillId2: 174701
+  pieceSkill2:
+    id: 174701
+    groupId: 1096
+    name: サンセットビーチ[Ⅹ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 与えるダメージDOWN[Ⅹ](敵単/1T) & ダメージカット状態[Ⅹ](自/1T)
+    messageId: 72
+    artId1: 410002210
+    art1:
+      artId: 410002210
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: TARGET
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610206210
+    art2:
+      artId: 610206210
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    eventId: 1188
+    eventArtId1: 1188004
+    eventArt1:
+      artId: 1188004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1188_KEY
+    eventDescription: ＆「ハワイ行のチケット」追加獲得数＋15
+    skillEffectRange: ALL
+  description: 気持ちよく浮輪で眠ったばかりに無人島に漂流してかれこれ数時間＠キャラ崩壊を防ぐため憂いの表情を保っているが、内心はパニック＠そんな涙目な悪魔の視線の先、現れたのは待ち焦がれた迎えの船＠「ま、まどかぁ…ごんなどごろまで迎えにぎでくれでありがどう」
+  illustrator: PAPA
+  openDate: 2022/04/08 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_SPECIAL_TICKET_12
+needNumber: 1
+limitedNumber: 2
+name: メモリア『悪魔でクールにレスキュー待ち』
+description: ★4メモリア『悪魔でクールにレスキュー待ち』(Lv1/限界突破なし)
+sortkey: 5
+isDetailView: false
+viewStartAt: 2023/03/27 16:00:00
+startAt: 2023/03/27 15:10:00
+endAt: 2023/04/12 14:59:59
+...
