@@ -1,0 +1,61 @@
+---
+questBattleId: 5189202
+sectionId: 518920
+eventId: 1189
+sectionIndex: 2
+questBattleType: NORMAL
+bossFlag: false
+startStory: 518920-2
+questStoryList: []
+placeId: "21181"
+bgm: bgm01_battle08
+bossBgm: bgm01_battle08
+consumeType: ITEM
+difficulty: 40
+exp: 80
+cardExp: 30
+baseBondsPt: 50
+riche: 500
+switchCharaId1: 1701
+switchNpcId1: 346
+firstClearRewardCodes: ITEM_EVENT_DAILYTOWER_1189_EXCHANGE_1_3
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 118902
+dropItem1:
+  dropItemId: 118902
+  rewardCode1: ITEM_EVENT_DAILYTOWER_1189_EXCHANGE_1_1
+mission1: HP_30
+missionMaster1:
+  description: 合計残HPが30％以上でクリア
+mission2: ACTION_10
+missionMaster2:
+  description: 10ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- LIGHT
+parameterMap: []
+useItemId: EVENT_DAILYTOWER_1189_KEY
+useItem:
+  itemCode: EVENT_DAILYTOWER_1189_KEY
+  name: from外宇宙
+  shortDescription: 「神浜MVD 環いろはの事件簿」のクエストプレイ用アイテム
+  description: 「神浜MVD 環いろはの事件簿」のクエストプレイ用アイテム
+  canUse: false
+  isSellable: false
+  treasureChestColor: ADDED_DROP
+  unit: 個
+  price: 0
+  sortKey: 0
+  eventId: 1189
+  invalidDropFactor: true
+needItemNum: 20
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
