@@ -1,0 +1,324 @@
+--- na/20065	2017-03-17 18:39:13.000000000 +0800
++++ jp/20065	2017-03-17 18:39:13.000000000 +0800
+@@ -176,9 +176,319 @@
+     "initialType": "ATTACK",
+     "magiaCharaNo": 200600,
+     "magiaId": 20065,
+-    "maxPieceSkillList": [],
++    "maxPieceSkillList": [
++        {
++            "art1": {
++                "artId": 690216507,
++                "effectCode": "DAMAGE_DOWN",
++                "growPoint": 0,
++                "probability": 600,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 390201105,
++                "effectCode": "ATTACK",
++                "effectValue": 250,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 690216507,
++            "artId2": 390201105,
++            "groupId": 1177,
++            "id": 170201,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 690206103,
++                "effectCode": "DAMAGE_UP",
++                "effectValue": 150,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art2": {
++                "artId": 390201103,
++                "effectCode": "ATTACK",
++                "effectValue": 150,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art3": {
++                "artId": 690208800,
++                "effectCode": "CURSE",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "artId1": 690206103,
++            "artId2": 390201103,
++            "artId3": 690208800,
++            "eventArt1": {
++                "artId": 1175004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_SINGLERAID_1175_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1175004,
++            "eventDescription": "＆「王様パンプキンキャンディ」追加獲得数＋15",
++            "eventId": 1175,
++            "groupId": 1119,
++            "id": 168601,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 310201108,
++                "effectCode": "ATTACK",
++                "effectValue": 400,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 310201805,
++                "effectCode": "BLAST",
++                "effectValue": 350,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 310201108,
++            "artId2": 310201805,
++            "eventArt1": {
++                "artId": 1154004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_DAILYTOWER_1154_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1154004,
++            "eventDescription": "＆「錆びついた紋章」追加獲得数＋15",
++            "eventId": 1154,
++            "groupId": 1085,
++            "id": 171301,
++            "intervalTurn": 5,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 630208212,
++                "effectCode": "COUNTER",
++                "enableTurn": 3,
++                "growPoint": 0,
++                "probability": 800,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 330201107,
++                "effectCode": "ATTACK",
++                "effectValue": 350,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 630208212,
++            "artId2": 330201107,
++            "eventArt1": {
++                "artId": 1059009,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_BRANCH_1059_PART_1",
++                "verbCode": "OTHER"
++            },
++            "eventArt2": {
++                "artId": 1059010,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_BRANCH_1059_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1059009,
++            "eventArtId2": 1059010,
++            "eventDescription": "＆赤つつじ入手時＋5＆白つつじ入手時+5",
++            "eventId": 1059,
++            "groupId": 1135,
++            "id": 134301,
++            "intervalTurn": 6,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "miniCharaNo": 200600,
+-    "pieceSkillList": [],
++    "pieceSkillList": [
++        {
++            "art1": {
++                "artId": 690216505,
++                "effectCode": "DAMAGE_DOWN",
++                "growPoint": 0,
++                "probability": 500,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 390201104,
++                "effectCode": "ATTACK",
++                "effectValue": 200,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 690216505,
++            "artId2": 390201104,
++            "groupId": 1177,
++            "id": 170200,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 690206103,
++                "effectCode": "DAMAGE_UP",
++                "effectValue": 150,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art2": {
++                "artId": 390201102,
++                "effectCode": "ATTACK",
++                "effectValue": 100,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art3": {
++                "artId": 690208800,
++                "effectCode": "CURSE",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "artId1": 690206103,
++            "artId2": 390201102,
++            "artId3": 690208800,
++            "eventArt1": {
++                "artId": 1175003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_SINGLERAID_1175_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1175003,
++            "eventDescription": "＆「王様パンプキンキャンディ」追加獲得数＋5",
++            "eventId": 1175,
++            "groupId": 1119,
++            "id": 168600,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 310201107,
++                "effectCode": "ATTACK",
++                "effectValue": 350,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 310201804,
++                "effectCode": "BLAST",
++                "effectValue": 300,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 310201107,
++            "artId2": 310201804,
++            "eventArt1": {
++                "artId": 1154003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_DAILYTOWER_1154_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1154003,
++            "eventDescription": "＆「錆びついた紋章」追加獲得数＋5",
++            "eventId": 1154,
++            "groupId": 1085,
++            "id": 171300,
++            "intervalTurn": 6,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 630208209,
++                "effectCode": "COUNTER",
++                "enableTurn": 3,
++                "growPoint": 0,
++                "probability": 650,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 330201106,
++                "effectCode": "ATTACK",
++                "effectValue": 300,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 630208209,
++            "artId2": 330201106,
++            "eventArt1": {
++                "artId": 1059002,
++                "effectCode": "DROPADD",
++                "effectValue": 2000,
++                "genericValue": "EVENT_BRANCH_1059_PART_1",
++                "verbCode": "OTHER"
++            },
++            "eventArt2": {
++                "artId": 1059006,
++                "effectCode": "DROPADD",
++                "effectValue": 2000,
++                "genericValue": "EVENT_BRANCH_1059_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1059002,
++            "eventArtId2": 1059006,
++            "eventDescription": "＆赤つつじ入手時＋2＆白つつじ入手時+2",
++            "eventId": 1059,
++            "groupId": 1135,
++            "id": 134300,
++            "intervalTurn": 7,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "rank": "RANK_5",
+     "rateGainMpAtk": 1000,
+     "rateGainMpDef": 800,

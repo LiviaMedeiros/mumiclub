@@ -1,0 +1,324 @@
+--- na/40315	2017-03-17 18:39:13.000000000 +0800
++++ jp/40315	2017-03-17 18:39:13.000000000 +0800
+@@ -179,9 +179,319 @@
+     "initialType": "ATTACK",
+     "magiaCharaNo": 403100,
+     "magiaId": 40315,
+-    "maxPieceSkillList": [],
++    "maxPieceSkillList": [
++        {
++            "art1": {
++                "artId": 690219008,
++                "effectCode": "PROVOKE",
++                "growPoint": 0,
++                "probability": 650,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 690216508,
++                "effectCode": "DAMAGE_DOWN",
++                "growPoint": 0,
++                "probability": 650,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "artId1": 690219008,
++            "artId2": 690216508,
++            "eventArt1": {
++                "artId": 1173004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_DAILYTOWER_1173_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1173004,
++            "eventDescription": "＆「ふたりの青春」追加獲得数＋15",
++            "eventId": 1173,
++            "groupId": 1219,
++            "id": 180801,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 390201305,
++                "effectCode": "DAMAGE",
++                "effectValue": 250,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 390201503,
++                "effectCode": "RESIST",
++                "effectValue": 300,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 390201305,
++            "artId2": 390201503,
++            "eventArt1": {
++                "artId": 1105007,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_DAILYTOWER_1105_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1105007,
++            "eventDescription": "＆「汗かきウサギ」追加獲得数＋15",
++            "eventId": 1105,
++            "groupId": 1087,
++            "id": 151901,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 310201110,
++                "effectCode": "ATTACK",
++                "effectValue": 500,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 610206609,
++                "effectCode": "DEFENSE_IGNORED",
++                "enableTurn": 1,
++                "growPoint": 0,
++                "probability": 500,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "artId1": 310201110,
++            "artId2": 610206609,
++            "eventArt1": {
++                "artId": 1061002,
++                "effectCode": "DROPADD",
++                "effectValue": 7000,
++                "genericValue": "EVENT_SINGLERAID_1061_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1061002,
++            "eventDescription": "＆「聖女のメダル」入手時＋7",
++            "eventId": 1061,
++            "groupId": 1085,
++            "id": 117701,
++            "intervalTurn": 8,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 330201804,
++                "effectCode": "BLAST",
++                "effectValue": 300,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 330201303,
++                "effectCode": "DAMAGE",
++                "effectValue": 150,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 330201804,
++            "artId2": 330201303,
++            "eventArt1": {
++                "artId": 1078004,
++                "effectCode": "DROPADD",
++                "effectValue": 7000,
++                "genericValue": "EVENT_BRANCH_1078_PART_1",
++                "verbCode": "OTHER"
++            },
++            "eventArt2": {
++                "artId": 1078008,
++                "effectCode": "DROPADD",
++                "effectValue": 7000,
++                "genericValue": "EVENT_BRANCH_1078_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1078004,
++            "eventArtId2": 1078008,
++            "eventDescription": "＆『喝采』『残り火』＋7",
++            "eventId": 1078,
++            "groupId": 1092,
++            "id": 142901,
++            "intervalTurn": 8,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "miniCharaNo": 403100,
+-    "pieceSkillList": [],
++    "pieceSkillList": [
++        {
++            "art1": {
++                "artId": 690219006,
++                "effectCode": "PROVOKE",
++                "growPoint": 0,
++                "probability": 550,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 690216506,
++                "effectCode": "DAMAGE_DOWN",
++                "growPoint": 0,
++                "probability": 550,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "artId1": 690219006,
++            "artId2": 690216506,
++            "eventArt1": {
++                "artId": 1173003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_DAILYTOWER_1173_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1173003,
++            "eventDescription": "＆「ふたりの青春」追加獲得数＋5",
++            "eventId": 1173,
++            "groupId": 1219,
++            "id": 180800,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 390201304,
++                "effectCode": "DAMAGE",
++                "effectValue": 200,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 390201502,
++                "effectCode": "RESIST",
++                "effectValue": 250,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 390201304,
++            "artId2": 390201502,
++            "eventArt1": {
++                "artId": 1105006,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_DAILYTOWER_1105_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1105006,
++            "eventDescription": "＆「汗かきウサギ」追加獲得数＋5",
++            "eventId": 1105,
++            "groupId": 1087,
++            "id": 151900,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 310201109,
++                "effectCode": "ATTACK",
++                "effectValue": 450,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 610206608,
++                "effectCode": "DEFENSE_IGNORED",
++                "enableTurn": 1,
++                "growPoint": 0,
++                "probability": 450,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "artId1": 310201109,
++            "artId2": 610206608,
++            "eventArt1": {
++                "artId": 1061001,
++                "effectCode": "DROPADD",
++                "effectValue": 3000,
++                "genericValue": "EVENT_SINGLERAID_1061_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1061001,
++            "eventDescription": "＆「聖女のメダル」入手時＋3",
++            "eventId": 1061,
++            "groupId": 1085,
++            "id": 117700,
++            "intervalTurn": 9,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 330201803,
++                "effectCode": "BLAST",
++                "effectValue": 250,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 330201302,
++                "effectCode": "DAMAGE",
++                "effectValue": 100,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 330201803,
++            "artId2": 330201302,
++            "eventArt1": {
++                "artId": 1078003,
++                "effectCode": "DROPADD",
++                "effectValue": 3000,
++                "genericValue": "EVENT_BRANCH_1078_PART_1",
++                "verbCode": "OTHER"
++            },
++            "eventArt2": {
++                "artId": 1078007,
++                "effectCode": "DROPADD",
++                "effectValue": 3000,
++                "genericValue": "EVENT_BRANCH_1078_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1078003,
++            "eventArtId2": 1078007,
++            "eventDescription": "＆『喝采』『残り火』＋3",
++            "eventId": 1078,
++            "groupId": 1092,
++            "id": 142900,
++            "intervalTurn": 9,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "rank": "RANK_5",
+     "rateGainMpAtk": 1000,
+     "rateGainMpDef": 800,

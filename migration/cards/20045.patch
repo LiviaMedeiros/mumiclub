@@ -18,3 +18,363 @@
              "growPoint": 220,
              "targetId": "TARGET",
              "verbCode": "ATTACK"
+@@ -200,9 +200,357 @@
+     "initialType": "DEFENSE",
+     "magiaCharaNo": 200400,
+     "magiaId": 20045,
+-    "maxPieceSkillList": [],
++    "maxPieceSkillList": [
++        {
++            "art1": {
++                "artId": 390201204,
++                "effectCode": "DEFENSE",
++                "effectValue": 300,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 690206205,
++                "effectCode": "DAMAGE_DOWN",
++                "effectValue": 250,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art3": {
++                "artId": 9747,
++                "effectCode": "ATTACK",
++                "effectValue": 250,
++                "growPoint": 0,
++                "targetId": "SELF",
++                "verbCode": "DEBUFF"
++            },
++            "artId1": 390201204,
++            "artId2": 690206205,
++            "artId3": 9747,
++            "eventArt1": {
++                "artId": 1167004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_DAILYTOWER_1167_KEY",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1167004,
++            "eventDescription": "＆「お見合い写真」追加獲得数＋15",
++            "eventId": 1167,
++            "groupId": 1086,
++            "id": 177401,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 390203003,
++                "effectCode": "DEFENSE",
++                "effectValue": 400,
++                "growPoint": 20,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF_DYING"
++            },
++            "art2": {
++                "artId": 390201205,
++                "effectCode": "DEFENSE",
++                "effectValue": 375,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art3": {
++                "artId": 690208700,
++                "effectCode": "BURN",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "artId1": 390203003,
++            "artId2": 390201205,
++            "artId3": 690208700,
++            "eventArt1": {
++                "artId": 1122002,
++                "effectCode": "DROPADD",
++                "effectValue": 7000,
++                "genericValue": "EVENT_SINGLERAID_1122_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1122002,
++            "eventDescription": "＆『キリサキさんの噂話』入手時＋7",
++            "eventId": 1122,
++            "groupId": 1242,
++            "id": 141701,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 410002013,
++                "effectCode": "ATTACK",
++                "effectValue": 650,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "TARGET",
++                "verbCode": "DEBUFF"
++            },
++            "art2": {
++                "artId": 310201207,
++                "effectCode": "DEFENSE",
++                "effectValue": 525,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 410002013,
++            "artId2": 310201207,
++            "eventArt1": {
++                "artId": 1192004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_BRANCH_1192_PART_1",
++                "verbCode": "OTHER"
++            },
++            "eventArt2": {
++                "artId": 1192008,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_BRANCH_1192_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1192004,
++            "eventArtId2": 1192008,
++            "eventDescription": "＆「SUPパドル・ボード」「水鉄砲」追加獲得数＋15",
++            "eventId": 1192,
++            "groupId": 1094,
++            "id": 179401,
++            "intervalTurn": 5,
++            "messageId": 72,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 410302210,
++                "effectCode": "DAMAGE",
++                "effectValue": 500,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "DEBUFF"
++            },
++            "art2": {
++                "artId": 310201509,
++                "effectCode": "RESIST",
++                "effectValue": 600,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 410302210,
++            "artId2": 310201509,
++            "eventArt1": {
++                "artId": 1059008,
++                "effectCode": "DROPADD",
++                "effectValue": 7000,
++                "genericValue": "EVENT_BRANCH_1059_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1059008,
++            "eventDescription": "＆白つつじ入手時＋7",
++            "eventId": 1059,
++            "groupId": 1096,
++            "id": 112101,
++            "intervalTurn": 5,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "miniCharaNo": 200400,
+-    "pieceSkillList": [],
++    "pieceSkillList": [
++        {
++            "art1": {
++                "artId": 390201203,
++                "effectCode": "DEFENSE",
++                "effectValue": 225,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 690206204,
++                "effectCode": "DAMAGE_DOWN",
++                "effectValue": 200,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art3": {
++                "artId": 9747,
++                "effectCode": "ATTACK",
++                "effectValue": 250,
++                "growPoint": 0,
++                "targetId": "SELF",
++                "verbCode": "DEBUFF"
++            },
++            "artId1": 390201203,
++            "artId2": 690206204,
++            "artId3": 9747,
++            "eventArt1": {
++                "artId": 1167003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_DAILYTOWER_1167_KEY",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1167003,
++            "eventDescription": "＆「お見合い写真」追加獲得数＋5",
++            "eventId": 1167,
++            "groupId": 1086,
++            "id": 177400,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 390203002,
++                "effectCode": "DEFENSE",
++                "effectValue": 300,
++                "growPoint": 20,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF_DYING"
++            },
++            "art2": {
++                "artId": 390201204,
++                "effectCode": "DEFENSE",
++                "effectValue": 300,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art3": {
++                "artId": 690208700,
++                "effectCode": "BURN",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "artId1": 390203002,
++            "artId2": 390201204,
++            "artId3": 690208700,
++            "eventArt1": {
++                "artId": 1122001,
++                "effectCode": "DROPADD",
++                "effectValue": 3000,
++                "genericValue": "EVENT_SINGLERAID_1122_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1122001,
++            "eventDescription": "＆『キリサキさんの噂話』入手時＋3",
++            "eventId": 1122,
++            "groupId": 1242,
++            "id": 141700,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 410002012,
++                "effectCode": "ATTACK",
++                "effectValue": 600,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "TARGET",
++                "verbCode": "DEBUFF"
++            },
++            "art2": {
++                "artId": 310201206,
++                "effectCode": "DEFENSE",
++                "effectValue": 450,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 410002012,
++            "artId2": 310201206,
++            "eventArt1": {
++                "artId": 1192003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_BRANCH_1192_PART_1",
++                "verbCode": "OTHER"
++            },
++            "eventArt2": {
++                "artId": 1192007,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_BRANCH_1192_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1192003,
++            "eventArtId2": 1192007,
++            "eventDescription": "＆「SUPパドル・ボード」「水鉄砲」追加獲得数＋5",
++            "eventId": 1192,
++            "groupId": 1094,
++            "id": 179400,
++            "intervalTurn": 6,
++            "messageId": 72,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 410302209,
++                "effectCode": "DAMAGE",
++                "effectValue": 450,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "DEBUFF"
++            },
++            "art2": {
++                "artId": 310201508,
++                "effectCode": "RESIST",
++                "effectValue": 550,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 410302209,
++            "artId2": 310201508,
++            "eventArt1": {
++                "artId": 1059007,
++                "effectCode": "DROPADD",
++                "effectValue": 3000,
++                "genericValue": "EVENT_BRANCH_1059_PART_2",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1059007,
++            "eventDescription": "＆白つつじ入手時＋3",
++            "eventId": 1059,
++            "groupId": 1096,
++            "id": 112100,
++            "intervalTurn": 6,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "rank": "RANK_5",
+     "rateGainMpAtk": 800,
+     "rateGainMpDef": 1000,

@@ -18,3 +18,315 @@
              "growPoint": 220,
              "targetId": "TARGET",
              "verbCode": "ATTACK"
+@@ -179,9 +179,309 @@
+     "initialType": "DEFENSE",
+     "magiaCharaNo": 301600,
+     "magiaId": 30165,
+-    "maxPieceSkillList": [],
++    "maxPieceSkillList": [
++        {
++            "art1": {
++                "artId": 690206205,
++                "effectCode": "DAMAGE_DOWN",
++                "effectValue": 250,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art2": {
++                "artId": 390201903,
++                "effectCode": "MP_GAIN",
++                "effectValue": 100,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art3": {
++                "artId": 390201204,
++                "effectCode": "DEFENSE",
++                "effectValue": 300,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 690206205,
++            "artId2": 390201903,
++            "artId3": 390201204,
++            "eventArt1": {
++                "artId": 1166004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_DAILYTOWER_1166_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1166004,
++            "eventDescription": "＆「今だけの思い出」追加獲得数＋15",
++            "eventId": 1166,
++            "groupId": 1120,
++            "id": 165001,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 690209200,
++                "effectCode": "BAN_SKILL",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 390201603,
++                "effectCode": "ACCEL",
++                "effectValue": 150,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 690209200,
++            "artId2": 390201603,
++            "groupId": 1183,
++            "id": 122101,
++            "regularEventArt1": {
++                "artId": 691211206,
++                "effectCode": "BAN_SKILL",
++                "enableTurn": 1,
++                "growPoint": 0,
++                "probability": 350,
++                "targetId": "SELF",
++                "verbCode": "ENCHANT"
++            },
++            "regularEventArtId1": 691211206,
++            "regularEventDescription": "【殲滅戦時追加で攻撃時に確率でスキル不可(1T)を付与[Ⅵ]】",
++            "regularEventId": 2016,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 510303906,
++                "effectCode": "CHARM",
++                "enableTurn": 1,
++                "growPoint": 0,
++                "probability": 425,
++                "targetId": "ALL",
++                "verbCode": "CONDITION_BAD"
++            },
++            "art2": {
++                "artId": 410302006,
++                "effectCode": "ATTACK",
++                "effectValue": 300,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "DEBUFF"
++            },
++            "artId1": 510303906,
++            "artId2": 410302006,
++            "eventArt1": {
++                "artId": 1100004,
++                "effectCode": "DROPADD",
++                "effectValue": 15000,
++                "genericValue": "EVENT_DAILYTOWER_1100_KEY",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1100004,
++            "eventDescription": "＆「乙女の秘密」追加獲得数＋15",
++            "eventId": 1100,
++            "groupId": 1103,
++            "id": 150101,
++            "intervalTurn": 8,
++            "messageId": 72,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 330201106,
++                "effectCode": "ATTACK",
++                "effectValue": 300,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 330201507,
++                "effectCode": "RESIST",
++                "effectValue": 500,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 330201106,
++            "artId2": 330201507,
++            "groupId": 1085,
++            "id": 154201,
++            "intervalTurn": 9,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "miniCharaNo": 301601,
+-    "pieceSkillList": [],
++    "pieceSkillList": [
++        {
++            "art1": {
++                "artId": 690206204,
++                "effectCode": "DAMAGE_DOWN",
++                "effectValue": 200,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art2": {
++                "artId": 390201902,
++                "effectCode": "MP_GAIN",
++                "effectValue": 75,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art3": {
++                "artId": 390201202,
++                "effectCode": "DEFENSE",
++                "effectValue": 150,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 690206204,
++            "artId2": 390201902,
++            "artId3": 390201202,
++            "eventArt1": {
++                "artId": 1166003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_DAILYTOWER_1166_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1166003,
++            "eventDescription": "＆「今だけの思い出」追加獲得数＋5",
++            "eventId": 1166,
++            "groupId": 1120,
++            "id": 165000,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 690209200,
++                "effectCode": "BAN_SKILL",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "art2": {
++                "artId": 390201602,
++                "effectCode": "ACCEL",
++                "effectValue": 125,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 690209200,
++            "artId2": 390201602,
++            "groupId": 1183,
++            "id": 122100,
++            "regularEventArt1": {
++                "artId": 691211203,
++                "effectCode": "BAN_SKILL",
++                "enableTurn": 1,
++                "growPoint": 0,
++                "probability": 200,
++                "targetId": "SELF",
++                "verbCode": "ENCHANT"
++            },
++            "regularEventArtId1": 691211203,
++            "regularEventDescription": "【殲滅戦時追加で攻撃時に確率でスキル不可(1T)を付与[Ⅲ]】",
++            "regularEventId": 2016,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 510303905,
++                "effectCode": "CHARM",
++                "enableTurn": 1,
++                "growPoint": 0,
++                "probability": 400,
++                "targetId": "ALL",
++                "verbCode": "CONDITION_BAD"
++            },
++            "art2": {
++                "artId": 410302005,
++                "effectCode": "ATTACK",
++                "effectValue": 250,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "DEBUFF"
++            },
++            "artId1": 510303905,
++            "artId2": 410302005,
++            "eventArt1": {
++                "artId": 1100003,
++                "effectCode": "DROPADD",
++                "effectValue": 5000,
++                "genericValue": "EVENT_DAILYTOWER_1100_KEY",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1100003,
++            "eventDescription": "＆「乙女の秘密」追加獲得数＋5",
++            "eventId": 1100,
++            "groupId": 1103,
++            "id": 150100,
++            "intervalTurn": 9,
++            "messageId": 72,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 330201105,
++                "effectCode": "ATTACK",
++                "effectValue": 250,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 330201505,
++                "effectCode": "RESIST",
++                "effectValue": 400,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 330201105,
++            "artId2": 330201505,
++            "groupId": 1085,
++            "id": 154200,
++            "intervalTurn": 10,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "rank": "RANK_5",
+     "rateGainMpAtk": 800,
+     "rateGainMpDef": 1000,

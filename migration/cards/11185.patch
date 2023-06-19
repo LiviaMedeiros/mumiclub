@@ -1,0 +1,302 @@
+--- na/11185	2017-03-17 18:39:13.000000000 +0800
++++ jp/11185	2017-03-17 18:39:13.000000000 +0800
+@@ -183,9 +183,297 @@
+     "initialType": "HEAL",
+     "magiaCharaNo": 111800,
+     "magiaId": 11185,
+-    "maxPieceSkillList": [],
++    "maxPieceSkillList": [
++        {
++            "art1": {
++                "artId": 390201104,
++                "effectCode": "ATTACK",
++                "effectValue": 200,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 390201503,
++                "effectCode": "RESIST",
++                "effectValue": 300,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 390201104,
++            "artId2": 390201503,
++            "groupId": 1085,
++            "id": 132001,
++            "regularEventArt1": {
++                "artId": 690209000,
++                "effectCode": "DARKNESS",
++                "growPoint": 0,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "regularEventArtId1": 690209000,
++            "regularEventDescription": "【殲滅戦時追加で必ず暗闇無効】",
++            "regularEventId": 2016,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 390201206,
++                "effectCode": "DEFENSE",
++                "effectValue": 450,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 390201904,
++                "effectCode": "MP_GAIN",
++                "effectValue": 125,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 390201206,
++            "artId2": 390201904,
++            "groupId": 1086,
++            "id": 182301,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 630207704,
++                "effectCode": "AUTO_HEAL",
++                "effectValue": 50,
++                "enableTurn": 3,
++                "growPoint": 10,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art2": {
++                "artId": 630206204,
++                "effectCode": "DAMAGE_DOWN",
++                "effectValue": 200,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "artId1": 630207704,
++            "artId2": 630206204,
++            "groupId": 1129,
++            "id": 116701,
++            "intervalTurn": 5,
++            "messageId": 70,
++            "regularEventArt1": {
++                "artId": 330301607,
++                "effectCode": "ACCEL",
++                "effectValue": 250,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "BUFF"
++            },
++            "regularEventArtId1": 330301607,
++            "regularEventDescription": "【殲滅戦時追加でAcceleMPUP[Ⅶ](味全/3T)】",
++            "regularEventId": 2024,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 410302105,
++                "effectCode": "DEFENSE",
++                "effectValue": 250,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "DEBUFF"
++            },
++            "art2": {
++                "artId": 310201407,
++                "effectCode": "MAGIA",
++                "effectValue": 200,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 410302105,
++            "artId2": 310201407,
++            "eventArt1": {
++                "artId": 1096004,
++                "effectCode": "DROPADD",
++                "effectValue": 7000,
++                "genericValue": "EVENT_SINGLERAID_1096_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1096004,
++            "eventDescription": "＆「勝利のメダル」追加獲得数＋7",
++            "eventId": 1096,
++            "groupId": 1095,
++            "id": 136101,
++            "intervalTurn": 8,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "miniCharaNo": 111800,
+-    "pieceSkillList": [],
++    "pieceSkillList": [
++        {
++            "art1": {
++                "artId": 390201103,
++                "effectCode": "ATTACK",
++                "effectValue": 150,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 390201502,
++                "effectCode": "RESIST",
++                "effectValue": 250,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 390201103,
++            "artId2": 390201502,
++            "groupId": 1085,
++            "id": 132000,
++            "regularEventArt1": {
++                "artId": 690209010,
++                "effectCode": "DARKNESS",
++                "growPoint": 0,
++                "probability": 700,
++                "targetId": "SELF",
++                "verbCode": "IGNORE"
++            },
++            "regularEventArtId1": 690209010,
++            "regularEventDescription": "【殲滅戦時追加で確率で暗闇無効[Ⅹ]】",
++            "regularEventId": 2016,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 390201205,
++                "effectCode": "DEFENSE",
++                "effectValue": 375,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "art2": {
++                "artId": 390201903,
++                "effectCode": "MP_GAIN",
++                "effectValue": 100,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 390201205,
++            "artId2": 390201903,
++            "groupId": 1086,
++            "id": 182300,
++            "skillDisplayType": "MEMORIA",
++            "type": "ABILITY"
++        },
++        {
++            "art1": {
++                "artId": 630207703,
++                "effectCode": "AUTO_HEAL",
++                "effectValue": 40,
++                "enableTurn": 3,
++                "growPoint": 10,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "art2": {
++                "artId": 630206203,
++                "effectCode": "DAMAGE_DOWN",
++                "effectValue": 150,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "probability": 1000,
++                "targetId": "SELF",
++                "verbCode": "CONDITION_GOOD"
++            },
++            "artId1": 630207703,
++            "artId2": 630206203,
++            "groupId": 1129,
++            "id": 116700,
++            "intervalTurn": 6,
++            "messageId": 70,
++            "regularEventArt1": {
++                "artId": 330301603,
++                "effectCode": "ACCEL",
++                "effectValue": 150,
++                "enableTurn": 3,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "BUFF"
++            },
++            "regularEventArtId1": 330301603,
++            "regularEventDescription": "【殲滅戦時追加でAcceleMPUP[Ⅲ](味全/3T)】",
++            "regularEventId": 2024,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        },
++        {
++            "art1": {
++                "artId": 410302104,
++                "effectCode": "DEFENSE",
++                "effectValue": 200,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "ALL",
++                "verbCode": "DEBUFF"
++            },
++            "art2": {
++                "artId": 310201406,
++                "effectCode": "MAGIA",
++                "effectValue": 175,
++                "enableTurn": 1,
++                "growPoint": 25,
++                "targetId": "SELF",
++                "verbCode": "BUFF"
++            },
++            "artId1": 410302104,
++            "artId2": 310201406,
++            "eventArt1": {
++                "artId": 1096003,
++                "effectCode": "DROPADD",
++                "effectValue": 3000,
++                "genericValue": "EVENT_SINGLERAID_1096_EXCHANGE_1",
++                "verbCode": "OTHER"
++            },
++            "eventArtId1": 1096003,
++            "eventDescription": "＆「勝利のメダル」追加獲得数＋3",
++            "eventId": 1096,
++            "groupId": 1095,
++            "id": 136100,
++            "intervalTurn": 10,
++            "messageId": 70,
++            "skillDisplayType": "MEMORIA",
++            "type": "SKILL"
++        }
++    ],
+     "rank": "RANK_5",
+     "rateGainMpAtk": 1000,
+     "rateGainMpDef": 1200,
