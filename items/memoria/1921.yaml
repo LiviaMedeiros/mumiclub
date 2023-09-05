@@ -1,0 +1,55 @@
+---
+pieceId: 1921
+pieceType: SKILL
+pieceName: きらめく思い出を照らす鍵
+attributeId: ALL
+rank: RANK_3
+charaIds: "1053"
+charaList:
+- charaId: 1053
+  name: アマリュリス
+attack: 0
+defense: 501
+hp: 461
+skillId: 192100
+pieceSkill:
+  id: 192100
+  groupId: 1079
+  name: マナチャージ[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: MP回復[Ⅳ](自)
+  messageId: 70
+  artId1: 200200504
+  art1:
+    artId: 200200504
+    verbCode: HEAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 275
+    growPoint: 10
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 192101
+pieceSkill2:
+  id: 192101
+  groupId: 1079
+  name: マナチャージ[Ⅴ]
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: MP回復[Ⅴ](自)
+  messageId: 70
+  artId1: 200200505
+  art1:
+    artId: 200200505
+    verbCode: HEAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 300
+    growPoint: 10
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 手に取って眺めていると＠まぶしい記憶が、心ときめく想いが、とめどなくあふれてゆく＠いちばん嬉しかった思い出も、いちばんつらかった思い出も＠一緒に見てきた腕輪だから
+illustrator: 都筑禰己
+openDate: 2023/07/24 15:10:00
+...

@@ -1,0 +1,102 @@
+---
+pieceId: 1886
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 夢追いの航路
+attributeId: ALL
+rank: RANK_4
+attack: 940
+defense: 0
+hp: 820
+skillId: 188600
+pieceSkill:
+  id: 188600
+  groupId: 1092
+  name: Aウェポンブラスト・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅲ] & ダメージアップ状態[Ⅲ] & 水属性攻撃力UP[Ⅳ]
+  artId1: 390201803
+  art1:
+    artId: 390201803
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId2: 690206103
+  art2:
+    artId: 690206103
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 390221404
+  art3:
+    artId: 390221404
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+  eventId: 1190
+  eventArtId1: 1190003
+  eventArt1:
+    artId: 1190003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1190_KEY
+  eventDescription: ＆「ルーン“太陽”」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 188601
+pieceSkill2:
+  id: 188601
+  groupId: 1092
+  name: Aウェポンブラスト・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅳ] & ダメージアップ状態[Ⅳ] & 水属性攻撃力UP[Ⅴ]
+  artId1: 390201804
+  art1:
+    artId: 390201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 690206104
+  art2:
+    artId: 690206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId3: 390221405
+  art3:
+    artId: 390221405
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+  eventId: 1190
+  eventArtId1: 1190004
+  eventArt1:
+    artId: 1190004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1190_KEY
+  eventDescription: ＆「ルーン“太陽”」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 大海を駆け巡るのは夢を乗せた姉妹の船＠神秘の国があると聞けば東へ、豊穣なる文化があると聞けば西へ向かう＠北の広大な未開の土地に心躍らせ、南の朗らかな陽気に笑顔を弾ませる＠ふたりでなら、この世の果てでも行けるはず
+illustrator: 枡狐/蛙空
+openDate: 2023/04/24 15:10:00
+...

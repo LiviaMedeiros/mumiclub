@@ -1,0 +1,89 @@
+---
+pieceId: 1924
+pieceType: SKILL
+pieceName: 幸運は勇者に味方する
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 818
+hp: 818
+skillId: 192400
+pieceSkill:
+  id: 192400
+  groupId: 1085
+  name: ネグレクト・カウンター[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 攻撃力UP[Ⅵ] & 耐える & 必ずカウンター無効(自/1T)
+  messageId: 70
+  artId1: 310201106
+  art1:
+    artId: 310201106
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610207400
+  art2:
+    artId: 610207400
+    verbCode: CONDITION_GOOD
+    effectCode: GUTS
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId3: 610208200
+  art3:
+    artId: 610208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 192401
+pieceSkill2:
+  id: 192401
+  groupId: 1085
+  name: ネグレクト・カウンター[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 攻撃力UP[Ⅵ] & 耐える & 必ずカウンター無効(自/1T)
+  messageId: 70
+  artId1: 310201106
+  art1:
+    artId: 310201106
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610207400
+  art2:
+    artId: 610207400
+    verbCode: CONDITION_GOOD
+    effectCode: GUTS
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId3: 610208200
+  art3:
+    artId: 610208200
+    verbCode: IGNORE
+    effectCode: COUNTER
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 希望を黒く染めるがごとく、空を死の雲が覆ったとき＠恐れを知らぬ勇気を乗せて、その艦影は現れた＠「あの船…ローマ海軍！」＠「はい！プリニウス様旗下の艦隊です！」
+illustrator: ―
+openDate: 2023/07/24 15:10:00
+...

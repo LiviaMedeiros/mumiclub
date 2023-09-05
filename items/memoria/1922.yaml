@@ -1,0 +1,90 @@
+---
+pieceId: 1922
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 知的盤上遊戯の誘惑
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 860
+hp: 940
+skillId: 192200
+pieceSkill:
+  id: 192200
+  groupId: 1134
+  name: インビジブル・スラッシュ[Ⅵ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ず回避無効(味全/1T) & 与えるダメージUP[Ⅵ](自/1T)
+  messageId: 71
+  artId1: 610308100
+  art1:
+    artId: 610308100
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: ALL
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201306
+  art2:
+    artId: 310201306
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1196
+  eventArtId1: 1196003
+  eventArt1:
+    artId: 1196003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1196_KEY
+  eventDescription: ＆「魔法少女の記録」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 192201
+pieceSkill2:
+  id: 192201
+  groupId: 1134
+  name: インビジブル・スラッシュ[Ⅶ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず回避無効(味全/1T) & 与えるダメージUP[Ⅶ](自/1T)
+  messageId: 71
+  artId1: 610308100
+  art1:
+    artId: 610308100
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: ALL
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201307
+  art2:
+    artId: 310201307
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1196
+  eventArtId1: 1196004
+  eventArt1:
+    artId: 1196004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1196_KEY
+  eventDescription: ＆「魔法少女の記録」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 予想外の手を打たれても、動揺を顔に出さないよう＠勝負事に我を忘れて、乱れた心持ちをあらわにしないよう＠優雅に知的にたしなむ、盤上の乙女の流儀＠「あっ、でも…サイコロ運がここまで悪いとさすがにちょっと…！」
+illustrator: さくら小春（QP:flapper）
+openDate: 2023/07/24 15:10:00
+...
