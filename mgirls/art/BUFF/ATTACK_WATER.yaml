@@ -6,7 +6,22 @@
   growPoint: 0
   targetId: ALL
   verbCode: BUFF
+9885:
+  artId: 9885
+  effectCode: ATTACK_WATER
+  effectValue: 150
+  growPoint: 0
+  targetId: ALL
+  verbCode: BUFF
 3102214:
+  3:
+    artId: 310221403
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
   10:
     artId: 310221410
     verbCode: BUFF
@@ -24,6 +39,22 @@
     enableTurn: 1
     growPoint: 25
 3104214:
+  1:
+    artId: 310421401
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: CONNECT
+    effectValue: 50
+    enableTurn: 1
+    growPoint: 25
+  3:
+    artId: 310421403
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: CONNECT
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 25
   7:
     artId: 310421407
     verbCode: BUFF
@@ -32,12 +63,28 @@
     effectValue: 200
     enableTurn: 1
     growPoint: 25
+  8:
+    artId: 310421408
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: CONNECT
+    effectValue: 225
+    enableTurn: 1
+    growPoint: 25
   9:
     artId: 310421409
     verbCode: BUFF
     effectCode: ATTACK_WATER
     targetId: CONNECT
     effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  10:
+    artId: 310421410
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: CONNECT
+    effectValue: 275
     enableTurn: 1
     growPoint: 25
 3302214:
@@ -115,6 +162,14 @@
     enableTurn: 3
     growPoint: 25
 3502214:
+  7:
+    artId: 350221407
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 5
+    growPoint: 25
   9:
     artId: 350221409
     verbCode: BUFF
@@ -148,6 +203,14 @@
     effectValue: 250
     enableTurn: 5
     growPoint: 25
+  11:
+    artId: 350321411
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: ALL
+    effectValue: 300
+    enableTurn: 5
+    growPoint: 25
 3902214:
   2:
     artId: 390221402
@@ -155,6 +218,20 @@
     effectCode: ATTACK_WATER
     targetId: SELF
     effectValue: 75
+    growPoint: 25
+  3:
+    artId: 390221403
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+  4:
+    artId: 390221404
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 125
     growPoint: 25
   5:
     artId: 390221405
