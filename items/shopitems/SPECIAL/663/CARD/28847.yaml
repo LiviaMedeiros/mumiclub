@@ -1,0 +1,324 @@
+---
+id: 28847
+shopId: 663
+shopItemType: CARD
+genericId: "40044"
+cardNum: 2
+card:
+  cardId: 40044
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: EXCEED
+  growthType: ATKHP
+  attack: 2071
+  defense: 1490
+  hp: 5658
+  miniCharaNo: 400400
+  charaNo: 4004
+  cardName: 美国 織莉子
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 40044
+    groupId: 1014
+    name: ヴァンパイアレイ
+    shortDescription: 敵全体にダメージ[Ⅴ] & 確率で防御無視 & 確率でダメージカット無視 & 必ず回避(自/1T) & MP回復(自)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 610206609
+    art2:
+      artId: 610206609
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 500
+    artId3: 610216509
+    art3:
+      artId: 610216509
+      verbCode: IGNORE
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 700
+    artId4: 610206900
+    art4:
+      artId: 610206900
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId5: 200200505
+    art5:
+      artId: 200200505
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 300
+      growPoint: 10
+  cardSkill:
+    id: 40044
+    groupId: 1085
+    name: 自分の世界を守りましょう
+    shortDescription: 攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ] & 確率でクリティカル[Ⅶ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401607
+    art2:
+      artId: 310401607
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610406307
+    art3:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+  pieceSkillList:
+  - id: 40041
+    groupId: 1124
+    name: マナステップ・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: 『確率で回避[Ⅲ] & MP自動回復[Ⅳ]』のアビリティを所持
+    artId1: 690206803
+    art1:
+      artId: 690206803
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      growPoint: 0
+      probability: 200
+    artId2: 690214804
+    art2:
+      artId: 690214804
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 75
+      growPoint: 10
+      probability: 1000
+      genericValue: MP
+    skillEffectRange: ALL
+    skillDisplayType: EXTRA
+  maxPieceSkillList:
+  - id: 40042
+    groupId: 1124
+    name: マナステップ・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: 『確率で回避[Ⅳ] & MP自動回復[Ⅴ]』のアビリティを所持
+    artId1: 690206804
+    art1:
+      artId: 690206804
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      growPoint: 0
+      probability: 250
+    artId2: 690214805
+    art2:
+      artId: 690214805
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 90
+      growPoint: 10
+      probability: 1000
+      genericValue: MP
+    skillEffectRange: ALL
+    skillDisplayType: EXTRA
+chara:
+  id: 4004
+  attributeId: LIGHT
+  initialType: EXCEED
+  defaultCardId: 40044
+  defaultCard:
+    cardId: 40044
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: EXCEED
+    growthType: ATKHP
+    attack: 2071
+    defense: 1490
+    hp: 5658
+    miniCharaNo: 400400
+    charaNo: 4004
+    cardName: 美国 織莉子
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 40044
+      groupId: 1014
+      name: ヴァンパイアレイ
+      shortDescription: 敵全体にダメージ[Ⅴ] & 確率で防御無視 & 確率でダメージカット無視 & 必ず回避(自/1T) & MP回復(自)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 610206609
+      art2:
+        artId: 610206609
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 500
+      artId3: 610216509
+      art3:
+        artId: 610216509
+        verbCode: IGNORE
+        effectCode: DAMAGE_DOWN
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 700
+      artId4: 610206900
+      art4:
+        artId: 610206900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId5: 200200505
+      art5:
+        artId: 200200505
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 300
+        growPoint: 10
+    cardSkill:
+      id: 40044
+      groupId: 1085
+      name: 自分の世界を守りましょう
+      shortDescription: 攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ] & 確率でクリティカル[Ⅶ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401607
+      art2:
+        artId: 310401607
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 400
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610406307
+      art3:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList:
+    - id: 40041
+      groupId: 1124
+      name: マナステップ・アデプト[Ⅳ]
+      type: ABILITY
+      shortDescription: 『確率で回避[Ⅲ] & MP自動回復[Ⅳ]』のアビリティを所持
+      artId1: 690206803
+      art1:
+        artId: 690206803
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        growPoint: 0
+        probability: 200
+      artId2: 690214804
+      art2:
+        artId: 690214804
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: SELF
+        effectValue: 75
+        growPoint: 10
+        probability: 1000
+        genericValue: MP
+      skillEffectRange: ALL
+      skillDisplayType: EXTRA
+    maxPieceSkillList:
+    - id: 40042
+      groupId: 1124
+      name: マナステップ・アデプト[Ⅴ]
+      type: ABILITY
+      shortDescription: 『確率で回避[Ⅳ] & MP自動回復[Ⅴ]』のアビリティを所持
+      artId1: 690206804
+      art1:
+        artId: 690206804
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        growPoint: 0
+        probability: 250
+      artId2: 690214805
+      art2:
+        artId: 690214805
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: SELF
+        effectValue: 90
+        growPoint: 10
+        probability: 1000
+        genericValue: MP
+      skillEffectRange: ALL
+      skillDisplayType: EXTRA
+  kana: みくに おりこ
+  title: ver.Final
+  description: “生きる意味”を求め、たどり着いた魔法少女。自身の心に刻まれていた存在に気づき、受け入れたことで新しい力に目覚めた。また、自身の内面にある弱さを自覚して、晴れやかになった。実は、ケーキのスポンジを上手に焼けるようになりたい。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: 美国織莉子 ver.Final
+description: デスティニージェム1個のオマケ付き
+sortkey: 55
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

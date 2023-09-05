@@ -1,0 +1,171 @@
+---
+id: 28917
+shopId: 663
+shopItemType: CARD
+genericId: "30594"
+cardNum: 2
+card:
+  cardId: 30594
+  rank: RANK_4
+  attributeId: DARK
+  initialType: MAGIA
+  growthType: ATTACK
+  attack: 2109
+  defense: 1579
+  hp: 4834
+  miniCharaNo: 305900
+  charaNo: 3059
+  cardName: 入名 クシュ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 30594
+    groupId: 1014
+    name: 粛清天使
+    shortDescription: 敵全体に属性強化ダメージ[Ⅵ] & マギアダメージUP & 闇属性攻撃力UP(味全/3T)
+    artId1: 100300206
+    art1:
+      artId: 100300206
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3250
+      growPoint: 100
+    artId2: 330301406
+    art2:
+      artId: 330301406
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330321205
+    art3:
+      artId: 330321205
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 30594
+    groupId: 1087
+    name: …私の手を取って
+    shortDescription: 与えるダメージUP[Ⅶ] & Accele MPUP[Ⅶ]
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401607
+    art2:
+      artId: 310401607
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3059
+  attributeId: DARK
+  initialType: MAGIA
+  defaultCardId: 30594
+  defaultCard:
+    cardId: 30594
+    rank: RANK_4
+    attributeId: DARK
+    initialType: MAGIA
+    growthType: ATTACK
+    attack: 2109
+    defense: 1579
+    hp: 4834
+    miniCharaNo: 305900
+    charaNo: 3059
+    cardName: 入名 クシュ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30594
+      groupId: 1014
+      name: 粛清天使
+      shortDescription: 敵全体に属性強化ダメージ[Ⅵ] & マギアダメージUP & 闇属性攻撃力UP(味全/3T)
+      artId1: 100300206
+      art1:
+        artId: 100300206
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3250
+        growPoint: 100
+      artId2: 330301406
+      art2:
+        artId: 330301406
+        verbCode: BUFF
+        effectCode: MAGIA
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330321205
+      art3:
+        artId: 330321205
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30594
+      groupId: 1087
+      name: …私の手を取って
+      shortDescription: 与えるダメージUP[Ⅶ] & Accele MPUP[Ⅶ]
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401607
+      art2:
+        artId: 310401607
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 400
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: いりな くしゅ
+  description: いつも眠そうな魔法少女。明るいうちは決して目覚めない体質のため常に眠そうで、出席日数が足りず進級が危ぶまれている。真夜中は目が冴え、魔女退治では普段とは別人のような凛とした表情を見せる。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: 入名クシュ
+description: デスティニージェム1個のオマケ付き
+sortkey: 125
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

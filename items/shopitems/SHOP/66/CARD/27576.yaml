@@ -1,0 +1,179 @@
+---
+id: 27576
+shopId: 66
+shopItemType: CARD
+genericId: "35024"
+cardNum: 1
+card:
+  cardId: 35024
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: SUPPORT
+  growthType: ATTACK
+  attack: 1882
+  defense: 1775
+  hp: 6394
+  miniCharaNo: 350200
+  charaNo: 3502
+  cardName: 万年桜のウワサ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 35024
+    groupId: 1014
+    name: ｜海まとう思い出のひとひら｜
+    shortDescription: 敵全体にダメージ[Ⅴ] & ダメージUP & Charge後ダメージUP(味全/3T) & 状態異常解除(味全)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330301306
+    art2:
+      artId: 330301306
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 275
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330301705
+    art3:
+      artId: 330301705
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId4: 200301000
+    art4:
+      artId: 200301000
+      verbCode: REVOKE
+      effectCode: BAD
+      targetId: ALL
+      growPoint: 0
+  cardSkill:
+    id: 35024
+    groupId: 1087
+    name: ｜いい思い出にしよう｜
+    shortDescription: 与えるダメージUP[Ⅶ] & 状態異常解除
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 200401000
+    art2:
+      artId: 200401000
+      verbCode: REVOKE
+      effectCode: BAD
+      targetId: CONNECT
+      growPoint: 0
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3502
+  attributeId: LIGHT
+  initialType: SUPPORT
+  defaultCardId: 35024
+  defaultCard:
+    cardId: 35024
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: SUPPORT
+    growthType: ATTACK
+    attack: 1882
+    defense: 1775
+    hp: 6394
+    miniCharaNo: 350200
+    charaNo: 3502
+    cardName: 万年桜のウワサ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 35024
+      groupId: 1014
+      name: ｜海まとう思い出のひとひら｜
+      shortDescription: 敵全体にダメージ[Ⅴ] & ダメージUP & Charge後ダメージUP(味全/3T) & 状態異常解除(味全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301306
+      art2:
+        artId: 330301306
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 275
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301705
+      art3:
+        artId: 330301705
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId4: 200301000
+      art4:
+        artId: 200301000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 35024
+      groupId: 1087
+      name: ｜いい思い出にしよう｜
+      shortDescription: 与えるダメージUP[Ⅶ] & 状態異常解除
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200401000
+      art2:
+        artId: 200401000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: CONNECT
+        growPoint: 0
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: まんねんざくらのうわさ
+  title: 水着ver.
+  description: 大切な子のためにウワサアクアリウム・竜宮城を作り上げたウワサ。周囲へのおもてなしを通して様々な感情を学んでいる。だが、怪談の怖さは理解できない。戦う時は、海のお友だちと一緒。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】万年桜のウワサ 水着ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 7
+isDetailView: false
+viewStartAt: 2023/05/29 16:00:00
+startAt: 2023/05/29 15:10:00
+endAt: 2023/06/09 14:59:59
+...

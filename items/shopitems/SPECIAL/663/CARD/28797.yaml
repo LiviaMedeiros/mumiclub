@@ -1,0 +1,171 @@
+---
+id: 28797
+shopId: 663
+shopItemType: CARD
+genericId: "40224"
+cardNum: 2
+card:
+  cardId: 40224
+  rank: RANK_4
+  attributeId: DARK
+  initialType: ATTACK
+  growthType: BALANCE
+  attack: 2052
+  defense: 1611
+  hp: 4997
+  miniCharaNo: 402200
+  charaNo: 4022
+  cardName: リズ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 40224
+    groupId: 1014
+    name: ロンブル
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & MP回復(自) & 確率で回避(自/1T)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 200200504
+    art2:
+      artId: 200200504
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 275
+      growPoint: 10
+    artId3: 610206805
+    art3:
+      artId: 610206805
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 300
+  cardSkill:
+    id: 40224
+    groupId: 1123
+    name: それにしても危なっかしいわね
+    shortDescription: 必ず防御無視 & 確率でクリティカル[Ⅶ]
+    artId1: 610406700
+    art1:
+      artId: 610406700
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 610406307
+    art2:
+      artId: 610406307
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4022
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 40224
+  defaultCard:
+    cardId: 40224
+    rank: RANK_4
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: BALANCE
+    attack: 2052
+    defense: 1611
+    hp: 4997
+    miniCharaNo: 402200
+    charaNo: 4022
+    cardName: リズ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 40224
+      groupId: 1014
+      name: ロンブル
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & MP回復(自) & 確率で回避(自/1T)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 200200504
+      art2:
+        artId: 200200504
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 275
+        growPoint: 10
+      artId3: 610206805
+      art3:
+        artId: 610206805
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 300
+    cardSkill:
+      id: 40224
+      groupId: 1123
+      name: それにしても危なっかしいわね
+      shortDescription: 必ず防御無視 & 確率でクリティカル[Ⅶ]
+      artId1: 610406700
+      art1:
+        artId: 610406700
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 610406307
+      art2:
+        artId: 610406307
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 600
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: りず
+  description: タルトとふたりでフランスを救うべく立ち上がった、中世のイタリア出身のクールな魔法少女。“影”を操る魔法でタルトを支えつつ、百年戦争のさなか、フランス軍の前線で戦っている。当人はあまり口にしたがらないが、とある有名な軍人の子孫であるらしい。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: リズ
+description: デスティニージェム1個のオマケ付き
+sortkey: 5
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

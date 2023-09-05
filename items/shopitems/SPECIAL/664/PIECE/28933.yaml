@@ -1,0 +1,108 @@
+---
+id: 28933
+shopId: 664
+shopItemType: PIECE
+genericId: "1736"
+piece:
+  pieceId: 1736
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 錬金術士コンビ参上！
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 818
+  hp: 978
+  skillId: 173600
+  pieceSkill:
+    id: 173600
+    groupId: 1120
+    name: Hシールド・ライズ[Ⅲ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: ダメージカット状態[Ⅲ] & 防御力UP[Ⅲ](自/3T)
+    messageId: 70
+    artId1: 630206203
+    art1:
+      artId: 630206203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 330201203
+    art2:
+      artId: 330201203
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 225
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1182
+    eventArtId1: 1182003
+    eventArt1:
+      artId: 1182003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1182_EXCHANGE_1
+    eventDescription: ＆「想いを記すもの」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 173601
+  pieceSkill2:
+    id: 173601
+    groupId: 1120
+    name: Hシールド・ライズ[Ⅳ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: ダメージカット状態[Ⅳ] & 防御力UP[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 630206204
+    art1:
+      artId: 630206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId2: 330201204
+    art2:
+      artId: 330201204
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1182
+    eventArtId1: 1182004
+    eventArt1:
+      artId: 1182004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1182_EXCHANGE_1
+    eventDescription: ＆「想いを記すもの」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「探しましたよ。近所で遊んでるのかと思ったら、まさかこんな…」＠「聞けばキューブも一緒じゃないって言うし、僕たち心配したよ！」＠「魔女に会ったら普通の人間は太刀打ちできないわ。火遊びはダメよ」＠「それを言ったら僕も普通の人間だけどね…」
+  illustrator: ―
+  openDate: 2022/03/24 16:00:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_11
+needNumber: 1
+limitedNumber: 6
+name: メモリア「錬金術士コンビ参上！」
+description: ダメージカット状態[Ⅳ] & 防御力UP[Ⅳ](自/3T)
+sortkey: 8
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

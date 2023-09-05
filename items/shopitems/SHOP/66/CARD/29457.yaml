@@ -1,0 +1,227 @@
+---
+id: 29457
+shopId: 66
+shopItemType: CARD
+genericId: "12164"
+cardNum: 1
+card:
+  cardId: 12164
+  rank: RANK_4
+  attributeId: DARK
+  initialType: ATTACK
+  growthType: ATKHP
+  attack: 2351
+  defense: 1872
+  hp: 6069
+  miniCharaNo: 121600
+  charaNo: 1216
+  cardName: 和泉 十七夜
+  commandType1: RANGE_H
+  commandType2: RANGE_H
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 12164
+    groupId: 1012
+    name: 冥暗の断罪
+    shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & Blast ダメージUP & 攻撃力UP & 必ず防御無視(自/3T) & 防御力DOWN
+      & 必ず挑発(自/1T)
+    artId1: 100000205
+    art1:
+      artId: 100000205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: TARGET
+      effectValue: 8640
+      growPoint: 100
+    artId2: 330201806
+    art2:
+      artId: 330201806
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 400
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330201106
+    art3:
+      artId: 330201106
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630206700
+    art4:
+      artId: 630206700
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId5: 9826
+    art5:
+      artId: 9826
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 0
+    artId6: 610207600
+    art6:
+      artId: 610207600
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 12164
+    groupId: 1092
+    name: 自分と討たれる覚悟か
+    shortDescription: Blast ダメージUP[Ⅷ] & 闇属性攻撃力UP[Ⅷ]
+    artId1: 310401808
+    art1:
+      artId: 310401808
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 750
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421208
+    art2:
+      artId: 310421208
+      verbCode: BUFF
+      effectCode: ATTACK_DARK
+      targetId: CONNECT
+      effectValue: 225
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1216
+  attributeId: DARK
+  initialType: ATTACK
+  defaultCardId: 12164
+  defaultCard:
+    cardId: 12164
+    rank: RANK_4
+    attributeId: DARK
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 2351
+    defense: 1872
+    hp: 6069
+    miniCharaNo: 121600
+    charaNo: 1216
+    cardName: 和泉 十七夜
+    commandType1: RANGE_H
+    commandType2: RANGE_H
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 12164
+      groupId: 1012
+      name: 冥暗の断罪
+      shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & Blast ダメージUP & 攻撃力UP & 必ず防御無視(自/3T) & 防御力DOWN
+        & 必ず挑発(自/1T)
+      artId1: 100000205
+      art1:
+        artId: 100000205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8640
+        growPoint: 100
+      artId2: 330201806
+      art2:
+        artId: 330201806
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: SELF
+        effectValue: 400
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330201106
+      art3:
+        artId: 330201106
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630206700
+      art4:
+        artId: 630206700
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: SELF
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId5: 9826
+      art5:
+        artId: 9826
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: SELF
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 0
+      artId6: 610207600
+      art6:
+        artId: 610207600
+        verbCode: CONDITION_GOOD
+        effectCode: PROVOKE
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 12164
+      groupId: 1092
+      name: 自分と討たれる覚悟か
+      shortDescription: Blast ダメージUP[Ⅷ] & 闇属性攻撃力UP[Ⅷ]
+      artId1: 310401808
+      art1:
+        artId: 310401808
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 750
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421208
+      art2:
+        artId: 310421208
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: CONNECT
+        effectValue: 225
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: いずみ かなぎ
+  title: 常闇ver.
+  description: 滅びの果てにある平等を信じる魔法少女。調整によって悲しみを取り込んだことにより、常に悲しみに囚われている。神浜市に生きる人々にとって共通の敵となり、一致団結させることを目的としており、そのためであれば自分の命も投げ打つ覚悟。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】和泉十七夜 常闇ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 47
+isDetailView: false
+viewStartAt: 2023/09/04 17:00:00
+startAt: 2023/09/04 15:10:00
+endAt: 2023/09/22 23:59:59
+...

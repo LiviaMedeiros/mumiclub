@@ -1,0 +1,111 @@
+---
+id: 28931
+shopId: 664
+shopItemType: PIECE
+genericId: "1800"
+piece:
+  pieceId: 1800
+  pieceType: SKILL
+  pieceName: 想い鮮明
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 820
+  hp: 980
+  skillId: 180000
+  pieceSkill:
+    id: 180000
+    groupId: 1231
+    name: イージスシールド[Ⅳ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 状態異常を1回無効 & HP自動回復[Ⅳ] & ダメージカット状態[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 630220800
+    art1:
+      artId: 630220800
+      verbCode: IGNORE
+      effectCode: CONDITION_BAD
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    artId2: 630207704
+    art2:
+      artId: 630207704
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId3: 630206204
+    art3:
+      artId: 630206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 180001
+  pieceSkill2:
+    id: 180001
+    groupId: 1231
+    name: イージスシールド[Ⅴ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 状態異常を1回無効 & HP自動回復[Ⅴ] & ダメージカット状態[Ⅴ](自/3T)
+    messageId: 70
+    artId1: 630220800
+    art1:
+      artId: 630220800
+      verbCode: IGNORE
+      effectCode: CONDITION_BAD
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+    artId2: 630207705
+    art2:
+      artId: 630207705
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 60
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId3: 630206205
+    art3:
+      artId: 630206205
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 怒りは焼き付き、悲しみは染み渡り、喜びは溶け込んでいく＠様々な想いに含まれる感情が、細胞の隅々に行き渡るのを感じながら＠まるで人の記憶をたどるように、長い刻を一瞬で経験する＠みんなの思い描く可能性は、まるで綺羅星のように輝いている
+  illustrator: ―
+  openDate: 2022/08/22 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_11
+needNumber: 1
+limitedNumber: 6
+name: メモリア「想い鮮明」
+description: 状態異常を1回無効 & HP自動回復[Ⅴ] & ダメージカット状態[Ⅴ](自/3T)
+sortkey: 6
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

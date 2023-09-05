@@ -1,0 +1,105 @@
+---
+id: 28951
+shopId: 664
+shopItemType: PIECE
+genericId: "1398"
+piece:
+  pieceId: 1398
+  pieceType: ABILITY
+  pieceName: 未来あるトモヘ
+  attributeId: ALL
+  rank: RANK_4
+  attack: 726
+  defense: 0
+  hp: 885
+  skillId: 139800
+  pieceSkill:
+    id: 139800
+    groupId: 1154
+    name: ジャマー・ブレイド[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率でスキル不可(1T)を付与[Ⅲ] & 与えるダメージUP[Ⅲ]
+    artId1: 691211203
+    art1:
+      artId: 691211203
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 200
+    artId2: 390201303
+    art2:
+      artId: 390201303
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2024
+    regularEventArtId1: 390201503
+    regularEventArt1:
+      artId: 390201503
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で状態異常耐性UP[Ⅲ]】
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 139801
+  pieceSkill2:
+    id: 139801
+    groupId: 1154
+    name: ジャマー・ブレイド[Ⅳ]
+    type: ABILITY
+    shortDescription: 攻撃時に確率でスキル不可(1T)を付与[Ⅳ] & 与えるダメージUP[Ⅳ]
+    artId1: 691211204
+    art1:
+      artId: 691211204
+      verbCode: ENCHANT
+      effectCode: BAN_SKILL
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 250
+    artId2: 390201304
+    art2:
+      artId: 390201304
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    regularEventId: 2024
+    regularEventArtId1: 390201506
+    regularEventArt1:
+      artId: 390201506
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 450
+      growPoint: 25
+      probability: 1000
+    regularEventDescription: 【殲滅戦時追加で状態異常耐性UP[Ⅵ]】
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「自分の夢を満たすでも、誰かを救うでもなく＠ただ生きるために契約したこの力。＠だからこそみんなには後悔のない選択をしてほしい＠それが今の願いかな。仲間は嬉しいけどね」
+  illustrator: 谷口淳一郎
+  openDate: 2019/09/09 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_11
+needNumber: 1
+limitedNumber: 6
+name: メモリア「未来あるトモヘ」
+description: 攻撃時に確率でスキル不可(1T)を付与[Ⅳ]&与えるダメージUP[Ⅳ]
+sortkey: 26
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

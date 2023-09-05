@@ -1,0 +1,104 @@
+---
+id: 29066
+shopId: 668
+shopItemType: PIECE
+genericId: "1121"
+piece:
+  pieceId: 1121
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 頼れるネゴシエーター
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 880
+  hp: 720
+  skillId: 112100
+  pieceSkill:
+    id: 112100
+    groupId: 1096
+    name: ウォークライ[Ⅸ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 与えるダメージDOWN[Ⅸ](敵全/1T) & 状態異常耐性UP[Ⅷ](自/1T)
+    artId1: 410302209
+    art1:
+      artId: 410302209
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201508
+    art2:
+      artId: 310201508
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 550
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1059
+    eventArtId1: 1059007
+    eventArt1:
+      artId: 1059007
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 3000
+      genericValue: EVENT_BRANCH_1059_PART_2
+    eventDescription: ＆白つつじ入手時＋3
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 112101
+  pieceSkill2:
+    id: 112101
+    groupId: 1096
+    name: ウォークライ[Ⅹ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 与えるダメージDOWN[Ⅹ](敵全/1T) & 状態異常耐性UP[Ⅸ](自/1T)
+    artId1: 410302210
+    art1:
+      artId: 410302210
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201509
+    art2:
+      artId: 310201509
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: SELF
+      effectValue: 600
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1059
+    eventArtId1: 1059008
+    eventArt1:
+      artId: 1059008
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 7000
+      genericValue: EVENT_BRANCH_1059_PART_2
+    eventDescription: ＆白つつじ入手時＋7
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: あー、ちょい待って！用件があるなら、アタシが聞くから！＠後ろのふたり？大丈夫大丈夫！気にしないでいいよ！＠…だって、こういうのは、アタシの"仕事"だからさ…＠んじゃ、まずはそちらの話、聞かせてよ…！
+  illustrator: ゆーげん
+  openDate: 2017/10/10 15:10:00
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_LIGHTBLUE_1570
+needNumber: 200
+limitedNumber: 1
+name: メモリア「頼れるネゴシエーター」
+description: メモリア「頼れるネゴシエーター」(Lv1/限界突破なし)
+sortkey: 3
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

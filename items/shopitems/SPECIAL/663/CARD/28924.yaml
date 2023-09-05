@@ -1,0 +1,211 @@
+---
+id: 28924
+shopId: 663
+shopItemType: CARD
+genericId: "10334"
+cardNum: 2
+card:
+  cardId: 10334
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: MAGIA
+  growthType: BALANCE
+  attack: 2242
+  defense: 1824
+  hp: 5561
+  miniCharaNo: 103300
+  charaNo: 1033
+  cardName: 氷室 ラビ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_S
+  commandType4: RANGE_B
+  commandType5: CHARGE
+  cardMagia:
+    id: 10334
+    groupId: 1014
+    name: パンタ・レイ
+    shortDescription: 敵全体に属性強化ダメージ[Ⅵ] & ダメージUP & ダメージカット状態 & 状態異常を1回無効(味全/3T)
+    artId1: 100300206
+    art1:
+      artId: 100300206
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3250
+      growPoint: 100
+    artId2: 330301305
+    art2:
+      artId: 330301305
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 630306203
+    art3:
+      artId: 630306203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId4: 630320800
+    art4:
+      artId: 630320800
+      verbCode: IGNORE
+      effectCode: CONDITION_BAD
+      targetId: ALL
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+  cardSkill:
+    id: 10334
+    groupId: 1085
+    name: 見捨てはしませんよ
+    shortDescription: 攻撃力UP[Ⅶ] & 木属性攻撃力UP[Ⅴ] & Accele MPUP[Ⅴ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421805
+    art2:
+      artId: 310421805
+      verbCode: BUFF
+      effectCode: ATTACK_TIMBER
+      targetId: CONNECT
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 25
+    artId3: 310401605
+    art3:
+      artId: 310401605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1033
+  attributeId: TIMBER
+  initialType: MAGIA
+  defaultCardId: 10334
+  defaultCard:
+    cardId: 10334
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: MAGIA
+    growthType: BALANCE
+    attack: 2242
+    defense: 1824
+    hp: 5561
+    miniCharaNo: 103300
+    charaNo: 1033
+    cardName: 氷室 ラビ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_S
+    commandType4: RANGE_B
+    commandType5: CHARGE
+    cardMagia:
+      id: 10334
+      groupId: 1014
+      name: パンタ・レイ
+      shortDescription: 敵全体に属性強化ダメージ[Ⅵ] & ダメージUP & ダメージカット状態 & 状態異常を1回無効(味全/3T)
+      artId1: 100300206
+      art1:
+        artId: 100300206
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3250
+        growPoint: 100
+      artId2: 330301305
+      art2:
+        artId: 330301305
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 630306203
+      art3:
+        artId: 630306203
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+        probability: 1000
+      artId4: 630320800
+      art4:
+        artId: 630320800
+        verbCode: IGNORE
+        effectCode: CONDITION_BAD
+        targetId: ALL
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+        genericValue: NONE
+    cardSkill:
+      id: 10334
+      groupId: 1085
+      name: 見捨てはしませんよ
+      shortDescription: 攻撃力UP[Ⅶ] & 木属性攻撃力UP[Ⅴ] & Accele MPUP[Ⅴ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421805
+      art2:
+        artId: 310421805
+        verbCode: BUFF
+        effectCode: ATTACK_TIMBER
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401605
+      art3:
+        artId: 310401605
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ひむろ らび
+  description: 里見那由他のもとで使用人として働く、無口な魔法少女。里見太助の思想に同調する魔法少女と一緒に神浜市に来た。表情の変化があまりなく、無感動・無感情に見えるが、幼い子には甘い一面もある。趣味は土いじりと読書。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: 氷室ラビ
+description: デスティニージェム1個のオマケ付き
+sortkey: 132
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

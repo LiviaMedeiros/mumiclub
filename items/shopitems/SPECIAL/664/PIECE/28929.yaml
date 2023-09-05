@@ -1,0 +1,81 @@
+---
+id: 28929
+shopId: 664
+shopItemType: PIECE
+genericId: "1843"
+piece:
+  pieceId: 1843
+  pieceType: ABILITY
+  pieceName: 魔法少女は魔法使い
+  attributeId: ALL
+  rank: RANK_4
+  attack: 940
+  defense: 0
+  hp: 820
+  skillId: 184300
+  pieceSkill:
+    id: 184300
+    groupId: 1119
+    name: アンチジャマ―・ウェポン[Ⅴ]
+    type: ABILITY
+    shortDescription: ダメージアップ状態[Ⅴ] & 必ずスキル不可無効
+    artId1: 690206105
+    art1:
+      artId: 690206105
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    artId2: 690209200
+    art2:
+      artId: 690209200
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 184301
+  pieceSkill2:
+    id: 184301
+    groupId: 1119
+    name: アンチジャマ―・ウェポン[Ⅵ]
+    type: ABILITY
+    shortDescription: ダメージアップ状態[Ⅵ] & 必ずスキル不可無効
+    artId1: 690206106
+    art1:
+      artId: 690206106
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    artId2: 690209200
+    art2:
+      artId: 690209200
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 誤って届いたプレゼントから始まったクリスマスの出来事＠小さな雪玉が大きくなっていくように、想いは交錯して膨らんでいく＠でも、それをすべて溶かしたふたりのベファーナ＠ツリーを幸せで彩り、キラキラと輝かせる
+  illustrator: ―
+  openDate: 2022/12/20 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_11
+needNumber: 1
+limitedNumber: 6
+name: メモリア「魔法少女は魔法使い」
+description: ダメージアップ状態[Ⅵ] & 必ずスキル不可無効
+sortkey: 4
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

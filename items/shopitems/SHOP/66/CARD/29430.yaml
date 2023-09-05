@@ -1,0 +1,205 @@
+---
+id: 29430
+shopId: 66
+shopItemType: CARD
+genericId: "11024"
+cardNum: 1
+card:
+  cardId: 11024
+  rank: RANK_4
+  attributeId: WATER
+  initialType: ATTACK
+  growthType: ATKHP
+  attack: 2392
+  defense: 1744
+  hp: 5012
+  miniCharaNo: 110200
+  charaNo: 1102
+  cardName: やちよ・みふゆ
+  commandType1: MPUP
+  commandType2: RANGE_H
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 11024
+    groupId: 1014
+    name: アブソリュート・ハーモニー
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 確率で防御無視(自/3T) & MP回復(自)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330201107
+    art2:
+      artId: 330201107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 350
+      enableTurn: 3
+      growPoint: 25
+    artId3: 630206610
+    art3:
+      artId: 630206610
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 3
+      growPoint: 0
+      probability: 550
+    artId4: 200200503
+    art4:
+      artId: 200200503
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 250
+      growPoint: 10
+  cardSkill:
+    id: 11024
+    groupId: 1085
+    name: 諦めたら何も残らないよ
+    shortDescription: 攻撃力UP[Ⅶ] & 必ず防御無視 & 必ず幻惑
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406700
+    art2:
+      artId: 610406700
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 610411100
+    art3:
+      artId: 610411100
+      verbCode: ENCHANT
+      effectCode: BLINDNESS
+      targetId: CONNECT
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1102
+  attributeId: WATER
+  initialType: ATTACK
+  defaultCardId: 11024
+  defaultCard:
+    cardId: 11024
+    rank: RANK_4
+    attributeId: WATER
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 2392
+    defense: 1744
+    hp: 5012
+    miniCharaNo: 110200
+    charaNo: 1102
+    cardName: やちよ・みふゆ
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 11024
+      groupId: 1014
+      name: アブソリュート・ハーモニー
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 確率で防御無視(自/3T) & MP回復(自)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330201107
+      art2:
+        artId: 330201107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 25
+      artId3: 630206610
+      art3:
+        artId: 630206610
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: SELF
+        enableTurn: 3
+        growPoint: 0
+        probability: 550
+      artId4: 200200503
+      art4:
+        artId: 200200503
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 250
+        growPoint: 10
+    cardSkill:
+      id: 11024
+      groupId: 1085
+      name: 諦めたら何も残らないよ
+      shortDescription: 攻撃力UP[Ⅶ] & 必ず防御無視 & 必ず幻惑
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406700
+      art2:
+        artId: 610406700
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610411100
+      art3:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: やちよ・みふゆ
+  title: 始まりver.
+  description: タッグを組み、共に強くなることを約束した、なりたての魔法少女。お互いに第一印象は悪かったが、戦いに翻弄される中で手を取り合い、気付けば親友になっていた。そろって忙しいふたりにとって、合間を縫って駄菓子屋に行くのが楽しみ。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】やちよ・みふゆ 始まりver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 20
+isDetailView: false
+viewStartAt: 2023/09/04 17:00:00
+startAt: 2023/09/04 15:10:00
+endAt: 2023/09/22 23:59:59
+...

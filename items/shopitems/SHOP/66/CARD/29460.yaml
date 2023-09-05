@@ -1,0 +1,209 @@
+---
+id: 29460
+shopId: 66
+shopItemType: CARD
+genericId: "11064"
+cardNum: 1
+card:
+  cardId: 11064
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: SUPPORT
+  growthType: HP
+  attack: 1945
+  defense: 2000
+  hp: 6852
+  miniCharaNo: 110600
+  charaNo: 1106
+  cardName: 梓 みふゆ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 11064
+    groupId: 1014
+    name: 炎上パラノイア
+    shortDescription: 敵全体にダメージ[Ⅴ] & 必ずやけど(敵全/3T) & 火属性攻撃力UP & Blast ダメージUP(味全/3T)
+      & Charge消費なし(味全/2T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 530304800
+    art2:
+      artId: 530304800
+      verbCode: CONDITION_BAD
+      effectCode: BURN
+      targetId: ALL
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId3: 330321105
+    art3:
+      artId: 330321105
+      verbCode: BUFF
+      effectCode: ATTACK_FIRE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 330301801
+    art4:
+      artId: 330301801
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId5: 620320900
+    art5:
+      artId: 620320900
+      verbCode: CONDITION_GOOD
+      effectCode: NO_COST_CHARGE
+      targetId: ALL
+      enableTurn: 2
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 11064
+    groupId: 1087
+    name: ワタシの火で温めます
+    shortDescription: 与えるダメージUP[Ⅷ] & 火属性攻撃力UP[Ⅷ]
+    artId1: 310401308
+    art1:
+      artId: 310401308
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 375
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421108
+    art2:
+      artId: 310421108
+      verbCode: BUFF
+      effectCode: ATTACK_FIRE
+      targetId: CONNECT
+      effectValue: 225
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1106
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 11064
+  defaultCard:
+    cardId: 11064
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1945
+    defense: 2000
+    hp: 6852
+    miniCharaNo: 110600
+    charaNo: 1106
+    cardName: 梓 みふゆ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 11064
+      groupId: 1014
+      name: 炎上パラノイア
+      shortDescription: 敵全体にダメージ[Ⅴ] & 必ずやけど(敵全/3T) & 火属性攻撃力UP & Blast ダメージUP(味全/3T)
+        & Charge消費なし(味全/2T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 530304800
+      art2:
+        artId: 530304800
+        verbCode: CONDITION_BAD
+        effectCode: BURN
+        targetId: ALL
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId3: 330321105
+      art3:
+        artId: 330321105
+        verbCode: BUFF
+        effectCode: ATTACK_FIRE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 330301801
+      art4:
+        artId: 330301801
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId5: 620320900
+      art5:
+        artId: 620320900
+        verbCode: CONDITION_GOOD
+        effectCode: NO_COST_CHARGE
+        targetId: ALL
+        enableTurn: 2
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 11064
+      groupId: 1087
+      name: ワタシの火で温めます
+      shortDescription: 与えるダメージUP[Ⅷ] & 火属性攻撃力UP[Ⅷ]
+      artId1: 310401308
+      art1:
+        artId: 310401308
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 375
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421108
+      art2:
+        artId: 310421108
+        verbCode: BUFF
+        effectCode: ATTACK_FIRE
+        targetId: CONNECT
+        effectValue: 225
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あずさ みふゆ
+  title: おとぎ話ver.
+  description: タイムカプセルを見つけたことがきっかけで心が小学生に戻ってしまった魔法少女。19歳の記憶はあっても泣き虫のまま。変身後の姿もかつてクリスマスに演じた「火の魔王」に影響されている。変身ヒロインに憧れていたことはお母様には内緒。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】梓みふゆ おとぎ話ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 50
+isDetailView: false
+viewStartAt: 2023/09/04 17:00:00
+startAt: 2023/09/04 15:10:00
+endAt: 2023/09/22 23:59:59
+...

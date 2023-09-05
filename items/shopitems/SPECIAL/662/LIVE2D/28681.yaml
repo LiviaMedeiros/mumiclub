@@ -1,0 +1,123 @@
+---
+id: 28681
+shopId: 662
+shopItemType: LIVE2D
+genericId: "1021_50"
+chara:
+  id: 1021
+  attributeId: LIGHT
+  initialType: ATTACK
+  defaultCardId: 10214
+  defaultCard:
+    cardId: 10214
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: ATTACK
+    growthType: ATTACK
+    attack: 2196
+    defense: 1852
+    hp: 5658
+    miniCharaNo: 102100
+    charaNo: 1021
+    cardName: 紅晴 結菜
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10214
+      groupId: 1012
+      name: 雷霆の埋葬
+      shortDescription: 敵単体に属性強化ダメージ[Ⅴ] & 攻撃力UP & マギアダメージUP & バリア(7000)を付与(自/3T)
+      artId1: 100000205
+      art1:
+        artId: 100000205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8640
+        growPoint: 100
+      artId2: 330201103
+      art2:
+        artId: 330201103
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330201407
+      art3:
+        artId: 330201407
+        verbCode: BUFF
+        effectCode: MAGIA
+        targetId: SELF
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630222113
+      art4:
+        artId: 630222113
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: SELF
+        effectValue: 7000
+        enableTurn: 3
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+    cardSkill:
+      id: 10214
+      groupId: 1085
+      name: 共に恨みを晴らしましょう
+      shortDescription: 攻撃力UP[Ⅶ] & 必ず防御無視 & 必ず回避無効
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406700
+      art2:
+        artId: 610406700
+        verbCode: CONDITION_GOOD
+        effectCode: DEFENSE_IGNORED
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610408100
+      art3:
+        artId: 610408100
+        verbCode: IGNORE
+        effectCode: AVOID
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: くれは ゆな
+  description: プロミストブラッドを率いる姉妹の長女で、戦略的な戦いが得意な魔法少女。自身の恨みを受け入れてからは険呑とした空気を隠さず、感情が高ぶりやすくなった。しかしそれは敵にだけであり、仲間には激甘。頭を冷やせる氷菓子が好き。
+live2d:
+  charaId: 1021
+  live2dId: "50"
+  description: 冬服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1199_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 紅晴結菜の衣装【冬服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 60
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

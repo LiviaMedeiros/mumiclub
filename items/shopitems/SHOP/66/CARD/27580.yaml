@@ -1,0 +1,189 @@
+---
+id: 27580
+shopId: 66
+shopItemType: CARD
+genericId: "11014"
+cardNum: 1
+card:
+  cardId: 11014
+  rank: RANK_4
+  attributeId: WATER
+  initialType: SUPPORT
+  growthType: BALANCE
+  attack: 1765
+  defense: 1745
+  hp: 6310
+  miniCharaNo: 110100
+  charaNo: 1101
+  cardName: 環 いろは
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 11014
+    groupId: 1016
+    name: これが今の私にできる泳ぎ方
+    shortDescription: 縦方向にダメージ[Ⅴ] & 防御力DOWN(敵縦/3T) & Accele MPUP(味全/3T)
+    artId1: 100500105
+    art1:
+      artId: 100500105
+      verbCode: ATTACK
+      targetId: VERTICAL
+      effectValue: 5515
+      growPoint: 100
+    artId2: 430302105
+    art2:
+      artId: 430302105
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330301603
+    art3:
+      artId: 330301603
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 11014
+    groupId: 1092
+    name: 泳げないけどいいですか!?
+    shortDescription: Blast ダメージUP[Ⅷ] & 防御力UP[Ⅷ] & 必ず霧
+    artId1: 310401808
+    art1:
+      artId: 310401808
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 750
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401208
+    art2:
+      artId: 310401208
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 975
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610410700
+    art3:
+      artId: 610410700
+      verbCode: ENCHANT
+      effectCode: FOG
+      targetId: CONNECT
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1101
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 11014
+  defaultCard:
+    cardId: 11014
+    rank: RANK_4
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1765
+    defense: 1745
+    hp: 6310
+    miniCharaNo: 110100
+    charaNo: 1101
+    cardName: 環 いろは
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 11014
+      groupId: 1016
+      name: これが今の私にできる泳ぎ方
+      shortDescription: 縦方向にダメージ[Ⅴ] & 防御力DOWN(敵縦/3T) & Accele MPUP(味全/3T)
+      artId1: 100500105
+      art1:
+        artId: 100500105
+        verbCode: ATTACK
+        targetId: VERTICAL
+        effectValue: 5515
+        growPoint: 100
+      artId2: 430302105
+      art2:
+        artId: 430302105
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301603
+      art3:
+        artId: 330301603
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 11014
+      groupId: 1092
+      name: 泳げないけどいいですか!?
+      shortDescription: Blast ダメージUP[Ⅷ] & 防御力UP[Ⅷ] & 必ず霧
+      artId1: 310401808
+      art1:
+        artId: 310401808
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 750
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401208
+      art2:
+        artId: 310401208
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 975
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610410700
+      art3:
+        artId: 610410700
+        verbCode: ENCHANT
+        effectCode: FOG
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: たまき いろは
+  title: 水着ver.
+  description: 友だちと一緒に夏休みを謳歌する魔法少女。この水着は魔法少女の衣装でありいつでも戦闘が可能。だが泳ぐのが苦手なので、水中戦に備えて浮き輪を武器にしている。緊急時は浮き輪をスクリューのように回転させて離脱も可能。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】環いろは 水着ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 11
+isDetailView: false
+viewStartAt: 2023/05/29 16:00:00
+startAt: 2023/05/29 15:10:00
+endAt: 2023/06/09 14:59:59
+...

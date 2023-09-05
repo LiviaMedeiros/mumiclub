@@ -1,0 +1,108 @@
+---
+id: 28926
+shopId: 664
+shopItemType: PIECE
+genericId: "1882"
+piece:
+  pieceId: 1882
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 直列コネクト
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 860
+  hp: 940
+  skillId: 188200
+  pieceSkill:
+    id: 188200
+    groupId: 1119
+    name: テンペスト[Ⅸ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: ダメージアップ状態[Ⅸ] & ドッペルダメージUP[Ⅱ](自/1T)
+    messageId: 70
+    artId1: 610206109
+    art1:
+      artId: 610206109
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId2: 310218302
+    art2:
+      artId: 310218302
+      verbCode: BUFF
+      effectCode: DOPPEL
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 1
+      growPoint: 0
+    eventId: 1189
+    eventArtId1: 1189003
+    eventArt1:
+      artId: 1189003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1189_KEY
+    eventDescription: ＆「from外宇宙」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 188201
+  pieceSkill2:
+    id: 188201
+    groupId: 1119
+    name: テンペスト[Ⅹ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: ダメージアップ状態[Ⅹ] & ドッペルダメージUP[Ⅲ](自/1T)
+    messageId: 70
+    artId1: 610206110
+    art1:
+      artId: 610206110
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 500
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId2: 310218303
+    art2:
+      artId: 310218303
+      verbCode: BUFF
+      effectCode: DOPPEL
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 0
+    eventId: 1189
+    eventArtId1: 1189004
+    eventArt1:
+      artId: 1189004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1189_KEY
+    eventDescription: ＆「from外宇宙」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「まずは私がいて、その次に私がいて、そしてまた私がいて…＠気がついたらぐるりと一周コネクトして無限大な私が完成！＠直列でつながれば並列よりも強烈！＠間違いありません…私たちならどんなレアリティも引けるはず！」
+  illustrator: PAPA
+  openDate: 2023/04/05 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_11
+needNumber: 1
+limitedNumber: 6
+name: メモリア「直列コネクト」
+description: ダメージアップ状態[Ⅹ] & ドッペルダメージUP[Ⅲ](自/1T)
+sortkey: 1
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

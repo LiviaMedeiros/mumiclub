@@ -1,0 +1,210 @@
+---
+id: 28848
+shopId: 663
+shopItemType: CARD
+genericId: "13094"
+cardNum: 2
+card:
+  cardId: 13094
+  rank: RANK_4
+  attributeId: WATER
+  initialType: MAGIA
+  growthType: ATKHP
+  attack: 2258
+  defense: 1622
+  hp: 5129
+  miniCharaNo: 130900
+  charaNo: 1309
+  cardName: 水波 レナ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 13094
+    groupId: 1012
+    name: レナ&かえで/ミックスポセイドン
+    shortDescription: 敵単体に属性強化ダメージ[Ⅵ] & 必ず幻惑 & 防御力DOWN(敵単/3T) & マギアダメージUP(自/3T) &
+      MP回復(自)
+    artId1: 100000206
+    art1:
+      artId: 100000206
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: TARGET
+      effectValue: 8960
+      growPoint: 100
+    artId2: 530005600
+    art2:
+      artId: 530005600
+      verbCode: CONDITION_BAD
+      effectCode: BLINDNESS
+      targetId: TARGET
+      effectValue: 500
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId3: 430002106
+    art3:
+      artId: 430002106
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId4: 330201409
+    art4:
+      artId: 330201409
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId5: 200200505
+    art5:
+      artId: 200200505
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 300
+      growPoint: 10
+  cardSkill:
+    id: 13094
+    groupId: 1087
+    name: 足は引っ張んないでよね
+    shortDescription: 与えるダメージUP[Ⅷ] & Accele MPUP[Ⅷ]
+    artId1: 310401308
+    art1:
+      artId: 310401308
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 375
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401608
+    art2:
+      artId: 310401608
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1309
+  attributeId: WATER
+  initialType: MAGIA
+  defaultCardId: 13094
+  defaultCard:
+    cardId: 13094
+    rank: RANK_4
+    attributeId: WATER
+    initialType: MAGIA
+    growthType: ATKHP
+    attack: 2258
+    defense: 1622
+    hp: 5129
+    miniCharaNo: 130900
+    charaNo: 1309
+    cardName: 水波 レナ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 13094
+      groupId: 1012
+      name: レナ&かえで/ミックスポセイドン
+      shortDescription: 敵単体に属性強化ダメージ[Ⅵ] & 必ず幻惑 & 防御力DOWN(敵単/3T) & マギアダメージUP(自/3T)
+        & MP回復(自)
+      artId1: 100000206
+      art1:
+        artId: 100000206
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: TARGET
+        effectValue: 8960
+        growPoint: 100
+      artId2: 530005600
+      art2:
+        artId: 530005600
+        verbCode: CONDITION_BAD
+        effectCode: BLINDNESS
+        targetId: TARGET
+        effectValue: 500
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId3: 430002106
+      art3:
+        artId: 430002106
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId4: 330201409
+      art4:
+        artId: 330201409
+        verbCode: BUFF
+        effectCode: MAGIA
+        targetId: SELF
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId5: 200200505
+      art5:
+        artId: 200200505
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 300
+        growPoint: 10
+    cardSkill:
+      id: 13094
+      groupId: 1087
+      name: 足は引っ張んないでよね
+      shortDescription: 与えるダメージUP[Ⅷ] & Accele MPUP[Ⅷ]
+      artId1: 310401308
+      art1:
+        artId: 310401308
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 375
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401608
+      art2:
+        artId: 310401608
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 450
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: みなみ れな
+  title: アニメver.
+  description: ももこ、かえでとチームで活動する魔法少女。思っていることを素直に表現できない不器用な性格なため、誤解されやすく友だちが少ない。かえでと喧嘩することもしばしばだが、お揃いのストラップを大事にするなど可愛らしい一面もある。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: 水波レナ アニメver.
+description: デスティニージェム1個のオマケ付き
+sortkey: 56
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

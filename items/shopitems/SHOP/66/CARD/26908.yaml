@@ -1,0 +1,165 @@
+---
+id: 26908
+shopId: 66
+shopItemType: CARD
+genericId: "21004"
+cardNum: 1
+card:
+  cardId: 21004
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: SUPPORT
+  growthType: ATTACK
+  attack: 1789
+  defense: 1716
+  hp: 6217
+  miniCharaNo: 210000
+  charaNo: 2100
+  cardName: 鹿目 まどか
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_V
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 21004
+    groupId: 1014
+    name: プルウィア☆ノイヤー
+    shortDescription: 敵全体にダメージ[Ⅴ] & MP回復(自) & 状態異常耐性UP(味全/1T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 310301505
+    art2:
+      artId: 310301505
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    artId3: 200200506
+    art3:
+      artId: 200200506
+      verbCode: HEAL
+      effectCode: MP
+      targetId: SELF
+      effectValue: 325
+      growPoint: 10
+  cardSkill:
+    id: 21004
+    groupId: 1078
+    name: いい1年にしようね！
+    shortDescription: HP回復[Ⅶ] & 与えるダメージUP[Ⅶ]
+    artId1: 200400407
+    art1:
+      artId: 200400407
+      verbCode: HEAL
+      effectCode: HP
+      targetId: CONNECT
+      effectValue: 450
+      growPoint: 20
+    artId2: 310401307
+    art2:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 2100
+  attributeId: LIGHT
+  initialType: SUPPORT
+  defaultCardId: 21004
+  defaultCard:
+    cardId: 21004
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: SUPPORT
+    growthType: ATTACK
+    attack: 1789
+    defense: 1716
+    hp: 6217
+    miniCharaNo: 210000
+    charaNo: 2100
+    cardName: 鹿目 まどか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 21004
+      groupId: 1014
+      name: プルウィア☆ノイヤー
+      shortDescription: 敵全体にダメージ[Ⅴ] & MP回復(自) & 状態異常耐性UP(味全/1T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 310301505
+      art2:
+        artId: 310301505
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 400
+        enableTurn: 1
+        growPoint: 25
+      artId3: 200200506
+      art3:
+        artId: 200200506
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 325
+        growPoint: 10
+    cardSkill:
+      id: 21004
+      groupId: 1078
+      name: いい1年にしようね！
+      shortDescription: HP回復[Ⅶ] & 与えるダメージUP[Ⅶ]
+      artId1: 200400407
+      art1:
+        artId: 200400407
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 450
+        growPoint: 20
+      artId2: 310401307
+      art2:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: かなめ まどか
+  title: 晴着ver.
+  description: 見滝原市で活動している中学２年生の魔法少女。魔法少女の祈りの力を着物に込めて、そのままの姿で戦うことができる。武器も羽子板に変わり、遠近両方の攻撃を可能にしている。その羽子板をよく見ると、よく知る者の姿をしているとか。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】鹿目まどか 晴着ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 3
+isDetailView: false
+viewStartAt: 2023/05/02 00:00:00
+startAt: 2023/05/02 00:00:00
+endAt: 2023/05/19 23:59:59
+...

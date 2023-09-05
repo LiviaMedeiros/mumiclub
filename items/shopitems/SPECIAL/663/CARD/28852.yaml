@@ -1,0 +1,241 @@
+---
+id: 28852
+shopId: 663
+shopItemType: CARD
+genericId: "10444"
+cardNum: 2
+card:
+  cardId: 10444
+  rank: RANK_4
+  attributeId: VOID
+  initialType: SUPPORT
+  growthType: DEFHP
+  attack: 1929
+  defense: 2068
+  hp: 8438
+  miniCharaNo: 104400
+  charaNo: 1044
+  cardName: 瀬奈 みこと
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 10444
+    groupId: 1014
+    name: 無望鏡界
+    shortDescription: 敵全体にダメージ[Ⅰ] & 必ず強化カウンター & バリア(5000)を付与(味全/3T) & デバフ効果を1回反射(自/3T)
+      & 被ダメージ時MPUP(自/1T)
+    artId1: 9417
+    art1:
+      artId: 9417
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 1000
+      growPoint: 50
+    artId2: 630322400
+    art2:
+      artId: 630322400
+      verbCode: CONDITION_GOOD
+      effectCode: COUNTER
+      targetId: ALL
+      effectValue: 1200
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId3: 630322109
+    art3:
+      artId: 630322109
+      verbCode: CONDITION_GOOD
+      effectCode: BARRIER
+      targetId: ALL
+      effectValue: 5000
+      enableTurn: 3
+      growPoint: 0
+      parameter: 1
+      probability: 1000
+    artId4: 630222501
+    art4:
+      artId: 630222501
+      verbCode: CONDITION_GOOD
+      effectCode: REFLECT_DEBUFF
+      targetId: SELF
+      effectValue: 1
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId5: 610220513
+    art5:
+      artId: 610220513
+      verbCode: CONDITION_GOOD
+      effectCode: MP_PLUS_DAMAGED
+      targetId: SELF
+      effectValue: 130
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 10444
+    groupId: 1128
+    name: 共同実験をはじめてみよっか？
+    shortDescription: 必ず挑発 & 必ず強化カウンター & バリア(8000)を付与
+    artId1: 610407515
+    art1:
+      artId: 610407515
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 610422400
+    art2:
+      artId: 610422400
+      verbCode: CONDITION_GOOD
+      effectCode: COUNTER
+      targetId: CONNECT
+      effectValue: 1200
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 610422115
+    art3:
+      artId: 610422115
+      verbCode: CONDITION_GOOD
+      effectCode: BARRIER
+      targetId: CONNECT
+      effectValue: 8000
+      enableTurn: 1
+      growPoint: 0
+      parameter: 1
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1044
+  attributeId: VOID
+  initialType: SUPPORT
+  defaultCardId: 10444
+  defaultCard:
+    cardId: 10444
+    rank: RANK_4
+    attributeId: VOID
+    initialType: SUPPORT
+    growthType: DEFHP
+    attack: 1929
+    defense: 2068
+    hp: 8438
+    miniCharaNo: 104400
+    charaNo: 1044
+    cardName: 瀬奈 みこと
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 10444
+      groupId: 1014
+      name: 無望鏡界
+      shortDescription: 敵全体にダメージ[Ⅰ] & 必ず強化カウンター & バリア(5000)を付与(味全/3T) & デバフ効果を1回反射(自/3T)
+        & 被ダメージ時MPUP(自/1T)
+      artId1: 9417
+      art1:
+        artId: 9417
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 1000
+        growPoint: 50
+      artId2: 630322400
+      art2:
+        artId: 630322400
+        verbCode: CONDITION_GOOD
+        effectCode: COUNTER
+        targetId: ALL
+        effectValue: 1200
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId3: 630322109
+      art3:
+        artId: 630322109
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: ALL
+        effectValue: 5000
+        enableTurn: 3
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+      artId4: 630222501
+      art4:
+        artId: 630222501
+        verbCode: CONDITION_GOOD
+        effectCode: REFLECT_DEBUFF
+        targetId: SELF
+        effectValue: 1
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId5: 610220513
+      art5:
+        artId: 610220513
+        verbCode: CONDITION_GOOD
+        effectCode: MP_PLUS_DAMAGED
+        targetId: SELF
+        effectValue: 130
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 10444
+      groupId: 1128
+      name: 共同実験をはじめてみよっか？
+      shortDescription: 必ず挑発 & 必ず強化カウンター & バリア(8000)を付与
+      artId1: 610407515
+      art1:
+        artId: 610407515
+        verbCode: CONDITION_GOOD
+        effectCode: PROVOKE
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 610422400
+      art2:
+        artId: 610422400
+        verbCode: CONDITION_GOOD
+        effectCode: COUNTER
+        targetId: CONNECT
+        effectValue: 1200
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610422115
+      art3:
+        artId: 610422115
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: CONNECT
+        effectValue: 8000
+        enableTurn: 1
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: せな みこと
+  description: 自らに暗示をかけ、現実から目を背けてきた魔法少女。表向きはにこやかで人懐っこいが、誰かを不幸にする判断を躊躇なく下すような冷酷さも持ち合わせている。外出時に幸福を味わい、帰宅すると不幸を味わう日々を送り続ける。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: 瀬奈みこと
+description: デスティニージェム1個のオマケ付き
+sortkey: 60
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

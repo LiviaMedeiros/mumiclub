@@ -1,0 +1,102 @@
+---
+id: 28726
+shopId: 662
+shopItemType: LIVE2D
+genericId: "3002_51"
+chara:
+  id: 3002
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 30022
+  defaultCard:
+    cardId: 30022
+    rank: RANK_2
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: DEFHP
+    attack: 1059
+    defense: 1065
+    hp: 3866
+    miniCharaNo: 300200
+    charaNo: 3002
+    cardName: 空穂 夏希
+    commandType1: MPUP
+    commandType2: RANGE_H
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30022
+      groupId: 1012
+      name: ゴー！ファイト！ウィン！
+      shortDescription: 敵単体にダメージ[Ⅰ] & 攻撃力UP & 防御力UP(味全/3T)
+      artId1: 100000101
+      art1:
+        artId: 100000101
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 9600
+        growPoint: 100
+      artId2: 330301102
+      art2:
+        artId: 330301102
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 175
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301202
+      art3:
+        artId: 330301202
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 263
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30022
+      groupId: 1085
+      name: ウィキャンドゥーイッ！
+      shortDescription: 攻撃力UP[Ⅳ] & 防御力UP[Ⅳ]
+      artId1: 310401104
+      art1:
+        artId: 310401104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401204
+      art2:
+        artId: 310401204
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 675
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: うつほ なつき
+  description: みんなにエールを送ってくれる、元気はつらつ魔法少女。＠野球が大好きで、学校ではチアガールとして野球部員にエールを＠送っている。＠また、野球部のマネージャーも兼任しており、名実ともに、年中無休＠のみんなのサポーターである。
+live2d:
+  charaId: 3002
+  live2dId: "51"
+  description: ハロウィン衣装(2022)
+  defaultOpened: false
+  voicePrefixNo: "51"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1199_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 空穂夏希の衣装【ハロウィン2022】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 105
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

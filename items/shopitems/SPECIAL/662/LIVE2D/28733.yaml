@@ -1,0 +1,95 @@
+---
+id: 28733
+shopId: 662
+shopItemType: LIVE2D
+genericId: "3007_50"
+chara:
+  id: 3007
+  attributeId: LIGHT
+  initialType: ATTACK
+  defaultCardId: 30072
+  defaultCard:
+    cardId: 30072
+    rank: RANK_2
+    attributeId: LIGHT
+    initialType: ATTACK
+    growthType: BALANCE
+    attack: 1300
+    defense: 1006
+    hp: 3122
+    miniCharaNo: 300700
+    charaNo: 3007
+    cardName: 保澄 雫
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30072
+      groupId: 1019
+      name: ミリアドゥ・メーゼ
+      shortDescription: ランダム2回　ダメージ[Ⅰ] & 確率でクリティカル(味全/3T)
+      artId1: 100900101
+      art1:
+        artId: 100900101
+        verbCode: ATTACK
+        targetId: RANDOM2
+        effectValue: 4950
+        growPoint: 100
+      artId2: 630306301
+      art2:
+        artId: 630306301
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: ALL
+        effectValue: 2000
+        enableTurn: 3
+        growPoint: 0
+        probability: 100
+    cardSkill:
+      id: 30072
+      groupId: 1087
+      name: 私が繋げるから
+      shortDescription: 与えるダメージUP[Ⅲ] & 確率で追撃[Ⅲ]
+      artId1: 310401303
+      art1:
+        artId: 310401303
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610407203
+      art2:
+        artId: 610407203
+        verbCode: CONDITION_GOOD
+        effectCode: PURSUE
+        targetId: CONNECT
+        effectValue: 800
+        enableTurn: 1
+        growPoint: 0
+        probability: 400
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ほずみ しずく
+  description: 居場所を求めてさ迷い歩く、どこかつかみどころのない魔法少女。＠好きなもの、将来の夢など、自分自身のアイデンティティを見付けら＠れないがゆえに、未来に対する漠然とした不安を抱えている。＠純喫茶の一人娘らしく、いつも落ち着いている。
+live2d:
+  charaId: 3007
+  live2dId: "50"
+  description: ハロウィン仮装
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1199_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 保澄雫の衣装【ハロウィン】
+description: ホーム衣装【専用ボイス：有 衣装ストーリー：有】
+sortkey: 112
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

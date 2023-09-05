@@ -1,0 +1,117 @@
+---
+id: 28949
+shopId: 664
+shopItemType: PIECE
+genericId: "1481"
+piece:
+  pieceId: 1481
+  pieceType: ABILITY
+  pieceName: 会場を超える盛況
+  attributeId: ALL
+  rank: RANK_4
+  attack: 800
+  defense: 0
+  hp: 920
+  skillId: 148100
+  pieceSkill:
+    id: 148100
+    groupId: 1119
+    name: アイドルスピリット[Ⅲ]
+    type: ABILITY
+    shortDescription: ダメージアップ状態[Ⅲ] & 攻撃力UP[Ⅰ] & 必ず魅了無効
+    artId1: 690206103
+    art1:
+      artId: 690206103
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId2: 390201101
+    art2:
+      artId: 390201101
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 50
+      growPoint: 25
+      probability: 1000
+    artId3: 690208300
+    art3:
+      artId: 690208300
+      verbCode: IGNORE
+      effectCode: CHARM
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    eventId: 1093
+    eventArtId1: 1093003
+    eventArt1:
+      artId: 1093003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1093_KEY
+    eventDescription: ＆「まどかPからの連絡」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 148101
+  pieceSkill2:
+    id: 148101
+    groupId: 1119
+    name: アイドルスピリット[Ⅳ]
+    type: ABILITY
+    shortDescription: ダメージアップ状態[Ⅳ] & 攻撃力UP[Ⅱ] & 必ず魅了無効
+    artId1: 690206104
+    art1:
+      artId: 690206104
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 390201102
+    art2:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId3: 690208300
+    art3:
+      artId: 690208300
+      verbCode: IGNORE
+      effectCode: CHARM
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    eventId: 1093
+    eventArtId1: 1093004
+    eventArt1:
+      artId: 1093004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1093_KEY
+    eventDescription: ＆「まどかPからの連絡」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: （ムリムリムリムリムリムリ！こんなのレナ死んじゃうから！＠汚れたレナが一緒ってだけでも恐れ多いのに、同じステージなんて！＠あーーー！もうだめ！溶ける！発作起こす！苦しい！心が苦しい！＠いっそ逆袈裟で斬って殺して！ってそんなお願いするなんてバカ！）
+  illustrator: PAPA
+  openDate: 2020/04/02 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_11
+needNumber: 1
+limitedNumber: 6
+name: メモリア「会場を超える盛況」
+description: ダメージアップ状態[Ⅳ] & 攻撃力UP[Ⅱ] & 魅了無効
+sortkey: 24
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

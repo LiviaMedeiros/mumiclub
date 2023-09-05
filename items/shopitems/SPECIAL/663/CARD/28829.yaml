@@ -1,0 +1,231 @@
+---
+id: 28829
+shopId: 663
+shopItemType: CARD
+genericId: "35034"
+cardNum: 2
+card:
+  cardId: 35034
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: MAGIA
+  growthType: ATTACK
+  attack: 2208
+  defense: 1602
+  hp: 5084
+  miniCharaNo: 350300
+  charaNo: 3503
+  cardName: このは・葉月
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 35034
+    groupId: 1014
+    name: トリプル・デトネーション
+    shortDescription: 敵全体にダメージ[Ⅵ] & 必ず呪い & 必ずやけど & 必ず毒(敵全/3T) & 木属性攻撃力UP(自/3T)
+    artId1: 100300106
+    art1:
+      artId: 100300106
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3500
+      growPoint: 100
+    artId2: 530305000
+    art2:
+      artId: 530305000
+      verbCode: CONDITION_BAD
+      effectCode: CURSE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId3: 530304800
+    art3:
+      artId: 530304800
+      verbCode: CONDITION_BAD
+      effectCode: BURN
+      targetId: ALL
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId4: 530304600
+    art4:
+      artId: 530304600
+      verbCode: CONDITION_BAD
+      effectCode: POISON
+      targetId: ALL
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+    artId5: 330221805
+    art5:
+      artId: 330221805
+      verbCode: BUFF
+      effectCode: ATTACK_TIMBER
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 35034
+    groupId: 1129
+    name: 依頼はきっちりこなすよ！
+    shortDescription: HP自動回復[Ⅴ](3T) & 攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ]
+    artId1: 630407705
+    art1:
+      artId: 630407705
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: CONNECT
+      effectValue: 60
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId2: 310401107
+    art2:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId3: 310401607
+    art3:
+      artId: 310401607
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3503
+  attributeId: TIMBER
+  initialType: MAGIA
+  defaultCardId: 35034
+  defaultCard:
+    cardId: 35034
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: MAGIA
+    growthType: ATTACK
+    attack: 2208
+    defense: 1602
+    hp: 5084
+    miniCharaNo: 350300
+    charaNo: 3503
+    cardName: このは・葉月
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 35034
+      groupId: 1014
+      name: トリプル・デトネーション
+      shortDescription: 敵全体にダメージ[Ⅵ] & 必ず呪い & 必ずやけど & 必ず毒(敵全/3T) & 木属性攻撃力UP(自/3T)
+      artId1: 100300106
+      art1:
+        artId: 100300106
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3500
+        growPoint: 100
+      artId2: 530305000
+      art2:
+        artId: 530305000
+        verbCode: CONDITION_BAD
+        effectCode: CURSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId3: 530304800
+      art3:
+        artId: 530304800
+        verbCode: CONDITION_BAD
+        effectCode: BURN
+        targetId: ALL
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId4: 530304600
+      art4:
+        artId: 530304600
+        verbCode: CONDITION_BAD
+        effectCode: POISON
+        targetId: ALL
+        effectValue: 50
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+      artId5: 330221805
+      art5:
+        artId: 330221805
+        verbCode: BUFF
+        effectCode: ATTACK_TIMBER
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 35034
+      groupId: 1129
+      name: 依頼はきっちりこなすよ！
+      shortDescription: HP自動回復[Ⅴ](3T) & 攻撃力UP[Ⅶ] & Accele MPUP[Ⅶ]
+      artId1: 630407705
+      art1:
+        artId: 630407705
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: CONNECT
+        effectValue: 60
+        enableTurn: 3
+        growPoint: 10
+        probability: 1000
+      artId2: 310401107
+      art2:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId3: 310401607
+      art3:
+        artId: 310401607
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 400
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: このは・はづき
+  description: あやめと共に神浜で困難を乗り越え、新しい居場所を見つけた魔法少女。用心棒を始めて慌ただしい日々を送っているが、夕飯は必ず３人で食べることを約束しており、家族水入らずで過ごす時間を大切にしている。
+consumeType: ITEM
+needItemId: SELECTABLE_CHARA_TICKET_7
+needNumber: 1
+limitedNumber: 1
+name: このは・葉月
+description: デスティニージェム1個のオマケ付き
+sortkey: 37
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

@@ -1,0 +1,102 @@
+---
+id: 28651
+shopId: 662
+shopItemType: LIVE2D
+genericId: "1006_02"
+chara:
+  id: 1006
+  attributeId: DARK
+  initialType: SUPPORT
+  defaultCardId: 10064
+  defaultCard:
+    cardId: 10064
+    rank: RANK_4
+    attributeId: DARK
+    initialType: SUPPORT
+    growthType: ATKDEF
+    attack: 1724
+    defense: 1705
+    hp: 6102
+    miniCharaNo: 100600
+    charaNo: 1006
+    cardName: 梓 みふゆ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 10064
+      groupId: 1014
+      name: アサルトパラノイア
+      shortDescription: 敵全体にダメージ[Ⅴ] & 確率で幻惑(敵全/1T) & バフ解除(敵全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 510305505
+      art2:
+        artId: 510305505
+        verbCode: CONDITION_BAD
+        effectCode: BLINDNESS
+        targetId: ALL
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 400
+      artId3: 200300700
+      art3:
+        artId: 200300700
+        verbCode: REVOKE
+        effectCode: BUFF
+        targetId: ALL
+        growPoint: 0
+    cardSkill:
+      id: 10064
+      groupId: 1090
+      name: 甘えたなんですから
+      shortDescription: Accele MPUP[Ⅶ] & 必ず幻惑
+      artId1: 310401607
+      art1:
+        artId: 310401607
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 400
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610411100
+      art2:
+        artId: 610411100
+        verbCode: ENCHANT
+        effectCode: BLINDNESS
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あずさ みふゆ
+  description: ７年間、やちよのパートナーとして魔女と戦ってきたベテランの魔法少女。自身の魔力が衰えていることを実感してから、ひとりの女性としての幸福を得るために、マギウスの翼の幹部になった。優しいが心は弱く、判断を誤ることが間々ある。
+live2d:
+  charaId: 1006
+  live2dId: "02"
+  description: 水名女学園の制服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1199_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 梓みふゆの衣装【制服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：有】
+sortkey: 30
+isDetailView: false
+viewStartAt: 2023/08/22 16:00:00
+startAt: 2023/08/22 15:10:00
+endAt: 2023/09/11 14:59:59
+...

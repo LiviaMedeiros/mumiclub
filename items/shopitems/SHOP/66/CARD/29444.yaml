@@ -1,0 +1,231 @@
+---
+id: 29444
+shopId: 66
+shopItemType: CARD
+genericId: "25024"
+cardNum: 1
+card:
+  cardId: 25024
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: ATTACK
+  growthType: ATTACK
+  attack: 2245
+  defense: 1682
+  hp: 5674
+  miniCharaNo: 250200
+  charaNo: 2502
+  cardName: ホーリーマミ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 25024
+    groupId: 1014
+    name: ティロフィナーレ・リベレーション
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 木属性攻撃力UP & マギアダメージUP(自/3T) & MP自動回復(自/1T)
+      & デバフ解除(自)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 330221805
+    art2:
+      artId: 330221805
+      verbCode: BUFF
+      effectCode: ATTACK_TIMBER
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330201405
+    art3:
+      artId: 330201405
+      verbCode: BUFF
+      effectCode: MAGIA
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 9579
+    art4:
+      artId: 9579
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 10
+      probability: 1000
+      genericValue: MP
+    artId5: 200200800
+    art5:
+      artId: 200200800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: SELF
+      growPoint: 0
+  cardSkill:
+    id: 25024
+    groupId: 1087
+    name: さあ、一緒に救われましょう
+    shortDescription: 与えるダメージUP[Ⅶ] & 敵状態異常時ダメージUP[Ⅷ] & 必ず霧
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610414608
+    art2:
+      artId: 610414608
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP_BAD
+      targetId: CONNECT
+      effectValue: 425
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    artId3: 610410700
+    art3:
+      artId: 610410700
+      verbCode: ENCHANT
+      effectCode: FOG
+      targetId: CONNECT
+      effectValue: 250
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 2502
+  attributeId: TIMBER
+  initialType: ATTACK
+  defaultCardId: 25024
+  defaultCard:
+    cardId: 25024
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: ATTACK
+    growthType: ATTACK
+    attack: 2245
+    defense: 1682
+    hp: 5674
+    miniCharaNo: 250200
+    charaNo: 2502
+    cardName: ホーリーマミ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 25024
+      groupId: 1014
+      name: ティロフィナーレ・リベレーション
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 木属性攻撃力UP & マギアダメージUP(自/3T) & MP自動回復(自/1T)
+        & デバフ解除(自)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 330221805
+      art2:
+        artId: 330221805
+        verbCode: BUFF
+        effectCode: ATTACK_TIMBER
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330201405
+      art3:
+        artId: 330201405
+        verbCode: BUFF
+        effectCode: MAGIA
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 9579
+      art4:
+        artId: 9579
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: SELF
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 10
+        probability: 1000
+        genericValue: MP
+      artId5: 200200800
+      art5:
+        artId: 200200800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: SELF
+        growPoint: 0
+    cardSkill:
+      id: 25024
+      groupId: 1087
+      name: さあ、一緒に救われましょう
+      shortDescription: 与えるダメージUP[Ⅶ] & 敵状態異常時ダメージUP[Ⅷ] & 必ず霧
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610414608
+      art2:
+        artId: 610414608
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_UP_BAD
+        targetId: CONNECT
+        effectValue: 425
+        enableTurn: 1
+        growPoint: 25
+        probability: 1000
+      artId3: 610410700
+      art3:
+        artId: 610410700
+        verbCode: ENCHANT
+        effectCode: FOG
+        targetId: CONNECT
+        effectValue: 250
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ほーりーまみ
+  title: アニメver.
+  description: 神浜聖女のウワサと一体化した、見滝原市の魔法少女。まどかたちを魔法少女に誘ったことに責任を感じて、魔法少女を運命から解放するために活動している。マギウスの翼の理念と対立する者には一切容赦しない。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】ホーリーマミ アニメver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 34
+isDetailView: false
+viewStartAt: 2023/09/04 17:00:00
+startAt: 2023/09/04 15:10:00
+endAt: 2023/09/22 23:59:59
+...
