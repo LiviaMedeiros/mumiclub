@@ -1,0 +1,58 @@
+---
+questBattleId: 1032025
+sectionId: 103202
+sectionIndex: 5
+questBattleType: NORMAL
+bossFlag: false
+startStory: 103202-9
+endStory: 103202-18
+questStories: 103202-10,103202-11,103202-12,103202-13,103202-14,103202-15,103202-16,103202-17
+questStoryList:
+- 103202-10
+- 103202-11
+- 103202-12
+- 103202-13
+- 103202-14
+- 103202-15
+- 103202-16
+- 103202-17
+storyWaveIndices: "1,2,3,4,5,6,7,8"
+placeId: "24031"
+bgm: bgm22_battle04
+bossBgm: bgm22_battle04
+consumeType: NORMAL
+exp: 60
+cardExp: 120
+baseBondsPt: 64
+riche: 556
+firstClearRewardCodes: GIFT_813_1,GIFT_823_1,GIFT_833_1,GIFT_843_1,GIFT_853_1,GIFT_863_1,GIFT_873_1,GIFT_883_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 8312
+dropItem1:
+  dropItemId: 8312
+  rewardCode1: GIFT_831_1
+  rewardCode2: GIFT_831_2
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- WATER
+- LIGHT
+- DARK
+- TIMBER
+- FIRE
+parameterMap: []
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
