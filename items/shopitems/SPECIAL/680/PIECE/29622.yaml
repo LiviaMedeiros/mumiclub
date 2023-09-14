@@ -1,0 +1,106 @@
+---
+id: 29622
+shopId: 680
+shopItemType: PIECE
+genericId: "1945"
+piece:
+  pieceId: 1945
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 自分、いるんです
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 861
+  hp: 941
+  skillId: 194500
+  pieceSkill:
+    id: 194500
+    groupId: 1113
+    name: マギア・ブレイク[Ⅷ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 必ずマギア不可(敵単/1T) & 与えるダメージDOWN[Ⅷ](敵全/1T)
+    messageId: 72
+    artId1: 510006000
+    art1:
+      artId: 510006000
+      verbCode: CONDITION_BAD
+      effectCode: BAN_MAGIA
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 410302208
+    art2:
+      artId: 410302208
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1200
+    eventArtId1: 1200003
+    eventArt1:
+      artId: 1200003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1200_KEY
+    eventDescription: ＆「商店街の福引券」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 194501
+  pieceSkill2:
+    id: 194501
+    groupId: 1113
+    name: マギア・ブレイク[Ⅸ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 必ずマギア不可(敵単/1T) & 与えるダメージDOWN[Ⅸ](敵全/1T)
+    messageId: 72
+    artId1: 510006000
+    art1:
+      artId: 510006000
+      verbCode: CONDITION_BAD
+      effectCode: BAN_MAGIA
+      targetId: TARGET
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 410302209
+    art2:
+      artId: 410302209
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1200
+    eventArtId1: 1200004
+    eventArt1:
+      artId: 1200004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1200_KEY
+    eventDescription: ＆「商店街の福引券」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: わざとやってるわけじゃないんです…本当なんです、嘘じゃないです＠存在感が皆無なんです…やっちゃうんです、ついついなんです＠スーッと背後に立ってるんです…無意識なんです、自然なんです＠これは自然な振舞いなんです…いつものことです、“普通”なんです
+  illustrator: あらたまい
+  openDate: 2023/09/11 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_RED_1576
+needNumber: 1
+limitedNumber: 1
+name: メモリア「自分、いるんです」
+description: メモリア「自分、いるんです」(Lv1/限界突破なし)
+sortkey: 1
+isDetailView: false
+viewStartAt: 2023/09/11 17:00:00
+startAt: 2023/09/11 15:10:00
+endAt: 2023/09/29 14:59:59
+...
