@@ -1,0 +1,71 @@
+---
+pieceId: 1916
+pieceType: ABILITY
+pieceName: 自由なあの子の忘れ物
+attributeId: ALL
+rank: RANK_3
+charaIds: "2701"
+charaList:
+- charaId: 2701
+  name: 百江 なぎさ 水着ver.
+attack: 461
+defense: 0
+hp: 501
+skillId: 191600
+pieceSkill:
+  id: 191600
+  groupId: 1217
+  name: Cコンボプラス・モラール[Ⅱ]
+  type: ABILITY
+  shortDescription: Charge Combo時Charge数+1 & MP獲得量UP[Ⅱ]
+  artId1: 690219201
+  art1:
+    artId: 690219201
+    verbCode: CONDITION_GOOD
+    effectCode: C_COMBO_PLUS
+    targetId: SELF
+    effectValue: 1000
+    growPoint: 0
+    probability: 1000
+  artId2: 390201902
+  art2:
+    artId: 390201902
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 191601
+pieceSkill2:
+  id: 191601
+  groupId: 1217
+  name: Cコンボプラス・モラール[Ⅲ]
+  type: ABILITY
+  shortDescription: Charge Combo時Charge数+2 & MP獲得量UP[Ⅲ]
+  artId1: 690219202
+  art1:
+    artId: 690219202
+    verbCode: CONDITION_GOOD
+    effectCode: C_COMBO_PLUS
+    targetId: SELF
+    effectValue: 2000
+    growPoint: 0
+    probability: 1000
+  artId2: 390201903
+  art2:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「あら、また置いていったのね…」＠毎日忙しなく飛び回る、この財布の持ち主は＠友人に温かく見守られながら＠今日もこの町のどこかで、楽しく自由に過ごしている
+illustrator: 都筑禰己
+openDate: 2023/07/14 15:10:00
+...
