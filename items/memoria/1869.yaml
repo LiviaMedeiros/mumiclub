@@ -1,0 +1,90 @@
+---
+pieceId: 1869
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 無心になりたくて
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 1000
+hp: 800
+skillId: 186900
+pieceSkill:
+  id: 186900
+  groupId: 1098
+  name: ウィークポイント[Ⅶ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 状態異常耐性DOWN[Ⅶ] & 防御力DOWN[Ⅷ](敵全/1T)
+  messageId: 72
+  artId1: 410302407
+  art1:
+    artId: 410302407
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410302108
+  art2:
+    artId: 410302108
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1185
+  eventArtId1: 1185003
+  eventArt1:
+    artId: 1185003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1185_KEY
+  eventDescription: ＆「マギウスの指令書」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 186901
+pieceSkill2:
+  id: 186901
+  groupId: 1098
+  name: ウィークポイント[Ⅷ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 状態異常耐性DOWN[Ⅷ] & 防御力DOWN[Ⅸ](敵全/1T)
+  messageId: 72
+  artId1: 410302408
+  art1:
+    artId: 410302408
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 225
+    enableTurn: 1
+    growPoint: 25
+  artId2: 410302109
+  art2:
+    artId: 410302109
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: ALL
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1185
+  eventArtId1: 1185004
+  eventArt1:
+    artId: 1185004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1185_KEY
+  eventDescription: ＆「マギウスの指令書」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: （野菜、肉、野菜、肉、野菜、肉、野菜、肉…）＠「待って黒江！串はそれくらいあれば十分だよ！ありがと！」＠「え？あ…うん…」＠（何も考えなくていい作業だったから、つい没頭してた…）
+illustrator: ―
+openDate: 2023/02/27 15:10:00
+...

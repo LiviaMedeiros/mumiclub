@@ -1,0 +1,87 @@
+---
+pieceId: 1885
+pieceType: ABILITY
+pieceName: 決断の槍　
+attributeId: ALL
+rank: RANK_3
+charaIds: "1049"
+charaList:
+- charaId: 1049
+  name: オルガ
+attack: 521
+defense: 0
+hp: 441
+skillId: 188500
+pieceSkill:
+  id: 188500
+  groupId: 1092
+  name: Aモラールブラスト・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅱ] & 水属性攻撃力UP[Ⅱ] & Blast攻撃時MP獲得[Ⅱ]
+  artId1: 390201802
+  art1:
+    artId: 390201802
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 390221402
+  art2:
+    artId: 390221402
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 75
+    growPoint: 25
+  artId3: 690220002
+  art3:
+    artId: 690220002
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 188501
+pieceSkill2:
+  id: 188501
+  groupId: 1092
+  name: Aモラールブラスト・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅲ] & 水属性攻撃力UP[Ⅲ] & Blast攻撃時MP獲得[Ⅲ]
+  artId1: 390201803
+  art1:
+    artId: 390201803
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId2: 390221403
+  art2:
+    artId: 390221403
+    verbCode: BUFF
+    effectCode: ATTACK_WATER
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+  artId3: 690220003
+  art3:
+    artId: 690220003
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: その槍があるのは、過酷なる運命の扉を開いた先＠その槍を持つ者は、天を駆け巡りて争乱に終止符を打つ戦士＠その槍が貫くのは、業に翻弄された迷える魂＠その槍で示すのは、うつし世に顕現した戦乙女の決意
+illustrator: 都筑禰己
+openDate: 2023/04/24 15:10:00
+...
