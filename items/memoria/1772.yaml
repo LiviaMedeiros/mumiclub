@@ -1,0 +1,71 @@
+---
+pieceId: 1772
+pieceType: ABILITY
+pieceName: 誰にも内緒の宝物
+attributeId: ALL
+rank: RANK_3
+charaIds: "3057"
+charaList:
+- charaId: 3057
+  name: 真井 あかり
+attack: 520
+defense: 0
+hp: 440
+skillId: 177200
+pieceSkill:
+  id: 177200
+  groupId: 1092
+  name: モラールブラスト・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅳ] & Blast攻撃時MP獲得[Ⅱ]
+  artId1: 390201804
+  art1:
+    artId: 390201804
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 690220002
+  art2:
+    artId: 690220002
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 177201
+pieceSkill2:
+  id: 177201
+  groupId: 1092
+  name: モラールブラスト・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅴ] & Blast攻撃時MP獲得[Ⅲ]
+  artId1: 390201805
+  art1:
+    artId: 390201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    growPoint: 25
+    probability: 1000
+  artId2: 690220003
+  art2:
+    artId: 690220003
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 大好きなお兄さんは色々なものをくれる＠色とりどりののクマちゃんやちょっとした小物＠そして、大好きなぷちうさ！＠嬉しいけれど、ちょっと子どもっぽい…かも？
+illustrator: 都筑禰己
+openDate: 2022/06/09 15:10:00
+...
