@@ -1,0 +1,106 @@
+---
+id: 29747
+shopId: 686
+shopItemType: PIECE
+genericId: "1955"
+piece:
+  pieceId: 1955
+  pieceType: SKILL
+  pieceName: 撮影記録：ロック
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 941
+  hp: 861
+  skillId: 195500
+  pieceSkill:
+    id: 195500
+    groupId: 1085
+    name: ペネトレイトアタック[XⅠ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 攻撃力UP[XⅠ] & 確率で防御無視[XⅠ](自/1T)
+    messageId: 70
+    artId1: 310201111
+    art1:
+      artId: 310201111
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 550
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610206611
+    art2:
+      artId: 610206611
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 600
+    eventId: 1201
+    eventArtId1: 1201003
+    eventArt1:
+      artId: 1201003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1201_EXCHANGE_1
+    eventDescription: ＆「喫茶リコリコの割引券」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 195501
+  pieceSkill2:
+    id: 195501
+    groupId: 1085
+    name: ペネトレイトアタック[XⅡ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: 攻撃力UP[XⅡ] & 確率で防御無視[XⅡ](自/1T)
+    messageId: 70
+    artId1: 310201112
+    art1:
+      artId: 310201112
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 600
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610206612
+    art2:
+      artId: 610206612
+      verbCode: CONDITION_GOOD
+      effectCode: DEFENSE_IGNORED
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 650
+    eventId: 1201
+    eventArtId1: 1201004
+    eventArt1:
+      artId: 1201004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1201_EXCHANGE_1
+    eventDescription: ＆「喫茶リコリコの割引券」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: どうでしょうか？ロックテイスト…の、衣装らしいです＠あと、このギターはレスポールという種類だと伺いました＠これはあくまで撮影の小道具…千束じゃないので演奏はしません＠（リコリス・リコイルTVアニメ
+    第7話アイキャッチ）
+  illustrator: ―
+  openDate: 2023/09/22 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_MEMORIA_TICKET_BLACK_1594
+needNumber: 1
+limitedNumber: 1
+name: メモリア「撮影記録：ロック」
+description: メモリア「撮影記録：ロック」(Lv1/限界突破なし)
+sortkey: 1
+isDetailView: false
+viewStartAt: 2023/09/22 16:00:00
+startAt: 2023/09/22 15:10:00
+endAt: 2023/10/15 14:59:59
+...
