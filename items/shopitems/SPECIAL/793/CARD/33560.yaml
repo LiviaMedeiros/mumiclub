@@ -1,0 +1,207 @@
+---
+id: 33560
+shopId: 793
+shopItemType: CARD
+genericId: "11044"
+cardNum: 1
+card:
+  cardId: 11044
+  rank: RANK_4
+  attributeId: WATER
+  initialType: BALANCE
+  growthType: DEFHP
+  attack: 1972
+  defense: 2201
+  hp: 6222
+  miniCharaNo: 110400
+  charaNo: 1104
+  cardName: ウワサのさな
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 11044
+    groupId: 1014
+    name: エレクトロン・シュヴェールト
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力DOWN(敵全/3T) & 必ずスタン(敵全/1T) & 水属性攻撃力UP(自/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 430302002
+    art2:
+      artId: 430302002
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 175
+      enableTurn: 3
+      growPoint: 25
+    artId3: 510304200
+    art3:
+      artId: 510304200
+      verbCode: CONDITION_BAD
+      effectCode: STUN
+      targetId: ALL
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId4: 330221405
+    art4:
+      artId: 330221405
+      verbCode: BUFF
+      effectCode: ATTACK_WATER
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 11044
+    groupId: 1087
+    name: 今だけは一緒に…
+    shortDescription: 与えるダメージUP[Ⅶ] & 必ず呪い & 自身に必ず回避
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610410500
+    art2:
+      artId: 610410500
+      verbCode: ENCHANT
+      effectCode: CURSE
+      targetId: CONNECT
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId3: 610206900
+    art3:
+      artId: 610206900
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1104
+  attributeId: WATER
+  initialType: BALANCE
+  defaultCardId: 11044
+  defaultCard:
+    cardId: 11044
+    rank: RANK_4
+    attributeId: WATER
+    initialType: BALANCE
+    growthType: DEFHP
+    attack: 1972
+    defense: 2201
+    hp: 6222
+    miniCharaNo: 110400
+    charaNo: 1104
+    cardName: ウワサのさな
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 11044
+      groupId: 1014
+      name: エレクトロン・シュヴェールト
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力DOWN(敵全/3T) & 必ずスタン(敵全/1T) & 水属性攻撃力UP(自/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302002
+      art2:
+        artId: 430302002
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 175
+        enableTurn: 3
+        growPoint: 25
+      artId3: 510304200
+      art3:
+        artId: 510304200
+        verbCode: CONDITION_BAD
+        effectCode: STUN
+        targetId: ALL
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId4: 330221405
+      art4:
+        artId: 330221405
+        verbCode: BUFF
+        effectCode: ATTACK_WATER
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 11044
+      groupId: 1087
+      name: 今だけは一緒に…
+      shortDescription: 与えるダメージUP[Ⅶ] & 必ず呪い & 自身に必ず回避
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610410500
+      art2:
+        artId: 610410500
+        verbCode: ENCHANT
+        effectCode: CURSE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId3: 610206900
+      art3:
+        artId: 610206900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: うわさの さな
+  description: 名無し人工知能のウワサ（アイ）と一体化した魔法少女。偶然誕生した寂しがりなウワサを倒そうとしている。睡眠や食事を必要としないなど、ウワサの特殊な体質に戸惑っているが、脳内でアイと話せることに気付いてからは癒されている。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_LIGHTGREEN_2052
+needNumber: 200
+limitedNumber: 1
+name: ウワサのさな
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 34
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

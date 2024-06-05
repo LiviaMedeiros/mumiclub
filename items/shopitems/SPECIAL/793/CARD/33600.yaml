@@ -1,0 +1,223 @@
+---
+id: 33600
+shopId: 793
+shopItemType: CARD
+genericId: "10514"
+cardNum: 1
+card:
+  cardId: 10514
+  rank: RANK_4
+  attributeId: TIMBER
+  initialType: SUPPORT
+  growthType: DEFHP
+  attack: 1901
+  defense: 1958
+  hp: 7434
+  miniCharaNo: 105100
+  charaNo: 1051
+  cardName: ヘルカ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 10514
+    groupId: 1012
+    name: 転輪羅刹のサーサナ
+    shortDescription: 敵単体にダメージ[Ⅴ] & 木属性耐性DOWN & 防御力DOWN(敵単/2T) & 攻撃力UP & 木属性攻撃力UP(味全/3T)
+      & MP回復(味全)
+    artId1: 100000105
+    art1:
+      artId: 100000105
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 10880
+      growPoint: 100
+    artId2: 9901
+    art2:
+      artId: 9901
+      verbCode: DEBUFF
+      effectCode: WEAK_TIMBER
+      targetId: TARGET
+      effectValue: 50
+      enableTurn: 2
+      growPoint: 0
+    artId3: 420002108
+    art3:
+      artId: 420002108
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 400
+      enableTurn: 2
+      growPoint: 25
+    artId4: 330301101
+    art4:
+      artId: 330301101
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId5: 330321805
+    art5:
+      artId: 330321805
+      verbCode: BUFF
+      effectCode: ATTACK_TIMBER
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId6: 200300502
+    art6:
+      artId: 200300502
+      verbCode: HEAL
+      effectCode: MP
+      targetId: ALL
+      effectValue: 150
+      growPoint: 10
+  cardSkill:
+    id: 10514
+    groupId: 1087
+    name: 衆生へ私たちの折伏を
+    shortDescription: 与えるダメージUP[Ⅷ] & Accele MPUP[Ⅷ]
+    artId1: 310401308
+    art1:
+      artId: 310401308
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 375
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401608
+    art2:
+      artId: 310401608
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: CONNECT
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1051
+  attributeId: TIMBER
+  initialType: SUPPORT
+  defaultCardId: 10514
+  defaultCard:
+    cardId: 10514
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: SUPPORT
+    growthType: DEFHP
+    attack: 1901
+    defense: 1958
+    hp: 7434
+    miniCharaNo: 105100
+    charaNo: 1051
+    cardName: ヘルカ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10514
+      groupId: 1012
+      name: 転輪羅刹のサーサナ
+      shortDescription: 敵単体にダメージ[Ⅴ] & 木属性耐性DOWN & 防御力DOWN(敵単/2T) & 攻撃力UP & 木属性攻撃力UP(味全/3T)
+        & MP回復(味全)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 9901
+      art2:
+        artId: 9901
+        verbCode: DEBUFF
+        effectCode: WEAK_TIMBER
+        targetId: TARGET
+        effectValue: 50
+        enableTurn: 2
+        growPoint: 0
+      artId3: 420002108
+      art3:
+        artId: 420002108
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 400
+        enableTurn: 2
+        growPoint: 25
+      artId4: 330301101
+      art4:
+        artId: 330301101
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId5: 330321805
+      art5:
+        artId: 330321805
+        verbCode: BUFF
+        effectCode: ATTACK_TIMBER
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId6: 200300502
+      art6:
+        artId: 200300502
+        verbCode: HEAL
+        effectCode: MP
+        targetId: ALL
+        effectValue: 150
+        growPoint: 10
+    cardSkill:
+      id: 10514
+      groupId: 1087
+      name: 衆生へ私たちの折伏を
+      shortDescription: 与えるダメージUP[Ⅷ] & Accele MPUP[Ⅷ]
+      artId1: 310401308
+      art1:
+        artId: 310401308
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 375
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401608
+      art2:
+        artId: 310401608
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: CONNECT
+        effectValue: 450
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: へるか
+  description: チベットの尼僧院で暮らす魔法少女。モンゴル軍によって故郷を焼き払われ、幼馴染みのドルマと一緒に尼僧院へ身を寄せることになった。しかし、モンゴル軍に対して憎しみが抱けず、復讐より毎日を楽しく過ごせればそれでいいと思っている。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_LIGHTGREEN_2052
+needNumber: 200
+limitedNumber: 1
+name: ヘルカ
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 74
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

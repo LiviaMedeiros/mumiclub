@@ -1,0 +1,213 @@
+---
+id: 31685
+shopId: 66
+shopItemType: CARD
+genericId: "11394"
+cardNum: 1
+card:
+  cardId: 11394
+  rank: RANK_4
+  attributeId: VOID
+  initialType: DEFENSE
+  growthType: DEFHP
+  attack: 1844
+  defense: 2689
+  hp: 8445
+  miniCharaNo: 113900
+  charaNo: 1139
+  cardName: 佐和 月出里
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 11394
+    groupId: 1014
+    name: 驚天超光麗斗喜劇
+    shortDescription: 敵全体にダメージ[Ⅴ] & バリア(8000)を付与(味全/3T) & HP回復(味全) & 必ず挑発 & 被ダメージ時MPUP(自/1T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 630322115
+    art2:
+      artId: 630322115
+      verbCode: CONDITION_GOOD
+      effectCode: BARRIER
+      targetId: ALL
+      effectValue: 8000
+      enableTurn: 3
+      growPoint: 0
+      parameter: 1
+      probability: 1000
+    artId3: 200300403
+    art3:
+      artId: 200300403
+      verbCode: HEAL
+      effectCode: HP
+      targetId: ALL
+      effectValue: 175
+      growPoint: 20
+    artId4: 610207600
+    art4:
+      artId: 610207600
+      verbCode: CONDITION_GOOD
+      effectCode: PROVOKE
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId5: 610220508
+    art5:
+      artId: 610220508
+      verbCode: CONDITION_GOOD
+      effectCode: MP_PLUS_DAMAGED
+      targetId: SELF
+      effectValue: 80
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 11394
+    groupId: 1086
+    name: ふむむむふむむんふむむふ！
+    shortDescription: 防御力UP[XⅢ] & バリア(8000)を付与
+    artId1: 310401213
+    art1:
+      artId: 310401213
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: CONNECT
+      effectValue: 1350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610422115
+    art2:
+      artId: 610422115
+      verbCode: CONDITION_GOOD
+      effectCode: BARRIER
+      targetId: CONNECT
+      effectValue: 8000
+      enableTurn: 1
+      growPoint: 0
+      parameter: 1
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1139
+  attributeId: VOID
+  initialType: DEFENSE
+  defaultCardId: 11394
+  defaultCard:
+    cardId: 11394
+    rank: RANK_4
+    attributeId: VOID
+    initialType: DEFENSE
+    growthType: DEFHP
+    attack: 1844
+    defense: 2689
+    hp: 8445
+    miniCharaNo: 113900
+    charaNo: 1139
+    cardName: 佐和 月出里
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 11394
+      groupId: 1014
+      name: 驚天超光麗斗喜劇
+      shortDescription: 敵全体にダメージ[Ⅴ] & バリア(8000)を付与(味全/3T) & HP回復(味全) & 必ず挑発 & 被ダメージ時MPUP(自/1T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 630322115
+      art2:
+        artId: 630322115
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: ALL
+        effectValue: 8000
+        enableTurn: 3
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+      artId3: 200300403
+      art3:
+        artId: 200300403
+        verbCode: HEAL
+        effectCode: HP
+        targetId: ALL
+        effectValue: 175
+        growPoint: 20
+      artId4: 610207600
+      art4:
+        artId: 610207600
+        verbCode: CONDITION_GOOD
+        effectCode: PROVOKE
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId5: 610220508
+      art5:
+        artId: 610220508
+        verbCode: CONDITION_GOOD
+        effectCode: MP_PLUS_DAMAGED
+        targetId: SELF
+        effectValue: 80
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 11394
+      groupId: 1086
+      name: ふむむむふむむんふむむふ！
+      shortDescription: 防御力UP[XⅢ] & バリア(8000)を付与
+      artId1: 310401213
+      art1:
+        artId: 310401213
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: CONNECT
+        effectValue: 1350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610422115
+      art2:
+        artId: 610422115
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: CONNECT
+        effectValue: 8000
+        enableTurn: 1
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: さわ すだち
+  title: バレンタインver.
+  description: バレンタインを控える宝崎市に来た、出張調整屋の魔法少女。調整屋のイメージ改善を行うため、バレンタインにちなんだお菓子のような格好で宣伝をする。この衣装になると、武器がヨヅルとお揃いのステッキになるので、密かに喜んでいる。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】佐和月出里 バレンタインver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 2
+isDetailView: false
+viewStartAt: 2024/02/05 16:00:00
+startAt: 2024/02/05 15:10:00
+endAt: 2024/02/19 14:59:59
+...

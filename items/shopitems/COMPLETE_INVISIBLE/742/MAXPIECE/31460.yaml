@@ -1,0 +1,116 @@
+---
+id: 31460
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1355"
+piece:
+  pieceId: 1355
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 皆さんに会える場所
+  attributeId: ALL
+  rank: RANK_4
+  attack: 800
+  defense: 0
+  hp: 800
+  skillId: 135500
+  pieceSkill:
+    id: 135500
+    groupId: 1143
+    name: オン・ステージ[Ⅳ]
+    type: ABILITY
+    shortDescription: 必ず暗闇無効 & 確率でスキル不可無効[Ⅳ] & 攻撃力UP[Ⅱ]
+    artId1: 690209000
+    art1:
+      artId: 690209000
+      verbCode: IGNORE
+      effectCode: DARKNESS
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 690209204
+    art2:
+      artId: 690209204
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 400
+    artId3: 390201102
+    art3:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    eventId: 1062
+    eventArtId1: 1062001
+    eventArt1:
+      artId: 1062001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_DAILYTOWER_1062_EXCHANGE_1
+    eventDescription: ＆「いいね！」入手時＋2
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 135501
+  pieceSkill2:
+    id: 135501
+    groupId: 1143
+    name: オン・ステージ[Ⅸ]
+    type: ABILITY
+    shortDescription: 必ず暗闇無効 & 確率でスキル不可無効[Ⅸ] & 攻撃力UP[Ⅱ]
+    artId1: 690209000
+    art1:
+      artId: 690209000
+      verbCode: IGNORE
+      effectCode: DARKNESS
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 690209209
+    art2:
+      artId: 690209209
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 650
+    artId3: 390201102
+    art3:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    eventId: 1062
+    eventArtId1: 1062002
+    eventArt1:
+      artId: 1062002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1062_EXCHANGE_1
+    eventDescription: ＆「いいね！」入手時＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「皆さ～ん！今日もお会いできて嬉しいですぅ～！」＠始めは、望んで得た場所ではなかった＠けれど、ライトよりも輝く声援に気付いた時…＠その時から、ここは彼女にとってかけがえのない居場所となった
+  illustrator: ―
+  openDate: 2019/06/10 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 2000
+limitedNumber: 1
+name: メモリア「皆さんに会える場所」
+description: メモリア「皆さんに会える場所」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 12
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

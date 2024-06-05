@@ -1,0 +1,90 @@
+---
+id: 31478
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1351"
+piece:
+  pieceId: 1351
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: こっちは任せて！
+  attributeId: ALL
+  rank: RANK_3
+  attack: 0
+  defense: 600
+  hp: 598
+  skillId: 135100
+  pieceSkill:
+    id: 135100
+    groupId: 1205
+    name: マギアシールド[Ⅳ]
+    type: SKILL
+    intervalTurn: 7
+    shortDescription: マギアダメージカット状態[Ⅳ](自/1T)
+    messageId: 70
+    artId1: 610216604
+    art1:
+      artId: 610216604
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_NODISK
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    eventId: 1060
+    eventArtId1: 1060001
+    eventArt1:
+      artId: 1060001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1060_PART_1
+    eventDescription: ＆リース入手時＋2
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 135101
+  pieceSkill2:
+    id: 135101
+    groupId: 1205
+    name: マギアシールド[Ⅵ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: マギアダメージカット状態[Ⅵ](自/1T)
+    messageId: 70
+    artId1: 610216606
+    art1:
+      artId: 610216606
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN_NODISK
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+      probability: 1000
+    eventId: 1060
+    eventArtId1: 1060002
+    eventArt1:
+      artId: 1060002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1060_PART_1
+    eventDescription: ＆リース入手時＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「後ろは気にしないで！まー、あちしに任せてよ！」＠「大丈夫だって、後ろはアタシがバッチリ守るからさ！」＠「何言ってるの、ふたりとも…後ろは私が対処しておくわ」＠「だからー！後ろは気にしないで！まー、あちしに（以降繰り返し）」
+  illustrator: ―
+  openDate: 2019/05/24 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 500
+limitedNumber: 1
+name: メモリア「こっちは任せて！」
+description: メモリア「こっちは任せて！」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 30
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

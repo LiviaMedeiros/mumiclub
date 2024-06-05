@@ -1,0 +1,84 @@
+---
+id: 33346
+shopId: 790
+shopItemType: PIECE
+genericId: "1234"
+piece:
+  pieceId: 1234
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 上から下まで
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 764
+  hp: 844
+  skillId: 123400
+  pieceSkill:
+    id: 123400
+    groupId: 1082
+    name: カウンタラクト
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: デバフ解除(自)
+    messageId: 70
+    artId1: 200200800
+    art1:
+      artId: 200200800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: SELF
+      growPoint: 0
+    eventId: 1216
+    eventArtId1: 1216003
+    eventArt1:
+      artId: 1216003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1216_KEY
+    eventDescription: ＆「記憶の頁」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 123401
+  pieceSkill2:
+    id: 123401
+    groupId: 1082
+    name: カウンタラクト
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: デバフ解除(自)
+    messageId: 70
+    artId1: 200200800
+    art1:
+      artId: 200200800
+      verbCode: REVOKE
+      effectCode: DEBUFF
+      targetId: SELF
+      growPoint: 0
+    eventId: 1216
+    eventArtId1: 1216004
+    eventArt1:
+      artId: 1216004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1216_KEY
+    eventDescription: ＆「記憶の頁」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「えと…これ…どうかな？鹿目さん…」＠水着も日傘もサンダルもトータルでコーディネイト！＠思い切ってちょっと派手めでチャレンジしてみたほむら＠ちょっと冒険してみるのもいいかも…だって夏なんだし!?
+  illustrator: ―
+  openDate: 2018/07/20 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_SPECIAL_TICKET_41
+needNumber: 1
+limitedNumber: 2
+name: メモリア「上から下まで」
+description: メモリア「上から下まで」(Lv1/限界突破なし)
+sortkey: 5
+isDetailView: false
+viewStartAt: 2024/05/22 16:00:00
+startAt: 2024/05/22 15:10:00
+endAt: 2024/06/07 14:59:59
+...

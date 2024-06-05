@@ -1,0 +1,210 @@
+---
+id: 33601
+shopId: 793
+shopItemType: CARD
+genericId: "35044"
+cardNum: 1
+card:
+  cardId: 35044
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: SUPPORT
+  growthType: ATKHP
+  attack: 2043
+  defense: 1934
+  hp: 7312
+  miniCharaNo: 350400
+  charaNo: 3504
+  cardName: まさら・こころ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 35044
+    groupId: 1014
+    name: 最上級の愛をこめて
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 防御力UP & ダメージUP & 状態異常を1回無効(味全/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330301101
+    art2:
+      artId: 330301101
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330301202
+    art3:
+      artId: 330301202
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 263
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630306103
+    art4:
+      artId: 630306103
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_UP
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+    artId5: 630320800
+    art5:
+      artId: 630320800
+      verbCode: IGNORE
+      effectCode: CONDITION_BAD
+      targetId: ALL
+      enableTurn: 3
+      growPoint: 0
+      probability: 1000
+      genericValue: NONE
+  cardSkill:
+    id: 35044
+    groupId: 1087
+    name: 花束をあなたに！
+    shortDescription: 与えるダメージUP[Ⅷ] & 光属性攻撃力UP[Ⅷ]
+    artId1: 310401308
+    art1:
+      artId: 310401308
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 375
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421308
+    art2:
+      artId: 310421308
+      verbCode: BUFF
+      effectCode: ATTACK_LIGHT
+      targetId: CONNECT
+      effectValue: 225
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3504
+  attributeId: LIGHT
+  initialType: SUPPORT
+  defaultCardId: 35044
+  defaultCard:
+    cardId: 35044
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: SUPPORT
+    growthType: ATKHP
+    attack: 2043
+    defense: 1934
+    hp: 7312
+    miniCharaNo: 350400
+    charaNo: 3504
+    cardName: まさら・こころ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 35044
+      groupId: 1014
+      name: 最上級の愛をこめて
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 防御力UP & ダメージUP & 状態異常を1回無効(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301101
+      art2:
+        artId: 330301101
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301202
+      art3:
+        artId: 330301202
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 263
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630306103
+      art4:
+        artId: 630306103
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_UP
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+        probability: 1000
+      artId5: 630320800
+      art5:
+        artId: 630320800
+        verbCode: IGNORE
+        effectCode: CONDITION_BAD
+        targetId: ALL
+        enableTurn: 3
+        growPoint: 0
+        probability: 1000
+        genericValue: NONE
+    cardSkill:
+      id: 35044
+      groupId: 1087
+      name: 花束をあなたに！
+      shortDescription: 与えるダメージUP[Ⅷ] & 光属性攻撃力UP[Ⅷ]
+      artId1: 310401308
+      art1:
+        artId: 310401308
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 375
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421308
+      art2:
+        artId: 310421308
+        verbCode: BUFF
+        effectCode: ATTACK_LIGHT
+        targetId: CONNECT
+        effectValue: 225
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: まさら・こころ
+  title: 花嫁ver.
+  description: ウェディングフォトのモデルを頼まれた、仲良しの魔法少女。結婚について考える中で、家族の愛や自分にとっての幸福に触れる。将来のことはまだわからないが、いつか互いに訪れる未来が笑顔で彩られることをふたりは願っている。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_LIGHTGREEN_2052
+needNumber: 200
+limitedNumber: 1
+name: まさら・こころ 花嫁ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 75
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

@@ -1,0 +1,222 @@
+---
+id: 31684
+shopId: 66
+shopItemType: CARD
+genericId: "35054"
+cardNum: 1
+card:
+  cardId: 35054
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: SUPPORT
+  growthType: HP
+  attack: 1968
+  defense: 2030
+  hp: 7898
+  miniCharaNo: 350500
+  charaNo: 3505
+  cardName: れいら・せいか
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: CHARGE
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 35054
+    groupId: 1012
+    name: 三射三葉
+    shortDescription: 敵単体にダメージ[Ⅴ] & 攻撃力・防御力DOWN(敵単/3T) & HP自動回復(味全/3T) & Charge消費なし(味全/2T)
+    artId1: 100000105
+    art1:
+      artId: 100000105
+      verbCode: ATTACK
+      targetId: TARGET
+      effectValue: 10880
+      growPoint: 100
+    artId2: 430002004
+    art2:
+      artId: 430002004
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId3: 430002104
+    art3:
+      artId: 430002104
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630307705
+    art4:
+      artId: 630307705
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: ALL
+      effectValue: 60
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    artId5: 620320900
+    art5:
+      artId: 620320900
+      verbCode: CONDITION_GOOD
+      effectCode: NO_COST_CHARGE
+      targetId: ALL
+      enableTurn: 2
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 35054
+    groupId: 1085
+    name: 心を結ぼう！
+    shortDescription: 攻撃力UP[Ⅶ] & 火属性攻撃力UP[Ⅶ] & HP回復[Ⅶ]
+    artId1: 310401107
+    art1:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421107
+    art2:
+      artId: 310421107
+      verbCode: BUFF
+      effectCode: ATTACK_FIRE
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 25
+    artId3: 200400407
+    art3:
+      artId: 200400407
+      verbCode: HEAL
+      effectCode: HP
+      targetId: CONNECT
+      effectValue: 450
+      growPoint: 20
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3505
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 35054
+  defaultCard:
+    cardId: 35054
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: HP
+    attack: 1968
+    defense: 2030
+    hp: 7898
+    miniCharaNo: 350500
+    charaNo: 3505
+    cardName: れいら・せいか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 35054
+      groupId: 1012
+      name: 三射三葉
+      shortDescription: 敵単体にダメージ[Ⅴ] & 攻撃力・防御力DOWN(敵単/3T) & HP自動回復(味全/3T) & Charge消費なし(味全/2T)
+      artId1: 100000105
+      art1:
+        artId: 100000105
+        verbCode: ATTACK
+        targetId: TARGET
+        effectValue: 10880
+        growPoint: 100
+      artId2: 430002004
+      art2:
+        artId: 430002004
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: TARGET
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430002104
+      art3:
+        artId: 430002104
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: TARGET
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630307705
+      art4:
+        artId: 630307705
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: ALL
+        effectValue: 60
+        enableTurn: 3
+        growPoint: 10
+        probability: 1000
+      artId5: 620320900
+      art5:
+        artId: 620320900
+        verbCode: CONDITION_GOOD
+        effectCode: NO_COST_CHARGE
+        targetId: ALL
+        enableTurn: 2
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 35054
+      groupId: 1085
+      name: 心を結ぼう！
+      shortDescription: 攻撃力UP[Ⅶ] & 火属性攻撃力UP[Ⅶ] & HP回復[Ⅶ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421107
+      art2:
+        artId: 310421107
+        verbCode: BUFF
+        effectCode: ATTACK_FIRE
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 25
+      artId3: 200400407
+      art3:
+        artId: 200400407
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 450
+        growPoint: 20
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: れいら・せいか
+  description: 神浜大東団地に住む幼馴染の魔法少女。同じく幼馴染で魔法少女の相野みとと共に学生生活を送りつつ、魔女と戦っている。行動派のれいらに振り回されがちだが、冷静沈着なせいかがサポートし、温和なみとが３人のバランスを保っている。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】れいら・せいか
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 1
+isDetailView: false
+viewStartAt: 2024/02/05 16:00:00
+startAt: 2024/02/05 15:10:00
+endAt: 2024/02/19 14:59:59
+...

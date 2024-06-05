@@ -1,0 +1,169 @@
+---
+id: 33663
+shopId: 793
+shopItemType: CARD
+genericId: "30554"
+cardNum: 1
+card:
+  cardId: 30554
+  rank: RANK_4
+  attributeId: FIRE
+  initialType: SUPPORT
+  growthType: HP
+  attack: 2003
+  defense: 2021
+  hp: 6510
+  miniCharaNo: 305500
+  charaNo: 3055
+  cardName: 桐野 紗枝
+  commandType1: MPUP
+  commandType2: RANGE_V
+  commandType3: CHARGE
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 30554
+    groupId: 1014
+    name: 即刻死刑
+    shortDescription: 敵全体にダメージ[Ⅴ] & Charge後被ダメージUP(敵全/3T) & ダメージUP(味全/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 430321603
+    art2:
+      artId: 430321603
+      verbCode: DEBUFF
+      effectCode: WEAK_CHARGE_DONE
+      targetId: ALL
+      effectValue: 30
+      enableTurn: 3
+      growPoint: 10
+    artId3: 330301301
+    art3:
+      artId: 330301301
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 30554
+    groupId: 1087
+    name: わたしが勝手に手伝うだけだよ
+    shortDescription: 与えるダメージUP[Ⅶ] & Charge消費なし
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610420900
+    art2:
+      artId: 610420900
+      verbCode: CONDITION_GOOD
+      effectCode: NO_COST_CHARGE
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3055
+  attributeId: FIRE
+  initialType: SUPPORT
+  defaultCardId: 30554
+  defaultCard:
+    cardId: 30554
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: SUPPORT
+    growthType: HP
+    attack: 2003
+    defense: 2021
+    hp: 6510
+    miniCharaNo: 305500
+    charaNo: 3055
+    cardName: 桐野 紗枝
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30554
+      groupId: 1014
+      name: 即刻死刑
+      shortDescription: 敵全体にダメージ[Ⅴ] & Charge後被ダメージUP(敵全/3T) & ダメージUP(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430321603
+      art2:
+        artId: 430321603
+        verbCode: DEBUFF
+        effectCode: WEAK_CHARGE_DONE
+        targetId: ALL
+        effectValue: 30
+        enableTurn: 3
+        growPoint: 10
+      artId3: 330301301
+      art3:
+        artId: 330301301
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 30554
+      groupId: 1087
+      name: わたしが勝手に手伝うだけだよ
+      shortDescription: 与えるダメージUP[Ⅶ] & Charge消費なし
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610420900
+      art2:
+        artId: 610420900
+        verbCode: CONDITION_GOOD
+        effectCode: NO_COST_CHARGE
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: きりの さえ
+  description: 家族を守るために偽りの仮面を被る魔法少女。文武両道の優等生かつ人当たりも良いので、級友からは憧れられている。また、お嬢様としても知られているが、実際は貧乏な家庭で育った雑草根性の持ち主で、成り上がりを目指して奔走している。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_LIGHTGREEN_2052
+needNumber: 200
+limitedNumber: 1
+name: 桐野紗枝
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 137
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

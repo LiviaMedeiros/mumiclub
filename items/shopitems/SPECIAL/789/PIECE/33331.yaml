@@ -1,0 +1,120 @@
+---
+id: 33331
+shopId: 789
+shopItemType: PIECE
+genericId: "1794"
+piece:
+  pieceId: 1794
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 遊びだって真剣勝負！
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 979
+  hp: 819
+  skillId: 179400
+  pieceSkill:
+    id: 179400
+    groupId: 1094
+    name: コンバートドレイン[XⅡ]
+    type: SKILL
+    intervalTurn: 6
+    shortDescription: 攻撃力DOWN[XⅡ](敵単/1T) & 防御力UP[Ⅵ](自/1T)
+    messageId: 72
+    artId1: 410002012
+    art1:
+      artId: 410002012
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 600
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201206
+    art2:
+      artId: 310201206
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1192
+    eventArtId1: 1192003
+    eventArt1:
+      artId: 1192003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1192_PART_1
+    eventArtId2: 1192007
+    eventArt2:
+      artId: 1192007
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1192_PART_2
+    eventDescription: ＆「SUPパドル・ボード」「水鉄砲」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 179401
+  pieceSkill2:
+    id: 179401
+    groupId: 1094
+    name: コンバートドレイン[XⅢ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 攻撃力DOWN[XⅢ](敵単/1T) & 防御力UP[Ⅶ](自/1T)
+    messageId: 72
+    artId1: 410002013
+    art1:
+      artId: 410002013
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 650
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310201207
+    art2:
+      artId: 310201207
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 525
+      enableTurn: 1
+      growPoint: 25
+    eventId: 1192
+    eventArtId1: 1192004
+    eventArt1:
+      artId: 1192004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_BRANCH_1192_PART_1
+    eventArtId2: 1192008
+    eventArt2:
+      artId: 1192008
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_BRANCH_1192_PART_2
+    eventDescription: ＆「SUPパドル・ボード」「水鉄砲」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「今はちょっと負けちゃってるけど、諦めたくない…＠いまを全力で楽しもうね、ほむらちゃん！」＠「うん…！私も最後まで頑張る＠相手の動きをよく見て…撃つ！」
+  illustrator: ―
+  openDate: 2022/08/10 15:10:00
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_YELLOW_2018
+needNumber: 200
+limitedNumber: 1
+name: メモリア「遊びだって真剣勝負！」
+description: メモリア「遊びだって真剣勝負！」(Lv1/限界突破なし)
+sortkey: 24
+isDetailView: false
+viewStartAt: 2024/05/22 16:00:00
+startAt: 2024/05/22 15:10:00
+endAt: 2024/06/07 14:59:59
+...

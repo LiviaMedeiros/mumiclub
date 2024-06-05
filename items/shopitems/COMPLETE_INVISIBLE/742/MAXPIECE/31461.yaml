@@ -1,0 +1,81 @@
+---
+id: 31461
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1370"
+piece:
+  pieceId: 1370
+  pieceType: ABILITY
+  pieceName: ひとりじゃないから
+  attributeId: ALL
+  rank: RANK_4
+  attack: 762
+  defense: 0
+  hp: 840
+  skillId: 137000
+  pieceSkill:
+    id: 137000
+    groupId: 1085
+    name: シスターフッド[Ⅱ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅱ] & 確率でスタン無効[Ⅵ]
+    artId1: 390201102
+    art1:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId2: 690208406
+    art2:
+      artId: 690208406
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 500
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 137001
+  pieceSkill2:
+    id: 137001
+    groupId: 1085
+    name: シスターフッド[Ⅲ]
+    type: ABILITY
+    shortDescription: 攻撃力UP[Ⅲ] & 必ずスタン無効
+    artId1: 390201103
+    art1:
+      artId: 390201103
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    artId2: 690208400
+    art2:
+      artId: 690208400
+      verbCode: IGNORE
+      effectCode: STUN
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: ひとりでは挫けそうなことも　ふたりなら乗り越えられる＠ひとりでは泣いてしまうことも　ふたりなら笑い合える＠どんな時も　ひとりじゃないから＠どんな運命も　一緒に歩いて行こう
+  illustrator: 星和貴
+  openDate: 2019/07/01 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 2000
+limitedNumber: 1
+name: メモリア「ひとりじゃないから」
+description: メモリア「ひとりじゃないから」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 13
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

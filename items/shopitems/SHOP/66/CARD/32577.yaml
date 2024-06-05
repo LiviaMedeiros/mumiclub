@@ -1,0 +1,362 @@
+---
+id: 32577
+shopId: 66
+shopItemType: CARD
+genericId: "21014"
+cardNum: 1
+card:
+  cardId: 21014
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: ULTIMATE
+  growthType: ATKDEF
+  attack: 1979
+  defense: 1728
+  hp: 6467
+  miniCharaNo: 210100
+  charaNo: 2101
+  cardName: アルティメットまどか
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 21014
+    groupId: 1014
+    name: もう絶望する必要なんてない！
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 全ディスク効果UP & ダメージカット状態(味全/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 330301105
+    art2:
+      artId: 330301105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330301801
+    art3:
+      artId: 330301801
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 330301703
+    art4:
+      artId: 330301703
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId5: 330301603
+    art5:
+      artId: 330301603
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId6: 630306203
+    art6:
+      artId: 630306203
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+      probability: 1000
+  cardSkill:
+    id: 21014
+    groupId: 1087
+    name: 待たせちゃってごめんね
+    shortDescription: 与えるダメージUP[Ⅶ] & 状態異常耐性UP & 確率でサヴァイヴ & 状態異常解除
+    artId1: 310401307
+    art1:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId2: 9366
+    art2:
+      artId: 9366
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: CONNECT
+      effectValue: 1000
+      enableTurn: 1
+      growPoint: 0
+    artId3: 9369
+    art3:
+      artId: 9369
+      verbCode: CONDITION_GOOD
+      effectCode: SURVIVE
+      targetId: CONNECT
+      effectValue: 200
+      enableTurn: 1
+      growPoint: 0
+      probability: 700
+    artId4: 200401000
+    art4:
+      artId: 200401000
+      verbCode: REVOKE
+      effectCode: BAD
+      targetId: CONNECT
+      growPoint: 0
+  pieceSkillList:
+  - id: 21011
+    groupId: 1129
+    name: 救済の祈り
+    type: STARTUP
+    shortDescription: クエスト開始時にHP自動回復[Ⅰ] & 状態異常耐性UP[Ⅰ](味全/∞)を発動
+    artId1: 190210101
+    art1:
+      artId: 190210101
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: ALL
+      effectValue: 20
+      enableTurn: 0
+      growPoint: 0
+      probability: 1000
+    artId2: 190210102
+    art2:
+      artId: 190210102
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 0
+      growPoint: 0
+    skillEffectRange: ALL
+    skillDisplayType: EXTRA
+  maxPieceSkillList:
+  - id: 21012
+    groupId: 1129
+    name: 救済の祈り(最大解放)
+    type: STARTUP
+    shortDescription: クエスト開始時にHP自動回復[Ⅱ] & 状態異常耐性UP[Ⅲ](味全/∞)を発動
+    artId1: 190210103
+    art1:
+      artId: 190210103
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: ALL
+      effectValue: 30
+      enableTurn: 0
+      growPoint: 0
+      probability: 1000
+    artId2: 190210104
+    art2:
+      artId: 190210104
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 300
+      enableTurn: 0
+      growPoint: 0
+    skillEffectRange: ALL
+    skillDisplayType: EXTRA
+chara:
+  id: 2101
+  attributeId: LIGHT
+  initialType: ULTIMATE
+  defaultCardId: 21014
+  defaultCard:
+    cardId: 21014
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: ULTIMATE
+    growthType: ATKDEF
+    attack: 1979
+    defense: 1728
+    hp: 6467
+    miniCharaNo: 210100
+    charaNo: 2101
+    cardName: アルティメットまどか
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 21014
+      groupId: 1014
+      name: もう絶望する必要なんてない！
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力UP & 全ディスク効果UP & ダメージカット状態(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301105
+      art2:
+        artId: 330301105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301801
+      art3:
+        artId: 330301801
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 330301703
+      art4:
+        artId: 330301703
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId5: 330301603
+      art5:
+        artId: 330301603
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId6: 630306203
+      art6:
+        artId: 630306203
+        verbCode: CONDITION_GOOD
+        effectCode: DAMAGE_DOWN
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+        probability: 1000
+    cardSkill:
+      id: 21014
+      groupId: 1087
+      name: 待たせちゃってごめんね
+      shortDescription: 与えるダメージUP[Ⅶ] & 状態異常耐性UP & 確率でサヴァイヴ & 状態異常解除
+      artId1: 310401307
+      art1:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 9366
+      art2:
+        artId: 9366
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: CONNECT
+        effectValue: 1000
+        enableTurn: 1
+        growPoint: 0
+      artId3: 9369
+      art3:
+        artId: 9369
+        verbCode: CONDITION_GOOD
+        effectCode: SURVIVE
+        targetId: CONNECT
+        effectValue: 200
+        enableTurn: 1
+        growPoint: 0
+        probability: 700
+      artId4: 200401000
+      art4:
+        artId: 200401000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: CONNECT
+        growPoint: 0
+    pieceSkillList:
+    - id: 21011
+      groupId: 1129
+      name: 救済の祈り
+      type: STARTUP
+      shortDescription: クエスト開始時にHP自動回復[Ⅰ] & 状態異常耐性UP[Ⅰ](味全/∞)を発動
+      artId1: 190210101
+      art1:
+        artId: 190210101
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: ALL
+        effectValue: 20
+        enableTurn: 0
+        growPoint: 0
+        probability: 1000
+      artId2: 190210102
+      art2:
+        artId: 190210102
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 0
+        growPoint: 0
+      skillEffectRange: ALL
+      skillDisplayType: EXTRA
+    maxPieceSkillList:
+    - id: 21012
+      groupId: 1129
+      name: 救済の祈り(最大解放)
+      type: STARTUP
+      shortDescription: クエスト開始時にHP自動回復[Ⅱ] & 状態異常耐性UP[Ⅲ](味全/∞)を発動
+      artId1: 190210103
+      art1:
+        artId: 190210103
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: ALL
+        effectValue: 30
+        enableTurn: 0
+        growPoint: 0
+        probability: 1000
+      artId2: 190210104
+      art2:
+        artId: 190210104
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 300
+        enableTurn: 0
+        growPoint: 0
+      skillEffectRange: ALL
+      skillDisplayType: EXTRA
+  kana: あるてぃめっと まどか
+  description: 過去と未来と現在から遍く宇宙の向こうまで、魔法少女たちを見守り続ける女神様。全ての魔法少女たちを知り尽くして祝福を授ける彼女には、知らないことは何もない。しかし彼女は、生まれてはじめて知らない魔法少女を見つけてしまった。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】アルティメットまどか
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 2
+isDetailView: false
+viewStartAt: 2024/03/25 17:00:00
+startAt: 2024/03/25 15:10:00
+endAt: 2024/04/01 14:59:59
+...

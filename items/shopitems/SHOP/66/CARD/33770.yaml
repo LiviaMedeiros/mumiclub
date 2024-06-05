@@ -1,0 +1,255 @@
+---
+id: 33770
+shopId: 66
+shopItemType: CARD
+genericId: "11134"
+cardNum: 1
+card:
+  cardId: 11134
+  rank: RANK_4
+  attributeId: WATER
+  initialType: ATTACK
+  growthType: ATKDEF
+  attack: 2347
+  defense: 2409
+  hp: 6523
+  miniCharaNo: 111300
+  charaNo: 1113
+  cardName: 竜城 明日香
+  commandType1: RANGE_V
+  commandType2: RANGE_V
+  commandType3: RANGE_V
+  commandType4: RANGE_H
+  commandType5: CHARGE
+  cardMagia:
+    id: 11134
+    groupId: 1021
+    name: 竜真賀正鉄槌
+    shortDescription: ランダム4回　属性強化ダメージ[Ⅴ] & 瀕死時攻撃力・防御力UP & 水属性攻撃力UP & バリア(10000)を付与(自/3T)
+      & サヴァイヴ(自/1T)
+    artId1: 101100205
+    art1:
+      artId: 101100205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: RANDOM4
+      effectValue: 2736
+      growPoint: 100
+    artId2: 330202905
+    art2:
+      artId: 330202905
+      verbCode: BUFF_DYING
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 20
+      probability: 1000
+    artId3: 330203005
+    art3:
+      artId: 330203005
+      verbCode: BUFF_DYING
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 600
+      enableTurn: 3
+      growPoint: 20
+      probability: 1000
+    artId4: 330221403
+    art4:
+      artId: 330221403
+      verbCode: BUFF
+      effectCode: ATTACK_WATER
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId5: 630222119
+    art5:
+      artId: 630222119
+      verbCode: CONDITION_GOOD
+      effectCode: BARRIER
+      targetId: SELF
+      effectValue: 10000
+      enableTurn: 3
+      growPoint: 0
+      parameter: 1
+      probability: 1000
+    artId6: 610214701
+    art6:
+      artId: 610214701
+      verbCode: CONDITION_GOOD
+      effectCode: SURVIVE
+      targetId: SELF
+      effectValue: 100
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  cardSkill:
+    id: 11134
+    groupId: 1092
+    name: 福が訪れますように！
+    shortDescription: Blast ダメージUP[Ⅶ] & 攻撃力UP[Ⅶ] & スキルクイック
+    artId1: 310401807
+    art1:
+      artId: 310401807
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: CONNECT
+      effectValue: 700
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310401107
+    art2:
+      artId: 310401107
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+    artId3: 610407800
+    art3:
+      artId: 610407800
+      verbCode: CONDITION_GOOD
+      effectCode: SKILL_QUICK
+      targetId: CONNECT
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 1113
+  attributeId: WATER
+  initialType: ATTACK
+  defaultCardId: 11134
+  defaultCard:
+    cardId: 11134
+    rank: RANK_4
+    attributeId: WATER
+    initialType: ATTACK
+    growthType: ATKDEF
+    attack: 2347
+    defense: 2409
+    hp: 6523
+    miniCharaNo: 111300
+    charaNo: 1113
+    cardName: 竜城 明日香
+    commandType1: RANGE_V
+    commandType2: RANGE_V
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 11134
+      groupId: 1021
+      name: 竜真賀正鉄槌
+      shortDescription: ランダム4回　属性強化ダメージ[Ⅴ] & 瀕死時攻撃力・防御力UP & 水属性攻撃力UP & バリア(10000)を付与(自/3T)
+        & サヴァイヴ(自/1T)
+      artId1: 101100205
+      art1:
+        artId: 101100205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: RANDOM4
+        effectValue: 2736
+        growPoint: 100
+      artId2: 330202905
+      art2:
+        artId: 330202905
+        verbCode: BUFF_DYING
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 20
+        probability: 1000
+      artId3: 330203005
+      art3:
+        artId: 330203005
+        verbCode: BUFF_DYING
+        effectCode: DEFENSE
+        targetId: SELF
+        effectValue: 600
+        enableTurn: 3
+        growPoint: 20
+        probability: 1000
+      artId4: 330221403
+      art4:
+        artId: 330221403
+        verbCode: BUFF
+        effectCode: ATTACK_WATER
+        targetId: SELF
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 25
+      artId5: 630222119
+      art5:
+        artId: 630222119
+        verbCode: CONDITION_GOOD
+        effectCode: BARRIER
+        targetId: SELF
+        effectValue: 10000
+        enableTurn: 3
+        growPoint: 0
+        parameter: 1
+        probability: 1000
+      artId6: 610214701
+      art6:
+        artId: 610214701
+        verbCode: CONDITION_GOOD
+        effectCode: SURVIVE
+        targetId: SELF
+        effectValue: 100
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 11134
+      groupId: 1092
+      name: 福が訪れますように！
+      shortDescription: Blast ダメージUP[Ⅶ] & 攻撃力UP[Ⅶ] & スキルクイック
+      artId1: 310401807
+      art1:
+        artId: 310401807
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: CONNECT
+        effectValue: 700
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401107
+      art2:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610407800
+      art3:
+        artId: 610407800
+        verbCode: CONDITION_GOOD
+        effectCode: SKILL_QUICK
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: たつき あすか
+  title: 新春龍神ver.
+  description: 竜城家の始祖と伝わる龍神のような姿になった魔法少女。「明鏡止水」を新年の抱負として掲げているが、今のところ達成できる見込みはない。持っているのは打出の小槌だが、振っても願いを叶えてくれないので、自力でどうにかするべく奮闘中。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】竜城明日香 新春龍神ver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 87
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

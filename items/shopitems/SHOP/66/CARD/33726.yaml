@@ -1,0 +1,206 @@
+---
+id: 33726
+shopId: 66
+shopItemType: CARD
+genericId: "40144"
+cardNum: 1
+card:
+  cardId: 40144
+  rank: RANK_4
+  attributeId: LIGHT
+  initialType: ATTACK
+  growthType: BALANCE
+  attack: 2375
+  defense: 1702
+  hp: 5153
+  miniCharaNo: 401400
+  charaNo: 4014
+  cardName: 昴 かずみ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: RANGE_H
+  commandType4: RANGE_V
+  commandType5: CHARGE
+  cardMagia:
+    id: 40144
+    groupId: 1014
+    name: メテオ―ラ・フィナーレ
+    shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 攻撃力UP & ダメージUP(自/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 430302005
+    art2:
+      artId: 430302005
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId3: 430302105
+    art3:
+      artId: 430302105
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId4: 330201104
+    art4:
+      artId: 330201104
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId5: 330201303
+    art5:
+      artId: 330201303
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: SELF
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+  cardSkill:
+    id: 40144
+    groupId: 1085
+    name: 行こう！ココロをひとつに！
+    shortDescription: 攻撃力UP[Ⅶ] & 必ずクリティカル
+    artId1: 310401105
+    art1:
+      artId: 310401105
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: CONNECT
+      effectValue: 300
+      enableTurn: 1
+      growPoint: 25
+    artId2: 610406400
+    art2:
+      artId: 610406400
+      verbCode: CONDITION_GOOD
+      effectCode: CRITICAL
+      targetId: CONNECT
+      effectValue: 2000
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 4014
+  attributeId: LIGHT
+  initialType: ATTACK
+  defaultCardId: 40144
+  defaultCard:
+    cardId: 40144
+    rank: RANK_4
+    attributeId: LIGHT
+    initialType: ATTACK
+    growthType: BALANCE
+    attack: 2375
+    defense: 1702
+    hp: 5153
+    miniCharaNo: 401400
+    charaNo: 4014
+    cardName: 昴 かずみ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: RANGE_V
+    commandType5: CHARGE
+    cardMagia:
+      id: 40144
+      groupId: 1014
+      name: メテオ―ラ・フィナーレ
+      shortDescription: 敵全体にダメージ[Ⅴ] & 攻撃力DOWN & 防御力DOWN(敵全/3T) & 攻撃力UP & ダメージUP(自/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302005
+      art2:
+        artId: 430302005
+        verbCode: DEBUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430302105
+      art3:
+        artId: 430302105
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId4: 330201104
+      art4:
+        artId: 330201104
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: SELF
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId5: 330201303
+      art5:
+        artId: 330201303
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: SELF
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 40144
+      groupId: 1085
+      name: 行こう！ココロをひとつに！
+      shortDescription: 攻撃力UP[Ⅶ] & 必ずクリティカル
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610406400
+      art2:
+        artId: 610406400
+        verbCode: CONDITION_GOOD
+        effectCode: CRITICAL
+        targetId: CONNECT
+        effectValue: 2000
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: すばる かずみ
+  description: 魔法で生み出された合成魔法少女が、“本物の心”で契約し“本物の人間”になり、“本物の魔法少女”となった。＠キュゥべえをして「アタリ」と言わせる程の魔法力を持つ。＠「昴」は大切な仲間たち「プレイアデス聖団」に由来する。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】昴かずみ
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 43
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

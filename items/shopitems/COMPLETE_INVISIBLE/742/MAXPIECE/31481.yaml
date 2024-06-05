@@ -1,0 +1,82 @@
+---
+id: 31481
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1388"
+piece:
+  pieceId: 1388
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 日の本の為に魂を
+  attributeId: ALL
+  rank: RANK_3
+  attack: 631
+  defense: 0
+  hp: 570
+  skillId: 138800
+  pieceSkill:
+    id: 138800
+    groupId: 1183
+    name: アンチ・ジャマ―[Ⅵ]
+    type: ABILITY
+    shortDescription: 確率でスキル不可無効[Ⅵ]
+    artId1: 690209206
+    art1:
+      artId: 690209206
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 500
+    eventId: 1068
+    eventArtId1: 1068001
+    eventArt1:
+      artId: 1068001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1068_PART_1
+    eventDescription: ＆明日への切符入手時＋2
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 138801
+  pieceSkill2:
+    id: 138801
+    groupId: 1183
+    name: アンチ・ジャマ―
+    type: ABILITY
+    shortDescription: 必ずスキル不可無効
+    artId1: 690209200
+    art1:
+      artId: 690209200
+      verbCode: IGNORE
+      effectCode: BAN_SKILL
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    eventId: 1068
+    eventArtId1: 1068002
+    eventArt1:
+      artId: 1068002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1068_PART_1
+    eventDescription: ＆明日への切符入手時＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「不思議な舞で、動物を呼び出したと思ったら、＠それが神秘を叶えてくれる久兵衛様だっていうからビックリだよぅ！＠なんで、そんな事ができるのか全然わからないけど、すごいのは確か！＠何があったとしても、わたしに誇りを与えてくれたもんね！」
+  illustrator: ―
+  openDate: 2019/08/09 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 500
+limitedNumber: 1
+name: メモリア「日の本の為に魂を」
+description: メモリア「日の本の為に魂を」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 33
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

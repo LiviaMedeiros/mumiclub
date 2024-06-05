@@ -1,0 +1,100 @@
+---
+id: 31475
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1307"
+piece:
+  pieceId: 1307
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 空気を吸って吐くように
+  attributeId: ALL
+  rank: RANK_3
+  attack: 606
+  defense: 0
+  hp: 606
+  skillId: 130700
+  pieceSkill:
+    id: 130700
+    groupId: 1140
+    name: アンチ・バーン[Ⅴ]
+    type: ABILITY
+    shortDescription: 確率でやけど無効[Ⅴ] & 防御力UP[Ⅰ]
+    artId1: 690208705
+    art1:
+      artId: 690208705
+      verbCode: IGNORE
+      effectCode: BURN
+      targetId: SELF
+      growPoint: 0
+      probability: 450
+    artId2: 390201201
+    art2:
+      artId: 390201201
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+    eventId: 1050
+    eventArtId1: 1050001
+    eventArt1:
+      artId: 1050001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_DAILYTOWER_1050_KEY
+    eventDescription: ＆「フォーチュンペーパー」入手時＋2
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 130701
+  pieceSkill2:
+    id: 130701
+    groupId: 1140
+    name: アンチ・バーン
+    type: ABILITY
+    shortDescription: 必ずやけど無効 & 防御力UP[Ⅱ]
+    artId1: 690208700
+    art1:
+      artId: 690208700
+      verbCode: IGNORE
+      effectCode: BURN
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 390201202
+    art2:
+      artId: 390201202
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    eventId: 1050
+    eventArtId1: 1050002
+    eventArt1:
+      artId: 1050002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1050_KEY
+    eventDescription: ＆「フォーチュンペーパー」入手時＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 道には、たっぷりと降り積もった雪が＠歩いているのは、買い物帰りの鶴乃とフェリシア＠となればもう…雪合戦するなんて当然でしょ！＠この後、雪だるまもしっかり作ったふたりだった…！
+  illustrator: ―
+  openDate: 2019/02/04 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 500
+limitedNumber: 1
+name: メモリア「空気を吸って吐くように」
+description: メモリア「空気を吸って吐くように」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 27
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

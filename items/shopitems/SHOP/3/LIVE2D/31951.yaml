@@ -1,0 +1,132 @@
+---
+id: 31951
+shopId: 3
+shopItemType: LIVE2D
+genericId: "2301_02"
+chara:
+  id: 2301
+  attributeId: DARK
+  initialType: MAGIA
+  defaultCardId: 23014
+  defaultCard:
+    cardId: 23014
+    rank: RANK_4
+    attributeId: DARK
+    initialType: MAGIA
+    growthType: ATKHP
+    attack: 2322
+    defense: 2068
+    hp: 6191
+    miniCharaNo: 230100
+    charaNo: 2301
+    cardName: 暁美 ほむら
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: RANGE_V
+    cardMagia:
+      id: 23014
+      groupId: 1014
+      name: 時間止めによる集中射撃
+      shortDescription: 敵全体に属性強化ダメージ[Ⅵ] & 闇属性攻撃力UP & マギアダメージUP & 対魔女ダメージアップ(自/3T)
+        & スキルクイック(自/1T) & デバフ解除(自)
+      artId1: 100300206
+      art1:
+        artId: 100300206
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3250
+        growPoint: 100
+      artId2: 330221209
+      art2:
+        artId: 330221209
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: SELF
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330201409
+      art3:
+        artId: 330201409
+        verbCode: BUFF
+        effectCode: MAGIA
+        targetId: SELF
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630216807
+      art4:
+        artId: 630216807
+        verbCode: LIMITED_ENEMY_TYPE
+        effectCode: DAMAGE_UP
+        targetId: SELF
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 15
+        probability: 1000
+        genericValue: WITCH
+      artId5: 610207800
+      art5:
+        artId: 610207800
+        verbCode: CONDITION_GOOD
+        effectCode: SKILL_QUICK
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId6: 200200800
+      art6:
+        artId: 200200800
+        verbCode: REVOKE
+        effectCode: DEBUFF
+        targetId: SELF
+        growPoint: 0
+    cardSkill:
+      id: 23014
+      groupId: 1234
+      name: あなたのためじゃないわ
+      shortDescription: 闇属性攻撃力UP[Ⅷ] & スキルクイック
+      artId1: 310421208
+      art1:
+        artId: 310421208
+        verbCode: BUFF
+        effectCode: ATTACK_DARK
+        targetId: CONNECT
+        effectValue: 225
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610407800
+      art2:
+        artId: 610407800
+        verbCode: CONDITION_GOOD
+        effectCode: SKILL_QUICK
+        targetId: CONNECT
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あけみ ほむら
+  title: scene0 ver.
+  description: 繰り返す時の中で未来を変えようとしている魔法少女。長らく心臓を患っていたが退院して見滝原中学校の２年生として転入してきた。かつては気弱だったが、ある１人の少女を救うために、その気質を変化させている。
+live2d:
+  charaId: 2301
+  live2dId: "02"
+  description: レコンパンスの制服
+  defaultOpened: false
+  voicePrefixNo: "00"
+consumeType: ITEM
+needItemId: YELL
+needNumber: 100
+limitedNumber: 1
+name: 暁美ほむらの衣装【レコンパンスの制服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：無】
+recommend: true
+sortkey: 33
+isDetailView: false
+viewStartAt: 2024/02/26 16:00:00
+startAt: 2024/02/26 15:10:00
+...

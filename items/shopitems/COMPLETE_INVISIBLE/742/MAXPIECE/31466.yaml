@@ -1,0 +1,89 @@
+---
+id: 31466
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1395"
+piece:
+  pieceId: 1395
+  pieceType: SKILL
+  pieceName: 二人のいる夏
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 400
+  hp: 400
+  skillId: 139500
+  pieceSkill:
+    id: 139500
+    groupId: 1092
+    name: リジェネレイト・ブラスト[Ⅲ]
+    type: SKILL
+    intervalTurn: 10
+    shortDescription: Blast ダメージUP[Ⅲ] & HP自動回復[Ⅲ](自/3T)
+    messageId: 70
+    artId1: 330201803
+    art1:
+      artId: 330201803
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 250
+      enableTurn: 3
+      growPoint: 25
+    artId2: 630207703
+    art2:
+      artId: 630207703
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 40
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 139501
+  pieceSkill2:
+    id: 139501
+    groupId: 1092
+    name: リジェネレイト・ブラスト[Ⅳ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: Blast ダメージUP[Ⅳ] & HP自動回復[Ⅳ](自/3T)
+    messageId: 70
+    artId1: 330201804
+    art1:
+      artId: 330201804
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId2: 630207704
+    art2:
+      artId: 630207704
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「さやかにとって、印象に残ってる夏の思い出ってなんだ？」＠「唐突だなー…えっと、スイカ柄の浮き輪で泳いだり、神浜の子たちと＠　花火をしたりとか」「…それあたしもいたし、最近のばっかりだな」＠「あはは！そうだよね　杏子と一緒だった夏は、印象が強いんだよ！」
+  illustrator: シャフト
+  openDate: 2019/08/22 00:00:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 2000
+limitedNumber: 1
+name: メモリア「二人のいる夏」
+description: メモリア「二人のいる夏」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 18
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

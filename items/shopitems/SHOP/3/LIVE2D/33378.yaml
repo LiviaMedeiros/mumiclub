@@ -1,0 +1,141 @@
+---
+id: 33378
+shopId: 3
+shopItemType: LIVE2D
+genericId: "3901_01"
+chara:
+  id: 3901
+  attributeId: VOID
+  initialType: ATTACK
+  defaultCardId: 39014
+  defaultCard:
+    cardId: 39014
+    rank: RANK_4
+    attributeId: VOID
+    initialType: ATTACK
+    growthType: ATKHP
+    attack: 2347
+    defense: 1257
+    hp: 8874
+    miniCharaNo: 390100
+    charaNo: 3901
+    cardName: ユゥ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_V
+    commandType5: RANGE_H
+    cardMagia:
+      id: 39014
+      groupId: 1014
+      name: ピュエラ・モノケロース
+      shortDescription: 敵全体にダメージ[Ⅴ] & 与えるダメージ・防御力・状態異常耐性DOWN(敵全/3T) & 必ず呪い & 必ず虚弱(敵全/2T)
+        & MP回復(自)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302205
+      art2:
+        artId: 430302205
+        verbCode: DEBUFF
+        effectCode: DAMAGE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId3: 430302109
+      art3:
+        artId: 430302109
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId4: 430302409
+      art4:
+        artId: 430302409
+        verbCode: DEBUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 250
+        enableTurn: 3
+        growPoint: 25
+      artId5: 520305000
+      art5:
+        artId: 520305000
+        verbCode: CONDITION_BAD
+        effectCode: CURSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 2
+        growPoint: 0
+        probability: 1000
+      artId6: 8166
+      art6:
+        artId: 8166
+        verbCode: CONDITION_BAD
+        effectCode: DAMAGE_UP_BAD_NUM
+        targetId: ALL
+        effectValue: 40
+        enableTurn: 2
+        growPoint: 0
+        probability: 1000
+      artId7: 200200505
+      art7:
+        artId: 200200505
+        verbCode: HEAL
+        effectCode: MP
+        targetId: SELF
+        effectValue: 300
+        growPoint: 10
+    cardSkill:
+      id: 39014
+      groupId: 1085
+      name: いい匂いがするね！
+      shortDescription: 攻撃力UP[XⅢ] & 必ず呪い
+      artId1: 310401113
+      art1:
+        artId: 310401113
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 500
+        enableTurn: 1
+        growPoint: 25
+      artId2: 610410500
+      art2:
+        artId: 610410500
+        verbCode: ENCHANT
+        effectCode: CURSE
+        targetId: CONNECT
+        effectValue: 150
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: ゆぅ
+  description: 記憶と人格を喪失してしまった虚ろな魔法少女。悪意はまったく持たないものの、倫理観が欠如しており、一線を越えることにためらいがない。精神に作用する魔法の影響でポジティブな思考をしている。
+live2d:
+  charaId: 3901
+  live2dId: "01"
+  description: 私服
+  defaultOpened: false
+  voicePrefixNo: "01"
+consumeType: ITEM
+needItemId: YELL
+needNumber: 100
+limitedNumber: 1
+name: ユゥの衣装【私服】
+description: ホーム衣装【専用ボイス：無 衣装ストーリー：無】
+recommend: true
+sortkey: 18
+isDetailView: false
+viewStartAt: 2024/05/22 16:00:00
+startAt: 2024/05/22 15:10:00
+...

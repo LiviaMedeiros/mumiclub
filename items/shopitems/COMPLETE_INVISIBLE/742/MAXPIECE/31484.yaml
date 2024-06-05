@@ -1,0 +1,120 @@
+---
+id: 31484
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1412"
+piece:
+  pieceId: 1412
+  pieceType: SKILL
+  pieceKind: EVENT
+  pieceName: 重なる謀略
+  attributeId: ALL
+  rank: RANK_3
+  attack: 0
+  defense: 540
+  hp: 660
+  skillId: 141200
+  pieceSkill:
+    id: 141200
+    groupId: 1094
+    name: 'アサルトブレイク[Ⅰ] '
+    type: SKILL
+    intervalTurn: 9
+    shortDescription: 攻撃力DOWN[Ⅰ] & 与えるダメージDOWN[Ⅰ](敵単/3T)
+    messageId: 72
+    artId1: 430002001
+    art1:
+      artId: 430002001
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 25
+    artId2: 430002201
+    art2:
+      artId: 430002201
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: TARGET
+      effectValue: 50
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1074
+    eventArtId1: 1074001
+    eventArt1:
+      artId: 1074001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1074_PART_1
+    eventArtId2: 1074005
+    eventArt2:
+      artId: 1074005
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1074_PART_2
+    eventDescription: ＆『秘められた馬』『目覚める闇』入手時＋2
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 141201
+  pieceSkill2:
+    id: 141201
+    groupId: 1094
+    name: アサルトブレイク[Ⅱ]
+    type: SKILL
+    intervalTurn: 8
+    shortDescription: 攻撃力DOWN[Ⅱ] & 与えるダメージDOWN[Ⅱ](敵単/3T)
+    messageId: 72
+    artId1: 430002002
+    art1:
+      artId: 430002002
+      verbCode: DEBUFF
+      effectCode: ATTACK
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId2: 430002202
+    art2:
+      artId: 430002202
+      verbCode: DEBUFF
+      effectCode: DAMAGE
+      targetId: TARGET
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    eventId: 1074
+    eventArtId1: 1074002
+    eventArt1:
+      artId: 1074002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1074_PART_1
+    eventArtId2: 1074006
+    eventArt2:
+      artId: 1074006
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1074_PART_2
+    eventDescription: ＆『秘められた馬』『目覚める闇』入手時＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 争いの果てに残ったのは争いだった＠謀の上に重ねられたのは謀だった＠見飽きた光景、上塗りの結末、人が変わって同じ光景が刻まれる＠願うばかり、ただ願うばかり、終われ終われと願うばかり
+  illustrator: ―
+  openDate: 2019/10/15 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 500
+limitedNumber: 1
+name: メモリア「重なる謀略」
+description: メモリア「重なる謀略」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 36
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

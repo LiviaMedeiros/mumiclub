@@ -1,0 +1,82 @@
+---
+id: 31474
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1302"
+piece:
+  pieceId: 1302
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 運命への抗戦
+  attributeId: ALL
+  rank: RANK_3
+  attack: 538
+  defense: 0
+  hp: 661
+  skillId: 130200
+  pieceSkill:
+    id: 130200
+    groupId: 1124
+    name: パリィ・アデプト[Ⅰ]
+    type: ABILITY
+    shortDescription: 確率で回避[Ⅰ]
+    artId1: 690206801
+    art1:
+      artId: 690206801
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      growPoint: 0
+      probability: 100
+    eventId: 1083
+    eventArtId1: 1083001
+    eventArt1:
+      artId: 1083001
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 2000
+      genericValue: EVENT_BRANCH_1083_PART_1
+    eventDescription: ＆「記憶の砂」入手時＋2
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 130201
+  pieceSkill2:
+    id: 130201
+    groupId: 1124
+    name: パリィ・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: 確率で回避[Ⅲ]
+    artId1: 690206803
+    art1:
+      artId: 690206803
+      verbCode: CONDITION_GOOD
+      effectCode: AVOID
+      targetId: SELF
+      growPoint: 0
+      probability: 200
+    eventId: 1083
+    eventArtId1: 1083002
+    eventArt1:
+      artId: 1083002
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_BRANCH_1083_PART_1
+    eventDescription: ＆「記憶の砂」入手時＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 何度、敗北を味わおうとも。幾度、地に塗れようとも＠彼女は再び立ち上がり、見滝原に災厄をもたらす魔女に立ち向かう＠それは、彼女がまだ希望を求めているから＠絶望を乗り越えて運命に抗うことを…想いを諦めていないから
+  illustrator: 星和貴
+  openDate: 2019/01/21 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 500
+limitedNumber: 1
+name: メモリア「運命への抗戦」
+description: メモリア「運命への抗戦」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 26
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+...

@@ -1,0 +1,81 @@
+---
+id: 25608
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1279"
+piece:
+  pieceId: 1279
+  pieceType: ABILITY
+  pieceName: それぞれが行く場所
+  attributeId: ALL
+  rank: RANK_4
+  attack: 756
+  defense: 0
+  hp: 843
+  skillId: 127900
+  pieceSkill:
+    id: 127900
+    groupId: 1135
+    name: イグノア・カウンター[Ⅴ]
+    type: ABILITY
+    shortDescription: 確率でカウンター無効[Ⅴ] & 攻撃力UP[Ⅱ]
+    artId1: 690208205
+    art1:
+      artId: 690208205
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      growPoint: 0
+      probability: 450
+    artId2: 390201102
+    art2:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 127901
+  pieceSkill2:
+    id: 127901
+    groupId: 1135
+    name: イグノア・カウンター
+    type: ABILITY
+    shortDescription: 必ずカウンター無効 & 攻撃力UP[Ⅱ]
+    artId1: 690208200
+    art1:
+      artId: 690208200
+      verbCode: IGNORE
+      effectCode: COUNTER
+      targetId: SELF
+      growPoint: 0
+      probability: 1000
+    artId2: 390201102
+    art2:
+      artId: 390201102
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 希望を願ったから、その希望を利用されたから、目を瞑れなかった＠許せなかったから、静かに牙を剥くことにした＠きっと近いうちに、悔しさで胸が詰まるかもしれない＠その時は恨むけど、今日この瞬間は決して後悔しないだろう
+  illustrator: ―
+  openDate: 2018/11/12 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 2000
+limitedNumber: 1
+name: メモリア「それぞれが行く場所」
+description: メモリア「それぞれが行く場所」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 78
+isDetailView: false
+viewStartAt: 2023/02/10 16:00:00
+startAt: 2023/02/10 15:10:00
+...

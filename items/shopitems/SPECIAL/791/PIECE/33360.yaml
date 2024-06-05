@@ -1,0 +1,120 @@
+---
+id: 33360
+shopId: 791
+shopItemType: PIECE
+genericId: "1650"
+piece:
+  pieceId: 1650
+  pieceType: ABILITY
+  pieceKind: EVENT
+  pieceName: 波の彼方をめざして
+  attributeId: ALL
+  rank: RANK_4
+  attack: 887
+  defense: 0
+  hp: 847
+  skillId: 165000
+  pieceSkill:
+    id: 165000
+    groupId: 1120
+    name: Hモラールシールド・アデプト[Ⅳ]
+    type: ABILITY
+    shortDescription: ダメージカット状態[Ⅳ] & MP獲得量UP[Ⅱ] & 防御力UP[Ⅱ]
+    artId1: 690206204
+    art1:
+      artId: 690206204
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    artId2: 390201902
+    art2:
+      artId: 390201902
+      verbCode: BUFF
+      effectCode: MP_GAIN
+      targetId: SELF
+      effectValue: 75
+      growPoint: 25
+      probability: 1000
+    artId3: 390201202
+    art3:
+      artId: 390201202
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 150
+      growPoint: 25
+      probability: 1000
+    eventId: 1166
+    eventArtId1: 1166003
+    eventArt1:
+      artId: 1166003
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 5000
+      genericValue: EVENT_DAILYTOWER_1166_EXCHANGE_1
+    eventDescription: ＆「今だけの思い出」追加獲得数＋5
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 165001
+  pieceSkill2:
+    id: 165001
+    groupId: 1120
+    name: Hモラールシールド・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: ダメージカット状態[Ⅴ] & MP獲得量UP[Ⅲ] & 防御力UP[Ⅳ]
+    artId1: 690206205
+    art1:
+      artId: 690206205
+      verbCode: CONDITION_GOOD
+      effectCode: DAMAGE_DOWN
+      targetId: SELF
+      effectValue: 250
+      growPoint: 25
+      probability: 1000
+    artId2: 390201903
+    art2:
+      artId: 390201903
+      verbCode: BUFF
+      effectCode: MP_GAIN
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    artId3: 390201204
+    art3:
+      artId: 390201204
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: SELF
+      effectValue: 300
+      growPoint: 25
+      probability: 1000
+    eventId: 1166
+    eventArtId1: 1166004
+    eventArt1:
+      artId: 1166004
+      verbCode: OTHER
+      effectCode: DROPADD
+      effectValue: 15000
+      genericValue: EVENT_DAILYTOWER_1166_EXCHANGE_1
+    eventDescription: ＆「今だけの思い出」追加獲得数＋15
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 正しい乗り方はわからない。「テイクオフ」の意味は今日知った。＠練習不足はわかってる。だけどいまさら引き下がれない。＠「ぶっつけ本番…じゃ、ないけど、さあ、いくよ！＠波の彼方をめざして…我流で突っ切るから！」
+  illustrator: ―
+  openDate: 2021/07/30 15:10:00
+consumeType: ITEM
+needItemId: SELECTABLE_SPECIAL_TICKET_42
+needNumber: 1
+limitedNumber: 2
+name: メモリア「波の彼方をめざして」
+description: メモリア「波の彼方をめざして」(Lv1/限界突破なし)
+sortkey: 19
+isDetailView: false
+viewStartAt: 2024/05/22 16:00:00
+startAt: 2024/05/22 15:10:00
+endAt: 2024/06/07 14:59:59
+...

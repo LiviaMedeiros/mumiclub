@@ -1,0 +1,87 @@
+---
+id: 25596
+shopId: 742
+shopItemType: MAXPIECE
+genericId: "1134"
+piece:
+  pieceId: 1134
+  pieceType: SKILL
+  pieceName: マジカルハロウィンシアター
+  attributeId: ALL
+  rank: RANK_4
+  attack: 0
+  defense: 761
+  hp: 841
+  skillId: 113400
+  pieceSkill:
+    id: 113400
+    groupId: 1108
+    name: カースワード[Ⅷ]
+    type: SKILL
+    intervalTurn: 5
+    shortDescription: 必ず呪い(敵単/1T) & 防御力DOWN[Ⅷ](敵単/1T)
+    artId1: 510005000
+    art1:
+      artId: 510005000
+      verbCode: CONDITION_BAD
+      effectCode: CURSE
+      targetId: TARGET
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 410002108
+    art2:
+      artId: 410002108
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  skillId2: 113401
+  pieceSkill2:
+    id: 113401
+    groupId: 1108
+    name: カースワード[Ⅸ]
+    type: SKILL
+    intervalTurn: 4
+    shortDescription: 必ず呪い(敵単/1T) & 防御力DOWN[Ⅸ](敵単/1T)
+    artId1: 510005000
+    art1:
+      artId: 510005000
+      verbCode: CONDITION_BAD
+      effectCode: CURSE
+      targetId: TARGET
+      effectValue: 150
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 410002109
+    art2:
+      artId: 410002109
+      verbCode: DEBUFF
+      effectCode: DEFENSE
+      targetId: TARGET
+      effectValue: 450
+      enableTurn: 1
+      growPoint: 25
+    skillEffectRange: ALL
+    skillDisplayType: MEMORIA
+  description: 「このときは、ちょうど出番だとは思わなかったしビックリしたけど、＠名前の通りマジカルな感じで、子どもたちも喜んでくれて良かったの！＠それより、終わったあとの方が大変だったの。子どもたちから本当に＠魔法が使えるのか、とか聞かれてはぐらかすしかなかったの…」
+  illustrator: ―
+  openDate: 2017/10/30 15:10:00
+consumeType: ITEM
+needItemId: YELL
+needNumber: 2000
+limitedNumber: 1
+name: メモリア「マジカルハロウィンシアター」
+description: メモリア「マジカルハロウィンシアター」(Lv最大/最大限界突破済)
+recommend: true
+sortkey: 66
+isDetailView: false
+viewStartAt: 2023/02/10 16:00:00
+startAt: 2023/02/10 15:10:00
+...

@@ -1,0 +1,193 @@
+---
+id: 33658
+shopId: 793
+shopItemType: CARD
+genericId: "30514"
+cardNum: 1
+card:
+  cardId: 30514
+  rank: RANK_4
+  attributeId: WATER
+  initialType: SUPPORT
+  growthType: BALANCE
+  attack: 1830
+  defense: 1807
+  hp: 6496
+  miniCharaNo: 305100
+  charaNo: 3051
+  cardName: 飾利 潤
+  commandType1: MPUP
+  commandType2: RANGE_V
+  commandType3: CHARGE
+  commandType4: CHARGE
+  commandType5: CHARGE
+  cardMagia:
+    id: 30514
+    groupId: 1014
+    name: うまみ倍増・駄菓子ミサイル！
+    shortDescription: 敵全体にダメージ[Ⅴ] & 確率で暗闇(敵全/3T) & Charge後ダメージUP(味全/3T) & MP自動回復(自/3T)
+    artId1: 100300105
+    art1:
+      artId: 100300105
+      verbCode: ATTACK
+      targetId: ALL
+      effectValue: 3400
+      growPoint: 100
+    artId2: 530305305
+    art2:
+      artId: 530305305
+      verbCode: CONDITION_BAD
+      effectCode: DARKNESS
+      targetId: ALL
+      effectValue: 350
+      enableTurn: 3
+      growPoint: 0
+      probability: 400
+    artId3: 330301705
+    art3:
+      artId: 330301705
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 25
+    artId4: 630214804
+    art4:
+      artId: 630214804
+      verbCode: CONDITION_GOOD
+      effectCode: AUTO_HEAL
+      targetId: SELF
+      effectValue: 75
+      enableTurn: 3
+      growPoint: 10
+      probability: 1000
+      genericValue: MP
+  cardSkill:
+    id: 30514
+    groupId: 1214
+    name: 一緒にハイになろうぜ…？
+    shortDescription: ChargeディスクダメージUP[Ⅸ] & 与えるダメージUP[Ⅶ]
+    artId1: 310418009
+    art1:
+      artId: 310418009
+      verbCode: BUFF
+      effectCode: CHARGING
+      targetId: CONNECT
+      effectValue: 400
+      enableTurn: 1
+      growPoint: 0
+    artId2: 310401307
+    art2:
+      artId: 310401307
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 350
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList: []
+  maxPieceSkillList: []
+chara:
+  id: 3051
+  attributeId: WATER
+  initialType: SUPPORT
+  defaultCardId: 30514
+  defaultCard:
+    cardId: 30514
+    rank: RANK_4
+    attributeId: WATER
+    initialType: SUPPORT
+    growthType: BALANCE
+    attack: 1830
+    defense: 1807
+    hp: 6496
+    miniCharaNo: 305100
+    charaNo: 3051
+    cardName: 飾利 潤
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: CHARGE
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 30514
+      groupId: 1014
+      name: うまみ倍増・駄菓子ミサイル！
+      shortDescription: 敵全体にダメージ[Ⅴ] & 確率で暗闇(敵全/3T) & Charge後ダメージUP(味全/3T) & MP自動回復(自/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 530305305
+      art2:
+        artId: 530305305
+        verbCode: CONDITION_BAD
+        effectCode: DARKNESS
+        targetId: ALL
+        effectValue: 350
+        enableTurn: 3
+        growPoint: 0
+        probability: 400
+      artId3: 330301705
+      art3:
+        artId: 330301705
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+      artId4: 630214804
+      art4:
+        artId: 630214804
+        verbCode: CONDITION_GOOD
+        effectCode: AUTO_HEAL
+        targetId: SELF
+        effectValue: 75
+        enableTurn: 3
+        growPoint: 10
+        probability: 1000
+        genericValue: MP
+    cardSkill:
+      id: 30514
+      groupId: 1214
+      name: 一緒にハイになろうぜ…？
+      shortDescription: ChargeディスクダメージUP[Ⅸ] & 与えるダメージUP[Ⅶ]
+      artId1: 310418009
+      art1:
+        artId: 310418009
+        verbCode: BUFF
+        effectCode: CHARGING
+        targetId: CONNECT
+        effectValue: 400
+        enableTurn: 1
+        growPoint: 0
+      artId2: 310401307
+      art2:
+        artId: 310401307
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: かざり じゅん
+  description: 年中駄菓子屋に入り浸っている、駄菓子バカの魔法少女。一風変わった見た目と、人目を気にしない言動から、怪しまれることも多いが、駄菓子や昔の遊びなど、古きを愛する良い姉ちゃんであることを知っている子供たちからは慕われている。
+consumeType: ITEM
+needItemId: GACHA_FREEBIE_MEDAL_LIGHTGREEN_2052
+needNumber: 200
+limitedNumber: 1
+name: 飾利潤
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 132
+isDetailView: false
+viewStartAt: 2024/06/01 00:00:00
+startAt: 2024/06/01 00:00:00
+endAt: 2024/07/31 14:59:59
+...

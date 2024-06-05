@@ -1,0 +1,389 @@
+---
+id: 31495
+shopId: 66
+shopItemType: CARD
+genericId: "15024"
+cardNum: 1
+card:
+  cardId: 15024
+  rank: RANK_4
+  attributeId: WATER
+  initialType: MYSTIC
+  growthType: BALANCE
+  attack: 2475
+  defense: 2475
+  hp: 8100
+  miniCharaNo: 150200
+  charaNo: 1502
+  cardName: 七海 やちよ
+  commandType1: MPUP
+  commandType2: MPUP
+  commandType3: MPUP
+  commandType4: RANGE_H
+  commandType5: RANGE_V
+  cardMagia:
+    id: 15024
+    groupId: 1014
+    name: 幾星霜の彼方へ
+    shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 攻撃力UP & 防御力UP & 状態異常耐性UP & 対魔女ダメージアップ(味全/3T)
+    artId1: 100300205
+    art1:
+      artId: 100300205
+      verbCode: ATTACK
+      effectCode: ALIGNMENT
+      targetId: ALL
+      effectValue: 3150
+      growPoint: 100
+    artId2: 330301101
+    art2:
+      artId: 330301101
+      verbCode: BUFF
+      effectCode: ATTACK
+      targetId: ALL
+      effectValue: 150
+      enableTurn: 3
+      growPoint: 25
+    artId3: 330301203
+    art3:
+      artId: 330301203
+      verbCode: BUFF
+      effectCode: DEFENSE
+      targetId: ALL
+      effectValue: 300
+      enableTurn: 3
+      growPoint: 25
+    artId4: 330301501
+    art4:
+      artId: 330301501
+      verbCode: BUFF
+      effectCode: RESIST
+      targetId: ALL
+      effectValue: 100
+      enableTurn: 3
+      growPoint: 25
+    artId5: 630316803
+    art5:
+      artId: 630316803
+      verbCode: LIMITED_ENEMY_TYPE
+      effectCode: DAMAGE_UP
+      targetId: ALL
+      effectValue: 200
+      enableTurn: 3
+      growPoint: 15
+      probability: 1000
+      genericValue: WITCH
+  cardSkill:
+    id: 15024
+    groupId: 1087
+    name: 新たな歴史を刻みましょう
+    shortDescription: 与えるダメージUP[Ⅷ] & 水属性攻撃力UP[Ⅷ]
+    artId1: 310401308
+    art1:
+      artId: 310401308
+      verbCode: BUFF
+      effectCode: DAMAGE
+      targetId: CONNECT
+      effectValue: 375
+      enableTurn: 1
+      growPoint: 25
+    artId2: 310421408
+    art2:
+      artId: 310421408
+      verbCode: BUFF
+      effectCode: ATTACK_WATER
+      targetId: CONNECT
+      effectValue: 225
+      enableTurn: 1
+      growPoint: 25
+  pieceSkillList:
+  - id: 15021
+    groupId: 1090
+    name: 未来への架け橋
+    type: STARTUP
+    shortDescription: クエスト開始時に『全ディスク効果UP[Ⅰ] & クリティカル無効×1回(味全/∞)』を発動
+    artId1: 9875
+    art1:
+      artId: 9875
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: ALL
+      effectValue: 100
+      growPoint: 0
+    artId2: 9877
+    art2:
+      artId: 9877
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: ALL
+      effectValue: 150
+      growPoint: 0
+    artId3: 9879
+    art3:
+      artId: 9879
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: ALL
+      effectValue: 100
+      growPoint: 0
+    artId4: 9944
+    art4:
+      artId: 9944
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: ALL
+      effectValue: 0
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EXTRA
+  maxPieceSkillList:
+  - id: 15022
+    groupId: 1090
+    name: 未来への架け橋(最大解放)
+    type: STARTUP
+    shortDescription: クエスト開始時に『全ディスク効果UP[Ⅱ] & クリティカル無効×2回(味全/∞)』を発動
+    artId1: 9876
+    art1:
+      artId: 9876
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: ALL
+      effectValue: 125
+      growPoint: 0
+    artId2: 9878
+    art2:
+      artId: 9878
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: ALL
+      effectValue: 200
+      growPoint: 0
+    artId3: 9880
+    art3:
+      artId: 9880
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: ALL
+      effectValue: 125
+      growPoint: 0
+    artId4: 9944
+    art4:
+      artId: 9944
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: ALL
+      effectValue: 0
+      growPoint: 0
+      probability: 1000
+    artId5: 9944
+    art5:
+      artId: 9944
+      verbCode: IGNORE
+      effectCode: CRITICAL
+      targetId: ALL
+      effectValue: 0
+      growPoint: 0
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EXTRA
+chara:
+  id: 1502
+  attributeId: WATER
+  initialType: MYSTIC
+  defaultCardId: 15024
+  defaultCard:
+    cardId: 15024
+    rank: RANK_4
+    attributeId: WATER
+    initialType: MYSTIC
+    growthType: BALANCE
+    attack: 2475
+    defense: 2475
+    hp: 8100
+    miniCharaNo: 150200
+    charaNo: 1502
+    cardName: 七海 やちよ
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: MPUP
+    commandType4: RANGE_H
+    commandType5: RANGE_V
+    cardMagia:
+      id: 15024
+      groupId: 1014
+      name: 幾星霜の彼方へ
+      shortDescription: 敵全体に属性強化ダメージ[Ⅴ] & 攻撃力UP & 防御力UP & 状態異常耐性UP & 対魔女ダメージアップ(味全/3T)
+      artId1: 100300205
+      art1:
+        artId: 100300205
+        verbCode: ATTACK
+        effectCode: ALIGNMENT
+        targetId: ALL
+        effectValue: 3150
+        growPoint: 100
+      artId2: 330301101
+      art2:
+        artId: 330301101
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301203
+      art3:
+        artId: 330301203
+        verbCode: BUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId4: 330301501
+      art4:
+        artId: 330301501
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 100
+        enableTurn: 3
+        growPoint: 25
+      artId5: 630316803
+      art5:
+        artId: 630316803
+        verbCode: LIMITED_ENEMY_TYPE
+        effectCode: DAMAGE_UP
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 15
+        probability: 1000
+        genericValue: WITCH
+    cardSkill:
+      id: 15024
+      groupId: 1087
+      name: 新たな歴史を刻みましょう
+      shortDescription: 与えるダメージUP[Ⅷ] & 水属性攻撃力UP[Ⅷ]
+      artId1: 310401308
+      art1:
+        artId: 310401308
+        verbCode: BUFF
+        effectCode: DAMAGE
+        targetId: CONNECT
+        effectValue: 375
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310421408
+      art2:
+        artId: 310421408
+        verbCode: BUFF
+        effectCode: ATTACK_WATER
+        targetId: CONNECT
+        effectValue: 225
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList:
+    - id: 15021
+      groupId: 1090
+      name: 未来への架け橋
+      type: STARTUP
+      shortDescription: クエスト開始時に『全ディスク効果UP[Ⅰ] & クリティカル無効×1回(味全/∞)』を発動
+      artId1: 9875
+      art1:
+        artId: 9875
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 100
+        growPoint: 0
+      artId2: 9877
+      art2:
+        artId: 9877
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: ALL
+        effectValue: 150
+        growPoint: 0
+      artId3: 9879
+      art3:
+        artId: 9879
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 100
+        growPoint: 0
+      artId4: 9944
+      art4:
+        artId: 9944
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: ALL
+        effectValue: 0
+        growPoint: 0
+        probability: 1000
+      skillEffectRange: ALL
+      skillDisplayType: EXTRA
+    maxPieceSkillList:
+    - id: 15022
+      groupId: 1090
+      name: 未来への架け橋(最大解放)
+      type: STARTUP
+      shortDescription: クエスト開始時に『全ディスク効果UP[Ⅱ] & クリティカル無効×2回(味全/∞)』を発動
+      artId1: 9876
+      art1:
+        artId: 9876
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 125
+        growPoint: 0
+      artId2: 9878
+      art2:
+        artId: 9878
+        verbCode: BUFF
+        effectCode: BLAST
+        targetId: ALL
+        effectValue: 200
+        growPoint: 0
+      artId3: 9880
+      art3:
+        artId: 9880
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 125
+        growPoint: 0
+      artId4: 9944
+      art4:
+        artId: 9944
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: ALL
+        effectValue: 0
+        growPoint: 0
+        probability: 1000
+      artId5: 9944
+      art5:
+        artId: 9944
+        verbCode: IGNORE
+        effectCode: CRITICAL
+        targetId: ALL
+        effectValue: 0
+        growPoint: 0
+        probability: 1000
+      skillEffectRange: ALL
+      skillDisplayType: EXTRA
+  kana: ななみ やちよ
+  title: ヒストリアver.
+  description: 多くの希望を集めたことにより姿を変えた魔法少女。手にした槍は希望の持ち主である魔法少女たちの色を反映させ、豊かな色彩を放っている。伝え聞くところによると、その槍で未来への障壁を打ち砕き、希望を届ける役割を持っているらしい。
+consumeType: ITEM
+needItemId: DESTINY_CRYSTAL
+needNumber: 5
+name: 【期間限定】七海やちよ ヒストリアver.
+description: 所持している場合、デスティニージェムを獲得
+sortkey: 15
+isDetailView: false
+viewStartAt: 2024/01/22 16:00:00
+startAt: 2024/01/22 15:10:00
+endAt: 2024/02/19 14:59:59
+...
