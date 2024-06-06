@@ -1,0 +1,83 @@
+---
+pieceId: 1986
+pieceType: ABILITY
+pieceName: 分け合う調べ
+attributeId: ALL
+rank: RANK_4
+attack: 781
+defense: 0
+hp: 981
+skillId: 198600
+pieceSkill:
+  id: 198600
+  groupId: 1170
+  name: ガーディアン・シールド[Ⅲ]
+  type: ABILITY
+  shortDescription: 確率でかばう[Ⅲ] & 防御力UP[Ⅳ] & ダメージカット状態[Ⅲ]
+  artId1: 690213203
+  art1:
+    artId: 690213203
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    growPoint: 0
+    probability: 200
+  artId2: 390201204
+  art2:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId3: 690206203
+  art3:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 198601
+pieceSkill2:
+  id: 198601
+  groupId: 1170
+  name: ガーディアン・シールド[Ⅳ]
+  type: ABILITY
+  shortDescription: 確率でかばう[Ⅳ] & 防御力UP[Ⅴ] & ダメージカット状態[Ⅳ]
+  artId1: 690213204
+  art1:
+    artId: 690213204
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    growPoint: 0
+    probability: 250
+  artId2: 390201205
+  art2:
+    artId: 390201205
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 375
+    growPoint: 25
+    probability: 1000
+  artId3: 690206204
+  art3:
+    artId: 690206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「この人の演奏は、本当に凄いんだ。さやかも聴いてみる？」＠「い、いいのかな…」＠この緊張を伝えるわけにはいかない…！＠大丈夫、曲に集中すれば落ち着いてくるはず…！
+illustrator: ―
+openDate: 2023/12/04 15:10:00
+...

@@ -1,0 +1,71 @@
+---
+pieceId: 2006
+pieceType: SKILL
+pieceName: 平行な世界
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 622
+hp: 742
+skillId: 200600
+pieceSkill:
+  id: 200600
+  groupId: 1124
+  name: イミュニティステップ[Ⅶ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率で回避[Ⅶ](自/1T) & 状態異常耐性UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 610206807
+  art1:
+    artId: 610206807
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  artId2: 330201502
+  art2:
+    artId: 330201502
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 200601
+pieceSkill2:
+  id: 200601
+  groupId: 1124
+  name: イミュニティステップ[Ⅷ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 確率で回避[Ⅷ](自/1T) & 状態異常耐性UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 610206808
+  art1:
+    artId: 610206808
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 450
+  artId2: 330201503
+  art2:
+    artId: 330201503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: ある少女のために意思を貫く魔法少女＠町の平和のために全てをなげうつ魔法少女＠かつては師弟のように過ごしたふたりも＠跳躍した時間では、もう、交わることはない
+illustrator: ―
+openDate: 2024/01/12 15:10:00
+...

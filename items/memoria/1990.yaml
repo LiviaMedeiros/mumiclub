@@ -1,0 +1,71 @@
+---
+pieceId: 1990
+pieceType: ABILITY
+pieceName: 雪に咲くふたりの証
+attributeId: ALL
+rank: RANK_3
+charaIds: "1144"
+charaList:
+- charaId: 1144
+  name: ウワサのみこと
+attack: 522
+defense: 0
+hp: 442
+skillId: 199000
+pieceSkill:
+  id: 199000
+  groupId: 1130
+  name: マナ・エキスパート[Ⅳ]
+  type: ABILITY
+  shortDescription: 自分のMPが10%溜まった状態でバトル開始 & Accele MPUP[Ⅳ]
+  artId1: 790212200
+  art1:
+    artId: 790212200
+    verbCode: INITIAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 100
+    growPoint: 0
+    probability: 1000
+  artId2: 390201604
+  art2:
+    artId: 390201604
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 175
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 199001
+pieceSkill2:
+  id: 199001
+  groupId: 1130
+  name: マナ・エキスパート[Ⅴ]
+  type: ABILITY
+  shortDescription: 自分のMPが15%溜まった状態でバトル開始 & Accele MPUP[Ⅴ]
+  artId1: 790213600
+  art1:
+    artId: 790213600
+    verbCode: INITIAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 0
+    probability: 1000
+  artId2: 390201605
+  art2:
+    artId: 390201605
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 誰もいない場所で、誰にも見つからないように咲いている２輪の花＠春を待たずに花をつけたのは、＠すべてが雪と一緒に溶けなくなるのを嫌った証…＠思い出はここで、静かに揺れている
+illustrator: 都筑禰己
+openDate: 2023/12/18 15:10:00
+...

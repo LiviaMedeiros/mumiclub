@@ -1,0 +1,84 @@
+---
+pieceId: 2001
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 目を閉じ、見つめる先に
+attributeId: ALL
+rank: RANK_4
+attack: 860
+defense: 0
+hp: 780
+skillId: 200100
+pieceSkill:
+  id: 200100
+  groupId: 1085
+  name: リバティ[Ⅳ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅳ] & 必ず拘束無効
+  artId1: 390201104
+  art1:
+    artId: 390201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 690208500
+  art2:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1206
+  eventArtId1: 1206001
+  eventArt1:
+    artId: 1206001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1206_EXCHANGE_1
+  eventDescription: ＆「竜城家伝統鏡餅」追加獲得数＋1
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 200101
+pieceSkill2:
+  id: 200101
+  groupId: 1085
+  name: リバティ[Ⅳ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅳ] & 必ず拘束無効
+  artId1: 390201104
+  art1:
+    artId: 390201104
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 690208500
+  art2:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  eventId: 1206
+  eventArtId1: 1206002
+  eventArt1:
+    artId: 1206002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1206_EXCHANGE_1
+  eventDescription: ＆「竜城家伝統鏡餅」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 目を閉じ、深く呼吸をすると、騒がしい感情も凪いでいく＠けれど、落ち着きを得てもまぶたの裏には＠ただあなたの背が遠のいていく景色しか映らない＠やがて私は目を開き、走り出しそうな心を抱いて立ち上がるだろう
+illustrator: ―
+openDate: 2024/01/01 00:00:00
+...

@@ -1,0 +1,73 @@
+---
+pieceId: 2005
+pieceType: SKILL
+pieceName: 生き残りを賭けて
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 902
+hp: 902
+skillId: 200500
+pieceSkill:
+  id: 200500
+  groupId: 1119
+  name: エンハンス・Tアタックライズ[Ⅳ]
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: ダメージアップ状態[Ⅳ] & 木属性攻撃力UP[Ⅵ](自/3T)
+  messageId: 70
+  artId1: 630206104
+  art1:
+    artId: 630206104
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330221806
+  art2:
+    artId: 330221806
+    verbCode: BUFF
+    effectCode: ATTACK_TIMBER
+    targetId: SELF
+    effectValue: 175
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 200501
+pieceSkill2:
+  id: 200501
+  groupId: 1119
+  name: エンハンス・Tアタックライズ[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: ダメージアップ状態[Ⅴ] & 木属性攻撃力UP[Ⅶ](自/3T)
+  messageId: 70
+  artId1: 630206105
+  art1:
+    artId: 630206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330221807
+  art2:
+    artId: 330221807
+    verbCode: BUFF
+    effectCode: ATTACK_TIMBER
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: リボンを避ける隙は与えなかったはずなのに＠彼女には私の急所を狙う余裕まである…＠なんて恐ろしい子…だけど、相手に不足はない…！＠「さあ…かかって来なさい！」
+illustrator: ―
+openDate: 2024/01/12 15:10:00
+...
