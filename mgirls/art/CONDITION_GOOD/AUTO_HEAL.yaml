@@ -1,4 +1,23 @@
 ---
+8163:
+  artId: 8163
+  effectCode: AUTO_HEAL
+  effectValue: 50
+  genericValue: MP
+  growPoint: 0
+  probability: 1000
+  targetId: ALL
+  verbCode: CONDITION_GOOD
+8181:
+  artId: 8181
+  effectCode: AUTO_HEAL
+  effectValue: 1000
+  enableTurn: 1
+  genericValue: MP
+  growPoint: 0
+  probability: 1000
+  targetId: SELF
+  verbCode: CONDITION_GOOD
 9304:
   artId: 9304
   effectCode: AUTO_HEAL
@@ -110,6 +129,14 @@
   growPoint: 0
   probability: 1000
   targetId: SELF
+  verbCode: CONDITION_GOOD
+9796:
+  artId: 9796
+  effectCode: AUTO_HEAL
+  effectValue: 50
+  growPoint: 0
+  probability: 1000
+  targetId: ALL
   verbCode: CONDITION_GOOD
 9831:
   artId: 9831
@@ -234,6 +261,17 @@
     enableTurn: 1
     growPoint: 10
     probability: 1000
+6103148:
+  10:
+    artId: 610314810
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: ALL
+    effectValue: 120
+    enableTurn: 1
+    growPoint: 5
+    probability: 1000
+    genericValue: MP
 6302077:
   1:
     artId: 630207701
@@ -692,6 +730,14 @@
     effectValue: 70
     growPoint: 10
     probability: 1000
+  8:
+    artId: 690207708
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 90
+    growPoint: 10
+    probability: 1000
 6902148:
   1:
     artId: 690214801
@@ -735,6 +781,15 @@
     effectCode: AUTO_HEAL
     targetId: SELF
     effectValue: 90
+    growPoint: 10
+    probability: 1000
+    genericValue: MP
+  6:
+    artId: 690214806
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 105
     growPoint: 10
     probability: 1000
     genericValue: MP
