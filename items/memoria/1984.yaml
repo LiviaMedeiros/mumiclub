@@ -1,0 +1,90 @@
+---
+pieceId: 1984
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 私たちに明日はいらない
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 981
+hp: 821
+skillId: 198400
+pieceSkill:
+  id: 198400
+  groupId: 1094
+  name: アサルトブレイク[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 攻撃力DOWN[Ⅴ] & 与えるダメージDOWN[Ⅲ](敵単/3T)
+  messageId: 72
+  artId1: 430002005
+  art1:
+    artId: 430002005
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  artId2: 430002203
+  art2:
+    artId: 430002203
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1204
+  eventArtId1: 1204003
+  eventArt1:
+    artId: 1204003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1204_EXCHANGE_1
+  eventDescription: ＆「ふたりの青春」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 198401
+pieceSkill2:
+  id: 198401
+  groupId: 1094
+  name: アサルトブレイク[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 攻撃力DOWN[Ⅵ] & 与えるダメージDOWN[Ⅳ](敵単/3T)
+  messageId: 72
+  artId1: 430002006
+  art1:
+    artId: 430002006
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  artId2: 430002204
+  art2:
+    artId: 430002204
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  eventId: 1204
+  eventArtId1: 1204004
+  eventArt1:
+    artId: 1204004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1204_EXCHANGE_1
+  eventDescription: ＆「ふたりの青春」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: どこにいても透明な存在にさせられた、私というものを失わされた＠だから、反撃がいる…学校も家もそんなものすべて台なしにして＠私は、私たちはここにいるのだと力の限り証明してやるんだ＠この行き止まりから飛び出し、輝く破滅へ向かって
+illustrator: ―
+openDate: 2023/11/24 15:10:00
+...

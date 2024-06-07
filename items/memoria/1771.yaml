@@ -1,0 +1,65 @@
+---
+pieceId: 1771
+pieceType: ABILITY
+pieceName: 下僕でいなさいっ！
+attributeId: ALL
+rank: RANK_3
+attack: 619
+defense: 0
+hp: 709
+skillId: 177100
+pieceSkill:
+  id: 177100
+  groupId: 1090
+  name: アンチ・バインド[Ⅹ]
+  type: ABILITY
+  shortDescription: Accele MPUP[Ⅲ] & 確率で拘束無効[Ⅹ]
+  artId1: 390201603
+  art1:
+    artId: 390201603
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690208510
+  art2:
+    artId: 690208510
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 700
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 177101
+pieceSkill2:
+  id: 177101
+  groupId: 1090
+  name: アンチ・バインド
+  type: ABILITY
+  shortDescription: Accele MPUP[Ⅳ] & 必ず拘束無効
+  artId1: 390201604
+  art1:
+    artId: 390201604
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 175
+    growPoint: 25
+    probability: 1000
+  artId2: 690208500
+  art2:
+    artId: 690208500
+    verbCode: IGNORE
+    effectCode: RESTRAINT
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 勇気を振り絞って紡ぐはずだった言葉は、口から出る前に引っ込んで＠代わりに飛び出していったのは、照れ隠しの可愛くない言葉＠それでもあの子は、わかったような顔で笑うから＠嬉しくて、ムカついて、なんにも言えなくなっちゃうんだ
+illustrator: ―
+openDate: 2022/05/30 15:10:00
+...

@@ -1,0 +1,65 @@
+---
+pieceId: 1697
+pieceType: ABILITY
+pieceName: 束の間、月光に舞う
+attributeId: ALL
+rank: RANK_3
+attack: 672
+defense: 0
+hp: 612
+skillId: 169700
+pieceSkill:
+  id: 169700
+  groupId: 1085
+  name: インビジブル・アデプト[Ⅰ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅰ] & 確率で回避無効[Ⅳ]
+  artId1: 390201101
+  art1:
+    artId: 390201101
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 50
+    growPoint: 25
+    probability: 1000
+  artId2: 690216204
+  art2:
+    artId: 690216204
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 169701
+pieceSkill2:
+  id: 169701
+  groupId: 1085
+  name: インビジブル・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 確率で回避無効[Ⅴ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690216205
+  art2:
+    artId: 690216205
+    verbCode: IGNORE
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 450
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 眩い月光をその瞳に映し、くるくると舞い踊る少女＠その姿には一片の迷いも恥じらいもなく、ただ楽しげ＠人前に立てば、またいつものように緊張に潰され、苦しくなるとしても＠今だけはひとりぼっちの空の下、めいっぱいに舞うことができるから
+illustrator: ―
+openDate: 2021/11/19 15:10:00
+...

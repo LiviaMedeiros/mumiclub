@@ -1,0 +1,92 @@
+---
+pieceId: 1834
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 終わらないで、おとぎ話
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 980
+hp: 820
+skillId: 183400
+pieceSkill:
+  id: 183400
+  groupId: 1107
+  name: バーン・マギア[Ⅵ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 必ずやけど(敵単/1T) & マギアダメージUP[Ⅵ](自/1T)
+  messageId: 72
+  artId1: 510004800
+  art1:
+    artId: 510004800
+    verbCode: CONDITION_BAD
+    effectCode: BURN
+    targetId: TARGET
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201406
+  art2:
+    artId: 310201406
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 175
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1179
+  eventArtId1: 1179003
+  eventArt1:
+    artId: 1179003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1179_EXCHANGE_1
+  eventDescription: ＆「いつかのタイムカプセル」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 183401
+pieceSkill2:
+  id: 183401
+  groupId: 1107
+  name: バーン・マギア[Ⅶ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ずやけど(敵単/1T) & マギアダメージUP[Ⅶ](自/1T)
+  messageId: 72
+  artId1: 510004800
+  art1:
+    artId: 510004800
+    verbCode: CONDITION_BAD
+    effectCode: BURN
+    targetId: TARGET
+    effectValue: 100
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201407
+  art2:
+    artId: 310201407
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1179
+  eventArtId1: 1179004
+  eventArt1:
+    artId: 1179004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1179_EXCHANGE_1
+  eventDescription: ＆「いつかのタイムカプセル」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: みんなで作った楽しい物語と素敵な衣装＠厳しい親が教えてくれなかった幸せなひとときを過ごしていると＠いずれ家に帰るという現実が目の前に迫るのを感じる＠だから祈っちゃった…ずっとこの時間が続けばいいのにって…
+illustrator: ―
+openDate: 2022/12/12 15:10:00
+...

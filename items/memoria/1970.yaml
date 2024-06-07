@@ -1,0 +1,110 @@
+---
+pieceId: 1970
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 優等生には程遠い
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 941
+hp: 861
+skillId: 197000
+pieceSkill:
+  id: 197000
+  groupId: 1119
+  name: ヴィクトリーロード[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: ダメージアップ状態[Ⅴ] & 攻撃力UP[Ⅴ](自/1T) & 防御力DOWN[Ⅴ](敵単/1T)
+  messageId: 70
+  artId1: 610206105
+  art1:
+    artId: 610206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId2: 310201105
+  art2:
+    artId: 310201105
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  artId3: 410002105
+  art3:
+    artId: 410002105
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1203
+  eventArtId1: 1203003
+  eventArt1:
+    artId: 1203003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1203_EXCHANGE_1
+  eventDescription: ＆「ランタンコイン」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 197001
+pieceSkill2:
+  id: 197001
+  groupId: 1119
+  name: ヴィクトリーロード[Ⅵ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: ダメージアップ状態[Ⅵ] & 攻撃力UP[Ⅵ](自/1T) & 防御力DOWN[Ⅵ](敵単/1T)
+  messageId: 70
+  artId1: 610206106
+  art1:
+    artId: 610206106
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId2: 310201106
+  art2:
+    artId: 310201106
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  artId3: 410002106
+  art3:
+    artId: 410002106
+    verbCode: DEBUFF
+    effectCode: DEFENSE
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1203
+  eventArtId1: 1203004
+  eventArt1:
+    artId: 1203004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1203_EXCHANGE_1
+  eventDescription: ＆「ランタンコイン」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「なんで樹里サマがゴミ拾いなんてしなきゃなんねーんだよ…」＠「出席日数に釣られたあなたが悪いわよぉ…」＠「結菜さん！これ見るんよ！この筆箱、まだ使えそうなんよ！」＠「うららぁ…はしたないわよぉ…やめなさぁい…」
+illustrator: ―
+openDate: 2023/10/23 15:10:00
+...

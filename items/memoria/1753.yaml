@@ -1,0 +1,73 @@
+---
+pieceId: 1753
+pieceType: SKILL
+pieceName: 私にしかできないことです
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 678
+hp: 678
+skillId: 175300
+pieceSkill:
+  id: 175300
+  groupId: 1129
+  name: ニートネス[Ⅲ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: HP自動回復[Ⅲ] & 状態異常耐性UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630207703
+  art1:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 330201502
+  art2:
+    artId: 330201502
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 175301
+pieceSkill2:
+  id: 175301
+  groupId: 1129
+  name: ニートネス[Ⅳ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: HP自動回復[Ⅳ] & 状態異常耐性UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630207704
+  art1:
+    artId: 630207704
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  artId2: 330201503
+  art2:
+    artId: 330201503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 少し前の私だったら、一歩下がって他の誰かに任せてたかもしれない＠だけど、私はみんなと出会って変わることができたから＠大切なみんなを守るためなら、きっといまより強くなれる＠私は、ういのお姉ちゃんで、みかづき荘の家族の一員だから
+illustrator: ―
+openDate: 2022/04/18 15:10:00
+...

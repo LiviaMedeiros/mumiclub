@@ -1,0 +1,104 @@
+---
+pieceId: 1998
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: 小槌の輝くとき
+attributeId: ALL
+rank: RANK_4
+attack: 942
+defense: 0
+hp: 822
+skillId: 199800
+pieceSkill:
+  id: 199800
+  groupId: 1241
+  name: ナローシールド[Ⅵ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅵ] & 瀕死時防御力UP[Ⅲ] & ダメージカット状態[Ⅲ]
+  artId1: 390202906
+  art1:
+    artId: 390202906
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 350
+    growPoint: 20
+    probability: 1000
+  artId2: 390203003
+  art2:
+    artId: 390203003
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId3: 690206203
+  art3:
+    artId: 690206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  eventId: 1206
+  eventArtId1: 1206003
+  eventArt1:
+    artId: 1206003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1206_EXCHANGE_1
+  eventDescription: ＆「竜城家伝統鏡餅」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 199801
+pieceSkill2:
+  id: 199801
+  groupId: 1241
+  name: ナローシールド[Ⅶ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅶ] & 瀕死時防御力UP[Ⅳ] & ダメージカット状態[Ⅳ]
+  artId1: 390202907
+  art1:
+    artId: 390202907
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390203004
+  art2:
+    artId: 390203004
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+    probability: 1000
+  artId3: 690206204
+  art3:
+    artId: 690206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  eventId: 1206
+  eventArtId1: 1206004
+  eventArt1:
+    artId: 1206004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1206_EXCHANGE_1
+  eventDescription: ＆「竜城家伝統鏡餅」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 何が正しいのか、どうするべきか、正解はずっとわからないまま＠けれど自分の芯を、大事なものを見つめれば道標は現れる＠それが唯一の答えじゃなくとも、信じられるものがそこにあるのなら＠きっと小槌は、あなたの想いに応えてくれる
+illustrator: ―
+openDate: 2024/01/01 00:00:00
+...

@@ -1,0 +1,71 @@
+---
+pieceId: 1668
+pieceType: SKILL
+pieceName: いつでもどこでもすやすやと
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 889
+hp: 889
+skillId: 166800
+pieceSkill:
+  id: 166800
+  groupId: 1098
+  name: レジスト・スタンブレイク[Ⅴ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 状態異常耐性DOWN[Ⅴ](敵全/3T) & 確率でスタン[Ⅶ](敵単/1T)
+  messageId: 72
+  artId1: 430302405
+  art1:
+    artId: 430302405
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  artId2: 510004107
+  art2:
+    artId: 510004107
+    verbCode: CONDITION_BAD
+    effectCode: STUN
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 0
+    probability: 450
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 166801
+pieceSkill2:
+  id: 166801
+  groupId: 1098
+  name: レジスト・スタンブレイク[Ⅶ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: 状態異常耐性DOWN[Ⅶ](敵全/3T) & 確率でスタン[Ⅸ](敵単/1T)
+  messageId: 72
+  artId1: 430302407
+  art1:
+    artId: 430302407
+    verbCode: DEBUFF
+    effectCode: RESIST
+    targetId: ALL
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+  artId2: 510004109
+  art2:
+    artId: 510004109
+    verbCode: CONDITION_BAD
+    effectCode: STUN
+    targetId: TARGET
+    enableTurn: 1
+    growPoint: 0
+    probability: 500
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 温かな日差しに見守られ、柔らかな風を頬に感じながら＠穏やかな気持ちですやすや眠る＠そんな至高のひととき、安らかな午後の時間＠…教師は嘆く「なんで枕まで持ち込んでるんだ…！」
+illustrator: Tiv
+openDate: 2021/09/13 15:10:00
+...

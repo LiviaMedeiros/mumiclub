@@ -1,0 +1,65 @@
+---
+pieceId: 1674
+pieceType: ABILITY
+pieceName: 最後の異端審問官
+attributeId: ALL
+rank: RANK_3
+attack: 670
+defense: 0
+hp: 610
+skillId: 167400
+pieceSkill:
+  id: 167400
+  groupId: 1139
+  name: アンチ・ポイズン[Ⅶ]
+  type: ABILITY
+  shortDescription: 確率で毒無効[Ⅶ] & 防御力UP[Ⅱ]
+  artId1: 690208607
+  art1:
+    artId: 690208607
+    verbCode: IGNORE
+    effectCode: POISON
+    targetId: SELF
+    growPoint: 0
+    probability: 550
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 167401
+pieceSkill2:
+  id: 167401
+  groupId: 1139
+  name: アンチ・ポイズン
+  type: ABILITY
+  shortDescription: 必ず毒無効 & 防御力UP[Ⅲ]
+  artId1: 690208600
+  art1:
+    artId: 690208600
+    verbCode: IGNORE
+    effectCode: POISON
+    targetId: SELF
+    growPoint: 0
+    probability: 1000
+  artId2: 390201203
+  art2:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「聖なる刃で呪われし者たちを粛清します」＠血の色に燃える月を背に、小柄な少女は凛と告げる＠令嬢が集う放課後の学園に、寝ぼけまなこで現れた＠アンニュイな少女の面影はどこにもない
+illustrator: 茨乃
+openDate: 2021/09/21 15:10:00
+...

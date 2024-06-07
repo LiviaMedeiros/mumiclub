@@ -1,0 +1,92 @@
+---
+pieceId: 2026
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 集結の好敵手
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 590
+hp: 650
+skillId: 202600
+pieceSkill:
+  id: 202600
+  groupId: 1128
+  name: 集結の好敵手
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率で挑発[88] & 確率でカウンター[88](自/1T)
+  messageId: 70
+  artId1: 8164
+  art1:
+    artId: 8164
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 880
+  artId2: 8165
+  art2:
+    artId: 8165
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 880
+  eventId: 1212
+  eventArtId1: 1212001
+  eventArt1:
+    artId: 1212001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1212_EXCHANGE_1
+  eventDescription: ＆「金メダル」追加獲得数＋1
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 202601
+pieceSkill2:
+  id: 202601
+  groupId: 1128
+  name: 集結の好敵手
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 確率で挑発[88] & 確率でカウンター[88](自/1T)
+  messageId: 70
+  artId1: 8164
+  art1:
+    artId: 8164
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 880
+  artId2: 8165
+  art2:
+    artId: 8165
+    verbCode: CONDITION_GOOD
+    effectCode: COUNTER
+    targetId: SELF
+    effectValue: 800
+    enableTurn: 1
+    growPoint: 0
+    probability: 880
+  eventId: 1212
+  eventArtId1: 1212002
+  eventArt1:
+    artId: 1212002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1212_EXCHANGE_1
+  eventDescription: ＆「金メダル」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「いろはと戦うことになるなんて…でも、やるからには負けないわ」＠「私も手加減しません！赤組代表として全力を出します！」＠「ふっふーん！治安の悪さだけなら白組も負けないよ！」＠「アウトローの青組が言うのもなんだけど…それは誇るとこなのぉ？」
+illustrator: PAPA
+openDate: 2024/04/08 15:10:00
+...

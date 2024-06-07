@@ -1,0 +1,181 @@
+---
+pieceId: 2020
+pieceType: SKILL
+pieceName: ゴルゲットの魔女
+attributeId: ALL
+rank: RANK_4
+charaIds: "3004"
+charaList:
+- charaId: 3004
+  name: 美凪 ささら
+attack: 0
+defense: 1320
+hp: 520
+skillId: 202000
+pieceSkill:
+  id: 202000
+  groupId: 1128
+  name: グレートシールド
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず挑発 & ダメージカット状態[Ⅹ] & 被ダメージ時MPUP[Ⅴ](自/1T)
+  messageId: 70
+  artId1: 610207600
+  art1:
+    artId: 610207600
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610206210
+  art2:
+    artId: 610206210
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId3: 610220505
+  art3:
+    artId: 610220505
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_DAMAGED
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId4: 1210001
+  art4:
+    artId: 1210001
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5210301
+  artId5: 1210002
+  art5:
+    artId: 1210002
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5210301
+  artId6: 1210003
+  art6:
+    artId: 1210003
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5210302
+  artId7: 1210004
+  art7:
+    artId: 1210004
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5210302
+  artId8: 1210005
+  art8:
+    artId: 1210005
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5210303
+  artId9: 1210006
+  art9:
+    artId: 1210006
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5210303
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 202001
+pieceSkill2:
+  id: 202001
+  groupId: 1128
+  name: グレートシールド
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず挑発 & ダメージカット状態[Ⅹ] & 被ダメージ時MPUP[Ⅴ](自/1T)
+  messageId: 70
+  artId1: 610207600
+  art1:
+    artId: 610207600
+    verbCode: CONDITION_GOOD
+    effectCode: PROVOKE
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 610206210
+  art2:
+    artId: 610206210
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 25
+    probability: 1000
+  artId3: 610220505
+  art3:
+    artId: 610220505
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_DAMAGED
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId4: 1210001
+  art4:
+    artId: 1210001
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5210301
+  artId5: 1210002
+  art5:
+    artId: 1210002
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5210301
+  artId6: 1210003
+  art6:
+    artId: 1210003
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5210302
+  artId7: 1210004
+  art7:
+    artId: 1210004
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5210302
+  artId8: 1210005
+  art8:
+    artId: 1210005
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5210303
+  artId9: 1210006
+  art9:
+    artId: 1210006
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5210303
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 騎士でありたい少女は　無意識に　己が賞賛を求めている＠打算は悪と拒んでも　道に惑うだけ　途方もない救助に　消耗する魂＠誰もに距離を置かれても　慢心する隊長だけは　気づかない＠原点回帰は　過去と未来を繋ぐ　奉仕の真価を見出す一手
+illustrator: 原案・監修：劇団イヌカレー（泥犬）
+openDate: 2024/03/18 15:10:00
+...

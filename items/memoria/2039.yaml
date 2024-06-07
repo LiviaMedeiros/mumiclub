@@ -1,0 +1,73 @@
+---
+pieceId: 2039
+pieceType: SKILL
+pieceName: ささやかで、あたたかな
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 622
+hp: 742
+skillId: 203900
+pieceSkill:
+  id: 203900
+  groupId: 1120
+  name: レジスト・シールド[Ⅱ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: ダメージカット状態[Ⅱ] & 状態異常耐性UP[Ⅱ](自/3T)
+  messageId: 70
+  artId1: 630206202
+  art1:
+    artId: 630206202
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201502
+  art2:
+    artId: 330201502
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 250
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 203901
+pieceSkill2:
+  id: 203901
+  groupId: 1120
+  name: レジスト・シールド[Ⅲ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: ダメージカット状態[Ⅲ] & 状態異常耐性UP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630206203
+  art1:
+    artId: 630206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201503
+  art2:
+    artId: 330201503
+    verbCode: BUFF
+    effectCode: RESIST
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「何それ…ふふ…！環さん、変なの…！」＠「ぷっ…あははっ、本当だね…！」＠初めて会った時からは想像もできないくらい、今が満ち足りている＠もしもこれが幸せな夢なら、ずっとずっと覚めないで
+illustrator: ホセ
+openDate: 2024/05/10 15:10:00
+...

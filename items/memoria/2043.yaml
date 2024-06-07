@@ -1,0 +1,104 @@
+---
+pieceId: 2043
+pieceType: ABILITY
+pieceKind: EVENT
+pieceName: ひそやかな洗礼
+attributeId: ALL
+rank: RANK_4
+attack: 902
+defense: 0
+hp: 862
+skillId: 204300
+pieceSkill:
+  id: 204300
+  groupId: 1086
+  name: コンフィダント・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 防御力UP[Ⅲ] & MP獲得量UP[Ⅲ] & 弱点属性で攻撃されたときMPUP[Ⅰ]
+  artId1: 390201203
+  art1:
+    artId: 390201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    growPoint: 25
+    probability: 1000
+  artId2: 390201903
+  art2:
+    artId: 390201903
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId3: 690207901
+  art3:
+    artId: 690207901
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 20
+    growPoint: 0
+    probability: 1000
+  eventId: 1215
+  eventArtId1: 1215003
+  eventArt1:
+    artId: 1215003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1215_EXCHANGE_1
+  eventDescription: ＆「小さな羽根」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 204301
+pieceSkill2:
+  id: 204301
+  groupId: 1086
+  name: コンフィダント・アデプト[Ⅳ]
+  type: ABILITY
+  shortDescription: 防御力UP[Ⅳ] & MP獲得量UP[Ⅳ] & 弱点属性で攻撃されたときMPUP[Ⅱ]
+  artId1: 390201204
+  art1:
+    artId: 390201204
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 25
+    probability: 1000
+  artId2: 390201904
+  art2:
+    artId: 390201904
+    verbCode: BUFF
+    effectCode: MP_GAIN
+    targetId: SELF
+    effectValue: 125
+    growPoint: 25
+    probability: 1000
+  artId3: 690207902
+  art3:
+    artId: 690207902
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_WEAKED
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  eventId: 1215
+  eventArtId1: 1215004
+  eventArt1:
+    artId: 1215004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_DAILYTOWER_1215_EXCHANGE_1
+  eventDescription: ＆「小さな羽根」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 先行きの見えない今を憂い＠そっと託す、心からの願い＠選んだ未来に＠祝福がもたらされると信じて…
+illustrator: ―
+openDate: 2024/05/10 15:10:00
+...

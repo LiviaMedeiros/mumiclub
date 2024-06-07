@@ -1,0 +1,52 @@
+---
+pieceId: 1003
+pieceType: SKILL
+pieceName: 暗闇の魔女の手下
+attributeId: ALL
+rank: RANK_1
+attack: 0
+defense: 200
+hp: 200
+skillId: 100310
+pieceSkill:
+  id: 100310
+  groupId: 1087
+  name: スラッシュアップ[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 与えるダメージUP[Ⅲ](自/1T)
+  messageId: 70
+  artId1: 310201303
+  art1:
+    artId: 310201303
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 100311
+pieceSkill2:
+  id: 100311
+  groupId: 1087
+  name: スラッシュアップ[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 与えるダメージUP[Ⅳ](自/1T)
+  messageId: 70
+  artId1: 310201304
+  art1:
+    artId: 310201304
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 暗闇の魔女の手下。その役割は夢。＠あらゆるものに姿を変化させ、漆黒の闇の中に魔女の望みを描き出す。＠暗闇の中では強力な力を誇るが、街灯や月明かり程度のわずかな光があれば、その力を半減できる。
+illustrator: 劇団イヌカレー
+...

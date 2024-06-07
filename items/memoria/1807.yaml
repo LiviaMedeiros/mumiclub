@@ -1,0 +1,71 @@
+---
+pieceId: 1807
+pieceType: ABILITY
+pieceName: 重ねたかった心
+attributeId: ALL
+rank: RANK_3
+charaIds: "1044"
+charaList:
+- charaId: 1044
+  name: 瀬奈 みこと
+attack: 441
+defense: 0
+hp: 521
+skillId: 180700
+pieceSkill:
+  id: 180700
+  groupId: 1130
+  name: マナ・エキスパート[Ⅳ]
+  type: ABILITY
+  shortDescription: 自分のMPが10%溜まった状態でバトル開始 & Accele MPUP[Ⅳ]
+  artId1: 790212200
+  art1:
+    artId: 790212200
+    verbCode: INITIAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 100
+    growPoint: 0
+    probability: 1000
+  artId2: 390201604
+  art2:
+    artId: 390201604
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 175
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 180701
+pieceSkill2:
+  id: 180701
+  groupId: 1130
+  name: マナ・エキスパート[Ⅴ]
+  type: ABILITY
+  shortDescription: 自分のMPが15%溜まった状態でバトル開始 & Accele MPUP[Ⅴ]
+  artId1: 790213600
+  art1:
+    artId: 790213600
+    verbCode: INITIAL
+    effectCode: MP
+    targetId: SELF
+    effectValue: 150
+    growPoint: 0
+    probability: 1000
+  artId2: 390201605
+  art2:
+    artId: 390201605
+    verbCode: BUFF
+    effectCode: ACCEL
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: お揃いのペンで今まで誰にも言えなかったことを＠お互いにノートに書いて交換し合う…そんなふうにしたかった＠受けいれてくれるとわかってたから、あとはこのペンで本当の想いを＠伝えるだけだったのに…結局は破って捨ててしまった
+illustrator: 都筑禰己
+openDate: 2022/09/20 15:10:00
+...

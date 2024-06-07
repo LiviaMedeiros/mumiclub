@@ -1,0 +1,89 @@
+---
+pieceId: 1997
+pieceType: ABILITY
+pieceName: 正しさにとらわれて
+attributeId: ALL
+rank: RANK_3
+charaIds: "1113"
+charaList:
+- charaId: 1113
+  name: 竜城 明日香 新春龍神ver.
+attack: 524
+defense: 0
+hp: 444
+skillId: 199700
+pieceSkill:
+  id: 199700
+  groupId: 1241
+  name: クライシス・ストライク[Ⅴ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅴ] & 瀕死時防御力UP[Ⅱ] & Blast ダメージUP[Ⅴ]
+  artId1: 390202905
+  art1:
+    artId: 390202905
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId2: 390203002
+  art2:
+    artId: 390203002
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId3: 390201805
+  art3:
+    artId: 390201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 199701
+pieceSkill2:
+  id: 199701
+  groupId: 1241
+  name: クライシス・ストライク[Ⅶ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅶ] & 瀕死時防御力UP[Ⅳ] & Blast ダメージUP[Ⅵ]
+  artId1: 390202907
+  art1:
+    artId: 390202907
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390203004
+  art2:
+    artId: 390203004
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+    probability: 1000
+  artId3: 390201806
+  art3:
+    artId: 390201806
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 400
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 正しくありたかった、正しくあろうと思っていた＠今までもそうしてずっと真っすぐ生きてきたから、疑わなかった＠信じていた正しさが真のものなのか、正しさとはなんなのか＠初めて自分と向き合って、何も見えていなかったことに気がついた
+illustrator: 都筑禰己
+openDate: 2024/01/01 00:00:00
+...

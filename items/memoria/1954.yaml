@@ -1,0 +1,71 @@
+---
+pieceId: 1954
+pieceType: ABILITY
+pieceName: 似顔絵特訓の成果
+attributeId: ALL
+rank: RANK_3
+charaIds: "4062"
+charaList:
+- charaId: 4062
+  name: 井ノ上 たきな
+attack: 502
+defense: 0
+hp: 462
+skillId: 195400
+pieceSkill:
+  id: 195400
+  groupId: 1092
+  name: モラールブラスト・アデプト[Ⅴ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅴ] & Blast攻撃時MP獲得[Ⅲ]
+  artId1: 390201805
+  art1:
+    artId: 390201805
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 350
+    growPoint: 25
+    probability: 1000
+  artId2: 690220003
+  art2:
+    artId: 690220003
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 30
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 195401
+pieceSkill2:
+  id: 195401
+  groupId: 1092
+  name: モラールブラスト・アデプト[Ⅵ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅵ] & Blast攻撃時MP獲得[Ⅳ]
+  artId1: 390201806
+  art1:
+    artId: 390201806
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 400
+    growPoint: 25
+    probability: 1000
+  artId2: 690220004
+  art2:
+    artId: 690220004
+    verbCode: CONDITION_GOOD
+    effectCode: MP_PLUS_BLAST
+    targetId: SELF
+    effectValue: 40
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 神浜市のプロフェッショナルを巡る特訓は成長への道のり＠自分を振り回す相手を見返すために始めた練習の成果は＠お世辞にも上出来とは言えないはずなのに＠少女の瞳は、期待と希望で輝いていた
+illustrator: 都筑禰己
+openDate: 2023/09/22 15:10:00
+...

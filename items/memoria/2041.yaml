@@ -1,0 +1,68 @@
+---
+pieceId: 2041
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 悪夢の化身
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 620
+hp: 620
+skillId: 204100
+pieceSkill:
+  id: 204100
+  groupId: 1082
+  name: カウンタラクト
+  type: SKILL
+  intervalTurn: 12
+  shortDescription: デバフ解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  eventId: 1215
+  eventArtId1: 1215001
+  eventArt1:
+    artId: 1215001
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 1000
+    genericValue: EVENT_DAILYTOWER_1215_EXCHANGE_1
+  eventDescription: ＆「小さな羽根」追加獲得数＋1
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 204101
+pieceSkill2:
+  id: 204101
+  groupId: 1082
+  name: カウンタラクト
+  type: SKILL
+  intervalTurn: 12
+  shortDescription: デバフ解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  eventId: 1215
+  eventArtId1: 1215002
+  eventArt1:
+    artId: 1215002
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_DAILYTOWER_1215_EXCHANGE_1
+  eventDescription: ＆「小さな羽根」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「や、やめてください！この人に近づかないで!!」＠深夜のホームに響き渡るのは、少女たちの声＠同じ宿命を背負い、同じ言葉を交わしていても＠真には通じ合わない、異様な関係
+illustrator: ―
+openDate: 2024/05/10 15:10:00
+...

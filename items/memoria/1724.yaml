@@ -1,0 +1,65 @@
+---
+pieceId: 1724
+pieceType: ABILITY
+pieceName: 知りたい気持ち
+attributeId: ALL
+rank: RANK_3
+attack: 586
+defense: 0
+hp: 736
+skillId: 172400
+pieceSkill:
+  id: 172400
+  groupId: 1124
+  name: ヒーリングステップ・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 確率で回避[Ⅱ] & HP自動回復[Ⅰ]
+  artId1: 690206802
+  art1:
+    artId: 690206802
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 150
+  artId2: 690207701
+  art2:
+    artId: 690207701
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 20
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 172401
+pieceSkill2:
+  id: 172401
+  groupId: 1124
+  name: ヒーリングステップ・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 確率で回避[Ⅲ] & HP自動回復[Ⅱ]
+  artId1: 690206803
+  art1:
+    artId: 690206803
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 200
+  artId2: 690207702
+  art2:
+    artId: 690207702
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 30
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 他人のことをすべて知ろうなんて、できっこない＠なのに共に過ごす時間は絆を紡ぎ、少女たちを“仲間”にしていく＠だから明日も、おはようから始めよう＠新しいあなたを見つけるために
+illustrator: ―
+openDate: 2022/01/28 15:10:00
+...
