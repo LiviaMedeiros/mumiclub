@@ -1,4 +1,22 @@
 ---
+8175:
+  artId: 8175
+  effectCode: DAMAGE_UP
+  effectValue: 400
+  enableTurn: 2
+  growPoint: 25
+  probability: 1000
+  targetId: SELF
+  verbCode: CONDITION_GOOD
+8176:
+  artId: 8176
+  effectCode: DAMAGE_UP
+  effectValue: 900
+  enableTurn: 2
+  growPoint: 25
+  probability: 1000
+  targetId: SELF
+  verbCode: CONDITION_GOOD
 6102061:
   2:
     artId: 610206102
@@ -183,6 +201,15 @@
     growPoint: 25
     probability: 1000
 6502061:
+  2:
+    artId: 650206102
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 5
+    growPoint: 25
+    probability: 1000
   4:
     artId: 650206104
     verbCode: CONDITION_GOOD
@@ -294,6 +321,14 @@
     effectCode: DAMAGE_UP
     targetId: SELF
     effectValue: 300
+    growPoint: 25
+    probability: 1000
+  8:
+    artId: 690206108
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 400
     growPoint: 25
     probability: 1000
 ...
