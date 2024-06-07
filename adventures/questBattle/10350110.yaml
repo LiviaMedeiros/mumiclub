@@ -1,0 +1,41 @@
+---
+questBattleId: 10350110
+sectionId: 103501
+sectionIndex: 10
+questBattleType: NORMAL
+bossFlag: false
+startStory: 518310-10
+questStoryList: []
+placeId: "20751"
+bgm: bgm01_battle04
+bossBgm: bgm01_battle04
+consumeType: NORMAL
+ap: 10
+difficulty: 30
+exp: 21
+cardExp: 8
+baseBondsPt: 14
+riche: 200
+firstClearRewardCodes: RICHE_1000
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+mission1: HP_30
+missionMaster1:
+  description: 合計残HPが30％以上でクリア
+mission2: ACTION_10
+missionMaster2:
+  description: 10ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- WATER
+- LIGHT
+parameterMap: []
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
