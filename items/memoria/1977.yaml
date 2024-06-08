@@ -1,0 +1,67 @@
+---
+pieceId: 1977
+pieceType: SKILL
+pieceName: 孤高の覚悟
+attributeId: ALL
+rank: RANK_3
+charaIds: "2301"
+charaList:
+- charaId: 2301
+  name: 暁美 ほむら scene0 ver.
+attack: 0
+defense: 442
+hp: 522
+skillId: 197700
+pieceSkill:
+  id: 197700
+  groupId: 1245
+  name: 永遠の刻
+  type: SKILL
+  intervalTurn: 18
+  shortDescription: バフ効果を延長(味全/1T) & デバフ効果を延長(敵単/1T)
+  messageId: 71
+  artId1: 310322601
+  art1:
+    artId: 310322601
+    verbCode: TURN_ALLY
+    effectCode: BUFF
+    targetId: ALL
+    effectValue: 1
+  artId2: 410022701
+  art2:
+    artId: 410022701
+    verbCode: TURN_ENEMY
+    effectCode: DEBUFF
+    targetId: TARGET
+    effectValue: 1
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 197701
+pieceSkill2:
+  id: 197701
+  groupId: 1245
+  name: 永遠の刻
+  type: SKILL
+  intervalTurn: 15
+  shortDescription: バフ効果を延長(味全/1T) & デバフ効果を延長(敵単/1T)
+  messageId: 71
+  artId1: 310322601
+  art1:
+    artId: 310322601
+    verbCode: TURN_ALLY
+    effectCode: BUFF
+    targetId: ALL
+    effectValue: 1
+  artId2: 410022701
+  art2:
+    artId: 410022701
+    verbCode: TURN_ENEMY
+    effectCode: DEBUFF
+    targetId: TARGET
+    effectValue: 1
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 誰も信じないなら、誰も未来を受け止められないなら＠私だけの力であの子を救ってみせる＠だから、今までの私のままではいられない＠約束を果たすためにも、手段は選べないから
+illustrator: 都筑禰己
+openDate: 2023/11/06 15:10:00
+...
