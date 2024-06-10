@@ -1,0 +1,124 @@
+---
+pieceId: 1902
+pieceType: SKILL
+pieceKind: EVENT
+pieceName: 新鮮なポジション
+attributeId: ALL
+rank: RANK_4
+attack: 0
+defense: 980
+hp: 820
+skillId: 190200
+pieceSkill:
+  id: 190200
+  groupId: 1111
+  name: サマー・メモリーズ[XV]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 確率で幻惑[XV] & 攻撃力DOWN[Ⅶ] & 与えるダメージDOWN[Ⅶ](敵単/1T)
+  messageId: 72
+  artId1: 510005515
+  art1:
+    artId: 510005515
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 650
+  artId2: 410002007
+  art2:
+    artId: 410002007
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  artId3: 410002207
+  art3:
+    artId: 410002207
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1192
+  eventArtId1: 1192003
+  eventArt1:
+    artId: 1192003
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1192_PART_1
+  eventArtId2: 1192007
+  eventArt2:
+    artId: 1192007
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 5000
+    genericValue: EVENT_BRANCH_1192_PART_2
+  eventDescription: ＆「SUPパドル・ボード」「水鉄砲」追加獲得数＋5
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 190201
+pieceSkill2:
+  id: 190201
+  groupId: 1111
+  name: サマー・メモリーズ
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず幻惑 & 攻撃力DOWN[Ⅷ] & 与えるダメージDOWN[Ⅷ](敵単/1T)
+  messageId: 72
+  artId1: 510005600
+  art1:
+    artId: 510005600
+    verbCode: CONDITION_BAD
+    effectCode: BLINDNESS
+    targetId: TARGET
+    effectValue: 500
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002008
+  art2:
+    artId: 410002008
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  artId3: 410002208
+  art3:
+    artId: 410002208
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  eventId: 1192
+  eventArtId1: 1192004
+  eventArt1:
+    artId: 1192004
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1192_PART_1
+  eventArtId2: 1192008
+  eventArt2:
+    artId: 1192008
+    verbCode: OTHER
+    effectCode: DROPADD
+    effectValue: 15000
+    genericValue: EVENT_BRANCH_1192_PART_2
+  eventDescription: ＆「SUPパドル・ボード」「水鉄砲」追加獲得数＋15
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「強くこいだらクルって回りそう…ちょっと怖いかも…」＠「少し意外。環さんは思い切りが良い方だと思ってた」＠「そんなことな、キャッ、ちょっとグラってしたかも…！」＠「サポートするから、気にせず勢いよくこいでみよう？」
+illustrator: ―
+openDate: 2023/05/29 15:10:00
+...
