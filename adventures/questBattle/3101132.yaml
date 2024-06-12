@@ -1,26 +1,20 @@
 ---
-questBattleId: 1013044
-sectionId: 101304
-sectionIndex: 4
+questBattleId: 3101132
+sectionId: 310113
+sectionIndex: 2
 questBattleType: NORMAL
 bossFlag: false
-npcHelpId: "105"
-npcHelpNameHidden: false
-npcHelpNameQuestHidden: false
-npcHelpDisplayHidden: false
-npcHelpSupportHidden: false
-startStory: 101304-5
+startStory: 310113-2
 questStoryList: []
-storyWaveIndices: "0"
 placeId: "47105"
 bgm: bgm01_anime12
 bossBgm: bgm01_anime12
-consumeType: FREE_AT_NOT_CLEAR
-exp: 42
-cardExp: 100
-baseBondsPt: 56
-riche: 476
-firstClearRewardCodes: RICHE_1000
+consumeType: NORMAL
+exp: 96
+cardExp: 80
+baseBondsPt: 240
+riche: 1312
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
 defaultDropItemId: 106
 defaultDropItem:
   dropItemId: 106
@@ -35,12 +29,12 @@ missionMaster1:
 mission2: ACTION_15
 missionMaster2:
   description: 15ターン以内クリア
-mission3: COUNT_CONNECT_1
+mission3: MEMBER_CHARA_1011
 missionMaster3:
-  description: コネクトを1回発動
-missionRewardCode: ITEM_PRESENTED_MONEY_3
+  description: 秋野 かえでを含めてクリア
+missionRewardCode: ITEM_PRISM_1
 waveEnemyAttributeIdList:
-- FIRE
+- WATER
 parameterMap: []
 automationPossibleAtFirst: true
 recordType: NONE
