@@ -1,0 +1,113 @@
+---
+id: 33877
+shopId: 795
+shopItemType: LIVE2D
+genericId: "1030_50"
+chara:
+  id: 1030
+  attributeId: FIRE
+  initialType: ATTACK
+  defaultCardId: 10304
+  defaultCard:
+    cardId: 10304
+    rank: RANK_4
+    attributeId: FIRE
+    initialType: ATTACK
+    growthType: ATKDEF
+    attack: 2171
+    defense: 1600
+    hp: 4897
+    miniCharaNo: 103000
+    charaNo: 1030
+    cardName: 安積 はぐむ
+    commandType1: MPUP
+    commandType2: RANGE_V
+    commandType3: RANGE_V
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10304
+      groupId: 1014
+      name: くるくる回ってさようなら
+      shortDescription: 敵全体にダメージ[Ⅴ] & 防御力DOWN(敵全/3T) & Charge後ダメージUP(味全/3T)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 430302105
+      art2:
+        artId: 430302105
+        verbCode: DEBUFF
+        effectCode: DEFENSE
+        targetId: ALL
+        effectValue: 150
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301705
+      art3:
+        artId: 330301705
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: ALL
+        effectValue: 200
+        enableTurn: 3
+        growPoint: 25
+    cardSkill:
+      id: 10304
+      groupId: 1085
+      name: あっ、私でよければ手伝うよ
+      shortDescription: 攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅷ] & 対魔女ダメージアップ[Ⅳ]
+      artId1: 310401107
+      art1:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+      artId2: 310401708
+      art2:
+        artId: 310401708
+        verbCode: BUFF
+        effectCode: CHARGE
+        targetId: CONNECT
+        effectValue: 275
+        enableTurn: 1
+        growPoint: 25
+      artId3: 610416804
+      art3:
+        artId: 610416804
+        verbCode: LIMITED_ENEMY_TYPE
+        effectCode: DAMAGE_UP
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 15
+        probability: 1000
+        genericValue: WITCH
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: あずみ はぐむ
+  description: ネオマギウスに所属する自分に自信が持てない魔法少女。マルチタスクが苦手で、複数のことを同時に頼まれると慌ててしまう。自己評価が低く流されがちだが、周囲の人に認めて欲しいという思いを抱えている。裁縫などチマチマしたことが好き。
+live2d:
+  charaId: 1030
+  live2dId: "50"
+  description: 水着(2022)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1218_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 安積はぐむの衣装【水着】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：有】
+sortkey: 8
+isDetailView: false
+viewStartAt: 2024/06/12 16:00:00
+startAt: 2024/06/12 15:10:00
+endAt: 2024/07/01 14:59:59
+...

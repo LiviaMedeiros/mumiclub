@@ -1,0 +1,96 @@
+---
+id: 33909
+shopId: 795
+shopItemType: LIVE2D
+genericId: "3025_51"
+chara:
+  id: 3025
+  attributeId: DARK
+  initialType: MAGIA
+  defaultCardId: 30254
+  defaultCard:
+    cardId: 30254
+    rank: RANK_4
+    attributeId: DARK
+    initialType: MAGIA
+    growthType: BALANCE
+    attack: 2011
+    defense: 1509
+    hp: 4724
+    miniCharaNo: 302500
+    charaNo: 3025
+    cardName: 五十鈴 れん
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_V
+    commandType4: RANGE_H
+    commandType5: CHARGE
+    cardMagia:
+      id: 30254
+      groupId: 1067
+      name: ソウル・サルベーション
+      shortDescription: 敵単体にダメージ[Ⅵ] & 低HPほど威力UP & 必ず回避(自/1T)
+      artId1: 100000306
+      art1:
+        artId: 100000306
+        verbCode: ATTACK
+        effectCode: LINKED_DAMAGE
+        targetId: TARGET
+        effectValue: 8960
+        growPoint: 100
+        parameter: 5600
+      artId2: 610206900
+      art2:
+        artId: 610206900
+        verbCode: CONDITION_GOOD
+        effectCode: AVOID
+        targetId: SELF
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+    cardSkill:
+      id: 30254
+      groupId: 1126
+      name: 私に続きを記させて
+      shortDescription: ターゲット生存時に必ず追撃 & 攻撃力UP[Ⅶ]
+      artId1: 610407300
+      art1:
+        artId: 610407300
+        verbCode: CONDITION_GOOD
+        effectCode: PURSUE
+        targetId: CONNECT
+        effectValue: 800
+        enableTurn: 1
+        growPoint: 0
+        probability: 1000
+      artId2: 310401107
+      art2:
+        artId: 310401107
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 350
+        enableTurn: 1
+        growPoint: 25
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: いすず れん
+  description: 小さい頃から内気で、人と話すことが苦手な魔法少女。＠孤立し、生きていくことに苦しみ、自らを追い詰めてしまうが、＠その時に魔法少女の世界を知ったことで、＠どん底から抜け出すことができた。＠精神的に成長もするが、まだ気弱な所がある。
+live2d:
+  charaId: 3025
+  live2dId: "51"
+  description: 水着(2018)
+  defaultOpened: false
+  voicePrefixNo: "51"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1218_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 五十鈴れんの衣装【水着】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：有】
+sortkey: 40
+isDetailView: false
+viewStartAt: 2024/06/12 16:00:00
+startAt: 2024/06/12 15:10:00
+endAt: 2024/07/01 14:59:59
+...

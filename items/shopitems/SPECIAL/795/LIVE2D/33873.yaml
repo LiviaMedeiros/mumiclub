@@ -1,0 +1,123 @@
+---
+id: 33873
+shopId: 795
+shopItemType: LIVE2D
+genericId: "1031_50"
+chara:
+  id: 1031
+  attributeId: TIMBER
+  initialType: HEAL
+  defaultCardId: 10314
+  defaultCard:
+    cardId: 10314
+    rank: RANK_4
+    attributeId: TIMBER
+    initialType: HEAL
+    growthType: DEFHP
+    attack: 1847
+    defense: 1780
+    hp: 6068
+    miniCharaNo: 103100
+    charaNo: 1031
+    cardName: 神楽 燦
+    commandType1: MPUP
+    commandType2: MPUP
+    commandType3: RANGE_H
+    commandType4: CHARGE
+    commandType5: CHARGE
+    cardMagia:
+      id: 10314
+      groupId: 1014
+      name: ルースレス・バラージュ
+      shortDescription: 敵全体にダメージ[Ⅴ] & Accele MPUP & 状態異常耐性UP(味全/3T) & 状態異常解除 & HP回復(味全)
+      artId1: 100300105
+      art1:
+        artId: 100300105
+        verbCode: ATTACK
+        targetId: ALL
+        effectValue: 3400
+        growPoint: 100
+      artId2: 330301604
+      art2:
+        artId: 330301604
+        verbCode: BUFF
+        effectCode: ACCEL
+        targetId: ALL
+        effectValue: 175
+        enableTurn: 3
+        growPoint: 25
+      artId3: 330301505
+      art3:
+        artId: 330301505
+        verbCode: BUFF
+        effectCode: RESIST
+        targetId: ALL
+        effectValue: 300
+        enableTurn: 3
+        growPoint: 25
+      artId4: 200301000
+      art4:
+        artId: 200301000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: ALL
+        growPoint: 0
+      artId5: 200300409
+      art5:
+        artId: 200300409
+        verbCode: HEAL
+        effectCode: HP
+        targetId: ALL
+        effectValue: 250
+        growPoint: 20
+    cardSkill:
+      id: 10314
+      groupId: 1085
+      name: 私の期待に応えなさい
+      shortDescription: 攻撃力UP[Ⅶ] & 状態異常解除 & HP回復[Ⅶ]
+      artId1: 310401105
+      art1:
+        artId: 310401105
+        verbCode: BUFF
+        effectCode: ATTACK
+        targetId: CONNECT
+        effectValue: 300
+        enableTurn: 1
+        growPoint: 25
+      artId2: 200401000
+      art2:
+        artId: 200401000
+        verbCode: REVOKE
+        effectCode: BAD
+        targetId: CONNECT
+        growPoint: 0
+      artId3: 200400407
+      art3:
+        artId: 200400407
+        verbCode: HEAL
+        effectCode: HP
+        targetId: CONNECT
+        effectValue: 450
+        growPoint: 20
+    pieceSkillList: []
+    maxPieceSkillList: []
+  kana: かぐら さん
+  description: ネオマギウスのナンバー２を務め、神聖なものや強い存在に惹かれる魔法少女。ネオマギウス内では鬼教官と恐れられているが、地元で所属している青年会では妹のように可愛がられる一面もある。
+live2d:
+  charaId: 1031
+  live2dId: "50"
+  description: 水着(2023)
+  defaultOpened: false
+  voicePrefixNo: "50"
+consumeType: ITEM
+needItemId: EVENT_DAILYTOWER_1218_EXCHANGE_2
+needNumber: 1
+limitedNumber: 1
+name: 神楽燦の衣装【水着】
+description: ホーム衣装【専用ボイス：有　衣装ストーリー：有】
+sortkey: 4
+isDetailView: false
+viewStartAt: 2024/06/12 16:00:00
+startAt: 2024/06/12 15:10:00
+endAt: 2024/07/01 14:59:59
+...
