@@ -1,31 +1,30 @@
 ---
-- charaEnhancementCellId: 67000
-  groupId: 67
+- charaEnhancementCellId: 51000
+  groupId: 51
   enhancementType: START
   needCC: 0
-  connectedCellIds: "67101,67103,67105"
+  connectedCellIds: "51101,51104"
   connectedCellIdList:
-  - 67101
-  - 67103
-  - 67105
+  - 51101
+  - 51104
   pointX: 2048
   pointY: 2048
-- charaEnhancementCellId: 67101
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 61
+- charaEnhancementCellId: 51101
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 33
   openGiftId1: 811
   openGiftQuantity1: 4
-  openGiftId2: 301
+  openGiftId2: 405
   openGiftQuantity2: 1
   needCC: 5000
-  connectedCellIds: "67102,67201,67212"
-  needOpenedCellId: 67000
-  sourceCellId: 67000
+  connectedCellIds: "51212,51201,51102"
+  needOpenedCellId: 51000
+  sourceCellId: 51000
   connectedCellIdList:
-  - 67102
-  - 67201
-  - 67212
+  - 51212
+  - 51201
+  - 51102
   pointX: 2048
   pointY: 1848
   returnGiftCodes20200518: GIFT_811_1
@@ -38,26 +37,26 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67102
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 61
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51102
+  groupId: 51
+  enhancementType: HP
+  effectValue: 156
   openGiftId1: 821
   openGiftQuantity1: 4
-  openGiftId2: 407
+  openGiftId2: 307
   openGiftQuantity2: 1
   needCC: 5000
-  connectedCellIds: "67204"
-  needOpenedCellId: 67101
-  sourceCellId: 67101
+  connectedCellIds: "51103"
+  needOpenedCellId: 51101
+  sourceCellId: 51101
   connectedCellIdList:
-  - 67204
+  - 51103
   pointX: 2190
   pointY: 1948
   returnGiftCodes20200518: GIFT_821_1
@@ -70,28 +69,26 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67103
-  groupId: 67
-  enhancementType: HP
-  effectValue: 133
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51103
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 33
   openGiftId1: 841
   openGiftQuantity1: 4
-  openGiftId2: 406
+  openGiftId2: 404
   openGiftQuantity2: 1
   needCC: 5000
-  connectedCellIds: "67104,67205"
-  needOpenedCellId: 67000
-  sourceCellId: 67000
+  connectedCellIds: "51205"
+  needOpenedCellId: 51102
+  sourceCellId: 51102
   connectedCellIdList:
-  - 67104
-  - 67205
+  - 51205
   pointX: 2190
   pointY: 2148
   returnGiftCodes20200518: GIFT_841_1
@@ -104,27 +101,28 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 406
+    id: 404
     type: 2
-    name: スタッフのキースイッチ
+    name: オウルのバケツ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67104
-  groupId: 67
-  enhancementType: HP
-  effectValue: 133
+- charaEnhancementCellId: 51104
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 62
   openGiftId1: 851
   openGiftQuantity1: 4
-  openGiftId2: 303
+  openGiftId2: 401
   openGiftQuantity2: 1
   needCC: 5000
-  connectedCellIds: "67206,67207"
-  needOpenedCellId: 67103
-  sourceCellId: 67103
+  connectedCellIds: "51206,51207,51105"
+  needOpenedCellId: 51000
+  sourceCellId: 51000
   connectedCellIdList:
-  - 67206
-  - 67207
+  - 51206
+  - 51207
+  - 51105
   pointX: 2048
   pointY: 2248
   returnGiftCodes20200518: GIFT_851_1
@@ -137,27 +135,26 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 303
+    id: 401
     type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67105
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 35
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51105
+  groupId: 51
+  enhancementType: HP
+  effectValue: 156
   openGiftId1: 861
   openGiftQuantity1: 4
-  openGiftId2: 401
+  openGiftId2: 408
   openGiftQuantity2: 1
   needCC: 5000
-  connectedCellIds: "67106,67208"
-  needOpenedCellId: 67000
-  sourceCellId: 67000
+  connectedCellIds: "51106"
+  needOpenedCellId: 51104
+  sourceCellId: 51104
   connectedCellIdList:
-  - 67106
-  - 67208
+  - 51106
   pointX: 1906
   pointY: 2148
   returnGiftCodes20200518: GIFT_861_1
@@ -170,26 +167,27 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 401
+    id: 408
     type: 2
-    name: 砂場の巻貝
+    name: クマの襟巻
     rank: 2
     rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67106
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 35
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51106
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 62
   openGiftId1: 881
   openGiftQuantity1: 4
-  openGiftId2: 310
+  openGiftId2: 306
   openGiftQuantity2: 1
   needCC: 5000
-  connectedCellIds: "67211"
-  needOpenedCellId: 67105
-  sourceCellId: 67105
+  connectedCellIds: "51211"
+  needOpenedCellId: 51105
+  sourceCellId: 51105
   connectedCellIdList:
-  - 67211
+  - 51211
   pointX: 1906
   pointY: 1948
   returnGiftCodes20200518: GIFT_881_1
@@ -202,17 +200,16 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 310
+    id: 306
     type: 2
-    name: 流浪の杭
+    name: 振子のネジ
     rank: 1
     rankGift: RANK_1
     price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67201
-  groupId: 67
+- charaEnhancementCellId: 51201
+  groupId: 51
   enhancementType: SKILL
-  effectValue: 3042101
+  effectValue: 3044101
   openGiftId1: 811
   openGiftQuantity1: 12
   openGiftId2: 212
@@ -220,12 +217,12 @@
   openGiftId3: 211
   openGiftQuantity3: 5
   needCC: 10000
-  connectedCellIds: "67202,67302"
-  needOpenedCellId: 67101
-  sourceCellId: 67101
+  connectedCellIds: "51301,51202"
+  needOpenedCellId: 51101
+  sourceCellId: 51101
   connectedCellIdList:
-  - 67202
-  - 67302
+  - 51301
+  - 51202
   pointX: 2048
   pointY: 1648
   returnGiftCodes20200518: GIFT_811_3
@@ -254,7 +251,350 @@
     rankGift: RANK_1
     price: 500
   emotionSkill:
-    id: 3042101
+    id: 3044101
+    groupId: 1216
+    name: MPブースト[Ⅱ]
+    type: ABILITY
+    shortDescription: MP100以上時MP獲得量UP[Ⅱ]
+    artId1: 390218202
+    art1:
+      artId: 390218202
+      verbCode: BUFF
+      effectCode: MP_GAIN_OVER100
+      targetId: SELF
+      effectValue: 200
+      growPoint: 0
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51202
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 37
+  openGiftId1: 821
+  openGiftQuantity1: 12
+  openGiftId2: 307
+  openGiftQuantity2: 3
+  needCC: 10000
+  connectedCellIds: "51203"
+  needOpenedCellId: 51201
+  sourceCellId: 51201
+  connectedCellIdList:
+  - 51203
+  pointX: 2190
+  pointY: 1748
+  returnGiftCodes20200518: GIFT_821_3
+  openGift1:
+    id: 821
+    type: 3
+    name: 悲嘆の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 307
+    type: 2
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51203
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044102
+  openGiftId1: 821
+  openGiftQuantity1: 12
+  openGiftId2: 212
+  openGiftQuantity2: 3
+  openGiftId3: 211
+  openGiftQuantity3: 5
+  needCC: 10000
+  connectedCellIds: "51305,51204"
+  needOpenedCellId: 51202
+  sourceCellId: 51202
+  connectedCellIdList:
+  - 51305
+  - 51204
+  pointX: 2332
+  pointY: 1848
+  returnGiftCodes20200518: GIFT_821_3
+  openGift1:
+    id: 821
+    type: 3
+    name: 悲嘆の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift3:
+    id: 211
+    type: 1
+    name: フレイムブック
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+  emotionSkill:
+    id: 3044102
+    groupId: 1090
+    name: アクセル・アデプト[Ⅴ]
+    type: ABILITY
+    shortDescription: Accele MPUP[Ⅴ]
+    artId1: 390201605
+    art1:
+      artId: 390201605
+      verbCode: BUFF
+      effectCode: ACCEL
+      targetId: SELF
+      effectValue: 200
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51204
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 66
+  openGiftId1: 831
+  openGiftQuantity1: 12
+  openGiftId2: 407
+  openGiftQuantity2: 3
+  needCC: 10000
+  connectedCellIds: "51306"
+  needOpenedCellId: 51203
+  sourceCellId: 51203
+  connectedCellIdList:
+  - 51306
+  pointX: 2332
+  pointY: 2048
+  returnGiftCodes20200518: GIFT_831_3
+  openGift1:
+    id: 831
+    type: 3
+    name: 激怒の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 407
+    type: 2
+    name: マスコットのタテガミ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51205
+  groupId: 51
+  enhancementType: HP
+  effectValue: 167
+  openGiftId1: 841
+  openGiftQuantity1: 12
+  openGiftId2: 404
+  openGiftQuantity2: 3
+  needCC: 10000
+  connectedCellIds: "51308"
+  needOpenedCellId: 51103
+  sourceCellId: 51103
+  connectedCellIdList:
+  - 51308
+  pointX: 2332
+  pointY: 2248
+  returnGiftCodes20200518: GIFT_841_3
+  openGift1:
+    id: 841
+    type: 3
+    name: 恐怖の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 404
+    type: 2
+    name: オウルのバケツ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51206
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 66
+  openGiftId1: 841
+  openGiftQuantity1: 12
+  openGiftId2: 404
+  openGiftQuantity2: 3
+  needCC: 10000
+  connectedCellIds: "51309"
+  needOpenedCellId: 51104
+  sourceCellId: 51104
+  connectedCellIdList:
+  - 51309
+  pointX: 2190
+  pointY: 2348
+  returnGiftCodes20200518: GIFT_841_3
+  openGift1:
+    id: 841
+    type: 3
+    name: 恐怖の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 404
+    type: 2
+    name: オウルのバケツ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51207
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044103
+  openGiftId1: 851
+  openGiftQuantity1: 12
+  openGiftId2: 212
+  openGiftQuantity2: 3
+  openGiftId3: 211
+  openGiftQuantity3: 5
+  needCC: 10000
+  connectedCellIds: "51310,51208"
+  needOpenedCellId: 51104
+  sourceCellId: 51104
+  connectedCellIdList:
+  - 51310
+  - 51208
+  pointX: 2048
+  pointY: 2448
+  returnGiftCodes20200518: GIFT_851_3
+  openGift1:
+    id: 851
+    type: 3
+    name: 驚嘆の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift3:
+    id: 211
+    type: 1
+    name: フレイムブック
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+  emotionSkill:
+    id: 3044103
+    groupId: 1216
+    name: MPブースト[Ⅲ]
+    type: ABILITY
+    shortDescription: MP100以上時MP獲得量UP[Ⅲ]
+    artId1: 390218203
+    art1:
+      artId: 390218203
+      verbCode: BUFF
+      effectCode: MP_GAIN_OVER100
+      targetId: SELF
+      effectValue: 220
+      growPoint: 0
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51208
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 37
+  openGiftId1: 861
+  openGiftQuantity1: 12
+  openGiftId2: 408
+  openGiftQuantity2: 3
+  needCC: 10000
+  connectedCellIds: "51209"
+  needOpenedCellId: 51207
+  sourceCellId: 51207
+  connectedCellIdList:
+  - 51209
+  pointX: 1906
+  pointY: 2348
+  returnGiftCodes20200518: GIFT_861_3
+  openGift1:
+    id: 861
+    type: 3
+    name: 期待の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 408
+    type: 2
+    name: クマの襟巻
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51209
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044104
+  openGiftId1: 861
+  openGiftQuantity1: 12
+  openGiftId2: 212
+  openGiftQuantity2: 3
+  openGiftId3: 211
+  openGiftQuantity3: 5
+  needCC: 10000
+  connectedCellIds: "51314,51210"
+  needOpenedCellId: 51208
+  sourceCellId: 51208
+  connectedCellIdList:
+  - 51314
+  - 51210
+  pointX: 1764
+  pointY: 2248
+  returnGiftCodes20200518: GIFT_861_3
+  openGift1:
+    id: 861
+    type: 3
+    name: 期待の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift3:
+    id: 211
+    type: 1
+    name: フレイムブック
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+  emotionSkill:
+    id: 3044104
     groupId: 1220
     name: ドッペル・アデプト[Ⅲ]
     type: ABILITY
@@ -278,84 +618,237 @@
       probability: 1000
     skillEffectRange: ALL
     skillDisplayType: EMOTION
-- charaEnhancementCellId: 67202
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042102
-  openGiftId1: 821
+- charaEnhancementCellId: 51210
+  groupId: 51
+  enhancementType: DISK_CHARGE
+  effectValue: 40
+  openGiftId1: 871
   openGiftQuantity1: 12
-  openGiftId2: 212
-  openGiftQuantity2: 3
-  openGiftId3: 211
-  openGiftQuantity3: 5
+  openGiftId2: 111
+  openGiftQuantity2: 8
   needCC: 10000
-  connectedCellIds: "67203,67303"
-  needOpenedCellId: 67201
-  sourceCellId: 67201
+  connectedCellIds: "51315"
+  needOpenedCellId: 51209
+  sourceCellId: 51209
   connectedCellIdList:
-  - 67203
-  - 67303
-  pointX: 2190
-  pointY: 1748
-  returnGiftCodes20200518: GIFT_821_3
+  - 51315
+  pointX: 1764
+  pointY: 2048
+  returnGiftCodes20200518: GIFT_871_3
   openGift1:
-    id: 821
+    id: 871
     type: 3
-    name: 悲嘆の欠片
+    name: 恍惚の欠片
     rank: 1
     rankGift: RANK_1
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 212
+    id: 111
     type: 1
-    name: フレイムブック＋
+    name: フレイムオーブ
     attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+- charaEnhancementCellId: 51211
+  groupId: 51
+  enhancementType: DISK_BLAST
+  effectValue: 30
+  openGiftId1: 881
+  openGiftQuantity1: 12
+  openGiftId2: 111
+  openGiftQuantity2: 8
+  needCC: 10000
+  connectedCellIds: "51317"
+  needOpenedCellId: 51106
+  sourceCellId: 51106
+  connectedCellIdList:
+  - 51317
+  pointX: 1764
+  pointY: 1848
+  returnGiftCodes20200518: GIFT_881_3
+  openGift1:
+    id: 881
+    type: 3
+    name: 敬愛の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 111
+    type: 1
+    name: フレイムオーブ
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+- charaEnhancementCellId: 51212
+  groupId: 51
+  enhancementType: HP
+  effectValue: 167
+  openGiftId1: 881
+  openGiftQuantity1: 12
+  openGiftId2: 306
+  openGiftQuantity2: 3
+  needCC: 10000
+  connectedCellIds: "51318"
+  needOpenedCellId: 51101
+  sourceCellId: 51101
+  connectedCellIdList:
+  - 51318
+  pointX: 1906
+  pointY: 1748
+  returnGiftCodes20200518: GIFT_881_3
+  openGift1:
+    id: 881
+    type: 3
+    name: 敬愛の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 306
+    type: 2
+    name: 振子のネジ
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51301
+  groupId: 51
+  enhancementType: HP
+  effectValue: 178
+  openGiftId1: 812
+  openGiftQuantity1: 1
+  openGiftId2: 811
+  openGiftQuantity2: 20
+  openGiftId3: 505
+  openGiftQuantity3: 1
+  openGiftId4: 405
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51402,51302"
+  needOpenedCellId: 51201
+  sourceCellId: 51201
+  connectedCellIdList:
+  - 51402
+  - 51302
+  pointX: 2048
+  pointY: 1448
+  returnGiftCodes20200518: GIFT_812_1,GIFT_811_5
+  openGift1:
+    id: 812
+    type: 3
+    name: 嫌悪の欠片＋
     rank: 2
     rankGift: RANK_2
     price: 1000
-  openGift3:
-    id: 211
-    type: 1
-    name: フレイムブック
-    attributeId: FIRE
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 811
+    type: 3
+    name: 嫌悪の欠片
     rank: 1
     rankGift: RANK_1
     price: 500
-  emotionSkill:
-    id: 3042102
-    groupId: 1216
-    name: MPブースト[Ⅱ]
-    type: ABILITY
-    shortDescription: MP100以上時MP獲得量UP[Ⅱ]
-    artId1: 390218202
-    art1:
-      artId: 390218202
-      verbCode: BUFF
-      effectCode: MP_GAIN_OVER100
-      targetId: SELF
-      effectValue: 200
-      growPoint: 0
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67203
-  groupId: 67
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 505
+    type: 2
+    name: 人工知能のコード
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 405
+    type: 2
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51302
+  groupId: 51
   enhancementType: DEFENSE
-  effectValue: 66
-  openGiftId1: 821
-  openGiftQuantity1: 12
-  openGiftId2: 407
-  openGiftQuantity2: 3
-  needCC: 10000
-  connectedCellIds: "67305"
-  needOpenedCellId: 67202
-  sourceCellId: 67202
+  effectValue: 70
+  openGiftId1: 812
+  openGiftQuantity1: 1
+  openGiftId2: 811
+  openGiftQuantity2: 20
+  openGiftId3: 505
+  openGiftQuantity3: 1
+  openGiftId4: 405
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51303"
+  needOpenedCellId: 51301
+  sourceCellId: 51301
   connectedCellIdList:
-  - 67305
-  pointX: 2332
-  pointY: 1848
-  returnGiftCodes20200518: GIFT_821_3
+  - 51303
+  pointX: 2190
+  pointY: 1548
+  returnGiftCodes20200518: GIFT_812_1,GIFT_811_5
   openGift1:
+    id: 812
+    type: 3
+    name: 嫌悪の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 811
+    type: 3
+    name: 嫌悪の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 505
+    type: 2
+    name: 人工知能のコード
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 405
+    type: 2
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51303
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 38
+  openGiftId1: 822
+  openGiftQuantity1: 1
+  openGiftId2: 821
+  openGiftQuantity2: 20
+  openGiftId3: 556
+  openGiftQuantity3: 1
+  openGiftId4: 307
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51304"
+  needOpenedCellId: 51302
+  sourceCellId: 51302
+  connectedCellIdList:
+  - 51304
+  pointX: 2332
+  pointY: 1648
+  returnGiftCodes20200518: GIFT_822_1,GIFT_821_5
+  openGift1:
+    id: 822
+    type: 3
+    name: 悲嘆の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
     id: 821
     type: 3
     name: 悲嘆の欠片
@@ -363,34 +856,103 @@
     rankGift: RANK_1
     price: 500
     openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 407
+  openGift3:
+    id: 556
     type: 2
-    name: マスコットのタテガミ
+    name: 子守の取っ手
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/05/07 16:00:00
+  openGift4:
+    id: 307
+    type: 2
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51304
+  groupId: 51
+  enhancementType: HP
+  effectValue: 178
+  openGiftId1: 822
+  openGiftQuantity1: 1
+  openGiftId2: 821
+  openGiftQuantity2: 20
+  openGiftId3: 556
+  openGiftQuantity3: 1
+  openGiftId4: 307
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51406"
+  needOpenedCellId: 51303
+  sourceCellId: 51303
+  connectedCellIdList:
+  - 51406
+  pointX: 2474
+  pointY: 1748
+  returnGiftCodes20200518: GIFT_822_1,GIFT_821_5
+  openGift1:
+    id: 822
+    type: 3
+    name: 悲嘆の欠片＋
     rank: 2
     rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67204
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042103
-  openGiftId1: 831
-  openGiftQuantity1: 12
-  openGiftId2: 212
-  openGiftQuantity2: 3
-  openGiftId3: 211
-  openGiftQuantity3: 5
-  needCC: 10000
-  connectedCellIds: "67306"
-  needOpenedCellId: 67102
-  sourceCellId: 67102
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 821
+    type: 3
+    name: 悲嘆の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 556
+    type: 2
+    name: 子守の取っ手
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/05/07 16:00:00
+  openGift4:
+    id: 307
+    type: 2
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51305
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 38
+  openGiftId1: 832
+  openGiftQuantity1: 1
+  openGiftId2: 831
+  openGiftQuantity2: 20
+  openGiftId3: 507
+  openGiftQuantity3: 1
+  openGiftId4: 407
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51407"
+  needOpenedCellId: 51203
+  sourceCellId: 51203
   connectedCellIdList:
-  - 67306
-  pointX: 2332
-  pointY: 2048
-  returnGiftCodes20200518: GIFT_831_3
+  - 51407
+  pointX: 2474
+  pointY: 1948
+  returnGiftCodes20200518: GIFT_832_1,GIFT_831_5
   openGift1:
+    id: 832
+    type: 3
+    name: 激怒の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
     id: 831
     type: 3
     name: 激怒の欠片
@@ -398,7 +960,60 @@
     rankGift: RANK_1
     price: 500
     openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 507
+    type: 2
+    name: ビッグフェリスのタービン
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/05/21 15:10:00
+  openGift4:
+    id: 407
+    type: 2
+    name: マスコットのタテガミ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51306
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044105
+  openGiftId1: 832
+  openGiftQuantity1: 1
+  openGiftId2: 831
+  openGiftQuantity2: 20
+  openGiftId3: 212
+  openGiftQuantity3: 3
+  openGiftId4: 211
+  openGiftQuantity4: 8
+  needCC: 30000
+  connectedCellIds: "51307"
+  needOpenedCellId: 51204
+  sourceCellId: 51204
+  connectedCellIdList:
+  - 51307
+  pointX: 2474
+  pointY: 2148
+  returnGiftCodes20200518: GIFT_832_1,GIFT_831_5
+  openGift1:
+    id: 832
+    type: 3
+    name: 激怒の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
   openGift2:
+    id: 831
+    type: 3
+    name: 激怒の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
     id: 212
     type: 1
     name: フレイムブック＋
@@ -406,7 +1021,7 @@
     rank: 2
     rankGift: RANK_2
     price: 1000
-  openGift3:
+  openGift4:
     id: 211
     type: 1
     name: フレイムブック
@@ -415,7 +1030,233 @@
     rankGift: RANK_1
     price: 500
   emotionSkill:
-    id: 3042103
+    id: 3044105
+    groupId: 1091
+    name: チャージ・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: Charge後ダメージUP[Ⅱ]
+    artId1: 390201742
+    art1:
+      artId: 390201742
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51307
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 70
+  openGiftId1: 842
+  openGiftQuantity1: 1
+  openGiftId2: 841
+  openGiftQuantity2: 20
+  openGiftId3: 504
+  openGiftQuantity3: 1
+  openGiftId4: 404
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51410"
+  needOpenedCellId: 51306
+  sourceCellId: 51306
+  connectedCellIdList:
+  - 51410
+  pointX: 2474
+  pointY: 2348
+  returnGiftCodes20200518: GIFT_842_1,GIFT_841_5
+  openGift1:
+    id: 842
+    type: 3
+    name: 恐怖の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 841
+    type: 3
+    name: 恐怖の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 504
+    type: 2
+    name: リュトンのリボン
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 404
+    type: 2
+    name: オウルのバケツ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51308
+  groupId: 51
+  enhancementType: HP
+  effectValue: 178
+  openGiftId1: 842
+  openGiftQuantity1: 1
+  openGiftId2: 841
+  openGiftQuantity2: 20
+  openGiftId3: 504
+  openGiftQuantity3: 1
+  openGiftId4: 404
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51411"
+  needOpenedCellId: 51205
+  sourceCellId: 51205
+  connectedCellIdList:
+  - 51411
+  pointX: 2332
+  pointY: 2448
+  returnGiftCodes20200518: GIFT_842_1,GIFT_841_5
+  openGift1:
+    id: 842
+    type: 3
+    name: 恐怖の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 841
+    type: 3
+    name: 恐怖の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 504
+    type: 2
+    name: リュトンのリボン
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 404
+    type: 2
+    name: オウルのバケツ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51309
+  groupId: 51
+  enhancementType: DISK_CHARGE
+  effectValue: 40
+  openGiftId1: 852
+  openGiftQuantity1: 1
+  openGiftId2: 851
+  openGiftQuantity2: 20
+  openGiftId3: 112
+  openGiftQuantity3: 5
+  openGiftId4: 111
+  openGiftQuantity4: 10
+  needCC: 30000
+  connectedCellIds: "51412"
+  needOpenedCellId: 51206
+  sourceCellId: 51206
+  connectedCellIdList:
+  - 51412
+  pointX: 2190
+  pointY: 2548
+  returnGiftCodes20200518: GIFT_852_1,GIFT_851_5
+  openGift1:
+    id: 852
+    type: 3
+    name: 驚嘆の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 851
+    type: 3
+    name: 驚嘆の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 112
+    type: 1
+    name: フレイムオーブ＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift4:
+    id: 111
+    type: 1
+    name: フレイムオーブ
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+- charaEnhancementCellId: 51310
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044106
+  openGiftId1: 852
+  openGiftQuantity1: 1
+  openGiftId2: 851
+  openGiftQuantity2: 20
+  openGiftId3: 212
+  openGiftQuantity3: 3
+  openGiftId4: 211
+  openGiftQuantity4: 8
+  needCC: 30000
+  connectedCellIds: "51414,51311"
+  needOpenedCellId: 51207
+  sourceCellId: 51207
+  connectedCellIdList:
+  - 51414
+  - 51311
+  pointX: 2048
+  pointY: 2648
+  returnGiftCodes20200518: GIFT_852_1,GIFT_851_5
+  openGift1:
+    id: 852
+    type: 3
+    name: 驚嘆の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 851
+    type: 3
+    name: 驚嘆の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift4:
+    id: 211
+    type: 1
+    name: フレイムブック
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+  emotionSkill:
+    id: 3044106
     groupId: 1220
     name: ドッペル・アデプト[Ⅳ]
     type: ABILITY
@@ -439,117 +1280,36 @@
       probability: 1000
     skillEffectRange: ALL
     skillDisplayType: EMOTION
-- charaEnhancementCellId: 67205
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042104
-  openGiftId1: 841
-  openGiftQuantity1: 12
-  openGiftId2: 212
-  openGiftQuantity2: 3
-  openGiftId3: 211
-  openGiftQuantity3: 5
-  needCC: 10000
-  connectedCellIds: "67307,67308"
-  needOpenedCellId: 67103
-  sourceCellId: 67103
+- charaEnhancementCellId: 51311
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 70
+  openGiftId1: 852
+  openGiftQuantity1: 1
+  openGiftId2: 851
+  openGiftQuantity2: 20
+  openGiftId3: 501
+  openGiftQuantity3: 1
+  openGiftId4: 401
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51312"
+  needOpenedCellId: 51310
+  sourceCellId: 51310
   connectedCellIdList:
-  - 67307
-  - 67308
-  pointX: 2332
-  pointY: 2248
-  returnGiftCodes20200518: GIFT_841_3
+  - 51312
+  pointX: 1906
+  pointY: 2548
+  returnGiftCodes20200518: GIFT_852_1,GIFT_851_5
   openGift1:
-    id: 841
+    id: 852
     type: 3
-    name: 恐怖の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 212
-    type: 1
-    name: フレイムブック＋
-    attributeId: FIRE
+    name: 驚嘆の欠片＋
     rank: 2
     rankGift: RANK_2
     price: 1000
-  openGift3:
-    id: 211
-    type: 1
-    name: フレイムブック
-    attributeId: FIRE
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-  emotionSkill:
-    id: 3042104
-    groupId: 1090
-    name: アクセル・アデプト[Ⅱ]
-    type: ABILITY
-    shortDescription: Accele MPUP[Ⅱ]
-    artId1: 390201602
-    art1:
-      artId: 390201602
-      verbCode: BUFF
-      effectCode: ACCEL
-      targetId: SELF
-      effectValue: 125
-      growPoint: 25
-      probability: 1000
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67206
-  groupId: 67
-  enhancementType: HP
-  effectValue: 143
-  openGiftId1: 841
-  openGiftQuantity1: 12
-  openGiftId2: 406
-  openGiftQuantity2: 3
-  needCC: 10000
-  connectedCellIds: "67309"
-  needOpenedCellId: 67104
-  sourceCellId: 67104
-  connectedCellIdList:
-  - 67309
-  pointX: 2190
-  pointY: 2348
-  returnGiftCodes20200518: GIFT_841_3
-  openGift1:
-    id: 841
-    type: 3
-    name: 恐怖の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 406
-    type: 2
-    name: スタッフのキースイッチ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-- charaEnhancementCellId: 67207
-  groupId: 67
-  enhancementType: DISK_CHARGE
-  effectValue: 40
-  openGiftId1: 851
-  openGiftQuantity1: 12
-  openGiftId2: 111
-  openGiftQuantity2: 8
-  needCC: 10000
-  connectedCellIds: "67311"
-  needOpenedCellId: 67104
-  sourceCellId: 67104
-  connectedCellIdList:
-  - 67311
-  pointX: 2048
-  pointY: 2448
-  returnGiftCodes20200518: GIFT_851_3
-  openGift1:
     id: 851
     type: 3
     name: 驚嘆の欠片
@@ -557,35 +1317,50 @@
     rankGift: RANK_1
     price: 500
     openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 111
-    type: 1
-    name: フレイムオーブ
-    attributeId: FIRE
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-- charaEnhancementCellId: 67208
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042105
-  openGiftId1: 861
-  openGiftQuantity1: 12
-  openGiftId2: 212
-  openGiftQuantity2: 3
-  openGiftId3: 211
-  openGiftQuantity3: 5
-  needCC: 10000
-  connectedCellIds: "67209,67312"
-  needOpenedCellId: 67105
-  sourceCellId: 67105
+  openGift3:
+    id: 501
+    type: 2
+    name: 砂場のシャベル
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 401
+    type: 2
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51312
+  groupId: 51
+  enhancementType: HP
+  effectValue: 178
+  openGiftId1: 862
+  openGiftQuantity1: 1
+  openGiftId2: 861
+  openGiftQuantity2: 20
+  openGiftId3: 509
+  openGiftQuantity3: 1
+  openGiftId4: 408
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51313"
+  needOpenedCellId: 51311
+  sourceCellId: 51311
   connectedCellIdList:
-  - 67209
-  - 67312
-  pointX: 1906
-  pointY: 2348
-  returnGiftCodes20200518: GIFT_861_3
+  - 51313
+  pointX: 1764
+  pointY: 2448
+  returnGiftCodes20200518: GIFT_862_1,GIFT_861_5
   openGift1:
+    id: 862
+    type: 3
+    name: 期待の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
     id: 861
     type: 3
     name: 期待の欠片
@@ -593,7 +1368,60 @@
     rankGift: RANK_1
     price: 500
     openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 509
+    type: 2
+    name: クマのボルト
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/10/22 15:10:00
+  openGift4:
+    id: 408
+    type: 2
+    name: クマの襟巻
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51313
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044107
+  openGiftId1: 862
+  openGiftQuantity1: 1
+  openGiftId2: 861
+  openGiftQuantity2: 20
+  openGiftId3: 212
+  openGiftQuantity3: 3
+  openGiftId4: 211
+  openGiftQuantity4: 8
+  needCC: 30000
+  connectedCellIds: "51418"
+  needOpenedCellId: 51312
+  sourceCellId: 51312
+  connectedCellIdList:
+  - 51418
+  pointX: 1622
+  pointY: 2348
+  returnGiftCodes20200518: GIFT_862_1,GIFT_861_5
+  openGift1:
+    id: 862
+    type: 3
+    name: 期待の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
   openGift2:
+    id: 861
+    type: 3
+    name: 期待の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
     id: 212
     type: 1
     name: フレイムブック＋
@@ -601,7 +1429,7 @@
     rank: 2
     rankGift: RANK_2
     price: 1000
-  openGift3:
+  openGift4:
     id: 211
     type: 1
     name: フレイムブック
@@ -610,996 +1438,54 @@
     rankGift: RANK_1
     price: 500
   emotionSkill:
-    id: 3042105
-    groupId: 1216
-    name: MPブースト[Ⅲ]
+    id: 3044107
+    groupId: 1134
+    name: エイミング・アデプト[Ⅲ]
     type: ABILITY
-    shortDescription: MP100以上時MP獲得量UP[Ⅲ]
-    artId1: 390218203
+    shortDescription: 確率で回避無効[Ⅲ]
+    artId1: 690216203
     art1:
-      artId: 390218203
-      verbCode: BUFF
-      effectCode: MP_GAIN_OVER100
+      artId: 690216203
+      verbCode: IGNORE
+      effectCode: AVOID
       targetId: SELF
-      effectValue: 220
       growPoint: 0
+      probability: 350
     skillEffectRange: ALL
     skillDisplayType: EMOTION
-- charaEnhancementCellId: 67209
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 39
-  openGiftId1: 861
-  openGiftQuantity1: 12
-  openGiftId2: 401
-  openGiftQuantity2: 3
-  needCC: 10000
-  connectedCellIds: "67210,67314"
-  needOpenedCellId: 67208
-  sourceCellId: 67208
-  connectedCellIdList:
-  - 67210
-  - 67314
-  pointX: 1764
-  pointY: 2248
-  returnGiftCodes20200518: GIFT_861_3
-  openGift1:
-    id: 861
-    type: 3
-    name: 期待の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67210
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 39
-  openGiftId1: 871
-  openGiftQuantity1: 12
-  openGiftId2: 306
-  openGiftQuantity2: 3
-  needCC: 10000
-  connectedCellIds: "67315"
-  needOpenedCellId: 67209
-  sourceCellId: 67209
-  connectedCellIdList:
-  - 67315
-  pointX: 1764
-  pointY: 2048
-  returnGiftCodes20200518: GIFT_871_3
-  openGift1:
-    id: 871
-    type: 3
-    name: 恍惚の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67211
-  groupId: 67
-  enhancementType: HP
-  effectValue: 143
-  openGiftId1: 881
-  openGiftQuantity1: 12
-  openGiftId2: 310
-  openGiftQuantity2: 3
-  needCC: 10000
-  connectedCellIds: "67317"
-  needOpenedCellId: 67106
-  sourceCellId: 67106
-  connectedCellIdList:
-  - 67317
-  pointX: 1764
-  pointY: 1848
-  returnGiftCodes20200518: GIFT_881_3
-  openGift1:
-    id: 881
-    type: 3
-    name: 敬愛の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 310
-    type: 2
-    name: 流浪の杭
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67212
-  groupId: 67
+- charaEnhancementCellId: 51314
+  groupId: 51
   enhancementType: DEFENSE
-  effectValue: 66
-  openGiftId1: 881
-  openGiftQuantity1: 12
-  openGiftId2: 310
-  openGiftQuantity2: 3
-  needCC: 10000
-  connectedCellIds: "67318"
-  needOpenedCellId: 67101
-  sourceCellId: 67101
-  connectedCellIdList:
-  - 67318
-  pointX: 1906
-  pointY: 1748
-  returnGiftCodes20200518: GIFT_881_3
-  openGift1:
-    id: 881
-    type: 3
-    name: 敬愛の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 310
-    type: 2
-    name: 流浪の杭
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67301
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042106
-  openGiftId1: 812
-  openGiftQuantity1: 1
-  openGiftId2: 811
-  openGiftQuantity2: 20
-  openGiftId3: 212
-  openGiftQuantity3: 3
-  openGiftId4: 211
-  openGiftQuantity4: 8
-  needCC: 30000
-  connectedCellIds: "67401"
-  needOpenedCellId: 67318
-  sourceCellId: 67318
-  connectedCellIdList:
-  - 67401
-  pointX: 2048
-  pointY: 1448
-  returnGiftCodes20200518: GIFT_812_1,GIFT_811_5
-  openGift1:
-    id: 812
-    type: 3
-    name: 嫌悪の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 811
-    type: 3
-    name: 嫌悪の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 212
-    type: 1
-    name: フレイムブック＋
-    attributeId: FIRE
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-  openGift4:
-    id: 211
-    type: 1
-    name: フレイムブック
-    attributeId: FIRE
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-  emotionSkill:
-    id: 3042106
-    groupId: 1090
-    name: アクセル・アデプト[Ⅱ]
-    type: ABILITY
-    shortDescription: Accele MPUP[Ⅱ]
-    artId1: 390201602
-    art1:
-      artId: 390201602
-      verbCode: BUFF
-      effectCode: ACCEL
-      targetId: SELF
-      effectValue: 125
-      growPoint: 25
-      probability: 1000
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67302
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 71
-  openGiftId1: 812
-  openGiftQuantity1: 1
-  openGiftId2: 811
-  openGiftQuantity2: 20
-  openGiftId3: 508
-  openGiftQuantity3: 1
-  openGiftId4: 301
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67402"
-  needOpenedCellId: 67201
-  sourceCellId: 67201
-  connectedCellIdList:
-  - 67402
-  pointX: 2190
-  pointY: 1548
-  returnGiftCodes20200518: GIFT_812_1,GIFT_811_5
-  openGift1:
-    id: 812
-    type: 3
-    name: 嫌悪の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 811
-    type: 3
-    name: 嫌悪の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 508
-    type: 2
-    name: スピーカーのベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-    openDate: 2018/07/02 15:10:00
-  openGift4:
-    id: 301
-    type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67303
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 71
-  openGiftId1: 822
-  openGiftQuantity1: 1
-  openGiftId2: 821
-  openGiftQuantity2: 20
-  openGiftId3: 507
-  openGiftQuantity3: 1
-  openGiftId4: 407
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67304"
-  needOpenedCellId: 67202
-  sourceCellId: 67202
-  connectedCellIdList:
-  - 67304
-  pointX: 2332
-  pointY: 1648
-  returnGiftCodes20200518: GIFT_822_1,GIFT_821_5
-  openGift1:
-    id: 822
-    type: 3
-    name: 悲嘆の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 821
-    type: 3
-    name: 悲嘆の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 507
-    type: 2
-    name: ビッグフェリスのタービン
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-    openDate: 2018/05/21 15:10:00
-  openGift4:
-    id: 407
-    type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67304
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 41
-  openGiftId1: 822
-  openGiftQuantity1: 1
-  openGiftId2: 821
-  openGiftQuantity2: 20
-  openGiftId3: 507
-  openGiftQuantity3: 1
-  openGiftId4: 407
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67405"
-  needOpenedCellId: 67303
-  sourceCellId: 67303
-  connectedCellIdList:
-  - 67405
-  pointX: 2474
-  pointY: 1748
-  returnGiftCodes20200518: GIFT_822_1,GIFT_821_5
-  openGift1:
-    id: 822
-    type: 3
-    name: 悲嘆の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 821
-    type: 3
-    name: 悲嘆の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 507
-    type: 2
-    name: ビッグフェリスのタービン
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-    openDate: 2018/05/21 15:10:00
-  openGift4:
-    id: 407
-    type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67305
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042107
-  openGiftId1: 832
-  openGiftQuantity1: 1
-  openGiftId2: 831
-  openGiftQuantity2: 20
-  openGiftId3: 212
-  openGiftQuantity3: 3
-  openGiftId4: 211
-  openGiftQuantity4: 8
-  needCC: 30000
-  connectedCellIds: "67406"
-  needOpenedCellId: 67203
-  sourceCellId: 67203
-  connectedCellIdList:
-  - 67406
-  pointX: 2474
-  pointY: 1948
-  returnGiftCodes20200518: GIFT_832_1,GIFT_831_5
-  openGift1:
-    id: 832
-    type: 3
-    name: 激怒の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 831
-    type: 3
-    name: 激怒の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 212
-    type: 1
-    name: フレイムブック＋
-    attributeId: FIRE
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-  openGift4:
-    id: 211
-    type: 1
-    name: フレイムブック
-    attributeId: FIRE
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-  emotionSkill:
-    id: 3042107
-    groupId: 1088
-    name: マギア・アデプト[Ⅲ]
-    type: ABILITY
-    shortDescription: マギアダメージUP[Ⅲ]
-    artId1: 390201403
-    art1:
-      artId: 390201403
-      verbCode: BUFF
-      effectCode: MAGIA
-      targetId: SELF
-      effectValue: 100
-      growPoint: 25
-      probability: 1000
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67306
-  groupId: 67
-  enhancementType: HP
-  effectValue: 152
-  openGiftId1: 832
-  openGiftQuantity1: 1
-  openGiftId2: 831
-  openGiftQuantity2: 20
-  openGiftId3: 505
-  openGiftQuantity3: 1
-  openGiftId4: 405
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67407"
-  needOpenedCellId: 67204
-  sourceCellId: 67204
-  connectedCellIdList:
-  - 67407
-  pointX: 2474
-  pointY: 2148
-  returnGiftCodes20200518: GIFT_832_1,GIFT_831_5
-  openGift1:
-    id: 832
-    type: 3
-    name: 激怒の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 831
-    type: 3
-    name: 激怒の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 505
-    type: 2
-    name: 人工知能のコード
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 405
-    type: 2
-    name: メールのグライダー
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-- charaEnhancementCellId: 67307
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 71
-  openGiftId1: 842
-  openGiftQuantity1: 1
-  openGiftId2: 841
-  openGiftQuantity2: 20
-  openGiftId3: 506
-  openGiftQuantity3: 1
-  openGiftId4: 406
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67410"
-  needOpenedCellId: 67205
-  sourceCellId: 67205
-  connectedCellIdList:
-  - 67410
-  pointX: 2474
-  pointY: 2348
-  returnGiftCodes20200518: GIFT_842_1,GIFT_841_5
-  openGift1:
-    id: 842
-    type: 3
-    name: 恐怖の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 841
-    type: 3
-    name: 恐怖の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 506
-    type: 2
-    name: キュレーターのフード
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 406
-    type: 2
-    name: スタッフのキースイッチ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-- charaEnhancementCellId: 67308
-  groupId: 67
-  enhancementType: HP
-  effectValue: 152
-  openGiftId1: 842
-  openGiftQuantity1: 1
-  openGiftId2: 841
-  openGiftQuantity2: 20
-  openGiftId3: 506
-  openGiftQuantity3: 1
-  openGiftId4: 406
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67411"
-  needOpenedCellId: 67205
-  sourceCellId: 67205
-  connectedCellIdList:
-  - 67411
-  pointX: 2332
-  pointY: 2448
-  returnGiftCodes20200518: GIFT_842_1,GIFT_841_5
-  openGift1:
-    id: 842
-    type: 3
-    name: 恐怖の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 841
-    type: 3
-    name: 恐怖の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 506
-    type: 2
-    name: キュレーターのフード
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 406
-    type: 2
-    name: スタッフのキースイッチ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-- charaEnhancementCellId: 67309
-  groupId: 67
-  enhancementType: DISK_ACCELE
-  effectValue: 30
-  openGiftId1: 852
-  openGiftQuantity1: 1
-  openGiftId2: 851
-  openGiftQuantity2: 20
-  openGiftId3: 112
-  openGiftQuantity3: 5
-  openGiftId4: 111
-  openGiftQuantity4: 10
-  needCC: 30000
-  connectedCellIds: "67310"
-  needOpenedCellId: 67206
-  sourceCellId: 67206
-  connectedCellIdList:
-  - 67310
-  pointX: 2190
-  pointY: 2548
-  returnGiftCodes20200518: GIFT_852_1,GIFT_851_5
-  openGift1:
-    id: 852
-    type: 3
-    name: 驚嘆の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 851
-    type: 3
-    name: 驚嘆の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 112
-    type: 1
-    name: フレイムオーブ＋
-    attributeId: FIRE
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-  openGift4:
-    id: 111
-    type: 1
-    name: フレイムオーブ
-    attributeId: FIRE
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-- charaEnhancementCellId: 67310
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 71
-  openGiftId1: 852
-  openGiftQuantity1: 1
-  openGiftId2: 851
-  openGiftQuantity2: 20
-  openGiftId3: 552
-  openGiftQuantity3: 1
-  openGiftId4: 303
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67413"
-  needOpenedCellId: 67309
-  sourceCellId: 67309
-  connectedCellIdList:
-  - 67413
-  pointX: 2048
-  pointY: 2648
-  returnGiftCodes20200518: GIFT_852_1,GIFT_851_5
-  openGift1:
-    id: 852
-    type: 3
-    name: 驚嘆の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 851
-    type: 3
-    name: 驚嘆の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 552
-    type: 2
-    name: 立ち耳の綿
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 303
-    type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67311
-  groupId: 67
-  enhancementType: HP
-  effectValue: 152
-  openGiftId1: 852
-  openGiftQuantity1: 1
-  openGiftId2: 851
-  openGiftQuantity2: 20
-  openGiftId3: 552
-  openGiftQuantity3: 1
-  openGiftId4: 303
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67415"
-  needOpenedCellId: 67207
-  sourceCellId: 67207
-  connectedCellIdList:
-  - 67415
-  pointX: 1906
-  pointY: 2548
-  returnGiftCodes20200518: GIFT_852_1,GIFT_851_5
-  openGift1:
-    id: 852
-    type: 3
-    name: 驚嘆の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 851
-    type: 3
-    name: 驚嘆の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 552
-    type: 2
-    name: 立ち耳の綿
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 303
-    type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67312
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 41
-  openGiftId1: 862
-  openGiftQuantity1: 1
-  openGiftId2: 861
-  openGiftQuantity2: 20
-  openGiftId3: 501
-  openGiftQuantity3: 1
-  openGiftId4: 401
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67313,67416"
-  needOpenedCellId: 67208
-  sourceCellId: 67208
-  connectedCellIdList:
-  - 67313
-  - 67416
-  pointX: 1764
-  pointY: 2448
-  returnGiftCodes20200518: GIFT_862_1,GIFT_861_5
-  openGift1:
-    id: 862
-    type: 3
-    name: 期待の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 861
-    type: 3
-    name: 期待の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 501
-    type: 2
-    name: 砂場のシャベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67313
-  groupId: 67
-  enhancementType: HP
-  effectValue: 152
-  openGiftId1: 862
-  openGiftQuantity1: 1
-  openGiftId2: 861
-  openGiftQuantity2: 20
-  openGiftId3: 501
-  openGiftQuantity3: 1
-  openGiftId4: 401
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67418"
-  needOpenedCellId: 67312
-  sourceCellId: 67312
-  connectedCellIdList:
-  - 67418
-  pointX: 1622
-  pointY: 2348
-  returnGiftCodes20200518: GIFT_862_1,GIFT_861_5
-  openGift1:
-    id: 862
-    type: 3
-    name: 期待の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 861
-    type: 3
-    name: 期待の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 501
-    type: 2
-    name: 砂場のシャベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67314
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 41
+  effectValue: 70
   openGiftId1: 872
   openGiftQuantity1: 1
   openGiftId2: 871
-  openGiftQuantity2: 20
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67419"
-  needOpenedCellId: 67209
-  sourceCellId: 67209
-  connectedCellIdList:
-  - 67419
-  pointX: 1622
-  pointY: 2148
-  returnGiftCodes20200518: GIFT_872_1,GIFT_871_5
-  openGift1:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 871
-    type: 3
-    name: 恍惚の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67315
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 71
-  openGiftId1: 872
-  openGiftQuantity1: 1
-  openGiftId2: 871
-  openGiftQuantity2: 20
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 1
-  needCC: 30000
-  connectedCellIds: "67316"
-  needOpenedCellId: 67210
-  sourceCellId: 67210
-  connectedCellIdList:
-  - 67316
-  pointX: 1622
-  pointY: 1948
-  returnGiftCodes20200518: GIFT_872_1,GIFT_871_5
-  openGift1:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 871
-    type: 3
-    name: 恍惚の欠片
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67316
-  groupId: 67
-  enhancementType: HP
-  effectValue: 152
-  openGiftId1: 882
-  openGiftQuantity1: 1
-  openGiftId2: 881
   openGiftQuantity2: 20
   openGiftId3: 559
   openGiftQuantity3: 1
   openGiftId4: 310
   openGiftQuantity4: 1
   needCC: 30000
-  connectedCellIds: "67421"
-  needOpenedCellId: 67315
-  sourceCellId: 67315
+  connectedCellIds: "51419"
+  needOpenedCellId: 51209
+  sourceCellId: 51209
   connectedCellIdList:
-  - 67421
+  - 51419
   pointX: 1622
-  pointY: 1748
-  returnGiftCodes20200518: GIFT_882_1,GIFT_881_5
+  pointY: 2148
+  returnGiftCodes20200518: GIFT_872_1,GIFT_871_5
   openGift1:
-    id: 882
+    id: 872
     type: 3
-    name: 敬愛の欠片＋
+    name: 恍惚の欠片＋
     rank: 2
     rankGift: RANK_2
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 881
+    id: 871
     type: 3
-    name: 敬愛の欠片
+    name: 恍惚の欠片
     rank: 1
     rankGift: RANK_1
     price: 500
@@ -1620,24 +1506,147 @@
     rankGift: RANK_1
     price: 1000
     openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67317
-  groupId: 67
-  enhancementType: DISK_CHARGE
-  effectValue: 40
+- charaEnhancementCellId: 51315
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 70
+  openGiftId1: 872
+  openGiftQuantity1: 1
+  openGiftId2: 871
+  openGiftQuantity2: 20
+  openGiftId3: 559
+  openGiftQuantity3: 1
+  openGiftId4: 310
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51316"
+  needOpenedCellId: 51210
+  sourceCellId: 51210
+  connectedCellIdList:
+  - 51316
+  pointX: 1622
+  pointY: 1948
+  returnGiftCodes20200518: GIFT_872_1,GIFT_871_5
+  openGift1:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 871
+    type: 3
+    name: 恍惚の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51316
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044108
   openGiftId1: 882
   openGiftQuantity1: 1
   openGiftId2: 881
   openGiftQuantity2: 20
-  openGiftId3: 112
-  openGiftQuantity3: 5
-  openGiftId4: 111
-  openGiftQuantity4: 10
+  openGiftId3: 212
+  openGiftQuantity3: 3
+  openGiftId4: 211
+  openGiftQuantity4: 8
   needCC: 30000
-  connectedCellIds: "67422"
-  needOpenedCellId: 67211
-  sourceCellId: 67211
+  connectedCellIds: "51422"
+  needOpenedCellId: 51315
+  sourceCellId: 51315
   connectedCellIdList:
-  - 67422
+  - 51422
+  pointX: 1622
+  pointY: 1748
+  returnGiftCodes20200518: GIFT_882_1,GIFT_881_5
+  openGift1:
+    id: 882
+    type: 3
+    name: 敬愛の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 881
+    type: 3
+    name: 敬愛の欠片
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift4:
+    id: 211
+    type: 1
+    name: フレイムブック
+    attributeId: FIRE
+    rank: 1
+    rankGift: RANK_1
+    price: 500
+  emotionSkill:
+    id: 3044108
+    groupId: 1092
+    name: ブラスト・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: Blast ダメージUP[Ⅱ]
+    artId1: 390201842
+    art1:
+      artId: 390201842
+      verbCode: BUFF
+      effectCode: BLAST
+      targetId: SELF
+      effectValue: 165
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51317
+  groupId: 51
+  enhancementType: HP
+  effectValue: 178
+  openGiftId1: 882
+  openGiftQuantity1: 1
+  openGiftId2: 881
+  openGiftQuantity2: 20
+  openGiftId3: 555
+  openGiftQuantity3: 1
+  openGiftId4: 306
+  openGiftQuantity4: 1
+  needCC: 30000
+  connectedCellIds: "51423"
+  needOpenedCellId: 51211
+  sourceCellId: 51211
+  connectedCellIdList:
+  - 51423
   pointX: 1764
   pointY: 1648
   returnGiftCodes20200518: GIFT_882_1,GIFT_881_5
@@ -1658,39 +1667,37 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 112
-    type: 1
-    name: フレイムオーブ＋
-    attributeId: FIRE
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
+    id: 555
+    type: 2
+    name: 振子の重心
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
   openGift4:
-    id: 111
-    type: 1
-    name: フレイムオーブ
-    attributeId: FIRE
+    id: 306
+    type: 2
+    name: 振子のネジ
     rank: 1
     rankGift: RANK_1
-    price: 500
-- charaEnhancementCellId: 67318
-  groupId: 67
-  enhancementType: DISK_ACCELE
-  effectValue: 30
+    price: 1000
+- charaEnhancementCellId: 51318
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 38
   openGiftId1: 812
   openGiftQuantity1: 1
   openGiftId2: 811
   openGiftQuantity2: 20
-  openGiftId3: 112
-  openGiftQuantity3: 5
-  openGiftId4: 111
-  openGiftQuantity4: 10
+  openGiftId3: 505
+  openGiftQuantity3: 1
+  openGiftId4: 405
+  openGiftQuantity4: 1
   needCC: 30000
-  connectedCellIds: "67301"
-  needOpenedCellId: 67212
-  sourceCellId: 67212
+  connectedCellIds: "51424"
+  needOpenedCellId: 51212
+  sourceCellId: 51212
   connectedCellIdList:
-  - 67301
+  - 51424
   pointX: 1906
   pointY: 1548
   returnGiftCodes20200518: GIFT_812_1,GIFT_811_5
@@ -1711,41 +1718,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 112
-    type: 1
-    name: フレイムオーブ＋
-    attributeId: FIRE
+    id: 505
+    type: 2
+    name: 人工知能のコード
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 405
+    type: 2
+    name: メールのグライダー
     rank: 2
     rankGift: RANK_2
-    price: 1000
-  openGift4:
-    id: 111
-    type: 1
-    name: フレイムオーブ
-    attributeId: FIRE
-    rank: 1
-    rankGift: RANK_1
-    price: 500
-- charaEnhancementCellId: 67401
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 74
+    price: 3000
+- charaEnhancementCellId: 51401
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 42
   openGiftId1: 813
   openGiftQuantity1: 1
   openGiftId2: 812
   openGiftQuantity2: 5
   openGiftId3: 811
   openGiftQuantity3: 32
-  openGiftId4: 508
+  openGiftId4: 505
   openGiftQuantity4: 1
-  openGiftId5: 301
+  openGiftId5: 405
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67502"
-  needOpenedCellId: 67301
-  sourceCellId: 67301
+  connectedCellIds: "51502"
+  needOpenedCellId: 51424
+  sourceCellId: 51424
   connectedCellIdList:
-  - 67502
+  - 51502
   pointX: 2048
   pointY: 1248
   returnGiftCodes20200518: GIFT_812_1,GIFT_811_8
@@ -1774,23 +1779,22 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 508
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
   openGift5:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67402
-  groupId: 67
-  enhancementType: DISK_BLAST
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51402
+  groupId: 51
+  enhancementType: DISK_ACCELE
   effectValue: 40
   openGiftId1: 813
   openGiftQuantity1: 1
@@ -1803,11 +1807,11 @@
   openGiftId5: 112
   openGiftQuantity5: 8
   needCC: 80000
-  connectedCellIds: "67403"
-  needOpenedCellId: 67302
-  sourceCellId: 67302
+  connectedCellIds: "51403"
+  needOpenedCellId: 51301
+  sourceCellId: 51301
   connectedCellIdList:
-  - 67403
+  - 51403
   pointX: 2190
   pointY: 1348
   returnGiftCodes20200518: GIFT_812_1,GIFT_811_8
@@ -1851,26 +1855,26 @@
     rank: 2
     rankGift: RANK_2
     price: 1000
-- charaEnhancementCellId: 67403
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 74
+- charaEnhancementCellId: 51403
+  groupId: 51
+  enhancementType: HP
+  effectValue: 190
   openGiftId1: 823
   openGiftQuantity1: 1
   openGiftId2: 822
   openGiftQuantity2: 5
   openGiftId3: 821
   openGiftQuantity3: 32
-  openGiftId4: 507
+  openGiftId4: 556
   openGiftQuantity4: 1
-  openGiftId5: 407
+  openGiftId5: 307
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67404"
-  needOpenedCellId: 67402
-  sourceCellId: 67402
+  connectedCellIds: "51404"
+  needOpenedCellId: 51402
+  sourceCellId: 51402
   connectedCellIdList:
-  - 67404
+  - 51404
   pointX: 2332
   pointY: 1448
   returnGiftCodes20200518: GIFT_822_1,GIFT_821_8
@@ -1899,41 +1903,40 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 507
+    id: 556
     type: 2
-    name: ビッグフェリスのタービン
+    name: 子守の取っ手
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/05/21 15:10:00
+    openDate: 2018/05/07 16:00:00
   openGift5:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67404
-  groupId: 67
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51404
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 44
+  effectValue: 42
   openGiftId1: 823
   openGiftQuantity1: 1
   openGiftId2: 822
   openGiftQuantity2: 5
   openGiftId3: 821
   openGiftQuantity3: 32
-  openGiftId4: 507
+  openGiftId4: 556
   openGiftQuantity4: 1
-  openGiftId5: 407
+  openGiftId5: 307
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67505"
-  needOpenedCellId: 67403
-  sourceCellId: 67403
+  connectedCellIds: "51405"
+  needOpenedCellId: 51403
+  sourceCellId: 51403
   connectedCellIdList:
-  - 67505
+  - 51405
   pointX: 2474
   pointY: 1548
   returnGiftCodes20200518: GIFT_822_1,GIFT_821_8
@@ -1962,41 +1965,40 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 507
+    id: 556
     type: 2
-    name: ビッグフェリスのタービン
+    name: 子守の取っ手
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/05/21 15:10:00
+    openDate: 2018/05/07 16:00:00
   openGift5:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67405
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042108
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51405
+  groupId: 51
+  enhancementType: DISK_BLAST
+  effectValue: 30
   openGiftId1: 823
   openGiftQuantity1: 1
   openGiftId2: 822
   openGiftQuantity2: 5
   openGiftId3: 821
   openGiftQuantity3: 32
-  openGiftId4: 213
-  openGiftQuantity4: 1
-  openGiftId5: 212
-  openGiftQuantity5: 3
+  openGiftId4: 113
+  openGiftQuantity4: 5
+  openGiftId5: 112
+  openGiftQuantity5: 8
   needCC: 80000
-  connectedCellIds: "67507"
-  needOpenedCellId: 67304
-  sourceCellId: 67304
+  connectedCellIds: "51507"
+  needOpenedCellId: 51404
+  sourceCellId: 51404
   connectedCellIdList:
-  - 67507
+  - 51507
   pointX: 2616
   pointY: 1648
   returnGiftCodes20200518: GIFT_822_1,GIFT_821_8
@@ -2025,40 +2027,23 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 213
+    id: 113
     type: 1
-    name: フレイムブック＋＋
+    name: フレイムオーブ＋＋
     attributeId: FIRE
     rank: 3
     rankGift: RANK_3
     price: 2000
   openGift5:
-    id: 212
+    id: 112
     type: 1
-    name: フレイムブック＋
+    name: フレイムオーブ＋
     attributeId: FIRE
     rank: 2
     rankGift: RANK_2
     price: 1000
-  emotionSkill:
-    id: 3042108
-    groupId: 1091
-    name: チャージ・アデプト[Ⅱ]
-    type: ABILITY
-    shortDescription: Charge後ダメージUP[Ⅱ]
-    artId1: 390201742
-    art1:
-      artId: 390201742
-      verbCode: BUFF
-      effectCode: CHARGE
-      targetId: SELF
-      effectValue: 100
-      growPoint: 25
-      probability: 1000
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67406
-  groupId: 67
+- charaEnhancementCellId: 51406
+  groupId: 51
   enhancementType: DEFENSE
   effectValue: 74
   openGiftId1: 833
@@ -2067,16 +2052,16 @@
   openGiftQuantity2: 5
   openGiftId3: 831
   openGiftQuantity3: 32
-  openGiftId4: 505
+  openGiftId4: 507
   openGiftQuantity4: 1
-  openGiftId5: 405
+  openGiftId5: 407
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67508"
-  needOpenedCellId: 67305
-  sourceCellId: 67305
+  connectedCellIds: "51508"
+  needOpenedCellId: 51304
+  sourceCellId: 51304
   connectedCellIdList:
-  - 67508
+  - 51508
   pointX: 2616
   pointY: 1848
   returnGiftCodes20200518: GIFT_832_1,GIFT_831_8
@@ -2105,39 +2090,41 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift5:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67407
-  groupId: 67
-  enhancementType: HP
-  effectValue: 162
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51407
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 74
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 5
   openGiftId3: 831
   openGiftQuantity3: 32
-  openGiftId4: 505
+  openGiftId4: 507
   openGiftQuantity4: 1
-  openGiftId5: 405
+  openGiftId5: 407
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67408"
-  needOpenedCellId: 67306
-  sourceCellId: 67306
+  connectedCellIds: "51408"
+  needOpenedCellId: 51305
+  sourceCellId: 51305
   connectedCellIdList:
-  - 67408
+  - 51408
   pointX: 2616
   pointY: 2048
   returnGiftCodes20200518: GIFT_832_1,GIFT_831_8
@@ -2166,39 +2153,41 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift5:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67408
-  groupId: 67
-  enhancementType: HP
-  effectValue: 162
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51408
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 74
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 5
   openGiftId3: 831
   openGiftQuantity3: 32
-  openGiftId4: 505
+  openGiftId4: 507
   openGiftQuantity4: 1
-  openGiftId5: 405
+  openGiftId5: 407
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67409"
-  needOpenedCellId: 67407
-  sourceCellId: 67407
+  connectedCellIds: "51409"
+  needOpenedCellId: 51407
+  sourceCellId: 51407
   connectedCellIdList:
-  - 67409
+  - 51409
   pointX: 2616
   pointY: 2248
   returnGiftCodes20200518: GIFT_832_1,GIFT_831_8
@@ -2227,23 +2216,25 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift5:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67409
-  groupId: 67
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51409
+  groupId: 51
   enhancementType: SKILL
-  effectValue: 3042109
+  effectValue: 3044109
   openGiftId1: 843
   openGiftQuantity1: 1
   openGiftId2: 842
@@ -2255,8 +2246,8 @@
   openGiftId5: 212
   openGiftQuantity5: 3
   needCC: 80000
-  needOpenedCellId: 67408
-  sourceCellId: 67408
+  needOpenedCellId: 51408
+  sourceCellId: 51408
   pointX: 2616
   pointY: 2448
   returnGiftCodes20200518: GIFT_842_1,GIFT_841_8
@@ -2301,41 +2292,42 @@
     rankGift: RANK_2
     price: 1000
   emotionSkill:
-    id: 3042109
-    groupId: 1131
-    name: スキルクイック[Ⅲ]
+    id: 3044109
+    groupId: 1121
+    name: クリティカル・アデプト[Ⅱ]
     type: ABILITY
-    shortDescription: 確率でスキルクイック[Ⅲ]
-    artId1: 610007803
+    shortDescription: 確率でクリティカル[Ⅱ]
+    artId1: 690206302
     art1:
-      artId: 610007803
+      artId: 690206302
       verbCode: CONDITION_GOOD
-      effectCode: SKILL_QUICK
+      effectCode: CRITICAL
       targetId: SELF
+      effectValue: 2000
       growPoint: 0
       probability: 150
     skillEffectRange: ALL
     skillDisplayType: EMOTION
-- charaEnhancementCellId: 67410
-  groupId: 67
-  enhancementType: HP
-  effectValue: 162
+- charaEnhancementCellId: 51410
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 74
   openGiftId1: 843
   openGiftQuantity1: 1
   openGiftId2: 842
   openGiftQuantity2: 5
   openGiftId3: 841
   openGiftQuantity3: 32
-  openGiftId4: 506
+  openGiftId4: 504
   openGiftQuantity4: 1
-  openGiftId5: 406
+  openGiftId5: 404
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67513"
-  needOpenedCellId: 67307
-  sourceCellId: 67307
+  connectedCellIds: "51513"
+  needOpenedCellId: 51307
+  sourceCellId: 51307
   connectedCellIdList:
-  - 67513
+  - 51513
   pointX: 2474
   pointY: 2548
   returnGiftCodes20200518: GIFT_842_1,GIFT_841_8
@@ -2364,39 +2356,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 506
+    id: 504
     type: 2
-    name: キュレーターのフード
+    name: リュトンのリボン
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift5:
-    id: 406
+    id: 404
     type: 2
-    name: スタッフのキースイッチ
+    name: オウルのバケツ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67411
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 74
+- charaEnhancementCellId: 51411
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 42
   openGiftId1: 843
   openGiftQuantity1: 1
   openGiftId2: 842
   openGiftQuantity2: 5
   openGiftId3: 841
   openGiftQuantity3: 32
-  openGiftId4: 506
+  openGiftId4: 504
   openGiftQuantity4: 1
-  openGiftId5: 406
+  openGiftId5: 404
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67412"
-  needOpenedCellId: 67308
-  sourceCellId: 67308
+  connectedCellIds: "51514"
+  needOpenedCellId: 51308
+  sourceCellId: 51308
   connectedCellIdList:
-  - 67412
+  - 51514
   pointX: 2332
   pointY: 2648
   returnGiftCodes20200518: GIFT_842_1,GIFT_841_8
@@ -2425,39 +2417,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 506
+    id: 504
     type: 2
-    name: キュレーターのフード
+    name: リュトンのリボン
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift5:
-    id: 406
+    id: 404
     type: 2
-    name: スタッフのキースイッチ
+    name: オウルのバケツ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67412
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042110
+- charaEnhancementCellId: 51412
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 42
   openGiftId1: 853
   openGiftQuantity1: 1
   openGiftId2: 852
   openGiftQuantity2: 5
   openGiftId3: 851
   openGiftQuantity3: 32
-  openGiftId4: 213
+  openGiftId4: 501
   openGiftQuantity4: 1
-  openGiftId5: 212
-  openGiftQuantity5: 3
+  openGiftId5: 401
+  openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67515"
-  needOpenedCellId: 67411
-  sourceCellId: 67411
+  connectedCellIds: "51413"
+  needOpenedCellId: 51309
+  sourceCellId: 51309
   connectedCellIdList:
-  - 67515
+  - 51413
   pointX: 2190
   pointY: 2748
   returnGiftCodes20200518: GIFT_852_1,GIFT_851_8
@@ -2486,57 +2478,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 213
-    type: 1
-    name: フレイムブック＋＋
-    attributeId: FIRE
+    id: 501
+    type: 2
+    name: 砂場のシャベル
     rank: 3
     rankGift: RANK_3
-    price: 2000
+    price: 5000
   openGift5:
-    id: 212
-    type: 1
-    name: フレイムブック＋
-    attributeId: FIRE
+    id: 401
+    type: 2
+    name: 砂場の巻貝
     rank: 2
     rankGift: RANK_2
     price: 1000
-  emotionSkill:
-    id: 3042110
-    groupId: 1183
-    name: アンチ・ジャマ―
-    type: ABILITY
-    shortDescription: 必ずスキル不可無効
-    artId1: 690209200
-    art1:
-      artId: 690209200
-      verbCode: IGNORE
-      effectCode: BAN_SKILL
-      targetId: SELF
-      growPoint: 0
-      probability: 1000
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67413
-  groupId: 67
-  enhancementType: HP
-  effectValue: 162
+- charaEnhancementCellId: 51413
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 74
   openGiftId1: 853
   openGiftQuantity1: 1
   openGiftId2: 852
   openGiftQuantity2: 5
   openGiftId3: 851
   openGiftQuantity3: 32
-  openGiftId4: 552
+  openGiftId4: 501
   openGiftQuantity4: 1
-  openGiftId5: 303
+  openGiftId5: 401
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67414"
-  needOpenedCellId: 67310
-  sourceCellId: 67310
+  connectedCellIds: "51517"
+  needOpenedCellId: 51412
+  sourceCellId: 51412
   connectedCellIdList:
-  - 67414
+  - 51517
   pointX: 2048
   pointY: 2848
   returnGiftCodes20200518: GIFT_852_1,GIFT_851_8
@@ -2565,39 +2539,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 552
+    id: 501
     type: 2
-    name: 立ち耳の綿
+    name: 砂場のシャベル
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift5:
-    id: 303
+    id: 401
     type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67414
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 44
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51414
+  groupId: 51
+  enhancementType: HP
+  effectValue: 190
   openGiftId1: 853
   openGiftQuantity1: 1
   openGiftId2: 852
   openGiftQuantity2: 5
   openGiftId3: 851
   openGiftQuantity3: 32
-  openGiftId4: 552
+  openGiftId4: 501
   openGiftQuantity4: 1
-  openGiftId5: 303
+  openGiftId5: 401
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67518"
-  needOpenedCellId: 67413
-  sourceCellId: 67413
+  connectedCellIds: "51415"
+  needOpenedCellId: 51310
+  sourceCellId: 51310
   connectedCellIdList:
-  - 67518
+  - 51415
   pointX: 1906
   pointY: 2748
   returnGiftCodes20200518: GIFT_852_1,GIFT_851_8
@@ -2626,39 +2600,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 552
+    id: 501
     type: 2
-    name: 立ち耳の綿
+    name: 砂場のシャベル
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift5:
-    id: 303
+    id: 401
     type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67415
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042111
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51415
+  groupId: 51
+  enhancementType: HP
+  effectValue: 190
   openGiftId1: 863
   openGiftQuantity1: 1
   openGiftId2: 862
   openGiftQuantity2: 5
   openGiftId3: 861
   openGiftQuantity3: 32
-  openGiftId4: 213
+  openGiftId4: 509
   openGiftQuantity4: 1
-  openGiftId5: 212
-  openGiftQuantity5: 3
+  openGiftId5: 408
+  openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67519"
-  needOpenedCellId: 67311
-  sourceCellId: 67311
+  connectedCellIds: "51416"
+  needOpenedCellId: 51414
+  sourceCellId: 51414
   connectedCellIdList:
-  - 67519
+  - 51416
   pointX: 1764
   pointY: 2648
   returnGiftCodes20200518: GIFT_862_1,GIFT_861_8
@@ -2687,57 +2661,41 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 213
-    type: 1
-    name: フレイムブック＋＋
-    attributeId: FIRE
+    id: 509
+    type: 2
+    name: クマのボルト
     rank: 3
     rankGift: RANK_3
-    price: 2000
+    price: 5000
+    openDate: 2018/10/22 15:10:00
   openGift5:
-    id: 212
-    type: 1
-    name: フレイムブック＋
-    attributeId: FIRE
+    id: 408
+    type: 2
+    name: クマの襟巻
     rank: 2
     rankGift: RANK_2
-    price: 1000
-  emotionSkill:
-    id: 3042111
-    groupId: 1214
-    name: テクニカル・アデプト[Ⅱ]
-    type: ABILITY
-    shortDescription: ChargeディスクダメージUP[Ⅱ]
-    artId1: 390218002
-    art1:
-      artId: 390218002
-      verbCode: BUFF
-      effectCode: CHARGING
-      targetId: SELF
-      effectValue: 100
-      growPoint: 0
-    skillEffectRange: ALL
-    skillDisplayType: EMOTION
-- charaEnhancementCellId: 67416
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 74
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51416
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 42
   openGiftId1: 863
   openGiftQuantity1: 1
   openGiftId2: 862
   openGiftQuantity2: 5
   openGiftId3: 861
   openGiftQuantity3: 32
-  openGiftId4: 501
+  openGiftId4: 509
   openGiftQuantity4: 1
-  openGiftId5: 401
+  openGiftId5: 408
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67417"
-  needOpenedCellId: 67312
-  sourceCellId: 67312
+  connectedCellIds: "51417"
+  needOpenedCellId: 51415
+  sourceCellId: 51415
   connectedCellIdList:
-  - 67417
+  - 51417
   pointX: 1622
   pointY: 2548
   returnGiftCodes20200518: GIFT_862_1,GIFT_861_8
@@ -2766,39 +2724,41 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 501
+    id: 509
     type: 2
-    name: 砂場のシャベル
+    name: クマのボルト
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/10/22 15:10:00
   openGift5:
-    id: 401
+    id: 408
     type: 2
-    name: 砂場の巻貝
+    name: クマの襟巻
     rank: 2
     rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67417
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 44
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51417
+  groupId: 51
+  enhancementType: HP
+  effectValue: 190
   openGiftId1: 863
   openGiftQuantity1: 1
   openGiftId2: 862
   openGiftQuantity2: 5
   openGiftId3: 861
   openGiftQuantity3: 32
-  openGiftId4: 501
+  openGiftId4: 509
   openGiftQuantity4: 1
-  openGiftId5: 401
+  openGiftId5: 408
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67522"
-  needOpenedCellId: 67416
-  sourceCellId: 67416
+  connectedCellIds: "51522"
+  needOpenedCellId: 51416
+  sourceCellId: 51416
   connectedCellIdList:
-  - 67522
+  - 51522
   pointX: 1480
   pointY: 2448
   returnGiftCodes20200518: GIFT_862_1,GIFT_861_8
@@ -2827,39 +2787,41 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 501
+    id: 509
     type: 2
-    name: 砂場のシャベル
+    name: クマのボルト
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/10/22 15:10:00
   openGift5:
-    id: 401
+    id: 408
     type: 2
-    name: 砂場の巻貝
+    name: クマの襟巻
     rank: 2
     rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67418
-  groupId: 67
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51418
+  groupId: 51
   enhancementType: HP
-  effectValue: 162
+  effectValue: 190
   openGiftId1: 873
   openGiftQuantity1: 1
   openGiftId2: 872
   openGiftQuantity2: 5
   openGiftId3: 871
   openGiftQuantity3: 32
-  openGiftId4: 555
+  openGiftId4: 559
   openGiftQuantity4: 1
-  openGiftId5: 306
+  openGiftId5: 310
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67523"
-  needOpenedCellId: 67313
-  sourceCellId: 67313
+  connectedCellIds: "51523"
+  needOpenedCellId: 51313
+  sourceCellId: 51313
   connectedCellIdList:
-  - 67523
+  - 51523
   pointX: 1480
   pointY: 2248
   returnGiftCodes20200518: GIFT_872_1,GIFT_871_8
@@ -2888,39 +2850,41 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 555
+    id: 559
     type: 2
-    name: 振子の重心
+    name: 流浪の藁
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2019/12/09 15:10:00
   openGift5:
-    id: 306
+    id: 310
     type: 2
-    name: 振子のネジ
+    name: 流浪の杭
     rank: 1
     rankGift: RANK_1
     price: 1000
-- charaEnhancementCellId: 67419
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 44
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51419
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044110
   openGiftId1: 873
   openGiftQuantity1: 1
   openGiftId2: 872
   openGiftQuantity2: 5
   openGiftId3: 871
   openGiftQuantity3: 32
-  openGiftId4: 555
+  openGiftId4: 213
   openGiftQuantity4: 1
-  openGiftId5: 306
-  openGiftQuantity5: 1
+  openGiftId5: 212
+  openGiftQuantity5: 3
   needCC: 80000
-  connectedCellIds: "67420"
-  needOpenedCellId: 67314
-  sourceCellId: 67314
+  connectedCellIds: "51420"
+  needOpenedCellId: 51314
+  sourceCellId: 51314
   connectedCellIdList:
-  - 67420
+  - 51420
   pointX: 1480
   pointY: 2048
   returnGiftCodes20200518: GIFT_872_1,GIFT_871_8
@@ -2949,39 +2913,58 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 555
-    type: 2
-    name: 振子の重心
+    id: 213
+    type: 1
+    name: フレイムブック＋＋
+    attributeId: FIRE
     rank: 3
     rankGift: RANK_3
-    price: 5000
+    price: 2000
   openGift5:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
     price: 1000
-- charaEnhancementCellId: 67420
-  groupId: 67
-  enhancementType: HP
-  effectValue: 162
+  emotionSkill:
+    id: 3044110
+    groupId: 1093
+    name: モラール・アデプト[Ⅲ]
+    type: ABILITY
+    shortDescription: MP獲得量UP[Ⅲ]
+    artId1: 390201903
+    art1:
+      artId: 390201903
+      verbCode: BUFF
+      effectCode: MP_GAIN
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51420
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 74
   openGiftId1: 873
   openGiftQuantity1: 1
   openGiftId2: 872
   openGiftQuantity2: 5
   openGiftId3: 871
   openGiftQuantity3: 32
-  openGiftId4: 555
+  openGiftId4: 559
   openGiftQuantity4: 1
-  openGiftId5: 306
+  openGiftId5: 310
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67525"
-  needOpenedCellId: 67419
-  sourceCellId: 67419
+  connectedCellIds: "51421"
+  needOpenedCellId: 51419
+  sourceCellId: 51419
   connectedCellIdList:
-  - 67525
+  - 51421
   pointX: 1480
   pointY: 1848
   returnGiftCodes20200518: GIFT_872_1,GIFT_871_8
@@ -3010,23 +2993,25 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 555
+    id: 559
     type: 2
-    name: 振子の重心
+    name: 流浪の藁
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2019/12/09 15:10:00
   openGift5:
-    id: 306
+    id: 310
     type: 2
-    name: 振子のネジ
+    name: 流浪の杭
     rank: 1
     rankGift: RANK_1
     price: 1000
-- charaEnhancementCellId: 67421
-  groupId: 67
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51421
+  groupId: 51
   enhancementType: SKILL
-  effectValue: 3042112
+  effectValue: 3044111
   openGiftId1: 883
   openGiftQuantity1: 1
   openGiftId2: 882
@@ -3038,8 +3023,8 @@
   openGiftId5: 212
   openGiftQuantity5: 3
   needCC: 80000
-  needOpenedCellId: 67316
-  sourceCellId: 67316
+  needOpenedCellId: 51420
+  sourceCellId: 51420
   pointX: 1480
   pointY: 1648
   returnGiftCodes20200518: GIFT_882_1,GIFT_881_8
@@ -3084,42 +3069,41 @@
     rankGift: RANK_2
     price: 1000
   emotionSkill:
-    id: 3042112
-    groupId: 1120
-    name: シールド・アデプト[Ⅱ]
+    id: 3044111
+    groupId: 1124
+    name: パリィ・アデプト[Ⅱ]
     type: ABILITY
-    shortDescription: ダメージカット状態[Ⅱ]
-    artId1: 690206202
+    shortDescription: 確率で回避[Ⅱ]
+    artId1: 690206802
     art1:
-      artId: 690206202
+      artId: 690206802
       verbCode: CONDITION_GOOD
-      effectCode: DAMAGE_DOWN
+      effectCode: AVOID
       targetId: SELF
-      effectValue: 100
-      growPoint: 25
-      probability: 1000
+      growPoint: 0
+      probability: 150
     skillEffectRange: ALL
     skillDisplayType: EMOTION
-- charaEnhancementCellId: 67422
-  groupId: 67
+- charaEnhancementCellId: 51422
+  groupId: 51
   enhancementType: HP
-  effectValue: 162
+  effectValue: 190
   openGiftId1: 883
   openGiftQuantity1: 1
   openGiftId2: 882
   openGiftQuantity2: 5
   openGiftId3: 881
   openGiftQuantity3: 32
-  openGiftId4: 559
+  openGiftId4: 555
   openGiftQuantity4: 1
-  openGiftId5: 310
+  openGiftId5: 306
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67423"
-  needOpenedCellId: 67317
-  sourceCellId: 67317
+  connectedCellIds: "51528"
+  needOpenedCellId: 51316
+  sourceCellId: 51316
   connectedCellIdList:
-  - 67423
+  - 51528
   pointX: 1622
   pointY: 1548
   returnGiftCodes20200518: GIFT_882_1,GIFT_881_8
@@ -3148,41 +3132,39 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 559
+    id: 555
     type: 2
-    name: 流浪の藁
+    name: 振子の重心
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2019/12/09 15:10:00
   openGift5:
-    id: 310
+    id: 306
     type: 2
-    name: 流浪の杭
+    name: 振子のネジ
     rank: 1
     rankGift: RANK_1
     price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67423
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 44
+- charaEnhancementCellId: 51423
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044112
   openGiftId1: 883
   openGiftQuantity1: 1
   openGiftId2: 882
   openGiftQuantity2: 5
   openGiftId3: 881
   openGiftQuantity3: 32
-  openGiftId4: 559
+  openGiftId4: 213
   openGiftQuantity4: 1
-  openGiftId5: 310
-  openGiftQuantity5: 1
+  openGiftId5: 212
+  openGiftQuantity5: 3
   needCC: 80000
-  connectedCellIds: "67424"
-  needOpenedCellId: 67422
-  sourceCellId: 67422
+  connectedCellIds: "51529"
+  needOpenedCellId: 51317
+  sourceCellId: 51317
   connectedCellIdList:
-  - 67424
+  - 51529
   pointX: 1764
   pointY: 1448
   returnGiftCodes20200518: GIFT_882_1,GIFT_881_8
@@ -3211,41 +3193,58 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 559
-    type: 2
-    name: 流浪の藁
+    id: 213
+    type: 1
+    name: フレイムブック＋＋
+    attributeId: FIRE
     rank: 3
     rankGift: RANK_3
-    price: 5000
-    openDate: 2019/12/09 15:10:00
+    price: 2000
   openGift5:
-    id: 310
-    type: 2
-    name: 流浪の杭
-    rank: 1
-    rankGift: RANK_1
+    id: 212
+    type: 1
+    name: フレイムブック＋
+    attributeId: FIRE
+    rank: 2
+    rankGift: RANK_2
     price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67424
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 74
+  emotionSkill:
+    id: 3044112
+    groupId: 1091
+    name: チャージ・アデプト[Ⅱ]
+    type: ABILITY
+    shortDescription: Charge後ダメージUP[Ⅱ]
+    artId1: 390201742
+    art1:
+      artId: 390201742
+      verbCode: BUFF
+      effectCode: CHARGE
+      targetId: SELF
+      effectValue: 100
+      growPoint: 25
+      probability: 1000
+    skillEffectRange: ALL
+    skillDisplayType: EMOTION
+- charaEnhancementCellId: 51424
+  groupId: 51
+  enhancementType: HP
+  effectValue: 190
   openGiftId1: 813
   openGiftQuantity1: 1
   openGiftId2: 812
   openGiftQuantity2: 5
   openGiftId3: 811
   openGiftQuantity3: 32
-  openGiftId4: 508
+  openGiftId4: 505
   openGiftQuantity4: 1
-  openGiftId5: 301
+  openGiftId5: 405
   openGiftQuantity5: 1
   needCC: 80000
-  connectedCellIds: "67530"
-  needOpenedCellId: 67423
-  sourceCellId: 67423
+  connectedCellIds: "51401"
+  needOpenedCellId: 51318
+  sourceCellId: 51318
   connectedCellIdList:
-  - 67530
+  - 51401
   pointX: 1906
   pointY: 1348
   returnGiftCodes20200518: GIFT_812_1,GIFT_811_8
@@ -3274,37 +3273,37 @@
     price: 500
     openDate: 2019/10/28 15:10:00
   openGift4:
-    id: 508
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
   openGift5:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67501
-  groupId: 67
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51501
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 83
+  effectValue: 43
   openGiftId1: 813
-  openGiftQuantity1: 3
-  openGiftId2: 508
-  openGiftQuantity2: 3
-  openGiftId3: 301
-  openGiftQuantity3: 3
-  openGiftId4: 551
-  openGiftQuantity4: 1
-  needCC: 500000
-  needOpenedCellId: 67530
-  sourceCellId: 67530
+  openGiftQuantity1: 1
+  openGiftId2: 812
+  openGiftQuantity2: 9
+  openGiftId3: 505
+  openGiftQuantity3: 1
+  openGiftId4: 405
+  openGiftQuantity4: 3
+  needCC: 100000
+  needOpenedCellId: 51530
+  sourceCellId: 51530
   pointX: 2048
   pointY: 1048
+  returnGiftCodes20200518: GIFT_812_1
   openGift1:
     id: 813
     type: 3
@@ -3314,45 +3313,45 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 508
+    id: 812
+    type: 3
+    name: 嫌悪の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
-  openGift3:
-    id: 301
-    type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
   openGift4:
-    id: 551
-    type: 1
-    name: レインボーオーブ
-    rank: 3
-    rankGift: RANK_3
-    price: 10000
-- charaEnhancementCellId: 67502
-  groupId: 67
+    id: 405
+    type: 2
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51502
+  groupId: 51
   enhancementType: DEFENSE
   effectValue: 79
   openGiftId1: 813
   openGiftQuantity1: 1
   openGiftId2: 812
   openGiftQuantity2: 9
-  openGiftId3: 508
+  openGiftId3: 505
   openGiftQuantity3: 1
-  openGiftId4: 301
+  openGiftId4: 405
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67503"
-  needOpenedCellId: 67401
-  sourceCellId: 67401
+  connectedCellIds: "51503"
+  needOpenedCellId: 51401
+  sourceCellId: 51401
   connectedCellIdList:
-  - 67503
+  - 51503
   pointX: 2190
   pointY: 1148
   returnGiftCodes20200518: GIFT_812_1
@@ -3373,38 +3372,37 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 508
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
   openGift4:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67503
-  groupId: 67
-  enhancementType: HP
-  effectValue: 171
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51503
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 43
   openGiftId1: 813
   openGiftQuantity1: 1
   openGiftId2: 812
   openGiftQuantity2: 9
-  openGiftId3: 508
+  openGiftId3: 505
   openGiftQuantity3: 1
-  openGiftId4: 301
+  openGiftId4: 405
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67504"
-  needOpenedCellId: 67502
-  sourceCellId: 67502
+  connectedCellIds: "51504"
+  needOpenedCellId: 51502
+  sourceCellId: 51502
   connectedCellIdList:
-  - 67504
+  - 51504
   pointX: 2332
   pointY: 1248
   returnGiftCodes20200518: GIFT_812_1
@@ -3425,35 +3423,37 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 508
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
   openGift4:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67504
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51504
+  groupId: 51
+  enhancementType: HP
+  effectValue: 200
   openGiftId1: 823
   openGiftQuantity1: 1
   openGiftId2: 822
   openGiftQuantity2: 9
-  openGiftId3: 507
+  openGiftId3: 556
   openGiftQuantity3: 1
-  openGiftId4: 407
+  openGiftId4: 307
   openGiftQuantity4: 3
   needCC: 100000
-  needOpenedCellId: 67503
-  sourceCellId: 67503
+  connectedCellIds: "51505"
+  needOpenedCellId: 51503
+  sourceCellId: 51503
+  connectedCellIdList:
+  - 51505
   pointX: 2474
   pointY: 1348
   returnGiftCodes20200518: GIFT_822_1
@@ -3474,39 +3474,38 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 507
+    id: 556
     type: 2
-    name: ビッグフェリスのタービン
+    name: 子守の取っ手
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/05/21 15:10:00
+    openDate: 2018/05/07 16:00:00
   openGift4:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67505
-  groupId: 67
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51505
+  groupId: 51
   enhancementType: DEFENSE
   effectValue: 79
   openGiftId1: 823
   openGiftQuantity1: 1
   openGiftId2: 822
   openGiftQuantity2: 9
-  openGiftId3: 507
+  openGiftId3: 556
   openGiftQuantity3: 1
-  openGiftId4: 407
+  openGiftId4: 307
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67506"
-  needOpenedCellId: 67404
-  sourceCellId: 67404
+  connectedCellIds: "51506"
+  needOpenedCellId: 51504
+  sourceCellId: 51504
   connectedCellIdList:
-  - 67506
+  - 51506
   pointX: 2616
   pointY: 1448
   returnGiftCodes20200518: GIFT_822_1
@@ -3527,39 +3526,38 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 507
+    id: 556
     type: 2
-    name: ビッグフェリスのタービン
+    name: 子守の取っ手
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/05/21 15:10:00
+    openDate: 2018/05/07 16:00:00
   openGift4:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67506
-  groupId: 67
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51506
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 46
+  effectValue: 43
   openGiftId1: 823
   openGiftQuantity1: 1
   openGiftId2: 822
   openGiftQuantity2: 9
-  openGiftId3: 507
+  openGiftId3: 556
   openGiftQuantity3: 1
-  openGiftId4: 407
+  openGiftId4: 307
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67601"
-  needOpenedCellId: 67505
-  sourceCellId: 67505
+  connectedCellIds: "51601"
+  needOpenedCellId: 51505
+  sourceCellId: 51505
   connectedCellIdList:
-  - 67601
+  - 51601
   pointX: 2758
   pointY: 1548
   returnGiftCodes20200518: GIFT_822_1
@@ -3580,39 +3578,38 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 507
+    id: 556
     type: 2
-    name: ビッグフェリスのタービン
+    name: 子守の取っ手
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/05/21 15:10:00
+    openDate: 2018/05/07 16:00:00
   openGift4:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67507
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51507
+  groupId: 51
+  enhancementType: HP
+  effectValue: 200
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67602"
-  needOpenedCellId: 67405
-  sourceCellId: 67405
+  connectedCellIds: "51602"
+  needOpenedCellId: 51405
+  sourceCellId: 51405
   connectedCellIdList:
-  - 67602
+  - 51602
   pointX: 2758
   pointY: 1748
   returnGiftCodes20200518: GIFT_832_1
@@ -3633,37 +3630,39 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67508
-  groupId: 67
-  enhancementType: HP
-  effectValue: 171
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51508
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 43
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67509"
-  needOpenedCellId: 67406
-  sourceCellId: 67406
+  connectedCellIds: "51509"
+  needOpenedCellId: 51406
+  sourceCellId: 51406
   connectedCellIdList:
-  - 67509
+  - 51509
   pointX: 2758
   pointY: 1948
   returnGiftCodes20200518: GIFT_832_1
@@ -3684,37 +3683,39 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67509
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51509
+  groupId: 51
+  enhancementType: HP
+  effectValue: 200
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67510"
-  needOpenedCellId: 67508
-  sourceCellId: 67508
+  connectedCellIds: "51510"
+  needOpenedCellId: 51508
+  sourceCellId: 51508
   connectedCellIdList:
-  - 67510
+  - 51510
   pointX: 2758
   pointY: 2148
   returnGiftCodes20200518: GIFT_832_1
@@ -3735,37 +3736,39 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67510
-  groupId: 67
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51510
+  groupId: 51
   enhancementType: HP
-  effectValue: 171
+  effectValue: 200
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67511"
-  needOpenedCellId: 67509
-  sourceCellId: 67509
+  connectedCellIds: "51511"
+  needOpenedCellId: 51509
+  sourceCellId: 51509
   connectedCellIdList:
-  - 67511
+  - 51511
   pointX: 2758
   pointY: 2348
   returnGiftCodes20200518: GIFT_832_1
@@ -3786,37 +3789,39 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67511
-  groupId: 67
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51511
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 46
+  effectValue: 43
   openGiftId1: 843
   openGiftQuantity1: 1
   openGiftId2: 842
   openGiftQuantity2: 9
-  openGiftId3: 506
+  openGiftId3: 504
   openGiftQuantity3: 1
-  openGiftId4: 406
+  openGiftId4: 404
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67512"
-  needOpenedCellId: 67510
-  sourceCellId: 67510
+  connectedCellIds: "51512"
+  needOpenedCellId: 51510
+  sourceCellId: 51510
   connectedCellIdList:
-  - 67512
+  - 51512
   pointX: 2758
   pointY: 2548
   returnGiftCodes20200518: GIFT_842_1
@@ -3837,76 +3842,36 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 506
+    id: 504
     type: 2
-    name: キュレーターのフード
+    name: リュトンのリボン
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift4:
-    id: 406
+    id: 404
     type: 2
-    name: スタッフのキースイッチ
+    name: オウルのバケツ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67512
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 143
-  openGiftId1: 843
-  openGiftQuantity1: 3
-  openGiftId2: 506
-  openGiftQuantity2: 3
-  openGiftId3: 406
-  openGiftQuantity3: 3
-  needCC: 500000
-  needOpenedCellId: 67511
-  sourceCellId: 67511
-  pointX: 2616
-  pointY: 2648
-  openGift1:
-    id: 843
-    type: 3
-    name: 恐怖の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 506
-    type: 2
-    name: キュレーターのフード
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift3:
-    id: 406
-    type: 2
-    name: スタッフのキースイッチ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-- charaEnhancementCellId: 67513
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
+- charaEnhancementCellId: 51512
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 43
   openGiftId1: 843
   openGiftQuantity1: 1
   openGiftId2: 842
   openGiftQuantity2: 9
-  openGiftId3: 506
+  openGiftId3: 504
   openGiftQuantity3: 1
-  openGiftId4: 406
+  openGiftId4: 404
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67514"
-  needOpenedCellId: 67410
-  sourceCellId: 67410
-  connectedCellIdList:
-  - 67514
-  pointX: 2474
-  pointY: 2748
+  needOpenedCellId: 51511
+  sourceCellId: 51511
+  pointX: 2616
+  pointY: 2648
   returnGiftCodes20200518: GIFT_842_1
   openGift1:
     id: 843
@@ -3925,34 +3890,77 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 506
+    id: 504
     type: 2
-    name: キュレーターのフード
+    name: リュトンのリボン
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift4:
-    id: 406
+    id: 404
     type: 2
-    name: スタッフのキースイッチ
+    name: オウルのバケツ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67514
-  groupId: 67
+- charaEnhancementCellId: 51513
+  groupId: 51
   enhancementType: HP
-  effectValue: 311
-  openGiftId1: 853
+  effectValue: 274
+  openGiftId1: 843
   openGiftQuantity1: 3
-  openGiftId2: 552
+  openGiftId2: 504
   openGiftQuantity2: 3
-  openGiftId3: 303
+  openGiftId3: 404
   openGiftQuantity3: 3
   needCC: 500000
-  needOpenedCellId: 67513
-  sourceCellId: 67513
+  needOpenedCellId: 51410
+  sourceCellId: 51410
+  pointX: 2474
+  pointY: 2748
+  openGift1:
+    id: 843
+    type: 3
+    name: 恐怖の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 504
+    type: 2
+    name: リュトンのリボン
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift3:
+    id: 404
+    type: 2
+    name: オウルのバケツ
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51514
+  groupId: 51
+  enhancementType: HP
+  effectValue: 200
+  openGiftId1: 853
+  openGiftQuantity1: 1
+  openGiftId2: 852
+  openGiftQuantity2: 9
+  openGiftId3: 501
+  openGiftQuantity3: 1
+  openGiftId4: 401
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51515"
+  needOpenedCellId: 51411
+  sourceCellId: 51411
+  connectedCellIdList:
+  - 51515
   pointX: 2332
   pointY: 2848
+  returnGiftCodes20200518: GIFT_852_1
   openGift1:
     id: 853
     type: 3
@@ -3962,37 +3970,45 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 552
+    id: 852
+    type: 3
+    name: 驚嘆の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 501
     type: 2
-    name: 立ち耳の綿
+    name: 砂場のシャベル
     rank: 3
     rankGift: RANK_3
     price: 5000
-  openGift3:
-    id: 303
+  openGift4:
+    id: 401
     type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67515
-  groupId: 67
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51515
+  groupId: 51
   enhancementType: HP
-  effectValue: 171
+  effectValue: 200
   openGiftId1: 853
   openGiftQuantity1: 1
   openGiftId2: 852
   openGiftQuantity2: 9
-  openGiftId3: 552
+  openGiftId3: 501
   openGiftQuantity3: 1
-  openGiftId4: 303
+  openGiftId4: 401
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67516"
-  needOpenedCellId: 67412
-  sourceCellId: 67412
+  connectedCellIds: "51516"
+  needOpenedCellId: 51514
+  sourceCellId: 51514
   connectedCellIdList:
-  - 67516
+  - 51516
   pointX: 2190
   pointY: 2948
   returnGiftCodes20200518: GIFT_852_1
@@ -4013,39 +4029,87 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 552
+    id: 501
     type: 2
-    name: 立ち耳の綿
+    name: 砂場のシャベル
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift4:
-    id: 303
+    id: 401
     type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67516
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51516
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 64
+  openGiftId1: 853
+  openGiftQuantity1: 3
+  openGiftId2: 501
+  openGiftQuantity2: 3
+  openGiftId3: 401
+  openGiftQuantity3: 3
+  openGiftId4: 551
+  openGiftQuantity4: 1
+  needCC: 500000
+  needOpenedCellId: 51515
+  sourceCellId: 51515
+  pointX: 2048
+  pointY: 3048
+  openGift1:
+    id: 853
+    type: 3
+    name: 驚嘆の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 501
+    type: 2
+    name: 砂場のシャベル
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift3:
+    id: 401
+    type: 2
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+  openGift4:
+    id: 551
+    type: 1
+    name: レインボーオーブ
+    rank: 3
+    rankGift: RANK_3
+    price: 10000
+- charaEnhancementCellId: 51517
+  groupId: 51
+  enhancementType: SKILL
+  effectValue: 3044113
   openGiftId1: 853
   openGiftQuantity1: 1
   openGiftId2: 852
   openGiftQuantity2: 9
-  openGiftId3: 552
-  openGiftQuantity3: 1
-  openGiftId4: 303
-  openGiftQuantity4: 3
+  openGiftId3: 213
+  openGiftQuantity3: 5
+  openGiftId4: 212
+  openGiftQuantity4: 8
+  openGiftId5: 551
+  openGiftQuantity5: 1
   needCC: 100000
-  connectedCellIds: "67517"
-  needOpenedCellId: 67515
-  sourceCellId: 67515
+  connectedCellIds: "51518"
+  needOpenedCellId: 51413
+  sourceCellId: 51413
   connectedCellIdList:
-  - 67517
-  pointX: 2048
-  pointY: 3048
+  - 51518
+  pointX: 1906
+  pointY: 2948
   returnGiftCodes20200518: GIFT_852_1
   openGift1:
     id: 853
@@ -4059,485 +4123,6 @@
     id: 852
     type: 3
     name: 驚嘆の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 552
-    type: 2
-    name: 立ち耳の綿
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 303
-    type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67517
-  groupId: 67
-  enhancementType: HP
-  effectValue: 311
-  openGiftId1: 853
-  openGiftQuantity1: 3
-  openGiftId2: 552
-  openGiftQuantity2: 3
-  openGiftId3: 303
-  openGiftQuantity3: 3
-  needCC: 500000
-  needOpenedCellId: 67516
-  sourceCellId: 67516
-  pointX: 1906
-  pointY: 2948
-  openGift1:
-    id: 853
-    type: 3
-    name: 驚嘆の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 552
-    type: 2
-    name: 立ち耳の綿
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift3:
-    id: 303
-    type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67518
-  groupId: 67
-  enhancementType: HP
-  effectValue: 311
-  openGiftId1: 853
-  openGiftQuantity1: 3
-  openGiftId2: 552
-  openGiftQuantity2: 3
-  openGiftId3: 303
-  openGiftQuantity3: 3
-  needCC: 500000
-  needOpenedCellId: 67414
-  sourceCellId: 67414
-  pointX: 1764
-  pointY: 2848
-  openGift1:
-    id: 853
-    type: 3
-    name: 驚嘆の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 552
-    type: 2
-    name: 立ち耳の綿
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift3:
-    id: 303
-    type: 2
-    name: 立ち耳の包装紙
-    rank: 1
-    rankGift: RANK_1
-    price: 3000
-- charaEnhancementCellId: 67519
-  groupId: 67
-  enhancementType: HP
-  effectValue: 171
-  openGiftId1: 863
-  openGiftQuantity1: 1
-  openGiftId2: 862
-  openGiftQuantity2: 9
-  openGiftId3: 501
-  openGiftQuantity3: 1
-  openGiftId4: 401
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67520"
-  needOpenedCellId: 67415
-  sourceCellId: 67415
-  connectedCellIdList:
-  - 67520
-  pointX: 1622
-  pointY: 2748
-  returnGiftCodes20200518: GIFT_862_1
-  openGift1:
-    id: 863
-    type: 3
-    name: 期待の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 862
-    type: 3
-    name: 期待の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 501
-    type: 2
-    name: 砂場のシャベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67520
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 46
-  openGiftId1: 863
-  openGiftQuantity1: 1
-  openGiftId2: 862
-  openGiftQuantity2: 9
-  openGiftId3: 501
-  openGiftQuantity3: 1
-  openGiftId4: 401
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67521"
-  needOpenedCellId: 67519
-  sourceCellId: 67519
-  connectedCellIdList:
-  - 67521
-  pointX: 1480
-  pointY: 2648
-  returnGiftCodes20200518: GIFT_862_1
-  openGift1:
-    id: 863
-    type: 3
-    name: 期待の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 862
-    type: 3
-    name: 期待の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 501
-    type: 2
-    name: 砂場のシャベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67521
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
-  openGiftId1: 863
-  openGiftQuantity1: 1
-  openGiftId2: 862
-  openGiftQuantity2: 9
-  openGiftId3: 501
-  openGiftQuantity3: 1
-  openGiftId4: 401
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67606"
-  needOpenedCellId: 67520
-  sourceCellId: 67520
-  connectedCellIdList:
-  - 67606
-  pointX: 1338
-  pointY: 2548
-  returnGiftCodes20200518: GIFT_862_1
-  openGift1:
-    id: 863
-    type: 3
-    name: 期待の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 862
-    type: 3
-    name: 期待の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 501
-    type: 2
-    name: 砂場のシャベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-- charaEnhancementCellId: 67522
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 46
-  openGiftId1: 873
-  openGiftQuantity1: 1
-  openGiftId2: 872
-  openGiftQuantity2: 9
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67607"
-  needOpenedCellId: 67417
-  sourceCellId: 67417
-  connectedCellIdList:
-  - 67607
-  pointX: 1338
-  pointY: 2348
-  returnGiftCodes20200518: GIFT_872_1
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67523
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 46
-  openGiftId1: 873
-  openGiftQuantity1: 1
-  openGiftId2: 872
-  openGiftQuantity2: 9
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67524"
-  needOpenedCellId: 67418
-  sourceCellId: 67418
-  connectedCellIdList:
-  - 67524
-  pointX: 1338
-  pointY: 2148
-  returnGiftCodes20200518: GIFT_872_1
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67524
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 83
-  openGiftId1: 873
-  openGiftQuantity1: 3
-  openGiftId2: 555
-  openGiftQuantity2: 3
-  openGiftId3: 306
-  openGiftQuantity3: 3
-  openGiftId4: 551
-  openGiftQuantity4: 1
-  needCC: 500000
-  needOpenedCellId: 67523
-  sourceCellId: 67523
-  pointX: 1338
-  pointY: 1948
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift3:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-  openGift4:
-    id: 551
-    type: 1
-    name: レインボーオーブ
-    rank: 3
-    rankGift: RANK_3
-    price: 10000
-- charaEnhancementCellId: 67525
-  groupId: 67
-  enhancementType: HP
-  effectValue: 171
-  openGiftId1: 873
-  openGiftQuantity1: 1
-  openGiftId2: 872
-  openGiftQuantity2: 9
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67526"
-  needOpenedCellId: 67420
-  sourceCellId: 67420
-  connectedCellIdList:
-  - 67526
-  pointX: 1338
-  pointY: 1748
-  returnGiftCodes20200518: GIFT_872_1
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67526
-  groupId: 67
-  enhancementType: SKILL
-  effectValue: 3042113
-  openGiftId1: 883
-  openGiftQuantity1: 1
-  openGiftId2: 882
-  openGiftQuantity2: 9
-  openGiftId3: 213
-  openGiftQuantity3: 5
-  openGiftId4: 212
-  openGiftQuantity4: 8
-  openGiftId5: 551
-  openGiftQuantity5: 1
-  needCC: 100000
-  connectedCellIds: "67527"
-  needOpenedCellId: 67525
-  sourceCellId: 67525
-  connectedCellIdList:
-  - 67527
-  pointX: 1338
-  pointY: 1548
-  returnGiftCodes20200518: GIFT_882_1
-  openGift1:
-    id: 883
-    type: 3
-    name: 敬愛の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 882
-    type: 3
-    name: 敬愛の欠片＋
     rank: 2
     rankGift: RANK_2
     price: 1000
@@ -4566,54 +4151,498 @@
     rankGift: RANK_3
     price: 10000
   emotionSkill:
-    id: 3042113
-    groupId: 1086
-    name: ソリッドライズ・サークル[Ⅱ]
+    id: 3044113
+    groupId: 1219
+    name: ホークアイ
     type: SKILL
-    intervalTurn: 7
-    shortDescription: 防御力UP[Ⅱ] & 状態異常耐性UP[Ⅱ](味全/3T)
-    messageId: 70
-    artId1: 330301202
+    intervalTurn: 10
+    shortDescription: 必ず挑発無視 & 必ず回避無効(自/1T)
+    artId1: 610219015
     art1:
-      artId: 330301202
-      verbCode: BUFF
-      effectCode: DEFENSE
-      targetId: ALL
-      effectValue: 263
-      enableTurn: 3
-      growPoint: 25
-    artId2: 330301502
+      artId: 610219015
+      verbCode: IGNORE
+      effectCode: PROVOKE
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
+    artId2: 610208100
     art2:
-      artId: 330301502
-      verbCode: BUFF
-      effectCode: RESIST
-      targetId: ALL
-      effectValue: 150
-      enableTurn: 3
-      growPoint: 25
+      artId: 610208100
+      verbCode: IGNORE
+      effectCode: AVOID
+      targetId: SELF
+      enableTurn: 1
+      growPoint: 0
+      probability: 1000
     skillEffectRange: ALL
     skillDisplayType: EMOTION
-- charaEnhancementCellId: 67527
-  groupId: 67
+- charaEnhancementCellId: 51518
+  groupId: 51
   enhancementType: HP
-  effectValue: 171
-  openGiftId1: 883
+  effectValue: 200
+  openGiftId1: 853
   openGiftQuantity1: 1
-  openGiftId2: 882
+  openGiftId2: 852
+  openGiftQuantity2: 9
+  openGiftId3: 501
+  openGiftQuantity3: 1
+  openGiftId4: 401
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51519"
+  needOpenedCellId: 51517
+  sourceCellId: 51517
+  connectedCellIdList:
+  - 51519
+  pointX: 1764
+  pointY: 2848
+  returnGiftCodes20200518: GIFT_852_1
+  openGift1:
+    id: 853
+    type: 3
+    name: 驚嘆の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 852
+    type: 3
+    name: 驚嘆の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 501
+    type: 2
+    name: 砂場のシャベル
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 401
+    type: 2
+    name: 砂場の巻貝
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+- charaEnhancementCellId: 51519
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
+  openGiftId1: 863
+  openGiftQuantity1: 1
+  openGiftId2: 862
+  openGiftQuantity2: 9
+  openGiftId3: 509
+  openGiftQuantity3: 1
+  openGiftId4: 408
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51520"
+  needOpenedCellId: 51518
+  sourceCellId: 51518
+  connectedCellIdList:
+  - 51520
+  pointX: 1622
+  pointY: 2748
+  returnGiftCodes20200518: GIFT_862_1
+  openGift1:
+    id: 863
+    type: 3
+    name: 期待の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 862
+    type: 3
+    name: 期待の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 509
+    type: 2
+    name: クマのボルト
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/10/22 15:10:00
+  openGift4:
+    id: 408
+    type: 2
+    name: クマの襟巻
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51520
+  groupId: 51
+  enhancementType: HP
+  effectValue: 274
+  openGiftId1: 863
+  openGiftQuantity1: 3
+  openGiftId2: 509
+  openGiftQuantity2: 3
+  openGiftId3: 408
+  openGiftQuantity3: 3
+  needCC: 500000
+  connectedCellIds: "51521"
+  needOpenedCellId: 51519
+  sourceCellId: 51519
+  connectedCellIdList:
+  - 51521
+  pointX: 1480
+  pointY: 2648
+  openGift1:
+    id: 863
+    type: 3
+    name: 期待の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 509
+    type: 2
+    name: クマのボルト
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/10/22 15:10:00
+  openGift3:
+    id: 408
+    type: 2
+    name: クマの襟巻
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51521
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 108
+  openGiftId1: 863
+  openGiftQuantity1: 3
+  openGiftId2: 509
+  openGiftQuantity2: 3
+  openGiftId3: 408
+  openGiftQuantity3: 3
+  needCC: 500000
+  connectedCellIds: "51606"
+  needOpenedCellId: 51520
+  sourceCellId: 51520
+  connectedCellIdList:
+  - 51606
+  pointX: 1338
+  pointY: 2548
+  openGift1:
+    id: 863
+    type: 3
+    name: 期待の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 509
+    type: 2
+    name: クマのボルト
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2018/10/22 15:10:00
+  openGift3:
+    id: 408
+    type: 2
+    name: クマの襟巻
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51522
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
+  openGiftId1: 873
+  openGiftQuantity1: 1
+  openGiftId2: 872
   openGiftQuantity2: 9
   openGiftId3: 559
   openGiftQuantity3: 1
   openGiftId4: 310
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67528"
-  needOpenedCellId: 67526
-  sourceCellId: 67526
+  connectedCellIds: "51607"
+  needOpenedCellId: 51417
+  sourceCellId: 51417
   connectedCellIdList:
-  - 67528
+  - 51607
+  pointX: 1338
+  pointY: 2348
+  returnGiftCodes20200518: GIFT_872_1
+  openGift1:
+    id: 873
+    type: 3
+    name: 恍惚の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51523
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
+  openGiftId1: 873
+  openGiftQuantity1: 1
+  openGiftId2: 872
+  openGiftQuantity2: 9
+  openGiftId3: 559
+  openGiftQuantity3: 1
+  openGiftId4: 310
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51524"
+  needOpenedCellId: 51418
+  sourceCellId: 51418
+  connectedCellIdList:
+  - 51524
+  pointX: 1338
+  pointY: 2148
+  returnGiftCodes20200518: GIFT_872_1
+  openGift1:
+    id: 873
+    type: 3
+    name: 恍惚の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51524
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 43
+  openGiftId1: 873
+  openGiftQuantity1: 1
+  openGiftId2: 872
+  openGiftQuantity2: 9
+  openGiftId3: 559
+  openGiftQuantity3: 1
+  openGiftId4: 310
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51525"
+  needOpenedCellId: 51523
+  sourceCellId: 51523
+  connectedCellIdList:
+  - 51525
+  pointX: 1338
+  pointY: 1948
+  returnGiftCodes20200518: GIFT_872_1
+  openGift1:
+    id: 873
+    type: 3
+    name: 恍惚の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51525
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
+  openGiftId1: 873
+  openGiftQuantity1: 1
+  openGiftId2: 872
+  openGiftQuantity2: 9
+  openGiftId3: 559
+  openGiftQuantity3: 1
+  openGiftId4: 310
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51526"
+  needOpenedCellId: 51524
+  sourceCellId: 51524
+  connectedCellIdList:
+  - 51526
+  pointX: 1338
+  pointY: 1748
+  returnGiftCodes20200518: GIFT_872_1
+  openGift1:
+    id: 873
+    type: 3
+    name: 恍惚の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51526
+  groupId: 51
+  enhancementType: HP
+  effectValue: 200
+  openGiftId1: 883
+  openGiftQuantity1: 1
+  openGiftId2: 882
+  openGiftQuantity2: 9
+  openGiftId3: 555
+  openGiftQuantity3: 1
+  openGiftId4: 306
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51527"
+  needOpenedCellId: 51525
+  sourceCellId: 51525
+  connectedCellIdList:
+  - 51527
+  pointX: 1338
+  pointY: 1548
+  returnGiftCodes20200518: GIFT_882_1
+  openGift1:
+    id: 883
+    type: 3
+    name: 敬愛の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 882
+    type: 3
+    name: 敬愛の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 555
+    type: 2
+    name: 振子の重心
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift4:
+    id: 306
+    type: 2
+    name: 振子のネジ
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+- charaEnhancementCellId: 51527
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 108
+  openGiftId1: 883
+  openGiftQuantity1: 3
+  openGiftId2: 555
+  openGiftQuantity2: 3
+  openGiftId3: 306
+  openGiftQuantity3: 3
+  needCC: 500000
+  needOpenedCellId: 51526
+  sourceCellId: 51526
   pointX: 1480
   pointY: 1448
-  returnGiftCodes20200518: GIFT_882_1
   openGift1:
     id: 883
     type: 3
@@ -4623,50 +4652,34 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 882
-    type: 3
-    name: 敬愛の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 559
+    id: 555
     type: 2
-    name: 流浪の藁
+    name: 振子の重心
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2019/12/09 15:10:00
-  openGift4:
-    id: 310
+  openGift3:
+    id: 306
     type: 2
-    name: 流浪の杭
+    name: 振子のネジ
     rank: 1
     rankGift: RANK_1
     price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67528
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 46
+- charaEnhancementCellId: 51528
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 108
   openGiftId1: 883
-  openGiftQuantity1: 1
-  openGiftId2: 882
-  openGiftQuantity2: 9
-  openGiftId3: 559
-  openGiftQuantity3: 1
-  openGiftId4: 310
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67529"
-  needOpenedCellId: 67527
-  sourceCellId: 67527
-  connectedCellIdList:
-  - 67529
+  openGiftQuantity1: 3
+  openGiftId2: 555
+  openGiftQuantity2: 3
+  openGiftId3: 306
+  openGiftQuantity3: 3
+  needCC: 500000
+  needOpenedCellId: 51422
+  sourceCellId: 51422
   pointX: 1622
   pointY: 1348
-  returnGiftCodes20200518: GIFT_882_1
   openGift1:
     id: 883
     type: 3
@@ -4676,44 +4689,37 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 882
-    type: 3
-    name: 敬愛の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 559
+    id: 555
     type: 2
-    name: 流浪の藁
+    name: 振子の重心
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2019/12/09 15:10:00
-  openGift4:
-    id: 310
+  openGift3:
+    id: 306
     type: 2
-    name: 流浪の杭
+    name: 振子のネジ
     rank: 1
     rankGift: RANK_1
     price: 1000
-    openDate: 2018/09/03 15:10:00
-- charaEnhancementCellId: 67529
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 46
+- charaEnhancementCellId: 51529
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
   openGiftId1: 813
   openGiftQuantity1: 1
   openGiftId2: 812
   openGiftQuantity2: 9
-  openGiftId3: 508
+  openGiftId3: 505
   openGiftQuantity3: 1
-  openGiftId4: 301
+  openGiftId4: 405
   openGiftQuantity4: 3
   needCC: 100000
-  needOpenedCellId: 67528
-  sourceCellId: 67528
+  connectedCellIds: "51530"
+  needOpenedCellId: 51423
+  sourceCellId: 51423
+  connectedCellIdList:
+  - 51530
   pointX: 1764
   pointY: 1248
   returnGiftCodes20200518: GIFT_812_1
@@ -4734,38 +4740,37 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 508
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
   openGift4:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67530
-  groupId: 67
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51530
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 46
+  effectValue: 43
   openGiftId1: 813
   openGiftQuantity1: 1
   openGiftId2: 812
   openGiftQuantity2: 9
-  openGiftId3: 508
+  openGiftId3: 505
   openGiftQuantity3: 1
-  openGiftId4: 301
+  openGiftId4: 405
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67501"
-  needOpenedCellId: 67424
-  sourceCellId: 67424
+  connectedCellIds: "51501"
+  needOpenedCellId: 51529
+  sourceCellId: 51529
   connectedCellIdList:
-  - 67501
+  - 51501
   pointX: 1906
   pointY: 1148
   returnGiftCodes20200518: GIFT_812_1
@@ -4786,33 +4791,34 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 508
+    id: 505
     type: 2
-    name: スピーカーのベル
+    name: 人工知能のコード
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/07/02 15:10:00
   openGift4:
-    id: 301
+    id: 405
     type: 2
-    name: 燕尾の羽
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67601
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 143
+    name: メールのグライダー
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+- charaEnhancementCellId: 51601
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 64
   openGiftId1: 823
   openGiftQuantity1: 3
-  openGiftId2: 507
+  openGiftId2: 556
   openGiftQuantity2: 3
-  openGiftId3: 407
+  openGiftId3: 307
   openGiftQuantity3: 3
+  openGiftId4: 551
+  openGiftQuantity4: 1
   needCC: 500000
-  needOpenedCellId: 67506
-  sourceCellId: 67506
+  needOpenedCellId: 51506
+  sourceCellId: 51506
   pointX: 2900
   pointY: 1648
   openGift1:
@@ -4824,39 +4830,45 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 507
+    id: 556
     type: 2
-    name: ビッグフェリスのタービン
+    name: 子守の取っ手
     rank: 3
     rankGift: RANK_3
     price: 5000
-    openDate: 2018/05/21 15:10:00
+    openDate: 2018/05/07 16:00:00
   openGift3:
-    id: 407
+    id: 307
     type: 2
-    name: マスコットのタテガミ
-    rank: 2
-    rankGift: RANK_2
-    price: 3000
-    openDate: 2018/05/14 15:10:00
-- charaEnhancementCellId: 67602
-  groupId: 67
+    name: 子守の台座
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+  openGift4:
+    id: 551
+    type: 1
+    name: レインボーオーブ
+    rank: 3
+    rankGift: RANK_3
+    price: 10000
+- charaEnhancementCellId: 51602
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 46
+  effectValue: 43
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67603"
-  needOpenedCellId: 67507
-  sourceCellId: 67507
+  connectedCellIds: "51603"
+  needOpenedCellId: 51507
+  sourceCellId: 51507
   connectedCellIdList:
-  - 67603
+  - 51603
   pointX: 2900
   pointY: 1848
   returnGiftCodes20200518: GIFT_832_1
@@ -4877,37 +4889,39 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67603
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51603
+  groupId: 51
+  enhancementType: HP
+  effectValue: 200
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67604"
-  needOpenedCellId: 67602
-  sourceCellId: 67602
+  connectedCellIds: "51604"
+  needOpenedCellId: 51602
+  sourceCellId: 51602
   connectedCellIdList:
-  - 67604
+  - 51604
   pointX: 2900
   pointY: 2048
   returnGiftCodes20200518: GIFT_832_1
@@ -4928,37 +4942,39 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67604
-  groupId: 67
-  enhancementType: HP
-  effectValue: 171
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51604
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
   openGiftId1: 833
   openGiftQuantity1: 1
   openGiftId2: 832
   openGiftQuantity2: 9
-  openGiftId3: 505
+  openGiftId3: 507
   openGiftQuantity3: 1
-  openGiftId4: 405
+  openGiftId4: 407
   openGiftQuantity4: 3
   needCC: 100000
-  connectedCellIds: "67605"
-  needOpenedCellId: 67603
-  sourceCellId: 67603
+  connectedCellIds: "51605"
+  needOpenedCellId: 51603
+  sourceCellId: 51603
   connectedCellIdList:
-  - 67605
+  - 51605
   pointX: 2900
   pointY: 2248
   returnGiftCodes20200518: GIFT_832_1
@@ -4979,32 +4995,36 @@
     price: 1000
     openDate: 2019/10/28 15:10:00
   openGift3:
-    id: 505
+    id: 507
     type: 2
-    name: 人工知能のコード
+    name: ビッグフェリスのタービン
     rank: 3
     rankGift: RANK_3
     price: 5000
+    openDate: 2018/05/21 15:10:00
   openGift4:
-    id: 405
+    id: 407
     type: 2
-    name: メールのグライダー
+    name: マスコットのタテガミ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67605
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 143
+    openDate: 2018/05/14 15:10:00
+- charaEnhancementCellId: 51605
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 64
   openGiftId1: 843
   openGiftQuantity1: 3
-  openGiftId2: 506
+  openGiftId2: 504
   openGiftQuantity2: 3
-  openGiftId3: 406
+  openGiftId3: 404
   openGiftQuantity3: 3
+  openGiftId4: 551
+  openGiftQuantity4: 1
   needCC: 500000
-  needOpenedCellId: 67604
-  sourceCellId: 67604
+  needOpenedCellId: 51604
+  sourceCellId: 51604
   pointX: 2900
   pointY: 2448
   openGift1:
@@ -5016,36 +5036,44 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 506
+    id: 504
     type: 2
-    name: キュレーターのフード
+    name: リュトンのリボン
     rank: 3
     rankGift: RANK_3
     price: 5000
   openGift3:
-    id: 406
+    id: 404
     type: 2
-    name: スタッフのキースイッチ
+    name: オウルのバケツ
     rank: 2
     rankGift: RANK_2
     price: 3000
-- charaEnhancementCellId: 67606
-  groupId: 67
+  openGift4:
+    id: 551
+    type: 1
+    name: レインボーオーブ
+    rank: 3
+    rankGift: RANK_3
+    price: 10000
+- charaEnhancementCellId: 51606
+  groupId: 51
   enhancementType: ATTACK
-  effectValue: 83
+  effectValue: 43
   openGiftId1: 863
-  openGiftQuantity1: 3
-  openGiftId2: 501
-  openGiftQuantity2: 3
-  openGiftId3: 401
-  openGiftQuantity3: 3
-  openGiftId4: 551
-  openGiftQuantity4: 1
-  needCC: 500000
-  needOpenedCellId: 67521
-  sourceCellId: 67521
+  openGiftQuantity1: 1
+  openGiftId2: 862
+  openGiftQuantity2: 9
+  openGiftId3: 509
+  openGiftQuantity3: 1
+  openGiftId4: 408
+  openGiftQuantity4: 3
+  needCC: 100000
+  needOpenedCellId: 51521
+  sourceCellId: 51521
   pointX: 1196
   pointY: 2448
+  returnGiftCodes20200518: GIFT_862_1
   openGift1:
     id: 863
     type: 3
@@ -5055,200 +5083,51 @@
     price: 2000
     openDate: 2019/10/28 15:10:00
   openGift2:
-    id: 501
-    type: 2
-    name: 砂場のシャベル
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift3:
-    id: 401
-    type: 2
-    name: 砂場の巻貝
+    id: 862
+    type: 3
+    name: 期待の欠片＋
     rank: 2
     rankGift: RANK_2
     price: 1000
-  openGift4:
-    id: 551
-    type: 1
-    name: レインボーオーブ
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 509
+    type: 2
+    name: クマのボルト
     rank: 3
     rankGift: RANK_3
-    price: 10000
-- charaEnhancementCellId: 67607
-  groupId: 67
+    price: 5000
+    openDate: 2018/10/22 15:10:00
+  openGift4:
+    id: 408
+    type: 2
+    name: クマの襟巻
+    rank: 2
+    rankGift: RANK_2
+    price: 3000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51607
+  groupId: 51
   enhancementType: HP
-  effectValue: 171
+  effectValue: 274
   openGiftId1: 873
-  openGiftQuantity1: 1
-  openGiftId2: 872
-  openGiftQuantity2: 9
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67608"
-  needOpenedCellId: 67522
-  sourceCellId: 67522
-  connectedCellIdList:
-  - 67608
-  pointX: 1196
-  pointY: 2248
-  returnGiftCodes20200518: GIFT_872_1
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67608
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 46
-  openGiftId1: 873
-  openGiftQuantity1: 1
-  openGiftId2: 872
-  openGiftQuantity2: 9
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67609"
-  needOpenedCellId: 67607
-  sourceCellId: 67607
-  connectedCellIdList:
-  - 67609
-  pointX: 1196
-  pointY: 2048
-  returnGiftCodes20200518: GIFT_872_1
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67609
-  groupId: 67
-  enhancementType: DEFENSE
-  effectValue: 79
-  openGiftId1: 873
-  openGiftQuantity1: 1
-  openGiftId2: 872
-  openGiftQuantity2: 9
-  openGiftId3: 555
-  openGiftQuantity3: 1
-  openGiftId4: 306
-  openGiftQuantity4: 3
-  needCC: 100000
-  connectedCellIds: "67610"
-  needOpenedCellId: 67608
-  sourceCellId: 67608
-  connectedCellIdList:
-  - 67610
-  pointX: 1196
-  pointY: 1848
-  returnGiftCodes20200518: GIFT_872_1
-  openGift1:
-    id: 873
-    type: 3
-    name: 恍惚の欠片＋＋
-    rank: 3
-    rankGift: RANK_3
-    price: 2000
-    openDate: 2019/10/28 15:10:00
-  openGift2:
-    id: 872
-    type: 3
-    name: 恍惚の欠片＋
-    rank: 2
-    rankGift: RANK_2
-    price: 1000
-    openDate: 2019/10/28 15:10:00
-  openGift3:
-    id: 555
-    type: 2
-    name: 振子の重心
-    rank: 3
-    rankGift: RANK_3
-    price: 5000
-  openGift4:
-    id: 306
-    type: 2
-    name: 振子のネジ
-    rank: 1
-    rankGift: RANK_1
-    price: 1000
-- charaEnhancementCellId: 67610
-  groupId: 67
-  enhancementType: ATTACK
-  effectValue: 83
-  openGiftId1: 883
   openGiftQuantity1: 3
   openGiftId2: 559
   openGiftQuantity2: 3
   openGiftId3: 310
   openGiftQuantity3: 3
-  openGiftId4: 551
-  openGiftQuantity4: 1
   needCC: 500000
-  needOpenedCellId: 67609
-  sourceCellId: 67609
+  connectedCellIds: "51608"
+  needOpenedCellId: 51522
+  sourceCellId: 51522
+  connectedCellIdList:
+  - 51608
   pointX: 1196
-  pointY: 1648
+  pointY: 2248
   openGift1:
-    id: 883
+    id: 873
     type: 3
-    name: 敬愛の欠片＋＋
+    name: 恍惚の欠片＋＋
     rank: 3
     rankGift: RANK_3
     price: 2000
@@ -5269,6 +5148,151 @@
     rankGift: RANK_1
     price: 1000
     openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51608
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
+  openGiftId1: 873
+  openGiftQuantity1: 1
+  openGiftId2: 872
+  openGiftQuantity2: 9
+  openGiftId3: 559
+  openGiftQuantity3: 1
+  openGiftId4: 310
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51609"
+  needOpenedCellId: 51607
+  sourceCellId: 51607
+  connectedCellIdList:
+  - 51609
+  pointX: 1196
+  pointY: 2048
+  returnGiftCodes20200518: GIFT_872_1
+  openGift1:
+    id: 873
+    type: 3
+    name: 恍惚の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51609
+  groupId: 51
+  enhancementType: DEFENSE
+  effectValue: 79
+  openGiftId1: 873
+  openGiftQuantity1: 1
+  openGiftId2: 872
+  openGiftQuantity2: 9
+  openGiftId3: 559
+  openGiftQuantity3: 1
+  openGiftId4: 310
+  openGiftQuantity4: 3
+  needCC: 100000
+  connectedCellIds: "51610"
+  needOpenedCellId: 51608
+  sourceCellId: 51608
+  connectedCellIdList:
+  - 51610
+  pointX: 1196
+  pointY: 1848
+  returnGiftCodes20200518: GIFT_872_1
+  openGift1:
+    id: 873
+    type: 3
+    name: 恍惚の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 872
+    type: 3
+    name: 恍惚の欠片＋
+    rank: 2
+    rankGift: RANK_2
+    price: 1000
+    openDate: 2019/10/28 15:10:00
+  openGift3:
+    id: 559
+    type: 2
+    name: 流浪の藁
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+    openDate: 2019/12/09 15:10:00
+  openGift4:
+    id: 310
+    type: 2
+    name: 流浪の杭
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
+    openDate: 2018/09/03 15:10:00
+- charaEnhancementCellId: 51610
+  groupId: 51
+  enhancementType: ATTACK
+  effectValue: 64
+  openGiftId1: 883
+  openGiftQuantity1: 3
+  openGiftId2: 555
+  openGiftQuantity2: 3
+  openGiftId3: 306
+  openGiftQuantity3: 3
+  openGiftId4: 551
+  openGiftQuantity4: 1
+  needCC: 500000
+  needOpenedCellId: 51609
+  sourceCellId: 51609
+  pointX: 1196
+  pointY: 1648
+  openGift1:
+    id: 883
+    type: 3
+    name: 敬愛の欠片＋＋
+    rank: 3
+    rankGift: RANK_3
+    price: 2000
+    openDate: 2019/10/28 15:10:00
+  openGift2:
+    id: 555
+    type: 2
+    name: 振子の重心
+    rank: 3
+    rankGift: RANK_3
+    price: 5000
+  openGift3:
+    id: 306
+    type: 2
+    name: 振子のネジ
+    rank: 1
+    rankGift: RANK_1
+    price: 1000
   openGift4:
     id: 551
     type: 1
