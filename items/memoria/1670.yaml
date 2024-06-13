@@ -1,0 +1,75 @@
+---
+pieceId: 1670
+pieceType: ABILITY
+pieceName: 今日だけ夜更かし
+attributeId: ALL
+rank: RANK_3
+attack: 634
+defense: 0
+hp: 664
+skillId: 167000
+pieceSkill:
+  id: 167000
+  groupId: 1085
+  name: ブルーム・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 167001
+pieceSkill2:
+  id: 167001
+  groupId: 1085
+  name: ブルーム・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 防御力UP[Ⅱ] & 確率で回避[Ⅰ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 390201202
+  art2:
+    artId: 390201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId3: 690206801
+  art3:
+    artId: 690206801
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 100
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「布団の上でお菓子食べるなんてお行儀悪くない？」＠「固いこと言うなよ、今日くらいいいだろ？なぁ、マミ」＠「ふふっ、そうね…パジャマパーティーだし特別に」＠「マミさんまで…じゃあ、それならあたしももらうかな」
+illustrator: シャフト
+openDate: 2021/09/13 15:10:00
+...
