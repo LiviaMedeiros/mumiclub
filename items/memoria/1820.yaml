@@ -1,0 +1,73 @@
+---
+pieceId: 1820
+pieceType: SKILL
+pieceName: 過去を洗い流して
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 650
+hp: 710
+skillId: 182000
+pieceSkill:
+  id: 182000
+  groupId: 1109
+  name: フォッグ・ダウン[Ⅵ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 必ず霧 & 攻撃力DOWN[Ⅵ](敵単/1T)
+  messageId: 72
+  artId1: 510005200
+  art1:
+    artId: 510005200
+    verbCode: CONDITION_BAD
+    effectCode: FOG
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002006
+  art2:
+    artId: 410002006
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 300
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 182001
+pieceSkill2:
+  id: 182001
+  groupId: 1109
+  name: フォッグ・ダウン[Ⅶ]
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: 必ず霧 & 攻撃力DOWN[Ⅶ](敵単/1T)
+  messageId: 72
+  artId1: 510005200
+  art1:
+    artId: 510005200
+    verbCode: CONDITION_BAD
+    effectCode: FOG
+    targetId: TARGET
+    effectValue: 250
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 410002007
+  art2:
+    artId: 410002007
+    verbCode: DEBUFF
+    effectCode: ATTACK
+    targetId: TARGET
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 押し付けられたもの、己の身の内から湧き出たもの…＠これまで抱え続けてきたあらゆる負の感情…＠もらった小さな希望は泡のように儚くとも＠凝り固まった穢れを温もりでほぐして流してくれる
+illustrator: ―
+openDate: 2022/10/24 15:10:00
+...
