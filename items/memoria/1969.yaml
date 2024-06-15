@@ -1,0 +1,87 @@
+---
+pieceId: 1969
+pieceType: ABILITY
+pieceName: ただ、自分らしくあるために
+attributeId: ALL
+rank: RANK_3
+charaIds: "1121"
+charaList:
+- charaId: 1121
+  name: 結菜・樹里 ヴァンパイアver.
+attack: 522
+defense: 0
+hp: 442
+skillId: 196900
+pieceSkill:
+  id: 196900
+  groupId: 1241
+  name: ペネトレイト・クライシス[Ⅴ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅴ] & 瀕死時防御力UP[Ⅱ] & 確率で防御無視[Ⅵ]
+  artId1: 390202905
+  art1:
+    artId: 390202905
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId2: 390203002
+  art2:
+    artId: 390203002
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 300
+    growPoint: 20
+    probability: 1000
+  artId3: 690206606
+  art3:
+    artId: 690206606
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    growPoint: 0
+    probability: 350
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 196901
+pieceSkill2:
+  id: 196901
+  groupId: 1241
+  name: ペネトレイト・クライシス[Ⅶ]
+  type: ABILITY
+  shortDescription: 瀕死時攻撃力UP[Ⅶ] & 瀕死時防御力UP[Ⅳ] & 確率で防御無視[Ⅶ]
+  artId1: 390202907
+  art1:
+    artId: 390202907
+    verbCode: BUFF_DYING
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 400
+    growPoint: 20
+    probability: 1000
+  artId2: 390203004
+  art2:
+    artId: 390203004
+    verbCode: BUFF_DYING
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 500
+    growPoint: 20
+    probability: 1000
+  artId3: 690206607
+  art3:
+    artId: 690206607
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 会って間もない少女のために頑張るのは、きっと“らしくない”＠誰かのため…なんて言葉が似合わないことも自分が一番知っている＠でも、何もできずに足踏みをするのはもっと“らしくない”＠だから、これはあの子のためじゃなくて自分のための作戦会議
+illustrator: 都筑禰己
+openDate: 2023/10/23 15:10:00
+...
