@@ -1,0 +1,71 @@
+---
+pieceId: 1987
+pieceType: SKILL
+pieceName: 旋律に導かれて
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 741
+hp: 621
+skillId: 198700
+pieceSkill:
+  id: 198700
+  groupId: 1170
+  name: ハード・カバーリング
+  type: SKILL
+  intervalTurn: 9
+  shortDescription: 味方を必ずかばう & 防御力UP[Ⅱ](自/1T)
+  messageId: 70
+  artId1: 610213300
+  art1:
+    artId: 610213300
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201202
+  art2:
+    artId: 310201202
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 198701
+pieceSkill2:
+  id: 198701
+  groupId: 1170
+  name: ハード・カバーリング
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: 味方を必ずかばう & 防御力UP[Ⅲ](自/1T)
+  messageId: 70
+  artId1: 610213300
+  art1:
+    artId: 610213300
+    verbCode: CONDITION_GOOD
+    effectCode: PROTECT
+    targetId: ONE
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  artId2: 310201203
+  art2:
+    artId: 310201203
+    verbCode: BUFF
+    effectCode: DEFENSE
+    targetId: SELF
+    effectValue: 225
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 聴衆を惹きつける音色は＠静謐な空間いっぱいに広がって、切なく甘やかな余韻を残す＠「みんなにも聴いてほしい」と思ってしまうくらい＠少女はその音色に、ただ心を奪われていた
+illustrator: ―
+openDate: 2023/12/04 15:10:00
+...

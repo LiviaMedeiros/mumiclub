@@ -1,0 +1,67 @@
+---
+pieceId: 1980
+pieceType: SKILL
+pieceName: ただのゲーム
+attributeId: ALL
+rank: RANK_3
+charaIds: "2601"
+charaList:
+- charaId: 2601
+  name: 佐倉 杏子 scene0 ver.
+attack: 0
+defense: 482
+hp: 482
+skillId: 198000
+pieceSkill:
+  id: 198000
+  groupId: 1082
+  name: リフレッシュ
+  type: SKILL
+  intervalTurn: 4
+  shortDescription: デバフ解除 & 状態異常解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200201000
+  art2:
+    artId: 200201000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 198001
+pieceSkill2:
+  id: 198001
+  groupId: 1082
+  name: リフレッシュ
+  type: SKILL
+  intervalTurn: 2
+  shortDescription: デバフ解除 & 状態異常解除(自)
+  messageId: 70
+  artId1: 200200800
+  art1:
+    artId: 200200800
+    verbCode: REVOKE
+    effectCode: DEBUFF
+    targetId: SELF
+    growPoint: 0
+  artId2: 200201000
+  art2:
+    artId: 200201000
+    verbCode: REVOKE
+    effectCode: BAD
+    targetId: SELF
+    growPoint: 0
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「…よしっ、これでパーフェクト！」＠日課のようにダンスゲームをこなす日々＠ひたすらスコアと向き合う空間＠他人のことは考えない、自分が自分らしくいる時間
+illustrator: 都筑禰己
+openDate: 2023/11/15 15:10:00
+...
