@@ -1,0 +1,739 @@
+{
+    "npcHelpId": 389,
+    "userCardList": [
+        {
+            "cardId": 21055,
+            "displayCardId": 21055,
+            "revision": 3,
+            "attack": 8300,
+            "defense": 9125,
+            "hp": 37401,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 21055,
+                "charaNo": 2105,
+                "miniCharaNo": 210500,
+                "magiaCharaNo": 210500,
+                "cardName": "鹿目 まどか",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "HEAL",
+                "growthType": "HP",
+                "attack": 2123,
+                "defense": 2316,
+                "hp": 9078,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 21055,
+                "cardMagia": {
+                    "id": 21055,
+                    "groupId": 1014,
+                    "name": "アセンデレ☆マギカ",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 光属性攻撃力UP & ダメージカット状態 & MP自動回復(味全/3T) & HP回復(味全)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 330321307,
+                    "art2": {
+                        "artId": 330321307,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_LIGHT",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 630306207,
+                    "art3": {
+                        "artId": 630306207,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId4": 630314808,
+                    "art4": {
+                        "artId": 630314808,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 5,
+                        "probability": 1000,
+                        "genericValue": "MP"
+                    },
+                    "artId5": 200300405,
+                    "art5": {
+                        "artId": 200300405,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "growPoint": 20
+                    }
+                },
+                "doppelMagiaId": 21058,
+                "doppelCardMagia": {
+                    "id": 21058,
+                    "groupId": 1014,
+                    "name": "ルクス☆プロフェティア",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 光属性攻撃力UP & ダメージカット状態(味全/5T) & MP自動回復(味全/3T) & HP回復 & MP回復(味全)",
+                    "artId1": 190210581,
+                    "art1": {
+                        "artId": 190210581,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 350321309,
+                    "art2": {
+                        "artId": 350321309,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_LIGHT",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 650306207,
+                    "art3": {
+                        "artId": 650306207,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "DAMAGE_DOWN",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 5,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId4": 630314810,
+                    "art4": {
+                        "artId": 630314810,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "AUTO_HEAL",
+                        "targetId": "ALL",
+                        "effectValue": 120,
+                        "enableTurn": 3,
+                        "growPoint": 5,
+                        "probability": 1000,
+                        "genericValue": "MP"
+                    },
+                    "artId5": 200300409,
+                    "art5": {
+                        "artId": 200300409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "growPoint": 20
+                    },
+                    "artId6": 200300506,
+                    "art6": {
+                        "artId": 200300506,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 210500,
+                "doppel": {
+                    "id": 210500,
+                    "name": "ルクス☆プロフェティア",
+                    "title": "ー",
+                    "description": "ー",
+                    "designer": "………",
+                    "archive": false,
+                    "openDate": "2050/12/20 00:00:00"
+                },
+                "skillId": 21055,
+                "cardSkill": {
+                    "id": 21055,
+                    "groupId": 1235,
+                    "name": "また奇跡は起こせるよ",
+                    "shortDescription": "光属性攻撃力UP[Ⅹ] & HP回復[Ⅸ] & MP回復[Ⅸ]",
+                    "artId1": 310421310,
+                    "art1": {
+                        "artId": 310421310,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_LIGHT",
+                        "targetId": "CONNECT",
+                        "effectValue": 275,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200400409,
+                    "art2": {
+                        "artId": 200400409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "growPoint": 20
+                    },
+                    "artId3": 200400509,
+                    "art3": {
+                        "artId": 200400509,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "CONNECT",
+                        "effectValue": 325,
+                        "growPoint": 10
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "ぷにゃん",
+                "cardCustomize": {
+                    "cardId": 21055,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 143,
+                    "gift3": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 506,
+                    "gift4": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 552,
+                    "gift5": {
+                        "id": 552,
+                        "type": 2,
+                        "name": "立ち耳の綿",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 70,
+                    "giftId6": 401,
+                    "gift6": {
+                        "id": 401,
+                        "type": 2,
+                        "name": "砂場の巻貝",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 389,
+            "npcPieceId1": 1962,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 2105,
+            "chara": {
+                "id": 2105,
+                "name": "鹿目 まどか",
+                "kana": "かなめ まどか",
+                "title": "scene0 ver.",
+                "attributeId": "LIGHT",
+                "attackType": 3,
+                "initialType": "HEAL",
+                "growthType": "HP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 21054,
+                "defaultCard": {
+                    "cardId": 21054,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "HP",
+                    "attack": 1909,
+                    "defense": 2084,
+                    "hp": 8179,
+                    "miniCharaNo": 210500,
+                    "charaNo": 2105,
+                    "cardName": "鹿目 まどか",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 21054,
+                        "groupId": 1014,
+                        "name": "アセンデレ☆マギカ",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 光属性攻撃力UP & ダメージカット状態 & MP自動回復(味全/3T) & HP回復(味全)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 330321305,
+                        "art2": {
+                            "artId": 330321305,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_LIGHT",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 630306205,
+                        "art3": {
+                            "artId": 630306205,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId4": 630314806,
+                        "art4": {
+                            "artId": 630314806,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 80,
+                            "enableTurn": 3,
+                            "growPoint": 5,
+                            "probability": 1000,
+                            "genericValue": "MP"
+                        },
+                        "artId5": 200300403,
+                        "art5": {
+                            "artId": 200300403,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 175,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 21054,
+                        "groupId": 1235,
+                        "name": "また奇跡は起こせるよ",
+                        "shortDescription": "光属性攻撃力UP[Ⅷ] & HP回復[Ⅶ] & MP回復[Ⅶ]",
+                        "artId1": 310421308,
+                        "art1": {
+                            "artId": 310421308,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_LIGHT",
+                            "targetId": "CONNECT",
+                            "effectValue": 225,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400407,
+                        "art2": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        },
+                        "artId3": 200400507,
+                        "art3": {
+                            "artId": 200400507,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 275,
+                            "growPoint": 10
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 21055,
+                "evolutionCard1": {
+                    "cardId": 21055,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "HEAL",
+                    "growthType": "HP",
+                    "attack": 2123,
+                    "defense": 2316,
+                    "hp": 9078,
+                    "miniCharaNo": 210500,
+                    "charaNo": 2105,
+                    "cardName": "鹿目 まどか",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 21055,
+                        "groupId": 1014,
+                        "name": "アセンデレ☆マギカ",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 光属性攻撃力UP & ダメージカット状態 & MP自動回復(味全/3T) & HP回復(味全)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330321307,
+                        "art2": {
+                            "artId": 330321307,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_LIGHT",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 630306207,
+                        "art3": {
+                            "artId": 630306207,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "DAMAGE_DOWN",
+                            "targetId": "ALL",
+                            "effectValue": 350,
+                            "enableTurn": 3,
+                            "growPoint": 25,
+                            "probability": 1000
+                        },
+                        "artId4": 630314808,
+                        "art4": {
+                            "artId": 630314808,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "AUTO_HEAL",
+                            "targetId": "ALL",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 5,
+                            "probability": 1000,
+                            "genericValue": "MP"
+                        },
+                        "artId5": 200300405,
+                        "art5": {
+                            "artId": 200300405,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 21055,
+                        "groupId": 1235,
+                        "name": "また奇跡は起こせるよ",
+                        "shortDescription": "光属性攻撃力UP[Ⅹ] & HP回復[Ⅸ] & MP回復[Ⅸ]",
+                        "artId1": 310421310,
+                        "art1": {
+                            "artId": 310421310,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_LIGHT",
+                            "targetId": "CONNECT",
+                            "effectValue": 275,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200400409,
+                        "art2": {
+                            "artId": 200400409,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "growPoint": 20
+                        },
+                        "artId3": 200400509,
+                        "art3": {
+                            "artId": 200400509,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "CONNECT",
+                            "effectValue": 325,
+                            "growPoint": 10
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "繰り返す時の中で出会う心優しき魔法少女。見滝原中学校の２年生。レコンパンスでよく見かけるエイミーと名付けられたネコと仲が良い。仲間と一緒に使い魔や魔女と戦っていたが、ある時から契約した姿を見なくなる。",
+                "school": "見滝原中学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "悠木碧",
+                "openDate": "2023/10/03 15:10:00",
+                "enhancementGroupId": 217
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "d03fb848-15cd-4294-97ad-77fdece79823",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 210500,
+            "npcHelpId": 389,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1962,
+            "piece": {
+                "pieceId": 1962,
+                "pieceType": "ABILITY",
+                "pieceName": "レコンパンス名物",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "2105",
+                "charaList": [
+                    {
+                        "charaId": 2105,
+                        "name": "鹿目 まどか scene0 ver."
+                    }
+                ],
+                "attack": 442,
+                "defense": 0,
+                "hp": 522,
+                "skillId": 196200,
+                "pieceSkill": {
+                    "id": 196200,
+                    "groupId": 1086,
+                    "name": "ディリジェンス・アデプト[Ⅴ]",
+                    "type": "ABILITY",
+                    "shortDescription": "防御力UP[Ⅴ] & MP獲得量UP[Ⅲ]",
+                    "artId1": 390201205,
+                    "art1": {
+                        "artId": 390201205,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 375,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201903,
+                    "art2": {
+                        "artId": 390201903,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 196201,
+                "pieceSkill2": {
+                    "id": 196201,
+                    "groupId": 1086,
+                    "name": "ディリジェンス・アデプト[Ⅵ]",
+                    "type": "ABILITY",
+                    "shortDescription": "防御力UP[Ⅵ] & MP獲得量UP[Ⅳ]",
+                    "artId1": 390201206,
+                    "art1": {
+                        "artId": 390201206,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 450,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201904,
+                    "art2": {
+                        "artId": 390201904,
+                        "verbCode": "BUFF",
+                        "effectCode": "MP_GAIN",
+                        "targetId": "SELF",
+                        "effectValue": 125,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "「すごい…エイミーにそっくりだ…！」＠噂で聞いたことはあったけど、レコンパンスのカフェ・マキアートは＠ラテアートが本当に上手で、それに可愛かったな＠明日、さやかちゃんと仁美ちゃんに自慢しちゃおうっと",
+                "illustrator": "都筑禰己",
+                "openDate": "2023/10/03 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 663,
+            "defense": 0,
+            "hp": 783,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 389
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 389
+        }
+    ],
+    "isNpc": true,
+    "userName": "鹿目 まどか",
+    "userRank": 100,
+    "cardId": 21055,
+    "charaName": "鹿目 まどか",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 21055,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
