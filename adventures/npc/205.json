@@ -1,0 +1,499 @@
+{
+    "npcHelpId": 205,
+    "userCardList": [
+        {
+            "cardId": 10405,
+            "displayCardId": 10405,
+            "revision": 3,
+            "attack": 9493,
+            "defense": 7021,
+            "hp": 23702,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10405,
+                "charaNo": 1040,
+                "miniCharaNo": 104000,
+                "magiaCharaNo": 104000,
+                "cardName": "篠目 ヨヅル",
+                "rank": "RANK_5",
+                "attributeId": "VOID",
+                "initialType": "ATTACK",
+                "growthType": "HP",
+                "attack": 2428,
+                "defense": 1782,
+                "hp": 5753,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 800,
+                "magiaId": 10405,
+                "cardMagia": {
+                    "id": 10405,
+                    "groupId": 1012,
+                    "name": "激昂星弾輪舞",
+                    "shortDescription": "敵単体にダメージ[Ⅶ] & 必ずスタン(敵単/1T) & 攻撃力UP(自/3T) & デバフ解除(自)",
+                    "artId1": 100000107,
+                    "art1": {
+                        "artId": 100000107,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11520,
+                        "growPoint": 100
+                    },
+                    "artId2": 510004200,
+                    "art2": {
+                        "artId": 510004200,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "STUN",
+                        "targetId": "TARGET",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 330201105,
+                    "art3": {
+                        "artId": 330201105,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 250,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 200200800,
+                    "art4": {
+                        "artId": 200200800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 10408,
+                "doppelCardMagia": {
+                    "id": 10408,
+                    "groupId": 1012,
+                    "name": "求愛のドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅸ] & 必ずスタン(敵単/1T) & 攻撃力UP(自/3T) & デバフ解除(自)",
+                    "artId1": 190104081,
+                    "art1": {
+                        "artId": 190104081,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 26752,
+                        "growPoint": 220
+                    },
+                    "artId2": 510004200,
+                    "art2": {
+                        "artId": 510004200,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "STUN",
+                        "targetId": "TARGET",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 330201107,
+                    "art3": {
+                        "artId": 330201107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 200200800,
+                    "art4": {
+                        "artId": 200200800,
+                        "verbCode": "REVOKE",
+                        "effectCode": "DEBUFF",
+                        "targetId": "SELF",
+                        "growPoint": 0
+                    }
+                },
+                "doppelCharaNo": 104000,
+                "doppel": {
+                    "id": 104000,
+                    "name": "求愛のドッペル",
+                    "title": "その姿は、塔",
+                    "description": "この感情の主は、自分の一部を削ぎ落とした結果、悼みの鎖に繋がれても刻まれた愛情を実感できないまま、開放的な世界で虚ろな自由を生き続けている。＠このドッペルもまた内なる愛情に気付くことない。ひたすら自分を大切にしてくれる人を求め続け、自分と似た魔力や境遇の人を見つけると、開いたあばら骨で捕らえてしまい、取り込むように容赦無く相手を締め付ける。＠だが、どれだけ取り込もうとしても、決してこのドッペルが求めるものが埋まることはない。",
+                    "designer": "原案・監修：富士フジノ",
+                    "archive": true,
+                    "openDate": "2020/03/09 15:10:00"
+                },
+                "skillId": 10405,
+                "cardSkill": {
+                    "id": 10405,
+                    "groupId": 1087,
+                    "name": "ご命令とあらばなんなりと…",
+                    "shortDescription": "与えるダメージUP[Ⅸ] & 状態異常解除 & 自身に追撃 ",
+                    "artId1": 310401309,
+                    "art1": {
+                        "artId": 310401309,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200401000,
+                    "art2": {
+                        "artId": 200401000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "CONNECT",
+                        "growPoint": 0
+                    },
+                    "artId3": 610207300,
+                    "art3": {
+                        "artId": 610207300,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "PURSUE",
+                        "targetId": "SELF",
+                        "effectValue": 800,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_H",
+                "commandType3": "RANGE_H",
+                "commandType4": "RANGE_V",
+                "commandType5": "CHARGE",
+                "illustrator": "富士フジノ",
+                "cardCustomize": {
+                    "cardId": 10405,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 90,
+                    "giftId2": 142,
+                    "gift2": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 50,
+                    "giftId3": 123,
+                    "gift3": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 60,
+                    "giftId4": 508,
+                    "gift4": {
+                        "id": 508,
+                        "type": 2,
+                        "name": "スピーカーのベル",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/07/02 15:10:00"
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 50,
+                    "giftId5": 559,
+                    "gift5": {
+                        "id": 559,
+                        "type": 2,
+                        "name": "流浪の藁",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2019/12/09 15:10:00"
+                    },
+                    "giftNum5": 8,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 90,
+                    "giftId6": 307,
+                    "gift6": {
+                        "id": 307,
+                        "type": 2,
+                        "name": "子守の台座",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 205
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1040,
+            "chara": {
+                "id": 1040,
+                "name": "篠目 ヨヅル",
+                "kana": "ささめ よづる",
+                "attributeId": "VOID",
+                "attackType": 1,
+                "initialType": "ATTACK",
+                "growthType": "HP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10404,
+                "defaultCard": {
+                    "cardId": 10404,
+                    "rank": "RANK_4",
+                    "attributeId": "VOID",
+                    "initialType": "ATTACK",
+                    "growthType": "HP",
+                    "attack": 2138,
+                    "defense": 1573,
+                    "hp": 5078,
+                    "miniCharaNo": 104000,
+                    "charaNo": 1040,
+                    "cardName": "篠目 ヨヅル",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10404,
+                        "groupId": 1012,
+                        "name": "激昂星弾輪舞",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & 必ずスタン(敵単/1T) & 攻撃力UP(自/3T) & デバフ解除(自) ",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 510004200,
+                        "art2": {
+                            "artId": 510004200,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "STUN",
+                            "targetId": "TARGET",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 330201103,
+                        "art3": {
+                            "artId": 330201103,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "SELF",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 200200800,
+                        "art4": {
+                            "artId": 200200800,
+                            "verbCode": "REVOKE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "SELF",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10404,
+                        "groupId": 1087,
+                        "name": "ご命令とあらばなんなりと…",
+                        "shortDescription": "与えるダメージUP[Ⅶ] & 状態異常解除 & 自身に追撃",
+                        "artId1": 310401307,
+                        "art1": {
+                            "artId": 310401307,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        },
+                        "artId3": 610207300,
+                        "art3": {
+                            "artId": 610207300,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "PURSUE",
+                            "targetId": "SELF",
+                            "effectValue": 800,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10405,
+                "evolutionCard1": {
+                    "cardId": 10405,
+                    "rank": "RANK_5",
+                    "attributeId": "VOID",
+                    "initialType": "ATTACK",
+                    "growthType": "HP",
+                    "attack": 2428,
+                    "defense": 1782,
+                    "hp": 5753,
+                    "miniCharaNo": 104000,
+                    "charaNo": 1040,
+                    "cardName": "篠目 ヨヅル",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "RANGE_V",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10405,
+                        "groupId": 1012,
+                        "name": "激昂星弾輪舞",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & 必ずスタン(敵単/1T) & 攻撃力UP(自/3T) & デバフ解除(自)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 510004200,
+                        "art2": {
+                            "artId": 510004200,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "STUN",
+                            "targetId": "TARGET",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 330201105,
+                        "art3": {
+                            "artId": 330201105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "SELF",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 200200800,
+                        "art4": {
+                            "artId": 200200800,
+                            "verbCode": "REVOKE",
+                            "effectCode": "DEBUFF",
+                            "targetId": "SELF",
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10405,
+                        "groupId": 1087,
+                        "name": "ご命令とあらばなんなりと…",
+                        "shortDescription": "与えるダメージUP[Ⅸ] & 状態異常解除 & 自身に追撃 ",
+                        "artId1": 310401309,
+                        "art1": {
+                            "artId": 310401309,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        },
+                        "artId3": 610207300,
+                        "art3": {
+                            "artId": 610207300,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "PURSUE",
+                            "targetId": "SELF",
+                            "effectValue": 800,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "ピュエラケア（出張調整屋）として神浜に来た、紳士的で献身的な魔法少女。リヴィアに調整の力を見出された。サービス精神旺盛で周囲からの評判もいいが、その態度はすべて計算。リヴィアから教わった「生きるための手段」である。",
+                "school": "―",
+                "designer": "富士フジノ",
+                "voiceActor": "若松来海",
+                "openDate": "2020/03/09 15:10:00",
+                "enhancementGroupId": 66
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "1bb69c59-1144-44f7-a63d-1fc1bd52fdad",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 104000,
+            "npcHelpId": 205,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "isNpc": true,
+    "userName": "篠目 ヨヅル",
+    "userRank": 100,
+    "cardId": 10405,
+    "charaName": "篠目 ヨヅル",
+    "cardRank": "RANK_5",
+    "attributeId": "VOID",
+    "level": 100,
+    "displayCardId": 10405,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}

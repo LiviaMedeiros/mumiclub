@@ -1,0 +1,689 @@
+{
+    "npcHelpId": 358,
+    "userCardList": [
+        {
+            "cardId": 10315,
+            "displayCardId": 10315,
+            "revision": 3,
+            "attack": 8352,
+            "defense": 8501,
+            "hp": 26001,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10315,
+                "charaNo": 1031,
+                "miniCharaNo": 103100,
+                "magiaCharaNo": 103100,
+                "cardName": "神楽 燦",
+                "rank": "RANK_5",
+                "attributeId": "TIMBER",
+                "initialType": "HEAL",
+                "growthType": "DEFHP",
+                "attack": 2104,
+                "defense": 2094,
+                "hp": 6452,
+                "rateGainMpAtk": 1000,
+                "rateGainMpDef": 1200,
+                "magiaId": 10315,
+                "cardMagia": {
+                    "id": 10315,
+                    "groupId": 1014,
+                    "name": "ルースレス・バラージュ",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & Accele MPUP & 状態異常耐性UP(味全/3T) & 状態異常解除 & HP回復(味全)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301606,
+                    "art2": {
+                        "artId": 330301606,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "ALL",
+                        "effectValue": 225,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330301507,
+                    "art3": {
+                        "artId": 330301507,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "ALL",
+                        "effectValue": 400,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 200301000,
+                    "art4": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    },
+                    "artId5": 200300411,
+                    "art5": {
+                        "artId": 200300411,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 275,
+                        "growPoint": 20
+                    }
+                },
+                "doppelMagiaId": 10318,
+                "doppelCardMagia": {
+                    "id": 10318,
+                    "groupId": 1014,
+                    "name": "停滞のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & Accele MPUP & 状態異常耐性UP(味全/5T) & 状態異常解除 & HP回復(味全)",
+                    "artId1": 190103181,
+                    "art1": {
+                        "artId": 190103181,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 350301608,
+                    "art2": {
+                        "artId": 350301608,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "ALL",
+                        "effectValue": 275,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 350301509,
+                    "art3": {
+                        "artId": 350301509,
+                        "verbCode": "BUFF",
+                        "effectCode": "RESIST",
+                        "targetId": "ALL",
+                        "effectValue": 500,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId4": 200301000,
+                    "art4": {
+                        "artId": 200301000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "ALL",
+                        "growPoint": 0
+                    },
+                    "artId5": 200300413,
+                    "art5": {
+                        "artId": 200300413,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "growPoint": 20
+                    }
+                },
+                "doppelCharaNo": 103100,
+                "doppel": {
+                    "id": 103100,
+                    "name": "停滞のドッペル",
+                    "title": "その姿は、セキュリティシステム",
+                    "description": "この感情の主は自らを育んだものの変化を決して認めない。＠そんな主の心情に呼応して、このドッペルは周辺のつぶさな変化をキャッチするために、道ばたにある石ころの動きや針が落ちるような小さな音にも気付くことができる能力を発揮している。自然現象で起きた変化であれば、静かに手入れをして元に戻すが、誰かが意図的に行ったことであれば決して許さない。付属している面を放って追跡すると、必ず相手を捕捉して罰を与える。弓矢などで攻撃されるのが苦手で、主は自身が飛び道具を使うので複雑な気持ちらしい。",
+                    "designer": "原案：f4samurai、監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2021/11/12 15:10:00"
+                },
+                "skillId": 10315,
+                "cardSkill": {
+                    "id": 10315,
+                    "groupId": 1085,
+                    "name": "私の期待に応えなさい",
+                    "shortDescription": "攻撃力UP[Ⅸ] & 状態異常解除 & HP回復[Ⅸ]",
+                    "artId1": 310401107,
+                    "art1": {
+                        "artId": 310401107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 350,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 200401000,
+                    "art2": {
+                        "artId": 200401000,
+                        "verbCode": "REVOKE",
+                        "effectCode": "BAD",
+                        "targetId": "CONNECT",
+                        "growPoint": 0
+                    },
+                    "artId3": 200400409,
+                    "art3": {
+                        "artId": 200400409,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "CONNECT",
+                        "effectValue": 500,
+                        "growPoint": 20
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "くろにゃん",
+                "cardCustomize": {
+                    "cardId": 10315,
+                    "giftId1": 132,
+                    "gift1": {
+                        "id": 132,
+                        "type": 1,
+                        "name": "フォレストオーブ＋",
+                        "attributeId": "TIMBER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 551,
+                    "gift2": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum2": 3,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 80,
+                    "giftId3": 133,
+                    "gift3": {
+                        "id": 133,
+                        "type": 1,
+                        "name": "フォレストオーブ＋＋",
+                        "attributeId": "TIMBER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 505,
+                    "gift4": {
+                        "id": 505,
+                        "type": 2,
+                        "name": "人工知能のコード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 301,
+                    "gift5": {
+                        "id": 301,
+                        "type": 2,
+                        "name": "燕尾の羽",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum5": 15,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 557,
+                    "gift6": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 358,
+            "npcPieceId1": 1690,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1031,
+            "chara": {
+                "id": 1031,
+                "name": "神楽 燦",
+                "kana": "かぐら さん",
+                "attributeId": "TIMBER",
+                "attackType": 3,
+                "initialType": "HEAL",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10314,
+                "defaultCard": {
+                    "cardId": 10314,
+                    "rank": "RANK_4",
+                    "attributeId": "TIMBER",
+                    "initialType": "HEAL",
+                    "growthType": "DEFHP",
+                    "attack": 1847,
+                    "defense": 1780,
+                    "hp": 6068,
+                    "miniCharaNo": 103100,
+                    "charaNo": 1031,
+                    "cardName": "神楽 燦",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10314,
+                        "groupId": 1014,
+                        "name": "ルースレス・バラージュ",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & Accele MPUP & 状態異常耐性UP(味全/3T) & 状態異常解除 & HP回復(味全)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301604,
+                        "art2": {
+                            "artId": 330301604,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "ALL",
+                            "effectValue": 175,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330301505,
+                        "art3": {
+                            "artId": 330301505,
+                            "verbCode": "BUFF",
+                            "effectCode": "RESIST",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 200301000,
+                        "art4": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        },
+                        "artId5": 200300409,
+                        "art5": {
+                            "artId": 200300409,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10314,
+                        "groupId": 1085,
+                        "name": "私の期待に応えなさい",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 状態異常解除 & HP回復[Ⅶ]",
+                        "artId1": 310401105,
+                        "art1": {
+                            "artId": 310401105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 300,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        },
+                        "artId3": 200400407,
+                        "art3": {
+                            "artId": 200400407,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "growPoint": 20
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10315,
+                "evolutionCard1": {
+                    "cardId": 10315,
+                    "rank": "RANK_5",
+                    "attributeId": "TIMBER",
+                    "initialType": "HEAL",
+                    "growthType": "DEFHP",
+                    "attack": 2104,
+                    "defense": 2094,
+                    "hp": 6452,
+                    "miniCharaNo": 103100,
+                    "charaNo": 1031,
+                    "cardName": "神楽 燦",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10315,
+                        "groupId": 1014,
+                        "name": "ルースレス・バラージュ",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & Accele MPUP & 状態異常耐性UP(味全/3T) & 状態異常解除 & HP回復(味全)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301606,
+                        "art2": {
+                            "artId": 330301606,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "ALL",
+                            "effectValue": 225,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330301507,
+                        "art3": {
+                            "artId": 330301507,
+                            "verbCode": "BUFF",
+                            "effectCode": "RESIST",
+                            "targetId": "ALL",
+                            "effectValue": 400,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId4": 200301000,
+                        "art4": {
+                            "artId": 200301000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "ALL",
+                            "growPoint": 0
+                        },
+                        "artId5": 200300411,
+                        "art5": {
+                            "artId": 200300411,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "ALL",
+                            "effectValue": 275,
+                            "growPoint": 20
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10315,
+                        "groupId": 1085,
+                        "name": "私の期待に応えなさい",
+                        "shortDescription": "攻撃力UP[Ⅸ] & 状態異常解除 & HP回復[Ⅸ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 200401000,
+                        "art2": {
+                            "artId": 200401000,
+                            "verbCode": "REVOKE",
+                            "effectCode": "BAD",
+                            "targetId": "CONNECT",
+                            "growPoint": 0
+                        },
+                        "artId3": 200400409,
+                        "art3": {
+                            "artId": 200400409,
+                            "verbCode": "HEAL",
+                            "effectCode": "HP",
+                            "targetId": "CONNECT",
+                            "effectValue": 500,
+                            "growPoint": 20
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "ネオマギウスのナンバー２を務め、神聖なものや強い存在に惹かれる魔法少女。ネオマギウス内では鬼教官と恐れられているが、地元で所属している青年会では妹のように可愛がられる一面もある。",
+                "school": "宝崎市立光塚中等教育学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "ファイルーズあい",
+                "openDate": "2021/11/12 15:10:00",
+                "enhancementGroupId": 167
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "dbc395f2-e424-48c3-9150-346dbd144ee9",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 103100,
+            "npcHelpId": 358,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1690,
+            "piece": {
+                "pieceId": 1690,
+                "pieceType": "SKILL",
+                "pieceName": "光塚の魂",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1031",
+                "charaList": [
+                    {
+                        "charaId": 1031,
+                        "name": "神楽 燦"
+                    }
+                ],
+                "attack": 0,
+                "defense": 480,
+                "hp": 480,
+                "skillId": 169000,
+                "pieceSkill": {
+                    "id": 169000,
+                    "groupId": 1078,
+                    "name": "キュアヒール・サークル[Ⅲ]",
+                    "type": "SKILL",
+                    "intervalTurn": 10,
+                    "shortDescription": "HP回復[Ⅲ](味全)",
+                    "messageId": 71,
+                    "artId1": 200300403,
+                    "art1": {
+                        "artId": 200300403,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 175,
+                        "growPoint": 20
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 169001,
+                "pieceSkill2": {
+                    "id": 169001,
+                    "groupId": 1078,
+                    "name": "キュアヒール・サークル[Ⅴ]",
+                    "type": "SKILL",
+                    "intervalTurn": 8,
+                    "shortDescription": "HP回復[Ⅴ](味全)",
+                    "messageId": 71,
+                    "artId1": 200300405,
+                    "art1": {
+                        "artId": 200300405,
+                        "verbCode": "HEAL",
+                        "effectCode": "HP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "growPoint": 20
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "光塚の火祭りを復活させる…それは何よりも大切な想い＠だから使い古したハチマキに込めて、この場所に預ける＠私が目的を達成して戻るそのときまで＠どうかここで、見守っていて",
+                "illustrator": "都筑禰己",
+                "openDate": "2021/11/12 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 720,
+            "hp": 720,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 358
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 358
+        }
+    ],
+    "isNpc": true,
+    "userName": "神楽 燦",
+    "userRank": 100,
+    "cardId": 10315,
+    "charaName": "神楽 燦",
+    "cardRank": "RANK_5",
+    "attributeId": "TIMBER",
+    "level": 100,
+    "displayCardId": 10315,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
