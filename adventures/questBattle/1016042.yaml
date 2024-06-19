@@ -1,0 +1,39 @@
+---
+questBattleId: 1016042
+sectionId: 101604
+sectionIndex: 2
+questBattleType: NORMAL
+bossFlag: false
+npcHelpId: "118"
+npcHelpSupportHidden: true
+startStory: 101604-3
+endStory: 101604-5
+questStories: 101604-4
+questStoryList:
+- 101604-4
+storyWaveIndices: "1"
+placeId: "46112"
+bgm: bgm02_boss02
+bossBgm: bgm02_boss02
+consumeType: FREE_AT_NOT_CLEAR
+limitTurn: 5
+exp: 54
+cardExp: 135
+baseBondsPt: 81
+riche: 639
+mission1: HP_20
+missionMaster1:
+  description: 合計残HPが20％以上でクリア
+mission2: ACTION_5
+missionMaster2:
+  description: 5ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- DARK
+parameterMap: []
+recordType: NONE
+autoRun: true
+...
