@@ -1,0 +1,65 @@
+---
+pieceId: 1706
+pieceType: ABILITY
+pieceName: クールな指導のあたたかみ
+attributeId: ALL
+rank: RANK_3
+attack: 646
+defense: 0
+hp: 676
+skillId: 170600
+pieceSkill:
+  id: 170600
+  groupId: 1092
+  name: アサルトステップ・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅱ] & 確率で回避[Ⅱ]
+  artId1: 390201802
+  art1:
+    artId: 390201802
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 200
+    growPoint: 25
+    probability: 1000
+  artId2: 690206802
+  art2:
+    artId: 690206802
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 150
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 170601
+pieceSkill2:
+  id: 170601
+  groupId: 1092
+  name: アサルトステップ・アデプト[Ⅲ]
+  type: ABILITY
+  shortDescription: Blast ダメージUP[Ⅲ] & 確率で回避[Ⅲ]
+  artId1: 390201803
+  art1:
+    artId: 390201803
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId2: 690206803
+  art2:
+    artId: 690206803
+    verbCode: CONDITION_GOOD
+    effectCode: AVOID
+    targetId: SELF
+    growPoint: 0
+    probability: 200
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 「最高のクリームでラビさんをあっと言わせてみせますの」＠「わかりましたから、ちゃんと卵の泡を立ててください」＠「もうこの時点でおいしそうだね。食べていい？」＠「ダメです…。はぁ…これから先が思いやられますね…」
+illustrator: ―
+openDate: 2021/12/20 15:10:00
+...
