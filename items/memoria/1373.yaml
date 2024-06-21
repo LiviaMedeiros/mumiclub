@@ -1,0 +1,77 @@
+---
+pieceId: 1373
+pieceType: SKILL
+pieceName: 形ある闇
+attributeId: ALL
+rank: RANK_3
+charaIds: "4025"
+charaList:
+- charaId: 4025
+  name: コルボー
+attack: 0
+defense: 420
+hp: 512
+skillId: 137300
+pieceSkill:
+  id: 137300
+  groupId: 1102
+  name: ブリーイング[Ⅶ]
+  type: SKILL
+  intervalTurn: 8
+  shortDescription: MP獲得量 DOWN[Ⅶ](敵全/1T) & HP自動回復[Ⅲ](自/3T)
+  messageId: 72
+  artId1: 410302807
+  art1:
+    artId: 410302807
+    verbCode: DEBUFF
+    effectCode: MP_GAIN
+    targetId: ALL
+    effectValue: 400
+    enableTurn: 1
+    growPoint: 25
+  artId2: 630207703
+  art2:
+    artId: 630207703
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 40
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 137301
+pieceSkill2:
+  id: 137301
+  groupId: 1102
+  name: ブリーイング[Ⅷ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: MP獲得量 DOWN[Ⅷ](敵全/1T) & HP自動回復[Ⅳ](自/3T)
+  messageId: 72
+  artId1: 410302808
+  art1:
+    artId: 410302808
+    verbCode: DEBUFF
+    effectCode: MP_GAIN
+    targetId: ALL
+    effectValue: 450
+    enableTurn: 1
+    growPoint: 25
+  artId2: 630207704
+  art2:
+    artId: 630207704
+    verbCode: CONDITION_GOOD
+    effectCode: AUTO_HEAL
+    targetId: SELF
+    effectValue: 50
+    enableTurn: 3
+    growPoint: 10
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 薄布の向こうに浮かぶ影を＠彼女は畏敬を込めて「あの方」と呼ぶ＠そこに在るのは、もはや人と呼べる存在ではない＠ヨーロッパを覆い尽くす「闇」そのものだった
+illustrator: mepo
+openDate: 2019/07/12 15:10:00
+...

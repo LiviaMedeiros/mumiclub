@@ -1,0 +1,75 @@
+---
+pieceId: 1644
+pieceType: SKILL
+pieceName: 焼きあがるまであと少し
+attributeId: ALL
+rank: RANK_3
+charaIds: "1210"
+charaList:
+- charaId: 1210
+  name: ももこ・みたま 人魚ver.
+attack: 0
+defense: 438
+hp: 518
+skillId: 164400
+pieceSkill:
+  id: 164400
+  groupId: 1087
+  name: スキルクイック・スラッシュ[Ⅱ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 与えるダメージUP[Ⅱ](自/3T) & スキルクイック(自/1T)
+  messageId: 70
+  artId1: 330201302
+  art1:
+    artId: 330201302
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  artId2: 610207800
+  art2:
+    artId: 610207800
+    verbCode: CONDITION_GOOD
+    effectCode: SKILL_QUICK
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 164401
+pieceSkill2:
+  id: 164401
+  groupId: 1087
+  name: スキルクイック・スラッシュ[Ⅲ]
+  type: SKILL
+  intervalTurn: 10
+  shortDescription: 与えるダメージUP[Ⅲ](自/3T) & スキルクイック(自/1T)
+  messageId: 70
+  artId1: 330201303
+  art1:
+    artId: 330201303
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+  artId2: 610207800
+  art2:
+    artId: 610207800
+    verbCode: CONDITION_GOOD
+    effectCode: SKILL_QUICK
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: またこの世界に恐ろしいモノが生み落とされた＠味わってほしいから、健康にいいから、とにかく楽しくなれるから…＠どんな理由を並べられても、この凶悪な存在感は揺らがない＠あの殺人ソーセージから逃げる方法は、焼き尽くして灰にすること…
+illustrator: 都筑禰己
+openDate: 2021/07/12 15:10:00
+...
