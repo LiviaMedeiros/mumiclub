@@ -1,0 +1,729 @@
+{
+    "npcHelpId": 372,
+    "userCardList": [
+        {
+            "cardId": 10515,
+            "displayCardId": 10515,
+            "revision": 3,
+            "attack": 8388,
+            "defense": 8826,
+            "hp": 33275,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10515,
+                "charaNo": 1051,
+                "miniCharaNo": 105100,
+                "magiaCharaNo": 105100,
+                "cardName": "ヘルカ",
+                "rank": "RANK_5",
+                "attributeId": "TIMBER",
+                "initialType": "SUPPORT",
+                "growthType": "DEFHP",
+                "attack": 2113,
+                "defense": 2174,
+                "hp": 8257,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 10515,
+                "cardMagia": {
+                    "id": 10515,
+                    "groupId": 1012,
+                    "name": "転輪羅刹のサーサナ",
+                    "shortDescription": "敵単体にダメージ[Ⅶ] & 木属性耐性DOWN & 防御力DOWN(敵単/2T) & 攻撃力UP & 木属性攻撃力UP(味全/3T) & MP回復(味全)",
+                    "artId1": 100000107,
+                    "art1": {
+                        "artId": 100000107,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11520,
+                        "growPoint": 100
+                    },
+                    "artId2": 9901,
+                    "art2": {
+                        "artId": 9901,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "WEAK_TIMBER",
+                        "targetId": "TARGET",
+                        "effectValue": 50,
+                        "enableTurn": 2,
+                        "growPoint": 0
+                    },
+                    "artId3": 420002110,
+                    "art3": {
+                        "artId": 420002110,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "TARGET",
+                        "effectValue": 500,
+                        "enableTurn": 2,
+                        "growPoint": 25
+                    },
+                    "artId4": 330301103,
+                    "art4": {
+                        "artId": 330301103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId5": 330321807,
+                    "art5": {
+                        "artId": 330321807,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_TIMBER",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId6": 200300504,
+                    "art6": {
+                        "artId": 200300504,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "ALL",
+                        "effectValue": 200,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 10518,
+                "doppelCardMagia": {
+                    "id": 10518,
+                    "groupId": 1012,
+                    "name": "狂信のドッペル",
+                    "shortDescription": "敵単体に属性強化ダメージ[Ⅸ] & 木属性耐性DOWN & 防御力DOWN & 必ずやけど(敵単/3T) & 攻撃力UP & 木属性攻撃力UP(味全/5T) & MP回復(味全)",
+                    "artId1": 190105181,
+                    "art1": {
+                        "artId": 190105181,
+                        "verbCode": "ATTACK",
+                        "effectCode": "ALIGNMENT",
+                        "targetId": "TARGET",
+                        "effectValue": 21824,
+                        "growPoint": 220
+                    },
+                    "artId2": 9902,
+                    "art2": {
+                        "artId": 9902,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "WEAK_TIMBER",
+                        "targetId": "TARGET",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 0
+                    },
+                    "artId3": 430002112,
+                    "art3": {
+                        "artId": 430002112,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "TARGET",
+                        "effectValue": 600,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId4": 530004800,
+                    "art4": {
+                        "artId": 530004800,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BURN",
+                        "targetId": "TARGET",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId5": 350301105,
+                    "art5": {
+                        "artId": 350301105,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId6": 350321809,
+                    "art6": {
+                        "artId": 350321809,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_TIMBER",
+                        "targetId": "ALL",
+                        "effectValue": 250,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId7": 200300508,
+                    "art7": {
+                        "artId": 200300508,
+                        "verbCode": "HEAL",
+                        "effectCode": "MP",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 105100,
+                "doppel": {
+                    "id": 105100,
+                    "name": "狂信のドッペル",
+                    "title": "その姿は、経典",
+                    "description": "この感情の主は、人々を救う間に自分を見失い、周りからの狂信に執着している。そんなドッペルは、主の妄執を表すかのようにこの世の業火を一身に纏ったつもりで、救いを求める人々へ天佑をもたらそうと駆け続ける。だが、その姿を目にした者は、救われるどころかあまりのまばゆさに目が焼けると炎に巻き込まれてしまう。ドッペルは燃える者たちこそ救われたと思い、主も妄執に取りつかれたまま自らをかえりみることはないので、我に返ったときには新たな業を背負っている。",
+                    "designer": "原案：f4samurai、監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2023/05/19 15:10:00"
+                },
+                "skillId": 10515,
+                "cardSkill": {
+                    "id": 10515,
+                    "groupId": 1087,
+                    "name": "衆生へ私たちの折伏を",
+                    "shortDescription": "与えるダメージUP[Ⅹ] & Accele MPUP[Ⅹ]",
+                    "artId1": 310401310,
+                    "art1": {
+                        "artId": 310401310,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 425,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401610,
+                    "art2": {
+                        "artId": 310401610,
+                        "verbCode": "BUFF",
+                        "effectCode": "ACCEL",
+                        "targetId": "CONNECT",
+                        "effectValue": 550,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "MPUP",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "茨乃",
+                "cardCustomize": {
+                    "cardId": 10515,
+                    "giftId1": 132,
+                    "gift1": {
+                        "id": 132,
+                        "type": 1,
+                        "name": "フォレストオーブ＋",
+                        "attributeId": "TIMBER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 133,
+                    "gift2": {
+                        "id": 133,
+                        "type": 1,
+                        "name": "フォレストオーブ＋＋",
+                        "attributeId": "TIMBER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 551,
+                    "gift3": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum3": 3,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 90,
+                    "giftId4": 559,
+                    "gift4": {
+                        "id": 559,
+                        "type": 2,
+                        "name": "流浪の藁",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2019/12/09 15:10:00"
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 90,
+                    "giftId5": 557,
+                    "gift5": {
+                        "id": 557,
+                        "type": 2,
+                        "name": "イキガミの水瓶",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000,
+                        "openDate": "2018/06/18 15:10:00"
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 403,
+                    "gift6": {
+                        "id": 403,
+                        "type": 2,
+                        "name": "絵馬の水引",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum6": 15,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 50
+                }
+            },
+            "npcHelpId": 372,
+            "npcPieceId1": 1895,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1051,
+            "chara": {
+                "id": 1051,
+                "name": "ヘルカ",
+                "kana": "へるか",
+                "attributeId": "TIMBER",
+                "attackType": 3,
+                "initialType": "SUPPORT",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10514,
+                "defaultCard": {
+                    "cardId": 10514,
+                    "rank": "RANK_4",
+                    "attributeId": "TIMBER",
+                    "initialType": "SUPPORT",
+                    "growthType": "DEFHP",
+                    "attack": 1901,
+                    "defense": 1958,
+                    "hp": 7434,
+                    "miniCharaNo": 105100,
+                    "charaNo": 1051,
+                    "cardName": "ヘルカ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10514,
+                        "groupId": 1012,
+                        "name": "転輪羅刹のサーサナ",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & 木属性耐性DOWN & 防御力DOWN(敵単/2T) & 攻撃力UP & 木属性攻撃力UP(味全/3T) & MP回復(味全)",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 9901,
+                        "art2": {
+                            "artId": 9901,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "WEAK_TIMBER",
+                            "targetId": "TARGET",
+                            "effectValue": 50,
+                            "enableTurn": 2,
+                            "growPoint": 0
+                        },
+                        "artId3": 420002108,
+                        "art3": {
+                            "artId": 420002108,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 400,
+                            "enableTurn": 2,
+                            "growPoint": 25
+                        },
+                        "artId4": 330301101,
+                        "art4": {
+                            "artId": 330301101,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId5": 330321805,
+                        "art5": {
+                            "artId": 330321805,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_TIMBER",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId6": 200300502,
+                        "art6": {
+                            "artId": 200300502,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "ALL",
+                            "effectValue": 150,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10514,
+                        "groupId": 1087,
+                        "name": "衆生へ私たちの折伏を",
+                        "shortDescription": "与えるダメージUP[Ⅷ] & Accele MPUP[Ⅷ]",
+                        "artId1": 310401308,
+                        "art1": {
+                            "artId": 310401308,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 375,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401608,
+                        "art2": {
+                            "artId": 310401608,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 450,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10515,
+                "evolutionCard1": {
+                    "cardId": 10515,
+                    "rank": "RANK_5",
+                    "attributeId": "TIMBER",
+                    "initialType": "SUPPORT",
+                    "growthType": "DEFHP",
+                    "attack": 2113,
+                    "defense": 2174,
+                    "hp": 8257,
+                    "miniCharaNo": 105100,
+                    "charaNo": 1051,
+                    "cardName": "ヘルカ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10515,
+                        "groupId": 1012,
+                        "name": "転輪羅刹のサーサナ",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & 木属性耐性DOWN & 防御力DOWN(敵単/2T) & 攻撃力UP & 木属性攻撃力UP(味全/3T) & MP回復(味全)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 9901,
+                        "art2": {
+                            "artId": 9901,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "WEAK_TIMBER",
+                            "targetId": "TARGET",
+                            "effectValue": 50,
+                            "enableTurn": 2,
+                            "growPoint": 0
+                        },
+                        "artId3": 420002110,
+                        "art3": {
+                            "artId": 420002110,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "TARGET",
+                            "effectValue": 500,
+                            "enableTurn": 2,
+                            "growPoint": 25
+                        },
+                        "artId4": 330301103,
+                        "art4": {
+                            "artId": 330301103,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId5": 330321807,
+                        "art5": {
+                            "artId": 330321807,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_TIMBER",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId6": 200300504,
+                        "art6": {
+                            "artId": 200300504,
+                            "verbCode": "HEAL",
+                            "effectCode": "MP",
+                            "targetId": "ALL",
+                            "effectValue": 200,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10515,
+                        "groupId": 1087,
+                        "name": "衆生へ私たちの折伏を",
+                        "shortDescription": "与えるダメージUP[Ⅹ] & Accele MPUP[Ⅹ]",
+                        "artId1": 310401310,
+                        "art1": {
+                            "artId": 310401310,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 425,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401610,
+                        "art2": {
+                            "artId": 310401610,
+                            "verbCode": "BUFF",
+                            "effectCode": "ACCEL",
+                            "targetId": "CONNECT",
+                            "effectValue": 550,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "チベットの尼僧院で暮らす魔法少女。モンゴル軍によって故郷を焼き払われ、幼馴染みのドルマと一緒に尼僧院へ身を寄せることになった。しかし、モンゴル軍に対して憎しみが抱けず、復讐より毎日を楽しく過ごせればそれでいいと思っている。",
+                "school": "―",
+                "designer": "茨乃",
+                "voiceActor": "若山詩音",
+                "openDate": "2023/05/19 15:10:00",
+                "enhancementGroupId": 206
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "d9b46624-cbbe-468d-97c3-37f7a385f8ad",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 105100,
+            "npcHelpId": 372,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1895,
+            "piece": {
+                "pieceId": 1895,
+                "pieceType": "SKILL",
+                "pieceName": "灰は土に還り、そして花へ",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1051",
+                "charaList": [
+                    {
+                        "charaId": 1051,
+                        "name": "ヘルカ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 481,
+                "hp": 481,
+                "skillId": 189500,
+                "pieceSkill": {
+                    "id": 189500,
+                    "groupId": 1166,
+                    "name": "アクセルドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 5,
+                    "shortDescription": "Acceleドロー",
+                    "messageId": 70,
+                    "artId1": 700211800,
+                    "art1": {
+                        "artId": 700211800,
+                        "verbCode": "DRAW",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 189501,
+                "pieceSkill2": {
+                    "id": 189501,
+                    "groupId": 1166,
+                    "name": "アクセルドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 4,
+                    "shortDescription": "Acceleドロー",
+                    "messageId": 70,
+                    "artId1": 700211800,
+                    "art1": {
+                        "artId": 700211800,
+                        "verbCode": "DRAW",
+                        "effectCode": "ACCEL",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "めずらしくとも何ともないありふれた花にすぎなかったのに＠この花には特別な意味がもたらされた…＠希望に縋るように人々はこの青い花へ祈り、夢を見る＠悪い薬に溺れて現実から逃避するかのように",
+                "illustrator": "都筑禰己",
+                "openDate": "2023/05/19 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 721,
+            "hp": 721,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 372
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 372
+        }
+    ],
+    "isNpc": true,
+    "userName": "ヘルカ",
+    "userRank": 100,
+    "cardId": 10515,
+    "charaName": "ヘルカ",
+    "cardRank": "RANK_5",
+    "attributeId": "TIMBER",
+    "level": 100,
+    "displayCardId": 10515,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
