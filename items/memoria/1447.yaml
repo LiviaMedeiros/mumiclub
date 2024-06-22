@@ -1,0 +1,77 @@
+---
+pieceId: 1447
+pieceType: SKILL
+pieceName: 祝福をあなたに
+attributeId: ALL
+rank: RANK_3
+charaIds: "1041"
+charaList:
+- charaId: 1041
+  name: リヴィア・メディロス
+attack: 0
+defense: 510
+hp: 430
+skillId: 144700
+pieceSkill:
+  id: 144700
+  groupId: 1120
+  name: マギア・ウォール[Ⅲ]
+  type: SKILL
+  intervalTurn: 7
+  shortDescription: ダメージカット状態[Ⅲ] & マギアダメージUP[Ⅲ](自/3T)
+  messageId: 70
+  artId1: 630206203
+  art1:
+    artId: 630206203
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201403
+  art2:
+    artId: 330201403
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 100
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 144701
+pieceSkill2:
+  id: 144701
+  groupId: 1120
+  name: マギア・ウォール[Ⅳ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: ダメージカット状態[Ⅳ] & マギアダメージUP[Ⅳ](自/3T)
+  messageId: 70
+  artId1: 630206204
+  art1:
+    artId: 630206204
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_DOWN
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 3
+    growPoint: 25
+    probability: 1000
+  artId2: 330201404
+  art2:
+    artId: 330201404
+    verbCode: BUFF
+    effectCode: MAGIA
+    targetId: SELF
+    effectValue: 125
+    enableTurn: 3
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 祝福の声が包み込む教会＠ベールをめくって、唇で誓いを立てて、ブーケでエールを送る＠私は知らない振りをして、冷めた目で流すつもりだったのに、＠大切に想ったから、愛は歪んでしまった。
+illustrator: くらは
+openDate: 2020/01/17 15:10:00
+...
