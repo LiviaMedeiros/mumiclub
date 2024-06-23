@@ -1,0 +1,645 @@
+{
+    "npcHelpId": 362,
+    "userCardList": [
+        {
+            "cardId": 30545,
+            "displayCardId": 30545,
+            "revision": 3,
+            "attack": 8320,
+            "defense": 8604,
+            "hp": 30080,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 30545,
+                "charaNo": 3054,
+                "miniCharaNo": 305400,
+                "magiaCharaNo": 305400,
+                "cardName": "三輪 みつね",
+                "rank": "RANK_5",
+                "attributeId": "LIGHT",
+                "initialType": "SUPPORT",
+                "growthType": "HP",
+                "attack": 2128,
+                "defense": 2184,
+                "hp": 7301,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 30545,
+                "cardMagia": {
+                    "id": 30545,
+                    "groupId": 1012,
+                    "name": "ハッキング・ライオット",
+                    "shortDescription": "敵単体にダメージ[Ⅶ] & 攻撃力UP(味全/3T) & Charge後被ダメージUP(敵単/3T)",
+                    "artId1": 100000107,
+                    "art1": {
+                        "artId": 100000107,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 11520,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301107,
+                    "art2": {
+                        "artId": 330301107,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 300,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 430021607,
+                    "art3": {
+                        "artId": 430021607,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "WEAK_CHARGE_DONE",
+                        "targetId": "TARGET",
+                        "effectValue": 70,
+                        "enableTurn": 3,
+                        "growPoint": 10
+                    }
+                },
+                "doppelMagiaId": 30548,
+                "doppelCardMagia": {
+                    "id": 30548,
+                    "groupId": 1012,
+                    "name": "悪あがきのドッペル",
+                    "shortDescription": "敵単体にダメージ[Ⅸ] & 攻撃力UP(味全/5T) & Charge後被ダメージUP(敵単/5T)",
+                    "artId1": 190305481,
+                    "art1": {
+                        "artId": 190305481,
+                        "verbCode": "ATTACK",
+                        "targetId": "TARGET",
+                        "effectValue": 26752,
+                        "growPoint": 220
+                    },
+                    "artId2": 350301109,
+                    "art2": {
+                        "artId": 350301109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 450021609,
+                    "art3": {
+                        "artId": 450021609,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "WEAK_CHARGE_DONE",
+                        "targetId": "TARGET",
+                        "effectValue": 90,
+                        "enableTurn": 5,
+                        "growPoint": 10
+                    }
+                },
+                "doppelCharaNo": 305400,
+                "doppel": {
+                    "id": 305400,
+                    "name": "悪あがきのドッペル",
+                    "title": "その姿は、カーテンレール",
+                    "description": "この感情の主は、隠れるのに都合が良いドッペルがお気に入り。偽り続けて疲れた心と体を癒やすために、中に身を潜めることができる。＠また、ドッペルも本当の自分を隠すのに躍起になっているので、主の気持ちを理解しながら、本性を見せ合った運命共同体であると思っている。もしも中を暴こうとする者が現れたら、その身に纏ったカーテンと鋭い体で必死に抵抗し、見てしまう者がいれば、決してその生存を許さない。機嫌が良い時にひとりで躍ることがあるらしいが、それも見た者は主以外にはいない。",
+                    "designer": "原案：f4samurai、監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2021/03/22 15:10:00"
+                },
+                "skillId": 30545,
+                "cardSkill": {
+                    "id": 30545,
+                    "groupId": 1085,
+                    "name": "まずはコンビネーションかなｗ",
+                    "shortDescription": "攻撃力UP[Ⅸ] & Charge後ダメージUP[Ⅶ] & Charge消費なし",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310401707,
+                    "art2": {
+                        "artId": 310401707,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId3": 610420900,
+                    "art3": {
+                        "artId": 610420900,
+                        "verbCode": "CONDITION_GOOD",
+                        "effectCode": "NO_COST_CHARGE",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "RANGE_H",
+                "commandType3": "CHARGE",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "illustrator": "文倉十",
+                "cardCustomize": {
+                    "cardId": 30545,
+                    "giftId1": 142,
+                    "gift1": {
+                        "id": 142,
+                        "type": 1,
+                        "name": "ライトオーブ＋",
+                        "attributeId": "LIGHT",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 143,
+                    "gift2": {
+                        "id": 143,
+                        "type": 1,
+                        "name": "ライトオーブ＋＋",
+                        "attributeId": "LIGHT",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 551,
+                    "gift3": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum3": 3,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 90,
+                    "giftId4": 305,
+                    "gift4": {
+                        "id": 305,
+                        "type": 2,
+                        "name": "屋上の鍵",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000
+                    },
+                    "giftNum4": 15,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 50,
+                    "giftId5": 506,
+                    "gift5": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 552,
+                    "gift6": {
+                        "id": 552,
+                        "type": 2,
+                        "name": "立ち耳の綿",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 90
+                }
+            },
+            "npcHelpId": 362,
+            "npcPieceId1": 1608,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 3054,
+            "chara": {
+                "id": 3054,
+                "name": "三輪 みつね",
+                "kana": "みわ みつね",
+                "attributeId": "LIGHT",
+                "attackType": 3,
+                "initialType": "SUPPORT",
+                "growthType": "HP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 30544,
+                "defaultCard": {
+                    "cardId": 30544,
+                    "rank": "RANK_4",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "HP",
+                    "attack": 1851,
+                    "defense": 1877,
+                    "hp": 6296,
+                    "miniCharaNo": 305400,
+                    "charaNo": 3054,
+                    "cardName": "三輪 みつね",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30544,
+                        "groupId": 1012,
+                        "name": "ハッキング・ライオット",
+                        "shortDescription": "敵単体にダメージ[Ⅴ] & 攻撃力UP(味全/3T) & Charge後被ダメージUP(敵単/3T)",
+                        "artId1": 100000105,
+                        "art1": {
+                            "artId": 100000105,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 10880,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301105,
+                        "art2": {
+                            "artId": 330301105,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 250,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430021605,
+                        "art3": {
+                            "artId": 430021605,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "WEAK_CHARGE_DONE",
+                            "targetId": "TARGET",
+                            "effectValue": 50,
+                            "enableTurn": 3,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30544,
+                        "groupId": 1085,
+                        "name": "まずはコンビネーションかなｗ",
+                        "shortDescription": "攻撃力UP[Ⅶ] & Charge後ダメージUP[Ⅴ] & Charge消費なし",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401705,
+                        "art2": {
+                            "artId": 310401705,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 200,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610420900,
+                        "art3": {
+                            "artId": 610420900,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "NO_COST_CHARGE",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 30545,
+                "evolutionCard1": {
+                    "cardId": 30545,
+                    "rank": "RANK_5",
+                    "attributeId": "LIGHT",
+                    "initialType": "SUPPORT",
+                    "growthType": "HP",
+                    "attack": 2128,
+                    "defense": 2184,
+                    "hp": 7301,
+                    "miniCharaNo": 305400,
+                    "charaNo": 3054,
+                    "cardName": "三輪 みつね",
+                    "commandType1": "MPUP",
+                    "commandType2": "RANGE_H",
+                    "commandType3": "CHARGE",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 30545,
+                        "groupId": 1012,
+                        "name": "ハッキング・ライオット",
+                        "shortDescription": "敵単体にダメージ[Ⅶ] & 攻撃力UP(味全/3T) & Charge後被ダメージUP(敵単/3T)",
+                        "artId1": 100000107,
+                        "art1": {
+                            "artId": 100000107,
+                            "verbCode": "ATTACK",
+                            "targetId": "TARGET",
+                            "effectValue": 11520,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301107,
+                        "art2": {
+                            "artId": 330301107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 430021607,
+                        "art3": {
+                            "artId": 430021607,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "WEAK_CHARGE_DONE",
+                            "targetId": "TARGET",
+                            "effectValue": 70,
+                            "enableTurn": 3,
+                            "growPoint": 10
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 30545,
+                        "groupId": 1085,
+                        "name": "まずはコンビネーションかなｗ",
+                        "shortDescription": "攻撃力UP[Ⅸ] & Charge後ダメージUP[Ⅶ] & Charge消費なし",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310401707,
+                        "art2": {
+                            "artId": 310401707,
+                            "verbCode": "BUFF",
+                            "effectCode": "CHARGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId3": 610420900,
+                        "art3": {
+                            "artId": 610420900,
+                            "verbCode": "CONDITION_GOOD",
+                            "effectCode": "NO_COST_CHARGE",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "生まれつきのひきこもり体質で不登校だが、自分を変えたいと思っている魔法少女。ネットでは昔から明るいキャラクターを演じており、変身している時はヒーローとしてそのキャラを演じている。かつて外に出た時の美しい思い出が支え。",
+                "school": "中央学園",
+                "designer": "文倉十",
+                "voiceActor": "水瀬いのり",
+                "openDate": "2021/03/22 15:10:00",
+                "enhancementGroupId": 150
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "753f9595-8705-4b59-b314-25c6f6b65160",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 305400,
+            "npcHelpId": 362,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1608,
+            "piece": {
+                "pieceId": 1608,
+                "pieceType": "ABILITY",
+                "pieceName": "ディスガイズ",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "3054",
+                "charaList": [
+                    {
+                        "charaId": 3054,
+                        "name": "三輪 みつね"
+                    }
+                ],
+                "attack": 475,
+                "defense": 0,
+                "hp": 475,
+                "skillId": 160800,
+                "pieceSkill": {
+                    "id": 160800,
+                    "groupId": 1091,
+                    "name": "チャージエキスパート[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Charge後ダメージUP[Ⅲ] & ChargeディスクダメージUP[Ⅲ]",
+                    "artId1": 390201703,
+                    "art1": {
+                        "artId": 390201703,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390218003,
+                    "art2": {
+                        "artId": 390218003,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGING",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 0
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 160801,
+                "pieceSkill2": {
+                    "id": 160801,
+                    "groupId": 1091,
+                    "name": "チャージエキスパート[Ⅳ]",
+                    "type": "ABILITY",
+                    "shortDescription": "Charge後ダメージUP[Ⅲ] & ChargeディスクダメージUP[Ⅳ]",
+                    "artId1": 390201703,
+                    "art1": {
+                        "artId": 390201703,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGE",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390218004,
+                    "art2": {
+                        "artId": 390218004,
+                        "verbCode": "BUFF",
+                        "effectCode": "CHARGING",
+                        "targetId": "SELF",
+                        "effectValue": 200,
+                        "growPoint": 0
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "町の明かりなんて全てなくなれば良いのにって思う＠夜の帳が町を包み込んで全てが黒になれば画面の向こうが正だから＠たった二十何インチかの本当の世界＠これから偽物の世界が幅を利かせるまでの数時間だけが生きている時間",
+                "illustrator": "mepo",
+                "openDate": "2021/03/22 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 712,
+            "defense": 0,
+            "hp": 712,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 362
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 362
+        }
+    ],
+    "isNpc": true,
+    "userName": "三輪 みつね",
+    "userRank": 100,
+    "cardId": 30545,
+    "charaName": "三輪 みつね",
+    "cardRank": "RANK_5",
+    "attributeId": "LIGHT",
+    "level": 100,
+    "displayCardId": 30545,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
