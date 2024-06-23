@@ -1,0 +1,69 @@
+---
+pieceId: 1703
+pieceType: ABILITY
+pieceName: この呪縛を抜け出して
+attributeId: ALL
+rank: RANK_3
+attack: 585
+defense: 0
+hp: 735
+skillId: 170300
+pieceSkill:
+  id: 170300
+  groupId: 1152
+  name: ダークネス・アデプト[Ⅰ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で暗闇(1T)を付与[Ⅰ] & 攻撃力UP[Ⅱ]
+  artId1: 690210901
+  art1:
+    artId: 690210901
+    verbCode: ENCHANT
+    effectCode: DARKNESS
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 0
+    probability: 100
+  artId2: 390201102
+  art2:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 170301
+pieceSkill2:
+  id: 170301
+  groupId: 1152
+  name: ダークネス・アデプト[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で暗闇(1T)を付与[Ⅱ] & 攻撃力UP[Ⅲ]
+  artId1: 690210902
+  art1:
+    artId: 690210902
+    verbCode: ENCHANT
+    effectCode: DARKNESS
+    targetId: SELF
+    effectValue: 350
+    enableTurn: 1
+    growPoint: 0
+    probability: 150
+  artId2: 390201103
+  art2:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: どんなに邪魔をされたって諦められない＠だってこんなにも残酷で希望のない運命から＠解放してあげないといけないんだから…！＠あぁ、早く…早く…みんなを、私を救うのよ…！
+illustrator: ―
+openDate: 2021/12/10 15:00:00
+...
