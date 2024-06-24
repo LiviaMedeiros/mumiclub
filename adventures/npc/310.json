@@ -1,0 +1,608 @@
+{
+    "npcHelpId": 310,
+    "userCardList": [
+        {
+            "cardId": 10285,
+            "displayCardId": 10285,
+            "revision": 3,
+            "attack": 8194,
+            "defense": 8258,
+            "hp": 30789,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 10285,
+                "charaNo": 1028,
+                "miniCharaNo": 102800,
+                "magiaCharaNo": 102800,
+                "cardName": "藍家 ひめな",
+                "rank": "RANK_5",
+                "attributeId": "WATER",
+                "initialType": "SUPPORT",
+                "growthType": "DEFHP",
+                "attack": 2064,
+                "defense": 2034,
+                "hp": 7640,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1000,
+                "magiaId": 10285,
+                "cardMagia": {
+                    "id": 10285,
+                    "groupId": 1014,
+                    "name": "エモラブ★アクアボム",
+                    "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 水属性攻撃力UP(味全/3T)",
+                    "artId1": 100300107,
+                    "art1": {
+                        "artId": 100300107,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3600,
+                        "growPoint": 100
+                    },
+                    "artId2": 330301109,
+                    "art2": {
+                        "artId": 330301109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 350,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    },
+                    "artId3": 330321403,
+                    "art3": {
+                        "artId": 330321403,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_WATER",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 25
+                    }
+                },
+                "doppelMagiaId": 10288,
+                "doppelCardMagia": {
+                    "id": 10288,
+                    "groupId": 1014,
+                    "name": "恒久のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅸ] & 攻撃力UP & 水属性攻撃力UP & 防御力UP(味全/5T)",
+                    "artId1": 190102881,
+                    "art1": {
+                        "artId": 190102881,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8140,
+                        "growPoint": 220
+                    },
+                    "artId2": 350301111,
+                    "art2": {
+                        "artId": 350301111,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 400,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId3": 350321405,
+                    "art3": {
+                        "artId": 350321405,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_WATER",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    },
+                    "artId4": 9720,
+                    "art4": {
+                        "artId": 9720,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "ALL",
+                        "effectValue": 150,
+                        "enableTurn": 5,
+                        "growPoint": 25
+                    }
+                },
+                "doppelCharaNo": 102800,
+                "doppel": {
+                    "id": 102800,
+                    "name": "恒久のドッペル",
+                    "title": "その姿は、肖像",
+                    "description": "この感情の主は、ドッペルに対して不思議な親近感を覚えながらも、直視すると心を見透かされそうで怖いという複雑な感情を抱いている。それに対してドッペルは、主を悩ませる感情から解放するために体と繋がった球体の中で眠らせてしまうと、主の欲求を満たすために自分の理解者にならない相手をことごとく潰そうする。ちなみにドッペルの体は主の心を映した仮初めの姿で、本人の想いによってその姿が変化し、今は恋人の姿を求めるつがいの狼の姿をしている。仮初めの姿は球体と輪を破壊しない限り再生を繰り返すので、注意が必要。",
+                    "designer": "原案：f4samurai、監修：劇団イヌカレー（泥犬）",
+                    "archive": true,
+                    "openDate": "2022/05/23 15:10:00"
+                },
+                "skillId": 10285,
+                "cardSkill": {
+                    "id": 10285,
+                    "groupId": 1085,
+                    "name": "アゲてくんでよろ～★",
+                    "shortDescription": "攻撃力UP[Ⅸ] & 水属性攻撃力UP[Ⅸ]",
+                    "artId1": 310401109,
+                    "art1": {
+                        "artId": 310401109,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 310421409,
+                    "art2": {
+                        "artId": 310421409,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK_WATER",
+                        "targetId": "CONNECT",
+                        "effectValue": 250,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "MPUP",
+                "commandType4": "RANGE_H",
+                "commandType5": "CHARGE",
+                "illustrator": "いもあん",
+                "cardCustomize": {
+                    "cardId": 10285,
+                    "giftId1": 122,
+                    "gift1": {
+                        "id": 122,
+                        "type": 1,
+                        "name": "アクアオーブ＋",
+                        "attributeId": "WATER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum1": 15,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 60,
+                    "giftId2": 123,
+                    "gift2": {
+                        "id": 123,
+                        "type": 1,
+                        "name": "アクアオーブ＋＋",
+                        "attributeId": "WATER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum2": 10,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 551,
+                    "gift3": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum3": 3,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 90,
+                    "giftId4": 502,
+                    "gift4": {
+                        "id": 502,
+                        "type": 2,
+                        "name": "階段のモニュメント",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 8,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 90,
+                    "giftId5": 506,
+                    "gift5": {
+                        "id": 506,
+                        "type": 2,
+                        "name": "キュレーターのフード",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum5": 10,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 308,
+                    "gift6": {
+                        "id": 308,
+                        "type": 2,
+                        "name": "イキガミの毛玉",
+                        "rank": 1,
+                        "rankGift": "RANK_1",
+                        "price": 1000,
+                        "openDate": "2018/04/23 15:10:00"
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 310,
+            "npcPieceId1": 1765,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 1028,
+            "chara": {
+                "id": 1028,
+                "name": "藍家 ひめな",
+                "kana": "あいか ひめな",
+                "attributeId": "WATER",
+                "attackType": 3,
+                "initialType": "SUPPORT",
+                "growthType": "DEFHP",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 10284,
+                "defaultCard": {
+                    "cardId": 10284,
+                    "rank": "RANK_4",
+                    "attributeId": "WATER",
+                    "initialType": "SUPPORT",
+                    "growthType": "DEFHP",
+                    "attack": 1835,
+                    "defense": 1809,
+                    "hp": 6793,
+                    "miniCharaNo": 102800,
+                    "charaNo": 1028,
+                    "cardName": "藍家 ひめな",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10284,
+                        "groupId": 1014,
+                        "name": "エモラブ★アクアボム",
+                        "shortDescription": "敵全体にダメージ[Ⅴ] & 攻撃力UP & 水属性攻撃力UP(味全/3T)",
+                        "artId1": 100300105,
+                        "art1": {
+                            "artId": 100300105,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3400,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301107,
+                        "art2": {
+                            "artId": 330301107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 300,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330321401,
+                        "art3": {
+                            "artId": 330321401,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_WATER",
+                            "targetId": "ALL",
+                            "effectValue": 50,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10284,
+                        "groupId": 1085,
+                        "name": "アゲてくんでよろ～★",
+                        "shortDescription": "攻撃力UP[Ⅶ] & 水属性攻撃力UP[Ⅶ]",
+                        "artId1": 310401107,
+                        "art1": {
+                            "artId": 310401107,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310421407,
+                        "art2": {
+                            "artId": 310421407,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_WATER",
+                            "targetId": "CONNECT",
+                            "effectValue": 200,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 10285,
+                "evolutionCard1": {
+                    "cardId": 10285,
+                    "rank": "RANK_5",
+                    "attributeId": "WATER",
+                    "initialType": "SUPPORT",
+                    "growthType": "DEFHP",
+                    "attack": 2064,
+                    "defense": 2034,
+                    "hp": 7640,
+                    "miniCharaNo": 102800,
+                    "charaNo": 1028,
+                    "cardName": "藍家 ひめな",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "MPUP",
+                    "commandType4": "RANGE_H",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 10285,
+                        "groupId": 1014,
+                        "name": "エモラブ★アクアボム",
+                        "shortDescription": "敵全体にダメージ[Ⅶ] & 攻撃力UP & 水属性攻撃力UP(味全/3T)",
+                        "artId1": 100300107,
+                        "art1": {
+                            "artId": 100300107,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3600,
+                            "growPoint": 100
+                        },
+                        "artId2": 330301109,
+                        "art2": {
+                            "artId": 330301109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 350,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        },
+                        "artId3": 330321403,
+                        "art3": {
+                            "artId": 330321403,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_WATER",
+                            "targetId": "ALL",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 25
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 10285,
+                        "groupId": 1085,
+                        "name": "アゲてくんでよろ～★",
+                        "shortDescription": "攻撃力UP[Ⅸ] & 水属性攻撃力UP[Ⅸ]",
+                        "artId1": 310401109,
+                        "art1": {
+                            "artId": 310401109,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 310421409,
+                        "art2": {
+                            "artId": 310421409,
+                            "verbCode": "BUFF",
+                            "effectCode": "ATTACK_WATER",
+                            "targetId": "CONNECT",
+                            "effectValue": 250,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "天性のカリスマでネオマギウスのトップに登りつめた魔法少女。自由な恋愛を周囲に認めさせるため、天辺を目指している。底抜けに明るく誰とでも馴染める性格だが、恋愛に関しては純粋で幼馴染の恋人を一途に想い続けている。",
+                "school": "神浜未来アカデミー",
+                "designer": "蒼樹うめ",
+                "voiceActor": "首藤志奈",
+                "openDate": "2022/05/23 15:10:00",
+                "enhancementGroupId": 181
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "be503f57-1bdd-400b-b48e-d69c27809ef4",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 102800,
+            "npcHelpId": 310,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1765,
+            "piece": {
+                "pieceId": 1765,
+                "pieceType": "ABILITY",
+                "pieceName": "あの夏のキュン",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "1028",
+                "charaList": [
+                    {
+                        "charaId": 1028,
+                        "name": "藍家 ひめな"
+                    }
+                ],
+                "attack": 460,
+                "defense": 0,
+                "hp": 500,
+                "skillId": 176500,
+                "pieceSkill": {
+                    "id": 176500,
+                    "groupId": 1130,
+                    "name": "ファスト・マナアップ",
+                    "type": "ABILITY",
+                    "shortDescription": "自分のMPが10%溜まった状態でバトル開始",
+                    "artId1": 790212200,
+                    "art1": {
+                        "artId": 790212200,
+                        "verbCode": "INITIAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 176501,
+                "pieceSkill2": {
+                    "id": 176501,
+                    "groupId": 1130,
+                    "name": "ファスト・マナアップ",
+                    "type": "ABILITY",
+                    "shortDescription": "自分のMPが15%溜まった状態でバトル開始",
+                    "artId1": 790213600,
+                    "art1": {
+                        "artId": 790213600,
+                        "verbCode": "INITIAL",
+                        "effectCode": "MP",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "何度もあの日を思い出す＠夏の湿った匂い、お祭りの喧騒、緊張した君の顔＠それから…きらきら光るおもちゃの指輪＠あの瞬間のときめきは、これからも一生忘れない",
+                "illustrator": "都筑禰己",
+                "openDate": "2022/05/23 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 690,
+            "defense": 0,
+            "hp": 750,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 310
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 310
+        }
+    ],
+    "isNpc": true,
+    "userName": "藍家 ひめな",
+    "userRank": 100,
+    "cardId": 10285,
+    "charaName": "藍家 ひめな",
+    "cardRank": "RANK_5",
+    "attributeId": "WATER",
+    "level": 100,
+    "displayCardId": 10285,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
