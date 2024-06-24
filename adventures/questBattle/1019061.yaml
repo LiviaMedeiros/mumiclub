@@ -1,18 +1,20 @@
 ---
-questBattleId: 1019091
-sectionId: 101909
+questBattleId: 1019061
+sectionId: 101906
 sectionIndex: 1
 questBattleType: NORMAL
 bossFlag: false
-startStory: 101903-6
-endStory: 101903-8
-questStories: 101903-7
-questStoryList:
-- 101903-7
-storyWaveIndices: "1"
-placeId: "19172"
-bgm: bgm01_battle01
-bossBgm: bgm01_battle01
+npcHelpId: "155"
+npcHelpNameHidden: true
+npcHelpNameQuestHidden: false
+npcHelpDisplayHidden: true
+npcHelpSupportHidden: false
+startStory: 101902-8
+endStory: 101902-9
+questStoryList: []
+placeId: "19161"
+bgm: bgm01_battle07
+bossBgm: bgm01_battle07
 consumeType: NORMAL
 exp: 70
 cardExp: 150
@@ -23,10 +25,10 @@ defaultDropItemId: 106
 defaultDropItem:
   dropItemId: 106
   rewardCode1: RICHE_300
-dropItemId1: 4083
+dropItemId1: 2312
 dropItem1:
-  dropItemId: 4083
-  rewardCode1: GIFT_408_1
+  dropItemId: 2312
+  rewardCode1: GIFT_231_1
 mission1: NOT_DEAD
 missionMaster1:
   description: 一人も倒れずにクリア
@@ -38,8 +40,9 @@ missionMaster3:
   description: コネクトを1回発動
 missionRewardCode: ITEM_PRESENTED_MONEY_1
 waveEnemyAttributeIdList:
-- LIGHT
 - DARK
+- FIRE
+- TIMBER
 parameterMap: []
 automationPossibleAtFirst: true
 recordType: NONE

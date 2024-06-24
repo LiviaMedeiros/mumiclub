@@ -1,41 +1,42 @@
 ---
-questBattleId: 1019161
-sectionId: 101916
-sectionIndex: 1
+questBattleId: 3402623
+sectionId: 340262
+sectionIndex: 3
 questBattleType: NORMAL
 bossFlag: false
-endStory: 101905-2
+startStory: 340262-3
+endStory: 340262-4
 questStoryList: []
-placeId: "47109"
-bgm: bgm01_battle10
-bossBgm: bgm01_battle10
+placeId: "47107"
+bgm: bgm01_anime12
+bossBgm: bgm01_anime12
 consumeType: NORMAL
-exp: 70
-cardExp: 150
-baseBondsPt: 90
-riche: 720
-firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_P_1
+exp: 72
+cardExp: 60
+baseBondsPt: 162
+riche: 912
+firstClearRewardCodes: ITEM_CURE_AP_50_1
 defaultDropItemId: 106
 defaultDropItem:
   dropItemId: 106
   rewardCode1: RICHE_300
-dropItemId1: 3103
+dropItemId1: 212
 dropItem1:
-  dropItemId: 3103
-  rewardCode1: GIFT_310_1
+  dropItemId: 212
+  rewardCode1: GIFT_212_1
 mission1: NOT_DEAD
 missionMaster1:
   description: 一人も倒れずにクリア
 mission2: ACTION_15
 missionMaster2:
   description: 15ターン以内クリア
-mission3: COUNT_CONNECT_1
+mission3: MEMBER_CHARA_4026
 missionMaster3:
-  description: コネクトを1回発動
-missionRewardCode: ITEM_PRESENTED_MONEY_1
+  description: エリザを含めてクリア
+missionRewardCode: ITEM_PRISM_1
 waveEnemyAttributeIdList:
-- FIRE
-- TIMBER
+- WATER
+- DARK
 parameterMap: []
 automationPossibleAtFirst: true
 recordType: NONE
