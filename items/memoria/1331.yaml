@@ -35,18 +35,17 @@ pieceSkill:
     enableTurn: 3
     growPoint: 0
     probability: 250
-  regularEventId: 2020
-  regularEventArtId1: 530005400
+  regularEventId: 2038
+  regularEventArtId1: 310201809
   regularEventArt1:
-    artId: 530005400
-    verbCode: CONDITION_BAD
-    effectCode: DARKNESS
-    targetId: TARGET
-    effectValue: 350
-    enableTurn: 3
-    growPoint: 0
-    probability: 1000
-  regularEventDescription: 【殲滅戦時追加で必ず暗闇(敵単/3T)】
+    artId: 310201809
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 550
+    enableTurn: 1
+    growPoint: 25
+  regularEventDescription: 【殲滅戦時追加でBlast ダメージUP[Ⅸ](自/1T)】
   skillEffectRange: ALL
   skillDisplayType: MEMORIA
 skillId2: 133101
@@ -77,18 +76,17 @@ pieceSkill2:
     enableTurn: 3
     growPoint: 0
     probability: 300
-  regularEventId: 2020
-  regularEventArtId1: 530005600
+  regularEventId: 2038
+  regularEventArtId1: 310201810
   regularEventArt1:
-    artId: 530005600
-    verbCode: CONDITION_BAD
-    effectCode: BLINDNESS
-    targetId: TARGET
-    effectValue: 500
-    enableTurn: 3
-    growPoint: 0
-    probability: 1000
-  regularEventDescription: 【殲滅戦時追加で必ず幻惑(敵単/3T)】
+    artId: 310201810
+    verbCode: BUFF
+    effectCode: BLAST
+    targetId: SELF
+    effectValue: 600
+    enableTurn: 1
+    growPoint: 25
+  regularEventDescription: 【殲滅戦時追加でBlast ダメージUP[Ⅹ](自/1T)】
   skillEffectRange: ALL
   skillDisplayType: MEMORIA
 description: 「ちょっとしたことで怒ったり、ワガママ言ったり、泣いたり＠素直じゃなくて、周りを疑ってる自分が、すっごく嫌い＠だけど、それでも好きだって言ってくれる人も側にいるから＠その人たちを悲しませたくないし、悲しませる人は許さない」

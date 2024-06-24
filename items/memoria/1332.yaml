@@ -34,18 +34,18 @@ pieceSkill:
     effectValue: 175
     enableTurn: 1
     growPoint: 25
-  regularEventId: 2020
-  regularEventArtId1: 630220800
+  regularEventId: 2038
+  regularEventArtId1: 610206304
   regularEventArt1:
-    artId: 630220800
-    verbCode: IGNORE
-    effectCode: CONDITION_BAD
+    artId: 610206304
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
     targetId: SELF
-    enableTurn: 3
+    effectValue: 2000
+    enableTurn: 1
     growPoint: 0
-    probability: 1000
-    genericValue: NONE
-  regularEventDescription: 【殲滅戦時追加で状態異常を1回無効(自/3T)】
+    probability: 250
+  regularEventDescription: 【殲滅戦時追加で確率でクリティカル[Ⅳ](自/1T)】
   skillEffectRange: ALL
   skillDisplayType: MEMORIA
 skillId2: 133201
@@ -75,18 +75,18 @@ pieceSkill2:
     effectValue: 200
     enableTurn: 1
     growPoint: 25
-  regularEventId: 2020
-  regularEventArtId1: 630320800
+  regularEventId: 2038
+  regularEventArtId1: 610206305
   regularEventArt1:
-    artId: 630320800
-    verbCode: IGNORE
-    effectCode: CONDITION_BAD
-    targetId: ALL
-    enableTurn: 3
+    artId: 610206305
+    verbCode: CONDITION_GOOD
+    effectCode: CRITICAL
+    targetId: SELF
+    effectValue: 2000
+    enableTurn: 1
     growPoint: 0
-    probability: 1000
-    genericValue: NONE
-  regularEventDescription: 【殲滅戦時追加で状態異常を1回無効(味全/3T)】
+    probability: 300
+  regularEventDescription: 【殲滅戦時追加で確率でクリティカル[Ⅴ](自/1T)】
   skillEffectRange: ALL
   skillDisplayType: MEMORIA
 description: 「小さなころから敷地内にある色とりどりの自然に囲まれて＠きれいな花も、かわいい動物も、美味しい野菜に果物も守ってきた＠今も前も変わらずに、自然は掛け替えのない大切な友だち＠だからみんなを守るためにくれたと思う。ガーデニングをする力を」
