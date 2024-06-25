@@ -1,0 +1,65 @@
+---
+pieceId: 1809
+pieceType: ABILITY
+pieceName: はじめての、噂に聞く日常
+attributeId: ALL
+rank: RANK_3
+attack: 680
+defense: 0
+hp: 650
+skillId: 180900
+pieceSkill:
+  id: 180900
+  groupId: 1085
+  name: ペネトレイトライジング[Ⅱ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅱ] & 確率で防御無視[Ⅱ]
+  artId1: 390201102
+  art1:
+    artId: 390201102
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 100
+    growPoint: 25
+    probability: 1000
+  artId2: 690206602
+  art2:
+    artId: 690206602
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    growPoint: 0
+    probability: 150
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 180901
+pieceSkill2:
+  id: 180901
+  groupId: 1085
+  name: ペネトレイトライジング[Ⅲ]
+  type: ABILITY
+  shortDescription: 攻撃力UP[Ⅲ] & 確率で防御無視[Ⅲ]
+  artId1: 390201103
+  art1:
+    artId: 390201103
+    verbCode: BUFF
+    effectCode: ATTACK
+    targetId: SELF
+    effectValue: 150
+    growPoint: 25
+    probability: 1000
+  artId2: 690206603
+  art2:
+    artId: 690206603
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    growPoint: 0
+    probability: 200
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 特別なものなんて、ひとつも求めていなかった＠普通でよかった…どこにでもある普通の、小さな幸せ＠それだけでよかった＠今、それが手に入ったはずなのに、どうして悲しいの？
+illustrator: ―
+openDate: 2022/09/20 15:10:00
+...
