@@ -1,0 +1,48 @@
+---
+questBattleId: 1020035
+sectionId: 102003
+sectionIndex: 5
+questBattleType: NORMAL
+bossFlag: false
+npcHelpId: "160"
+startStory: 102003-9
+endStory: 102003-11
+questStories: 102003-10
+questStoryList:
+- 102003-10
+storyWaveIndices: "1"
+placeId: "14027"
+bgm: bgm01_battle12
+bossBgm: bgm01_battle12
+consumeType: NORMAL
+exp: 70
+cardExp: 150
+baseBondsPt: 90
+riche: 720
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_P_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 2534
+dropItem1:
+  dropItemId: 2534
+  rewardCode1: GIFT_253_1
+mission1: CLEAR
+missionMaster1:
+  description: クリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: COUNT_CONNECT_1
+missionMaster3:
+  description: コネクトを1回発動
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- DARK
+parameterMap: []
+openDate: 2019/03/08 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

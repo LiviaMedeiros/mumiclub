@@ -1,0 +1,63 @@
+---
+questBattleId: 2054031
+sectionId: 205403
+sectionIndex: 1
+questBattleType: NORMAL
+bossFlag: false
+npcHelpId: "114,117,118"
+npcHelpNameHidden: true
+npcHelpNameQuestHidden: false
+npcHelpDisplayHidden: true
+npcHelpSupportHidden: false
+startStory: 205403-1
+questStories: 205403-2
+questStoryList:
+- 205403-2
+storyWaveIndices: "1"
+placeId: "13081"
+bgm: bgm02_boss02
+bossBgm: bgm01_battle04
+consumeType: NORMAL
+exp: 78
+cardExp: 104
+baseBondsPt: 59
+riche: 1222
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 7001
+dropItem1:
+  dropItemId: 7001
+  rewardCode1: GIFT_211_1
+  rewardCode2: GIFT_212_1
+dropItemId2: 7002
+dropItem2:
+  dropItemId: 7002
+  rewardCode1: GIFT_221_1
+  rewardCode2: GIFT_222_1
+dropItemId3: 7003
+dropItem3:
+  dropItemId: 7003
+  rewardCode1: GIFT_231_1
+  rewardCode2: GIFT_232_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_10
+missionMaster2:
+  description: 10ターン以内クリア
+mission3: HP_50
+missionMaster3:
+  description: 合計残HPが50％以上でクリア
+missionRewardCode: ITEM_PRISM_1
+waveEnemyAttributeIdList:
+- FIRE
+- WATER
+- TIMBER
+parameterMap: []
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
