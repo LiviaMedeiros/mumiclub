@@ -1,0 +1,651 @@
+{
+    "npcHelpId": 378,
+    "userCardList": [
+        {
+            "cardId": 20055,
+            "displayCardId": 20055,
+            "revision": 3,
+            "attack": 9652,
+            "defense": 6553,
+            "hp": 20941,
+            "level": 100,
+            "experience": 0,
+            "magiaLevel": 1,
+            "enabled": true,
+            "customized1": false,
+            "customized2": false,
+            "customized3": false,
+            "customized4": false,
+            "customized5": false,
+            "customized6": false,
+            "card": {
+                "cardId": 20055,
+                "charaNo": 2005,
+                "miniCharaNo": 200500,
+                "magiaCharaNo": 200500,
+                "cardName": "巴 マミ",
+                "rank": "RANK_5",
+                "attributeId": "TIMBER",
+                "initialType": "MAGIA",
+                "growthType": "ATTACK",
+                "attack": 2360,
+                "defense": 1676,
+                "hp": 5315,
+                "rateGainMpAtk": 1200,
+                "rateGainMpDef": 1200,
+                "magiaId": 20055,
+                "cardMagia": {
+                    "id": 20055,
+                    "groupId": 1014,
+                    "name": "ティロ・フィナーレ",
+                    "shortDescription": "敵全体にダメージ[Ⅷ] & 確率で拘束(敵全/1T) & 確率でやけど(敵全/3T) & 自分防御DOWN(自/1T)",
+                    "artId1": 100300108,
+                    "art1": {
+                        "artId": 100300108,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 3700,
+                        "growPoint": 100
+                    },
+                    "artId2": 510304310,
+                    "art2": {
+                        "artId": 510304310,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "RESTRAINT",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 525
+                    },
+                    "artId3": 530304710,
+                    "art3": {
+                        "artId": 530304710,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BURN",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 525
+                    },
+                    "artId4": 9011,
+                    "art4": {
+                        "artId": 9011,
+                        "verbCode": "DEBUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 500,
+                        "enableTurn": 1,
+                        "growPoint": 0
+                    }
+                },
+                "doppelMagiaId": 20058,
+                "doppelCardMagia": {
+                    "id": 20058,
+                    "groupId": 1014,
+                    "name": "ご招待のドッペル",
+                    "shortDescription": "敵全体にダメージ[Ⅹ] & 確率で拘束(敵全/1T) & 確率でやけど(敵全/3T)",
+                    "artId1": 190200581,
+                    "art1": {
+                        "artId": 190200581,
+                        "verbCode": "ATTACK",
+                        "targetId": "ALL",
+                        "effectValue": 8580,
+                        "growPoint": 220
+                    },
+                    "artId2": 510304311,
+                    "art2": {
+                        "artId": 510304311,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "RESTRAINT",
+                        "targetId": "ALL",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 550
+                    },
+                    "artId3": 530304711,
+                    "art3": {
+                        "artId": 530304711,
+                        "verbCode": "CONDITION_BAD",
+                        "effectCode": "BURN",
+                        "targetId": "ALL",
+                        "effectValue": 100,
+                        "enableTurn": 3,
+                        "growPoint": 0,
+                        "probability": 550
+                    }
+                },
+                "doppelCharaNo": 200500,
+                "doppel": {
+                    "id": 200500,
+                    "name": "ご招待のドッペル",
+                    "title": "その姿は、おめかし",
+                    "description": "この感情の主は、ドッペルを信用せず、普段通り戦い続ける。＠他と比べると非常に小柄であるこのドッペルは、頭上に位置するため、主にその姿を認識されることは滅多にない。＠意思の疎通が取れているかも怪しいため、主はいつもどおり戦い続けるが、このドッペルはそれを支援している。＠通常時のドッペルを見る限りは小ぶりで頼りないが、その蔦は相手を貫くだけの破壊力を十分に持ち合わせている。",
+                    "designer": "原案・監修：劇団イヌカレー（泥犬）",
+                    "archive": true
+                },
+                "skillId": 20055,
+                "cardSkill": {
+                    "id": 20055,
+                    "groupId": 1087,
+                    "name": "ティロ・デュエット！",
+                    "shortDescription": "与えるダメージUP[Ⅸ] & 必ず拘束 & 必ずやけど",
+                    "artId1": 310401309,
+                    "art1": {
+                        "artId": 310401309,
+                        "verbCode": "BUFF",
+                        "effectCode": "DAMAGE",
+                        "targetId": "CONNECT",
+                        "effectValue": 400,
+                        "enableTurn": 1,
+                        "growPoint": 25
+                    },
+                    "artId2": 610409900,
+                    "art2": {
+                        "artId": 610409900,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "RESTRAINT",
+                        "targetId": "CONNECT",
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "artId3": 610410300,
+                    "art3": {
+                        "artId": 610410300,
+                        "verbCode": "ENCHANT",
+                        "effectCode": "BURN",
+                        "targetId": "CONNECT",
+                        "effectValue": 100,
+                        "enableTurn": 1,
+                        "growPoint": 0,
+                        "probability": 1000
+                    }
+                },
+                "pieceSkillList": [],
+                "maxPieceSkillList": [],
+                "commandType1": "MPUP",
+                "commandType2": "MPUP",
+                "commandType3": "RANGE_H",
+                "commandType4": "CHARGE",
+                "commandType5": "CHARGE",
+                "cardCustomize": {
+                    "cardId": 20055,
+                    "giftId1": 551,
+                    "gift1": {
+                        "id": 551,
+                        "type": 1,
+                        "name": "レインボーオーブ",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 10000
+                    },
+                    "giftNum1": 3,
+                    "bonusCode1": "ATTACK",
+                    "bonusNum1": 80,
+                    "giftId2": 132,
+                    "gift2": {
+                        "id": 132,
+                        "type": 1,
+                        "name": "フォレストオーブ＋",
+                        "attributeId": "TIMBER",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 1000
+                    },
+                    "giftNum2": 15,
+                    "bonusCode2": "DEFENSE",
+                    "bonusNum2": 60,
+                    "giftId3": 133,
+                    "gift3": {
+                        "id": 133,
+                        "type": 1,
+                        "name": "フォレストオーブ＋＋",
+                        "attributeId": "TIMBER",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 2000
+                    },
+                    "giftNum3": 10,
+                    "bonusCode3": "HP",
+                    "bonusNum3": 70,
+                    "giftId4": 503,
+                    "gift4": {
+                        "id": 503,
+                        "type": 2,
+                        "name": "マチビト馬の車輪",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum4": 10,
+                    "bonusCode4": "ACCEL",
+                    "bonusNum4": 70,
+                    "giftId5": 403,
+                    "gift5": {
+                        "id": 403,
+                        "type": 2,
+                        "name": "絵馬の水引",
+                        "rank": 2,
+                        "rankGift": "RANK_2",
+                        "price": 3000
+                    },
+                    "giftNum5": 15,
+                    "bonusCode5": "BLAST",
+                    "bonusNum5": 50,
+                    "giftId6": 553,
+                    "gift6": {
+                        "id": 553,
+                        "type": 2,
+                        "name": "羊の角",
+                        "rank": 3,
+                        "rankGift": "RANK_3",
+                        "price": 5000
+                    },
+                    "giftNum6": 8,
+                    "bonusCode6": "CHARGE",
+                    "bonusNum6": 70
+                }
+            },
+            "npcHelpId": 378,
+            "npcPieceId1": 1082,
+            "npcPieceId2": 1316
+        }
+    ],
+    "userCharaList": [
+        {
+            "charaId": 2005,
+            "chara": {
+                "id": 2005,
+                "name": "巴 マミ",
+                "kana": "ともえ まみ",
+                "attributeId": "TIMBER",
+                "attackType": 0,
+                "initialType": "MAGIA",
+                "growthType": "ATTACK",
+                "enemyFlg": false,
+                "doubleUnitFlg": false,
+                "maxSaleItemId": "DESTINY_CRYSTAL",
+                "defaultCardId": 20054,
+                "defaultCard": {
+                    "cardId": 20054,
+                    "rank": "RANK_4",
+                    "attributeId": "TIMBER",
+                    "initialType": "MAGIA",
+                    "growthType": "ATTACK",
+                    "attack": 2079,
+                    "defense": 1480,
+                    "hp": 4687,
+                    "miniCharaNo": 200500,
+                    "charaNo": 2005,
+                    "cardName": "巴 マミ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 20054,
+                        "groupId": 1014,
+                        "name": "ティロ・フィナーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅵ] & 確率で拘束(敵全/1T) & 自分防御DOWN(自/1T)",
+                        "artId1": 100300106,
+                        "art1": {
+                            "artId": 100300106,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3500,
+                            "growPoint": 100
+                        },
+                        "artId2": 510304308,
+                        "art2": {
+                            "artId": 510304308,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "ALL",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 475
+                        },
+                        "artId3": 9011,
+                        "art3": {
+                            "artId": 9011,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "SELF",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 20054,
+                        "groupId": 1087,
+                        "name": "ティロ・デュエット！",
+                        "shortDescription": "与えるダメージUP[Ⅶ] & 必ず拘束 & 必ずやけど",
+                        "artId1": 310401307,
+                        "art1": {
+                            "artId": 310401307,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 350,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610409900,
+                        "art2": {
+                            "artId": 610409900,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 610410300,
+                        "art3": {
+                            "artId": 610410300,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BURN",
+                            "targetId": "CONNECT",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "evolutionCardId1": 20055,
+                "evolutionCard1": {
+                    "cardId": 20055,
+                    "rank": "RANK_5",
+                    "attributeId": "TIMBER",
+                    "initialType": "MAGIA",
+                    "growthType": "ATTACK",
+                    "attack": 2360,
+                    "defense": 1676,
+                    "hp": 5315,
+                    "miniCharaNo": 200500,
+                    "charaNo": 2005,
+                    "cardName": "巴 マミ",
+                    "commandType1": "MPUP",
+                    "commandType2": "MPUP",
+                    "commandType3": "RANGE_H",
+                    "commandType4": "CHARGE",
+                    "commandType5": "CHARGE",
+                    "cardMagia": {
+                        "id": 20055,
+                        "groupId": 1014,
+                        "name": "ティロ・フィナーレ",
+                        "shortDescription": "敵全体にダメージ[Ⅷ] & 確率で拘束(敵全/1T) & 確率でやけど(敵全/3T) & 自分防御DOWN(自/1T)",
+                        "artId1": 100300108,
+                        "art1": {
+                            "artId": 100300108,
+                            "verbCode": "ATTACK",
+                            "targetId": "ALL",
+                            "effectValue": 3700,
+                            "growPoint": 100
+                        },
+                        "artId2": 510304310,
+                        "art2": {
+                            "artId": 510304310,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "ALL",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 525
+                        },
+                        "artId3": 530304710,
+                        "art3": {
+                            "artId": 530304710,
+                            "verbCode": "CONDITION_BAD",
+                            "effectCode": "BURN",
+                            "targetId": "ALL",
+                            "effectValue": 100,
+                            "enableTurn": 3,
+                            "growPoint": 0,
+                            "probability": 525
+                        },
+                        "artId4": 9011,
+                        "art4": {
+                            "artId": 9011,
+                            "verbCode": "DEBUFF",
+                            "effectCode": "DEFENSE",
+                            "targetId": "SELF",
+                            "effectValue": 500,
+                            "enableTurn": 1,
+                            "growPoint": 0
+                        }
+                    },
+                    "cardSkill": {
+                        "id": 20055,
+                        "groupId": 1087,
+                        "name": "ティロ・デュエット！",
+                        "shortDescription": "与えるダメージUP[Ⅸ] & 必ず拘束 & 必ずやけど",
+                        "artId1": 310401309,
+                        "art1": {
+                            "artId": 310401309,
+                            "verbCode": "BUFF",
+                            "effectCode": "DAMAGE",
+                            "targetId": "CONNECT",
+                            "effectValue": 400,
+                            "enableTurn": 1,
+                            "growPoint": 25
+                        },
+                        "artId2": 610409900,
+                        "art2": {
+                            "artId": 610409900,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "RESTRAINT",
+                            "targetId": "CONNECT",
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        },
+                        "artId3": 610410300,
+                        "art3": {
+                            "artId": 610410300,
+                            "verbCode": "ENCHANT",
+                            "effectCode": "BURN",
+                            "targetId": "CONNECT",
+                            "effectValue": 100,
+                            "enableTurn": 1,
+                            "growPoint": 0,
+                            "probability": 1000
+                        }
+                    },
+                    "pieceSkillList": [],
+                    "maxPieceSkillList": []
+                },
+                "description": "鹿目まどかたちよりも前から見滝原市で魔女たちと戦い続けている＠魔法少女。見滝原中学校の３年生。＠魔法少女としてもまどかたちのよき先輩でもあり、人を救えることを＠誇りに思っている。紅茶好き。",
+                "school": "見滝原中学校",
+                "designer": "蒼樹うめ",
+                "voiceActor": "水橋かおり",
+                "enhancementGroupId": 8
+            },
+            "bondsTotalPt": 0,
+            "userCardId": "80d0d1fd-d794-47df-9b0f-301eab0e7029",
+            "lbItemNum": 0,
+            "visualizable": false,
+            "commandVisualType": "CHARA",
+            "commandVisualId": 200500,
+            "npcHelpId": 378,
+            "emotionSkillList": []
+        }
+    ],
+    "userDoppelList": [],
+    "userPieceList": [
+        {
+            "pieceId": 1082,
+            "piece": {
+                "pieceId": 1082,
+                "pieceType": "SKILL",
+                "pieceName": "つかの間の休息",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "charaIds": "2005",
+                "charaList": [
+                    {
+                        "charaId": 2005,
+                        "name": "巴 マミ"
+                    }
+                ],
+                "attack": 0,
+                "defense": 501,
+                "hp": 421,
+                "skillId": 108200,
+                "pieceSkill": {
+                    "id": 108200,
+                    "groupId": 1161,
+                    "name": "モノポライズドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 15,
+                    "shortDescription": "自分のDiscドロー",
+                    "messageId": 70,
+                    "artId1": 700211700,
+                    "art1": {
+                        "artId": 700211700,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARACTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 108201,
+                "pieceSkill2": {
+                    "id": 108201,
+                    "groupId": 1161,
+                    "name": "モノポライズドロー",
+                    "type": "SKILL",
+                    "intervalTurn": 13,
+                    "shortDescription": "自分のDiscドロー",
+                    "messageId": 70,
+                    "artId1": 700211700,
+                    "art1": {
+                        "artId": 700211700,
+                        "verbCode": "DRAW",
+                        "effectCode": "CHARACTER",
+                        "targetId": "SELF",
+                        "growPoint": 0,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "優雅なティータイム＠戦い続けることを宿命づけられた彼女達には＠休息も大切なのである",
+                "illustrator": "かにぱんだ"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 0,
+            "defense": 751,
+            "hp": 631,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 378
+        },
+        {
+            "pieceId": 1316,
+            "piece": {
+                "pieceId": 1316,
+                "pieceType": "ABILITY",
+                "pieceName": "休憩時間は何味？＜アリナ＞",
+                "attributeId": "ALL",
+                "rank": "RANK_3",
+                "attack": 633,
+                "defense": 0,
+                "hp": 573,
+                "skillId": 131600,
+                "pieceSkill": {
+                    "id": 131600,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅱ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅱ] & 防御力UP[Ⅱ]",
+                    "artId1": 390201102,
+                    "art1": {
+                        "artId": 390201102,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 100,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201202,
+                    "art2": {
+                        "artId": 390201202,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "skillId2": 131601,
+                "pieceSkill2": {
+                    "id": 131601,
+                    "groupId": 1085,
+                    "name": "ブルーム・アデプト[Ⅲ]",
+                    "type": "ABILITY",
+                    "shortDescription": "攻撃力UP[Ⅲ] & 防御力UP[Ⅲ]",
+                    "artId1": 390201103,
+                    "art1": {
+                        "artId": 390201103,
+                        "verbCode": "BUFF",
+                        "effectCode": "ATTACK",
+                        "targetId": "SELF",
+                        "effectValue": 150,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "artId2": 390201203,
+                    "art2": {
+                        "artId": 390201203,
+                        "verbCode": "BUFF",
+                        "effectCode": "DEFENSE",
+                        "targetId": "SELF",
+                        "effectValue": 225,
+                        "growPoint": 25,
+                        "probability": 1000
+                    },
+                    "skillEffectRange": "ALL",
+                    "skillDisplayType": "MEMORIA"
+                },
+                "description": "集め集まる色んな気持ち。穢れの卵のすぐ傍で口にするのはどんな味？＠広がってくのは愉悦の甘味＠口から広がりハートに落ちて、うっとり静かに満たされる＠もう少しだけ欲張って、口の中に入れようか",
+                "illustrator": "―",
+                "openDate": "2019/03/05 15:10:00"
+            },
+            "level": 20,
+            "lbCount": 0,
+            "attack": 949,
+            "defense": 0,
+            "hp": 859,
+            "protect": false,
+            "archive": 0,
+            "npcHelpId": 378
+        }
+    ],
+    "isNpc": true,
+    "userName": "巴 マミ",
+    "userRank": 100,
+    "cardId": 20055,
+    "charaName": "巴 マミ",
+    "cardRank": "RANK_5",
+    "attributeId": "TIMBER",
+    "level": 100,
+    "displayCardId": 20055,
+    "revision": 1,
+    "follow": false,
+    "follower": false
+}
