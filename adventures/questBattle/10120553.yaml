@@ -1,0 +1,58 @@
+---
+questBattleId: 10120553
+sectionId: 101205
+sectionIndex: 3
+questBattleType: HARD
+bossFlag: false
+npcHelpId: "127,138"
+npcHelpNameHidden: false
+npcHelpNameQuestHidden: false
+npcHelpDisplayHidden: false
+npcHelpSupportHidden: false
+startStory: 101205-4
+endStory: 101205-6
+questStories: 101205-5
+questStoryList:
+- 101205-5
+storyWaveIndices: "4"
+placeId: "11094"
+bgm: bgm02_boss01
+bossBgm: bgm02_boss01
+consumeType: NORMAL
+ap: 15
+difficulty: 60
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 1200
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 402
+dropItem1:
+  dropItemId: 402
+  rewardCode1: GIFT_402_1
+dropItemId2: 502
+dropItem2:
+  dropItemId: 502
+  rewardCode1: GIFT_502_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: COUNT_CONNECT_1
+missionMaster3:
+  description: コネクトを1回発動
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- WATER
+parameterMap: []
+openDate: 2018/02/28 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

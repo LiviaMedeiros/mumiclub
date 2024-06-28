@@ -1,0 +1,59 @@
+---
+questBattleId: 10130754
+sectionId: 101307
+sectionIndex: 4
+questBattleType: HARD
+bossFlag: false
+npcHelpId: "139,138"
+npcHelpNameHidden: false
+npcHelpNameQuestHidden: false
+npcHelpDisplayHidden: false
+npcHelpSupportHidden: false
+startStory: 101307-4
+endStory: 101307-5
+questStories: 101307-11
+questStoryList:
+- 101307-11
+storyWaveIndices: "1"
+placeId: "12064"
+bgm: bgm02_boss01
+bossBgm: bgm02_boss01
+consumeType: FREE_AT_NOT_CLEAR
+ap: 15
+difficulty: 65
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 1200
+onlyCharaIds: "1001"
+charaIdNameMap:
+  1001: 環 いろは
+skipHelper: true
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 503
+dropItem1:
+  dropItemId: 503
+  rewardCode1: GIFT_503_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: HP_25
+missionMaster3:
+  description: 合計残HPが25％以上でクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+naviWaves: '{"naviWaveList":[{"naviPrep":[{"command":"gimmick","commandSub":"doppel_disabled","parameter":"0"},{"command":"system","commandSub":"end"}],"naviPreview":[{"command":"system","commandSub":"end"}],"naviMain":[{"command":"wait","commandSub":"turn"},{"command":"wait","commandSub":"turn"},{"command":"wait","commandSub":"turn"},{"command":"system","commandSub":"disabledTap"},{"command":"system","commandSub":"inStory","parameter":"101307-12_TvyVa"},{"command":"wait","commandSub":"playabled"},{"command":"gimmick","commandSub":"doppel_enabled","parameter":"0"},{"command":"system","commandSub":"updateMagiaButton"},{"command":"anime","commandSub":"qb_doppel_tutorial","parameter":"m_000,0,0"},{"command":"wait","commandSub":"time","parameter":"10"},{"command":"wait","commandSub":"touch"},{"command":"system","commandSub":"clearAnime"},{"command":"system","commandSub":"end"}]}]}'
+specialLogicAtNotClear: ADD_DOPPEL_1001_100100_10019,MOD_ENEMY_1022_81022
+waveEnemyAttributeIdList:
+- LIGHT
+parameterMap: []
+openDate: 2018/03/30 15:10:00
+recordType: NONE
+autoRun: true
+...

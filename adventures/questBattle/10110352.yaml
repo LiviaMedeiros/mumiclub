@@ -1,0 +1,53 @@
+---
+questBattleId: 10110352
+sectionId: 101103
+sectionIndex: 2
+questBattleType: HARD
+bossFlag: false
+npcHelpId: "127"
+npcHelpNameHidden: false
+npcHelpNameQuestHidden: false
+npcHelpDisplayHidden: false
+npcHelpSupportHidden: false
+startStory: 101103-3
+questStories: 101103-4
+questStoryList:
+- 101103-4
+storyWaveIndices: "1"
+placeId: "47103"
+bgm: bgm01_anime12
+bossBgm: bgm01_anime12
+consumeType: NORMAL
+ap: 15
+difficulty: 60
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 1200
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 401
+dropItem1:
+  dropItemId: 401
+  rewardCode1: GIFT_401_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- FIRE
+parameterMap: []
+openDate: 2018/01/15 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
