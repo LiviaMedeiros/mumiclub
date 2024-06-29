@@ -1,0 +1,71 @@
+---
+pieceId: 1816
+pieceType: SKILL
+pieceName: 見えていなかった愛情
+attributeId: ALL
+rank: RANK_3
+attack: 0
+defense: 710
+hp: 650
+skillId: 181600
+pieceSkill:
+  id: 181600
+  groupId: 1087
+  name: ペネトレイト・スラッシュ[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 与えるダメージUP[Ⅲ] & 確率で防御無視[Ⅶ](自/1T)
+  messageId: 70
+  artId1: 310201303
+  art1:
+    artId: 310201303
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610206607
+  art2:
+    artId: 610206607
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 400
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 181601
+pieceSkill2:
+  id: 181601
+  groupId: 1087
+  name: ペネトレイト・スラッシュ[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 与えるダメージUP[Ⅳ] & 確率で防御無視[Ⅷ](自/1T)
+  messageId: 70
+  artId1: 310201304
+  art1:
+    artId: 310201304
+    verbCode: BUFF
+    effectCode: DAMAGE
+    targetId: SELF
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  artId2: 610206608
+  art2:
+    artId: 610206608
+    verbCode: CONDITION_GOOD
+    effectCode: DEFENSE_IGNORED
+    targetId: SELF
+    enableTurn: 1
+    growPoint: 0
+    probability: 450
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: いつか、父が作ってくれたカレーライス＠野菜の形は不揃いで、スパイスが隠れてしまうほどに甘かった＠それでも、きっと自分は死ぬまでこの味を忘れない＠甘くて無骨なカレーライスは、愛されている証拠だから
+illustrator: ―
+openDate: 2022/10/03 15:10:00
+...
