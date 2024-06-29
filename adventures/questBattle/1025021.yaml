@@ -6,8 +6,10 @@ questBattleType: NORMAL
 bossFlag: false
 startStory: 102502-1
 endStory: 102502-3
-questStory: 102502-2
-storyWaveIndex: 1
+questStories: 102502-2
+questStoryList:
+- 102502-2
+storyWaveIndices: "1"
 placeId: "14072"
 bgm: bgm01_battle01
 bossBgm: bgm01_battle01
@@ -17,6 +19,7 @@ exp: 42
 cardExp: 100
 baseBondsPt: 56
 riche: 476
+parameter: WAVE_LIMIT_DROP=8812
 firstClearRewardCodes: GIFT_882_1
 defaultDropItemId: 106
 defaultDropItem:
@@ -41,7 +44,8 @@ waveEnemyAttributeIdList:
 - LIGHT
 - DARK
 - WATER
-parameterMap: []
+parameterMap:
+  WAVE_LIMIT_DROP: "8812"
 automationPossibleAtFirst: true
 recordType: NONE
 autoRun: true
