@@ -1,0 +1,51 @@
+---
+questBattleId: 10171653
+sectionId: 101716
+sectionIndex: 3
+questBattleType: HARD
+bossFlag: false
+startStory: 101716-4
+endStory: 101716-6
+questStories: 101716-5
+questStoryList:
+- 101716-5
+storyWaveIndices: "1"
+placeId: "17141"
+bgm: bgm02_boss01
+bossBgm: bgm02_boss01
+consumeType: NORMAL
+ap: 15
+difficulty: 75
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 120
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 2126
+dropItem1:
+  dropItemId: 2126
+  rewardCode1: GIFT_212_1
+mission1: HP_25
+missionMaster1:
+  description: 合計残HPが25％以上でクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: COUNT_CONNECT_1
+missionMaster3:
+  description: コネクトを1回発動
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- LIGHT
+- TIMBER
+- FIRE
+parameterMap: []
+openDate: 2018/10/05 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

@@ -1,0 +1,54 @@
+---
+questBattleId: 10170751
+sectionId: 101707
+sectionIndex: 1
+questBattleType: HARD
+bossFlag: false
+startStory: 101707-1
+endStory: 101707-3
+questStories: 101707-2
+questStoryList:
+- 101707-2
+storyWaveIndices: "1"
+placeId: "11022"
+bgm: bgm02_boss02
+bossBgm: bgm02_boss02
+consumeType: NORMAL
+ap: 15
+difficulty: 65
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 120
+firstClearRewardCodes: ITEM_COMPOSE_ITEM_ALL_PP_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 2524
+dropItem1:
+  dropItemId: 2524
+  rewardCode1: GIFT_252_1
+dropItemId2: 2122
+dropItem2:
+  dropItemId: 2122
+  rewardCode1: GIFT_212_1
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: COUNT_CONNECT_1
+missionMaster3:
+  description: コネクトを1回発動
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- FIRE
+- DARK
+parameterMap: []
+openDate: 2018/10/05 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

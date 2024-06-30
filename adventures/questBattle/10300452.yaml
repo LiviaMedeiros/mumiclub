@@ -1,0 +1,55 @@
+---
+questBattleId: 10300452
+sectionId: 103004
+sectionIndex: 2
+questBattleType: HARD
+bossFlag: false
+startStory: 103004-3
+endStory: 103004-5
+questStories: 103004-4
+questStoryList:
+- 103004-4
+storyWaveIndices: "1"
+placeId: "19301"
+bgm: bgm22_battle13
+bossBgm: bgm22_battle17
+consumeType: NORMAL
+ap: 15
+difficulty: 70
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 1200
+firstClearRewardCodes: GIFT_812_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 8113
+dropItem1:
+  dropItemId: 8113
+  rewardCode1: GIFT_811_2
+  rewardCode2: GIFT_811_3
+  rewardCode3: GIFT_811_4
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- FIRE
+- TIMBER
+- DARK
+- VOID
+- LIGHT
+parameterMap: []
+openDate: 2022/06/27 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...

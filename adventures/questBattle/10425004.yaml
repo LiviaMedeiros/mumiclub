@@ -1,0 +1,40 @@
+---
+questBattleId: 10425004
+sectionId: 104250
+sectionIndex: 4
+questBattleType: NORMAL
+bossFlag: false
+questStoryList: []
+placeId: "46413"
+bgm: bgm01_anime15
+bossBgm: bgm01_anime15
+consumeType: NORMAL
+ap: 10
+difficulty: 100
+exp: 60
+cardExp: 10000
+baseBondsPt: 150
+riche: 820
+parameter: BOSS_NAME=銀の魔女
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+mission1: CLEAR
+missionMaster1:
+  description: クリア
+mission2: WAVE_1
+missionMaster2:
+  description: 1Wave内にクリア
+mission3: ONLY_MEMBER_COUNT_5
+missionMaster3:
+  description: 5人以下のチームでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_25
+waveEnemyAttributeIdList:
+- TIMBER
+parameterMap:
+  BOSS_NAME: 銀の魔女
+continuable: true
+automationPossibleAtFirst: true
+recordType: NONE
+...
