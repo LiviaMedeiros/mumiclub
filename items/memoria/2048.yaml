@@ -1,0 +1,175 @@
+---
+pieceId: 2048
+pieceType: ABILITY
+pieceName: チューブの魔女
+attributeId: ALL
+rank: RANK_4
+charaIds: "1008"
+charaList:
+- charaId: 1008
+  name: アリナ・グレイ
+attack: 1200
+defense: 0
+hp: 600
+skillId: 204800
+pieceSkill:
+  id: 204800
+  groupId: 1145
+  name: ヴェノム・スレイヤー[Ⅴ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で強化毒(3T)を付与[Ⅴ] & ダメージアップ状態[Ⅴ] & 敵状態異常時ダメージUP[Ⅶ]
+  artId1: 8225
+  art1:
+    artId: 8225
+    verbCode: ENCHANT
+    effectCode: POISON
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 0
+    probability: 300
+  artId2: 690206105
+  art2:
+    artId: 690206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId3: 690214607
+  art3:
+    artId: 690214607
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 450
+    growPoint: 25
+    probability: 1000
+  artId4: 1219001
+  art4:
+    artId: 1219001
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5219301
+  artId5: 1219002
+  art5:
+    artId: 1219002
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5219301
+  artId6: 1219003
+  art6:
+    artId: 1219003
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5219302
+  artId7: 1219004
+  art7:
+    artId: 1219004
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5219302
+  artId8: 1219005
+  art8:
+    artId: 1219005
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5219303
+  artId9: 1219006
+  art9:
+    artId: 1219006
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5219303
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 204801
+pieceSkill2:
+  id: 204801
+  groupId: 1145
+  name: ヴェノム・スレイヤー[Ⅴ]
+  type: ABILITY
+  shortDescription: 攻撃時に確率で強化毒(3T)を付与[Ⅴ] & ダメージアップ状態[Ⅴ] & 敵状態異常時ダメージUP[Ⅶ]
+  artId1: 8225
+  art1:
+    artId: 8225
+    verbCode: ENCHANT
+    effectCode: POISON
+    targetId: SELF
+    effectValue: 300
+    enableTurn: 3
+    growPoint: 0
+    probability: 300
+  artId2: 690206105
+  art2:
+    artId: 690206105
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP
+    targetId: SELF
+    effectValue: 250
+    growPoint: 25
+    probability: 1000
+  artId3: 690214607
+  art3:
+    artId: 690214607
+    verbCode: CONDITION_GOOD
+    effectCode: DAMAGE_UP_BAD
+    targetId: SELF
+    effectValue: 450
+    growPoint: 25
+    probability: 1000
+  artId4: 1219001
+  art4:
+    artId: 1219001
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5219301
+  artId5: 1219002
+  art5:
+    artId: 1219002
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5219301
+  artId6: 1219003
+  art6:
+    artId: 1219003
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5219302
+  artId7: 1219004
+  art7:
+    artId: 1219004
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5219302
+  artId8: 1219005
+  art8:
+    artId: 1219005
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_ATK
+    effectValue: 30000
+    parameter: 5219303
+  artId9: 1219006
+  art9:
+    artId: 1219006
+    verbCode: OTHER
+    effectCode: QUESTBATTLE_DEF
+    effectValue: 30000
+    parameter: 5219303
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 己の美を求める少女は　生死の境に酔い痴れて　主題なき劇物を産む＠周囲を狂わせ　理解されない塵芥　それでも願うは　籠居する工房＠傲慢さで身を包み　人の目を遮るも　逸脱した芸術は　悪夢と化す＠心震える美を　落とし込み　発信すれば　一流の名画と　誰もが頷く
+illustrator: 原案・監修：劇団イヌカレー（泥犬）
+openDate: 2024/07/01 15:10:00
+...
