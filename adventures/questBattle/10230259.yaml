@@ -1,0 +1,53 @@
+---
+questBattleId: 10230259
+sectionId: 102302
+sectionIndex: 9
+questBattleType: HARD
+bossFlag: false
+startStory: 102302-21
+endStory: 102302-23
+questStories: 102302-22
+questStoryList:
+- 102302-22
+storyWaveIndices: "1"
+placeId: "14028"
+bgm: bgm22_battle09
+bossBgm: bgm22_battle08
+consumeType: NORMAL
+ap: 15
+difficulty: 80
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 1200
+firstClearRewardCodes: GIFT_852_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 8513
+dropItem1:
+  dropItemId: 8513
+  rewardCode1: GIFT_851_2
+  rewardCode2: GIFT_851_3
+  rewardCode3: GIFT_851_4
+mission1: CLEAR
+missionMaster1:
+  description: クリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- FIRE
+- WATER
+- LIGHT
+parameterMap: []
+openDate: 2020/11/09 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
