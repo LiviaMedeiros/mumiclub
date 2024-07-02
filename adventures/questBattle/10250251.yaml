@@ -1,0 +1,56 @@
+---
+questBattleId: 10250251
+sectionId: 102502
+sectionIndex: 1
+questBattleType: HARD
+bossFlag: false
+startStory: 102502-1
+endStory: 102502-3
+questStories: 102502-2
+questStoryList:
+- 102502-2
+storyWaveIndices: "1"
+placeId: "14072"
+bgm: bgm01_battle01
+bossBgm: bgm01_battle01
+consumeType: NORMAL
+ap: 15
+difficulty: 80
+limitTurn: 5
+exp: 150
+cardExp: 225
+baseBondsPt: 120
+riche: 1200
+parameter: WAVE_LIMIT_DROP=8813
+firstClearRewardCodes: GIFT_882_1
+defaultDropItemId: 106
+defaultDropItem:
+  dropItemId: 106
+  rewardCode1: RICHE_300
+dropItemId1: 8813
+dropItem1:
+  dropItemId: 8813
+  rewardCode1: GIFT_881_2
+  rewardCode2: GIFT_881_3
+  rewardCode3: GIFT_881_4
+mission1: NOT_DEAD
+missionMaster1:
+  description: 一人も倒れずにクリア
+mission2: ACTION_15
+missionMaster2:
+  description: 15ターン以内クリア
+mission3: NOT_CONTINUE
+missionMaster3:
+  description: コンティニュー無しでクリア
+missionRewardCode: ITEM_PRESENTED_MONEY_3
+waveEnemyAttributeIdList:
+- LIGHT
+- DARK
+- WATER
+parameterMap:
+  WAVE_LIMIT_DROP: "8813"
+openDate: 2021/09/06 15:10:00
+automationPossibleAtFirst: true
+recordType: NONE
+autoRun: true
+...
