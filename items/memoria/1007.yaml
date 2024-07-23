@@ -1,0 +1,52 @@
+---
+pieceId: 1007
+pieceType: SKILL
+pieceName: 銀の魔女の手下
+attributeId: ALL
+rank: RANK_1
+attack: 0
+defense: 200
+hp: 220
+skillId: 100710
+pieceSkill:
+  id: 100710
+  groupId: 1096
+  name: スラッシュダウン[Ⅲ]
+  type: SKILL
+  intervalTurn: 6
+  shortDescription: 与えるダメージDOWN[Ⅲ](敵単/1T)
+  messageId: 72
+  artId1: 410002203
+  art1:
+    artId: 410002203
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 150
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+skillId2: 100711
+pieceSkill2:
+  id: 100711
+  groupId: 1096
+  name: スラッシュダウン[Ⅳ]
+  type: SKILL
+  intervalTurn: 5
+  shortDescription: 与えるダメージDOWN[Ⅳ](敵単/1T)
+  messageId: 72
+  artId1: 410002204
+  art1:
+    artId: 410002204
+    verbCode: DEBUFF
+    effectCode: DAMAGE
+    targetId: TARGET
+    effectValue: 200
+    enableTurn: 1
+    growPoint: 25
+  skillEffectRange: ALL
+  skillDisplayType: MEMORIA
+description: 銀の魔女の手下。その役割は主張。＠体についたパイプから近所迷惑な爆音を撒き散らし気まぐれな砂嵐のように移動する。嫌いなものは磁石。
+illustrator: 劇団イヌカレー
+...
